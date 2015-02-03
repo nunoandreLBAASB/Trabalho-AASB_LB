@@ -1,0 +1,110 @@
+LOCUS       H82_NEIG1                 88 aa                     UNK 01-JAN-1980
+DEFINITION  Outer membrane protein H.8
+ACCESSION   P11910
+VERSION     P11910
+DBLINK      BioCyc:NGON242231:GI2G-911-MONOMER
+            DOI:10.1111/j.1365-2958.1989.tb00102.x
+            EMBL:AE004969
+            EMBL:X12627
+            EnsemblBacteria:AAW89669
+            GO:GO:0009279
+            GeneID:3282867
+            KEGG:ngo:NGO0983
+            NCBI Taxonomy:242231
+            OMA:CGRTEAP
+            OrthoDB:EOG6VTJX8
+            PATRIC:20335166
+            PIR:S02720
+            PROSITE:PS51257
+            Proteomes:UP000000535
+            PubMed:2497298
+            RefSeq:WP_003688296.1
+            RefSeq:YP_208081.1
+            STRING:242231.NGO0983
+            Swiss-Prot:H82_NEIG1
+            Swiss-Prot:P11910
+            Swiss-Prot:Q5F818
+KEYWORDS    Cell outer membrane; Complete proteome; Lipoprotein; Membrane;
+            Palmitate; Reference proteome; Repeat; Signal.
+SOURCE      .
+  ORGANISM  Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1
+  AUTHORS   Woods J.P., Spinola S.M., Strobel S.M., Cannon J.G.
+  TITLE     Conserved lipoprotein H.8 of pathogenic Neisseria consists entirely
+            of pentapeptide repeats.
+  JOURNAL   Mol. Microbiol. 3:43-48(1989)
+   PUBMED   2497298
+  REMARK    journal article | 1989 | Scope: NUCLEOTIDE SEQUENCE [GENOMIC DNA],
+            DIACYLGLYCEROL AT CYS-18 |
+REFERENCE   2
+  AUTHORS   Lewis L.A., Gillaspy A.F., McLaughlin R.E., Gipson M., Ducey T.F.,
+            Ownbey T., Hartman K., Nydick C., Carson M.B., Vaughn J., Thomson
+            C., Song L., Lin S., Yuan X., Najar F., Zhan M., Ren Q., Zhu H., Qi
+            S., Kenton S.M., Lai H., White J.D., Clifton S., Roe B.A., Dyer D.W.
+  TITLE     The complete genome sequence of Neisseria gonorrhoeae.
+  REMARK    submission to the EMBL/GenBank/DDBJ databases | 2003-03 | Scope:
+            NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA] |
+FEATURES             Location/Qualifiers
+     signal_peptide  1..17
+                     /type="signal peptide"
+     chain           18..88
+                     /id="PRO_0000018024"
+                     /description="Outer membrane protein H.8"
+                     /type="chain"
+     repeat          23..27
+                     /description="1"
+                     /type="repeat"
+     repeat          28..32
+                     /description="2"
+                     /type="repeat"
+     repeat          33..37
+                     /description="3"
+                     /type="repeat"
+     repeat          38..42
+                     /description="4"
+                     /type="repeat"
+     repeat          43..47
+                     /description="5"
+                     /type="repeat"
+     repeat          48..52
+                     /description="6"
+                     /type="repeat"
+     repeat          53..57
+                     /description="7"
+                     /type="repeat"
+     repeat          58..62
+                     /description="8"
+                     /type="repeat"
+     repeat          63..67
+                     /description="9"
+                     /type="repeat"
+     repeat          68..72
+                     /description="10"
+                     /type="repeat"
+     repeat          73..77
+                     /description="11"
+                     /type="repeat"
+     repeat          78..82
+                     /description="12"
+                     /type="repeat"
+     repeat          83..87
+                     /description="13"
+                     /type="repeat"
+     region_of_intere23..87
+                     /description="13 X 5 AA tandem repeats of
+                     [AS]-[AT]-E-A-[PAS]"
+                     /type="region of interest"
+     lipid_moiety-bin18
+                     /description="N-palmitoyl cysteine"
+                     /type="lipid moiety-binding region"
+                     /evidence="3"
+     lipid_moiety-bin18
+                     /description="S-diacylglycerol cysteine"
+                     /type="lipid moiety-binding region"
+                     /evidence="1 2"
+ORIGIN
+        1 mkkslfaaal lslalaacgg ekaaeapaae assteapaae apaaeapaae aaaaeapaae
+       61 apaaeapaae aaateapaae apaaeaak
+//

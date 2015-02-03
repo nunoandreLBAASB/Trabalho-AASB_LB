@@ -1,0 +1,96 @@
+LOCUS       YP_208278                949 aa                     CON 14-JAN-2015
+DEFINITION  excinuclease ABC subunit A [Neisseria gonorrhoeae FA 1090].
+ACCESSION   YP_208278
+VERSION     YP_208278.1  GI:59801566
+DBLINK      BioProject:PRJNA57611
+KEYWORDS    RefSeq.
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 949)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 949)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+REFERENCE   3  (residues 1 to 949)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AAW89866.
+            RefSeq Category: Reference Genome
+            CLI: Clinical Isolate
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..949
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..949
+                     /product="excinuclease ABC subunit A"
+                     /calculated_mol_wt="105346"
+     Region          11..949
+                     /region_name="uvrA"
+                     /db_xref="CDD:234734"
+                     /note="excinuclease ABC subunit A; Reviewed; PRK00349"
+     Region          15..>127
+                     /region_name="ABC_UvrA_I"
+                     /db_xref="CDD:213237"
+                     /note="ATP-binding cassette domain I of the excision repair
+                     protein UvrA; cd03270"
+     Region          <472..581
+                     /region_name="ABC_UvrA_I"
+                     /db_xref="CDD:213237"
+                     /note="ATP-binding cassette domain I of the excision repair
+                     protein UvrA; cd03270"
+     Region          622..929
+                     /region_name="ABC_UvrA_II"
+                     /db_xref="CDD:213238"
+                     /note="ATP-binding cassette domain II of the excision
+                     repair protein UvrA; cd03271"
+     CDS             1..949
+                     /gene="uvrA"
+                     /db_xref="GeneID:3282862"
+                     /coded_by="NC_002946.2:1155021..1157870"
+                     /transl_table=11
+                     /locus_tag="NGO1207"
+                     /note="The UvrABC repair system catalyzes the recognition
+                     and processing of DNA lesions. UvrA is an ATPase and a
+                     DNA-binding protein. A damage recognition complex composed
+                     of 2 uvrA and 2 uvrB subunits scans DNA for abnormalities.
+                     When the presence of a lesion has been verified by uvrB,
+                     the uvrA molecules dissociate"
+ORIGIN
+        1 mcnhhprhsh dndtirirga rthnlknidl diprhklvvv tglsgsgkss lafdtlyaeg
+       61 qrryveslsa yarqflqmmd kpdvdliegl spaisieqks tshnprstvg tvteihdylr
+      121 llyarvgtpy cpehklplss qtvsqmvdav lklpedtrvm ilgpavrerk gefvdffadl
+      181 qaqgfarvrv dgevyqldev pkleknikhn idvvidrvkv kadikqrlae sfetalrhgn
+      241 eralamemds geehwfsarf acpvcsyslp eleprlfsfn npmgscptcd glgntnffdp
+      301 ekvvahpels latgaidgwd krnqfyfqmi qslahhykfd vnvawetlpe kvkkvvlhgs
+      361 gkevidftyl sergttfnrs hafegiipnl erryretdse tvreklreyq nhracpscgg
+      421 arlrkearyv yvggeplhev sawpltkthr ffetldldgn kkqiaekilk eiterlgfli
+      481 nvgldylnls rsaetlsgge aqrirlasqi gsgltgvmyv ldepsiglhq rdndrllatl
+      541 krlrdlgnsv ivvehdedai readfvvdmg pgagehggnv liadtpenva kceksvtgqy
+      601 lggkksiavp sertpvnpgr mlvlkgargn nlknvtlelp lglitcitgv sgsgkstlin
+      661 dtlakitare lnraqeepap yddirglehl dkvinvdqsp igrtprsnpa tytglftpir
+      721 elfagvplsr ergynvgrfs fnvkggrcea cqgdgvikve mhflpdvyvp cevchgkryn
+      781 retleiqykg knisqvldmt veeareffda vptvsrklqt lmdvglgyir lgqsattlsg
+      841 geaqrvklal elskrdtgrt lyildepttg lhfadialll evigrlkgkg nsiviiehnl
+      901 dviktadwiv dlgpeggdgg gkviakgspe evakvkgsyt gkylkvvlk
+//

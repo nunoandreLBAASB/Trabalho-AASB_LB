@@ -1,0 +1,78 @@
+LOCUS       YP_208108                126 aa                     CON 14-JAN-2015
+DEFINITION  phage repressor [Neisseria gonorrhoeae FA 1090].
+ACCESSION   YP_208108
+VERSION     YP_208108.1  GI:59801396
+DBLINK      BioProject:PRJNA57611
+KEYWORDS    RefSeq.
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 126)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 126)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+REFERENCE   3  (residues 1 to 126)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AAW89696.
+            RefSeq Category: Reference Genome
+            CLI: Clinical Isolate
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..126
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..126
+                     /product="phage repressor"
+                     /calculated_mol_wt="13972"
+     Region          8..64
+                     /region_name="HTH_XRE"
+                     /db_xref="CDD:238045"
+                     /note="Helix-turn-helix XRE-family like proteins.
+                     Prokaryotic DNA binding proteins belonging to the
+                     xenobiotic response element family of transcriptional
+                     regulators; cd00093"
+     Site            order(12,16,41)
+                     /site_type="other"
+                     /db_xref="CDD:238045"
+                     /note="non-specific DNA binding site [nucleotide binding]"
+     Site            order(15,40)
+                     /site_type="other"
+                     /db_xref="CDD:238045"
+                     /note="salt bridge"
+     Site            order(22..23,34,37,41..42)
+                     /site_type="other"
+                     /db_xref="CDD:238045"
+                     /note="sequence-specific DNA binding site [nucleotide
+                     binding]"
+     CDS             1..126
+                     /locus_tag="NGO1013"
+                     /transl_table=11
+                     /db_xref="GeneID:3282127"
+                     /coded_by="complement(NC_002946.2:980160..980540)"
+                     /note="phage associated protein"
+ORIGIN
+        1 mektslfgkr lkeeriklgl nqaeaaekcg fsremwgkwe rgenrpssek lfsfskigid
+       61 idyvmhgrrg etaampsesl saeekellal frqlgsgsrk eladyaafkl vvekkaqtal
+      121 gkvsng
+//

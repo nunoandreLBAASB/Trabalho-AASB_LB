@@ -1,0 +1,117 @@
+LOCUS       YP_208116                659 aa                     CON 14-JAN-2015
+DEFINITION  transketolase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   YP_208116
+VERSION     YP_208116.1  GI:59801404
+DBLINK      BioProject:PRJNA57611
+KEYWORDS    RefSeq.
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 659)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 659)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+REFERENCE   3  (residues 1 to 659)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AAW89704.
+            RefSeq Category: Reference Genome
+            CLI: Clinical Isolate
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..659
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..659
+                     /product="transketolase"
+                     /EC_number="2.2.1.1"
+                     /calculated_mol_wt="71444"
+     Region          3..659
+                     /region_name="PRK12753"
+                     /db_xref="CDD:183723"
+                     /note="transketolase; Reviewed"
+     Region          6..271
+                     /region_name="TPP_TK"
+                     /db_xref="CDD:238970"
+                     /note="Thiamine pyrophosphate (TPP) family, Transketolase
+                     (TK) subfamily, TPP-binding module; TK catalyzes the
+                     transfer of a two-carbon unit from ketose phosphates to
+                     aldose phosphates. In heterotrophic organisms, TK provides
+                     a link between glycolysis and the...; cd02012"
+     Site            order(63,111,113,152..153,157,182,184,186,258)
+                     /site_type="other"
+                     /db_xref="CDD:238970"
+                     /note="TPP-binding site [chemical binding]"
+     Site            order(88,96..97,99,112..113,115,155..158,161..162,165,169,
+                     185..186,201)
+                     /site_type="other"
+                     /db_xref="CDD:238970"
+                     /note="dimer interface [polypeptide binding]"
+     Region          356..517
+                     /region_name="TPP_PYR_DXS_TK_like"
+                     /db_xref="CDD:132916"
+                     /note="Pyrimidine (PYR) binding domain of
+                     1-deoxy-D-xylulose-5-phosphate synthase (DXS),
+                     transketolase (TK), and related proteins; cd07033"
+     Site            order(370,372,378,400,403,405..410,413..414,416..418,437,
+                     440..441,466,469,485..486,508)
+                     /site_type="other"
+                     /db_xref="CDD:132916"
+                     /note="PYR/PP interface [polypeptide binding]"
+     Site            order(378,403,406..408,436..437,439,466,468,477..478,
+                     480..481,483)
+                     /site_type="other"
+                     /db_xref="CDD:132916"
+                     /note="dimer interface [polypeptide binding]"
+     Site            order(406,408,434,437)
+                     /site_type="other"
+                     /db_xref="CDD:132916"
+                     /note="TPP binding site [chemical binding]"
+     Region          549..651
+                     /region_name="Transketolase_C"
+                     /db_xref="CDD:251527"
+                     /note="Transketolase, C-terminal domain; pfam02780"
+     CDS             1..659
+                     /locus_tag="NGO1028"
+                     /transl_table=11
+                     /db_xref="GeneID:3282211"
+                     /coded_by="NC_002946.2:990554..992533"
+                     /note="catalyzes the formation of ribose 5-phosphate and
+                     xylulose 5-phosphate from sedoheptulose 7-phosphate and
+                     glyceraldehyde 3-phosphate; can transfer ketol groups
+                     between several groups; in Escherichia coli there are two
+                     tkt genes, tktA expressed during exponential growth and the
+                     tktB during stationary phase"
+ORIGIN
+        1 msqlanvirf lsadavqkan sghpgapmgm aemaetlwtk flnhnpanpk fynrdrfvls
+       61 nghasmllys llhltgynls iedlknfrql hsktpghpey gytdgvettt gplgqgiana
+      121 vgmalaekil aaefnkdgln ivdhytyvfm gdgclmegvs heacslagtl glgklivlyd
+      181 dnnisidgkv dgwftenipq rfesygwhvv pnvnghdtaa iqtaieaara etgkpsiicc
+      241 ktligkgsan kegshkthga plgadeieat rkhlgwaypa feipqeiyda wnakekgakl
+      301 eagwnelfaq yqakypaeaa efvrrmdkkl penfdeyvqt alkevcakae tvatrkasqn
+      361 sieilakelp elvggsadlt psnltdwsns vsvtrdkggn yihygvrefg mgaimnglvl
+      421 hggvkpfgat flmfseyern alrmaalmki npvfvfthds iglgedgpth qpieqtatlr
+      481 lipnmdvwrp cdtaeslvaw aeaakaedhp sclifsrqnl kfqarseqql ndikrgayvi
+      541 seaqgnaqav iiatgsevgl aveaqkvlag qgiavrvvsm pstsvfdrqd aayqaavlpe
+      601 glpriaveag htngwykyvg lngavvginr fgesapadll fkafgftvdn vvdtvksvl
+//

@@ -1,0 +1,86 @@
+LOCUS       YP_208069                160 aa                     CON 14-JAN-2015
+DEFINITION  2-C-methyl-D-erythritol 2,4-cyclo diphosphate synthase [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   YP_208069
+VERSION     YP_208069.1  GI:59801357
+DBLINK      BioProject:PRJNA57611
+KEYWORDS    RefSeq.
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 160)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 160)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+REFERENCE   3  (residues 1 to 160)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AAW89657.
+            RefSeq Category: Reference Genome
+            CLI: Clinical Isolate
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..160
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..160
+                     /product="2-C-methyl-D-erythritol 2,4-cyclo diphosphate
+                     synthase"
+                     /EC_number="4.6.1.12"
+                     /calculated_mol_wt="16916"
+     Region          5..157
+                     /region_name="MECDP_synthase"
+                     /db_xref="CDD:100025"
+                     /note="MECDP_synthase
+                     (2-C-methyl-D-erythritol-2,4-cyclodiphosphate synthase),
+                     encoded by the ispF gene, catalyzes the formation of
+                     2-C-methyl-D-erythritol 2,4-cyclodiphosphate (MEC) in the
+                     non-mevalonate deoxyxylulose (DOXP) pathway for isoprenoid
+                     biosynthesis; cd00554"
+     Site            order(5..6,8,10,12..14,18,53,55..56,58..59,96,98,100,107,
+                     109,131,133..134,137..139,152,154,156)
+                     /site_type="other"
+                     /db_xref="CDD:100025"
+                     /note="homotrimer interaction site [polypeptide binding]"
+     Site            order(11,13,45)
+                     /site_type="other"
+                     /db_xref="CDD:100025"
+                     /note="zinc binding site [ion binding]"
+     Site            order(59,61,103..104,106..109,134..136)
+                     /site_type="other"
+                     /db_xref="CDD:100025"
+                     /note="CDP-binding sites"
+     CDS             1..160
+                     /gene="ispF"
+                     /db_xref="GeneID:3281114"
+                     /coded_by="complement(NC_002946.2:942595..943077)"
+                     /transl_table=11
+                     /locus_tag="NGO0971"
+                     /note="catalyzes the conversion of
+                     4-diphosphocytidyl-2-C-methyl-D-erythritol 2-phosphate into
+                     2-C-methyl-D-erythritol 2,4-cyclodiphosphate"
+ORIGIN
+        1 mtnirigqgy dvhqltegrk lilggveipf ekgllghsda dallhavtda llgaaglgdi
+       61 gshfpdtaae fkdadsrvll raayqsvqaq gwqvvnvdtt viaqkpklap hipqmrania
+      121 adlgidiscv nikgktnekl gylgrmegie aqaavllvri
+//

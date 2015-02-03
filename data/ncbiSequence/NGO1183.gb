@@ -1,0 +1,133 @@
+LOCUS       YP_208255               1318 aa                     CON 14-JAN-2015
+DEFINITION  phosphoribosylformylglycinamidine synthase [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   YP_208255
+VERSION     YP_208255.1  GI:59801543
+DBLINK      BioProject:PRJNA57611
+KEYWORDS    RefSeq.
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 1318)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 1318)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+REFERENCE   3  (residues 1 to 1318)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AAW89843.
+            RefSeq Category: Reference Genome
+            CLI: Clinical Isolate
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1318
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..1318
+                     /product="phosphoribosylformylglycinamidine synthase"
+                     /EC_number="6.3.5.3"
+                     /calculated_mol_wt="143240"
+     Region          4..1318
+                     /region_name="PRK05297"
+                     /db_xref="CDD:235394"
+                     /note="phosphoribosylformylglycinamidine synthase;
+                     Provisional"
+     Region          208..600
+                     /region_name="PurL_repeat1"
+                     /db_xref="CDD:100034"
+                     /note="PurL subunit of the formylglycinamide ribonucleotide
+                     amidotransferase (FGAR-AT), first repeat. FGAR-AT catalyzes
+                     the ATP-dependent conversion of formylglycinamide
+                     ribonucleotide (FGAR) and glutamine to formylglycinamidine
+                     ribonucleotide (FGAM), ADP; cd02203"
+     Site            order(292..295,297,322,334,337,340,392,410..411,415)
+                     /site_type="other"
+                     /db_xref="CDD:100034"
+                     /note="dimerization interface [polypeptide binding]"
+     Site            order(318,322,390..392)
+                     /site_type="other"
+                     /db_xref="CDD:100034"
+                     /note="ATP binding site [chemical binding]"
+     Region          679..982
+                     /region_name="PurL_repeat2"
+                     /db_xref="CDD:100035"
+                     /note="PurL subunit of the formylglycinamide ribonucleotide
+                     amidotransferase (FGAR-AT), second repeat. FGAR-AT
+                     catalyzes the ATP-dependent conversion of formylglycinamide
+                     ribonucleotide (FGAR) and glutamine to formylglycinamidine
+                     ribonucleotide (FGAM), ADP; cd02204"
+     Site            order(692..695,697,722,735,738,741,775,797..798,802)
+                     /site_type="other"
+                     /db_xref="CDD:100035"
+                     /note="dimerization interface [polypeptide binding]"
+     Site            order(718,722,773..775)
+                     /site_type="other"
+                     /db_xref="CDD:100035"
+                     /note="ATP binding site [chemical binding]"
+     Region          1067..1314
+                     /region_name="GATase1_FGAR_AT"
+                     /db_xref="CDD:153211"
+                     /note="Type 1 glutamine amidotransferase (GATase1)-like
+                     domain found in Formylglycinamide ribonucleotide
+                     amidotransferase; cd01740"
+     Site            order(1118..1119,1123,1160,1164,1220..1221,1281,1283..1286)
+                     /site_type="active"
+                     /db_xref="CDD:153211"
+                     /note="putative active site [active]"
+     Site            order(1160,1283,1285)
+                     /site_type="active"
+                     /db_xref="CDD:153211"
+                     /note="catalytic triad [active]"
+     CDS             1..1318
+                     /locus_tag="NGO1183"
+                     /transl_table=11
+                     /db_xref="GeneID:3281977"
+                     /coded_by="NC_002946.2:1124290..1128246"
+                     /note="catalyzes the formation of
+                     2-(formamido)-N1-(5-phospho-D-ribosyl)acetamidine from
+                     N2-formyl-N1-(5-phospho-D-ribosyl)glycinamide and
+                     L-glutamine in purine biosynthesis"
+ORIGIN
+        1 msvvlplrgv talsdfrvek llqkaaalgl pevklssefw yfagsekald aatveklqal
+       61 laaqsveqtp eareglhlfl vtprlgtisp waskatniae ncglagieri ergmavwleg
+      121 altdeqkqqw aallhdrmte svlpdfqtas klfhhlkset fstvdvlggg kealvkante
+      181 tglalsadei dylvenyqal qrnpsdvelm mfaqansehc rhkifnadfi lngekqpksl
+      241 fgmirdthna hpegtvvayk dnssvikgak ierfypnaae nqgyrfheed thiimkveth
+      301 nhptaiapfa gaatgaggei rdegatgkgs rpkagltgft vsnlnipdlk qpweqdygkp
+      361 ehisspldim iegpiggaaf nnefgrpnll gyfrtfeekf dgqvrgyhkp imiagglgsi
+      421 qaqqthkdei pegalliqlg gpgmliglgg gaassmdtgt ndasldfnsv qrgnpeierr
+      481 aqevidrcwq lgdqnpiisi hdvgagglsn afpelvndag rgavfelrev pleehgltpl
+      541 qiwcnesqer yvlsilekdl dtfraicere rcpfavvgta tddghlkvrd dlfsnnpvdl
+      601 plnvllgkpp kttrtdktvt pskkpfhagd iditeaayrv lrlpavaakn flitigdrsv
+      661 ggmthrdqmv gkyqtpvadc avtmmgfnty rgeamsmgek pavalfdapa sgrmcvgeai
+      721 tniaavnigd igniklsanw maacgneged eklyrtveav skacqaldls ipvgkdslsm
+      781 ktvwqdgeek ksvvsplsli isafapvkdv rktvtpelkn vegsvllfid lgfgkarmgg
+      841 safgqvynnm sgdapdldda grlkafysvi qqlvaedkll ayhdrsdggl fatlaemafa
+      901 arcgisadid clmdkflpih lpdfqgdpae dlsdelynha aikilfneel gaviqirqkd
+      961 rdyvdaafet agltdavsri gspdfdnefi sffgygyfle qnradlqraw qetshaiqrl
+     1021 rdnpacadse faligdners alfadvkfdv nediaapfin sgakpkiail reqgvngqie
+     1081 maaaftragf daydvhmsdl magrfrladf kmlaacggfs ygdvlgageg waksilfhpa
+     1141 lrdqfaaffa dpntltlgvc ngcqmvsnla eiipgaetwp kfkrnlseqf earlnmvhvp
+     1201 ksaslilnem qdsslpvvvs hgegradfal hggnisadlg ialqyvdgqn qvtqtyplnp
+     1261 ngspqgiagi tnadgrvtim mphpervyra aqmsrkpegw telsgwyrlf agarkalg
+//

@@ -1,0 +1,83 @@
+LOCUS       YP_208280                377 aa                     CON 14-JAN-2015
+DEFINITION  DNA cytosine methyltransferase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   YP_208280
+VERSION     YP_208280.1  GI:59801568
+DBLINK      BioProject:PRJNA57611
+KEYWORDS    RefSeq.
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 377)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 377)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+REFERENCE   3  (residues 1 to 377)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AAW89868.
+            RefSeq Category: Reference Genome
+            CLI: Clinical Isolate
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..377
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..377
+                     /product="DNA cytosine methyltransferase"
+                     /EC_number="2.1.1.37"
+                     /calculated_mol_wt="42852"
+     Region          1..365
+                     /region_name="AdoMet_MTases"
+                     /db_xref="CDD:276194"
+                     /note="S-adenosylmethionine-dependent methyltransferases
+                     (SAM or AdoMet-MTase), class I;  AdoMet-MTases are enzymes
+                     that use S-adenosyl-L-methionine (SAM or AdoMet) as a
+                     substrate for methyltransfer, creating the product
+                     S-adenosyl-L-homocysteine (AdoHcy); cl17173"
+     Site            order(7..12,28..31,50..53,69,71)
+                     /site_type="other"
+                     /db_xref="CDD:238192"
+                     /note="cofactor binding site"
+     Site            order(69,72..73,76..79,82,87,109,111..112,181,183,260,262,
+                     295..296,298..299,351)
+                     /site_type="DNA binding"
+                     /db_xref="CDD:238192"
+                     /note="DNA binding site [nucleotide binding]"
+     Site            order(69,72,76,109,111,181,183,351)
+                     /site_type="other"
+                     /db_xref="CDD:238192"
+                     /note="substrate interaction site [chemical binding]"
+     CDS             1..377
+                     /locus_tag="NGO1209"
+                     /transl_table=11
+                     /coded_by="NC_002946.2:1158533..1159666"
+                     /db_xref="GeneID:3281877"
+ORIGIN
+        1 mksleifsga gglakglela gfqhasfiel nkdacnslrs nfnpklvyqg dvadfdlssq
+       61 egieviaggp pcqpfslggk hlahedrrdm fphavryvey yrpkafifen vkgllrksfa
+      121 dyfeyillrl typnlgilqn edwkghltrl keiefnlykg ikykvsyqll naadygvpqk
+      181 rervvivgir adldidwkfp krthsedrln wekyvtgeyw ekhnepkrfn kdiaeklqkk
+      241 ygifepekkp wqtvrdtlsd iphplgnhki tgheyrdgar iypghtgsgi depsktikag
+      301 ghgvpggenm iryddgtvry ftsyeakllq tfpeefvisg awgeamrqig navpvklsei
+      361 lgkhlmgvls eksslhn
+//

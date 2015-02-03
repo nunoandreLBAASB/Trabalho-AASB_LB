@@ -1,0 +1,104 @@
+LOCUS       YP_208076                613 aa                     CON 14-JAN-2015
+DEFINITION  thiol:disulfide interchange protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   YP_208076
+VERSION     YP_208076.1  GI:59801364
+DBLINK      BioProject:PRJNA57611
+KEYWORDS    RefSeq.
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 613)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 613)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+REFERENCE   3  (residues 1 to 613)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AAW89664.
+            RefSeq Category: Reference Genome
+            CLI: Clinical Isolate
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..613
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..613
+                     /product="thiol:disulfide interchange protein"
+                     /EC_number="1.8.1.8"
+                     /calculated_mol_wt="66222"
+     Region          13..613
+                     /region_name="COG4232"
+                     /db_xref="CDD:226685"
+                     /note="Thiol:disulfide interchange protein
+                     [Posttranslational modification, protein turnover,
+                     chaperones / Energy production and conversion]"
+     Region          35..150
+                     /region_name="DsbC"
+                     /db_xref="CDD:256454"
+                     /note="Disulphide bond corrector protein DsbC; pfam11412"
+     Region          204..413
+                     /region_name="CcdA"
+                     /db_xref="CDD:223856"
+                     /note="Cytochrome c biogenesis protein [Posttranslational
+                     modification, protein turnover, chaperones]; COG0785"
+     Region          508..610
+                     /region_name="DsbDgamma"
+                     /db_xref="CDD:239251"
+                     /note="DsbD gamma family; DsbD gamma is the C-terminal
+                     periplasmic domain of the bacterial protein DsbD. It
+                     contains a CXXC motif in a TRX fold and shuttles the
+                     reducing potential from the membrane domain (DsbD beta) to
+                     the N-terminal periplasmic domain (DsbD...; cd02953"
+     Site            order(529..531,533,535,539..540,579..581,591,593..594,
+                     597..599,608)
+                     /site_type="other"
+                     /db_xref="CDD:239251"
+                     /note="DsbD alpha interface [polypeptide binding]"
+     Site            order(531,534)
+                     /site_type="active"
+                     /db_xref="CDD:239251"
+                     /note="catalytic residues [active]"
+     CDS             1..613
+                     /gene="dipZ"
+                     /db_xref="GeneID:3282871"
+                     /coded_by="complement(NC_002946.2:948529..950370)"
+                     /transl_table=11
+                     /locus_tag="NGO0978"
+                     /note="two electrons are transferred from cytoplasmic NADPH
+                     to thioredoxin and then to the inner membrane protein DsbD
+                     which keeps the disulfide isomerase DsbC in a reduced state
+                     in the oxidizing periplasm; DsbC in turns rearranges
+                     incorrectly made disulfide bonds in the periplasm"
+ORIGIN
+        1 mrtnylsetd simkkliclf avflmlcgra faldandllp pekafvpelt vaddgvnvrf
+       61 riadgyymyq akivgktdpa dllgqpsfsk geekedeffg rqtvhhheaq vafpyakavg
+      121 epyklvltyq gcaeagvcyp pvdtefdisg ngtyhpqtde pasakdrflq pssqngsgal
+      181 pppkgdeggd grfklswdtl nanllaffla glglsftacm ypllpivssi vvgdkkagka
+      241 rafvlsvvyv qglaltytlv givagltgal ltvwlqqawv vlaasalmvv lalsmfglfn
+      301 iqlpnavqsy fqnqssrlsg gkivsvfimg ilsalivgpc vapplafalg yigqtgdavl
+      361 gglalytlal gtgvpliaig tfgghilpka gdwmnavkya fgfillavav ylatphlpyy
+      421 lvvalytllm lvpafmllvn grrqkrrpka vafalgsill iggawfgwqg angkttalhh
+      481 fltlnppaea gkfsehgkmf adtaalkaam dtalkehpdk pvvldfyadw cisckemavy
+      541 tlnqpevhqa vdmerffqid vtantpehqa llkeyglfgp pgvfvvradg srsepllgfv
+      601 kadkfiewye qnr
+//

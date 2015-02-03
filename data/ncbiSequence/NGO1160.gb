@@ -1,0 +1,83 @@
+LOCUS       YP_208238                268 aa                     CON 14-JAN-2015
+DEFINITION  phosphomethylpyrimidine kinase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   YP_208238
+VERSION     YP_208238.1  GI:59801526
+DBLINK      BioProject:PRJNA57611
+KEYWORDS    RefSeq.
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 268)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 268)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+REFERENCE   3  (residues 1 to 268)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AAW89826.
+            RefSeq Category: Reference Genome
+            CLI: Clinical Isolate
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..268
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..268
+                     /product="phosphomethylpyrimidine kinase"
+                     /EC_number="2.7.4.7"
+                     /calculated_mol_wt="28222"
+     Region          22..250
+                     /region_name="HMPP_kinase"
+                     /db_xref="CDD:238574"
+                     /note="4-amino-5-hydroxymethyl-2-methyl-pyrimidine
+                     phosphate kinase (HMPP-kinase) catalyzes two consecutive
+                     phosphorylation steps in the thiamine phosphate
+                     biosynthesis pathway, leading to the synthesis of vitamin
+                     B1. The first step is the phosphorylation of...; cd01169"
+     Site            order(23,26..27,30,33..38,40,43..47,52..53,55,57..58,61,64,
+                     68..69)
+                     /site_type="other"
+                     /db_xref="CDD:238574"
+                     /note="dimer interface [polypeptide binding]"
+     Site            order(25,46,82,217)
+                     /site_type="other"
+                     /db_xref="CDD:238574"
+                     /note="substrate binding site [chemical binding]"
+     Site            order(107,144,177,214,216)
+                     /site_type="other"
+                     /db_xref="CDD:238574"
+                     /note="ATP binding site [chemical binding]"
+     CDS             1..268
+                     /locus_tag="NGO1160"
+                     /transl_table=11
+                     /db_xref="GeneID:3282238"
+                     /coded_by="NC_002946.2:1100403..1101209"
+                     /note="catalyzes the formation of
+                     4-amino-2-methyl-5-diphosphomethylpyrimidine"
+ORIGIN
+        1 mkgsfvqtla iagsdsggga giqadlktfq mrgvfgtcvi tavtaqntlg vsavhlvpte
+       61 titaqiqair edfdirayki gmlgtaeiie cvadklkhcs fgrrvldpvm iakggapllq
+      121 dsavaaltrl llpdtdiltp nlpeaealtg vhienrkdae raakilldyg vknviikggh
+      181 lngstsgrct dwlftqnetl eldsprfpta hthgtgctfs acitaelakg ldvckavqta
+      241 kayitaaisn pleigaghgp vnhwayrd
+//

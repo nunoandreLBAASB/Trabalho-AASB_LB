@@ -1,0 +1,90 @@
+LOCUS       YP_208131                404 aa                     CON 14-JAN-2015
+DEFINITION  aminotransferase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   YP_208131
+VERSION     YP_208131.1  GI:59801419
+DBLINK      BioProject:PRJNA57611
+KEYWORDS    RefSeq.
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 404)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 404)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+REFERENCE   3  (residues 1 to 404)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AAW89719.
+            RefSeq Category: Reference Genome
+            CLI: Clinical Isolate
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..404
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..404
+                     /product="aminotransferase"
+                     /EC_number="2.6.1.2"
+                     /calculated_mol_wt="45295"
+     Region          1..404
+                     /region_name="PRK09265"
+                     /db_xref="CDD:181738"
+                     /note="aminotransferase AlaT; Validated"
+     Region          36..397
+                     /region_name="AAT_like"
+                     /db_xref="CDD:99734"
+                     /note="Aspartate aminotransferase family. This family
+                     belongs to pyridoxal phosphate (PLP)-dependent aspartate
+                     aminotransferase superfamily (fold I). Pyridoxal phosphate
+                     combines with an alpha-amino acid to form a compound called
+                     a Schiff base or aldimine...; cd00609"
+     Site            order(103..105,129,179,210,237,239..240,248)
+                     /site_type="other"
+                     /db_xref="CDD:99734"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+     Site            order(106,139,203,246..248,282,285)
+                     /site_type="other"
+                     /db_xref="CDD:99734"
+                     /note="homodimer interface [polypeptide binding]"
+     Site            240
+                     /site_type="active"
+                     /db_xref="CDD:99734"
+                     /note="catalytic residue [active]"
+     CDS             1..404
+                     /locus_tag="NGO1047"
+                     /transl_table=11
+                     /db_xref="GeneID:3282573"
+                     /coded_by="complement(NC_002946.2:1008781..1009995)"
+                     /note="broad specificity; family IV; in Corynebacterium
+                     glutamicum this protein can use glutamate, 2-aminobutyrate,
+                     and aspartate as amino donors and pyruvate as the acceptor"
+ORIGIN
+        1 mdkfpksakl dhvcydirgp vhkkalqlee egnkilklni gnpapfgfea pdeilvdvir
+       61 nlptsqgycd skglysarka ivhyyqnkgl rditvndvyi gngvseliam smqallndgd
+      121 eilipapdyp lwtaaatlag gtvrhylcde engwfpnlad meakitsktk aivvinpnnp
+      181 tgavyskeil leiaelarkh gliifadeiy dkilydgavh yhiaalapdl ltvtfnglsk
+      241 ayrvagfrqg wmvlngpkhh akgyiegldm lssmrlcant pmqhaiqtal ggyqsinefi
+      301 lpggrlleqr nrawelvnqi pgvscvkpmg amymfpkidt emyrirddmk fvydllvrek
+      361 vllvqgtgfn wikpdhfriv tlpyvhqiee amgrlarflq tyhq
+//

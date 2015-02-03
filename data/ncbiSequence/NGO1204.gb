@@ -1,0 +1,80 @@
+LOCUS       YP_208275                196 aa                     CON 14-JAN-2015
+DEFINITION  anthranilate synthase component II [Neisseria gonorrhoeae FA 1090].
+ACCESSION   YP_208275
+VERSION     YP_208275.1  GI:59801563
+DBLINK      BioProject:PRJNA57611
+KEYWORDS    RefSeq.
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 196)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 196)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+REFERENCE   3  (residues 1 to 196)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AAW89863.
+            RefSeq Category: Reference Genome
+            CLI: Clinical Isolate
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..196
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..196
+                     /product="anthranilate synthase component II"
+                     /EC_number="4.1.3.27"
+                     /calculated_mol_wt="21731"
+     Region          1..185
+                     /region_name="PRK08857"
+                     /db_xref="CDD:181566"
+                     /note="para-aminobenzoate synthase component II;
+                     Provisional"
+     Region          2..185
+                     /region_name="GATase1_Anthranilate_Synthase"
+                     /db_xref="CDD:153214"
+                     /note="Type 1 glutamine amidotransferase (GATase1) domain
+                     found in Anthranilate synthase; cd01743"
+     Site            order(51..52,54,79..80,83,127..130)
+                     /site_type="other"
+                     /db_xref="CDD:153214"
+                     /note="glutamine binding [chemical binding]"
+     Site            order(79,168,170)
+                     /site_type="active"
+                     /db_xref="CDD:153214"
+                     /note="catalytic triad [active]"
+     CDS             1..196
+                     /locus_tag="NGO1204"
+                     /transl_table=11
+                     /db_xref="GeneID:3281971"
+                     /coded_by="complement(NC_002946.2:1150419..1151009)"
+                     /note="TrpG; with TrpE catalyzes the formation of
+                     anthranilate and glutamate from chorismate and glutamine;
+                     TrpG provides the glutamine amidotransferase activity"
+ORIGIN
+        1 mllfidnyds ftynivqyfa elgqevavrr ndditleeie alnpqylvig pgpcspkeag
+       61 isveamrhfa grlpimgvcl ghqtigeafg gdvvraktlm hgkvspvshs gkgmfkglpn
+      121 pvtctryhsl viergtlpdc leitawtedg eimgvrhkey avegvqfhpe allterghdm
+      181 lnnflvefqn fkpqki
+//
