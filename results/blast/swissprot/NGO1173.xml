@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>25011</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7K0</BlastOutput_query-def>
+  <BlastOutput_query-len>140</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>25011</Iteration_query-ID>
+  <Iteration_query-def>Q5F7K0</Iteration_query-def>
+  <Iteration_query-len>140</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|11387236|sp|Q9JWD6.1|VSR_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Putative very short patch repair endonuclease [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JWD6</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>8.56905e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MTDIFTTSKRSFVMLKIHSKETKPEVLVRKFLFFQGFRYRKNDKRYVGKPDIVLSKYKTVVFIHGCFWYGHSCNKGHIPKSNTDFWLEKITKNCERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVREIKDAV</Hsp_hseq>
+      <Hsp_midline>MTDIFT SKRSFVM KIHSKETKPEVLVRKFLF QGFRYRKNDKRY GKPDIVL KYKTVVFIHGCFW+GHSCNKGHIPKSN DFWLEKITKN ERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLV EIKDAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|62299034|sp|Q56829.2|VSX2_XANOR</Hit_id>
+  <Hit_def>RecName: Full=XorII very short patch repair endonuclease; AltName: Full=V.XorII [Xanthomonas oryzae pv. oryzae KACC 10331]</Hit_def>
+  <Hit_accession>Q56829</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>5.15126e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVE</Hsp_qseq>
+      <Hsp_hseq>MTDRLSPERRRYLMQQVRSKNTRPEKAVRSLLHSIGYRFRLHRKDLPGTPDIVFPSRRLVLFVHGCFWHGHGCRIGQLPKSRLDYWSPKIEANRARDQRKEAALAAEGWRVAVVWQCELSDLGALEARLRNILD</Hsp_hseq>
+      <Hsp_midline>MTD  +P +R ++M ++ SK T+PE  VR  L S G+R+R + K   G PDIV P  + V+F+HGCFWHGH C  G +PKS +D+W  KI  NR RD + E  L   G++V VVW+CEL +      RL  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|139617|sp|P09184.3|VSR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Very short patch repair protein; AltName: Full=DNA mismatch endonuclease; AltName: Full=V.EcoKDcm; AltName: Full=Vsr mismatch endonuclease [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P09184</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>4.05806e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKA-ICRERLNRLVEE</Hsp_qseq>
+      <Hsp_hseq>MADVHDKATRSKNMRAIATRDTAIEKRLASLLTGQGLAFRVQDASLPGRPDFVVDEYRCVIFTHGCFWHHHHCYLFKVPATRTEFWLEKIGKNVERDRRDISRLQELGWRVLIVWECALRGREKLTDEALTERLEE</Hsp_hseq>
+      <Hsp_midline>M D+   + RS  M  I +++T  E  +   L  QG  +R  D    G+PD V+ +Y+ V+F HGCFWH H C    +P +  +FWLEKI KN ERD ++ + L+++G++V++VWEC L+ +  +  E L   +EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|11387355|sp|Q9RLM5.1|VSN1_NEIMC</Hit_id>
+  <Hit_def>RecName: Full=Putative NmeDIP very short patch repair endonuclease; Short=V.NmeDIP [Neisseria meningitidis serogroup C]</Hit_def>
+  <Hit_accession>Q9RLM5</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>2.43424e-22</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>DIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIP-KSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECE-LKNKAICRERLNRLVEE</Hsp_qseq>
+      <Hsp_hseq>DRLTPEQRKKCMQSNKSKGTKPELALAKAMWALGLRYRKNSGSIFGKPDFSFKKYKVAVFVDGEFWHGKDWEQRKAEIKGNREFWIAKIERNIRRDMEVTGRLKVEGWAVLRFWSNDVVKNTTCCAEKVRQAVRD</Hsp_hseq>
+      <Hsp_midline>D  TP +R   M    SK TKPE+ + K +++ G RYRKN     GKPD    KYK  VF+ G FWHG    +     K N +FW+ KI +N  RD++    L+  G+ V+  W  + +KN   C E++ + V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|549436|sp|P36434.1|VSH2_HAEPA</Hit_id>
+  <Hit_def>RecName: Full=HpaII very short patch repair endonuclease; AltName: Full=V.HpaII [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>P36434</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.83711e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>DIFTPSKRSFVM-SKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCN-KGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVW</Hsp_qseq>
+      <Hsp_hseq>DKLTPEQRKKCMKASSKNKGTKPELLLAKYLWALGLRYRKNDRSIFGTPDLSFKRYKIAIFIDGEFWHGKDWDIRKYDIKSNKDFWISKIEHNMNRDKKVNDYLISNGWVIFRFW</Hsp_hseq>
+      <Hsp_midline>D  TP +R   M +   +K TKPE+L+ K+L++ G RYRKND+   G PD+   +YK  +FI G FWHG   + + +  KSN DFW+ KI  N  RD K    L   G+ +   W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1722803|sp|P50186.1|VSN1_NOCAE</Hit_id>
+  <Hit_def>RecName: Full=NaeI very short patch repair endonuclease; AltName: Full=V.NaeI [Lechevalieria aerocolonigenes]</Hit_def>
+  <Hit_accession>P50186</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.60761e-17</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>SKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAG-----KPDIVLPKYKTVVFIHGCFWHGHSC-NKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAIC</Hsp_qseq>
+      <Hsp_hseq>AGRSRNMQANRRSGTKPEAALRSALFKLGYRYRKDFLLRLGDGVKVKPDIVFTARKVAVFIDGCFW--HVCPDHGRQPTTNEWYWSPKLRRNVERDRTVNQSLTNAGWRVLRVWEHEELQDAVA</Hsp_hseq>
+      <Hsp_midline>+ RS  M       TKPE  +R  LF  G+RYRK+     G     KPDIV    K  VFI GCFW  H C + G  P +N  +W  K+ +N ERD      L   G++V+ VWE E    A+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|20455134|sp|Q9A9E9.1|MSRA2_CAUCR</Hit_id>
+  <Hit_def>RecName: Full=Peptide methionine sulfoxide reductase MsrA 2; Short=Protein-methionine-S-oxide reductase 2; AltName: Full=Peptide-methionine (S)-S-oxide reductase 2; Short=Peptide Met(O) reductase 2 [Caulobacter crescentus CB15]</Hit_def>
+  <Hit_accession>Q9A9E9</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.89176</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>AGKPDIVLPKYKTVVFIHGCFW</Hsp_qseq>
+      <Hsp_hseq>ATAPALAAPKTETAVFAGGCFW</Hsp_hseq>
+      <Hsp_midline>A  P +  PK +T VF  GCFW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123906238|sp|Q0VFA3.1|GLD2_XENTR</Hit_id>
+  <Hit_def>RecName: Full=Poly(A) RNA polymerase GLD2; AltName: Full=PAP-associated domain-containing protein 4 [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>Q0VFA3</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.8008</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>176</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>KGHIPKSNMDFWL-----EKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>KGHVPNSG-ECWLYDHVDTTLPVAKDKLSKQILEL----FQALQQQVCDLKKKDICRAELQREIQQI</Hsp_hseq>
+      <Hsp_midline>KGH+P S  + WL       +   +++  K   EL    F+ +    C+LK K ICR  L R +++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|123395663|sp|Q21FX6.1|Y3146_SACD2</Hit_id>
+  <Hit_def>RecName: Full=UPF0102 protein Sde_3146 [Saccharophagus degradans 2-40]</Hit_def>
+  <Hit_accession>Q21FX6</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.00279</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>MSKIHSKETKPEVLVRKFLFSQGFR-YRKNDKRYAGKPDIVLPKYKTVVFI</Hsp_qseq>
+      <Hsp_hseq>MAKHNETGTQAEILAEQHLVSQGLTPLARNYHCKGGEIDLIMQQQRALVFV</Hsp_hseq>
+      <Hsp_midline>M+K +   T+ E+L  + L SQG     +N     G+ D+++ + + +VF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

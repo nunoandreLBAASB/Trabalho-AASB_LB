@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>186221</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7J5</BlastOutput_query-def>
+  <BlastOutput_query-len>112</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>186221</Iteration_query-ID>
+  <Iteration_query-def>Q5F7J5</Iteration_query-def>
+  <Iteration_query-len>112</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|269208466|gb|EEZ74921.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>EEZ74921</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>2.94797e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|488146911|ref|WP_002218119.1|</Hit_id>
+  <Hit_def>MULTISPECIES: nitrogen regulatory protein P-II [Neisseria] &gt;gi|59801542|ref|YP_208254.1| nitrogen regulatory protein P-II [Neisseria gonorrhoeae FA 1090] &gt;gi|121635653|ref|YP_975898.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis FAM18] &gt;gi|313669210|ref|YP_004049494.1| nitrogen regulatory protein P-II 1 [Neisseria lactamica 020-06] &gt;gi|538321834|ref|YP_008502894.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae MS11] &gt;gi|59718437|gb|AAW89842.1| putative nitrogen regulatory protein P-II [Neisseria gonorrhoeae FA 1090] &gt;gi|120867359|emb|CAM11130.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis FAM18] &gt;gi|226513453|gb|EEH62798.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae 1291] &gt;gi|268548915|gb|EEZ44333.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae 35/02] &gt;gi|268549705|gb|EEZ44724.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae FA19] &gt;gi|268583854|gb|EEZ48530.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae MS11] &gt;gi|268586199|gb|EEZ50875.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae PID18] &gt;gi|268587009|gb|EEZ51685.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae PID1] &gt;gi|268621277|gb|EEZ53677.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae PID332] &gt;gi|268625299|gb|EEZ57699.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae SK-92-679] &gt;gi|268625760|gb|EEZ58160.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae SK-93-1035] &gt;gi|291011002|gb|EFE02999.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae DGI2] &gt;gi|291609881|gb|EFF39004.1| nitrogen regulatory protein P-II [Neisseria gonorrhoeae F62] &gt;gi|309378910|emb|CBX22497.1| unnamed protein product [Neisseria lactamica Y92-1009] &gt;gi|313006672|emb|CBN88138.1| nitrogen regulatory protein P-II 1 [Neisseria lactamica 020-06] &gt;gi|325127371|gb|EGC50305.1| nitrogen regulatory protein P-II [Neisseria meningitidis N1568] &gt;gi|325131404|gb|EGC54113.1| nitrogen regulatory protein P-II [Neisseria meningitidis M6190] &gt;gi|325133461|gb|EGC56125.1| nitrogen regulatory protein P-II [Neisseria meningitidis M13399] &gt;gi|325143702|gb|EGC66021.1| nitrogen regulatory protein P-II [Neisseria meningitidis M01-240013] &gt;gi|393290993|emb|CCI73783.1| Nitrogen regulatory protein P-II [Neisseria meningitidis alpha704] &gt;gi|402339157|gb|EJU74376.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis NM2795] &gt;gi|432207636|gb|ELK63625.1| nitrogen regulatory protein P-II [Neisseria meningitidis 97021] &gt;gi|432214220|gb|ELK70125.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2006087] &gt;gi|432219469|gb|ELK75314.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2002038] &gt;gi|432220253|gb|ELK76077.1| nitrogen regulatory protein P-II [Neisseria meningitidis 97014] &gt;gi|432225889|gb|ELK81626.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM586] &gt;gi|432227861|gb|ELK83566.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM762] &gt;gi|432232155|gb|ELK87809.1| nitrogen regulatory protein P-II [Neisseria meningitidis M7089] &gt;gi|432232666|gb|ELK88303.1| nitrogen regulatory protein P-II [Neisseria meningitidis M7124] &gt;gi|432233161|gb|ELK88794.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM174] &gt;gi|432238304|gb|ELK93871.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM126] &gt;gi|485327408|gb|EOB90514.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM133] &gt;gi|485331144|gb|EOB93990.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM43] &gt;gi|485334177|gb|EOB96824.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM82] &gt;gi|485334981|gb|EOB97581.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM94] &gt;gi|485337003|gb|EOB99451.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM95] &gt;gi|485341099|gb|EOC03309.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM313] &gt;gi|485341731|gb|EOC03886.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM1482] &gt;gi|485343980|gb|EOC05973.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM1495] &gt;gi|485348340|gb|EOC10044.1| nitrogen regulatory protein P-II [Neisseria meningitidis 73704] &gt;gi|485350824|gb|EOC12349.1| nitrogen regulatory protein P-II [Neisseria meningitidis 81858] &gt;gi|485360259|gb|EOC21023.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3147] &gt;gi|485363768|gb|EOC24206.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2001072] &gt;gi|485364902|gb|EOC25225.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2001073] &gt;gi|485366416|gb|EOC26638.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2000081] &gt;gi|485373267|gb|EOC33019.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2001213] &gt;gi|485376376|gb|EOC35927.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2004264] &gt;gi|485379164|gb|EOC38543.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2005079] &gt;gi|485379363|gb|EOC38728.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2000175] &gt;gi|485383472|gb|EOC42590.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2001068] &gt;gi|485385715|gb|EOC44661.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2005040] &gt;gi|485385840|gb|EOC44778.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2002004] &gt;gi|485390362|gb|EOC49027.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2005172] &gt;gi|485392109|gb|EOC50629.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2008223] &gt;gi|485428927|gb|EOC84826.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM23] &gt;gi|485429594|gb|EOC85421.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM32] &gt;gi|485434144|gb|EOC89531.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM35] &gt;gi|485435011|gb|EOC90302.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM36] &gt;gi|514068860|gb|EPF53812.1| nitrogen regulatory protein P-II [Neisseria meningitidis 98002] &gt;gi|636860833|gb|KDM98050.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae] &gt;gi|636863325|gb|KDN00339.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae] &gt;gi|636865880|gb|KDN02706.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae] &gt;gi|654606432|gb|KEC86984.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae] &gt;gi|673468905|gb|KFJ35535.1| nitrogen regulatory protein P-II [Neisseria lactamica ATCC 23970] &gt;gi|693764953|gb|KGI95840.1| nitrogen regulatory protein P-II 1 [Neisseria gonorrhoeae] &gt;gi|694192269|gb|KGI97552.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|723270781|gb|KHC97972.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|723272350|gb|KHC99537.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|726974886|gb|KHF22321.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|730570589|gb|AIZ18391.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|730571902|gb|AIZ19304.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis M7124] &gt;gi|730574362|gb|AIZ21311.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|730578764|gb|AIZ25211.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|730580059|gb|AIZ26040.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|743394217|gb|KID53755.1| nitrogen regulatory protein P-II [Neisseria meningitidis LNP27256] &gt;gi|747184602|gb|KIF88848.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|747184936|gb|KIF89107.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|747187339|gb|KIF91068.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis] &gt;gi|747188452|gb|KIF91932.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002218119</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>4.89484e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|501495633|ref|WP_012503921.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria gonorrhoeae] &gt;gi|194099473|ref|YP_002002594.1| putative nitrogen regulatory protein P-II [Neisseria gonorrhoeae NCCP11945] &gt;gi|193934763|gb|ACF30587.1| putative nitrogen regulatory protein P-II [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>WP_012503921</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>5.18503e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|488154661|ref|WP_002225869.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|15677823|ref|NP_274987.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis MC58] &gt;gi|7227257|gb|AAF42322.1| nitrogen regulatory protein P-II [Neisseria meningitidis MC58] &gt;gi|325139315|gb|EGC61856.1| nitrogen regulatory protein P-II [Neisseria meningitidis CU385] &gt;gi|432200670|gb|ELK56760.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM422] &gt;gi|432220345|gb|ELK76167.1| nitrogen regulatory protein P-II [Neisseria meningitidis M13255] &gt;gi|432225280|gb|ELK81028.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM418] &gt;gi|432238778|gb|ELK94342.1| nitrogen regulatory protein P-II [Neisseria meningitidis 9506] &gt;gi|432238887|gb|ELK94449.1| nitrogen regulatory protein P-II [Neisseria meningitidis 9757] &gt;gi|432244589|gb|ELL00075.1| nitrogen regulatory protein P-II [Neisseria meningitidis 12888] &gt;gi|432244984|gb|ELL00462.1| nitrogen regulatory protein P-II [Neisseria meningitidis 4119] &gt;gi|485354101|gb|EOC15418.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2002020] &gt;gi|485355625|gb|EOC16821.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM477] &gt;gi|485357980|gb|EOC18949.1| nitrogen regulatory protein P-II [Neisseria meningitidis M13265] &gt;gi|530897738|gb|EQC96599.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3141] &gt;gi|530902221|gb|EQD00810.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2002030] &gt;gi|530912464|gb|EQD10406.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM1476] &gt;gi|530919107|gb|EQD16669.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3173] &gt;gi|744798358|gb|AJC63146.1| nitrogen regulatory protein P-II [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>WP_002225869</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>7.09246e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKIKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPK+KIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|645193427|ref|WP_025456947.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II 1 [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025456947</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>7.09246e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|296837830|gb|EFH21768.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>EFH21768</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>7.15841e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|518101648|ref|WP_019271856.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019271856</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>8.08426e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAVRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEA+RIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|110590448|pdb|2GW8|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Pii Signal Transduction Protein Of Neisseria Meningitidis At 1.85 Resolution</Hit_def>
+  <Hit_accession>2GW8_A</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.07051e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKIKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPK+KIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|504395258|ref|WP_014582360.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|385856458|ref|YP_005902970.1| nitrogen regulatory protein P-II [Neisseria meningitidis NZ-05/33] &gt;gi|325207347|gb|ADZ02799.1| nitrogen regulatory protein P-II [Neisseria meningitidis NZ-05/33]</Hit_def>
+  <Hit_accession>WP_014582360</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.10319e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERADAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGER+DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|269144391|gb|EEZ70809.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>EEZ70809</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.29927e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAVRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEA+RIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|748596688|ref|WP_039854868.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II 1 [Neisseria cinerea]</Hit_def>
+  <Hit_accession>WP_039854868</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>1.32069e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAVRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEA+RIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488143694|ref|WP_002214902.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|161869206|ref|YP_001598372.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis 053442] &gt;gi|218767430|ref|YP_002341942.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis Z2491] &gt;gi|254804192|ref|YP_003082413.1| nitrogen regulatory protein P-II [Neisseria meningitidis alpha14] &gt;gi|385324938|ref|YP_005879377.1| nitrogen regulatory protein P-II [Neisseria meningitidis 8013] &gt;gi|385329243|ref|YP_005883546.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis alpha710] &gt;gi|385337277|ref|YP_005891150.1| nitrogen regulatory protein P-II [Neisseria meningitidis WUE 2594] &gt;gi|385340841|ref|YP_005894713.1| nitrogen regulatory protein P-II [Neisseria meningitidis G2136] &gt;gi|385341161|ref|YP_005895032.1| nitrogen regulatory protein P-II [Neisseria meningitidis M01-240149] &gt;gi|385852076|ref|YP_005898591.1| nitrogen regulatory protein P-II [Neisseria meningitidis M04-240196] &gt;gi|121051438|emb|CAM07731.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis Z2491] &gt;gi|161594759|gb|ABX72419.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis 053442] &gt;gi|254667734|emb|CBA03634.1| nitrogen regulatory protein P-II [Neisseria meningitidis alpha14] &gt;gi|254671689|emb|CBA09455.1| nitrogen regulatory protein P-II [Neisseria meningitidis alpha153] &gt;gi|254672993|emb|CBA07494.1| nitrogen regulatory protein P-II [Neisseria meningitidis alpha275] &gt;gi|261393325|emb|CAX50957.1| nitrogen regulatory protein P-II [Neisseria meningitidis 8013] &gt;gi|304337421|gb|EFM03591.1| nitrogen regulatory protein P-II [Neisseria meningitidis ATCC 13091] &gt;gi|308390095|gb|ADO32415.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis alpha710] &gt;gi|319409691|emb|CBY89994.1| nitrogen regulatory protein P-II [Neisseria meningitidis WUE 2594] &gt;gi|325129384|gb|EGC52217.1| nitrogen regulatory protein P-II [Neisseria meningitidis OX99.30304] &gt;gi|325135441|gb|EGC58060.1| nitrogen regulatory protein P-II [Neisseria meningitidis M0579] &gt;gi|325137438|gb|EGC60025.1| nitrogen regulatory protein P-II [Neisseria meningitidis ES14902] &gt;gi|325199085|gb|ADY94541.1| nitrogen regulatory protein P-II [Neisseria meningitidis G2136] &gt;gi|325201367|gb|ADY96821.1| nitrogen regulatory protein P-II [Neisseria meningitidis M01-240149] &gt;gi|325206899|gb|ADZ02352.1| nitrogen regulatory protein P-II [Neisseria meningitidis M04-240196] &gt;gi|372199881|gb|EHP14047.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM220] &gt;gi|372200223|gb|EHP14334.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM233] &gt;gi|389606736|emb|CCA45648.1| nitrogen regulatory protein P-II [Neisseria meningitidis alpha522] &gt;gi|402315280|gb|EJU50845.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis NM255] &gt;gi|402315672|gb|EJU51235.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis 93003] &gt;gi|402315705|gb|EJU51267.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis 93004] &gt;gi|402321390|gb|EJU56865.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis NM140] &gt;gi|402321723|gb|EJU57196.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis NM183] &gt;gi|402323387|gb|EJU58831.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis NM2781] &gt;gi|402327880|gb|EJU63265.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis NM576] &gt;gi|402331030|gb|EJU66372.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis 98008] &gt;gi|402333223|gb|EJU68531.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis 80179] &gt;gi|402334280|gb|EJU69571.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis 92045] &gt;gi|402336408|gb|EJU71669.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM2657] &gt;gi|402340677|gb|EJU75875.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis NM3081] &gt;gi|432201099|gb|ELK57185.1| nitrogen regulatory protein P-II [Neisseria meningitidis 98080] &gt;gi|432201187|gb|ELK57271.1| nitrogen regulatory protein P-II [Neisseria meningitidis 87255] &gt;gi|432207870|gb|ELK63857.1| nitrogen regulatory protein P-II [Neisseria meningitidis 88050] &gt;gi|432213915|gb|ELK69825.1| nitrogen regulatory protein P-II [Neisseria meningitidis 63041] &gt;gi|432245802|gb|ELL01267.1| nitrogen regulatory protein P-II [Neisseria meningitidis 63049] &gt;gi|432250932|gb|ELL06308.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2004090] &gt;gi|432251297|gb|ELL06667.1| nitrogen regulatory protein P-II [Neisseria meningitidis 96023] &gt;gi|432251870|gb|ELL07232.1| nitrogen regulatory protein P-II [Neisseria meningitidis 65014] &gt;gi|432260702|gb|ELL15960.1| nitrogen regulatory protein P-II [Neisseria meningitidis 97020] &gt;gi|432263721|gb|ELL18934.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3652] &gt;gi|432264149|gb|ELL19357.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3642] &gt;gi|432267260|gb|ELL22440.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2007056] &gt;gi|432269397|gb|ELL24557.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2001212] &gt;gi|432270776|gb|ELL25911.1| nitrogen regulatory protein P-II [Neisseria meningitidis 77221] &gt;gi|432275300|gb|ELL30375.1| nitrogen regulatory protein P-II [Neisseria meningitidis 63006] &gt;gi|485279526|gb|EOB45784.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2000080] &gt;gi|485279727|gb|EOB45964.1| nitrogen regulatory protein P-II [Neisseria meningitidis 94018] &gt;gi|485285845|gb|EOB51711.1| nitrogen regulatory protein P-II [Neisseria meningitidis 75689] &gt;gi|485286069|gb|EOB51914.1| nitrogen regulatory protein P-II [Neisseria meningitidis 75643] &gt;gi|485292589|gb|EOB58015.1| nitrogen regulatory protein P-II [Neisseria meningitidis 97018] &gt;gi|485299637|gb|EOB64593.1| nitrogen regulatory protein P-II [Neisseria meningitidis 65012] &gt;gi|485300003|gb|EOB64930.1| nitrogen regulatory protein P-II [Neisseria meningitidis 64182] &gt;gi|485306058|gb|EOB70589.1| nitrogen regulatory protein P-II [Neisseria meningitidis 97027] &gt;gi|485306645|gb|EOB71115.1| nitrogen regulatory protein P-II [Neisseria meningitidis 96024] &gt;gi|485307065|gb|EOB71507.1| nitrogen regulatory protein P-II [Neisseria meningitidis 97008] &gt;gi|485311853|gb|EOB76003.1| nitrogen regulatory protein P-II [Neisseria meningitidis 98005] &gt;gi|485313794|gb|EOB77800.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2004085] &gt;gi|485313827|gb|EOB77831.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2003022] &gt;gi|485319079|gb|EOB82757.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2000063] &gt;gi|485320333|gb|EOB83910.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM604] &gt;gi|485320711|gb|EOB84257.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2002007] &gt;gi|485324988|gb|EOB88273.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM606] &gt;gi|485327256|gb|EOB90371.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM607] &gt;gi|485347455|gb|EOC09218.1| nitrogen regulatory protein P-II [Neisseria meningitidis 73696] &gt;gi|485370036|gb|EOC30022.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2001001] &gt;gi|485371830|gb|EOC31686.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2004032] &gt;gi|485392534|gb|EOC51021.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2003051] &gt;gi|485397649|gb|EOC55814.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM271] &gt;gi|485398425|gb|EOC56535.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM115] &gt;gi|485399229|gb|EOC57265.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM90] &gt;gi|485404486|gb|EOC62188.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3042] &gt;gi|485404955|gb|EOC62623.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3222] &gt;gi|485406289|gb|EOC63823.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3131] &gt;gi|485411384|gb|EOC68574.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3144] &gt;gi|485411448|gb|EOC68633.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3158] &gt;gi|485412987|gb|EOC70031.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3164] &gt;gi|485417351|gb|EOC74125.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM27] &gt;gi|485418112|gb|EOC74828.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM51] &gt;gi|485419992|gb|EOC76549.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM80] &gt;gi|485423838|gb|EOC80135.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM165] &gt;gi|485424379|gb|EOC80643.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3223] &gt;gi|514068143|gb|EPF53161.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM134] &gt;gi|514068260|gb|EPF53262.1| nitrogen regulatory protein P-II [Neisseria meningitidis 2007461] &gt;gi|530897975|gb|EQC96812.1| nitrogen regulatory protein P-II [Neisseria meningitidis 96037] &gt;gi|530904305|gb|EQD02747.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3139] &gt;gi|530904863|gb|EQD03267.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM045] &gt;gi|530905699|gb|EQD04040.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM151] &gt;gi|530909906|gb|EQD08007.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM003] &gt;gi|530913186|gb|EQD11088.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM0552] &gt;gi|530915357|gb|EQD13126.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM518] &gt;gi|530920621|gb|EQD18098.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM3230] &gt;gi|530921484|gb|EQD18882.1| nitrogen regulatory protein P-II [Neisseria meningitidis NM2866] &gt;gi|663090509|gb|KER38805.1| nitrogen regulatory protein P-II [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002214902</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>1.53856e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERADAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGER+DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|610425911|gb|AHW74787.1|</Hit_id>
+  <Hit_def>putative nitrogen regulatory protein P-II [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AHW74787</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>1.64738e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERADAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGER+DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|504395196|ref|WP_014582298.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|385856003|ref|YP_005902516.1| nitrogen regulatory protein P-II [Neisseria meningitidis M01-240355] &gt;gi|325204944|gb|ADZ00398.1| nitrogen regulatory protein P-II [Neisseria meningitidis M01-240355]</Hit_def>
+  <Hit_accession>WP_014582298</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.80306e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKIKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERADAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPK+KIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGER+DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|316985641|gb|EFV64588.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis H44/76]</Hit_def>
+  <Hit_accession>EFV64588</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>3.00879e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAVIKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERADAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEA++KPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGER+DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|488166160|ref|WP_002237368.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|385854038|ref|YP_005900552.1| nitrogen regulatory protein P-II [Neisseria meningitidis H44/76] &gt;gi|325201042|gb|ADY96497.1| nitrogen regulatory protein P-II [Neisseria meningitidis H44/76] &gt;gi|402327128|gb|EJU62521.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis 69166] &gt;gi|432210384|gb|ELK66344.1| nitrogen regulatory protein P-II [Neisseria meningitidis 68094] &gt;gi|432213075|gb|ELK69003.1| nitrogen regulatory protein P-II [Neisseria meningitidis 70012] &gt;gi|432257650|gb|ELL12947.1| nitrogen regulatory protein P-II [Neisseria meningitidis 61103] &gt;gi|432258309|gb|ELL13596.1| nitrogen regulatory protein P-II [Neisseria meningitidis 69096] &gt;gi|432271090|gb|ELL26219.1| nitrogen regulatory protein P-II [Neisseria meningitidis 70030] &gt;gi|485272576|gb|EOB39311.1| nitrogen regulatory protein P-II [Neisseria meningitidis 69155] &gt;gi|485272632|gb|EOB39365.1| nitrogen regulatory protein P-II [Neisseria meningitidis 70021] &gt;gi|485272653|gb|EOB39385.1| nitrogen regulatory protein P-II [Neisseria meningitidis 69176] &gt;gi|485278999|gb|EOB45305.1| nitrogen regulatory protein P-II [Neisseria meningitidis 96060] &gt;gi|485286474|gb|EOB52289.1| nitrogen regulatory protein P-II [Neisseria meningitidis 69100] &gt;gi|485292752|gb|EOB58160.1| nitrogen regulatory protein P-II [Neisseria meningitidis 63023] &gt;gi|485293264|gb|EOB58633.1| nitrogen regulatory protein P-II [Neisseria meningitidis 61106] &gt;gi|485299278|gb|EOB64264.1| nitrogen regulatory protein P-II [Neisseria meningitidis 70082]</Hit_def>
+  <Hit_accession>WP_002237368</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>4.19648e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAVIKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERADAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEA++KPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGER+DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|488172167|ref|WP_002243375.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|402344128|gb|EJU79269.1| nitrogen regulatory protein P-II 1 [Neisseria meningitidis NM3001]</Hit_def>
+  <Hit_accession>WP_002243375</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>1.99607e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVACSGKIGDGKIFVLPVEEAIRIRTGERADAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVA SGKIGDGKIFVLPVEEAIRIRTGER+DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|496465102|ref|WP_009173947.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria sp. oral taxon 014] &gt;gi|298283250|gb|EFI24737.1| nitrogen regulatory protein P-II [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009173947</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>1.37262e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKVELVLADEDVERAIDVIIETARSGKIGDGKIFVLPVEEAIRIRTGERSEAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVK+ELVLAD+ VERAIDVI+E ARSGKIGDGKIFVLPVEEAIRIRTGERS+AAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|21427151|gb|AAM53097.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAM53097</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>9.51811e-66</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>EAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>EADVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKIKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>EA VKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPK+KIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|21427127|gb|AAM53081.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAM53081</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.756</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>5.18641e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>VKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>VKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKIKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>VKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPK+KIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|515030741|ref|WP_016687995.1|</Hit_id>
+  <Hit_def>MULTISPECIES: nitrogen regulatory protein P-II [Neisseriaceae] &gt;gi|742693454|gb|KIC06037.1| nitrogen regulatory protein P-II [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_016687995</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>1.18539e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKVELIIADEDVERVIDVIIENARSGKIGDGKIFVLPVEEAIRIRTGERSEAAI</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVK+EL++AD+ VER IDVI+E ARSGKIGDGKIFVLPVEEAIRIRTGERS+AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|288567521|gb|EFC89081.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>EFC89081</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.61844e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKVELIIADEDVERVIDVIIENARSGKIGDGKIFVLPVEEAIRIRTGERSEAAI</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVK+EL++AD+ VER IDVI+E ARSGKIGDGKIFVLPVEEAIRIRTGERS+AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|489852496|ref|WP_003756171.1|</Hit_id>
+  <Hit_def>MULTISPECIES: nitrogen regulatory protein P-II [Neisseria] &gt;gi|255050416|gb|EET45880.1| nitrogen regulatory protein P-II [Neisseria sicca ATCC 29256] &gt;gi|339888388|gb|EGQ77853.1| nitrogen regulatory protein P-II [Neisseria macacae ATCC 33926] &gt;gi|348612942|gb|EGY62548.1| nitrogen regulatory protein P-II [Neisseria sp. GT4A_CT1] &gt;gi|385693487|gb|EIG24134.1| nitrogen regulatory protein P-II [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003756171</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>2.06667e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAVIKPFKLDDVREALTEIGISGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKVELVLADEDVERAIDIIVETARSGKIGDGKIFVLPVEEVIRIRTGERAEAAI</Hsp_hseq>
+      <Hsp_midline>MKKIEA++KPFKLDDVREALTEIGI+GMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVK+ELVLAD+ VERAID+IVE ARSGKIGDGKIFVLPVEE IRIRTGER++AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|490410568|ref|WP_004283429.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria weaveri] &gt;gi|343966505|gb|EGV34761.1| nitrogen regulatory protein P-II [Neisseria weaveri ATCC 51223] &gt;gi|343969869|gb|EGV38075.1| nitrogen regulatory protein P-II [Neisseria weaveri LMG 5135]</Hit_def>
+  <Hit_accession>WP_004283429</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>2.11222e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTELGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVVADSDVERVTETIVEVARSGKIGDGKIFILPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTE+GITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELV+AD  VER  + IVEVARSGKIGDGKIF+LPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|488717634|ref|WP_002641510.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Simonsiella muelleri] &gt;gi|404295016|gb|EFG31457.2| nitrogen regulatory protein P-II 1 [Simonsiella muelleri ATCC 29453]</Hit_def>
+  <Hit_accession>WP_002641510</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>1.28955e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEMGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKLELVLADDMVERVVDVIVEVARSGKIGDGKIFILPVDEIIRIRTGEKDEAAI</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTE+GITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVK+ELVLADD VER +DVIVEVARSGKIGDGKIF+LPV+E IRIRTGE+ +AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|489843176|ref|WP_003746874.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria mucosa] &gt;gi|317400597|gb|EFV81255.1| nitrogen regulatory protein P-II [Neisseria mucosa C102] &gt;gi|694242090|gb|KGJ32944.1| nitrogen regulatory protein P-II 1 [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_003746874</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>1.90906e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREVLTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDKVDQAVDAILETAHSGKIGDGKIFIYPVEEAIRIRTGERSDAAL</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVRE LTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADD V++A+D I+E A SGKIGDGKIF+ PVEEAIRIRTGERSDAA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|489867847|ref|WP_003771425.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria elongata] &gt;gi|291308847|gb|EFE50090.1| nitrogen regulatory protein P-II [Neisseria elongata subsp. glycolytica ATCC 29315] &gt;gi|747148309|gb|AJE18692.1| nitrogen regulatory protein P-II 1 [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>WP_003771425</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>2.76522e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTDIGITGMTVTEVKGFGRQKGHTEVYRGAEYAVDFLPKIKMELVLRDDQVDQAVDVIIETARSGKIGDGKIFIFPVEEAIRIRTGERSDSAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALT+IGITGMTV+EVKGFGRQKGHTE+YRGAEYAVDFLPK+K+ELVL DD V++A+DVI+E ARSGKIGDGKIF+ PVEEAIRIRTGERSD+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|496408293|ref|WP_009117157.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria wadsworthii] &gt;gi|349790875|gb|EGZ44773.1| nitrogen regulatory protein P-II [Neisseria wadsworthii 9715]</Hit_def>
+  <Hit_accession>WP_009117157</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>2.85711e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEAGIAGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKLEIVLGDDMVERAVEVIVEAARSGKIGDGKIFILPVEEAIRIRTGETSDAAI</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTE GI GMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVK+E+VL DD VERA++VIVE ARSGKIGDGKIF+LPVEEAIRIRTGE SDAA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|494578170|ref|WP_007342525.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria bacilliformis] &gt;gi|327464547|gb|EGF10846.1| nitrogen regulatory protein P-II [Neisseria bacilliformis ATCC BAA-1200]</Hit_def>
+  <Hit_accession>WP_007342525</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>2.85711e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTDIGITGMTVTEVKGFGRQKGHTEVYRGAEYAVDFLPKVKIEMVLRDEQVEQAVDVIIETARSGKIGDGKIFILPVEEAVRIRTGERDDAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALT+IGITGMTV+EVKGFGRQKGHTE+YRGAEYAVDFLPKVKIE+VL D+ VE+A+DVI+E ARSGKIGDGKIF+LPVEEA+RIRTGER DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|224953474|gb|EEG34683.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>EEG34683</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>6.54468e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREILTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDKVDQAVDAILETAHSGKIGDGKIFIYPVEEAIRIRTGERSEAAL</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVRE LTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADD V++A+D I+E A SGKIGDGKIF+ PVEEAIRIRTGERS+AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|489779685|ref|WP_003683576.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria flavescens] &gt;gi|241321054|gb|EER57267.1| nitrogen regulatory protein P-II [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003683576</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>1.37209e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREILTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDKVDQAVDAILETAHSGKIGDGKIFIYPVEEAIRIRTGERSEAAL</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVRE LTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADD V++A+D I+E A SGKIGDGKIF+ PVEEAIRIRTGERS+AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|284796231|gb|EFC51578.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>EFC51578</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.59877e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREILTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLSDDKVDQAVDAILETAHSGKIGDGKIFIYPVEEAIRIRTGERSEAAL</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVRE LTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVL+DD V++A+D I+E A SGKIGDGKIF+ PVEEAIRIRTGERS+AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|748604224|ref|WP_039862404.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II 1 [Neisseria subflava]</Hit_def>
+  <Hit_accession>WP_039862404</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>3.0396e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREILTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLSDDKVDQAVDAILETAHSGKIGDGKIFIYPVEEAIRIRTGERSEAAL</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVRE LTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVL+DD V++A+D I+E A SGKIGDGKIF+ PVEEAIRIRTGERS+AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|736175697|ref|WP_034294072.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II 1 [Alysiella crassa]</Hit_def>
+  <Hit_accession>WP_034294072</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>3.86292e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVRDALMEMGITGMTVTEVKGFGRQKGHTEVYRGAEYAVDFLPKVKLEIVLSDDLVERAVEAIVEVARSGKIGDGKIFVLPVEDVIRIRTGERADAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVR+AL E+GITGMTV+EVKGFGRQKGHTE+YRGAEYAVDFLPKVK+E+VL+DD VERA++ IVEVARSGKIGDGKIFVLPVE+ IRIRTGER+DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|652665117|ref|WP_027021304.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II 1 [Conchiformibius steedae]</Hit_def>
+  <Hit_accession>WP_027021304</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>5.47432e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAVIKPFKLDDVREALTEIGITGMTVSEVKGFGRQRGHTEIYRGAEYAVDFLPKVKIELVLPDEQVERAVETIIETARSGKIGDGKIFILPVEEVIRIRTGETAEAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEA++KPFKLDDVREALTEIGITGMTVSEVKGFGRQ+GHTEIYRGAEYAVDFLPKVKIELVL D+ VERA++ I+E ARSGKIGDGKIF+LPVEE IRIRTGE ++AAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|21427133|gb|AAM53085.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|21427178|gb|AAM53115.1| nitrogen regulatory protein P-II [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAM53085</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>7.93689e-62</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>KLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>KLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>KLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|496985251|ref|WP_009427336.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria sp. oral taxon 020] &gt;gi|429161127|gb|EKY03561.1| nitrogen regulatory protein P-II [Neisseria sp. oral taxon 020 str. F0370]</Hit_def>
+  <Hit_accession>WP_009427336</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>1.00762e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTDIGITGMTVTEVKGFGRQKGHTEVYRGAEYAVDFLPKVKIELVLRDEQVDQVVDVIIETARSGKIGDGKIFIIPVEEAVRIRTGERADSAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALT+IGITGMTV+EVKGFGRQKGHTE+YRGAEYAVDFLPKVKIELVL D+ V++ +DVI+E ARSGKIGDGKIF++PVEEA+RIRTGER+D+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|21427163|gb|AAM53105.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAM53105</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>1.24078e-61</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>KLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>KLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKIKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>KLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPK+KIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|652643081|ref|WP_027008728.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II 1 [Conchiformibius kuhniae]</Hit_def>
+  <Hit_accession>WP_027008728</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>2.23193e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAVIKPFKLDDVREALTEIGITGMTVSEVKGFGRQRGHTEIYRGAEYAVDFLPKVKLELVLPDDLVERAVETIMDTARSGKIGDGKIFILPVEEVIRIRTGETAEAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEA++KPFKLDDVREALTEIGITGMTVSEVKGFGRQ+GHTEIYRGAEYAVDFLPKVK+ELVL DD VERA++ I++ ARSGKIGDGKIF+LPVEE IRIRTGE ++AAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|489891735|ref|WP_003795185.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Kingella oralis] &gt;gi|237868229|gb|EEP69235.1| nitrogen regulatory protein P-II [Kingella oralis ATCC 51147]</Hit_def>
+  <Hit_accession>WP_003795185</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>3.41344e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEIGITGMTVTEVKGFGRQKGHTEIYRGAEYAVDFLPKVKLELVLPDDMVERAIETIVETARSGKIGDGKIFVYPVEQVIRIRTGETDHAAI</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTEIGITGMTV+EVKGFGRQKGHTEIYRGAEYAVDFLPKVK+ELVL DD VERAI+ IVE ARSGKIGDGKIFV PVE+ IRIRTGE   AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|21427121|gb|AAM53077.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|21427154|gb|AAM53099.1| nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|21427175|gb|AAM53113.1| nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|21427190|gb|AAM53123.1| nitrogen regulatory protein P-II [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAM53077</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>3.54036e-61</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>LDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>LDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|21427124|gb|AAM53079.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|21427157|gb|AAM53101.1| nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|21427160|gb|AAM53103.1| nitrogen regulatory protein P-II [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAM53079</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>5.41515e-61</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>LDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKIKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>LDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPK+KIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|496410833|ref|WP_009119697.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria shayeganii] &gt;gi|348012862|gb|EGY51798.1| nitrogen regulatory protein P-II [Neisseria shayeganii 871]</Hit_def>
+  <Hit_accession>WP_009119697</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>6.49105e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVRLEIVLADDLVEHAVETIVQAAQSGKIGDGKIFVLPVESVIRIRTGERDEAAL</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKV++E+VLADD VE A++ IV+ A+SGKIGDGKIFVLPVE  IRIRTGER +AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|21427130|gb|AAM53083.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|21427145|gb|AAM53093.1| nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|21427172|gb|AAM53111.1| nitrogen regulatory protein P-II [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAM53083</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>1.42815e-60</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>LDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERADAAV</Hsp_hseq>
+      <Hsp_midline>LDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGER+DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|21427139|gb|AAM53089.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis 961-5945]</Hit_def>
+  <Hit_accession>AAM53089</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.94241e-60</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>DDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>DDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|21427142|gb|AAM53091.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|21427169|gb|AAM53109.1| nitrogen regulatory protein P-II [Neisseria meningitidis CU385] &gt;gi|21427181|gb|AAM53117.1| nitrogen regulatory protein P-II [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAM53091</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>2.93869e-60</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>DDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKIKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_hseq>
+      <Hsp_midline>DDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPK+KIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|597813393|gb|AHN28223.1|</Hit_id>
+  <Hit_def>Nitrogen regulatory protein P-II [Snodgrassella alvi wkB2]</Hit_def>
+  <Hit_accession>AHN28223</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>3.79011e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIVKPFKLDDVREALSDVGFSGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLPDDRVEQAIEVIITAAHSGKIGDGKIFVLPVESAIRIRTGERDDTAI</Hsp_hseq>
+      <Hsp_midline>MKKIEAIVKPFKLDDVREAL+++G +GMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVL DD VE+AI+VI+  A SGKIGDGKIFVLPVE AIRIRTGER D A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|21427148|gb|AAM53095.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Neisseria meningitidis] &gt;gi|21427187|gb|AAM53121.1| nitrogen regulatory protein P-II [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAM53095</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>6.50986e-60</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>DDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERADAAV</Hsp_hseq>
+      <Hsp_midline>DDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGER+DAAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|489882478|ref|WP_003785929.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Kingella kingae] &gt;gi|332971861|gb|EGK10807.1| nitrogen regulatory protein P-II [Kingella kingae ATCC 23330]</Hit_def>
+  <Hit_accession>WP_003785929</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>6.60519e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTEAGISGMTVTEVKGFGRQRGHTEVYRGAEYAVDFLPKVKLELVLPDDLVERTVEIIVQTARSGKIGDGKIFVLPVEEVIRIRTGETGEAAV</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTE GI+GMTV+EVKGFGRQ+GHTE+YRGAEYAVDFLPKVK+ELVL DD VER +++IV+ ARSGKIGDGKIFVLPVEE IRIRTGE  +AAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|489878009|ref|WP_003781495.1|</Hit_id>
+  <Hit_def>nitrogen regulatory protein P-II [Kingella denitrificans] &gt;gi|324982679|gb|EGC18305.1| nitrogen regulatory protein P-II [Kingella denitrificans ATCC 33394]</Hit_def>
+  <Hit_accession>WP_003781495</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>7.86256e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKIEAIVKPFKLDDVREALTEIGITGMTVSEVKGFGRQKGHTEIYRGAEYAVDFLPKVKIELVLADDAVERAIDVIVEVARSGKIGDGKIFVLPVEEAIRIRTGERSDAAV</Hsp_qseq>
+      <Hsp_hseq>MKKIEAIIKPFKLDDVREALTELGITGMTVSEVKGFGRQRGHTEVYRGAEYAVDFLPKVKIEVVLPDDQIERTVEAIIEAARSGKIGDGKIFVLPVEEVIRIRTGETGETAI</Hsp_hseq>
+      <Hsp_midline>MKKIEAI+KPFKLDDVREALTE+GITGMTVSEVKGFGRQ+GHTE+YRGAEYAVDFLPKVKIE+VL DD +ER ++ I+E ARSGKIGDGKIFVLPVEE IRIRTGE  + A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

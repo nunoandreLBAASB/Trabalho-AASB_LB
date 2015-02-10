@@ -1,0 +1,1480 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>57745</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7L7</BlastOutput_query-def>
+  <BlastOutput_query-len>470</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>57745</Iteration_query-ID>
+  <Iteration_query-def>Q5F7L7</Iteration_query-def>
+  <Iteration_query-len>470</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489785862|ref|WP_003689753.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria gonorrhoeae] &gt;gi|59801520|ref|YP_208232.1| potassium transporter peripheral membrane protein [Neisseria gonorrhoeae FA 1090] &gt;gi|194099512|ref|YP_002002636.1| potassium transporter peripheral membrane protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|538321808|ref|YP_008502868.1| trk system potassium uptake protein TrkA [Neisseria gonorrhoeae MS11] &gt;gi|59718415|gb|AAW89820.1| putative potassium uptake protein [Neisseria gonorrhoeae FA 1090] &gt;gi|193934802|gb|ACF30626.1| TrkA [Neisseria gonorrhoeae NCCP11945] &gt;gi|226513544|gb|EEH62889.1| potassium uptake protein [Neisseria gonorrhoeae 1291] &gt;gi|268548905|gb|EEZ44323.1| potassium transporter peripheral membrane component [Neisseria gonorrhoeae 35/02] &gt;gi|268551360|gb|EEZ46379.1| trk system potassium uptake protein TrkA [Neisseria gonorrhoeae FA19] &gt;gi|268583954|gb|EEZ48630.1| trk system potassium uptake protein TrkA [Neisseria gonorrhoeae MS11] &gt;gi|268586289|gb|EEZ50965.1| potassium uptake protein [Neisseria gonorrhoeae PID18] &gt;gi|268588549|gb|EEZ53225.1| potassium uptake protein [Neisseria gonorrhoeae PID1] &gt;gi|268623163|gb|EEZ55563.1| potassium uptake protein [Neisseria gonorrhoeae PID332] &gt;gi|268625328|gb|EEZ57728.1| potassium uptake protein [Neisseria gonorrhoeae SK-92-679] &gt;gi|268627588|gb|EEZ59988.1| potassium uptake protein [Neisseria gonorrhoeae SK-93-1035] &gt;gi|291013057|gb|EFE05028.1| potassium transporter peripheral membrane component [Neisseria gonorrhoeae DGI2] &gt;gi|291611278|gb|EFF40362.1| trk system potassium uptake protein TrkA [Neisseria gonorrhoeae F62] &gt;gi|636860482|gb|KDM97735.1| potassium transporter peripheral membrane component [Neisseria gonorrhoeae] &gt;gi|636862910|gb|KDM99973.1| potassium transporter peripheral membrane component [Neisseria gonorrhoeae] &gt;gi|636865468|gb|KDN02316.1| potassium transporter peripheral membrane component [Neisseria gonorrhoeae] &gt;gi|654606106|gb|KEC86698.1| potassium transporter peripheral membrane component [Neisseria gonorrhoeae] &gt;gi|693764744|gb|KGI95644.1| potassium transporter peripheral membrane component [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003689753</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>947.962</Hsp_bit-score>
+      <Hsp_score>2449</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>470</Hsp_identity>
+      <Hsp_positive>470</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|488141564|ref|WP_002212772.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria meningitidis] &gt;gi|15677464|ref|NP_274620.1| potassium transporter peripheral membrane protein [Neisseria meningitidis MC58] &gt;gi|121635267|ref|YP_975512.1| potassium transporter peripheral membrane protein [Neisseria meningitidis FAM18] &gt;gi|218768586|ref|YP_002343098.1| potassium transporter peripheral membrane protein [Neisseria meningitidis Z2491] &gt;gi|254805379|ref|YP_003083600.1| potassium transporter peripheral membrane protein [Neisseria meningitidis alpha14] &gt;gi|385323762|ref|YP_005878201.1| Trk system potassium uptake protein TrkA (K(+)-uptake protein TrkA) [Neisseria meningitidis 8013] &gt;gi|385340480|ref|YP_005894352.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis G2136] &gt;gi|385850831|ref|YP_005897346.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis M04-240196] &gt;gi|385852787|ref|YP_005899301.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis H44/76] &gt;gi|7226864|gb|AAF41966.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis MC58] &gt;gi|120866973|emb|CAM10735.1| potassium uptake protein [Neisseria meningitidis FAM18] &gt;gi|121052594|emb|CAM08934.1| potassium uptake protein [Neisseria meningitidis Z2491] &gt;gi|254668921|emb|CBA07130.1| potassium uptake protein TrkA [Neisseria meningitidis alpha14] &gt;gi|261392149|emb|CAX49657.1| Trk system potassium uptake protein TrkA (K(+)-uptake protein TrkA) [Neisseria meningitidis 8013] &gt;gi|304338926|gb|EFM05022.1| TrkA N-terminal domain protein [Neisseria meningitidis ATCC 13091] &gt;gi|316983868|gb|EFV62848.1| trkA [Neisseria meningitidis H44/76] &gt;gi|325132702|gb|EGC55385.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis M6190] &gt;gi|325134709|gb|EGC57348.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis M13399] &gt;gi|325138588|gb|EGC61147.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis ES14902] &gt;gi|325140740|gb|EGC63254.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis CU385] &gt;gi|325142782|gb|EGC65154.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis 961-5945] &gt;gi|325198724|gb|ADY94180.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis G2136] &gt;gi|325199791|gb|ADY95246.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis H44/76] &gt;gi|325205654|gb|ADZ01107.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis M04-240196] &gt;gi|372201045|gb|EHP15021.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis NM233] &gt;gi|402316161|gb|EJU51711.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis NM255] &gt;gi|402317728|gb|EJU53261.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis 93004] &gt;gi|402318653|gb|EJU54170.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis 93003] &gt;gi|402322202|gb|EJU57667.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis NM183] &gt;gi|402322589|gb|EJU58045.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis NM140] &gt;gi|402324641|gb|EJU60073.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis NM2781] &gt;gi|402328192|gb|EJU63570.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis 69166] &gt;gi|402328969|gb|EJU64334.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis NM576] &gt;gi|402334516|gb|EJU69803.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis 80179] &gt;gi|402335397|gb|EJU70663.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis 92045] &gt;gi|402337116|gb|EJU72367.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM2657] &gt;gi|402342466|gb|EJU77627.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis NM3081] &gt;gi|432201768|gb|ELK57843.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM422] &gt;gi|432201812|gb|ELK57886.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 87255] &gt;gi|432202072|gb|ELK58138.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 98080] &gt;gi|432207300|gb|ELK63291.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 68094] &gt;gi|432209120|gb|ELK65091.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 88050] &gt;gi|432214263|gb|ELK70166.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 70012] &gt;gi|432214836|gb|ELK70729.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 63041] &gt;gi|432222315|gb|ELK78113.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis M13255] &gt;gi|432226442|gb|ELK82170.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM418] &gt;gi|432227291|gb|ELK83002.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM586] &gt;gi|432229251|gb|ELK84942.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM762] &gt;gi|432232572|gb|ELK88210.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis M7089] &gt;gi|432233783|gb|ELK89409.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis M7124] &gt;gi|432234102|gb|ELK89724.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM174] &gt;gi|432240154|gb|ELK95696.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 9506] &gt;gi|432240404|gb|ELK95942.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 9757] &gt;gi|432243043|gb|ELK98558.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM126] &gt;gi|432245595|gb|ELL01062.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 12888] &gt;gi|432246281|gb|ELL01736.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 4119] &gt;gi|432246556|gb|ELL02003.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 63049] &gt;gi|432252045|gb|ELL07404.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2004090] &gt;gi|432252505|gb|ELL07858.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 96023] &gt;gi|432253658|gb|ELL09000.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 65014] &gt;gi|432258184|gb|ELL13472.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 61103] &gt;gi|432258742|gb|ELL14023.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 97020] &gt;gi|432259936|gb|ELL15205.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 69096] &gt;gi|432264340|gb|ELL19544.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3652] &gt;gi|432265677|gb|ELL20869.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3642] &gt;gi|432265877|gb|ELL21068.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2007056] &gt;gi|432270593|gb|ELL25729.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2001212] &gt;gi|432272290|gb|ELL27401.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 70030] &gt;gi|432272819|gb|ELL27924.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 77221] &gt;gi|432276572|gb|ELL31628.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 63006] &gt;gi|485273820|gb|EOB40445.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 69176] &gt;gi|485273898|gb|EOB40518.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 70021] &gt;gi|485273933|gb|EOB40550.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 69155] &gt;gi|485280267|gb|EOB46462.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 96060] &gt;gi|485280919|gb|EOB47069.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2000080] &gt;gi|485281047|gb|EOB47188.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 94018] &gt;gi|485287110|gb|EOB52876.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 75689] &gt;gi|485287502|gb|EOB53241.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 75643] &gt;gi|485287955|gb|EOB53661.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 69100] &gt;gi|485293658|gb|EOB58992.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 97018] &gt;gi|485294192|gb|EOB59490.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 63023] &gt;gi|485294566|gb|EOB59841.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 61106] &gt;gi|485300767|gb|EOB65634.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 70082] &gt;gi|485300996|gb|EOB65840.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 65012] &gt;gi|485301532|gb|EOB66339.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 64182] &gt;gi|485308065|gb|EOB72435.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 97027] &gt;gi|485308181|gb|EOB72533.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 96024] &gt;gi|485308706|gb|EOB73031.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 97008] &gt;gi|485313317|gb|EOB77362.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 98005] &gt;gi|485315004|gb|EOB78924.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2004085] &gt;gi|485315409|gb|EOB79310.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2003022] &gt;gi|485320048|gb|EOB83673.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2000063] &gt;gi|485321765|gb|EOB85242.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM604] &gt;gi|485322198|gb|EOB85648.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2002007] &gt;gi|485326753|gb|EOB89912.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM606] &gt;gi|485328861|gb|EOB91869.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM607] &gt;gi|485332462|gb|EOB95229.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM43] &gt;gi|485335893|gb|EOB98425.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM82] &gt;gi|485336187|gb|EOB98699.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM94] &gt;gi|485338816|gb|EOC01168.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM95] &gt;gi|485342381|gb|EOC04490.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM313] &gt;gi|485343210|gb|EOC05253.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM1482] &gt;gi|485345551|gb|EOC07441.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM1495] &gt;gi|485349355|gb|EOC10988.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 73696] &gt;gi|485349496|gb|EOC11115.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 73704] &gt;gi|485352575|gb|EOC13987.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 81858] &gt;gi|485355067|gb|EOC16312.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2002020] &gt;gi|485357030|gb|EOC18105.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM477] &gt;gi|485359509|gb|EOC20348.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis M13265] &gt;gi|485361622|gb|EOC22264.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3147] &gt;gi|485365078|gb|EOC25386.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2001072] &gt;gi|485366520|gb|EOC26733.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2001073] &gt;gi|485368344|gb|EOC28450.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2000081] &gt;gi|485371494|gb|EOC31379.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2001001] &gt;gi|485373606|gb|EOC33337.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2004032] &gt;gi|485374756|gb|EOC34419.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2001213] &gt;gi|485377689|gb|EOC37164.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2004264] &gt;gi|485380570|gb|EOC39860.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2000175] &gt;gi|485380752|gb|EOC40028.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2005079] &gt;gi|485384637|gb|EOC43676.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2001068] &gt;gi|485387086|gb|EOC45950.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2005040] &gt;gi|485387287|gb|EOC46136.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2002004] &gt;gi|485405633|gb|EOC63230.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3042] &gt;gi|485419233|gb|EOC75849.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM51] &gt;gi|485422140|gb|EOC78564.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM80] &gt;gi|485425278|gb|EOC81467.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM165] &gt;gi|485425677|gb|EOC81837.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3223] &gt;gi|485429929|gb|EOC85718.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM23] &gt;gi|485430475|gb|EOC86196.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM32] &gt;gi|485434892|gb|EOC90201.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM35] &gt;gi|485436330|gb|EOC91527.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM36] &gt;gi|514069231|gb|EPF54158.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM134] &gt;gi|514069508|gb|EPF54418.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2007461] &gt;gi|530899034|gb|EQC97801.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3141] &gt;gi|530899115|gb|EQC97877.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2002030] &gt;gi|530914110|gb|EQD11953.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM1476] &gt;gi|530920661|gb|EQD18122.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3173] &gt;gi|610427438|gb|AHW76314.1| potassium transporter peripheral membrane protein [Neisseria meningitidis] &gt;gi|694192312|gb|KGI97589.1| potassium transporter peripheral membrane component [Neisseria meningitidis] &gt;gi|723270372|gb|KHC97564.1| potassium transporter peripheral membrane component [Neisseria meningitidis] &gt;gi|723273970|gb|KHD01154.1| potassium transporter peripheral membrane component [Neisseria meningitidis] &gt;gi|726975656|gb|KHF23077.1| potassium transporter peripheral membrane component [Neisseria meningitidis] &gt;gi|730570996|gb|AIZ18798.1| potassium transporter peripheral membrane component [Neisseria meningitidis] &gt;gi|730573559|gb|AIZ20961.1| potassium transporter peripheral membrane component [Neisseria meningitidis M7124] &gt;gi|730575894|gb|AIZ22843.1| potassium transporter peripheral membrane component [Neisseria meningitidis] &gt;gi|730578364|gb|AIZ24811.1| potassium transporter peripheral membrane component [Neisseria meningitidis] &gt;gi|730579664|gb|AIZ25645.1| potassium transporter peripheral membrane component [Neisseria meningitidis] &gt;gi|743394499|gb|KID54037.1| potassium transporter peripheral membrane protein [Neisseria meningitidis LNP27256] &gt;gi|744799059|gb|AJC63847.1| potassium transporter peripheral membrane protein [Neisseria meningitidis LNP21362] &gt;gi|747188000|gb|KIF91587.1| potassium transporter peripheral membrane component [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002212772</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>945.266</Hsp_bit-score>
+      <Hsp_score>2442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>469</Hsp_identity>
+      <Hsp_positive>469</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|504395071|ref|WP_014582173.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria meningitidis] &gt;gi|385855645|ref|YP_005902158.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis M01-240355] &gt;gi|325204586|gb|ADZ00040.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis M01-240355]</Hit_def>
+  <Hit_accession>WP_014582173</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>943.34</Hsp_bit-score>
+      <Hsp_score>2437</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>468</Hsp_identity>
+      <Hsp_positive>468</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPTPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVP PQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|488183141|ref|WP_002254349.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis] &gt;gi|485329166|gb|EOB92152.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM133]</Hit_def>
+  <Hit_accession>WP_002254349</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>942.954</Hsp_bit-score>
+      <Hsp_score>2436</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>468</Hsp_identity>
+      <Hsp_positive>468</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRPGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVR GTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|501178713|ref|WP_012221889.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria meningitidis] &gt;gi|161870465|ref|YP_001599637.1| potassium transporter peripheral membrane protein [Neisseria meningitidis 053442] &gt;gi|385338409|ref|YP_005892282.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis WUE 2594] &gt;gi|161596018|gb|ABX73678.1| potassium uptake protein [Neisseria meningitidis 053442] &gt;gi|254670063|emb|CBA04915.1| potassium uptake protein TrkA [Neisseria meningitidis alpha153] &gt;gi|319410823|emb|CBY91213.1| Trk system potassium uptake protein trkA homolog K(+)-uptake protein trkA homolog [Neisseria meningitidis WUE 2594]</Hit_def>
+  <Hit_accession>WP_012221889</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>942.954</Hsp_bit-score>
+      <Hsp_score>2436</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>468</Hsp_identity>
+      <Hsp_positive>469</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>VKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>+KILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|488188358|ref|WP_002259566.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis] &gt;gi|485398293|gb|EOC56410.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2003051]</Hit_def>
+  <Hit_accession>WP_002259566</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>942.184</Hsp_bit-score>
+      <Hsp_score>2434</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>468</Hsp_identity>
+      <Hsp_positive>468</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRSRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECR RRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488145543|ref|WP_002216751.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria meningitidis] &gt;gi|385341509|ref|YP_005895380.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis M01-240149] &gt;gi|385857652|ref|YP_005904164.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis NZ-05/33] &gt;gi|325128655|gb|EGC51523.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis N1568] &gt;gi|325130650|gb|EGC53391.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis OX99.30304] &gt;gi|325136724|gb|EGC59324.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis M0579] &gt;gi|325144829|gb|EGC67117.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis M01-240013] &gt;gi|325201715|gb|ADY97169.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis M01-240149] &gt;gi|325208541|gb|ADZ03993.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis NZ-05/33] &gt;gi|402330826|gb|EJU66170.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis 98008] &gt;gi|402342545|gb|EJU77705.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis NM3001] &gt;gi|432208912|gb|ELK64884.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 97021] &gt;gi|432215213|gb|ELK71103.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2006087] &gt;gi|432219242|gb|ELK75090.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2002038] &gt;gi|432223747|gb|ELK79526.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 97014] &gt;gi|485391927|gb|EOC50423.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2005172] &gt;gi|485393568|gb|EOC51988.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 2008223] &gt;gi|514069735|gb|EPF54623.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 98002] &gt;gi|530899373|gb|EQC98121.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis 96037] &gt;gi|530905236|gb|EQD03615.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3139] &gt;gi|530906251|gb|EQD04560.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM045] &gt;gi|530907473|gb|EQD05709.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM151] &gt;gi|530910975|gb|EQD09015.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM003] &gt;gi|530914491|gb|EQD12316.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM0552] &gt;gi|530916885|gb|EQD14577.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM518] &gt;gi|530921830|gb|EQD19210.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3230] &gt;gi|530923050|gb|EQD20352.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM2866] &gt;gi|663090966|gb|KER39246.1| trkA-C domain protein [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002216751</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>942.184</Hsp_bit-score>
+      <Hsp_score>2434</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>468</Hsp_identity>
+      <Hsp_positive>468</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|489810783|ref|WP_003714638.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria lactamica] &gt;gi|309378252|emb|CBX23114.1| unnamed protein product [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003714638</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>940.643</Hsp_bit-score>
+      <Hsp_score>2430</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>467</Hsp_identity>
+      <Hsp_positive>467</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVNREIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLV R IADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|645204428|ref|WP_025459542.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_025459542</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>940.258</Hsp_bit-score>
+      <Hsp_score>2429</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>467</Hsp_identity>
+      <Hsp_positive>467</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGTDCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDG DCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|504388387|ref|WP_014575489.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria meningitidis] &gt;gi|385328891|ref|YP_005883194.1| potassium uptake protein [Neisseria meningitidis alpha710] &gt;gi|254673289|emb|CBA08388.1| potassium uptake protein TrkA [Neisseria meningitidis alpha275] &gt;gi|308389743|gb|ADO32063.1| potassium uptake protein [Neisseria meningitidis alpha710]</Hit_def>
+  <Hit_accession>WP_014575489</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>940.258</Hsp_bit-score>
+      <Hsp_score>2429</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>467</Hsp_identity>
+      <Hsp_positive>468</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>VKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>+KILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|488159562|ref|WP_002230770.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria meningitidis] &gt;gi|372200550|gb|EHP14611.1| Trk system potassium uptake protein TrkA [Neisseria meningitidis NM220] &gt;gi|485398933|gb|EOC56995.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM271] &gt;gi|485399516|gb|EOC57531.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM115] &gt;gi|485400844|gb|EOC58773.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM90] &gt;gi|485411621|gb|EOC68791.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3131] &gt;gi|485412708|gb|EOC69779.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3158] &gt;gi|485413744|gb|EOC70745.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3144] &gt;gi|485414829|gb|EOC71767.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM3164] &gt;gi|485418928|gb|EOC75574.1| pyridine nucleotide-disulfide oxidoreductase family protein [Neisseria meningitidis NM27]</Hit_def>
+  <Hit_accession>WP_002230770</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>939.488</Hsp_bit-score>
+      <Hsp_score>2427</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>467</Hsp_identity>
+      <Hsp_positive>467</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRSRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECR RRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488170626|ref|WP_002241834.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria meningitidis] &gt;gi|402340278|gb|EJU75481.1| trk family potassium transporter, NAD+ binding protein [Neisseria meningitidis NM2795]</Hit_def>
+  <Hit_accession>WP_002241834</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>937.947</Hsp_bit-score>
+      <Hsp_score>2423</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>466</Hsp_identity>
+      <Hsp_positive>466</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPSRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGTDCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIP RIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDG DCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|393291584|emb|CCI73219.1|</Hit_id>
+  <Hit_def>Trk system potassium uptake protein trkA K(+)-uptake protein trkA [Neisseria meningitidis alpha704]</Hit_def>
+  <Hit_accession>CCI73219</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>936.406</Hsp_bit-score>
+      <Hsp_score>2419</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>465</Hsp_identity>
+      <Hsp_positive>466</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>VKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPSRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGTDCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>+KILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIP RIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDG DCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|518103425|ref|WP_019273633.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273633</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>936.021</Hsp_bit-score>
+      <Hsp_score>2418</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>465</Hsp_identity>
+      <Hsp_positive>465</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVNREIADIAQDLPDGADCQICAVYRNNRLIVPTPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLV R IADIAQDLPDGADCQICAVYRNNRLIVP PQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|489805212|ref|WP_003709086.1|</Hit_id>
+  <Hit_def>MULTISPECIES: potassium transporter peripheral membrane protein [Neisseria] &gt;gi|269209220|gb|EEZ75675.1| potassium transporter peripheral membrane component [Neisseria lactamica ATCC 23970] &gt;gi|296839143|gb|EFH23081.1| potassium transporter peripheral membrane component [Neisseria polysaccharea ATCC 43768] &gt;gi|673469175|gb|KFJ35805.1| ketopantoate reductase PanE/ApbA family protein [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003709086</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>934.48</Hsp_bit-score>
+      <Hsp_score>2414</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>464</Hsp_identity>
+      <Hsp_positive>465</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVNREIADIARDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAATENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLV R IADIA+DLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAA ENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|503213979|ref|WP_013448640.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria lactamica] &gt;gi|313667997|ref|YP_004048281.1| potassium uptake protein [Neisseria lactamica 020-06] &gt;gi|313005459|emb|CBN86894.1| potassium uptake protein [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448640</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>934.48</Hsp_bit-score>
+      <Hsp_score>2414</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>463</Hsp_identity>
+      <Hsp_positive>465</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGNGQVGSTVAQNLAAIPNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVNREIADIARDLPDGADCQICAVYRNNRLIVPTPQTIIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILGNGQVGSTVAQNLAAI NNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLV R IADIA+DLPDGADCQICAVYRNNRLIVP PQT+IIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|489859275|ref|WP_003762926.1|</Hit_id>
+  <Hit_def>MULTISPECIES: potassium transporter peripheral membrane protein [Neisseriaceae] &gt;gi|339887436|gb|EGQ76992.1| Trk family potassium (K+) transporter, NAD+ binding protein [Neisseria macacae ATCC 33926] &gt;gi|385700065|gb|EIG30322.1| putative Trk system potassium uptake protein TrkA [Neisseria sicca VK64] &gt;gi|742693907|gb|KIC06431.1| potassium transporter peripheral membrane protein [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_003762926</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>798.505</Hsp_bit-score>
+      <Hsp_score>2061</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>386</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTVAQNLASVSSNDVTVIDIDEKALQHIGSRLDVQTILGNGASPFILEQAGAADSDLLLALTRSDETNIVACKIAADLFNIPSRIARVRSSEYLEYPYPENDDTENGSLTVFDITETISPEQLVTEQLVGLLSYTSALQVLRFAGDKVRMVIVQARKGGLLVNREIADINQHLPEGADCQICAIYRNNRLIVPTPQTVIIEGDEVLFAADISSVNIIMRELRPKEARTRRIMIAGGGNIGYRLAKQLESKYDIKIVEHNPRRAEWLAENLDNTLVLQGSATDETLLDEEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVVTIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPLRRGTAEAIEVVVHGDKNTSAIVGRRISGIKWPGDCYIAAIVRAETGEVIMGHHTDTIVQDGDHIIFFVSRRRVLPELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGSTVAQNLA++++NDVTVIDIDEKALQ  GSRLDVQT+ GNGASPF LE+AGA D+DLLLAL+RSDETNIVACK+AADLFNIP RIARVRSSEYLEY  P+ ++ ENGSL++F ITETISPEQLVTEQL GL+    ALQVLRFA D+VRMVI+QAR+GGLLV R IADI Q LP+GADCQICA+YRNNRLIVP PQTVIIEGDE+LFAA   ++  ++ ELRPKE  TRRIMIAGGGNIGYRLAKQLE  Y++KI+E  PRRAEW+AENLDNTLVLQGSATDETLLD EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRV+ IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHP+RRGTAEAIEVV HGDK TSAI+GRRISGIKWP  C+IAA+VRA TGE IMGHHT+T++QDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|489837029|ref|WP_003740742.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria mucosa] &gt;gi|288568223|gb|EFC89783.1| potassium transporter peripheral membrane component [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003740742</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>797.349</Hsp_bit-score>
+      <Hsp_score>2058</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>426</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTVAQNLASVSSNDVTVIDIDEKALQHIGSRLDVQTILGNGASPFILEQAGAADSDLLLALTRSDETNIVACKIAADLFNIPSRIARVRSSEYLEYPYPENDDTENGSLTVFDITETISPEQLVTEQLVGLLSYTSALQVLRFADDKVRMIIVQARKGGLLVNREIADINQHLPEGVDCQICAIYRNNRLIVPTPQTVIIEGDEVLFAADTNSVNTIMRELRPKEARTRRIMIAGGGNIGYRLAKQLESKYDIKIVEYNPRRAEWLAENLDNTLVLQGNATDETLLDEEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVVTIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPLRRGTAEAIEVVVHGDKNTSAIVGRRISGIKWPGDCYIAAIVRAETGEVIMGHHTDVLVQDGDHIIFFVSRRRVLPELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGSTVAQNLA++++NDVTVIDIDEKALQ  GSRLDVQT+ GNGASPF LE+AGA D+DLLLAL+RSDETNIVACK+AADLFNIP RIARVRSSEYLEY  P+ ++ ENGSL++F ITETISPEQLVTEQL GL+    ALQVLRFADD+VRM+I+QAR+GGLLV R IADI Q LP+G DCQICA+YRNNRLIVP PQTVIIEGDE+LFAA   ++  ++ ELRPKE  TRRIMIAGGGNIGYRLAKQLE  Y++KI+E  PRRAEW+AENLDNTLVLQG+ATDETLLD EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRV+ IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHP+RRGTAEAIEVV HGDK TSAI+GRRISGIKWP  C+IAA+VRA TGE IMGHHT+ ++QDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|489851677|ref|WP_003755354.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria sicca] &gt;gi|255050616|gb|EET46080.1| potassium transporter peripheral membrane component [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>WP_003755354</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>797.349</Hsp_bit-score>
+      <Hsp_score>2058</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>385</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTVAQNLASVSSNDVTVIDIDEKALQHIGSRLDVQTILGNGASPFILEQAGAADSDLLLALTRSDETNIVACKIAADLFNIPSRIARVRSSEYLEYPYPENDDTENGSLTVFDITETISPEQLVTEQLVGLLSYTSALQVLRFAGDKVRMVIVQARKGGLLVNREIADINQHLPEGADCQICAIYRNNRLIVPTPQTVIIEGDEVLFAADISSVNIIMRELRPKEARTRRIMIAGGGNIGYRLAKQLESKYDIKIVEHNPRRAEWLAENLDNTLVLQGSATDETLLDEEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVVTIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPLRRGSAEAIEVVVHGDKNTSAIVGRRISGIKWPGDCYIAAIVRAETGEVIMGHHTDTIVQDGDHIIFFVSRRRVLPELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGSTVAQNLA++++NDVTVIDIDEKALQ  GSRLDVQT+ GNGASPF LE+AGA D+DLLLAL+RSDETNIVACK+AADLFNIP RIARVRSSEYLEY  P+ ++ ENGSL++F ITETISPEQLVTEQL GL+    ALQVLRFA D+VRMVI+QAR+GGLLV R IADI Q LP+GADCQICA+YRNNRLIVP PQTVIIEGDE+LFAA   ++  ++ ELRPKE  TRRIMIAGGGNIGYRLAKQLE  Y++KI+E  PRRAEW+AENLDNTLVLQGSATDETLLD EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRV+ IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHP+RRG+AEAIEVV HGDK TSAI+GRRISGIKWP  C+IAA+VRA TGE IMGHHT+T++QDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|738619645|ref|WP_036529349.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>WP_036529349</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>796.964</Hsp_bit-score>
+      <Hsp_score>2057</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>385</Hsp_identity>
+      <Hsp_positive>426</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTVAQNLASVSSNDVTVIDIDEKALQHIGSRLDVQTILGNGASPFILEQAGAADSDLLLALTRSDETNIVACKIAADLFNIPSRIARVRSSEYLEYPYPENDDTENGSLTVFDITETISPEQLVTEQLVGLLSYTSALQVLRFAGDKVRMVIVQARKGGLLVNREIADINQHLPEGADCQICAIYRNNRLIVPTPQTVIIEGDEVLFAADISSVNIIMRELRPKEARTRRIMIAGGGNIGYRLAKQLESKYDIKIVEHNPRRAEWLAENLDNTLVLQGSATDETLLDEEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVVTIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPLRRGTAEAIEVVVHGDKNTSAIVGRRISGIKWPGDCYIAAIVRAETSEVIMGHHTDTIVQDGDHIIFFVSRRRVLPELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGSTVAQNLA++++NDVTVIDIDEKALQ  GSRLDVQT+ GNGASPF LE+AGA D+DLLLAL+RSDETNIVACK+AADLFNIP RIARVRSSEYLEY  P+ ++ ENGSL++F ITETISPEQLVTEQL GL+    ALQVLRFA D+VRMVI+QAR+GGLLV R IADI Q LP+GADCQICA+YRNNRLIVP PQTVIIEGDE+LFAA   ++  ++ ELRPKE  TRRIMIAGGGNIGYRLAKQLE  Y++KI+E  PRRAEW+AENLDNTLVLQGSATDETLLD EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRV+ IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHP+RRGTAEAIEVV HGDK TSAI+GRRISGIKWP  C+IAA+VRA T E IMGHHT+T++QDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|348611048|gb|EGY60720.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF1028_01234 [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>EGY60720</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>795.038</Hsp_bit-score>
+      <Hsp_score>2052</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>384</Hsp_identity>
+      <Hsp_positive>426</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>VKILILGSGQVGSTVAQNLASVSSNDVTVIDIDEKALQHIGSRLDVQTILGNGASPFILEQAGAADSDLLLALTRSDETNIVACKIAADLFNIPSRIARVRSSEYLEYPYPENDDTENGSLTVFDITETISPEQLVTEQLVGLLSYTSALQVLRFAGDKVRMVIVQARKGGLLVNREIADINQHLPEGADCQICAIYRNNRLIVPTPQTVIIEGDEVLFAADISSVNIIMRELRPKEARTRRIMIAGGGNIGYRLAKQLESKYDIKIVEHNPRRAEWLAENLDNTLVLQGSATDETLLDEEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVVTIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPLRRGTAEAIEVVVHGDKNTSAIVGRRISGIKWPGDCYIAAIVRAETSEVIMGHHTDTIVQDGDHIIFFVSRRRVLPELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>+KILILG+GQVGSTVAQNLA++++NDVTVIDIDEKALQ  GSRLDVQT+ GNGASPF LE+AGA D+DLLLAL+RSDETNIVACK+AADLFNIP RIARVRSSEYLEY  P+ ++ ENGSL++F ITETISPEQLVTEQL GL+    ALQVLRFA D+VRMVI+QAR+GGLLV R IADI Q LP+GADCQICA+YRNNRLIVP PQTVIIEGDE+LFAA   ++  ++ ELRPKE  TRRIMIAGGGNIGYRLAKQLE  Y++KI+E  PRRAEW+AENLDNTLVLQGSATDETLLD EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRV+ IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHP+RRGTAEAIEVV HGDK TSAI+GRRISGIKWP  C+IAA+VRA T E IMGHHT+T++QDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|489774159|ref|WP_003678057.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria cinerea] &gt;gi|269144571|gb|EEZ70989.1| potassium transporter peripheral membrane component [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003678057</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>793.497</Hsp_bit-score>
+      <Hsp_score>2048</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>395</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTIAQNLAATPSNDVTVIDIDEKALQKINGRLDVQTVVGNGASPLTLERAGAADADLLLALTRNDETNIVACKVAADLFNIPGRIARVRSSEYIEYSNPKIEENENGSLSIFGITETISPEQLVTEQLAGLLNYTSALQVLNFADDKVRMVIVQARQGGLLVNREIADITQHLPENADCQICAIYRNNRLIVPMPQTVIIEGDEILFAAATDSVNTIMRELRPKEARTRRIMIAGGGNIGYRLAKQLESKYDIKIIEYNPRRAEWIAENLDNTLVLQGSATDETLLDDEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVVTIVNRSSYVNLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPLRRGTAEAIEAVVHGDTSTSAIVGRRITDIKWPSGCHIAAIVRAETGEVVMGHHTETCIQDGDHIIFFVSRRRVLKELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGST+AQNLAA  +NDVTVIDIDEKALQ+   RLDVQTV GNGASP TLERAGA DADLLLAL+R+DETNIVACKVAADLFNIPGRIARVRSSEY+EY +PK+E NENGSLSIFGITETISPEQLVTEQLAGL++   ALQVL FADD+VRMVI+QAR+GGLLV R IADI Q LP+ ADCQICA+YRNNRLIVP PQTVIIEGDEILFAAA +++  ++ ELRPKE  TRRIMIAGGGNIGYRLAKQLE  Y++KIIE  PRRAEWIAENLDNTLVLQGSATDETLLD+EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRV+ IVNRSSYV+LLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHP+RRGTAEAIE V HGD  TSAI+GRRI+ IKWP GCHIAA+VRA TGE +MGHHTET IQDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|515030466|ref|WP_016687720.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016687720</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>792.341</Hsp_bit-score>
+      <Hsp_score>2045</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTVAQNLASVSSNDVTVIDINEKALQHIGSRLDVQTILGNGASPFILEQADAADSDLLLALTRSDETNIVACKIAADLFNIPSRIARVRSSEYLEYPYPENGDTENGSLTVFDITETISPEQLVTEQLVGLLSYTSALQVLRFADDKVRMVIVQARKGGLLVNREIAEINQHLPEGVDCQICAIYRNNRLIVPTPQTVIIEGDEVLFAADTNSVNTIMRELRPKEARTRRIMIAGGGNIGYRLAKQLESKYDIKIVEYNPRRAEWLAENLDNTLVLQGNATDETLLDEEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVVTIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPLRRGTAEAIEVVVHGDKNTSAIVGRRISGIKWPGDCYIAAIVRAETGEVIMGHHTDTIVQDGDHIIFFVSRRRVLPELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGSTVAQNLA++++NDVTVIDI+EKALQ  GSRLDVQT+ GNGASPF LE+A A D+DLLLAL+RSDETNIVACK+AADLFNIP RIARVRSSEYLEY  P+  + ENGSL++F ITETISPEQLVTEQL GL+    ALQVLRFADD+VRMVI+QAR+GGLLV R IA+I Q LP+G DCQICA+YRNNRLIVP PQTVIIEGDE+LFAA   ++  ++ ELRPKE  TRRIMIAGGGNIGYRLAKQLE  Y++KI+E  PRRAEW+AENLDNTLVLQG+ATDETLLD EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRV+ IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHP+RRGTAEAIEVV HGDK TSAI+GRRISGIKWP  C+IAA+VRA TGE IMGHHT+T++QDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|489781537|ref|WP_003685428.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria flavescens] &gt;gi|241319435|gb|EER55865.1| potassium transporter peripheral membrane component [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003685428</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>786.949</Hsp_bit-score>
+      <Hsp_score>2031</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>421</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTVAQNLASVPSNDVTIIDIDEKALNRISSRLDVQTIVGNGASPFTLEQAGAADSDLLLALTRSDETNIVASKIAADLFNIPSRIARVRSSEYLEYPVAGSDKPEEGSLNIFGITETISPEQLVTEQLVGLLNYTSSLQVLSFANDQVRMVIVQARKGGLLIGREITDINQHLPEGVDCQICAVYRNNRLIVPTPQTVIIEGDEVLFAADINSVEAIMRELRPKEARTRRIMIAGGGNIGYRLAKQLESKYDIKIIEYKPHRAEWLAENLDNTLVLQGSATDETLLDEEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVITIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPLRRGTAEAIEVVVHGDKNTSAIVGRRISGIKWPSDCHIAAIVRGETGEVIMGHHTETILQDGDHIIFFVSRRRVLPELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGSTVAQNLA++ +NDVT+IDIDEKAL    SRLDVQT+ GNGASPFTLE+AGA D+DLLLAL+RSDETNIVA K+AADLFNIP RIARVRSSEYLEY     +  E GSL+IFGITETISPEQLVTEQL GL++   +LQVL FA+D+VRMVI+QAR+GGLL+GR I DI Q LP+G DCQICAVYRNNRLIVP PQTVIIEGDE+LFAA   ++ A++ ELRPKE  TRRIMIAGGGNIGYRLAKQLE  Y++KIIE +P RAEW+AENLDNTLVLQGSATDETLLD EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRVI IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHP+RRGTAEAIEVV HGDK TSAI+GRRISGIKWP  CHIAA+VR  TGE IMGHHTET++QDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|489842509|ref|WP_003746208.1|</Hit_id>
+  <Hit_def>MULTISPECIES: potassium transporter peripheral membrane protein [Neisseria] &gt;gi|284795913|gb|EFC51260.1| potassium transporter peripheral membrane component [Neisseria subflava NJ9703] &gt;gi|317400631|gb|EFV81288.1| potassium uptake protein [Neisseria mucosa C102] &gt;gi|694241443|gb|KGJ32310.1| potassium transporter peripheral membrane component [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_003746208</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>785.023</Hsp_bit-score>
+      <Hsp_score>2026</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>422</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTVAQNLASVPSNDVTIIDIDEKALNRISSRLDVQTIVGNGASPFTLEQAGAADSDLLLALTRSDETNIVASKIAADLFNIPSRIARVRSSEYLEYPVDGSDNPEEGSLNIFGITETISPEQLVTEQLVGLLNYTSSLQVLSFANDKVRMVIVQARKGGLLIGREIADINQHLLEGVDCQICAIYRNNRLIVPTPQTVIIEGDEVLFAADINSVEAIMRELRPKEARTRRIMIAGGGNIGYRLAKQLESKYDIKIIEYKPHRAEWLAENLDNTLVLQGSATDETLLDEEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVITIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPLRRGTAEAIEVVVHGDKNTSAIVGRRISGIKWPSDCYIAAIVRGATGEVIMGHHTETILQDGDHIIFFVSRRRVLPELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGSTVAQNLA++ +NDVT+IDIDEKAL    SRLDVQT+ GNGASPFTLE+AGA D+DLLLAL+RSDETNIVA K+AADLFNIP RIARVRSSEYLEY     +N E GSL+IFGITETISPEQLVTEQL GL++   +LQVL FA+D+VRMVI+QAR+GGLL+GR IADI Q L +G DCQICA+YRNNRLIVP PQTVIIEGDE+LFAA   ++ A++ ELRPKE  TRRIMIAGGGNIGYRLAKQLE  Y++KIIE +P RAEW+AENLDNTLVLQGSATDETLLD EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRVI IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHP+RRGTAEAIEVV HGDK TSAI+GRRISGIKWP  C+IAA+VR  TGE IMGHHTET++QDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|489775734|ref|WP_003679628.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria flavescens] &gt;gi|224953184|gb|EEG34393.1| potassium transporter peripheral membrane component [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>WP_003679628</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>783.097</Hsp_bit-score>
+      <Hsp_score>2021</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>420</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTVAQNLASVPSNDVTIIDIDEKALNRISSRLDVQTIVGNGASPFTLEQAGAADSDLLLALTRSDETNIVASKIAADLFNIPSRIARVRSSEYLEYPVDGSDKPEEGSLNIFGITETISPEQLVTEQLVGLLSYTSALQVLSFANDQVRMVIVQARKGGLLIGREIADINQHLLEGVDCQICAIYRNNRLIVPTPQTVIIEGDEVLFAADINSVEAIMRELRPKEARTRRIMIAGGGNIGYRLAKQLESKYDIKIIEYKPHRAEWLAENLDNTLVLQGSATDETLLDEEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVITIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAIHPLRRGTAEAIEVVVHGDKNTSAIVGRRISGIKWPSDCHIAAIVRGETGEVIMGHHTETILQDGDHIIFFVSRRRVLPELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGSTVAQNLA++ +NDVT+IDIDEKAL    SRLDVQT+ GNGASPFTLE+AGA D+DLLLAL+RSDETNIVA K+AADLFNIP RIARVRSSEYLEY     +  E GSL+IFGITETISPEQLVTEQL GL+    ALQVL FA+D+VRMVI+QAR+GGLL+GR IADI Q L +G DCQICA+YRNNRLIVP PQTVIIEGDE+LFAA   ++ A++ ELRPKE  TRRIMIAGGGNIGYRLAKQLE  Y++KIIE +P RAEW+AENLDNTLVLQGSATDETLLD EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRVI IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVA+HP+RRGTAEAIEVV HGDK TSAI+GRRISGIKWP  CHIAA+VR  TGE IMGHHTET++QDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|728046814|ref|WP_033912449.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component, partial [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_033912449</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>760.37</Hsp_bit-score>
+      <Hsp_score>1962</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>375</Hsp_identity>
+      <Hsp_positive>375</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>PGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>PGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRSRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>PGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECR RRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.422637</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>KILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTL-ERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLI---DCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYR---NNRLIVPAPQTVIIEGDEILFAAAAENI</Hsp_qseq>
+      <Hsp_hseq>RIMIAGGGNIGYRLAKQLEHAYN--VKIIECRSRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNL-GAKRVIGIVNRSSYVDL----LEGNK--------IDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGI--KWPEG--CHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRI</Hsp_hseq>
+      <Hsp_midline>+I+I G G +G  +A+ L    N  V +I+   +  +     LD   V    A+  TL +    ++ D+  AL+  DE+NI++  +A +L      I  V  S Y++     LE N+        I   +SP  +    +   I   D      + R   + + +V    ++   ++GR I+ I    P+G  C I AV R      ++    +TVI +GD I+F  +   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|485405917|gb|EOC63488.1|</Hit_id>
+  <Hit_def>NAD(P)-binding family protein, partial [Neisseria meningitidis NM3222]</Hit_def>
+  <Hit_accession>EOC63488</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>758.444</Hsp_bit-score>
+      <Hsp_score>1957</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>375</Hsp_identity>
+      <Hsp_positive>375</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>PGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>PGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRSRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>PGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECR RRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRA TGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.302539</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>KILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTL-ERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLI---DCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYR---NNRLIVPAPQTVIIEGDEILFAAAAENI</Hsp_qseq>
+      <Hsp_hseq>RIMIAGGGNIGYRLAKQLEHAYN--VKIIECRSRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNL-GAKRVIGIVNRSSYVDL----LEGNK--------IDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGI--KWPEG--CHIAAVVRAETGETIMGHHTETVIQDGDHIIFFVSRRRI</Hsp_hseq>
+      <Hsp_midline>+I+I G G +G  +A+ L    N  V +I+   +  +     LD   V    A+  TL +    ++ D+  AL+  DE+NI++  +A +L      I  V  S Y++     LE N+        I   +SP  +    +   I   D      + R   + + +V    ++   ++GR I+ I    P+G  C I AV R      ++    +TVI +GD I+F  +   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|496465025|ref|WP_009173870.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria sp. oral taxon 014] &gt;gi|298283169|gb|EFI24656.1| potassium transporter peripheral membrane component [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009173870</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>743.421</Hsp_bit-score>
+      <Hsp_score>1918</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>410</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>471</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENG-SLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILIIGSGQVGSTVAQNLASSSANDVTIVDLDEKALHRIGSRLDVQTIVGNGASPFVLEQAGAADSDLLLALTRSDETNIVACKIAADLFNIPSRIARVRSAEYLEYLHPSADGGEEADSLSIFDITETISPEQLVTEQLVGLLSYTSALQVLRFSDDRARMVVVQARQGGLLVNKEIAQINEHLPEGADCQICAVYRNNRLIVPSSKTVIIEGDEVFFVASTDSINAIMRELRPNEQHTRRIMIAGGGKIGHRLAKQLENEYDIKIIEYSSSRAEWLAENLDNTLVLQGTATDETLLDEEYIDEIDVFCALTNDDENNIMSSLLAKNRGAKRVITIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDISAVYPLRRGTAEAIEVVVHGDKKTSSIVGRKISDVKWPQGCHFAALVRG--DEVIMAHRGGTVLQDGDHIIFFVSRRRVLRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILI+G+GQVGSTVAQNLA+ + NDVT++D+DEKAL   GSRLDVQT+ GNGASPF LE+AGA D+DLLLAL+RSDETNIVACK+AADLFNIP RIARVRS+EYLEYL P  +  E   SLSIF ITETISPEQLVTEQL GL+    ALQVLRF+DDR RMV++QAR+GGLLV + IA I + LP+GADCQICAVYRNNRLIVP+ +TVIIEGDE+ F A+ ++I A++ ELRP E  TRRIMIAGGG IG+RLAKQLE+ Y++KIIE    RAEW+AENLDNTLVLQG+ATDETLLD EYIDEIDVFCALTNDDE+NIMS+LLAKN GAKRVI IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDI AV+P+RRGTAEAIEVV HGDKKTS+I+GR+IS +KWP+GCH AA+VR    E IM H   TV+QDGDHIIFFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|490410975|ref|WP_004283779.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria weaveri] &gt;gi|343969390|gb|EGV37605.1| Trk system potassium uptake protein TrkA [Neisseria weaveri LMG 5135] &gt;gi|343969629|gb|EGV37840.1| Trk system potassium uptake protein TrkA [Neisseria weaveri ATCC 51223]</Hit_def>
+  <Hit_accession>WP_004283779</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>705.671</Hsp_bit-score>
+      <Hsp_score>1820</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>345</Hsp_identity>
+      <Hsp_positive>396</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTVAQNLAAMPNNDVTIIDIDENALRHLSSRLDVQTIQGNGASPVVLEKAGAGDADLLLALTRSDETNLVACKIAGDLFNIPSRLARVRSSDYLEFATE--DGGVGDALSWFQVTESISPEQLVTERLAGLLSYTSALQVLRFADEKACMVILQAHHGGLLVNKEISQINSHLPDGVDCQISAIYRNNRLIVPTAKTVIVEGDEVCFVAAAENVKVIMRELRPTEHRTRRVMIAGGGNIGYRLAKQMESQYDIKIIEFNHHRAEWLAENLDNALVLNGSATDESLLTEEYIDEIDVFCALTNDDENNIMSSLLAKNLGAKRVITIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHVRRGDVVAVHPLRRGTAEAIEVIVHGDKHTSALVGRRVSDIKWPSGCHFAALVRG--DEVIMGHKENVVMEDGDHIIFFVSRRRVLRELEKLIEVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGSTVAQNLAA+ NNDVT+IDIDE AL+   SRLDVQT+ GNGASP  LE+AGA DADLLLAL+RSDETN+VACK+A DLFNIP R+ARVRSS+YLE+ +   +     +LS F +TE+ISPEQLVTE+LAGL+    ALQVLRFAD++  MVI+QA  GGLLV + I+ I   LPDG DCQI A+YRNNRLIVP  +TVI+EGDE+ F AAAEN+  ++ ELRP E  TRR+MIAGGGNIGYRLAKQ+E  Y++KIIE    RAEW+AENLDN LVL GSATDE+LL  EYIDEIDVFCALTNDDE+NIMS+LLAKNLGAKRVI IVNRSSYVDLLEGNKIDIVVSPHLITIGSILAH+RRGD+VAVHP+RRGTAEAIEV+ HGDK TSA++GRR+S IKWP GCH AA+VR    E IMGH    V++DGDHIIFFVSRRR+L ELEKLI+VKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|496975402|ref|WP_009425087.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Neisseria sp. oral taxon 020] &gt;gi|429166632|gb|EKY08595.1| potassium transporter peripheral membrane component [Neisseria sp. oral taxon 020 str. F0370]</Hit_def>
+  <Hit_accession>WP_009425087</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>662.529</Hsp_bit-score>
+      <Hsp_score>1708</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>385</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTIAQNLAAMPNNDVTIIDTDENALRHIGTQLDVQTIVGNGASPSLLAAAGAGDSDMLLALTRHDETNLAACRIAADLFNIPNRIARVRLADYLEYGG----DEDNSVLEAFAVTDSIHPEQLVTERLSALLSYTSALQVLRFADDKARMAVVQAHNGGLLVNRPIATIGEHLPEGVDCQICAIYRNNRLIVPTAETVVIEGDEVFFLADSRHVKTVMRELRPLEQRTRRVMIAGGGNIGYRLAKQIEKTYDIKIIEHNPQRAEWLAEHLDTSLVLQGSATDENLLSHEYIDEIDVFLALTNDDENNIMASLLAKDLGAKRVITIINRSRYVDLLEGNQIDIVVSPHMITIGNILTHIRPGDVAAVHPLRRGHAEAIEVVVHGTKDTSALVGRRVSDIKWPPGCHIAGLVRG--DEVVMGHKDDVKMQDGDHLIFFVSRRRVLRELEKLIQVKVGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGST+AQNLAA+ NNDVT+ID DE AL+  G++LDVQT+ GNGASP  L  AGA D+D+LLAL+R DETN+ AC++AADLFNIP RIARVR ++YLEY      + +N  L  F +T++I PEQLVTE+L+ L+    ALQVLRFADD+ RM ++QA  GGLLV R IA I + LP+G DCQICA+YRNNRLIVP  +TV+IEGDE+ F A + ++  V+ ELRP E  TRR+MIAGGGNIGYRLAKQ+E  Y++KIIE  P+RAEW+AE+LD +LVLQGSATDE LL +EYIDEIDVF ALTNDDE+NIM++LLAK+LGAKRVI I+NRS YVDLLEGN+IDIVVSPH+ITIG+IL HIR GD+ AVHP+RRG AEAIEVV HG K TSA++GRR+S IKWP GCHIA +VR    E +MGH  +  +QDGDH+IFFVSRRR+L ELEKLIQVK+GFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|739732728|ref|WP_037586070.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Stenoxybacter acetivorans]</Hit_def>
+  <Hit_accession>WP_037586070</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.448</Hsp_bit-score>
+      <Hsp_score>1700</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>390</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIVILGCGQVGSTVAQNLAVIPNNDVTIIDVDENTLKNLSNKLDVQTILGNAASPVILASAGANDADLLLALTRSDETNLVACKIAATLFNVPGCVARIRRSEYLEY-KTGLEDHPT-SLSLFDITESINPEQLVTEQLVGLLKHTGSLQVLRFADDKVRMVVMRATKGGLLVGKPLSDIPAHLPVGVDCQICAVYRNNRLIIPSAQTVLIEGDEVFFLAATDRVSEVMRELRPDGQRTRRVMIAGGGNIGFRLSKQIENDFDIKIIELNPKRAEWLAENLNSTLVLQGSATDESLLENEYIDEIDVFCALTNDDENNIMSGMLAKNRGAKRVMSLINRSSYVDLLEGNTIDIVISPHLITIGSILTHVRQGDIVVVHPLRRGEAEAVEVVIHGDKHTSRLIGRAVEELVLPEGCYVGAVVRG--NEVFMGHKN-TILADGDHLIFFMSRRHAIHELEKLIQVKIGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG GQVGSTVAQNLA I NNDVT+ID+DE  L+   ++LDVQT+ GN ASP  L  AGA DADLLLAL+RSDETN+VACK+AA LFN+PG +AR+R SEYLEY    LE++   SLS+F ITE+I+PEQLVTEQL GL+   G+LQVLRFADD+VRMV+++A +GGLLVG+ ++DI   LP G DCQICAVYRNNRLI+P+ QTV+IEGDE+ F AA + +  V+ ELRP    TRR+MIAGGGNIG+RL+KQ+E+ +++KIIE  P+RAEW+AENL++TLVLQGSATDE+LL+NEYIDEIDVFCALTNDDE+NIMS +LAKN GAKRV+ ++NRSSYVDLLEGN IDIV+SPHLITIGSIL H+R+GDIV VHP+RRG AEA+EVV HGDK TS +IGR +  +  PEGC++ AVVR    E  MGH   T++ DGDH+IFF+SRR  ++ELEKLIQVK+GFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|496408156|ref|WP_009117020.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria wadsworthii] &gt;gi|349791040|gb|EGZ44933.1| Trk family potassium (K+) transporter, NAD+ binding protein [Neisseria wadsworthii 9715]</Hit_def>
+  <Hit_accession>WP_009117020</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>655.21</Hsp_bit-score>
+      <Hsp_score>1689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>317</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>472</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPK--LENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSTIATNLA--QDNDVTIIDVDEQALKKIGSKLDVQTIVGNGASPVVLEMAGAADADLLLAVTRSDETNLLACKIAADVFNIPDRIARVRQSDYMEYALDKDDLEN----SLQIFGVTDSIHPEELVTDRLVALLSYNNALQVLTFADERAKMLVVEAHNGGLLVNKEISEINSHLPEGVDCQICAIYRNNRLIVPSAKTIIIEGDEVCFVADSRYVKTILRELRPLAQPTKRVMIAGGGNIGYRLAKQVENIYDIKIIENRAKRAEWLAENLDNALVLSGSATDENLLAHEYIDEIDVFCALTNDDENNIMSSLLAKDLGARRVLTIINRSRYVDLLEGNQIDTVVSPNLITIGHILAHIRRGDVVAVYPLRRGSAEAIEVVVHGTPETSALVGRRVSEVKWPNGCHFAALVRG--DEVTMGHKEDAVMADGDHIIFFVSRRRVLRELEKLIQVKVGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGST+A NLA   +NDVT+ID+DE+AL++ GS+LDVQT+ GNGASP  LE AGA DADLLLA++RSDETN++ACK+AAD+FNIP RIARVR S+Y+EY   K  LEN    SL IFG+T++I PE+LVT++L  L+    ALQVL FAD+R +M++++A  GGLLV + I++I   LP+G DCQICA+YRNNRLIVP+ +T+IIEGDE+ F A +  +  ++ ELRP    T+R+MIAGGGNIGYRLAKQ+E+ Y++KIIE R +RAEW+AENLDN LVL GSATDE LL +EYIDEIDVFCALTNDDE+NIMS+LLAK+LGA+RV+ I+NRS YVDLLEGN+ID VVSP+LITIG ILAHIRRGD+VAV+P+RRG+AEAIEVV HG  +TSA++GRR+S +KWP GCH AA+VR    E  MGH  + V+ DGDHIIFFVSRRR+L ELEKLIQVK+GFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|496409883|ref|WP_009118747.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria shayeganii] &gt;gi|348013845|gb|EGY52748.1| Trk family potassium (K+) transporter, NAD+ binding protein [Neisseria shayeganii 871]</Hit_def>
+  <Hit_accession>WP_009118747</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>654.44</Hsp_bit-score>
+      <Hsp_score>1687</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>314</Hsp_identity>
+      <Hsp_positive>387</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGATVAQNLAELPHHDVTVIDNNPEALRSISSKLDVQTLAGNGSSPAVMAEGGAYDTDLLLALTRNDESNLVACKLAATLFNIPNRIARVRASEYLEYRGEQAEEDSPSALEVFEVTESICPEQLVTERLIGLLNHPSALQVLKFADDKVRMLVLRAQKGGLLLDKPIHAIHEHLPADVDCQICAIYRNNKLIVPTAQTVILQGDEVFVAAATEHVPAVLRELRPLQQPTRRVMIAGGGNIGYRLAKQLESQFDIKIIEADEKRAEWLAEQLDNTLVLQSSATDESLLSGEYIDEIDVFCALTNDDETNIMSGMLAKSLGAKRVIAIVNRSSYVDLLQGNTIDIVVSPHLVTIGSILAHIRRGDVVAVHPLRGGSTEAVEVVVHGNTDTSKLVGRRIESIRWPSGCHVAAVVRG--DEVFMG-HKDIVLADGDHVILFVSRRRVVRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVG+TVAQNLA + ++DVTVID + +AL+   S+LDVQT+ GNG+SP  +   GA D DLLLAL+R+DE+N+VACK+AA LFNIP RIARVR+SEYLEY   + E +   +L +F +TE+I PEQLVTE+L GL++ P ALQVL+FADD+VRM++++A++GGLL+ + I  I + LP   DCQICA+YRNN+LIVP  QTVI++GDE+  AAA E++ AV+ ELRP +  TRR+MIAGGGNIGYRLAKQLE  +++KIIE   +RAEW+AE LDNTLVLQ SATDE+LL  EYIDEIDVFCALTNDDE+NIMS +LAK+LGAKRVI IVNRSSYVDLL+GN IDIVVSPHL+TIGSILAHIRRGD+VAVHP+R G+ EA+EVV HG+  TS ++GRRI  I+WP GCH+AAVVR    E  MG H + V+ DGDH+I FVSRRR++ ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|750383780|ref|WP_040665692.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Neisseria elongata] &gt;gi|747148077|gb|AJE18460.1| potassium transporter peripheral membrane component [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>WP_040665692</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>654.44</Hsp_bit-score>
+      <Hsp_score>1687</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>313</Hsp_identity>
+      <Hsp_positive>385</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTVAQNLAAMPNNDVTIIDTDENALRNISTRLDVQTIVGNGASPSILQSAGADDCDMLLALTRHDETNLAACRIAADLFNIPNRIARVRLSDYLEFGNEE----ERLVLEAFAVTDSIHPEQLVTERMASLLSYTSALQVLRFADDKARMAVVQAHNGGLLVNQPISLVGKHLPDGVDCQICAIYRNNRLIVPTAETVIIEGDEVFFLADSRHVKTVMRELRPLEQRTRRVMIAGGGNIGYRLAKQVENLYDIKIIEHNPNRAEWLAENLDSSLVLQGSATDENLLSHEYIDEIDVFLALTNDDENNIMASLLAKDLGAKRVITIINRSRYVDLLEGNQIDIVVSPHMMTIGNILTHIRLGDVAAVHPLRRGHAEAVEVIVHGTPETSALVGRRVSEVKWPSGCHFAALVRG--EEVTMGHKGDEKLQDGDHLIFFVSRRRVVRELEKLIQVKVGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGSTVAQNLAA+ NNDVT+ID DE AL+   +RLDVQT+ GNGASP  L+ AGA+D D+LLAL+R DETN+ AC++AADLFNIP RIARVR S+YLE+ + +    E   L  F +T++I PEQLVTE++A L+    ALQVLRFADD+ RM ++QA  GGLLV + I+ + + LPDG DCQICA+YRNNRLIVP  +TVIIEGDE+ F A + ++  V+ ELRP E  TRR+MIAGGGNIGYRLAKQ+E+ Y++KIIE  P RAEW+AENLD++LVLQGSATDE LL +EYIDEIDVF ALTNDDE+NIM++LLAK+LGAKRVI I+NRS YVDLLEGN+IDIVVSPH++TIG+IL HIR GD+ AVHP+RRG AEA+EV+ HG  +TSA++GRR+S +KWP GCH AA+VR    E  MGH  +  +QDGDH+IFFVSRRR++ ELEKLIQVK+GFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|291309221|gb|EFE50464.1|</Hit_id>
+  <Hit_def>TrkA N-terminal domain protein [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>EFE50464</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.358</Hsp_bit-score>
+      <Hsp_score>1679</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>312</Hsp_identity>
+      <Hsp_positive>385</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>VKIIILGSGQVGSTVAQNLAAMPNNDVTIIDTDENALRNISTRLDVQTIVGNGASPSILQSAGADDCDMLLALTRHDETNLAACRIAADLFNIPNRIARVRLSDYLEFGNEE----ERLVLEAFAVTDSIHPEQLVTERMASLLSYTSALQVLRFADDKARMAVVQAHNGGLLVNQPISLVGKHLPDGVDCQICAIYRNNRLIVPTAETVIIEGDEVFFLADSRHVKTVMRELRPLEQRTRRVMIAGGGNIGYRLAKQVENLYDIKIIEHNPNRAEWLAENLDSSLVLQGSATDENLLSHEYIDEIDVFLALTNDDENNIMASLLAKDLGAKRVITIINRSRYVDLLEGNQIDIVVSPHMMTIGNILTHIRLGDVAAVHPLRRGHAEAVEVIVHGTPETSALVGRRVSEVKWPSGCHFAALVRG--EEVTMGHKGDEKLQDGDHLIFFVSRRRVVRELEKLIQVKVGFFG</Hsp_hseq>
+      <Hsp_midline>+KI+ILG+GQVGSTVAQNLAA+ NNDVT+ID DE AL+   +RLDVQT+ GNGASP  L+ AGA+D D+LLAL+R DETN+ AC++AADLFNIP RIARVR S+YLE+ + +    E   L  F +T++I PEQLVTE++A L+    ALQVLRFADD+ RM ++QA  GGLLV + I+ + + LPDG DCQICA+YRNNRLIVP  +TVIIEGDE+ F A + ++  V+ ELRP E  TRR+MIAGGGNIGYRLAKQ+E+ Y++KIIE  P RAEW+AENLD++LVLQGSATDE LL +EYIDEIDVF ALTNDDE+NIM++LLAK+LGAKRVI I+NRS YVDLLEGN+IDIVVSPH++TIG+IL HIR GD+ AVHP+RRG AEA+EV+ HG  +TSA++GRR+S +KWP GCH AA+VR    E  MGH  +  +QDGDH+IFFVSRRR++ ELEKLIQVK+GFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|494578661|ref|WP_007342781.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Neisseria bacilliformis] &gt;gi|327464261|gb|EGF10565.1| Trk family potassium transporter, NAD+ binding protein [Neisseria bacilliformis ATCC BAA-1200]</Hit_def>
+  <Hit_accession>WP_007342781</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>648.662</Hsp_bit-score>
+      <Hsp_score>1672</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>315</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTVAQNLAALPNNDVTVIDTDENALRRTGTQLDVQTITGNGASPAVLAAAGAGDCDLLLALTRHDDTNLAACRIAADLFNIPGRIARVRQSDYLESNG----QSDNRVLDAFAVTDSIHPEQLVTERITALLSYSCALQVLRFAGDKARMAVVQAHSGGLLVGRPIASVNGHLPEGVDCQICAIYRNNRLIVPTADTVIIEGDEVFFLADSRHVKTVMRELRPLENRTRRVMIAGGGNVGYRLAKQVESLYDIKIIEHNPQRAEWLAEHLDTSLVLQGSATDENLLAHEYIDEIDVFLALTNDDENNIMASLLAKDLGAKRIITIINRTRYVDLLEGNQIDIVVSPHMMTIGNILTHIRQGDVAAVHPLRRGHAEAVEVVVHGTKDTSALVGRRVSDIKWPSGAHIAGLVRG--DEVIMGHNDGVKMQDGDHLIFFVSRRRVVRELEKLIQVKVGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGSTVAQNLAA+ NNDVTVID DE AL+ TG++LDVQT+ GNGASP  L  AGA D DLLLAL+R D+TN+ AC++AADLFNIPGRIARVR S+YLE        ++N  L  F +T++I PEQLVTE++  L+    ALQVLRFA D+ RM ++QA  GGLLVGR IA +   LP+G DCQICA+YRNNRLIVP   TVIIEGDE+ F A + ++  V+ ELRP E  TRR+MIAGGGN+GYRLAKQ+E  Y++KIIE  P+RAEW+AE+LD +LVLQGSATDE LL +EYIDEIDVF ALTNDDE+NIM++LLAK+LGAKR+I I+NR+ YVDLLEGN+IDIVVSPH++TIG+IL HIR+GD+ AVHP+RRG AEA+EVV HG K TSA++GRR+S IKWP G HIA +VR    E IMGH+    +QDGDH+IFFVSRRR++ ELEKLIQVK+GFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|736170827|ref|WP_034291786.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Alysiella crassa]</Hit_def>
+  <Hit_accession>WP_034291786</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>640.573</Hsp_bit-score>
+      <Hsp_score>1651</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>311</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>472</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNE--NGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGSAIAHELAAMSNHDITLIDTDEHALRLVSNHLDVQTIVGNGASPILMEQAGAKDTDMLLALTRSDETNLVACKIAADFFNIPNRIARVRSTDYLEYGEPSSDEDDQISGCLNAFGITDSIHPEQLVTEHLAGLLNYVRALQVLPFAHDKVKMVIAQAKSYDQIKHKNIQEINADLPEHTDCQICAIYRNNRLLVPNPDTRIEEGDEICFIVNSLHLEAVMRSMFQYDNSRRRVMIAGGGNIGYRLAKQLENKFNIKLIENSHQRAEWLAENLDNTLVLQGSASDENLLSREYIDEIDVFCAITNDDENNIMSALLAKNLGAKRVISIINRSRYVDLITGNQIDIVVSPHLITIGSVLAHVRRGDIAAVYPLRRGAAEAIEVVVHGDEKTSVLVGRKISDIKFPTGCHIAAIVR--DEEVIMGRNHDHILQENDHLIFFVARRRVLQELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVGS +A  LAA++N+D+T+ID DE AL+   + LDVQT+ GNGASP  +E+AGA+D D+LLAL+RSDETN+VACK+AAD FNIP RIARVRS++YLEY  P  + ++  +G L+ FGIT++I PEQLVTE LAGL++   ALQVL FA D+V+MVI QA+    +  ++I +I  DLP+  DCQICA+YRNNRL+VP P T I EGDEI F   + ++ AV+  +   + S RR+MIAGGGNIGYRLAKQLE+ +N+K+IE   +RAEW+AENLDNTLVLQGSA+DE LL  EYIDEIDVFCA+TNDDE+NIMSALLAKNLGAKRVI I+NRS YVDL+ GN+IDIVVSPHLITIGS+LAH+RRGDI AV+P+RRG AEAIEVV HGD+KTS ++GR+IS IK+P GCHIAA+VR    E IMG + + ++Q+ DH+IFFV+RRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|489920285|ref|WP_003823641.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Eikenella corrodens] &gt;gi|224942549|gb|EEG23758.1| TrkA N-terminal domain protein [Eikenella corrodens ATCC 23834]</Hit_def>
+  <Hit_accession>WP_003823641</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.95</Hsp_bit-score>
+      <Hsp_score>1639</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>303</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>472</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLE--NNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGTAVAQNLVEIPNHDVTIIDNDPEALRNIGSKLDVQTLLGNGSSPAVMAEGGAYDTDLLLALTRHDETNLAACKLASSLFNIPNRIARVRLSDYLEFTGPDAEEDNDGRGTLDLFGVSESICPEQLVTERLADLLCHPSALQVLTFAEDKVRMLVVRAQSGGRLLGQPIHTIHEHLPEGTDCQICAIYRNNKLIMPTPQTVIQQGDEVFVAAATSQVAEVLRELRPQQQPTRRVMIAGGGQIGFRLSRQLEDRFDVKIIEINEKRAEWLSENLNSTLVLHGSAADESLLEGEYIDEIDVFCALTNDDENNIMAGMLAKSLGAKRVIAIVNRSSYVDLLQGNTIDIAVSPHLVTIGSILAHIRRGDVEAVHPLRGGNSEAIEIVVHGDKDTSKLVGRRVSAVRWPNGCHVAAVVR--DEEVFMGHQ-DVQLADGDHIILFVARRRVVSELEKLIQVRMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVG+ VAQNL  I N+DVT+ID D +AL+  GS+LDVQT+ GNG+SP  +   GA D DLLLAL+R DETN+ ACK+A+ LFNIP RIARVR S+YLE+  P  E  N+  G+L +FG++E+I PEQLVTE+LA L+  P ALQVL FA+D+VRM++++A+ GG L+G+ I  I + LP+G DCQICA+YRNN+LI+P PQTVI +GDE+  AAA   +  V+ ELRP++  TRR+MIAGGG IG+RL++QLE  ++VKIIE   +RAEW++ENL++TLVL GSA DE+LL+ EYIDEIDVFCALTNDDE+NIM+ +LAK+LGAKRVI IVNRSSYVDLL+GN IDI VSPHL+TIGSILAHIRRGD+ AVHP+R G +EAIE+V HGDK TS ++GRR+S ++WP GCH+AAVVR    E  MGH  +  + DGDHII FV+RRR+++ELEKLIQV+MGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|518219448|ref|WP_019389656.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_019389656</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.41</Hsp_bit-score>
+      <Hsp_score>1635</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>475</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPK-----LENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTIAHELASMPNHDVTIIDTDETALRNISSRLDVQTMIGNGASPQLLERAGAHDTDMLLALTRSDETNLVACKLAAELFNIPQRIARVRLADYLEYGREQTDLATLDDELSSSLNAFAVTDSIHPEHLVTEHLIGLLSYARALQVLPFAGDQVRMIIVQVKAEDEIVGKTLADVMTMLPEHSDCQICAIYRSTRMIVPQPDTVILEGDEICFVADAQYMATVMYVLFHYKQSNHRIMIAGGGSIGYRLAKHMEDKFNVKIIEYNENRAEWLAENLDNALVLHGSATDEDLLNREYIDEIDVFCALTNDDENNIMAGLLAKNLGAKRVISIINRSRYVDLLTGNQIDIVVSPHQITIGSVLSHVRRGDIAAVYPLRRGTAEAIEVVVHGDKHTSALVGRRVDEVKWPAGCHIAAIVRG--DEVIMGRDHSQTLHDGDHIVFFVSRRRVLRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGST+A  LA++ N+DVT+ID DE AL+   SRLDVQT+ GNGASP  LERAGA D D+LLAL+RSDETN+VACK+AA+LFNIP RIARVR ++YLEY   +     L++  + SL+ F +T++I PE LVTE L GL+    ALQVL FA D+VRM+I+Q +    +VG+++AD+   LP+ +DCQICA+YR+ R+IVP P TVI+EGDEI F A A+ +  V+  L   + S  RIMIAGGG+IGYRLAK +E  +NVKIIE    RAEW+AENLDN LVL GSATDE LL+ EYIDEIDVFCALTNDDE+NIM+ LLAKNLGAKRVI I+NRS YVDLL GN+IDIVVSPH ITIGS+L+H+RRGDI AV+P+RRGTAEAIEVV HGDK TSA++GRR+  +KWP GCHIAA+VR    E IMG      + DGDHI+FFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|740503163|ref|WP_038334016.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038334016</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>633.639</Hsp_bit-score>
+      <Hsp_score>1633</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>475</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPK-----LENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTIAHELASMPNHDVTIIDTDETALRNISSRLDVQTMIGNGASPQLLERAGAHDTDMLLALTRSDETNLVACKLAAELFNIPQRIARVRLADYLEYGREQTDLAMLDDELSSSLNAFAVTDSIHPEHLVTEHLIGLLSYARALQVLPFAGDQVRMIIVQVKAEDEIVGKTLSDVMTMLPEHSDCQICAIYRSTRMIVPQPSTVILEGDEICFVADAQYMATVMYVLFHYKQSNHRIMIAGGGSIGYRLAKHMEDKFNVKIIEYNENRAEWLAENLDNALVLHGSATDEDLLNREYIDEIDVFCALTNDDENNIMAGLLAKNLGAKRVISIINRSRYVDLLTGNQIDIVVSPHQITIGSVLSHVRRGDIAAVYPLRRGTAEAIEVVVHGDKHTSALVGRRVDEVKWPAGCHIAAIVRG--DEVIMGRDHSQTLHDGDHIVFFVSRRRVLRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGST+A  LA++ N+DVT+ID DE AL+   SRLDVQT+ GNGASP  LERAGA D D+LLAL+RSDETN+VACK+AA+LFNIP RIARVR ++YLEY   +     L++  + SL+ F +T++I PE LVTE L GL+    ALQVL FA D+VRM+I+Q +    +VG++++D+   LP+ +DCQICA+YR+ R+IVP P TVI+EGDEI F A A+ +  V+  L   + S  RIMIAGGG+IGYRLAK +E  +NVKIIE    RAEW+AENLDN LVL GSATDE LL+ EYIDEIDVFCALTNDDE+NIM+ LLAKNLGAKRVI I+NRS YVDLL GN+IDIVVSPH ITIGS+L+H+RRGDI AV+P+RRGTAEAIEVV HGDK TSA++GRR+  +KWP GCHIAA+VR    E IMG      + DGDHI+FFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|740480308|ref|WP_038311352.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038311352</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>633.254</Hsp_bit-score>
+      <Hsp_score>1632</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>375</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>475</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPK-----LENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTIAHELASMPNHDVTIIDTDETALRNISSRLDVQTMIGNGASPQLLERAGAHDTDMLLALTRSDETNLVACKLAAELFNIPQRIARVRLADYLEYGREQTDLATLDDELSSSLNAFAVTDSIHPEHLVTEHLIGLLSYARALQVLPFAGDQVRMIIVQVKAEDEIVGKTLADVMTMLPEHSDCQICAIYRSTRMIVPQPDTVILEGDEICFVADAQYMATVMYVLFHYKQSNHRIMIAGGGSIGYRLAKHMEDKFNVKIIEYNEHRAEWLAENLDNALVLHGSATDEDLLNREYIDEIDVFCALTNDDENNIMAGLLAKNLGVKRVISIINRSRYVDLLTGNQIDIVVSPHQITIGSVLSHVRRGDIAAVYPLRRGTAEAIEVVVHGDKHTSALVGRRVDEVKWPAGCHIAAIVRG--DEVIMGRDHSQTLHDGDHIVFFVSRRRVLRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGST+A  LA++ N+DVT+ID DE AL+   SRLDVQT+ GNGASP  LERAGA D D+LLAL+RSDETN+VACK+AA+LFNIP RIARVR ++YLEY   +     L++  + SL+ F +T++I PE LVTE L GL+    ALQVL FA D+VRM+I+Q +    +VG+++AD+   LP+ +DCQICA+YR+ R+IVP P TVI+EGDEI F A A+ +  V+  L   + S  RIMIAGGG+IGYRLAK +E  +NVKIIE    RAEW+AENLDN LVL GSATDE LL+ EYIDEIDVFCALTNDDE+NIM+ LLAKNLG KRVI I+NRS YVDLL GN+IDIVVSPH ITIGS+L+H+RRGDI AV+P+RRGTAEAIEVV HGDK TSA++GRR+  +KWP GCHIAA+VR    E IMG      + DGDHI+FFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|565113621|ref|WP_023887425.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens] &gt;gi|564137121|gb|ETA83235.1| hypothetical protein HMPREF1177_01395 [Eikenella corrodens CC92I]</Hit_def>
+  <Hit_accession>WP_023887425</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.484</Hsp_bit-score>
+      <Hsp_score>1630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>302</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>472</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYL--SPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGSGQVGTAVAQNLVEIPNHDVTIIDNDPEALRNIGSKLDVQTLLGNGSSPAVMAEGGAYDTDLLLALTRHDETNLAACKLASSLFNIPNRIARVRLSDYLEFTGRDAEEENDGRGTLDLFGVSESICPEQLVTERLADLLCHPSALQVLTFAEDKVRMLVVRAQSGGRLLGQPIHTIHEHLPEGTDCQICAIYRNNKLIMPTPQTVIQQGDEVFVAAATSQVAEVLRELRPQQQPTRRVMIAGGGQIGFRLSRQLEDRFDVKIIEINEKRAEWLSENLNSTLVLHGSAADESLLEGEYIDEIDVFCALTNDDENNIMAGMLAKSLGAKRVIAIVNRSSYVDLLQGNTIDIAVSPHLVTIGSILAHIRRGDVEAVHPLRGGNSEAIEIVVHGDKDTSKLVGRRVSAVRWPNGCHVAAVVR--DEEVFMGHQ-DVQLADGDHIILFVARRRVVSELEKLIQVRMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG+GQVG+ VAQNL  I N+DVT+ID D +AL+  GS+LDVQT+ GNG+SP  +   GA D DLLLAL+R DETN+ ACK+A+ LFNIP RIARVR S+YLE+     + EN+  G+L +FG++E+I PEQLVTE+LA L+  P ALQVL FA+D+VRM++++A+ GG L+G+ I  I + LP+G DCQICA+YRNN+LI+P PQTVI +GDE+  AAA   +  V+ ELRP++  TRR+MIAGGG IG+RL++QLE  ++VKIIE   +RAEW++ENL++TLVL GSA DE+LL+ EYIDEIDVFCALTNDDE+NIM+ +LAK+LGAKRVI IVNRSSYVDLL+GN IDI VSPHL+TIGSILAHIRRGD+ AVHP+R G +EAIE+V HGDK TS ++GRR+S ++WP GCH+AAVVR    E  MGH  +  + DGDHII FV+RRR+++ELEKLIQV+MGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|652665982|ref|WP_027021875.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Conchiformibius steedae]</Hit_def>
+  <Hit_accession>WP_027021875</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.484</Hsp_bit-score>
+      <Hsp_score>1630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPKLENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKILILGGGQVGSAIAQELSTLQGHDITVIDTDEHALSNLGSQMDVQTINGNGASPVALKQAGAADADMLLALTRSDETNLVACKIAAALFNVPNRIARVRSADYLDSQNVQAEDKMPPALAAFDITDSIHPEELVTEHLAGLLHYIRALQVLPFAHERVQMVVAQAKNRDALIGKTVAEMVALLPERTDCQICAIYRNNRLIVPQASTLVEEGDEICFAADARHVSAVMAVWFYYEHKPRRVMIAGGGNIGFRLARQLEENFNIKIIELNPQRAEWLAENLDQTLVLQGSASDENLLAREYIDEIDVFCALTNDDENNIMSALLAKNLGAKRVVCIINRSRYVDLITGNQIDIVVSPHLITIGSILAHVRRGDIAAVYPLRRGTAEAIEVVVHGDQRTSSLVGRRIDEIKWPAGCHIAAVVRGDT--VMMGRNHHETVADGDHLILFVARRRVLRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKILILG GQVGS +AQ L+ +  +D+TVID DE AL   GS++DVQT+ GNGASP  L++AGA DAD+LLAL+RSDETN+VACK+AA LFN+P RIARVRS++YL+  + + E+    +L+ F IT++I PE+LVTE LAGL+    ALQVL FA +RV+MV+ QA+    L+G+++A++   LP+  DCQICA+YRNNRLIVP   T++ EGDEI FAA A ++ AV+      E   RR+MIAGGGNIG+RLA+QLE  +N+KIIE  P+RAEW+AENLD TLVLQGSA+DE LL  EYIDEIDVFCALTNDDE+NIMSALLAKNLGAKRV+ I+NRS YVDL+ GN+IDIVVSPHLITIGSILAH+RRGDI AV+P+RRGTAEAIEVV HGD++TS+++GRRI  IKWP GCHIAAVVR  T   +MG +    + DGDH+I FV+RRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|740485396|ref|WP_038316330.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038316330</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.484</Hsp_bit-score>
+      <Hsp_score>1630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>374</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>475</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPK-----LENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTIAHELASMPNHDVTIIDTDETALRNISSRLDVQTMIGNGASPQLLERAGAHDTDMLLALTRSDETNLVACKLAAELFNIPQRIARVRLADYLEYGREQTDLATLDDELSSSLNAFAVTDSIHPEHLVTEHLIGLLSYARALQVLPFAGDQVRMIIVQVKAEDEIVGKTLADVMTMLPEHSDCQICAIYHSTRMIVPQPDTVILEGDEICFVADAQYMATVMYVLFHYKQSNHRIMIAGGGNIGYRLAKHMEDKFNVKIIEYNEHRAEWLAENLDNALVLHGSATDEDLLNREYIDEIDVFCALTNDDENNIMAGLLAKNLGVKRVISIINRSRYVDLLTGNQIDIVVSPHQITIGSVLSHVRRGDIAAVYPLRRGTAEAIEVVVHGDKHTSALVGRRVDEVKWPAGCHIAAIVRG--DEVIMGRDHSQTLHDGDHIVFFVSRRRVLRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGST+A  LA++ N+DVT+ID DE AL+   SRLDVQT+ GNGASP  LERAGA D D+LLAL+RSDETN+VACK+AA+LFNIP RIARVR ++YLEY   +     L++  + SL+ F +T++I PE LVTE L GL+    ALQVL FA D+VRM+I+Q +    +VG+++AD+   LP+ +DCQICA+Y + R+IVP P TVI+EGDEI F A A+ +  V+  L   + S  RIMIAGGGNIGYRLAK +E  +NVKIIE    RAEW+AENLDN LVL GSATDE LL+ EYIDEIDVFCALTNDDE+NIM+ LLAKNLG KRVI I+NRS YVDLL GN+IDIVVSPH ITIGS+L+H+RRGDI AV+P+RRGTAEAIEVV HGDK TSA++GRR+  +KWP GCHIAA+VR    E IMG      + DGDHI+FFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|740499091|ref|WP_038329975.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038329975</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.484</Hsp_bit-score>
+      <Hsp_score>1630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>375</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>475</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPK-----LENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTIAHELASMPNHDVTIIDTDETALRNISSRLDVQTMIGNGASPQLLERAGAHDTDMLLALTRSDETNLVACKLAAELFNIPQRIARVRLADYLEYGREQTDLATLDDELSSSLNAFAVTDSIHPEHLVTEHLIGLLSYARALQVLPFAGDQVRMIIVQVKAEDEIVGKTLADVMTMLPEHSDCQICAIYRSTRMIVPQPDTVILEGDEICFVADAQYMATVMYVLFHYKQSNHRIMIAGGGSIGYRLAKHMEDKFNVKIIEYNEHRAEWLAENLDNALVLHGSATDEDLLNREYIDEIDVFCALTNDDENNIMAGLLAKNLGVKRVISIINRSRYVDLLTGNQIDIIVSPHQITIGSVLSHVRRGDIAAVYPLRRGTAEAIEVVVHGDKHTSALVGRRVDEVKWPAGCHIAAIVRG--DEVIMGRDHSQTLHDGDHIVFFVSRRRVLRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGST+A  LA++ N+DVT+ID DE AL+   SRLDVQT+ GNGASP  LERAGA D D+LLAL+RSDETN+VACK+AA+LFNIP RIARVR ++YLEY   +     L++  + SL+ F +T++I PE LVTE L GL+    ALQVL FA D+VRM+I+Q +    +VG+++AD+   LP+ +DCQICA+YR+ R+IVP P TVI+EGDEI F A A+ +  V+  L   + S  RIMIAGGG+IGYRLAK +E  +NVKIIE    RAEW+AENLDN LVL GSATDE LL+ EYIDEIDVFCALTNDDE+NIM+ LLAKNLG KRVI I+NRS YVDLL GN+IDI+VSPH ITIGS+L+H+RRGDI AV+P+RRGTAEAIEVV HGDK TSA++GRR+  +KWP GCHIAA+VR    E IMG      + DGDHI+FFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|692414004|ref|WP_032134199.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_032134199</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.484</Hsp_bit-score>
+      <Hsp_score>1630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>373</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>475</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPK-----LENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTIAHELASMPNHDVTIIDTDETALRNVSSRLDVQTMIGNGASPQLLERAGAHDTDMLLALTRSDETNLVACKLAAELFNIPQRIARVRLADYLEYGRENADLATLDDELSSSLNAFAVTDSIYPEHLVTEHLIGLLSYARALQVLPFAGDQVRMIIVQVKAEDEIVGKTLADVMTMLPEHSDCQICAIYHSTRMIVPQPDTVILEGDEICFVADAQYMATVMYVLFHYKQSNHRIMIAGGGNIGYRLAKHMEDKFNVKIIEYNEHRAEWLAENLDNALVLHGSATDEDLLNREYIDEIDVFCALTNDDENNIMAGLLAKNLGVKRVISIINRSRYVDLLTGNQIDIVVSPHQITIGSVLSHVRRGDIAAVYPLRRGTAEAIEVVVHGDKHTSALVGRRVDEVKWPAGCHIAAIVRG--DEVIMGRDHSQTLHDGDHIVFFVSRRRVLRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGST+A  LA++ N+DVT+ID DE AL+   SRLDVQT+ GNGASP  LERAGA D D+LLAL+RSDETN+VACK+AA+LFNIP RIARVR ++YLEY         L++  + SL+ F +T++I PE LVTE L GL+    ALQVL FA D+VRM+I+Q +    +VG+++AD+   LP+ +DCQICA+Y + R+IVP P TVI+EGDEI F A A+ +  V+  L   + S  RIMIAGGGNIGYRLAK +E  +NVKIIE    RAEW+AENLDN LVL GSATDE LL+ EYIDEIDVFCALTNDDE+NIM+ LLAKNLG KRVI I+NRS YVDLL GN+IDIVVSPH ITIGS+L+H+RRGDI AV+P+RRGTAEAIEVV HGDK TSA++GRR+  +KWP GCHIAA+VR    E IMG      + DGDHI+FFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|740482515|ref|WP_038313501.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038313501</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>631.328</Hsp_bit-score>
+      <Hsp_score>1627</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>375</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>475</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPK-----LENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTIAHELASMPNHDVTIIDTDETALRNISSRLDVQTMIGNGASPQLLERAGAHDTDMLLALTRSDETNLVACKLAAELFNIPQRIARVRLADYLEYGREQTDLATLDDELSSSLNAFAVTDSIHPEHLVTEHLIGLLSYARALQVLPFAGDQVRMIIVQVKAEDEIVGKTLADVMTMLPEHSDCQICAIYRSTRMIVPQPSTVILEGDEICFVADAQYMATVMYVLFHYKQSNHRIMIAGGGSIGYRLAKHMEDKFNVKIIEYNENRAEWLAENLDNALVLHGSATDEDLLNREYIDEIDVFCALTNDDENNIMAGLLAKNLGAKRVISIINRSRYVDLLTGNQIDIVVSPHQITIGSVLSHVRRGDIAAVYPLRRGTAEAIEVVVHGDKHTSALVGRRVDEVKWPAGCHIAAIVRG--DEVIMGRDHCQTLHDGDHIVFFVSRRRVFRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGST+A  LA++ N+DVT+ID DE AL+   SRLDVQT+ GNGASP  LERAGA D D+LLAL+RSDETN+VACK+AA+LFNIP RIARVR ++YLEY   +     L++  + SL+ F +T++I PE LVTE L GL+    ALQVL FA D+VRM+I+Q +    +VG+++AD+   LP+ +DCQICA+YR+ R+IVP P TVI+EGDEI F A A+ +  V+  L   + S  RIMIAGGG+IGYRLAK +E  +NVKIIE    RAEW+AENLDN LVL GSATDE LL+ EYIDEIDVFCALTNDDE+NIM+ LLAKNLGAKRVI I+NRS YVDLL GN+IDIVVSPH ITIGS+L+H+RRGDI AV+P+RRGTAEAIEVV HGDK TSA++GRR+  +KWP GCHIAA+VR    E IMG      + DGDHI+FFVSRRR+  ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|489887516|ref|WP_003790966.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane protein [Kingella kingae] &gt;gi|380833543|gb|EIC13409.1| potassium transporter peripheral membrane component [Kingella kingae PYKK081]</Hit_def>
+  <Hit_accession>WP_003790966</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>630.943</Hsp_bit-score>
+      <Hsp_score>1626</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>374</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>475</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPK-----LENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTIAHELASMPNHDVTIIDTDETALRNISSRLDVQTMIGNGASPQLLERAGAHDTDMLLALTRSDETNLVACKLAAELFNIPQRIARVRLADYLEYGREQTDLATLDDELSSSLNAFAVTDSIHPEHLVTEHLIGLLSYARALQVLPFAGDQVRMIIVQVKAEDEIVGKTLADVMTMLPEHSDCQICAIYRSTRMIVPQPDTVILEGDEICFVADAQYMATVMYVLFHYKQSNHRIMIAGGGSIGYRLAKHMEDKFNVKIIEYNEHRAEWLAENLDNALVLHGSATDEDLLNREYIDEIDVFCALTNDDENNIMAGLLAKNLGVKRVISIINRSRYVDLLTGNQIDIVVSPHQITIGSVLSHVRRGDIAAVYPLRRGTAEAIEVVVHGDKHTSALVGRRVDEVKWPAGCHIAAIVRG--DEVIMGRDHSQTLHDSDHIVFFVSRRRVLRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGST+A  LA++ N+DVT+ID DE AL+   SRLDVQT+ GNGASP  LERAGA D D+LLAL+RSDETN+VACK+AA+LFNIP RIARVR ++YLEY   +     L++  + SL+ F +T++I PE LVTE L GL+    ALQVL FA D+VRM+I+Q +    +VG+++AD+   LP+ +DCQICA+YR+ R+IVP P TVI+EGDEI F A A+ +  V+  L   + S  RIMIAGGG+IGYRLAK +E  +NVKIIE    RAEW+AENLDN LVL GSATDE LL+ EYIDEIDVFCALTNDDE+NIM+ LLAKNLG KRVI I+NRS YVDLL GN+IDIVVSPH ITIGS+L+H+RRGDI AV+P+RRGTAEAIEVV HGDK TSA++GRR+  +KWP GCHIAA+VR    E IMG      + D DHI+FFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|740472898|ref|WP_038304136.1|</Hit_id>
+  <Hit_def>potassium transporter peripheral membrane component [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038304136</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>630.943</Hsp_bit-score>
+      <Hsp_score>1626</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>470</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>375</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>475</Hsp_align-len>
+      <Hsp_qseq>MKILILGNGQVGSTVAQNLAAITNNDVTVIDIDEKALQETGSRLDVQTVFGNGASPFTLERAGAEDADLLLALSRSDETNIVACKVAADLFNIPGRIARVRSSEYLEYLSPK-----LENNENGSLSIFGITETISPEQLVTEQLAGLIDCPGALQVLRFADDRVRMVIIQARRGGLLVGRSIADIAQDLPDGADCQICAVYRNNRLIVPAPQTVIIEGDEILFAAAAENIGAVIPELRPKETSTRRIMIAGGGNIGYRLAKQLEHAYNVKIIECRPRRAEWIAENLDNTLVLQGSATDETLLDNEYIDEIDVFCALTNDDESNIMSALLAKNLGAKRVIGIVNRSSYVDLLEGNKIDIVVSPHLITIGSILAHIRRGDIVAVHPIRRGTAEAIEVVAHGDKKTSAIIGRRISGIKWPEGCHIAAVVRAGTGETIMGHHTETVIQDGDHIIFFVSRRRILNELEKLIQVKMGFFG</Hsp_qseq>
+      <Hsp_hseq>MKIIILGSGQVGSTIAHELASMPNHDVTIIDTDETALRNISSRLDVQTMIGNGASPQLLERAGAHDTDMLLALTRSDETNLVACKLAAELFNIPQRIARVRLADYLEYGREQTDLAMLDDELSSSLNAFAVTDSIHPEHLVTEHLIGLLSYARALQVLPFAGDQVRMIIVQVKAEDEIVGKTLEEVMTMLPEHSDCQICAIYRSTRMIVPQPSTVILEGDEICFVADAQYMATVMYVLFHYKQSNHRIMIAGGGSIGYRLAKHMEDKFNVKIIEYNENRAEWLAENLDNALVLHGSATDEDLLNREYIDEIDVFCALTNDDENNIMAGLLAKNLGAKRVISIINRSRYVDLLTGNQIDIVVSPHQITIGSVLSHVRRGDIAAVYPLRRGTAEAIEVVVHGDKHTSALVGRRVDEVKWPAGCHIAAIVRG--DEVIMGRDHSQTLHDGDHIVFFVSRRRVLRELEKLIQVKMGFFG</Hsp_hseq>
+      <Hsp_midline>MKI+ILG+GQVGST+A  LA++ N+DVT+ID DE AL+   SRLDVQT+ GNGASP  LERAGA D D+LLAL+RSDETN+VACK+AA+LFNIP RIARVR ++YLEY   +     L++  + SL+ F +T++I PE LVTE L GL+    ALQVL FA D+VRM+I+Q +    +VG+++ ++   LP+ +DCQICA+YR+ R+IVP P TVI+EGDEI F A A+ +  V+  L   + S  RIMIAGGG+IGYRLAK +E  +NVKIIE    RAEW+AENLDN LVL GSATDE LL+ EYIDEIDVFCALTNDDE+NIM+ LLAKNLGAKRVI I+NRS YVDLL GN+IDIVVSPH ITIGS+L+H+RRGDI AV+P+RRGTAEAIEVV HGDK TSA++GRR+  +KWP GCHIAA+VR    E IMG      + DGDHI+FFVSRRR+L ELEKLIQVKMGFFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

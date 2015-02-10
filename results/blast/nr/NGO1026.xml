@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>31571</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7Y5</BlastOutput_query-def>
+  <BlastOutput_query-len>498</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>31571</Iteration_query-ID>
+  <Iteration_query-def>Q5F7Y5</Iteration_query-def>
+  <Iteration_query-len>498</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489800306|ref|WP_003704194.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria gonorrhoeae] &gt;gi|194098329|ref|YP_002001387.1| putative ferredoxin [Neisseria gonorrhoeae NCCP11945] &gt;gi|193933619|gb|ACF29443.1| putative ferredoxin [Neisseria gonorrhoeae NCCP11945] &gt;gi|291012550|gb|EFE04539.1| ferredoxin [Neisseria gonorrhoeae DGI2]</Hit_def>
+  <Hit_accession>WP_003704194</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1032.71</Hsp_bit-score>
+      <Hsp_score>2669</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>498</Hsp_identity>
+      <Hsp_positive>498</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|291610674|gb|EFF39784.1|</Hit_id>
+  <Hit_def>cytochrome c oxidase accessory protein CcoG [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>EFF39784</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1031.94</Hsp_bit-score>
+      <Hsp_score>2667</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>498</Hsp_identity>
+      <Hsp_positive>498</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489784339|ref|WP_003688230.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria gonorrhoeae] &gt;gi|59801402|ref|YP_208114.1| ferredoxin [Neisseria gonorrhoeae FA 1090] &gt;gi|538321684|ref|YP_008502744.1| ferredoxin [Neisseria gonorrhoeae MS11] &gt;gi|59718297|gb|AAW89702.1| putative ferredoxin [Neisseria gonorrhoeae FA 1090] &gt;gi|226512571|gb|EEH61916.1| ferredoxin [Neisseria gonorrhoeae 1291] &gt;gi|268547979|gb|EEZ43397.1| ferredoxin [Neisseria gonorrhoeae 35/02] &gt;gi|268550872|gb|EEZ45891.1| cytochrome c oxidase accessory protein CcoG [Neisseria gonorrhoeae FA19] &gt;gi|268582868|gb|EEZ47544.1| ferredoxin [Neisseria gonorrhoeae MS11] &gt;gi|268585226|gb|EEZ49902.1| ferredoxin [Neisseria gonorrhoeae PID18] &gt;gi|268587545|gb|EEZ52221.1| ferredoxin [Neisseria gonorrhoeae PID1] &gt;gi|268622178|gb|EEZ54578.1| ferredoxin [Neisseria gonorrhoeae PID332] &gt;gi|268624394|gb|EEZ56794.1| ferredoxin [Neisseria gonorrhoeae SK-92-679] &gt;gi|268626648|gb|EEZ59048.1| ferredoxin [Neisseria gonorrhoeae SK-93-1035] &gt;gi|636862078|gb|KDM99200.1| ferredoxin [Neisseria gonorrhoeae] &gt;gi|636863238|gb|KDN00260.1| ferredoxin [Neisseria gonorrhoeae] &gt;gi|654607293|gb|KEC87776.1| ferredoxin [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003688230</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1031.55</Hsp_bit-score>
+      <Hsp_score>2666</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>498</Hsp_identity>
+      <Hsp_positive>498</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|645184212|ref|WP_025456001.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025456001</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1029.62</Hsp_bit-score>
+      <Hsp_score>2661</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>498</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRRFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIR+FVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488171612|ref|WP_002242820.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|402343198|gb|EJU78352.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3081]</Hit_def>
+  <Hit_accession>WP_002242820</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1019.22</Hsp_bit-score>
+      <Hsp_score>2634</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>490</Hsp_identity>
+      <Hsp_positive>493</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFATAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLAVVIAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFA AFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLAVV+AAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|488175065|ref|WP_002246273.1|</Hit_id>
+  <Hit_def>cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis] &gt;gi|432208984|gb|ELK64955.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 88050] &gt;gi|432247082|gb|ELL02525.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 63049] &gt;gi|432251137|gb|ELL06509.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 96023] &gt;gi|432254948|gb|ELL10281.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2004090] &gt;gi|432258646|gb|ELL13927.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 97020] &gt;gi|432265326|gb|ELL20522.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3652] &gt;gi|432265543|gb|ELL20735.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3642] &gt;gi|432266351|gb|ELL21537.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2007056] &gt;gi|432271030|gb|ELL26160.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2001212] &gt;gi|485281355|gb|EOB47480.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2000080] &gt;gi|485281649|gb|EOB47758.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 94018] &gt;gi|485287637|gb|EOB53365.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 75689] &gt;gi|485287862|gb|EOB53572.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 75643] &gt;gi|485294056|gb|EOB59362.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 97018] &gt;gi|485308627|gb|EOB72957.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 96024] &gt;gi|485309317|gb|EOB73607.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 97008] &gt;gi|485313683|gb|EOB77697.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 98005] &gt;gi|485315576|gb|EOB79462.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2004085] &gt;gi|485315787|gb|EOB79660.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2003022] &gt;gi|485320309|gb|EOB83889.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2000063] &gt;gi|485321993|gb|EOB85452.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM604] &gt;gi|485322692|gb|EOB86113.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2002007] &gt;gi|485326924|gb|EOB90066.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM606] &gt;gi|485329294|gb|EOB92270.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM607] &gt;gi|610427267|gb|AHW76143.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002246273</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1017.68</Hsp_bit-score>
+      <Hsp_score>2630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>489</Hsp_identity>
+      <Hsp_positive>493</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFATAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLAVVIAAFLVGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFA AFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLAVV+AAFLVGLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488145698|ref|WP_002216906.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|325128524|gb|EGC51400.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis N1568] &gt;gi|432209304|gb|ELK65273.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 97021] &gt;gi|432218118|gb|ELK73981.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2006087] &gt;gi|432220322|gb|ELK76145.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2002038] &gt;gi|432221182|gb|ELK76995.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 97014] &gt;gi|485392352|gb|EOC50852.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2005172] &gt;gi|485393792|gb|EOC52190.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2008223] &gt;gi|514069890|gb|EPF54766.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 98002]</Hit_def>
+  <Hit_accession>WP_002216906</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1017.68</Hsp_bit-score>
+      <Hsp_score>2630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>489</Hsp_identity>
+      <Hsp_positive>493</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRRFVPDLFTGAAGGGAMFATAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLAVVIAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIR+FVPDLFTGAAGGGAMFA AFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLAVV+AAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|489805095|ref|WP_003708970.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria lactamica] &gt;gi|269209294|gb|EEZ75749.1| cytochrome c oxidase accessory protein CcoG [Neisseria lactamica ATCC 23970] &gt;gi|673469698|gb|KFJ36328.1| cytochrome c oxidase accessory protein CcoG [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003708970</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1016.53</Hsp_bit-score>
+      <Hsp_score>2627</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>487</Hsp_identity>
+      <Hsp_positive>495</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGNPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAIFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLAVVIAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLVSASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAG+PASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGA+FAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLAVV+AAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQL++ASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|503214147|ref|WP_013448808.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria lactamica] &gt;gi|313668197|ref|YP_004048481.1| ferredoxin [Neisseria lactamica 020-06] &gt;gi|313005659|emb|CBN87102.1| putative ferredoxin [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448808</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1014.22</Hsp_bit-score>
+      <Hsp_score>2621</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>486</Hsp_identity>
+      <Hsp_positive>494</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGNPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRRFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLAVVIAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLVSASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGVPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAG+PASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIR+FVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLAVV+AAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQL++ASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESG  DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|488147854|ref|WP_002219062.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|15677310|ref|NP_274465.1| ferredoxin, 4Fe-4S type [Neisseria meningitidis MC58] &gt;gi|121635142|ref|YP_975387.1| ferredoxin [Neisseria meningitidis FAM18] &gt;gi|385328288|ref|YP_005882591.1| putative ferredoxin [Neisseria meningitidis alpha710] &gt;gi|385340346|ref|YP_005894218.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis G2136] &gt;gi|385852927|ref|YP_005899441.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis H44/76] &gt;gi|7226695|gb|AAF41813.1| ferredoxin, 4Fe-4S bacterial type [Neisseria meningitidis MC58] &gt;gi|120866848|emb|CAM10607.1| putative ferredoxin [Neisseria meningitidis FAM18] &gt;gi|254672115|emb|CBA04839.1| probable iron-sulfur 4Fe-4S ferredoxin transmembrane protein [Neisseria meningitidis alpha275] &gt;gi|308389140|gb|ADO31460.1| putative ferredoxin [Neisseria meningitidis alpha710] &gt;gi|316984591|gb|EFV63556.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis H44/76] &gt;gi|325130502|gb|EGC53257.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis OX99.30304] &gt;gi|325132618|gb|EGC55309.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M6190] &gt;gi|325136500|gb|EGC59104.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M0579] &gt;gi|325138133|gb|EGC60706.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis ES14902] &gt;gi|325140602|gb|EGC63122.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis CU385] &gt;gi|325142647|gb|EGC65037.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 961-5945] &gt;gi|325198590|gb|ADY94046.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis G2136] &gt;gi|325199931|gb|ADY95386.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis H44/76] &gt;gi|372200827|gb|EHP14839.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM220] &gt;gi|402322508|gb|EJU57966.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM183] &gt;gi|402322689|gb|EJU58140.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM140] &gt;gi|402324932|gb|EJU60354.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM2781] &gt;gi|402328604|gb|EJU63971.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 69166] &gt;gi|402329592|gb|EJU64952.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM576] &gt;gi|432202434|gb|ELK58498.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 87255] &gt;gi|432202521|gb|ELK58582.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 98080] &gt;gi|432202599|gb|ELK58658.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM422] &gt;gi|432207795|gb|ELK63783.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 68094] &gt;gi|432214715|gb|ELK70611.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 70012] &gt;gi|432222602|gb|ELK78393.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M13255] &gt;gi|432226704|gb|ELK82428.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM418] &gt;gi|432227715|gb|ELK83423.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM586] &gt;gi|432229627|gb|ELK85312.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM762] &gt;gi|432233233|gb|ELK88865.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M7089] &gt;gi|432233642|gb|ELK89268.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M7124] &gt;gi|432235155|gb|ELK90772.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM174] &gt;gi|432239641|gb|ELK95189.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM126] &gt;gi|432240632|gb|ELK96166.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 9506] &gt;gi|432240730|gb|ELK96263.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 9757] &gt;gi|432260992|gb|ELL16249.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 69096] &gt;gi|432272954|gb|ELL28056.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 70030] &gt;gi|485274367|gb|EOB40953.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 70021] &gt;gi|485274380|gb|EOB40964.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 69176] &gt;gi|485274426|gb|EOB41007.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 69155] &gt;gi|485280835|gb|EOB46989.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 96060] &gt;gi|485288800|gb|EOB54460.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 69100] &gt;gi|485301069|gb|EOB65907.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 70082] &gt;gi|485329654|gb|EOB92600.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM133] &gt;gi|485333026|gb|EOB95752.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM43] &gt;gi|485336374|gb|EOB98867.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM82] &gt;gi|485336495|gb|EOB98978.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM94] &gt;gi|485339273|gb|EOC01593.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM95] &gt;gi|485342718|gb|EOC04803.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM313] &gt;gi|485343658|gb|EOC05670.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM1482] &gt;gi|485346063|gb|EOC07922.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM1495] &gt;gi|485349796|gb|EOC11386.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 73704] &gt;gi|485352986|gb|EOC14367.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 81858] &gt;gi|485355534|gb|EOC16739.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2002020] &gt;gi|485357598|gb|EOC18605.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM477] &gt;gi|485360021|gb|EOC20813.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M13265] &gt;gi|485362182|gb|EOC22774.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3147] &gt;gi|485365644|gb|EOC25920.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2001072] &gt;gi|485367080|gb|EOC27262.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2001073] &gt;gi|485370865|gb|EOC30799.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2000081] &gt;gi|485375357|gb|EOC34982.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2001213] &gt;gi|485378459|gb|EOC37891.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2004264] &gt;gi|485380937|gb|EOC40199.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2000175] &gt;gi|485381097|gb|EOC40342.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2005079] &gt;gi|485385175|gb|EOC44164.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2001068] &gt;gi|485387471|gb|EOC46308.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2005040] &gt;gi|485399449|gb|EOC57468.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM271] &gt;gi|485399886|gb|EOC57869.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM115] &gt;gi|485406491|gb|EOC64009.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3222] &gt;gi|485408281|gb|EOC65688.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3131] &gt;gi|485412683|gb|EOC69757.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3144] &gt;gi|485413049|gb|EOC70088.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3158] &gt;gi|485415489|gb|EOC72389.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3164] &gt;gi|485430203|gb|EOC85956.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM23] &gt;gi|485430883|gb|EOC86574.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM32] &gt;gi|485431866|gb|EOC87475.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM23] &gt;gi|485435178|gb|EOC90448.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM35] &gt;gi|485436632|gb|EOC91774.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM36] &gt;gi|530899456|gb|EQC98199.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2002030] &gt;gi|530899595|gb|EQC98324.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 96037] &gt;gi|530900186|gb|EQC98883.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3141] &gt;gi|530901542|gb|EQD00172.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3141] &gt;gi|530906681|gb|EQD04964.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM045] &gt;gi|530914702|gb|EQD12512.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM1476] &gt;gi|530914781|gb|EQD12583.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM0552] &gt;gi|530917286|gb|EQD14956.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM518] &gt;gi|530921001|gb|EQD18433.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3173] &gt;gi|530923488|gb|EQD20765.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM2866] &gt;gi|694192706|gb|KGI97959.1| ferredoxin [Neisseria meningitidis] &gt;gi|723270225|gb|KHC97417.1| ferredoxin [Neisseria meningitidis] &gt;gi|723273824|gb|KHD01008.1| ferredoxin [Neisseria meningitidis] &gt;gi|726975463|gb|KHF22887.1| ferredoxin [Neisseria meningitidis] &gt;gi|730571143|gb|AIZ18945.1| ferredoxin [Neisseria meningitidis] &gt;gi|730573411|gb|AIZ20813.1| ferredoxin [Neisseria meningitidis M7124] &gt;gi|730575748|gb|AIZ22697.1| ferredoxin [Neisseria meningitidis] &gt;gi|730578217|gb|AIZ24664.1| ferredoxin [Neisseria meningitidis] &gt;gi|730579523|gb|AIZ25504.1| ferredoxin [Neisseria meningitidis] &gt;gi|743393029|gb|KID52568.1| ferredoxin [Neisseria meningitidis LNP27256] &gt;gi|744799188|gb|AJC63976.1| ferredoxin [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>WP_002219062</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1012.68</Hsp_bit-score>
+      <Hsp_score>2617</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>486</Hsp_identity>
+      <Hsp_positive>491</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|488141778|ref|WP_002212986.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|161870324|ref|YP_001599494.1| ferredoxin, 4Fe-4S type [Neisseria meningitidis 053442] &gt;gi|218768456|ref|YP_002342968.1| ferredoxin [Neisseria meningitidis Z2491] &gt;gi|254805235|ref|YP_003083456.1| putative iron-sulfur 4Fe-4S ferredoxin transmembrane protein [Neisseria meningitidis alpha14] &gt;gi|385341641|ref|YP_005895512.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M01-240149] &gt;gi|385857512|ref|YP_005904024.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NZ-05/33] &gt;gi|121052464|emb|CAM08801.1| putative ferredoxin [Neisseria meningitidis Z2491] &gt;gi|161595877|gb|ABX73537.1| ferredoxin, 4Fe-4S bacterial type [Neisseria meningitidis 053442] &gt;gi|254668777|emb|CBA06693.1| putative iron-sulfur 4Fe-4S ferredoxin transmembrane protein [Neisseria meningitidis alpha14] &gt;gi|254669850|emb|CBA04270.1| probable iron-sulfur 4Fe-4S ferredoxin transmembrane protein [Neisseria meningitidis alpha153] &gt;gi|304338761|gb|EFM04871.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis ATCC 13091] &gt;gi|325134565|gb|EGC57209.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M13399] &gt;gi|325201847|gb|ADY97301.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M01-240149] &gt;gi|325208401|gb|ADZ03853.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NZ-05/33] &gt;gi|389605403|emb|CCA44321.1| Protein rdxA [Neisseria meningitidis alpha522] &gt;gi|393291732|emb|CCI73087.1| Protein rdxA [Neisseria meningitidis alpha704] &gt;gi|402316669|gb|EJU52211.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM255] &gt;gi|402331504|gb|EJU66838.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 98008] &gt;gi|402335432|gb|EJU70698.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 92045] &gt;gi|402336088|gb|EJU71350.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 80179] &gt;gi|402337827|gb|EJU73073.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM2657] &gt;gi|402340138|gb|EJU75341.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM2795] &gt;gi|432215042|gb|ELK70933.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 63041] &gt;gi|432246143|gb|ELL01600.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 12888] &gt;gi|432246422|gb|ELL01870.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 4119] &gt;gi|432253768|gb|ELL09107.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 65014] &gt;gi|432276957|gb|ELL32009.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 63006] &gt;gi|485301366|gb|EOB66182.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 65012] &gt;gi|485302098|gb|EOB66869.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 64182] &gt;gi|485307259|gb|EOB71682.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 97027] &gt;gi|485349716|gb|EOC11315.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 73696] &gt;gi|485372090|gb|EOC31931.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2001001] &gt;gi|485373913|gb|EOC33628.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2004032] &gt;gi|514070088|gb|EPF54948.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM134] &gt;gi|514070553|gb|EPF55390.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2007461] &gt;gi|530905574|gb|EQD03929.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3139] &gt;gi|530908047|gb|EQD06252.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM151] &gt;gi|530911345|gb|EQD09359.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM003] &gt;gi|530922323|gb|EQD19669.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3230] &gt;gi|663091057|gb|KER39332.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002212986</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1010.75</Hsp_bit-score>
+      <Hsp_score>2612</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFATAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFA AFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488161504|ref|WP_002232712.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|402316444|gb|EJU51989.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 93003]</Hit_def>
+  <Hit_accession>WP_002232712</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1010.36</Hsp_bit-score>
+      <Hsp_score>2611</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFVGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITF GWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488158441|ref|WP_002229649.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|372201470|gb|EHP15393.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM233] &gt;gi|485406062|gb|EOC63619.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3042] &gt;gi|485419583|gb|EOC76166.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM51] &gt;gi|485422702|gb|EOC79097.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM80] &gt;gi|485425899|gb|EOC82039.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM165] &gt;gi|485426022|gb|EOC82146.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3223]</Hit_def>
+  <Hit_accession>WP_002229649</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1010.36</Hsp_bit-score>
+      <Hsp_score>2611</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKAKKTFDPRVSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPK KKTFDPR SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|504386816|ref|WP_014573918.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|385323898|ref|YP_005878337.1| putative ferredoxin [Neisseria meningitidis 8013] &gt;gi|261392285|emb|CAX49808.1| putative ferredoxin [Neisseria meningitidis 8013]</Hit_def>
+  <Hit_accession>WP_014573918</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1009.98</Hsp_bit-score>
+      <Hsp_score>2610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPESGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSP SGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|488179041|ref|WP_002250249.1|</Hit_id>
+  <Hit_def>cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis] &gt;gi|432258556|gb|ELL13838.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 61103] &gt;gi|485294798|gb|EOB60058.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 63023] &gt;gi|485295066|gb|EOB60310.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 61106]</Hit_def>
+  <Hit_accession>WP_002250249</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1009.98</Hsp_bit-score>
+      <Hsp_score>2610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAQKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAA K KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|518103322|ref|WP_019273530.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273530</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1009.59</Hsp_bit-score>
+      <Hsp_score>2609</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>484</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPESGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRRFVPDLFVGAAGGGAVFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGTVLALVIIAFLAGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGASDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSP SGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIR+FVPDLF GAAGGGA+FAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEYAEKDIKKRLLRPRVAGYG VLA+V+ AFL GLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGASDGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|488162841|ref|WP_002234049.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|402318262|gb|EJU53786.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 93004]</Hit_def>
+  <Hit_accession>WP_002234049</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1008.82</Hsp_bit-score>
+      <Hsp_score>2607</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>484</Hsp_identity>
+      <Hsp_positive>489</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKAKKTFDPRASVIQIHPESERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFATAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPK KKTFDPRASVIQIHPE ERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFA AFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|489808532|ref|WP_003712394.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria lactamica] &gt;gi|309379720|emb|CBX21709.1| unnamed protein product [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003712394</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1008.82</Hsp_bit-score>
+      <Hsp_score>2607</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>483</Hsp_identity>
+      <Hsp_positive>492</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGNPESGIGTSERTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRRFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLAVVIAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLVSASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGVPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAG+P SGIGTSE+TKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIR+FVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLAVV+AAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQL++ASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESG  DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|488188028|ref|WP_002259236.1|</Hit_id>
+  <Hit_def>cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis] &gt;gi|485387775|gb|EOC46585.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 2002004]</Hit_def>
+  <Hit_accession>WP_002259236</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1008.44</Hsp_bit-score>
+      <Hsp_score>2606</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLICYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLI YTTESALEHEY+EKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|488155977|ref|WP_002227185.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|385850969|ref|YP_005897484.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M04-240196] &gt;gi|325144726|gb|EGC67021.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M01-240013] &gt;gi|325205792|gb|ADZ01245.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M04-240196]</Hit_def>
+  <Hit_accession>WP_002227185</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1008.05</Hsp_bit-score>
+      <Hsp_score>2605</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAALKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAVFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAA K KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGA+FAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|488172507|ref|WP_002243715.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|385855500|ref|YP_005902013.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M01-240355] &gt;gi|325204441|gb|ADY99894.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis M01-240355] &gt;gi|402342971|gb|EJU78127.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM3001] &gt;gi|432272867|gb|ELL27972.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis 77221]</Hit_def>
+  <Hit_accession>WP_002243715</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1007.67</Hsp_bit-score>
+      <Hsp_score>2604</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>483</Hsp_identity>
+      <Hsp_positive>489</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGNPESGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFATAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAG+P SGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFA AFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|488189063|ref|WP_002260271.1|</Hit_id>
+  <Hit_def>cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis] &gt;gi|485401523|gb|EOC59415.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM90] &gt;gi|485419295|gb|EOC75904.1| cytochrome c oxidase accessory protein CcoG [Neisseria meningitidis NM27]</Hit_def>
+  <Hit_accession>WP_002260271</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1007.28</Hsp_bit-score>
+      <Hsp_score>2603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>484</Hsp_identity>
+      <Hsp_positive>489</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGSPASGIGTSEQTKAAPKAKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVLDLFTGAAGGGAMFATAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLALVIIAFLAGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINKSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAGSPASGIGTSEQTKAAPK KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFV DLFTGAAGGGAMFA AFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLA+V+ AFL GLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIIN SEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|489848150|ref|WP_003751835.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria polysaccharea] &gt;gi|296839134|gb|EFH23072.1| cytochrome c oxidase accessory protein CcoG [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>WP_003751835</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1006.13</Hsp_bit-score>
+      <Hsp_score>2600</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>483</Hsp_identity>
+      <Hsp_positive>491</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGNPEPEHSPSEKTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLAVVIAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLVSASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAG+P      SE+TKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLAVV+AAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQL++ASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|645195849|ref|WP_025456995.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025456995</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>998.038</Hsp_bit-score>
+      <Hsp_score>2579</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>480</Hsp_identity>
+      <Hsp_positive>486</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGNPEPEHSPSEKTKAASKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGTVLALVIIAFLAGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGASDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAG+P      SE+TKAA KVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEYAEKDIKKRLLRPRVAGYG VLA+V+ AFL GLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGASDGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|489770557|ref|WP_003674468.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria cinerea] &gt;gi|269146169|gb|EEZ72587.1| cytochrome c oxidase accessory protein CcoG [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003674468</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>963.755</Hsp_bit-score>
+      <Hsp_score>2490</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>476</Hsp_identity>
+      <Hsp_positive>486</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MTTENQAGNPEPEHSPSEKTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGALEHEYSEKDIKKRLRRPRVAGYGAVLALVIIAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFIFQYRESSASDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>MTTENQAG+P      SE+TKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE ALEHEY+EKDIKKRL RPRVAGYGAVLA+V+ AFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEFIFQYRES ASDGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|636865827|gb|KDN02655.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>KDN02655</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>955.666</Hsp_bit-score>
+      <Hsp_score>2469</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>461</Hsp_identity>
+      <Hsp_positive>462</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>463</Hsp_align-len>
+      <Hsp_qseq>VIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIHQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>+IQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPI QFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|504393481|ref|WP_014580583.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria meningitidis] &gt;gi|385338287|ref|YP_005892160.1| putative ferredoxin [Neisseria meningitidis WUE 2594] &gt;gi|319410701|emb|CBY91081.1| putative ferredoxin [Neisseria meningitidis WUE 2594]</Hit_def>
+  <Hit_accession>WP_014580583</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>942.954</Hsp_bit-score>
+      <Hsp_score>2436</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>469</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>499</Hsp_align-len>
+      <Hsp_qseq>ENQAGSPASGIGTSEQ----TKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>QNDHGKPSRQSGIRNRHVRTNKSRAESKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFATAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTESALEHEYSEKDIKKRLLRPRVAGYGAVLAVVIAAFLVGLSTRKMVEVDILKDRGVLVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETVTLPVQVSTIPEYADKGSHPIEFTFQYRESGAPDGKPVVLEEDATFIGE</Hsp_hseq>
+      <Hsp_midline>+N  G P+   G   +     K+  + KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFA AFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTESALEHEY+EKDIKKRLLRPRVAGYGAVLAVV+AAFLVGLSTRKMVEVDILKDRGV+VRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRET+TLPVQVSTIPEYADKGSHPIEF FQYRESGA DGKPVVLEEDATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|515031101|ref|WP_016688355.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016688355</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>899.812</Hsp_bit-score>
+      <Hsp_score>2324</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>443</Hsp_identity>
+      <Hsp_positive>472</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>511</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVK-------------KTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MSTENQAENAAT-----EETPAAPKESSEKPAKPAKMAPPKPINPKASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVIFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKALLIFLFCAWTGITFAGWFVPIRQFVPDLFTGMAGGGAMFAAAFYGFVTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIISYDAERGEPRGARKKTVNKEESGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIIAFLVGLSTRKMVEVDILKDRGVMVRENSKGWLENAYNLRIINNSENEQVMTATVKGFEEIALTGLPEGGVKIAPRETLTIPVQVSTIPEYANKGSHPIEFTFTYRETGKADGKPIILEEEATFIGE</Hsp_hseq>
+      <Hsp_midline>M+TENQA + A+     E+T AAPK               K  +P+ASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATK LLIFL CAWTGITFAGWFVPIRQFVPDLFTG AGGGAMFAAAFYGF+TFFFAHIMREKVCLHMCPYARFQSAMFDKDTLI+SYDAERGEPRGARKKTVNKEE+GLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+ AFLVGLSTRKMVEVDILKDRGVMVREN+KGWLENAY+LRIINNSE EQ++TA+VKGF+EIALTGLPEGG+K+APRET+T+PVQVSTIPEYA+KGSHPIEF F YRE+G +DGKP++LEE+ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|738543127|ref|WP_036491374.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria mucosa] &gt;gi|694241405|gb|KGJ32272.1| ferredoxin [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_036491374</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>884.404</Hsp_bit-score>
+      <Hsp_score>2284</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>463</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>499</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKA-APKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MSPENQAENTTPS--TEKTAKATAPKPSK---PKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFAGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIISYDAERGEPRGARKKTANKEDSGLGDCINCTMCVQVCPVGIDIRDGLQYQCIGCAACIDACDEIMDKMGYERGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIIAFLVGISTRKMVEVDILKDRGVMVRENSQGWLENAYNLRIINNSENEQLMTATVKGFDEIALTGLPENGIKIAPRETVTIPVQVSTIPEYADKGSHPIEFTFTYRETGSADSKPTTLEEKATFIGE</Hsp_hseq>
+      <Hsp_midline>M+ ENQA +      T +  KA APK  K   P++SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLF GAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLI+SYDAERGEPRGARKKT NKE++GLGDCINC MCVQVCPVGIDIR+GLQYQCIGCAACIDACDEIMDKMGY  GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+ AFLVG+STRKMVEVDILKDRGVMVREN++GWLENAY+LRIINNSE EQL+TA+VKGFDEIALTGLPE GIK+APRET+T+PVQVSTIPEYADKGSHPIEF F YRE+G++D KP  LEE ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|496669065|ref|WP_009311555.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria sp. GT4A_CT1] &gt;gi|348611768|gb|EGY61401.1| cytochrome c oxidase accessory protein CcoG [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>WP_009311555</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>880.937</Hsp_bit-score>
+      <Hsp_score>2275</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>463</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>503</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKT-----FDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MSTENQAENAVSEEKNAASKEQSEKPAKTAPPKPSKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSDRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKALLIFLVCAWTGITFAGWFVPIRQFVPDLFAGAAGGGAMLAAAFYGFMTFFFAHVMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTANKEDSGLGDCINCTMCVQVCPVGIDIRDGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIIAFLVGLSTRKMVEVDILKDRGVMVRENSKGWLENAYNLRIINNSENEQVMTAAVKGFEEIALTGLPEGGVKIAPRQTLTIPVQVSTIPEYADKGSHPIEFTFTYRETGKADGKPTILEEEATFIGE</Hsp_hseq>
+      <Hsp_midline>M+TENQA +  S    +   + + K  KT       P++SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWS RQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATK LLIFLVCAWTGITFAGWFVPIRQFVPDLF GAAGGGAM AAAFYGFMTFFFAH+MREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKT NKE++GLGDCINC MCVQVCPVGIDIR+GLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+ AFLVGLSTRKMVEVDILKDRGVMVREN+KGWLENAY+LRIINNSE EQ++TA+VKGF+EIALTGLPEGG+K+APR+T+T+PVQVSTIPEYADKGSHPIEF F YRE+G +DGKP +LEE+ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|489840633|ref|WP_003744336.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria mucosa] &gt;gi|288565876|gb|EFC87436.1| cytochrome c oxidase accessory protein CcoG [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003744336</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>879.396</Hsp_bit-score>
+      <Hsp_score>2271</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>430</Hsp_identity>
+      <Hsp_positive>457</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>482</Hsp_align-len>
+      <Hsp_qseq>SEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>AKPAKMAPP--KPINPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKALLIFLFCAWTGITFAGWFTPIRQFVPALFGGVAGGGAMFAAAFYGFVTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIISYDAERGEPRGARKKTVNKEESGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIIAFLVGLSTRKMVEVDILKDRGVMVRENSKGWLENAYNLRIINNSENEQVMTAAVKGFEEIALTGLPEGGVKIAPRETLTIPVQVSTIPEYANKGSHPIEFTFTYRETGKADGEPIILEEEATFIGE</Hsp_hseq>
+      <Hsp_midline>++  K AP   K  +PRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATK LLIFL CAWTGITFAGWF PIRQFVP LF G AGGGAMFAAAFYGF+TFFFAHIMREKVCLHMCPYARFQSAMFDKDTLI+SYDAERGEPRGARKKTVNKEE+GLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+ AFLVGLSTRKMVEVDILKDRGVMVREN+KGWLENAY+LRIINNSE EQ++TA+VKGF+EIALTGLPEGG+K+APRET+T+PVQVSTIPEYA+KGSHPIEF F YRE+G +DG+P++LEE+ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|518099958|ref|WP_019270166.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_019270166</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>876.315</Hsp_bit-score>
+      <Hsp_score>2263</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>464</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>503</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPA---SGIGTSEQTKAAPKV--KKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MSTENQAENAVLEEKNAASKEQSEKPAKTAPPKPSKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSDRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKALLIFLVCAWTGITFAGWFVPIRQFVPDLFVGAAGGGAMFAAAFYGFMTFFFAHVMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTANKEDSGLGDCINCTMCVQVCPVGIDIRDGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIIAFLVGLSTRKMVEVDILKDRGVMVRENSKGWLENAYNLRIINNSENEQVMTATVKGFEEIALTGLPEGGVKIAPRQTLTIPVQVSTIPEYADKGSHPIEFTFTYRETGKADGKPTILEEEATFIGE</Hsp_hseq>
+      <Hsp_midline>M+TENQA +         + EQ++   K    K   P++SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWS RQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATK LLIFLVCAWTGITFAGWFVPIRQFVPDLF GAAGGGAMFAAAFYGFMTFFFAH+MREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKT NKE++GLGDCINC MCVQVCPVGIDIR+GLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+ AFLVGLSTRKMVEVDILKDRGVMVREN+KGWLENAY+LRIINNSE EQ++TA+VKGF+EIALTGLPEGG+K+APR+T+T+PVQVSTIPEYADKGSHPIEF F YRE+G +DGKP +LEE+ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|746364013|ref|WP_039408519.1|</Hit_id>
+  <Hit_def>ferredoxin [Morococcus cerebrosus] &gt;gi|742694397|gb|KIC06850.1| ferredoxin [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_039408519</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>875.93</Hsp_bit-score>
+      <Hsp_score>2262</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>462</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>508</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRAS----------VIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MSTENQAEN-----AVSEEKNAVPKEQSEKPAKTAPPKPSKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSDRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKALLIFLVCAWTGITFAGWFVPIRQFVPDLFAGAAGGGAMFAAAFYGFMTFFFAHVMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTANKEDSGLGDCINCTMCVQVCPVGIDIRDGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIIAFLVGLSTRKMVEVDILKDRGVMVRENSKGWLENAYNLRIINNSENEQVMTATVKGFEEIALTGLPEGGVKIAPRQTLTIPVQVSTIPEYADKGSHPIEFTFTYRETGKADGKPTILEEEATFIGE</Hsp_hseq>
+      <Hsp_midline>M+TENQA +       SE+  A PK +     + +          VIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWS RQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATK LLIFLVCAWTGITFAGWFVPIRQFVPDLF GAAGGGAMFAAAFYGFMTFFFAH+MREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKT NKE++GLGDCINC MCVQVCPVGIDIR+GLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+ AFLVGLSTRKMVEVDILKDRGVMVREN+KGWLENAY+LRIINNSE EQ++TA+VKGF+EIALTGLPEGG+K+APR+T+T+PVQVSTIPEYADKGSHPIEF F YRE+G +DGKP +LEE+ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|489874142|ref|WP_003777661.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria macacae] &gt;gi|339887823|gb|EGQ77342.1| cytochrome c oxidase accessory protein CcoG [Neisseria macacae ATCC 33926]</Hit_def>
+  <Hit_accession>WP_003777661</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>875.93</Hsp_bit-score>
+      <Hsp_score>2262</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>432</Hsp_identity>
+      <Hsp_positive>463</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>503</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKT-----FDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MSTENQAENAVSEEKNAASKEQSEKPAKTAPPKPSKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSDRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKALLIFLVCAWTGITFAGWFVPIRQFVPDLFAGVAGGGAMFAAAFYGFMTFFFAHVMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTANKEDSGLGDCINCTMCVQVCPVGIDIRDGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIIAFLVGLSTRKMVEVDILKDRGVMVRENSKGWLENAYNLRIINNSENEQVMTAAVKGFEEIALTGLPEGGVKIAPRQTLTIPVQVSTIPEYADKGSHPIEFTFTYRETGKADGKPTILEEEATFIGE</Hsp_hseq>
+      <Hsp_midline>M+TENQA +  S    +   + + K  KT       P++SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWS RQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATK LLIFLVCAWTGITFAGWFVPIRQFVPDLF G AGGGAMFAAAFYGFMTFFFAH+MREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKT NKE++GLGDCINC MCVQVCPVGIDIR+GLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+ AFLVGLSTRKMVEVDILKDRGVMVREN+KGWLENAY+LRIINNSE EQ++TA+VKGF+EIALTGLPEGG+K+APR+T+T+PVQVSTIPEYADKGSHPIEF F YRE+G +DGKP +LEE+ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|490655813|ref|WP_004520803.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria subflava] &gt;gi|284795956|gb|EFC51303.1| cytochrome c oxidase accessory protein CcoG [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>WP_004520803</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>874.774</Hsp_bit-score>
+      <Hsp_score>2259</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>459</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MSPENQAENTTP----STEKTAKATPPKPSKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFIPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTANKEDSGLGDCINCTMCVQVCPVGIDIRDGLQYQCIGCAACIDACDEIMDKMGYERGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIIAFLVGISTRKMVEVDILKDRGVMVRENSQGWLENAYNLRIINNSENEQLMTATVKGFDEIALTGLPENGIKIAPRETVTIPVQVSTIPEYADKGSHPIEFTFIYRETGSADSKPTTLEEKATFIGE</Hsp_hseq>
+      <Hsp_midline>M+ ENQA +       S +  A     K   P++SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWF+PIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKT NKE++GLGDCINC MCVQVCPVGIDIR+GLQYQCIGCAACIDACDEIMDKMGY  GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+ AFLVG+STRKMVEVDILKDRGVMVREN++GWLENAY+LRIINNSE EQL+TA+VKGFDEIALTGLPE GIK+APRET+T+PVQVSTIPEYADKGSHPIEF F YRE+G++D KP  LEE ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|489842427|ref|WP_003746126.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria mucosa] &gt;gi|317401093|gb|EFV81748.1| ferredoxin [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003746126</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>873.618</Hsp_bit-score>
+      <Hsp_score>2256</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>434</Hsp_identity>
+      <Hsp_positive>458</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MSPENQAENTTP----STEKTAKATPPKPSKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRTKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFAGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIISYDAERGEPRGARKKTANKEDSGLGDCINCTMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYERGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIIAFLVGISTRKMVEVDILKDRGVMVRENSQGWLENAYNLRIINNSENEQLMTATVKGFDEIALTGLPENGIKIAPRETVTIPVQVSTIPEYADKGSHPIEFTFTYRETGSADSKPTTLEEKATFIGE</Hsp_hseq>
+      <Hsp_midline>M+ ENQA +       S +  A     K   P++SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIR KATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLF GAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLI+SYDAERGEPRGARKKT NKE++GLGDCINC MCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGY  GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+ AFLVG+STRKMVEVDILKDRGVMVREN++GWLENAY+LRIINNSE EQL+TA+VKGFDEIALTGLPE GIK+APRET+T+PVQVSTIPEYADKGSHPIEF F YRE+G++D KP  LEE ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|748592292|ref|WP_039850472.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria sp. oral taxon 014]</Hit_def>
+  <Hit_accession>WP_039850472</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>859.366</Hsp_bit-score>
+      <Hsp_score>2219</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>482</Hsp_align-len>
+      <Hsp_qseq>SEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>STETRSPQSETSKVKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWNGRQAVIFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKALLILLFCAWTGITFAGWFVPIRQFVPDLFAGAAGGGAMFAAAFYGFMTFFFAHVMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTANKEESGLGDCINCTMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIAAFLVGISTRKMVAVDILKDRGVMVRENSKGWLENAYNLRIINNSEREQIMTATVKGFDDISLTGLPPEGLKLPPRETITIPVQVSTIPEYADKGSHPIEFTFTYHESGSKQGNETVLKEESAFIGE</Hsp_hseq>
+      <Hsp_midline>S +T++         P++SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNW+GRQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATK LLI L CAWTGITFAGWFVPIRQFVPDLF GAAGGGAMFAAAFYGFMTFFFAH+MREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKT NKEE+GLGDCINC MCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+AAFLVG+STRKMV VDILKDRGVMVREN+KGWLENAY+LRIINNSE+EQ++TA+VKGFD+I+LTGLP  G+K+ PRETIT+PVQVSTIPEYADKGSHPIEF F Y ESG+  G   VL+E++ FIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|489779021|ref|WP_003682912.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria flavescens] &gt;gi|241321339|gb|EER57487.1| cytochrome c oxidase accessory protein CcoG [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003682912</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>858.981</Hsp_bit-score>
+      <Hsp_score>2218</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>454</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MSPENQAENTTP----STEKTAKATPPKPSKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSNRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTANKEDSGLGDCINCTMCVQVCPVGIDIRDGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGAMEHEYPESDIKKRLKRPRVAGYGAVLFVVIIAFLTGIATRKMVEVDILKDRGVMVRENSQGWLENAYNLRIINKSEHEQTVTATVKGFDDIALTGLPENGIKIAPRETVTIPVQVSTLPEYAEKGSQPIEFTFTYRETDAADAEPTVLNEKATFIGE</Hsp_hseq>
+      <Hsp_midline>M+ ENQA +       S +  A     K   P++SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWS RQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKT NKE++GLGDCINC MCVQVCPVGIDIR+GLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE A+EHEY E DIKKRL RPRVAGYGAVL VV+ AFL G++TRKMVEVDILKDRGVMVREN++GWLENAY+LRIIN SE EQ +TA+VKGFD+IALTGLPE GIK+APRET+T+PVQVST+PEYA+KGS PIEF F YRE+ A+D +P VL E ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|298282886|gb|EFI24373.1|</Hit_id>
+  <Hit_def>cytochrome c oxidase accessory protein CcoG [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>EFI24373</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>858.21</Hsp_bit-score>
+      <Hsp_score>2216</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>446</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>482</Hsp_align-len>
+      <Hsp_qseq>SEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>STETRSPQSETSKVKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWNGRQAVIFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKALLILLFCAWTGITFAGWFVPIRQFVPDLFAGAAGGGAMFAAAFYGFMTFFFAHVMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTANKEESGLGDCINCTMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIAAFLVGISTRKMVAVDILKDRGVMVRENSKGWLENAYNLRIINNSEREQIMTATVKGFDDISLTGLPPEGLKLPPRETITIPVQVSTIPEYADKGSHPIEFTFTYHESGSKQGNETVLKEESAFIGE</Hsp_hseq>
+      <Hsp_midline>S +T++         P++SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNW+GRQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATK LLI L CAWTGITFAGWFVPIRQFVPDLF GAAGGGAMFAAAFYGFMTFFFAH+MREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKT NKEE+GLGDCINC MCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+AAFLVG+STRKMV VDILKDRGVMVREN+KGWLENAY+LRIINNSE+EQ++TA+VKGFD+I+LTGLP  G+K+ PRETIT+PVQVSTIPEYADKGSHPIEF F Y ESG+  G   VL+E++ FIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|489775661|ref|WP_003679556.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria flavescens] &gt;gi|224953139|gb|EEG34348.1| cytochrome c oxidase accessory protein CcoG [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>WP_003679556</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>857.44</Hsp_bit-score>
+      <Hsp_score>2214</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>423</Hsp_identity>
+      <Hsp_positive>453</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>MSPENQAENTTH----STEKTAKATPPKPSKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSNRQAVLFDIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKVTKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTANKEDSGLGDCINCTMCVQVCPVGIDIRDGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGAMEHEYPESDIKKRLKRPRVAGYGAVLFVVIIAFLTGIATRKMVEVDILKDRGVMVRENSQGWLENAYNLRIINKSEHEQTVTATVKGFDDIALTGLPENGIKIAPRETVTIPVQVSTIPEYAEKGSQPIEFTFAYRETNAADAEPTVLNEKATFIGE</Hsp_hseq>
+      <Hsp_midline>M+ ENQA +       S +  A     K   P++SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWS RQAV+F+IP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIK TKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKT NKE++GLGDCINC MCVQVCPVGIDIR+GLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE A+EHEY E DIKKRL RPRVAGYGAVL VV+ AFL G++TRKMVEVDILKDRGVMVREN++GWLENAY+LRIIN SE EQ +TA+VKGFD+IALTGLPE GIK+APRET+T+PVQVSTIPEYA+KGS PIEF F YRE+ A+D +P VL E ATFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|489863602|ref|WP_003767214.1|</Hit_id>
+  <Hit_def>cytochrome c oxidase accessory protein CcoG, partial [Neisseria sicca] &gt;gi|385696578|gb|EIG27052.1| cytochrome c oxidase accessory protein CcoG, partial [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003767214</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>855.899</Hsp_bit-score>
+      <Hsp_score>2210</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>485</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>423</Hsp_identity>
+      <Hsp_positive>451</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>495</Hsp_align-len>
+      <Hsp_qseq>MTTENQAGSPASGIGTSEQTKAAPKVKKTFDPRAS----------VIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGK</Hsp_qseq>
+      <Hsp_hseq>MSTENQAEN-----AVSEEKNAAPKEQSEKPAKTAPPKPSKPKSSVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSDRQAVLFNIPDRHFFIFGLSLGMGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKALLIFLVCAWTGITFAGWFVPIRQFVPDLFAGAAGGGAMFAAAFYGFMTFFFAHVMREKVCLHMCPYARFQSAMFDKDTLIISYDTERGEPRGARKKTANKEDSGLGDCINCTMCVQVCPVGIDIRDGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEGALEHEYPESDIKKRLKRPRVAGYGAVLLVVIIAFLVGLSTRKMVEVDILKDRGVMVRENSKGWLENAYNLRIINNSENEQVMTAAVKGFEEIALTGLPEGGVKIAPRQTLTIPVQVSTIPEYADKGSHPIEFTFTYRETGKADGK</Hsp_hseq>
+      <Hsp_midline>M+TENQA +       SE+  AAPK +     + +          VIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWS RQAV+FNIP+RHFFIFGLSLG+GDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATK LLIFLVCAWTGITFAGWFVPIRQFVPDLF GAAGGGAMFAAAFYGFMTFFFAH+MREKVCLHMCPYARFQSAMFDKDTLI+SYD ERGEPRGARKKT NKE++GLGDCINC MCVQVCPVGIDIR+GLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE ALEHEY E DIKKRL RPRVAGYGAVL VV+ AFLVGLSTRKMVEVDILKDRGVMVREN+KGWLENAY+LRIINNSE EQ++TA+VKGF+EIALTGLPEGG+K+APR+T+T+PVQVSTIPEYADKGSHPIEF F YRE+G +DGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|490412162|ref|WP_004284853.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria weaveri] &gt;gi|343967751|gb|EGV35992.1| cytochrome c oxidase accessory protein CcoG [Neisseria weaveri LMG 5135] &gt;gi|343969131|gb|EGV37349.1| cytochrome c oxidase accessory protein CcoG [Neisseria weaveri ATCC 51223]</Hit_def>
+  <Hit_accession>WP_004284853</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>778.089</Hsp_bit-score>
+      <Hsp_score>2008</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>408</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>467</Hsp_align-len>
+      <Hsp_qseq>PRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>PKEQVIQLYQGSKRIHPKLAKGRFTNLRVWAVIATQFVFYVLPWFNWSGRQAVLFDIPERHFYIFGLSLGMGDLIYLAGLLMICAFGLFWWTTIAGRLWCGYACPQTVYTEIMLWIDHLVEGDRNKRLKLDKEPWNFRKIRIKAVKYLLIFAVSAWTGITFAGWFTPIRELVPAIFTMTVGGGILFTAAFYGFMTWFMGHMMREQVCKYMCPYARFQSAMFDRDTLIISYDVERGEPRGARKKNANKEETQLGDCINCTMCVQVCPVGIDIRDGLQYECIGCAACIDACDEIMDKMNYPRGLIRYTTEAALEHEYPEKAIKRRLLRPRVLGYGSVLMLVVIAWLIGIATRATLEVDIIKDRGVMVRENNKGWLENAYNLRIVNASEDEQVLTAKVSGFDEIALTGLPEEGVRVPGGETITIPVQVSTIPEYADKGSHPIEFEFTYRSTVDADAKPDVITEKASFIGE</Hsp_hseq>
+      <Hsp_midline>P+  VIQ++   +RIHPK A+GRF  LR+ AV+ATQFVFYV+PWFNWSGRQAV+F+IPERHF+IFGLSLG+GDLIYLA LLMICAFGLFWWTTIAGRLWCGY+CPQTVYTEIMLWID+LVEGDRNKRLKL+K PWNF KIRIKA KYLLIF V AWTGITFAGWF PIR+ VP +FT   GGG +F AAFYGFMT+F  H+MRE+VC +MCPYARFQSAMFD+DTLI+SYD ERGEPRGARKK  NKEE  LGDCINC MCVQVCPVGIDIR+GLQY+CIGCAACIDACDEIMDKM YP GLIRYTTE+ALEHEY EK IK+RLLRPRV GYG+VL +VV A+L+G++TR  +EVDI+KDRGVMVREN KGWLENAY+LRI+N SE EQ++TA V GFDEIALTGLPE G++V   ETIT+PVQVSTIPEYADKGSHPIEF F YR +  +D KP V+ E A+FIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|747147936|gb|AJE18319.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>AJE18319</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>760.37</Hsp_bit-score>
+      <Hsp_score>1962</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>423</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>495</Hsp_align-len>
+      <Hsp_qseq>ENQAGSPASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>KGDSGHPAENKPTV-KAKPASKPKESGKPKEQVIQLYESNKRIHPKKAEGRFAKLRIAAILATQFVFYCIPWFHWSGRQAVLFDISNRHFFIFGLSLGMGDLIYLALLLIICAFGLFWWTTVAGRLWCGYACPQTVYTEIMLWIDHFVEGDRNKRLKLDKESWGLRKIRIKLTKYLLIFAVCAWTGISFVGWFTPIREFVPAVFTMTADSGALFAAAFYGFVTWLFAHQMREQVCKYMCPYARFQSAMFDPDTLVISYDTERGEPRGARKKNVGRDETDLGDCINCTMCVQVCPVGIDIRDGLQYECIGCAACIDACDEIMDKMGYPRGLIRYTTENVLEHKYTDKDIKKKLLRPRVAGYGAVLFVAIVAFIIGVATRATLRVDVIKDRGVMVRENSKGWLENAYNLRIINNSEQEQTVTASVSGFDDIELSGLPKEGIKVGGRQTITVPVQVSTIPEYADKGSHPIKFTFTYRQDGDTEGR--VINEKSNFIGE</Hsp_hseq>
+      <Hsp_midline>+  +G PA    T  + K A K K++  P+  VIQ++   +RIHPKKAEGRFAKLRIAA+LATQFVFY IPWF+WSGRQAV+F+I  RHFFIFGLSLG+GDLIYLALLL+ICAFGLFWWTT+AGRLWCGY+CPQTVYTEIMLWID+ VEGDRNKRLKL+K  W   KIRIK TKYLLIF VCAWTGI+F GWF PIR+FVP +FT  A  GA+FAAAFYGF+T+ FAH MRE+VC +MCPYARFQSAMFD DTL++SYD ERGEPRGARKK V ++E  LGDCINC MCVQVCPVGIDIR+GLQY+CIGCAACIDACDEIMDKMGYP GLIRYTTE+ LEH+Y +KDIKK+LLRPRVAGYGAVL V + AF++G++TR  + VD++KDRGVMVREN+KGWLENAY+LRIINNSE+EQ +TASV GFD+I L+GLP+ GIKV  R+TIT+PVQVSTIPEYADKGSHPI+F F YR+ G ++G+  V+ E + FIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|429166280|gb|EKY08274.1|</Hit_id>
+  <Hit_def>cytochrome c oxidase accessory protein CcoG [Neisseria sp. oral taxon 020 str. F0370]</Hit_def>
+  <Hit_accession>EKY08274</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>748.043</Hsp_bit-score>
+      <Hsp_score>1930</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>519</Hsp_align-len>
+      <Hsp_qseq>ENQAGSPASGIGTSEQTKAAPKVKKTFDP------------------------RASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>KNDAANPEPEGGSSPETAAAPSGETKAKPAIKINDAADAKAKPAAKTKAAGKPKEQVIKLYESGKRIHPKKAEGRFAKLRIAAILATQFVFYCIPWFNWSGRQAVLFDIPNRHFFIFNLSFGMADLIYLALLLIICAFGLFWWTTVAGRLWCGYACPQTVYTEIMLWIDHFVEGDRNKRLKLDKEPWNARKIRIKLTKYLLIFAVCAWTGITFAGWFTPIRDFVPALFNGQAGGGALFAAAFYGFVTWLFAHQMREQVCKHMCPYARFQSAMFDPDTLIISYDTERGEPRGARKKNVGRDETDLGDCINCTMCVQVCPVGIDIRDGLQYECIGCAACIDACDDIMDKMGYPRGLIRYTTENVLEHKYGDGDIKKQLLRPRVIGYGAVLAVVVTAFLVGVATRQTLRVDIIKDRGVMVRENSKGWLENAYNLRIINNSEKEQTVTAAVAGFDDIALTGLPEGGVKVGGRETLTIPVQVSTIPEYADKGSHSIEFTFTYREEGSAEGHTIT--EKSNFIGE</Hsp_hseq>
+      <Hsp_midline>+N A +P    G+S +T AAP  +    P                        +  VI+++  G+RIHPKKAEGRFAKLRIAA+LATQFVFY IPWFNWSGRQAV+F+IP RHFFIF LS G+ DLIYLALLL+ICAFGLFWWTT+AGRLWCGY+CPQTVYTEIMLWID+ VEGDRNKRLKL+K PWN  KIRIK TKYLLIF VCAWTGITFAGWF PIR FVP LF G AGGGA+FAAAFYGF+T+ FAH MRE+VC HMCPYARFQSAMFD DTLI+SYD ERGEPRGARKK V ++E  LGDCINC MCVQVCPVGIDIR+GLQY+CIGCAACIDACD+IMDKMGYP GLIRYTTE+ LEH+Y + DIKK+LLRPRV GYGAVLAVVV AFLVG++TR+ + VDI+KDRGVMVREN+KGWLENAY+LRIINNSEKEQ +TA+V GFD+IALTGLPEGG+KV  RET+T+PVQVSTIPEYADKGSH IEF F YRE G+++G  +   E + FIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|738547279|ref|WP_036495496.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria sp. oral taxon 020]</Hit_def>
+  <Hit_accession>WP_036495496</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>744.962</Hsp_bit-score>
+      <Hsp_score>1922</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>367</Hsp_identity>
+      <Hsp_positive>412</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>QVIKLYESGKRIHPKKAEGRFAKLRIAAILATQFVFYCIPWFNWSGRQAVLFDIPNRHFFIFNLSFGMADLIYLALLLIICAFGLFWWTTVAGRLWCGYACPQTVYTEIMLWIDHFVEGDRNKRLKLDKEPWNARKIRIKLTKYLLIFAVCAWTGITFAGWFTPIRDFVPALFNGQAGGGALFAAAFYGFVTWLFAHQMREQVCKHMCPYARFQSAMFDPDTLIISYDTERGEPRGARKKNVGRDETDLGDCINCTMCVQVCPVGIDIRDGLQYECIGCAACIDACDDIMDKMGYPRGLIRYTTENVLEHKYGDGDIKKQLLRPRVIGYGAVLAVVVTAFLVGVATRQTLRVDIIKDRGVMVRENSKGWLENAYNLRIINNSEKEQTVTAAVAGFDDIALTGLPEGGVKVGGRETLTIPVQVSTIPEYADKGSHSIEFTFTYREEGSAEGHTIT--EKSNFIGE</Hsp_hseq>
+      <Hsp_midline> VI+++  G+RIHPKKAEGRFAKLRIAA+LATQFVFY IPWFNWSGRQAV+F+IP RHFFIF LS G+ DLIYLALLL+ICAFGLFWWTT+AGRLWCGY+CPQTVYTEIMLWID+ VEGDRNKRLKL+K PWN  KIRIK TKYLLIF VCAWTGITFAGWF PIR FVP LF G AGGGA+FAAAFYGF+T+ FAH MRE+VC HMCPYARFQSAMFD DTLI+SYD ERGEPRGARKK V ++E  LGDCINC MCVQVCPVGIDIR+GLQY+CIGCAACIDACD+IMDKMGYP GLIRYTTE+ LEH+Y + DIKK+LLRPRV GYGAVLAVVV AFLVG++TR+ + VDI+KDRGVMVREN+KGWLENAY+LRIINNSEKEQ +TA+V GFD+IALTGLPEGG+KV  RET+T+PVQVSTIPEYADKGSH IEF F YRE G+++G  +   E + FIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|750377648|ref|WP_040659562.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria bacilliformis]</Hit_def>
+  <Hit_accession>WP_040659562</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>744.577</Hsp_bit-score>
+      <Hsp_score>1921</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>510</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>407</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>QVIKLYEAGKRIHPKKAEGRFAKLRIAAILATQFVFYCIPWFNWSGRQAVLFDIPNRHFFIFGLSFGMADLIYLALLLIISAFGLFWWTTVAGRLWCGYACPQTVYTEIMLWIDHFVEGDRNKRMKLDKEPWNLRKIRIKFTKYLIIFAVCAWTGITFAGWFTPIREFVPAVFTMQAGGTALFAAAFYGFVTWLFAHQMREQVCKHMCPYARFQSAMFDPDTLIISYDTERGEPRGARKKTVARGETDLGDCINCTMCVQVCPVGIDIRDGLQYECIGCAACIDACDEVMDKMGYPRGLIRYTTENVLEHKYTDGDIKKQMLRPRVIGYGAVLAAAVVAFLIGVSTRQTLRVDIIKDRGVMVRENSKGWLENAYNLRIINNSEKPQTVTASVTGFDDIKLTGLPAGGIKIGSRETVTVPVQVSTIPEYADKGSHPIEFAFTYREDG-RDGSRTITEK-SNFIGE</Hsp_hseq>
+      <Hsp_midline> VI+++  G+RIHPKKAEGRFAKLRIAA+LATQFVFY IPWFNWSGRQAV+F+IP RHFFIFGLS G+ DLIYLALLL+I AFGLFWWTT+AGRLWCGY+CPQTVYTEIMLWID+ VEGDRNKR+KL+K PWN  KIRIK TKYL+IF VCAWTGITFAGWF PIR+FVP +FT  AGG A+FAAAFYGF+T+ FAH MRE+VC HMCPYARFQSAMFD DTLI+SYD ERGEPRGARKKTV + E  LGDCINC MCVQVCPVGIDIR+GLQY+CIGCAACIDACDE+MDKMGYP GLIRYTTE+ LEH+Y + DIKK++LRPRV GYGAVLA  V AFL+G+STR+ + VDI+KDRGVMVREN+KGWLENAY+LRIINNSEK Q +TASV GFD+I LTGLP GGIK+  RET+T+PVQVSTIPEYADKGSHPIEF F YRE G  DG   + E+ + FIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|327463927|gb|EGF10241.1|</Hit_id>
+  <Hit_def>cytochrome c oxidase accessory protein CcoG [Neisseria bacilliformis ATCC BAA-1200]</Hit_def>
+  <Hit_accession>EGF10241</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>745.732</Hsp_bit-score>
+      <Hsp_score>1924</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>598</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>407</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>QVIKLYEAGKRIHPKKAEGRFAKLRIAAILATQFVFYCIPWFNWSGRQAVLFDIPNRHFFIFGLSFGMADLIYLALLLIISAFGLFWWTTVAGRLWCGYACPQTVYTEIMLWIDHFVEGDRNKRMKLDKEPWNLRKIRIKFTKYLIIFAVCAWTGITFAGWFTPIREFVPAVFTMQAGGTALFAAAFYGFVTWLFAHQMREQVCKHMCPYARFQSAMFDPDTLIISYDTERGEPRGARKKTVARGETDLGDCINCTMCVQVCPVGIDIRDGLQYECIGCAACIDACDEVMDKMGYPRGLIRYTTENVLEHKYTDGDIKKQMLRPRVIGYGAVLAAAVVAFLIGVSTRQTLRVDIIKDRGVMVRENSKGWLENAYNLRIINNSEKPQTVTASVTGFDDIKLTGLPAGGIKIGSRETVTVPVQVSTIPEYADKGSHPIEFAFTYREDG-RDGSRTITEK-SNFIGE</Hsp_hseq>
+      <Hsp_midline> VI+++  G+RIHPKKAEGRFAKLRIAA+LATQFVFY IPWFNWSGRQAV+F+IP RHFFIFGLS G+ DLIYLALLL+I AFGLFWWTT+AGRLWCGY+CPQTVYTEIMLWID+ VEGDRNKR+KL+K PWN  KIRIK TKYL+IF VCAWTGITFAGWF PIR+FVP +FT  AGG A+FAAAFYGF+T+ FAH MRE+VC HMCPYARFQSAMFD DTLI+SYD ERGEPRGARKKTV + E  LGDCINC MCVQVCPVGIDIR+GLQY+CIGCAACIDACDE+MDKMGYP GLIRYTTE+ LEH+Y + DIKK++LRPRV GYGAVLA  V AFL+G+STR+ + VDI+KDRGVMVREN+KGWLENAY+LRIINNSEK Q +TASV GFD+I LTGLP GGIK+  RET+T+PVQVSTIPEYADKGSHPIEF F YRE G  DG   + E+ + FIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|496407109|ref|WP_009115973.1|</Hit_id>
+  <Hit_def>ferredoxin [Neisseria wadsworthii] &gt;gi|349794725|gb|EGZ48535.1| cytochrome c oxidase accessory protein CcoG [Neisseria wadsworthii 9715]</Hit_def>
+  <Hit_accession>WP_009115973</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>731.865</Hsp_bit-score>
+      <Hsp_score>1888</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>345</Hsp_identity>
+      <Hsp_positive>408</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>486</Hsp_align-len>
+      <Hsp_qseq>SEQTKAAP-KVKKTFDPRA---SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>SEQANQQPDKPKPTSSKQAGKEQVINLYQGSKRIHPKLAKGRFANWRVVAIFATQFVFYVLPWLNFNGRQAVLFDIPDRHFYIFGLSLGTGDLIYLSGLLIVSAFGLFWWTTIAGRLWCGYACPQTVYTEVMLWIDHLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFAVCAWTGISFAGWFTPIREFVPNIFNGTANAAPMIAAAFYGFMTWLMAHMMREQVCKYMCPYARFQSAMFDPDTLIISYDEERGEPRGARKKNMSKEESGLGDCINCTMCVQVCPVGIDIRDGLQYECIGCAACIDACDEIMDKMNYPRGLIRYTTEAALKHQYPEAQIKKRLLRPRVVGYGLFLLAAVSALLFGLSTRDSLKVDIIKDRGVMVRENKQGRLENAYNLRVVNYGEEEQIVTATVKGFDDIVLTGLPEEGLRVPPSETLTVPVQVATYPEYADKGTHPIEFTFKYRKAAETPEVAAELIEKSSFVGE</Hsp_hseq>
+      <Hsp_midline>SEQ    P K K T   +A    VI ++   +RIHPK A+GRFA  R+ A+ ATQFVFYV+PW N++GRQAV+F+IP+RHF+IFGLSLG GDLIYL+ LL++ AFGLFWWTTIAGRLWCGY+CPQTVYTE+MLWID+LVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIF VCAWTGI+FAGWF PIR+FVP++F G A    M AAAFYGFMT+  AH+MRE+VC +MCPYARFQSAMFD DTLI+SYD ERGEPRGARKK ++KEE+GLGDCINC MCVQVCPVGIDIR+GLQY+CIGCAACIDACDEIMDKM YP GLIRYTTE+AL+H+Y E  IKKRLLRPRV GYG  L   V+A L GLSTR  ++VDI+KDRGVMVREN +G LENAY+LR++N  E+EQ++TA+VKGFD+I LTGLPE G++V P ET+T+PVQV+T PEYADKG+HPIEF F+YR++  +      L E ++F+GE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|652643495|ref|WP_027008962.1|</Hit_id>
+  <Hit_def>ferredoxin [Conchiformibius kuhniae]</Hit_def>
+  <Hit_accession>WP_027008962</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>697.197</Hsp_bit-score>
+      <Hsp_score>1798</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>375</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>SVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>KVIEIHPEGQRIHPKKAEGRFAKLRLAVLAATQLFFYGMPWLMWHGRQAVWFDIPGRHFYIFDMVLVPNDLLFLSGLLMVCAFGLFWWTTIAGRLWCGYACPQTVYTEIMLWIDHLVEGDRNQRLKLEKSPWNLHKIRVKLTKYLLIAAVAGWTGITFAGWFVPIREFVPALFAGTAGFGAVLTAAIYAGFTWLLGHIMREKVCLHMCPYARFQSAMFDHDTLIISYDEARGEPRGARKKTAQRGETGLGDCINCNMCVQVCPVGIDIREGLQYQCIGCAACIDACDEIMDKMAYPRGLIRYTTEAVLKHEYTDADIKKRLLRPKVALYGGFLGIAAIGLVVGLFTRQTMHIDIIKDRGVMVRENKLGMLENAYRLNINNASEQPQIVSAVVRGFEDIRLNGLPEQGLEIPGGELVSVPVQVSTQPEYADRGSHPIEFEFRYRPAGAPENQARTIREKASFIGE</Hsp_hseq>
+      <Hsp_midline> VI+IHPEG+RIHPKKAEGRFAKLR+A + ATQ  FY +PW  W GRQAV F+IP RHF+IF + L   DL++L+ LLM+CAFGLFWWTTIAGRLWCGY+CPQTVYTEIMLWID+LVEGDRN+RLKLEKSPWN  KIR+K TKYLLI  V  WTGITFAGWFVPIR+FVP LF G AG GA+  AA Y   T+   HIMREKVCLHMCPYARFQSAMFD DTLI+SYD  RGEPRGARKKT  + E GLGDCINC MCVQVCPVGIDIR GLQYQCIGCAACIDACDEIMDKM YP GLIRYTTE+ L+HEY + DIKKRLLRP+VA YG  L +     +VGL TR+ + +DI+KDRGVMVREN  G LENAY L I N SE+ Q+++A V+GF++I L GLPE G+++   E +++PVQVST PEYAD+GSHPIEF F+YR +GA + +   + E A+FIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|237867951|gb|EEP68957.1|</Hit_id>
+  <Hit_def>cytochrome c oxidase accessory protein CcoG [Kingella oralis ATCC 51147]</Hit_def>
+  <Hit_accession>EEP68957</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>691.419</Hsp_bit-score>
+      <Hsp_score>1783</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>489</Hsp_align-len>
+      <Hsp_qseq>PASGIGTSEQTKAAPKVKKTFDPRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWSGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVSTIPEYADKGSHPIEFIFQYRESGASDGKPVVLEEDATFIGE</Hsp_qseq>
+      <Hsp_hseq>PSHPQGQPEIPQPAPKAATKPAVKEQVIQFH-SSKRIHPKRAIGKFANLRVLMIVATQLFFYGMPWIMWHGRQAVLFNIEERHFYLFSMVLEPADMLYLAGLMIVSAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDHLVEGDRNKRLKLDKEPWNFHKIRIKALKYLVIFIVAAWTGITFSGWFVPIRQFVPAIFAGTAGSVALGTAAFYGFVTWLFGHILREKVCLHMCPYARFQSAMFDHDTLVISYDVERGEPRGARKKNASKEDTQLGDCINCTMCVQVCPTGIDIRDGLQYQCIGCAACIDACDEIMDKMGYPRGLIRYTTEAVLKHEYTDADVKKRLLRPKVVGYGVVLLVAVIGLCVGLATRATVQIDVIKDRGVMVRENKEGLLENSYNLSISNASEQTQIIQASVSGLDDIRLTGLPENGISIKGGDIITVPVQVATQPEYAEKGSHPIQFTFKYRVAGQPENEARVLQEKSIFIGE</Hsp_hseq>
+      <Hsp_midline>P+   G  E  + APK       +  VIQ H   +RIHPK+A G+FA LR+  ++ATQ  FY +PW  W GRQAV+FNI ERHF++F + L   D++YLA L+++ AFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWID+LVEGDRNKRLKL+K PWNF KIRIKA KYL+IF+V AWTGITF+GWFVPIRQFVP +F G AG  A+  AAFYGF+T+ F HI+REKVCLHMCPYARFQSAMFD DTL++SYD ERGEPRGARKK  +KE+  LGDCINC MCVQVCP GIDIR+GLQYQCIGCAACIDACDEIMDKMGYP GLIRYTTE+ L+HEY + D+KKRLLRP+V GYG VL V V    VGL+TR  V++D++KDRGVMVREN +G LEN+Y+L I N SE+ Q+I ASV G D+I LTGLPE GI +   + IT+PVQV+T PEYA+KGSHPI+F F+YR +G  + +  VL+E + FIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

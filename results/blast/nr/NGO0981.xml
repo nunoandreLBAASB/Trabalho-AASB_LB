@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>179903</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F820 Peptidyl-prolyl cis-trans isomerase</BlastOutput_query-def>
+  <BlastOutput_query-len>160</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>179903</Iteration_query-ID>
+  <Iteration_query-def>Q5F820 Peptidyl-prolyl cis-trans isomerase</Iteration_query-def>
+  <Iteration_query-len>160</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|501495180|ref|WP_012503549.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria gonorrhoeae] &gt;gi|194098378|ref|YP_002001436.1| putative peptidyl-prolyl cis-trans isomerase [Neisseria gonorrhoeae NCCP11945] &gt;gi|193933668|gb|ACF29492.1| putative peptidyl-prolyl cis-trans isomerase [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>WP_012503549</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.398</Hsp_bit-score>
+      <Hsp_score>825</Hsp_score>
+      <Hsp_evalue>7.19903e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_qseq>
+      <Hsp_hseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_hseq>
+      <Hsp_midline>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489784409|ref|WP_003688300.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria gonorrhoeae] &gt;gi|59801367|ref|YP_208079.1| hypothetical protein NGO0981 [Neisseria gonorrhoeae FA 1090] &gt;gi|538321647|ref|YP_008502707.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria gonorrhoeae MS11] &gt;gi|59718262|gb|AAW89667.1| putative peptidyl-prolyl cis-trans isomerase [Neisseria gonorrhoeae FA 1090] &gt;gi|226512613|gb|EEH61958.1| peptidyl-prolyl isomerase [Neisseria gonorrhoeae 1291] &gt;gi|268548021|gb|EEZ43439.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria gonorrhoeae 35/02] &gt;gi|268550830|gb|EEZ45849.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria gonorrhoeae FA19] &gt;gi|268582911|gb|EEZ47587.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria gonorrhoeae MS11] &gt;gi|268585270|gb|EEZ49946.1| peptidyl-prolyl isomerase [Neisseria gonorrhoeae PID18] &gt;gi|268587588|gb|EEZ52264.1| peptidyl-prolyl isomerase [Neisseria gonorrhoeae PID1] &gt;gi|268622221|gb|EEZ54621.1| peptidyl-prolyl isomerase [Neisseria gonorrhoeae PID332] &gt;gi|268624435|gb|EEZ56835.1| peptidyl-prolyl isomerase [Neisseria gonorrhoeae SK-92-679] &gt;gi|268626689|gb|EEZ59089.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria gonorrhoeae SK-93-1035] &gt;gi|291012501|gb|EFE04490.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria gonorrhoeae DGI2] &gt;gi|291610642|gb|EFF39752.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria gonorrhoeae F62] &gt;gi|636862123|gb|KDM99245.1| peptidylprolyl isomerase [Neisseria gonorrhoeae] &gt;gi|636863992|gb|KDN00954.1| peptidylprolyl isomerase [Neisseria gonorrhoeae] &gt;gi|636866222|gb|KDN03034.1| peptidylprolyl isomerase [Neisseria gonorrhoeae] &gt;gi|654607254|gb|KEC87737.1| peptidylprolyl isomerase [Neisseria gonorrhoeae] &gt;gi|693765147|gb|KGI96026.1| peptidylprolyl isomerase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003688300</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.472</Hsp_bit-score>
+      <Hsp_score>820</Hsp_score>
+      <Hsp_evalue>2.39583e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_qseq>
+      <Hsp_hseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_hseq>
+      <Hsp_midline>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|488179062|ref|WP_002250270.1|</Hit_id>
+  <Hit_def>FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis] &gt;gi|432258429|gb|ELL13713.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 61103] &gt;gi|485294402|gb|EOB59684.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 63023] &gt;gi|485294778|gb|EOB60039.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 61106]</Hit_def>
+  <Hit_accession>WP_002250270</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.457</Hsp_bit-score>
+      <Hsp_score>794</Hsp_score>
+      <Hsp_evalue>1.82454e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDPELVRIEDAGVFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGPHGHYHH</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQD ELVRIEDAG FPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHG HGHYHH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|488141663|ref|WP_002212871.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|15677375|ref|NP_274530.1| FKBP-type peptidylprolyl isomerase [Neisseria meningitidis MC58] &gt;gi|121635193|ref|YP_975438.1| peptidyl-prolyl isomerase [Neisseria meningitidis FAM18] &gt;gi|161870382|ref|YP_001599554.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria meningitidis 053442] &gt;gi|218768504|ref|YP_002343016.1| peptidyl-prolyl isomerase [Neisseria meningitidis Z2491] &gt;gi|254805288|ref|YP_003083509.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis alpha14] &gt;gi|385323844|ref|YP_005878283.1| putative FKBP-type peptidyl-prolyl cis-trans isomerase (PPIase; rotamase) [Neisseria meningitidis 8013] &gt;gi|385328815|ref|YP_005883118.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria meningitidis alpha710] &gt;gi|385338338|ref|YP_005892211.1| putative FKBP-type peptidyl-prolyl cis-trans isomerase (PPIase; rotamase) [Neisseria meningitidis WUE 2594] &gt;gi|385340400|ref|YP_005894272.1| hypothetical protein NMBG2136_1403 [Neisseria meningitidis G2136] &gt;gi|385341581|ref|YP_005895452.1| hypothetical protein NMBM01240149_0647 [Neisseria meningitidis M01-240149] &gt;gi|385855559|ref|YP_005902072.1| hypothetical protein NMBM01240355_1445 [Neisseria meningitidis M01-240355] &gt;gi|385857572|ref|YP_005904084.1| hypothetical protein NMBNZ0533_1498 [Neisseria meningitidis NZ-05/33] &gt;gi|7226766|gb|AAF41878.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria meningitidis MC58] &gt;gi|120866899|emb|CAM10658.1| putative peptidyl-prolyl isomerase [Neisseria meningitidis FAM18] &gt;gi|121052512|emb|CAM08851.1| putative peptidyl-prolyl isomerase [Neisseria meningitidis Z2491] &gt;gi|161595935|gb|ABX73595.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria meningitidis 053442] &gt;gi|254668830|emb|CBA06855.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis alpha14] &gt;gi|254670699|emb|CBA06844.1| peptidyl-prolyl cis-trans isomerase, FKBP-type [Neisseria meningitidis alpha153] &gt;gi|254672343|emb|CBA05529.1| peptidyl-prolyl cis-trans isomerase, FKBP-type [Neisseria meningitidis alpha275] &gt;gi|261392231|emb|CAX49751.1| putative FKBP-type peptidyl-prolyl cis-trans isomerase (PPIase; rotamase) [Neisseria meningitidis 8013] &gt;gi|304338870|gb|EFM04972.1| hypothetical protein HMPREF0602_0558 [Neisseria meningitidis ATCC 13091] &gt;gi|308389667|gb|ADO31987.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria meningitidis alpha710] &gt;gi|316986015|gb|EFV64952.1| FKBP-type peptidyl-prolyl cis-trans isomerase slyD [Neisseria meningitidis H44/76] &gt;gi|319410752|emb|CBY91135.1| putative FKBP-type peptidyl-prolyl cis-trans isomerase (PPIase; rotamase) [Neisseria meningitidis WUE 2594] &gt;gi|325128602|gb|EGC51472.1| hypothetical protein NMXN1568_0650 [Neisseria meningitidis N1568] &gt;gi|325130578|gb|EGC53325.1| hypothetical protein NMBOX9930304_0645 [Neisseria meningitidis OX99.30304] &gt;gi|325132661|gb|EGC55346.1| hypothetical protein NMBM6190_0597 [Neisseria meningitidis M6190] &gt;gi|325134661|gb|EGC57301.1| hypothetical protein NMBM13399_0707 [Neisseria meningitidis M13399] &gt;gi|325136584|gb|EGC59185.1| hypothetical protein NMBM0579_0702 [Neisseria meningitidis M0579] &gt;gi|325138549|gb|EGC61112.1| hypothetical protein NMBES14902_0759 [Neisseria meningitidis ES14902] &gt;gi|325140650|gb|EGC63167.1| hypothetical protein NMBCU385_0670 [Neisseria meningitidis CU385] &gt;gi|325142697|gb|EGC65077.1| hypothetical protein NMB9615945_0724 [Neisseria meningitidis 961-5945] &gt;gi|325198644|gb|ADY94100.1| conserved hypothetical protein [Neisseria meningitidis G2136] &gt;gi|325201787|gb|ADY97241.1| conserved hypothetical protein [Neisseria meningitidis M01-240149] &gt;gi|325204500|gb|ADY99953.1| conserved hypothetical protein [Neisseria meningitidis M01-240355] &gt;gi|325208461|gb|ADZ03913.1| conserved hypothetical protein [Neisseria meningitidis NZ-05/33] &gt;gi|389605318|emb|CCA44238.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria meningitidis alpha522] &gt;gi|393291611|emb|CCI73141.1| fkbp-type peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis alpha704] &gt;gi|402316501|gb|EJU52046.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis 93003] &gt;gi|402316608|gb|EJU52151.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis NM255] &gt;gi|402317808|gb|EJU53337.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis 93004] &gt;gi|402331447|gb|EJU66784.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis 98008] &gt;gi|402335303|gb|EJU70569.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis 92045] &gt;gi|402336146|gb|EJU71408.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis 80179] &gt;gi|402337265|gb|EJU72514.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM2657] &gt;gi|402340198|gb|EJU75401.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis NM2795] &gt;gi|402342648|gb|EJU77807.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis NM3081] &gt;gi|432202129|gb|ELK58194.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM422] &gt;gi|432202470|gb|ELK58533.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 98080] &gt;gi|432204672|gb|ELK60711.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 87255] &gt;gi|432208831|gb|ELK64803.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 97021] &gt;gi|432209038|gb|ELK65009.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 88050] &gt;gi|432215013|gb|ELK70904.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 63041] &gt;gi|432215132|gb|ELK71022.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2006087] &gt;gi|432219162|gb|ELK75010.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2002038] &gt;gi|432221239|gb|ELK77052.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 97014] &gt;gi|432224916|gb|ELK80678.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis M13255] &gt;gi|432226627|gb|ELK82353.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM418] &gt;gi|432227207|gb|ELK82918.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM586] &gt;gi|432229425|gb|ELK85113.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM762] &gt;gi|432232919|gb|ELK88554.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis M7089] &gt;gi|432233700|gb|ELK89326.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis M7124] &gt;gi|432235044|gb|ELK90663.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM174] &gt;gi|432240533|gb|ELK96068.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 9757] &gt;gi|432240682|gb|ELK96216.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 9506] &gt;gi|432242844|gb|ELK98359.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM126] &gt;gi|432246371|gb|ELL01822.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 4119] &gt;gi|432246478|gb|ELL01925.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 63049] &gt;gi|432247301|gb|ELL02739.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 12888] &gt;gi|432252402|gb|ELL07758.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2004090] &gt;gi|432252647|gb|ELL07999.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 96023] &gt;gi|432256150|gb|ELL11474.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 65014] &gt;gi|432258811|gb|ELL14092.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 97020] &gt;gi|432264259|gb|ELL19463.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3652] &gt;gi|432265597|gb|ELL20789.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3642] &gt;gi|432265796|gb|ELL20987.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2007056] &gt;gi|432270592|gb|ELL25728.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2001212] &gt;gi|432271227|gb|ELL26353.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 77221] &gt;gi|432276908|gb|ELL31962.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 63006] &gt;gi|485281124|gb|EOB47260.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2000080] &gt;gi|485281377|gb|EOB47501.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 94018] &gt;gi|485287322|gb|EOB53068.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 75689] &gt;gi|485287658|gb|EOB53385.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 75643] &gt;gi|485293922|gb|EOB59238.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 97018] &gt;gi|485301201|gb|EOB66032.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 65012] &gt;gi|485301910|gb|EOB66696.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 64182] &gt;gi|485307137|gb|EOB71575.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 97027] &gt;gi|485308362|gb|EOB72707.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 96024] &gt;gi|485308971|gb|EOB73284.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 97008] &gt;gi|485313507|gb|EOB77537.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 98005] &gt;gi|485315182|gb|EOB79091.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2004085] &gt;gi|485315614|gb|EOB79498.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2003022] &gt;gi|485320221|gb|EOB83811.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2000063] &gt;gi|485321939|gb|EOB85403.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM604] &gt;gi|485322533|gb|EOB85963.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2002007] &gt;gi|485326848|gb|EOB90001.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM606] &gt;gi|485329095|gb|EOB92088.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM607] &gt;gi|485329440|gb|EOB92403.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM133] &gt;gi|485332820|gb|EOB95566.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM43] &gt;gi|485336213|gb|EOB98722.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM82] &gt;gi|485336356|gb|EOB98850.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM94] &gt;gi|485339100|gb|EOC01431.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM95] &gt;gi|485342602|gb|EOC04695.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM313] &gt;gi|485345815|gb|EOC07686.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM1495] &gt;gi|485349598|gb|EOC11210.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 73696] &gt;gi|485352793|gb|EOC14191.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 81858] &gt;gi|485355296|gb|EOC16524.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2002020] &gt;gi|485357396|gb|EOC18427.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM477] &gt;gi|485359777|gb|EOC20595.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis M13265] &gt;gi|485362017|gb|EOC22629.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3147] &gt;gi|485365510|gb|EOC25797.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2001072] &gt;gi|485366873|gb|EOC27066.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2001073] &gt;gi|485368695|gb|EOC28779.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2000081] &gt;gi|485375121|gb|EOC34764.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2001213] &gt;gi|485378285|gb|EOC37733.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2004264] &gt;gi|485380775|gb|EOC40050.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2000175] &gt;gi|485380915|gb|EOC40178.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2005079] &gt;gi|485384978|gb|EOC43991.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2001068] &gt;gi|485387312|gb|EOC46160.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2005040] &gt;gi|485387573|gb|EOC46402.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2002004] &gt;gi|485392227|gb|EOC50739.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2005172] &gt;gi|485393731|gb|EOC52136.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2008223] &gt;gi|485430092|gb|EOC85862.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM23] &gt;gi|485430636|gb|EOC86341.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM32] &gt;gi|485435049|gb|EOC90333.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM35] &gt;gi|485435082|gb|EOC90364.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM35] &gt;gi|485435840|gb|EOC91046.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM35] &gt;gi|485436470|gb|EOC91629.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM36] &gt;gi|514069393|gb|EPF54311.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM134] &gt;gi|514069821|gb|EPF54703.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 98002] &gt;gi|530899286|gb|EQC98039.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2002030] &gt;gi|530899489|gb|EQC98229.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 96037] &gt;gi|530900062|gb|EQC98766.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3141] &gt;gi|530905391|gb|EQD03761.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3139] &gt;gi|530906526|gb|EQD04820.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM045] &gt;gi|530907825|gb|EQD06047.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM151] &gt;gi|530911154|gb|EQD09181.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM003] &gt;gi|530914462|gb|EQD12288.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM1476] &gt;gi|530917082|gb|EQD14763.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM518] &gt;gi|530920823|gb|EQD18267.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3173] &gt;gi|530922148|gb|EQD19509.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3230] &gt;gi|530922189|gb|EQD19547.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3230] &gt;gi|530923191|gb|EQD20488.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM2866] &gt;gi|694193182|gb|KGI98408.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|723270288|gb|KHC97480.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|723273888|gb|KHD01072.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|726975713|gb|KHF23133.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|730571080|gb|AIZ18882.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|730573475|gb|AIZ20877.1| peptidylprolyl isomerase [Neisseria meningitidis M7124] &gt;gi|730575811|gb|AIZ22760.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|730578280|gb|AIZ24727.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|730579582|gb|AIZ25563.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|743394631|gb|KID54169.1| peptidylprolyl isomerase [Neisseria meningitidis LNP27256] &gt;gi|744799127|gb|AJC63915.1| peptidylprolyl isomerase [Neisseria meningitidis LNP21362] &gt;gi|747185374|gb|KIF89444.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|747185580|gb|KIF89594.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|747188098|gb|KIF91658.1| peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|747189166|gb|KIF92510.1| peptidylprolyl isomerase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002212871</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>1.62204e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDPELVRIEDAGVFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGPHGHHHH</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQD ELVRIEDAG FPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHG HGH+HH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|504394524|ref|WP_014581626.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|385852871|ref|YP_005899385.1| hypothetical protein NMBH4476_0707 [Neisseria meningitidis H44/76] &gt;gi|325199875|gb|ADY95330.1| conserved hypothetical protein [Neisseria meningitidis H44/76]</Hit_def>
+  <Hit_accession>WP_014581626</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>2.20571e-102</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_qseq>
+      <Hsp_hseq>KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDPELVRIEDAGVFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGPHGHHHH</Hsp_hseq>
+      <Hsp_midline>KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQD ELVRIEDAG FPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHG HGH+HH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|610427346|gb|AHW76222.1|</Hit_id>
+  <Hit_def>FKBP-type peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|663090483|gb|KER38779.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>AHW76222</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>3.38478e-99</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>VVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_qseq>
+      <Hsp_hseq>MVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDPELVRIEDAGVFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGPHGHHHH</Hsp_hseq>
+      <Hsp_midline>+VSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQD ELVRIEDAG FPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHG HGH+HH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|325144787|gb|EGC67078.1|</Hit_id>
+  <Hit_def>hypothetical protein NMBM01240013_0762 [Neisseria meningitidis M01-240013]</Hit_def>
+  <Hit_accession>EGC67078</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>4.1681e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDSELVRIEDVGVFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQDSELVRIED G FPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|488158479|ref|WP_002229687.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|385850908|ref|YP_005897423.1| hypothetical protein NMBM04240196_0698 [Neisseria meningitidis M04-240196] &gt;gi|325205731|gb|ADZ01184.1| conserved hypothetical protein [Neisseria meningitidis M04-240196] &gt;gi|372200720|gb|EHP14753.1| hypothetical protein NMY220_1431 [Neisseria meningitidis NM220] &gt;gi|372201306|gb|EHP15248.1| hypothetical protein NMY233_1410 [Neisseria meningitidis NM233] &gt;gi|402328664|gb|EJU64031.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis 69166] &gt;gi|432207782|gb|ELK63770.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 68094] &gt;gi|432214379|gb|ELK70280.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 70012] &gt;gi|432260209|gb|ELL15469.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 69096] &gt;gi|432272784|gb|ELL27890.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 70030] &gt;gi|485274143|gb|EOB40749.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 70021] &gt;gi|485274195|gb|EOB40797.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 69176] &gt;gi|485274226|gb|EOB40827.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 69155] &gt;gi|485281306|gb|EOB47435.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 96060] &gt;gi|485288354|gb|EOB54038.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 69100] &gt;gi|485300875|gb|EOB65734.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 70082] &gt;gi|485349642|gb|EOC11251.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 73704] &gt;gi|485371813|gb|EOC31670.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2001001] &gt;gi|485373468|gb|EOC33205.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2004032] &gt;gi|485394824|gb|EOC53168.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2003051] &gt;gi|485399287|gb|EOC57319.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM271] &gt;gi|485399771|gb|EOC57765.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM115] &gt;gi|485401295|gb|EOC59197.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM90] &gt;gi|485405892|gb|EOC63465.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3042] &gt;gi|485406352|gb|EOC63883.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3222] &gt;gi|485412066|gb|EOC69216.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3131] &gt;gi|485412498|gb|EOC69587.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3144] &gt;gi|485412936|gb|EOC69986.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3158] &gt;gi|485415217|gb|EOC72133.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3164] &gt;gi|485419107|gb|EOC75733.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM27] &gt;gi|485419408|gb|EOC76008.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM51] &gt;gi|485422588|gb|EOC78991.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM80] &gt;gi|485425706|gb|EOC81863.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM165] &gt;gi|485425895|gb|EOC82036.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM3223] &gt;gi|514070281|gb|EPF55131.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis 2007461] &gt;gi|530914629|gb|EQD12443.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM0552]</Hit_def>
+  <Hit_accession>WP_002229687</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>1.29452e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDSELVRIEDVGVFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQDSELVRIED G FPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488172085|ref|WP_002243293.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|402344849|gb|EJU79982.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis NM3001]</Hit_def>
+  <Hit_accession>WP_002243293</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>7.67096e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDPELVRIEDVGVFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQD ELVRIED G FPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|498489905|ref|WP_010791168.1|</Hit_id>
+  <Hit_def>FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis] &gt;gi|485343483|gb|EOC05494.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria meningitidis NM1482]</Hit_def>
+  <Hit_accession>WP_010791168</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>1.93995e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDANNQLLGKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDPELVRIEDAGVFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDANNQLL KTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQD ELVRIEDAG FPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|503214061|ref|WP_013448722.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria lactamica] &gt;gi|313668094|ref|YP_004048378.1| peptidyl-prolyl isomerase [Neisseria lactamica 020-06] &gt;gi|313005556|emb|CBN86992.1| putative peptidyl-prolyl isomerase [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448722</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>1.96124e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDSELVRVEDVGVFPVDVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKARVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQDSELVR+ED G FPV+VEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKA VESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488164771|ref|WP_002235979.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria meningitidis] &gt;gi|402322399|gb|EJU57861.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis NM183] &gt;gi|402322631|gb|EJU58083.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis NM140] &gt;gi|402324563|gb|EJU59995.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis NM2781] &gt;gi|402329013|gb|EJU64376.1| peptidyl-prolyl cis-trans isomerase [Neisseria meningitidis NM576]</Hit_def>
+  <Hit_accession>WP_002235979</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>2.41323e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDPELVRIEDVGVFPVEVEVGMMFEADDPETGDVVVYRVTNVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQD ELVRIED G FPVEVEVGMMFEADDPETGDVVVYRVT+VADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|518103399|ref|WP_019273607.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273607</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>3.20514e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIAKNSVVSLHYEMYDVNNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDPELVRIEDVGVFPVEVEVGMMFEADDPETGEVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAIAKNSVVSLHYEMYD NNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQD ELVRIED G FPVEVEVGMMFEADDPETG+VVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|489847558|ref|WP_003751245.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria polysaccharea] &gt;gi|296839283|gb|EFH23221.1| hypothetical protein NEIPOLOT_00913 [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>WP_003751245</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>9.973e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDVGDTVDVALSPDDAFGEQDPELVRIEDVGVFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRNASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKD GDTVDVALS DDAFGEQD ELVRIED G FPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVR+ASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|489804825|ref|WP_003708701.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria lactamica] &gt;gi|269209479|gb|EEZ75934.1| hypothetical protein NEILACOT_04006 [Neisseria lactamica ATCC 23970] &gt;gi|309378720|emb|CBX22670.1| unnamed protein product [Neisseria lactamica Y92-1009] &gt;gi|673469257|gb|KFJ35887.1| FKBP-type peptidyl-prolyl cis-trans isomerase family protein [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003708701</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>1.2542e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDPELVRVEDVGVFPVDVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKARVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQD ELVR+ED G FPV+VEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKA VESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|748595695|ref|WP_039853875.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria cinerea]</Hit_def>
+  <Hit_accession>WP_039853875</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.937</Hsp_bit-score>
+      <Hsp_score>694</Hsp_score>
+      <Hsp_evalue>3.03519e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDVNNQLLDKTEEPIVYLHGGYDGIFPLVEEALHGKDVGDTVDVVLSPDDAFGEQEPDLVRIEDVGVFPVEVEVGMMFEADDPETGEVIIYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYD NNQLLDKTEEPI YLHGGYDGIFPLVEEALHGKD GDTVDV LS DDAFGEQ+ +LVRIED G FPVEVEVGMMFEADDPETG+V++YRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|269146351|gb|EEZ72769.1|</Hit_id>
+  <Hit_def>hypothetical protein NEICINOT_03202 [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>EEZ72769</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.707</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>3.86592e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDVNNQLLDKTEEPIVYLHGGYDGIFPLVEEALHGKDVGDTVDVVLSPDDAFGEQEPDLVRIEDVGVFPVEVEVGMMFEADDPETGEVIIYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYD NNQLLDKTEEPI YLHGGYDGIFPLVEEALHGKD GDTVDV LS DDAFGEQ+ +LVRIED G FPVEVEVGMMFEADDPETG+V++YRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|224951928|gb|EEG33137.1|</Hit_id>
+  <Hit_def>hypothetical protein NEIFLAOT_01811 [Neisseria flavescens NRL30031/H210] &gt;gi|284797627|gb|EFC52974.1| hypothetical protein NEISUBOT_03812 [Neisseria subflava NJ9703] &gt;gi|317401031|gb|EFV81686.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>EEG33137</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.929</Hsp_bit-score>
+      <Hsp_score>681</Hsp_score>
+      <Hsp_evalue>3.4189e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MSIVKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKNVGDTVEVALSPDDAFGEQDPELVRIEDVSVFPVEVEVGMMFEADDPETGDVLIYRVTDVADGKAVVDGNHPLAGMKVLFKATVEGVRDATEEEIA</Hsp_hseq>
+      <Hsp_midline>M+I KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGK+ GDTV+VALS DDAFGEQD ELVRIED   FPVEVEVGMMFEADDPETGDV++YRVTDVADGKAVVDGNHPLAGMK+ FKATVE VRDA++EEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|489779234|ref|WP_003683125.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidylprolyl isomerase [Neisseria] &gt;gi|241321260|gb|EER57432.1| hypothetical protein NEIFL0001_0834 [Neisseria flavescens SK114] &gt;gi|694242537|gb|KGJ33386.1| peptidylprolyl isomerase [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_003683125</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>4.06914e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MSIVKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKNVGDTVEVALSPDDAFGEQDPELVRIEDVSVFPVEVEVGMMFEADDPETGDVLIYRVTDVADGKAVVDGNHPLAGMKVLFKATVEGVRDATEEEIA</Hsp_hseq>
+      <Hsp_midline>M+I KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGK+ GDTV+VALS DDAFGEQD ELVRIED   FPVEVEVGMMFEADDPETGDV++YRVTDVADGKAVVDGNHPLAGMK+ FKATVE VRDA++EEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|515029771|ref|WP_016687025.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016687025</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>1.10674e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIEKNSVVSLHYEMYDADNQLLDKTEEPIVYLHGGYDGIFPLVEEALHGKNVGDTVEVALSPDDAFGEQDPSLVRIEDVNAFPVDVEVGMMFEADDPETGDVLIYRVTDVADGKAVVDGNHPLAGMKILFKATVDGVRDATEEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDA+NQLLDKTEEPI YLHGGYDGIFPLVEEALHGK+ GDTV+VALS DDAFGEQD  LVRIED  AFPV+VEVGMMFEADDPETGDV++YRVTDVADGKAVVDGNHPLAGMKI FKATV+ VRDA++EEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|746360697|ref|WP_039405294.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Morococcus cerebrosus] &gt;gi|742700446|gb|KIC12680.1| peptidylprolyl isomerase [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_039405294</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>3.01828e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MAIKKNSVVSLHYEMYDADNQLLDKTEEPIAYLHGGYDGIFPLVEEALHEKNVGDTVEVALSPDDAFGEQDPGLVRIEDVSVFPVEVEVGMMFEADDPETGDVLVYRVTDVADGKAVVDGNHPLAGMKILFKATVDSVRDATEEEI</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDA+NQLLDKTEEPIAYLHGGYDGIFPLVEEALH K+ GDTV+VALS DDAFGEQD  LVRIED   FPVEVEVGMMFEADDPETGDV+VYRVTDVADGKAVVDGNHPLAGMKI FKATV+SVRDA++EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|652666960|ref|WP_027022461.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Conchiformibius steedae]</Hit_def>
+  <Hit_accession>WP_027022461</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>3.18827e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_qseq>
+      <Hsp_hseq>MSIKKNSVVTLHYEMYNADNELIDKTVEPIAYLHGGYDGIFPLVEEALHEKHIGDSIDVVLSPDDAFGEQEPELIRVENADVFPVDVELGMMFEADDPETGGIIVYRVVDVADGKVVVDGNHPLAGMKIRFKATVDNIREASAEEIAHGHVHGPDGHHHH</Hsp_hseq>
+      <Hsp_midline>M+I KNSVV+LHYEMY+A+N+L+DKT EPIAYLHGGYDGIFPLVEEALH K  GD++DV LS DDAFGEQ+ EL+R+E+A  FPV+VE+GMMFEADDPETG ++VYRV DVADGK VVDGNHPLAGMKIRFKATV+++R+AS EEIAHGHVHG  GH+HH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|496465236|ref|WP_009174081.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria sp. oral taxon 014] &gt;gi|298283392|gb|EFI24879.1| peptidyl-prolyl cis-trans isomerase, FKBP-type SlyD [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009174081</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>3.87869e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIAKNSAVSLHYEMFDTDNQLLDKTEEPIVYLHGGYDGIFPLVEEALHGKEVGDTVDVVLSPDDAFGEHDPELVRVEDVSVFPVEVEAGMMFEADDPATGDVIIYRVTDVADGKAVVDGNHPLAGMKIRFKATVDSIRDATDEEIA</Hsp_hseq>
+      <Hsp_midline>MAIAKNS VSLHYEM+D +NQLLDKTEEPI YLHGGYDGIFPLVEEALHGK+ GDTVDV LS DDAFGE D ELVR+ED   FPVEVE GMMFEADDP TGDV++YRVTDVADGKAVVDGNHPLAGMKIRFKATV+S+RDA+DEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|489839377|ref|WP_003743084.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria mucosa] &gt;gi|288566787|gb|EFC88347.1| hypothetical protein NEIMUCOT_05297 [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003743084</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>5.80644e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIKKNSVVSLHYEMYDADNQLLDKTEEPIAYLHGGYDGIFPLVEEALHEKNVGDTVEVALSPDDAFGEQDPGLVRIEDVSVFPVEVEVGMMFEADDPETGDVLVYRVTDVADGKAVVDGNHPLAGMKILFKATVDGVRDATEEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDA+NQLLDKTEEPIAYLHGGYDGIFPLVEEALH K+ GDTV+VALS DDAFGEQD  LVRIED   FPVEVEVGMMFEADDPETGDV+VYRVTDVADGKAVVDGNHPLAGMKI FKATV+ VRDA++EEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|489863296|ref|WP_003766910.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria sicca] &gt;gi|385696915|gb|EIG27376.1| peptidyl-prolyl cis-trans isomerase, FKBP-type [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003766910</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>1.20559e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIEKNSVVSLHYEMYDADNQLLDKTEEPIVYLHGGYDGIFPLVEEALHEKNVGDTVEVALSPDDAFGEQDPSLVRIEDVSVFPVEVEVGMMFEADDPETGDVLIYRVTDVADGKAVVDGNHPLAGMKILFKATVDGVRDATEEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDA+NQLLDKTEEPI YLHGGYDGIFPLVEEALH K+ GDTV+VALS DDAFGEQD  LVRIED   FPVEVEVGMMFEADDPETGDV++YRVTDVADGKAVVDGNHPLAGMKI FKATV+ VRDA++EEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|490412405|ref|WP_004285061.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria weaveri] &gt;gi|343967132|gb|EGV35382.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria weaveri LMG 5135] &gt;gi|343967675|gb|EGV35918.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Neisseria weaveri ATCC 51223]</Hit_def>
+  <Hit_accession>WP_004285061</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>3.87159e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MSIVKNSVVTLHYEMFDSNDQLIDKTEQPIAYLHGGYDGIFPLVEEALHGKAKGDVVDVVLSPDDAFGEQDPELVRIEDVNVFPVEVEVGMMFEADDPETGDVFIYRVTDIADGKAVVDGNHPLAGMKIRFKATVEDVRPASDEEI</Hsp_hseq>
+      <Hsp_midline>M+I KNSVV+LHYEM+D+N+QL+DKTE+PIAYLHGGYDGIFPLVEEALHGK  GD VDV LS DDAFGEQD ELVRIED   FPVEVEVGMMFEADDPETGDV +YRVTD+ADGKAVVDGNHPLAGMKIRFKATVE VR ASDEEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|645196933|ref|WP_025457789.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025457789</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>4.13419e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIVKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSPDDAFGEQDPELVRIEDVGVFPVEVEVGMMFEADDPETGDVVVYRVTDVVDGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALS DDAFGEQD ELVRIED G FPVEVEVGMMFEADDPETGDVVVYRVTDV DGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|489875066|ref|WP_003778575.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria macacae] &gt;gi|339887117|gb|EGQ76709.1| peptidyl-prolyl cis-trans isomerase [Neisseria macacae ATCC 33926]</Hit_def>
+  <Hit_accession>WP_003778575</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>4.60949e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIEKNSVVSLHYEMYDADNQLLDKTEEPIVYLHGGYDGIFPLVEEALHEKNVGDTVEVALSPDDAFGEQDPGLVRIEDVSVFPVEVEVGMMFEADDPETGDVLIYRVTDVADGKAVVDGNHPLAGMKILFKATVDGVRDATEEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDA+NQLLDKTEEPI YLHGGYDGIFPLVEEALH K+ GDTV+VALS DDAFGEQD  LVRIED   FPVEVEVGMMFEADDPETGDV++YRVTDVADGKAVVDGNHPLAGMKI FKATV+ VRDA++EEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|489853275|ref|WP_003756947.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria sicca] &gt;gi|255049899|gb|EET45363.1| hypothetical protein NEISICOT_00990 [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>WP_003756947</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>5.02962e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIEKNSVVSLHYEMYDVDNQLLDKTEEPIVYLHGGYDGIFPLVEEALHEKNVGDTVEVALSPDDAFGEQDPSLVRIEDVSVFPVEVEVGMMFEADDPETGDVLIYRVTDVADGKAVVDGNHPLAGMKILFKATVDGVRDATEEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYD +NQLLDKTEEPI YLHGGYDGIFPLVEEALH K+ GDTV+VALS DDAFGEQD  LVRIED   FPVEVEVGMMFEADDPETGDV++YRVTDVADGKAVVDGNHPLAGMKI FKATV+ VRDA++EEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|496669235|ref|WP_009311725.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria sp. GT4A_CT1] &gt;gi|348611228|gb|EGY60889.1| hypothetical protein HMPREF1028_01012 [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>WP_009311725</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>5.5482e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MAIEKNSVVSLHYEMYDADNQLLDKTEEPIVYLHGGYDGIFPLVEEALHEKNVGDTVEVALSPDDAFGEQDPSLVRIEDVSVFPVDVEVGMMFEADDPETGDVLIYRVTDVADGKAVVDGNHPLAGMKILFKATVDGVRDATEEEIA</Hsp_hseq>
+      <Hsp_midline>MAI KNSVVSLHYEMYDA+NQLLDKTEEPI YLHGGYDGIFPLVEEALH K+ GDTV+VALS DDAFGEQD  LVRIED   FPV+VEVGMMFEADDPETGDV++YRVTDVADGKAVVDGNHPLAGMKI FKATV+ VRDA++EEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|652645080|ref|WP_027009932.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Conchiformibius kuhniae]</Hit_def>
+  <Hit_accession>WP_027009932</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>1.36846e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_qseq>
+      <Hsp_hseq>MSIKKNAVVTLHYEMYDVNNQLLDQTVEPIAYLHGGYDGIFPLVEEALHEKNIGDSIDVELSPDDAFGEYEPELRRVEPADVFPVDVELGMMFEADDPETGDVILYRVEEIGNGKVVVNGNHPMAGMKIRFKATVDNIRDATPEEIAHGHVHGADGHLHH</Hsp_hseq>
+      <Hsp_midline>M+I KN+VV+LHYEMYD NNQLLD+T EPIAYLHGGYDGIFPLVEEALH K+ GD++DV LS DDAFGE + EL R+E A  FPV+VE+GMMFEADDPETGDV++YRV ++ +GK VV+GNHP+AGMKIRFKATV+++RDA+ EEIAHGHVHG+ GH HH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|496409819|ref|WP_009118683.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria shayeganii] &gt;gi|348013912|gb|EGY52810.1| peptidyl-prolyl cis-trans isomerase [Neisseria shayeganii 871]</Hit_def>
+  <Hit_accession>WP_009118683</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>4.66277e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MNIEKNTVVTLHYEMLDANDQLIDKTEEPIAYLHGGYDGIFPLVEEALHGKAAGDSVDVVLQPDDAFGEQEPELVRVESLDVFPVEVEVGMMFEADDPETGDVIVYRVTDVADGKAVVDGNHPLAGMKIRFKATVTEVRPAEAEEI</Hsp_hseq>
+      <Hsp_midline>M I KN+VV+LHYEM DAN+QL+DKTEEPIAYLHGGYDGIFPLVEEALHGK AGD+VDV L  DDAFGEQ+ ELVR+E    FPVEVEVGMMFEADDPETGDV+VYRVTDVADGKAVVDGNHPLAGMKIRFKATV  VR A  EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|739631640|ref|WP_037487643.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Snodgrassella alvi] &gt;gi|664668934|gb|KES11376.1| FKBP-type peptidyl-prolyl cis-trans isomerase 2 [Snodgrassella alvi SCGC AB-598-O02]</Hit_def>
+  <Hit_accession>WP_037487643</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>6.12285e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGHYHH</Hsp_qseq>
+      <Hsp_hseq>MKIAKNSVVSLDYEMYDADNQLIDKTEEPISYQHGGYDGIFPLVEEQLHDKAVGDVVDVTLEPDDAFGEQDDDLIRIEPLDVFPVDVELGMMFEADDPETGEVLVYRITDIADGKAVVDANHPLAGQRIRFKATVKDIRPATAEELEHGHVHRAHDHHYH</Hsp_hseq>
+      <Hsp_midline>M IAKNSVVSL YEMYDA+NQL+DKTEEPI+Y HGGYDGIFPLVEE LH K  GD VDV L  DDAFGEQD +L+RIE    FPV+VE+GMMFEADDPETG+V+VYR+TD+ADGKAVVD NHPLAG +IRFKATV+ +R A+ EE+ HGHVH +H H++H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|518099574|ref|WP_019269782.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_019269782</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>7.86938e-80</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>VVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MVSLHYEMYDADNQLLDKTEEPIAYLHGGYDGIFPLVEEALHEKNVGDTVEVALSPDDAFGEQDPSLVRIEDVSVFPVEVEVGMMFEADDPETGDVLVYRVTDVADGKAVVDGNHPLAGMKILFKATVDDVRDATEEEIT</Hsp_hseq>
+      <Hsp_midline>+VSLHYEMYDA+NQLLDKTEEPIAYLHGGYDGIFPLVEEALH K+ GDTV+VALS DDAFGEQD  LVRIED   FPVEVEVGMMFEADDPETGDV+VYRVTDVADGKAVVDGNHPLAGMKI FKATV+ VRDA++EEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|736171749|ref|WP_034292231.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Alysiella crassa]</Hit_def>
+  <Hit_accession>WP_034292231</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>8.83859e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MSIQKNSVVTLHYQMFDSNNQLIDETAEPIAYLHGGYDGIFPLVEEALHEKNVGDVVEVVMQPDDAFGEQEPELVRMEDANVFPVEVEVGMMFEADDPETGEIIVYRVTDVADGKVVVDGNHPLAGMVIRFKATVDSIRPATEEEI</Hsp_hseq>
+      <Hsp_midline>M+I KNSVV+LHY+M+D+NNQL+D+T EPIAYLHGGYDGIFPLVEEALH K+ GD V+V +  DDAFGEQ+ ELVR+EDA  FPVEVEVGMMFEADDPETG+++VYRVTDVADGK VVDGNHPLAGM IRFKATV+S+R A++EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|489919854|ref|WP_003823213.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Eikenella corrodens] &gt;gi|224942923|gb|EEG24132.1| peptidyl-prolyl cis-trans isomerase, FKBP-type [Eikenella corrodens ATCC 23834]</Hit_def>
+  <Hit_accession>WP_003823213</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>9.53908e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MNIEKDTVVTLHYEMFDANNQLIDKTEEPIAYLHGGYDGIFPLVEEALHGKAVGEEVDVTLSPDDAFGEQDPELVRIEPLNVFPVEVEVGMMFEADDPETGDTLVYRVTDIADGKAVVDGNHPLAGMKLRFKGKVAEIRPATTEEIA</Hsp_hseq>
+      <Hsp_midline>M I K++VV+LHYEM+DANNQL+DKTEEPIAYLHGGYDGIFPLVEEALHGK  G+ VDV LS DDAFGEQD ELVRIE    FPVEVEVGMMFEADDPETGD +VYRVTD+ADGKAVVDGNHPLAGMK+RFK  V  +R A+ EEIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|740471269|ref|WP_038302560.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038302560</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.891</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>1.87447e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MSIKKNSVVTLHYEMFDADNNLLDKTVEPIEYLHGGYDGIFPLVEEALHEKNVGDTVDVLMQPDDAFGEQEPELVRIEDLSVFPVEVEPGMMFEADDPEHGDIIIYRVTDVADGKAVVDGNHPFAGMKIRFKATVEAVRDATAEEI</Hsp_hseq>
+      <Hsp_midline>M+I KNSVV+LHYEM+DA+N LLDKT EPI YLHGGYDGIFPLVEEALH K+ GDTVDV +  DDAFGEQ+ ELVRIED   FPVEVE GMMFEADDPE GD+++YRVTDVADGKAVVDGNHP AGMKIRFKATVE+VRDA+ EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|489888258|ref|WP_003791708.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Kingella kingae] &gt;gi|380833073|gb|EIC12952.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Kingella kingae PYKK081]</Hit_def>
+  <Hit_accession>WP_003791708</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>4.33723e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MSIKKNSVVTLHYEMFDADNNLLDKTVEPIEYLHGGYDGIFPLVEEALHEKNVGDTVDVLMQPDDAFGEQESELVRIEDLSVFPVEVEPGMMFEADDPEHGGIIIYRVTDVADGKAVVDGNHPFAGMKIRFKATVEAVRDATAEEI</Hsp_hseq>
+      <Hsp_midline>M+I KNSVV+LHYEM+DA+N LLDKT EPI YLHGGYDGIFPLVEEALH K+ GDTVDV +  DDAFGEQ+SELVRIED   FPVEVE GMMFEADDPE G +++YRVTDVADGKAVVDGNHP AGMKIRFKATVE+VRDA+ EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|565111320|ref|WP_023886827.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens] &gt;gi|564137442|gb|ETA83553.1| hypothetical protein HMPREF1177_00740 [Eikenella corrodens CC92I]</Hit_def>
+  <Hit_accession>WP_023886827</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>7.55985e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MNIEKDTVVTLHYEMFDANNQLIDKTEEPIAYLHGGYDGIFPLVEEALHGKAVGEEVDVTLSPDDAFGEQDPELVRIEPLNVFPVEVEVGMMFEADDPETGDTLVYRVTDIADGKAVVDGNHPLAGMKLRFKGKVAEIRPATAEEI</Hsp_hseq>
+      <Hsp_midline>M I K++VV+LHYEM+DANNQL+DKTEEPIAYLHGGYDGIFPLVEEALHGK  G+ VDV LS DDAFGEQD ELVRIE    FPVEVEVGMMFEADDPETGD +VYRVTD+ADGKAVVDGNHPLAGMK+RFK  V  +R A+ EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|739733788|ref|WP_037587098.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Stenoxybacter acetivorans]</Hit_def>
+  <Hit_accession>WP_037587098</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>1.22092e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MNIEKNSVVTLHYEMYDVNNELIDKTEEPIAYLHGGYDGIFPLMEEALQGKAVGDVVDITLSPDDAFGEQEPELVRVEPLDVFPTDVEVGMMFEADDPETGDVLVYRVTDIADGKAIVDGNHPLAGMRIRFKATVDGVRAATEEEVT</Hsp_hseq>
+      <Hsp_midline>M I KNSVV+LHYEMYD NN+L+DKTEEPIAYLHGGYDGIFPL+EEAL GK  GD VD+ LS DDAFGEQ+ ELVR+E    FP +VEVGMMFEADDPETGDV+VYRVTD+ADGKA+VDGNHPLAGM+IRFKATV+ VR A++EE+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|489884857|ref|WP_003788307.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Kingella kingae] &gt;gi|332968882|gb|EGK07929.1| peptidyl-prolyl cis-trans isomerase [Kingella kingae ATCC 23330]</Hit_def>
+  <Hit_accession>WP_003788307</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>2.56094e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MSIKKNSVVTLHYEMFDADNNLLDKTVEPIEYLHGGYDGIFPLVEEALHEKNVGDTVDVLMQPDDAFGEQEPELVRIEDLSVFPVEVEPGMMFEADDPEHGGIIIYRVTDVADGKAVVDGNHPFAGMKIRFKATVEAVRDATAEEI</Hsp_hseq>
+      <Hsp_midline>M+I KNSVV+LHYEM+DA+N LLDKT EPI YLHGGYDGIFPLVEEALH K+ GDTVDV +  DDAFGEQ+ ELVRIED   FPVEVE GMMFEADDPE G +++YRVTDVADGKAVVDGNHP AGMKIRFKATVE+VRDA+ EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|489894742|ref|WP_003798192.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Kingella oralis] &gt;gi|237866015|gb|EEP67151.1| hypothetical protein GCWU000324_02724 [Kingella oralis ATCC 51147]</Hit_def>
+  <Hit_accession>WP_003798192</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>5.86058e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MSIQKNSVVSLHYEMYDADNNLLDKTQEPIEYLHGGYDGIFPLVEEALHDKNVGDEVDITMQPEDAFGEQDPELVRIEDVKVFPVEVEPGMMFEADDPEHGGVIIYRVTDVADGKAVVDGNHPLAGMKIRFKGTVAAVREASAEEI</Hsp_hseq>
+      <Hsp_midline>M+I KNSVVSLHYEMYDA+N LLDKT+EPI YLHGGYDGIFPLVEEALH K+ GD VD+ +  +DAFGEQD ELVRIED   FPVEVE GMMFEADDPE G V++YRVTDVADGKAVVDGNHPLAGMKIRFK TV +VR+AS EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|489879356|ref|WP_003782829.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Kingella denitrificans] &gt;gi|324981623|gb|EGC17264.1| hypothetical protein HMPREF9098_1280 [Kingella denitrificans ATCC 33394]</Hit_def>
+  <Hit_accession>WP_003782829</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>1.74178e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MSIQKNSVVTLHYEMFDADNQLLDKTVEPVEYLHGGYDGIFPLVEEALHEKNVGDTVDVFMQPEDAFGEQDPELVRIEDVKVFPVEVEPGMMFEADDPEHGGVLVYRVTDVADGKAVVDANHPLAGMKIRFKATVEAVREATADEI</Hsp_hseq>
+      <Hsp_midline>M+I KNSVV+LHYEM+DA+NQLLDKT EP+ YLHGGYDGIFPLVEEALH K+ GDTVDV +  +DAFGEQD ELVRIED   FPVEVE GMMFEADDPE G V+VYRVTDVADGKAVVD NHPLAGMKIRFKATVE+VR+A+ +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|692422648|ref|WP_032136985.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Kingella sp. Sch538]</Hit_def>
+  <Hit_accession>WP_032136985</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>5.12012e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MSIVKNTVVTLHYEMYDADNQLIDKTVEPIAYLHGGYDGIFPLVEEALHEKKVGDVVDVTMQPEDAFGEQDPELVRIEDVSVFPVEVEPGMMFEADDPEHGGVVVYRVTDVADGKAVVDGNHPLAGMVIRFKGTVVSIREATSEEL</Hsp_hseq>
+      <Hsp_midline>M+I KN+VV+LHYEMYDA+NQL+DKT EPIAYLHGGYDGIFPLVEEALH K  GD VDV +  +DAFGEQD ELVRIED   FPVEVE GMMFEADDPE G VVVYRVTDVADGKAVVDGNHPLAGM IRFK TV S+R+A+ EE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|597813295|gb|AHN28125.1|</Hit_id>
+  <Hit_def>FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Snodgrassella alvi wkB2]</Hit_def>
+  <Hit_accession>AHN28125</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>5.74271e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MKIAKNSVVTLDYEMFNADNQLIDKTEEPISYLHGGYDGIFPLVEEQLHDKTVGDVVDVKLAPDDAFGEQDEDLIRIEPLDVFPVEVEVGMMFEADDPETGDVMVYRITDVADGKAVVDGNHPLAGQCIRFKATVKDIRPATAEEL</Hsp_hseq>
+      <Hsp_midline>M IAKNSVV+L YEM++A+NQL+DKTEEPI+YLHGGYDGIFPLVEE LH K  GD VDV L+ DDAFGEQD +L+RIE    FPVEVEVGMMFEADDPETGDV+VYR+TDVADGKAVVDGNHPLAG  IRFKATV+ +R A+ EE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|488719011|ref|WP_002642887.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Simonsiella muelleri] &gt;gi|294482543|gb|EFG30234.1| hypothetical protein HMPREF9021_01862 [Simonsiella muelleri ATCC 29453]</Hit_def>
+  <Hit_accession>WP_002642887</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>1.56489e-74</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>IAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>IKKNSVVSLHYKMYDENNELIDETSHPIEYLHGGYDGIFPLVEEALHEKNVGDTVEVLLQPEDAFGEQDPQLVRIEDVKVFPVDVEVGMMFEADDPETGDVIVYRVTDVADGKAVVDGNHPLAGLPIRFTAKVDGVRDATEEEI</Hsp_hseq>
+      <Hsp_midline>I KNSVVSLHY+MYD NN+L+D+T  PI YLHGGYDGIFPLVEEALH K+ GDTV+V L  +DAFGEQD +LVRIED   FPV+VEVGMMFEADDPETGDV+VYRVTDVADGKAVVDGNHPLAG+ IRF A V+ VRDA++EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|739534393|ref|WP_037392790.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Snodgrassella alvi] &gt;gi|662244389|gb|KEQ01043.1| FKBP-type peptidyl-prolyl cis-trans isomerase 2 [Snodgrassella alvi SCGC AB-598-J21]</Hit_def>
+  <Hit_accession>WP_037392790</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>1.15934e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MKIAKNSVVTLDYEMFNADNQLIDKTEEPISYLHGGYDGIFPLVEEQLHDKTVGDVVDVKLAPDDAFGEQDEDLIRIEPLDVFPVEVEVGMMFEADDPETGDVMVYRITDVAGGKAVVDGNHPLAGQCIRFKATVKDIRPATAEEL</Hsp_hseq>
+      <Hsp_midline>M IAKNSVV+L YEM++A+NQL+DKTEEPI+YLHGGYDGIFPLVEE LH K  GD VDV L+ DDAFGEQD +L+RIE    FPVEVEVGMMFEADDPETGDV+VYR+TDVA GKAVVDGNHPLAG  IRFKATV+ +R A+ EE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|739634599|ref|WP_037490558.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Snodgrassella alvi] &gt;gi|637118667|gb|KDN15413.1| FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [Snodgrassella alvi]</Hit_def>
+  <Hit_accession>WP_037490558</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>3.48273e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MKIAKNSVVMLDYEMFNADNQLIDKTEEPISYLHGGYDGIFPLVEEQLHDKEVGDVVDVTLAPDDAFGEQEEDLIRIEPLDVFPVEVEVGMMFEADDPETGEVMVYRITDVADGKAVVDGNHPLAGQRIRFIATVKDIRPATAEEL</Hsp_hseq>
+      <Hsp_midline>M IAKNSVV L YEM++A+NQL+DKTEEPI+YLHGGYDGIFPLVEE LH K+ GD VDV L+ DDAFGEQ+ +L+RIE    FPVEVEVGMMFEADDPETG+V+VYR+TDVADGKAVVDGNHPLAG +IRF ATV+ +R A+ EE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|502026800|ref|WP_012698077.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Laribacter hongkongensis] &gt;gi|226941548|ref|YP_002796622.1| SlyD [Laribacter hongkongensis HLHK9] &gt;gi|226716475|gb|ACO75613.1| SlyD [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>WP_012698077</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>3.75518e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFP--VEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MQIAKNSVVSLNYEMYDADNNLLDQTDEPISYLHGGYDGIFPLVEEALHGKSVGDSIDIKMDPDNAFGEPDEELVRVEDADVFPPDVELEVGMMFEADDPETGDVIIFRITDIADGKVVVDGNHPLAGQTIRFKGTVTEVRPATQEEL</Hsp_hseq>
+      <Hsp_midline>M IAKNSVVSL+YEMYDA+N LLD+T+EPI+YLHGGYDGIFPLVEEALHGK  GD++D+ +  D+AFGE D ELVR+EDA  FP  VE+EVGMMFEADDPETGDV+++R+TD+ADGK VVDGNHPLAG  IRFK TV  VR A+ EE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|518801632|ref|WP_019957586.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Vitreoscilla stercoraria]</Hit_def>
+  <Hit_accession>WP_019957586</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>4.77771e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>MPIQKNDVVSLQYEMFDTNNQLLDKTEEDIVYLHGGYDGIFPLVEEALHGKNVGDVVDVTLEPDDAFGEQDEDLIRIEDLEAFPVEVEVGMMFEADD-EFGDSLVYRVTEIADGKAVVDGNHPLSGMRLRFKATVNDIRPATKEEI</Hsp_hseq>
+      <Hsp_midline>M I KN VVSL YEM+D NNQLLDKTEE I YLHGGYDGIFPLVEEALHGK+ GD VDV L  DDAFGEQD +L+RIED  AFPVEVEVGMMFEADD E GD +VYRVT++ADGKAVVDGNHPL+GM++RFKATV  +R A+ EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

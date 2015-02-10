@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>14581</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7I7</BlastOutput_query-def>
+  <BlastOutput_query-len>210</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>14581</Iteration_query-ID>
+  <Iteration_query-def>Q5F7I7</Iteration_query-def>
+  <Iteration_query-len>210</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499253671|ref|WP_010951211.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria gonorrhoeae] &gt;gi|59801550|ref|YP_208262.1| membrane protein [Neisseria gonorrhoeae FA 1090] &gt;gi|59718445|gb|AAW89850.1| genome-derived Neisseria antigen 2001 [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>WP_010951211</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.565</Hsp_bit-score>
+      <Hsp_score>1111</Hsp_score>
+      <Hsp_evalue>7.40507e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|268548923|gb|EEZ44341.1|</Hit_id>
+  <Hit_def>outer membrane protein [Neisseria gonorrhoeae 35/02]</Hit_def>
+  <Hit_accession>EEZ44341</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>4.99853e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489793609|ref|WP_003697500.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria gonorrhoeae] &gt;gi|7274420|gb|AAF44765.1|AF235148_1 GNA2001 [Neisseria gonorrhoeae] &gt;gi|7274424|gb|AAF44767.1|AF235150_1 GNA2001 [Neisseria gonorrhoeae] &gt;gi|268586207|gb|EEZ50883.1| outer membrane protein [Neisseria gonorrhoeae PID18] &gt;gi|268621269|gb|EEZ53669.1| outer membrane protein [Neisseria gonorrhoeae PID332] &gt;gi|291609889|gb|EFF39012.1| outer membrane protein precursor [Neisseria gonorrhoeae F62] &gt;gi|636860825|gb|KDM98042.1| membrane protein [Neisseria gonorrhoeae] &gt;gi|636863317|gb|KDN00331.1| membrane protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003697500</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.254</Hsp_bit-score>
+      <Hsp_score>1105</Hsp_score>
+      <Hsp_evalue>6.97622e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|489785730|ref|WP_003689621.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria gonorrhoeae] &gt;gi|194099481|ref|YP_002002602.1| Outer membrane protein precursor GNA2001 [Neisseria gonorrhoeae NCCP11945] &gt;gi|193934771|gb|ACF30595.1| Outer membrane protein precursor GNA2001 [Neisseria gonorrhoeae NCCP11945] &gt;gi|226513460|gb|EEH62805.1| outer membrane protein [Neisseria gonorrhoeae 1291] &gt;gi|268625307|gb|EEZ57707.1| outer membrane protein [Neisseria gonorrhoeae SK-92-679] &gt;gi|636865873|gb|KDN02699.1| membrane protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003689621</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>1.12881e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRIKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARR+KKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|515714418|ref|WP_017147018.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria gonorrhoeae] &gt;gi|535125855|gb|EEZ44716.2| hypothetical protein NGEG_01979 [Neisseria gonorrhoeae FA19]</Hit_def>
+  <Hit_accession>WP_017147018</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>2.08266e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|489798140|ref|WP_003702031.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria gonorrhoeae] &gt;gi|268625752|gb|EEZ58152.1| outer membrane protein [Neisseria gonorrhoeae SK-93-1035]</Hit_def>
+  <Hit_accession>WP_003702031</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>6.21738e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGNRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRIKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGG+RISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARR+KKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|489792154|ref|WP_003696045.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria gonorrhoeae] &gt;gi|538321841|ref|YP_008502901.1| outer membrane protein [Neisseria gonorrhoeae MS11] &gt;gi|7274422|gb|AAF44766.1|AF235149_1 GNA2001 [Neisseria gonorrhoeae] &gt;gi|268583863|gb|EEZ48539.1| outer membrane protein [Neisseria gonorrhoeae MS11]</Hit_def>
+  <Hit_accession>WP_003696045</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.557</Hsp_bit-score>
+      <Hsp_score>1098</Hsp_score>
+      <Hsp_evalue>8.72673e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRSALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRIKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVR ALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARR+KKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|488177989|ref|WP_002249197.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria meningitidis] &gt;gi|316985649|gb|EFV64596.1| nlpC/P60 family protein [Neisseria meningitidis H44/76] &gt;gi|432244991|gb|ELL00469.1| nlpC/P60 family protein [Neisseria meningitidis 4119] &gt;gi|485272581|gb|EOB39316.1| nlpC/P60 family protein [Neisseria meningitidis 69155] &gt;gi|485278992|gb|EOB45298.1| nlpC/P60 family protein [Neisseria meningitidis 96060] &gt;gi|485292757|gb|EOB58165.1| nlpC/P60 family protein [Neisseria meningitidis 63023] &gt;gi|485293269|gb|EOB58638.1| nlpC/P60 family protein [Neisseria meningitidis 61106] &gt;gi|485299283|gb|EOB64269.1| nlpC/P60 family protein [Neisseria meningitidis 70082] &gt;gi|485347461|gb|EOC09224.1| nlpC/P60 family protein [Neisseria meningitidis 73696] &gt;gi|485350829|gb|EOC12354.1| nlpC/P60 family protein [Neisseria meningitidis 81858] &gt;gi|485354008|gb|EOC15329.1| nlpC/P60 family protein [Neisseria meningitidis 2002020] &gt;gi|485355631|gb|EOC16827.1| nlpC/P60 family protein [Neisseria meningitidis NM477] &gt;gi|485357981|gb|EOC18950.1| nlpC/P60 family protein [Neisseria meningitidis M13265] &gt;gi|485397656|gb|EOC55821.1| nlpC/P60 family protein [Neisseria meningitidis NM271] &gt;gi|485398432|gb|EOC56542.1| nlpC/P60 family protein [Neisseria meningitidis NM115] &gt;gi|485399226|gb|EOC57262.1| nlpC/P60 family protein [Neisseria meningitidis NM90] &gt;gi|485406296|gb|EOC63830.1| nlpC/P60 family protein [Neisseria meningitidis NM3131] &gt;gi|485411391|gb|EOC68581.1| nlpC/P60 family protein [Neisseria meningitidis NM3144] &gt;gi|485411455|gb|EOC68640.1| nlpC/P60 family protein [Neisseria meningitidis NM3158] &gt;gi|485412994|gb|EOC70038.1| nlpC/P60 family protein [Neisseria meningitidis NM3164] &gt;gi|485417358|gb|EOC74132.1| nlpC/P60 family protein [Neisseria meningitidis NM27] &gt;gi|485418084|gb|EOC74802.1| nlpC/P60 family protein [Neisseria meningitidis NM51] &gt;gi|485424328|gb|EOC80596.1| nlpC/P60 family protein [Neisseria meningitidis NM3223] &gt;gi|485428934|gb|EOC84833.1| nlpC/P60 family protein [Neisseria meningitidis NM23] &gt;gi|514068150|gb|EPF53168.1| nlpC/P60 family protein [Neisseria meningitidis NM134] &gt;gi|530897981|gb|EQC96818.1| nlpC/P60 family protein [Neisseria meningitidis 96037] &gt;gi|530902227|gb|EQD00816.1| nlpC/P60 family protein [Neisseria meningitidis 2002030] &gt;gi|530904311|gb|EQD02753.1| nlpC/P60 family protein [Neisseria meningitidis NM3139] &gt;gi|530904869|gb|EQD03273.1| nlpC/P60 family protein [Neisseria meningitidis NM045] &gt;gi|530905705|gb|EQD04046.1| nlpC/P60 family protein [Neisseria meningitidis NM151] &gt;gi|530909912|gb|EQD08013.1| nlpC/P60 family protein [Neisseria meningitidis NM003] &gt;gi|530912470|gb|EQD10412.1| nlpC/P60 family protein [Neisseria meningitidis NM1476] &gt;gi|530920623|gb|EQD18100.1| nlpC/P60 family protein [Neisseria meningitidis NM3230] &gt;gi|530921490|gb|EQD18888.1| nlpC/P60 family protein [Neisseria meningitidis NM2866]</Hit_def>
+  <Hit_accession>WP_002249197</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>1.93903e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488181151|ref|WP_002252359.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis] &gt;gi|485279531|gb|EOB45789.1| nlpC/P60 family protein [Neisseria meningitidis 2000080] &gt;gi|485279732|gb|EOB45969.1| nlpC/P60 family protein [Neisseria meningitidis 94018] &gt;gi|485285851|gb|EOB51717.1| nlpC/P60 family protein [Neisseria meningitidis 75689] &gt;gi|485286075|gb|EOB51920.1| nlpC/P60 family protein [Neisseria meningitidis 75643] &gt;gi|485292594|gb|EOB58020.1| nlpC/P60 family protein [Neisseria meningitidis 97018] &gt;gi|485299642|gb|EOB64598.1| nlpC/P60 family protein [Neisseria meningitidis 65012] &gt;gi|485299998|gb|EOB64925.1| nlpC/P60 family protein [Neisseria meningitidis 64182] &gt;gi|485306063|gb|EOB70594.1| nlpC/P60 family protein [Neisseria meningitidis 97027] &gt;gi|485306644|gb|EOB71114.1| nlpC/P60 family protein [Neisseria meningitidis 96024] &gt;gi|485307070|gb|EOB71512.1| nlpC/P60 family protein [Neisseria meningitidis 97008] &gt;gi|485311860|gb|EOB76010.1| nlpC/P60 family protein [Neisseria meningitidis 98005] &gt;gi|485313782|gb|EOB77788.1| nlpC/P60 family protein [Neisseria meningitidis 2004085] &gt;gi|485313832|gb|EOB77836.1| nlpC/P60 family protein [Neisseria meningitidis 2003022] &gt;gi|485319084|gb|EOB82762.1| nlpC/P60 family protein [Neisseria meningitidis 2000063] &gt;gi|485320338|gb|EOB83915.1| nlpC/P60 family protein [Neisseria meningitidis NM604] &gt;gi|485320708|gb|EOB84254.1| nlpC/P60 family protein [Neisseria meningitidis 2002007] &gt;gi|485325002|gb|EOB88287.1| nlpC/P60 family protein [Neisseria meningitidis NM606] &gt;gi|485327415|gb|EOB90521.1| nlpC/P60 family protein [Neisseria meningitidis NM133] &gt;gi|485331158|gb|EOB94004.1| nlpC/P60 family protein [Neisseria meningitidis NM43] &gt;gi|485334159|gb|EOB96806.1| nlpC/P60 family protein [Neisseria meningitidis NM82] &gt;gi|485337010|gb|EOB99458.1| nlpC/P60 family protein [Neisseria meningitidis NM95] &gt;gi|485341106|gb|EOC03316.1| nlpC/P60 family protein [Neisseria meningitidis NM313] &gt;gi|485343988|gb|EOC05981.1| nlpC/P60 family protein [Neisseria meningitidis NM1495] &gt;gi|485348348|gb|EOC10052.1| nlpC/P60 family protein [Neisseria meningitidis 73704] &gt;gi|485360266|gb|EOC21030.1| nlpC/P60 family protein [Neisseria meningitidis NM3147] &gt;gi|485363775|gb|EOC24213.1| nlpC/P60 family protein [Neisseria meningitidis 2001072] &gt;gi|485364909|gb|EOC25232.1| nlpC/P60 family protein [Neisseria meningitidis 2001073] &gt;gi|485371837|gb|EOC31693.1| nlpC/P60 family protein [Neisseria meningitidis 2004032] &gt;gi|485373274|gb|EOC33026.1| nlpC/P60 family protein [Neisseria meningitidis 2001213] &gt;gi|485376384|gb|EOC35935.1| nlpC/P60 family protein [Neisseria meningitidis 2004264] &gt;gi|485379161|gb|EOC38540.1| nlpC/P60 family protein [Neisseria meningitidis 2005079] &gt;gi|485379371|gb|EOC38736.1| nlpC/P60 family protein [Neisseria meningitidis 2000175] &gt;gi|485383479|gb|EOC42597.1| nlpC/P60 family protein [Neisseria meningitidis 2001068] &gt;gi|485385722|gb|EOC44668.1| nlpC/P60 family protein [Neisseria meningitidis 2005040] &gt;gi|485385847|gb|EOC44785.1| nlpC/P60 family protein [Neisseria meningitidis 2002004] &gt;gi|485435018|gb|EOC90309.1| nlpC/P60 family protein [Neisseria meningitidis NM36] &gt;gi|514068267|gb|EPF53269.1| nlpC/P60 family protein [Neisseria meningitidis 2007461]</Hit_def>
+  <Hit_accession>WP_002252359</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.017</Hsp_bit-score>
+      <Hsp_score>1094</Hsp_score>
+      <Hsp_evalue>3.35019e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSISTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTS+STGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|645905881|ref|WP_025461297.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria meningitidis] &gt;gi|7228786|gb|AAF42627.1|AF226478_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_025461297</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>5.66309e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNR PARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|488180917|ref|WP_002252125.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis] &gt;gi|485272658|gb|EOB39390.1| nlpC/P60 family protein [Neisseria meningitidis 69176] &gt;gi|485404962|gb|EOC62630.1| nlpC/P60 family protein [Neisseria meningitidis NM3222] &gt;gi|485419903|gb|EOC76463.1| nlpC/P60 family protein [Neisseria meningitidis NM80] &gt;gi|485428248|gb|EOC84208.1| nlpC/P60 family protein [Neisseria meningitidis NM165]</Hit_def>
+  <Hit_accession>WP_002252125</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.246</Hsp_bit-score>
+      <Hsp_score>1092</Hsp_score>
+      <Hsp_evalue>7.36282e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIG+AMGLNEQPVLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488188240|ref|WP_002259448.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis] &gt;gi|485390359|gb|EOC49024.1| nlpC/P60 family protein [Neisseria meningitidis 2005172] &gt;gi|485392116|gb|EOC50636.1| nlpC/P60 family protein [Neisseria meningitidis 2008223]</Hit_def>
+  <Hit_accession>WP_002259448</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.246</Hsp_bit-score>
+      <Hsp_score>1092</Hsp_score>
+      <Hsp_evalue>7.86216e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPAQRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPA+RAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488183036|ref|WP_002254244.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis] &gt;gi|485327261|gb|EOB90376.1| nlpC/P60 family protein [Neisseria meningitidis NM607] &gt;gi|485341739|gb|EOC03894.1| nlpC/P60 family protein [Neisseria meningitidis NM1482] &gt;gi|485366423|gb|EOC26645.1| nlpC/P60 family protein [Neisseria meningitidis 2000081] &gt;gi|485429601|gb|EOC85428.1| nlpC/P60 family protein [Neisseria meningitidis NM32] &gt;gi|485434151|gb|EOC89538.1| nlpC/P60 family protein [Neisseria meningitidis NM35]</Hit_def>
+  <Hit_accession>WP_002254244</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.861</Hsp_bit-score>
+      <Hsp_score>1091</Hsp_score>
+      <Hsp_evalue>1.12792e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSISTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIG+AMGLNEQPVLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTS+STGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|747188453|gb|KIF91933.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>KIF91933</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>1.26159e-146</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>MFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLLGIAYRYGGTSISTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>MFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNR PARRAGNADELIG+AMGLLGIAYRYGGTS+STGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|489800882|ref|WP_003704768.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|291011010|gb|EFE03007.1| outer membrane protein [Neisseria gonorrhoeae DGI2]</Hit_def>
+  <Hit_accession>WP_003704768</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.846</Hsp_bit-score>
+      <Hsp_score>1065</Hsp_score>
+      <Hsp_evalue>2.57529e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGL-----------------------------LGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGL                             LGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|545065442|ref|WP_021437858.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis] &gt;gi|530897744|gb|EQC96605.1| nlpC/P60 family protein [Neisseria meningitidis NM3141]</Hit_def>
+  <Hit_accession>WP_021437858</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>5.86622e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNR-----------------------------APARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNR                             APARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|645204466|ref|WP_025459559.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_025459559</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>6.91122e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLN-----------------------------EQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNKQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLN                             EQPVLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488148709|ref|WP_002219917.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|15677829|ref|NP_274993.1| hypothetical protein NMB2001 [Neisseria meningitidis MC58] &gt;gi|254804186|ref|YP_003082407.1| putative lipoprotein [Neisseria meningitidis alpha14] &gt;gi|385324943|ref|YP_005879382.1| hypothetical protein NMV_2200 [Neisseria meningitidis 8013] &gt;gi|385329250|ref|YP_005883553.1| hypothetical protein NMBB_2299 [Neisseria meningitidis alpha710] &gt;gi|385341155|ref|YP_005895026.1| nlpC/p60 family protein [Neisseria meningitidis M01-240149] &gt;gi|385852082|ref|YP_005898597.1| nlpC/p60 family protein [Neisseria meningitidis M04-240196] &gt;gi|385856452|ref|YP_005902964.1| nlpC/p60 family protein [Neisseria meningitidis NZ-05/33] &gt;gi|7228732|gb|AAF42600.1|AF226451_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228738|gb|AAF42603.1|AF226454_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228746|gb|AAF42607.1|AF226458_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228748|gb|AAF42608.1|AF226459_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228750|gb|AAF42609.1|AF226460_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228752|gb|AAF42610.1|AF226461_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228754|gb|AAF42611.1|AF226462_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228756|gb|AAF42612.1|AF226463_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228758|gb|AAF42613.1|AF226464_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228760|gb|AAF42614.1|AF226465_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228766|gb|AAF42617.1|AF226468_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228778|gb|AAF42623.1|AF226474_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228780|gb|AAF42624.1|AF226475_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228782|gb|AAF42625.1|AF226476_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7227265|gb|AAF42328.1| conserved hypothetical protein [Neisseria meningitidis MC58] &gt;gi|254667728|emb|CBA03622.1| putative lipoprotein [Neisseria meningitidis alpha14] &gt;gi|254671696|emb|CBA09469.1| putative lipoprotein [Neisseria meningitidis alpha153] &gt;gi|261393330|emb|CAX50962.1| conserved hypothetical membrane-associated protein [Neisseria meningitidis 8013] &gt;gi|308390102|gb|ADO32422.1| hypothetical outer membrane protein [Neisseria meningitidis alpha710] &gt;gi|325129390|gb|EGC52223.1| nlpC/p60 family protein [Neisseria meningitidis OX99.30304] &gt;gi|325135447|gb|EGC58066.1| nlpC/p60 family protein [Neisseria meningitidis M0579] &gt;gi|325139321|gb|EGC61862.1| nlpC/p60 family protein [Neisseria meningitidis CU385] &gt;gi|325201361|gb|ADY96815.1| nlpC/p60 family protein [Neisseria meningitidis M01-240149] &gt;gi|325206905|gb|ADZ02358.1| nlpC/p60 family protein [Neisseria meningitidis M04-240196] &gt;gi|325207341|gb|ADZ02793.1| nlpC/p60 family protein [Neisseria meningitidis NZ-05/33] &gt;gi|372199862|gb|EHP14030.1| nlpC/p60 family protein [Neisseria meningitidis NM220] &gt;gi|389606744|emb|CCA45656.1| D-gamma-glutamyl-meso-diaminopimelic acid endopeptidase cwlS, precursor [Neisseria meningitidis alpha522] &gt;gi|402315285|gb|EJU50850.1| NlpC/P60 family protein [Neisseria meningitidis NM255] &gt;gi|402315679|gb|EJU51242.1| NlpC/P60 family protein [Neisseria meningitidis 93003] &gt;gi|402315712|gb|EJU51274.1| NlpC/P60 family protein [Neisseria meningitidis 93004] &gt;gi|402327133|gb|EJU62526.1| NlpC/P60 family protein [Neisseria meningitidis 69166] &gt;gi|402331036|gb|EJU66378.1| NlpC/P60 family protein [Neisseria meningitidis 98008] &gt;gi|402334301|gb|EJU69592.1| NlpC/P60 family protein [Neisseria meningitidis 92045] &gt;gi|402336415|gb|EJU71676.1| nlpC/P60 family protein [Neisseria meningitidis NM2657] &gt;gi|402339163|gb|EJU74382.1| NlpC/P60 family protein [Neisseria meningitidis NM2795] &gt;gi|402340697|gb|EJU75895.1| NlpC/P60 family protein [Neisseria meningitidis NM3081] &gt;gi|432200676|gb|ELK56766.1| nlpC/P60 family protein [Neisseria meningitidis NM422] &gt;gi|432201106|gb|ELK57192.1| nlpC/P60 family protein [Neisseria meningitidis 98080] &gt;gi|432210380|gb|ELK66340.1| nlpC/P60 family protein [Neisseria meningitidis 68094] &gt;gi|432213080|gb|ELK69008.1| nlpC/P60 family protein [Neisseria meningitidis 70012] &gt;gi|432225286|gb|ELK81034.1| nlpC/P60 family protein [Neisseria meningitidis NM418] &gt;gi|432238763|gb|ELK94327.1| nlpC/P60 family protein [Neisseria meningitidis 9506] &gt;gi|432238893|gb|ELK94455.1| nlpC/P60 family protein [Neisseria meningitidis 9757] &gt;gi|432244620|gb|ELL00106.1| nlpC/P60 family protein [Neisseria meningitidis 12888] &gt;gi|432257655|gb|ELL12952.1| nlpC/P60 family protein [Neisseria meningitidis 61103] &gt;gi|432258288|gb|ELL13575.1| nlpC/P60 family protein [Neisseria meningitidis 69096] &gt;gi|432270782|gb|ELL25917.1| nlpC/P60 family protein [Neisseria meningitidis 77221] &gt;gi|432271095|gb|ELL26224.1| nlpC/P60 family protein [Neisseria meningitidis 70030] &gt;gi|530913202|gb|EQD11104.1| nlpC/P60 family protein [Neisseria meningitidis NM0552] &gt;gi|663090517|gb|KER38813.1| nlpC/P60 family protein [Neisseria meningitidis 992008] &gt;gi|744798364|gb|AJC63152.1| hypothetical protein N875_05715 [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>WP_002219917</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.994</Hsp_bit-score>
+      <Hsp_score>1055</Hsp_score>
+      <Hsp_evalue>7.4607e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNR-----------------------------APARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNR                             APARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|488143703|ref|WP_002214911.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|7228728|gb|AAF42598.1|AF226449_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228736|gb|AAF42602.1|AF226453_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|304337429|gb|EFM03599.1| NlpC/P60 family protein [Neisseria meningitidis ATCC 13091]</Hit_def>
+  <Hit_accession>WP_002214911</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.994</Hsp_bit-score>
+      <Hsp_score>1055</Hsp_score>
+      <Hsp_evalue>9.59283e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNR-----------------------------APARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSISTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNR                             APARRAGNADELIG+AMGLLGIAYRYGGTS+STGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|488150467|ref|WP_002221675.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|121635658|ref|YP_975903.1| hypothetical protein NMC1978 [Neisseria meningitidis FAM18] &gt;gi|385337272|ref|YP_005891145.1| D-gamma-glutamyl-meso-diaminopimelic acid endopeptidase cwlS Cell wall lytic enzyme associated with cell separation [Neisseria meningitidis WUE 2594] &gt;gi|385340846|ref|YP_005894718.1| nlpC/p60 family protein [Neisseria meningitidis G2136] &gt;gi|385856009|ref|YP_005902522.1| nlpC/p60 family protein [Neisseria meningitidis M01-240355] &gt;gi|7228730|gb|AAF42599.1|AF226450_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228734|gb|AAF42601.1|AF226452_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228740|gb|AAF42604.1|AF226455_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228742|gb|AAF42605.1|AF226456_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228744|gb|AAF42606.1|AF226457_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228762|gb|AAF42615.1|AF226466_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228770|gb|AAF42619.1|AF226470_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228776|gb|AAF42622.1|AF226473_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|7228784|gb|AAF42626.1|AF226477_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|120867364|emb|CAM11136.1| hypothetical outer membrane protein [Neisseria meningitidis FAM18] &gt;gi|254673001|emb|CBA07518.1| putative lipoprotein [Neisseria meningitidis alpha275] &gt;gi|319409686|emb|CBY89989.1| D-gamma-glutamyl-meso-diaminopimelic acid endopeptidase cwlS Cell wall lytic enzyme associated with cell separation; Flags: Precursor [Neisseria meningitidis WUE 2594] &gt;gi|325131409|gb|EGC54118.1| nlpC/p60 family protein [Neisseria meningitidis M6190] &gt;gi|325133467|gb|EGC56131.1| nlpC/p60 family protein [Neisseria meningitidis M13399] &gt;gi|325137443|gb|EGC60030.1| nlpC/p60 family protein [Neisseria meningitidis ES14902] &gt;gi|325141441|gb|EGC63917.1| nlpC/p60 family protein [Neisseria meningitidis 961-5945] &gt;gi|325143708|gb|EGC66027.1| nlpC/p60 family protein [Neisseria meningitidis M01-240013] &gt;gi|325199090|gb|ADY94546.1| nlpC/p60 family protein [Neisseria meningitidis G2136] &gt;gi|325204950|gb|ADZ00404.1| nlpC/p60 family protein [Neisseria meningitidis M01-240355] &gt;gi|402321397|gb|EJU56872.1| NlpC/P60 family protein [Neisseria meningitidis NM140] &gt;gi|402321730|gb|EJU57203.1| NlpC/P60 family protein [Neisseria meningitidis NM183] &gt;gi|402323394|gb|EJU58838.1| NlpC/P60 family protein [Neisseria meningitidis NM2781] &gt;gi|402327887|gb|EJU63272.1| NlpC/P60 family protein [Neisseria meningitidis NM576] &gt;gi|402333229|gb|EJU68537.1| NlpC/P60 family protein [Neisseria meningitidis 80179] &gt;gi|402344122|gb|EJU79263.1| NlpC/P60 family protein [Neisseria meningitidis NM3001] &gt;gi|432201194|gb|ELK57278.1| nlpC/P60 family protein [Neisseria meningitidis 87255] &gt;gi|432207875|gb|ELK63862.1| nlpC/P60 family protein [Neisseria meningitidis 88050] &gt;gi|432213890|gb|ELK69800.1| nlpC/P60 family protein [Neisseria meningitidis 63041] &gt;gi|432225896|gb|ELK81633.1| nlpC/P60 family protein [Neisseria meningitidis NM586] &gt;gi|432227868|gb|ELK83573.1| nlpC/P60 family protein [Neisseria meningitidis NM762] &gt;gi|432232162|gb|ELK87816.1| nlpC/P60 family protein [Neisseria meningitidis M7089] &gt;gi|432232673|gb|ELK88310.1| nlpC/P60 family protein [Neisseria meningitidis M7124] &gt;gi|432233169|gb|ELK88802.1| nlpC/P60 family protein [Neisseria meningitidis NM174] &gt;gi|432238381|gb|ELK93948.1| nlpC/P60 family protein [Neisseria meningitidis NM126] &gt;gi|432245807|gb|ELL01272.1| nlpC/P60 family protein [Neisseria meningitidis 63049] &gt;gi|432250944|gb|ELL06320.1| nlpC/P60 family protein [Neisseria meningitidis 2004090] &gt;gi|432251875|gb|ELL07237.1| nlpC/P60 family protein [Neisseria meningitidis 65014] &gt;gi|432260766|gb|ELL16024.1| nlpC/P60 family protein [Neisseria meningitidis 97020] &gt;gi|432263726|gb|ELL18939.1| nlpC/P60 family protein [Neisseria meningitidis NM3652] &gt;gi|432264154|gb|ELL19362.1| nlpC/P60 family protein [Neisseria meningitidis NM3642] &gt;gi|432267265|gb|ELL22445.1| nlpC/P60 family protein [Neisseria meningitidis 2007056] &gt;gi|432269393|gb|ELL24553.1| nlpC/P60 family protein [Neisseria meningitidis 2001212] &gt;gi|432275305|gb|ELL30380.1| nlpC/P60 family protein [Neisseria meningitidis 63006] &gt;gi|610425906|gb|AHW74782.1| hypothetical protein NMA510612_0477 [Neisseria meningitidis] &gt;gi|694192262|gb|KGI97545.1| hypothetical protein JH16_10150 [Neisseria meningitidis] &gt;gi|723270787|gb|KHC97978.1| hypothetical protein LA54_00555 [Neisseria meningitidis] &gt;gi|723272355|gb|KHC99542.1| hypothetical protein LA53_10385 [Neisseria meningitidis] &gt;gi|726974892|gb|KHF22327.1| hypothetical protein QP84_09275 [Neisseria meningitidis] &gt;gi|730570583|gb|AIZ18385.1| hypothetical protein LA50_07310 [Neisseria meningitidis] &gt;gi|730571909|gb|AIZ19311.1| hypothetical protein LA24_00565 [Neisseria meningitidis M7124] &gt;gi|730574355|gb|AIZ21304.1| hypothetical protein LA58_00115 [Neisseria meningitidis] &gt;gi|730578771|gb|AIZ25218.1| hypothetical protein LC14_10810 [Neisseria meningitidis] &gt;gi|730580064|gb|AIZ26045.1| hypothetical protein LD07_03740 [Neisseria meningitidis] &gt;gi|743394222|gb|KID53760.1| hypothetical protein N872_04320 [Neisseria meningitidis LNP27256]</Hit_def>
+  <Hit_accession>WP_002221675</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>1.16784e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNR-----------------------------APARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSISTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNR                             APARRAGNADELIG+AMGLLGIAYRYGGTS+STGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|488178599|ref|WP_002249807.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis] &gt;gi|432251302|gb|ELL06672.1| nlpC/P60 family protein [Neisseria meningitidis 96023]</Hit_def>
+  <Hit_accession>WP_002249807</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>1.18067e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLP-----------------------------VNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPINRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSISTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLP                             VNRAPARRAGNADELIG+AMGLLGIAYRYGGTS+STGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|488188566|ref|WP_002259774.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis] &gt;gi|485392513|gb|EOC51002.1| nlpC/P60 family protein [Neisseria meningitidis 2003051]</Hit_def>
+  <Hit_accession>WP_002259774</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>1.23343e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGL-----------------------------LGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSISTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIG+AMGL                             LGIAYRYGGTS+STGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|7228772|gb|AAF42620.1|AF226471_1</Hit_id>
+  <Hit_def>outer membrane protein precursor GNA2001 [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAF42620</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.223</Hsp_bit-score>
+      <Hsp_score>1053</Hsp_score>
+      <Hsp_evalue>2.06153e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNR-----------------------------APARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFIQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNR                             APARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGF+QHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|488146918|ref|WP_002218126.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|325127376|gb|EGC50310.1| nlpC/p60 family protein [Neisseria meningitidis N1568] &gt;gi|432207643|gb|ELK63632.1| nlpC/P60 family protein [Neisseria meningitidis 97021] &gt;gi|432214227|gb|ELK70132.1| nlpC/P60 family protein [Neisseria meningitidis 2006087] &gt;gi|432219476|gb|ELK75321.1| nlpC/P60 family protein [Neisseria meningitidis 2002038] &gt;gi|432220260|gb|ELK76084.1| nlpC/P60 family protein [Neisseria meningitidis 97014] &gt;gi|514068867|gb|EPF53819.1| nlpC/P60 family protein [Neisseria meningitidis 98002]</Hit_def>
+  <Hit_accession>WP_002218126</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.838</Hsp_bit-score>
+      <Hsp_score>1052</Hsp_score>
+      <Hsp_evalue>2.13024e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPA-----------------------------RRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPAQRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPA                             RRAGNADELIG+AMGLNEQPVLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|7228768|gb|AAF42618.1|AF226469_1</Hit_id>
+  <Hit_def>outer membrane protein precursor GNA2001 [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAF42618</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>1.81417e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNR-----------------------------APARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRLALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVR ALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNR                             APARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|501177935|ref|WP_012221186.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|161869201|ref|YP_001598367.1| outer membrane protein precursor GNA2001 [Neisseria meningitidis 053442] &gt;gi|161594754|gb|ABX72414.1| outer membrane protein precursor GNA2001 [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>WP_012221186</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>8.62704e-141</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNR-----------------------------APARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>MFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>MFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQPVLPVNR                             APARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|7228774|gb|AAF42621.1|AF226472_1</Hit_id>
+  <Hit_def>outer membrane protein precursor GNA2001 [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAF42621</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>2.43477e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQP----------------------------------------------------------VLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQP                                                          VLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|488176429|ref|WP_002247637.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|385854044|ref|YP_005900558.1| nlpC/p60 family protein [Neisseria meningitidis H44/76] &gt;gi|7228764|gb|AAF42616.1|AF226467_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis H44/76] &gt;gi|325201048|gb|ADY96503.1| nlpC/p60 family protein [Neisseria meningitidis H44/76] &gt;gi|432220351|gb|ELK76173.1| nlpC/P60 family protein [Neisseria meningitidis M13255]</Hit_def>
+  <Hit_accession>WP_002247637</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>3.06229e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQP----------------------------------------------------------VLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQP                                                          VLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|499289813|ref|WP_010981079.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|218767425|ref|YP_002341937.1| hypothetical outer membrane protein [Neisseria meningitidis Z2491] &gt;gi|7228788|gb|AAF42628.1|AF226479_1 outer membrane protein precursor GNA2001 [Neisseria meningitidis] &gt;gi|121051433|emb|CAM07726.1| hypothetical outer membrane protein [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>WP_010981079</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.201</Hsp_bit-score>
+      <Hsp_score>1014</Hsp_score>
+      <Hsp_evalue>4.29594e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQP----------------------------------------------------------VLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPINRAPARRAGNADELIGSAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSISTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLP+NRAPARRAGNADELIGSAMGLNEQP                                                          VLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTS+STGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|485272556|gb|EOB39292.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis 70021]</Hit_def>
+  <Hit_accession>EOB39292</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.303</Hsp_bit-score>
+      <Hsp_score>926</Hsp_score>
+      <Hsp_evalue>2.62706e-124</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>DEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>NEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+EQPVLPVNR PARRAGNADELIG+AMGLNEQPVLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|485286412|gb|EOB52232.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein, partial [Neisseria meningitidis 69100]</Hit_def>
+  <Hit_accession>EOB52232</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.303</Hsp_bit-score>
+      <Hsp_score>926</Hsp_score>
+      <Hsp_evalue>2.65074e-124</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>DEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>NEQPVLPVNRVPARRAGNADELIGNAMGLNEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+EQPVLPVNR PARRAGNADELIG+AMGLNEQPVLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|645185791|ref|WP_025456099.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria gonorrhoeae] &gt;gi|654606424|gb|KEC86976.1| membrane protein [Neisseria gonorrhoeae] &gt;gi|693764961|gb|KGI95848.1| membrane protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025456099</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.607</Hsp_bit-score>
+      <Hsp_score>919</Hsp_score>
+      <Hsp_evalue>5.24206e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPV-----------------------------LPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPV                             LPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|268587001|gb|EEZ51677.1|</Hit_id>
+  <Hit_def>outer membrane protein [Neisseria gonorrhoeae PID1]</Hit_def>
+  <Hit_accession>EEZ51677</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.221</Hsp_bit-score>
+      <Hsp_score>918</Hsp_score>
+      <Hsp_evalue>8.39182e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPV-----------------------------LPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPV                             LPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|488187174|ref|WP_002258382.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis] &gt;gi|485370043|gb|EOC30029.1| nlpC/P60 family protein [Neisseria meningitidis 2001001]</Hit_def>
+  <Hit_accession>WP_002258382</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.525</Hsp_bit-score>
+      <Hsp_score>911</Hsp_score>
+      <Hsp_evalue>7.29289e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPV-----------------------------LPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPV                             LPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|488189271|ref|WP_002260479.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis] &gt;gi|485404462|gb|EOC62166.1| nlpC/P60 family protein [Neisseria meningitidis NM3042] &gt;gi|530915363|gb|EQD13132.1| nlpC/P60 family protein [Neisseria meningitidis NM518] &gt;gi|530919114|gb|EQD16676.1| nlpC/P60 family protein [Neisseria meningitidis NM3173]</Hit_def>
+  <Hit_accession>WP_002260479</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.14</Hsp_bit-score>
+      <Hsp_score>910</Hsp_score>
+      <Hsp_evalue>1.12893e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPV-----------------------------LPINRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPV                             LP+NRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|488183969|ref|WP_002255177.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria meningitidis] &gt;gi|485334979|gb|EOB97579.1| nlpC/P60 family protein [Neisseria meningitidis NM94]</Hit_def>
+  <Hit_accession>WP_002255177</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>1.88643e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAEDEQPV-----------------------------LPINRAPARRAGNADELIGNAMGLLGIAYRYGGTSISTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAEDEQPV                             LP+NRAPARRAGNADELIG+AMGLLGIAYRYGGTS+STGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|518101642|ref|WP_019271850.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019271850</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.665</Hsp_bit-score>
+      <Hsp_score>888</Hsp_score>
+      <Hsp_evalue>2.44012e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILKQFAE-----------------------------NEQSVLPVNQAPARRAGNADELIGSAMGLLGVAYRYGGTSVSTGFDCSGFMQHIFRRAMGINLPRTSAEQAQMGSPVSRSELQPGDMVFFRTLGGSRISHVGLYIGNDRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQIL+QFAE                             NEQ VLPVN+APARRAGNADELIGSAMGLLG+AYRYGGTSVSTGFDCSGFMQHIF+RAMGINLPRTSAEQA+MG+PV+RSELQPGDMVFFRTLGGSRISHVGLYIGN+RFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|503214928|ref|WP_013449589.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria lactamica] &gt;gi|313669215|ref|YP_004049499.1| hypothetical protein NLA_19420 [Neisseria lactamica 020-06] &gt;gi|313006677|emb|CBN88143.1| genome-derived neisseria antigen (GNA2001) [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013449589</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>5.46236e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWSVFAARPAFADELTNLLSTREQILKQFAE-----------------------------NEQPVLPVNQAPDRRAGNADELIGSAMGLLGIAYRYGGTSVATGFDCSGFMQHIFRRAMGINLPRTAAEQARMGSPVSRSELQPGDMVFFRTLGGSRISHVGLYIGNDRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+W +FA RPA ADELTNLLS+REQIL+QFAE                             NEQPVLPVN+AP RRAGNADELIGSAMGLLGIAYRYGGTSV+TGFDCSGFMQHIF+RAMGINLPRT+AEQARMG+PV+RSELQPGDMVFFRTLGGSRISHVGLYIGN+RFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|673468879|gb|KFJ35509.1|</Hit_id>
+  <Hit_def>nlpC/P60 family protein [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>KFJ35509</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.421</Hsp_bit-score>
+      <Hsp_score>864</Hsp_score>
+      <Hsp_evalue>1.33165e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWSVFAARPAFADELTNLLSTREQILKQFAE-----------------------------NEQPVLPVNQAPDRRAGNADELIGSAMGLLGIAYRYGGTSVATGFDCSGFMQHIFRRAMGINLPRTSAEQARMGFPVSRSELQPGDMVFFRTLGGSRISHVGLYIGNDRFIHAPRTGKNIEITSLSHKYWSSKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+W +FA RPA ADELTNLLS+REQIL+QFAE                             NEQPVLPVN+AP RRAGNADELIGSAMGLLGIAYRYGGTSV+TGFDCSGFMQHIF+RAMGINLPRTSAEQARMG PV+RSELQPGDMVFFRTLGGSRISHVGLYIGN+RFIHAPRTGKNIEITSLSHKYWS KYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|489806784|ref|WP_003710655.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria lactamica] &gt;gi|269208459|gb|EEZ74914.1| NlpC/P60 family protein [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003710655</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.65</Hsp_bit-score>
+      <Hsp_score>862</Hsp_score>
+      <Hsp_evalue>3.13284e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWSVFAARPAFADELTNLLSTREQILKQFAE-----------------------------NEQPVLPVNQAPDRRAGNADELIGSAMGLLGIAYRYGGTSVATGFDCSGFMQHIFRRAMGINLPRTSAEQARMGFPVSRSELQPGDMVFFRTLGGSRISHVGLYIGNDRFIHAPRTGKNIEITSLSHKYWSSKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+W +FA RPA ADELTNLLS+REQIL+QFAE                             NEQPVLPVN+AP RRAGNADELIGSAMGLLGIAYRYGGTSV+TGFDCSGFMQHIF+RAMGINLPRTSAEQARMG PV+RSELQPGDMVFFRTLGGSRISHVGLYIGN+RFIHAPRTGKNIEITSLSHKYWS KYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|489809727|ref|WP_003713585.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria lactamica] &gt;gi|309378915|emb|CBX22502.1| unnamed protein product [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003713585</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>4.54074e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWSVFAARPAFADELTNLLSTREQILKQFAE-----------------------------NERPVLPVNQAPDRRAGNADELIGSAMGLLGIAYRYGGTSVATGFDCSGFMQHIFRRAMGINLPRTAAEQARMGSPVSRSELQPGDMVFFRTLGGSRISHVGLYIGNDRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+W +FA RPA ADELTNLLS+REQIL+QFAE                             NE+PVLPVN+AP RRAGNADELIGSAMGLLGIAYRYGGTSV+TGFDCSGFMQHIF+RAMGINLPRT+AEQARMG+PV+RSELQPGDMVFFRTLGGSRISHVGLYIGN+RFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|489850957|ref|WP_003754635.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria polysaccharea] &gt;gi|296837820|gb|EFH21758.1| NlpC/P60 family protein [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>WP_003754635</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.701</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>1.122e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILKQFAENGQ------YTQTARTNND-----------------------RTSGSADELIGNAMGLLGVAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQAQMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNDRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQIL+QFAE+ Q           R  N                        R +G+ADELIG+AMGLLG+AYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQA+MG PVARSELQPGDMVFFRTLGGSRISHVGLYIGN+RFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|645197254|ref|WP_025457958.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025457958</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.316</Hsp_bit-score>
+      <Hsp_score>817</Hsp_score>
+      <Hsp_evalue>1.79375e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLMFAVRPALADELTNLLSSREQILRQFAENGQYA-----QTARR--NSDHT----------------------SGSADELIGNAMGLLGVAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQAQMGTSVARSELQPGDMVFFRTLGGSRISHVGLYIGNDRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>+WLMFAVRPALADELTNLLSSREQILRQFAE+ Q         ARR  N+D                        +G+ADELIG+AMGLLG+AYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQA+MG  VARSELQPGDMVFFRTLGGSRISHVGLYIGN+RFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|728047648|ref|WP_033913247.1|</Hit_id>
+  <Hit_def>membrane protein, partial [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_033913247</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.301</Hsp_bit-score>
+      <Hsp_score>791</Hsp_score>
+      <Hsp_evalue>3.13229e-104</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>NEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>NEQPVLPVNRAPARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>NEQPVLPVNRAPARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|489774399|ref|WP_003678297.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria cinerea] &gt;gi|269144401|gb|EEZ70819.1| NlpC/P60 family protein [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003678297</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>6.31977e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MWLMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>LWLVFAARPAFADELTNLLSNREQILKQFAENGQYT-----QTART--NND----------------------RTSGSADELIGNAMGLLGVAYRYGGTSASTGFDCSGFMQHIFKRAMGINLPRTSEEQARMGSSVSRSDLQPGDMVFFRTLGGGRISHVGLYIGNDRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDSSRFLN</Hsp_hseq>
+      <Hsp_midline>+WL+FA RPA ADELTNLLS+REQIL+QFAE+ Q         AR   N D                      R +G+ADELIG+AMGLLG+AYRYGGTS STGFDCSGFMQHIFKRAMGINLPRTS EQARMG+ V+RS+LQPGDMVFFRTLGG RISHVGLYIGN+RFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKND SRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|518103565|ref|WP_019273773.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_019273773</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.36664e-94</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>ARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>ARRAGNADELIGNAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGTPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>ARRAGNADELIG+AMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMG PVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|748603887|ref|WP_039862067.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria subflava]</Hit_def>
+  <Hit_accession>WP_039862067</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.248</Hsp_bit-score>
+      <Hsp_score>700</Hsp_score>
+      <Hsp_evalue>1.20709e-89</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>LMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARR------AGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>MLASVNFSYADDLENLITTRQRVLNQFNDN-----------ANVYGNTRQ---------ATPVHPTNTYPAASNNTRAPSGNADELIGSAMGLLGVAYRYGGTSASTGFDCSGFMQHIFKRAMGVNLPRTSAEQAQMGVAVNRSELQPGDMVFFRTMGRGRISHVGLYIGNNNFIHAPRTGKRIEITSLGHKYWNGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>++ +V  + AD+L NL+++R+++L QF ++           A   GN  +           PV P N  PA        +GNADELIGSAMGLLG+AYRYGGTS STGFDCSGFMQHIFKRAMG+NLPRTSAEQA+MG  V RSELQPGDMVFFRT+G  RISHVGLYIGNN FIHAPRTGK IEITSL HKYW+GKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|489780695|ref|WP_003684586.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria flavescens] &gt;gi|241320271|gb|EER56604.1| NlpC/P60 family protein [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003684586</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.248</Hsp_bit-score>
+      <Hsp_score>700</Hsp_score>
+      <Hsp_evalue>1.45245e-89</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LMFAVRPALADELTNLLSSREQILRQFAEDEQ---------PVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVN--RAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>MLASVNFSYADDLENLITTRQHVLNQFNDNANVYDNTRQATPVHPVNTHPA----------------------PSNNTRAPS---GNADELIGSAMGLLGVAYRYGGTSASTGFDCSGFMQHIFKRAMGVNLPRTSAEQAQMGVAVSRSELQPGDMVFFRTMGPGRISHVGLYIGNNNFIHAPRTGKRIEITSLGHKYWSAKYAFGRRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>++ +V  + AD+L NL+++R+ +L QF ++           PV PVN  PA                      P N  RAP+   GNADELIGSAMGLLG+AYRYGGTS STGFDCSGFMQHIFKRAMG+NLPRTSAEQA+MG  V+RSELQPGDMVFFRT+G  RISHVGLYIGNN FIHAPRTGK IEITSL HKYWS KYAF RRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|489778259|ref|WP_003682150.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria flavescens] &gt;gi|224951383|gb|EEG32592.1| NlpC/P60 family protein [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>WP_003682150</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.248</Hsp_bit-score>
+      <Hsp_score>700</Hsp_score>
+      <Hsp_evalue>1.63719e-89</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LMFAVRPALADELTNLLSSREQILRQFAEDEQ---------PVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVN--RAPARRAGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>MLASVNFSYADDLENLITTRQRVLNQFNDNANVYGNTRQATPVHPINTRP----------------------VPSNNTRAPS---GNADELIGSAMGLLGVAYRYGGTSASTGFDCSGFMQHIFKRAMGINLPRTSAEQAQMGVAVSRSELQPGDMVFFRTMGPGRISHVGLYIGNNNFIHAPRTGKRIEITSLGHKYWSAKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>++ +V  + AD+L NL+++R+++L QF ++           PV P+N  P                      +P N  RAP+   GNADELIGSAMGLLG+AYRYGGTS STGFDCSGFMQHIFKRAMGINLPRTSAEQA+MG  V+RSELQPGDMVFFRT+G  RISHVGLYIGNN FIHAPRTGK IEITSL HKYWS KYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|284797145|gb|EFC52492.1|</Hit_id>
+  <Hit_def>NlpC/P60 family protein [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>EFC52492</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.248</Hsp_bit-score>
+      <Hsp_score>700</Hsp_score>
+      <Hsp_evalue>1.85126e-89</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>LMFAVRPALADELTNLLSSREQILRQFAEDEQPVLPVNRAPARRAGNADELIGSAMGLNEQPVLPVNRAPARR------AGNADELIGSAMGLLGIAYRYGGTSVSTGFDCSGFMQHIFKRAMGINLPRTSAEQARMGAPVARSELQPGDMVFFRTLGGSRISHVGLYIGNNRFIHAPRTGKNIEITSLSHKYWSGKYAFARRVKKNDPSRFLN</Hsp_qseq>
+      <Hsp_hseq>MLASVNFSYADDLENLITTRQRVLNQFNDN-----------ANVYGNTRQ---------ATPVHPTNTYPAASNNTRAPSGNADELIGSAMGLLGVAYRYGGTSASTGFDCSGFMQHIFKRAMGVNLPRTSAEQAQMGVAVNRSELQPGDMVFFRTMGRGRISHVGLYIGNNNFIHAPRTGKRIEITSLGHKYWNGKYAFARRVKKNDPSRFLN</Hsp_hseq>
+      <Hsp_midline>++ +V  + AD+L NL+++R+++L QF ++           A   GN  +           PV P N  PA        +GNADELIGSAMGLLG+AYRYGGTS STGFDCSGFMQHIFKRAMG+NLPRTSAEQA+MG  V RSELQPGDMVFFRT+G  RISHVGLYIGNN FIHAPRTGK IEITSL HKYW+GKYAFARRVKKNDPSRFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

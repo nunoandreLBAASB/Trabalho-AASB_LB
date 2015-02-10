@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>32919</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7H0</BlastOutput_query-def>
+  <BlastOutput_query-len>213</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>32919</Iteration_query-ID>
+  <Iteration_query-def>Q5F7H0</Iteration_query-def>
+  <Iteration_query-len>213</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|123489343|sp|Q2G708.1|ISPDF_NOVAD</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional enzyme IspD/IspF; Includes: RecName: Full=2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase; AltName: Full=4-diphosphocytidyl-2C-methyl-D-erythritol synthase; AltName: Full=MEP cytidylyltransferase; Short=MCT; Includes: RecName: Full=2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase; Short=MECDP-synthase; Short=MECPP-synthase; Short=MECPS [Novosphingobium aromaticivorans DSM 12444]</Hit_def>
+  <Hit_accession>Q2G708</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0154144</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>PPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGT-IEAALIKLHK--------PLWNSCVDGFGN</Hsp_qseq>
+      <Hsp_hseq>PVPKQF-------VIWRGK-PLLRHCVEALEAAGIAPIVV--AIPAGWDEAATQALAGISMVRLVHGGATRQESVKAALEVLEGDAPARVLIHDAARPDLPGSVIERLLTALDKRTGAIPVLPVVDSMVRGSGD</Hsp_hseq>
+      <Hsp_midline>P PKQF       + + G  PL +   +    +  API V  A+P GW +A     A      L H       S+ A  ++   D   R +I + A  D+ G+ IE  L  L K        P+ +S V G G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|34395931|sp|P27253.2|SCPA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Methylmalonyl-CoA mutase; Short=MCM [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P27253</Hit_accession>
+  <Hit_len>714</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.310814</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>AAVS-DLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDP</Hsp_qseq>
+      <Hsp_hseq>AAISAGLKIDDFAPRLSFFFGIGMDLF--MNVAMLRAARYLWSEAVSGFGAQDP</Hsp_hseq>
+      <Hsp_midline>AA+S  L   DF  R   F G G D+   +  A+++  + LW+  V GFG  DP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|117940133|sp|Q4F7G0.1|ERDL2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Sugar transporter ERD6-like 2; AltName: Full=Sugar transporter-like protein 3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q4F7G0</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.25612</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>LSYNAPIYVGKAVPKGWRQARNSDNALNQ----STELFHRLKEHSRSIAAVSDLDPSDF--MCRFVI</Hsp_qseq>
+      <Hsp_hseq>ISYVVPVYIAEITPKTFRGGFSYSNQLLQCLGISLMFFTGNFFHWRTLALLSAI-PSAFQVICLFFI</Hsp_hseq>
+      <Hsp_midline>+SY  P+Y+ +  PK +R   +  N L Q    S   F     H R++A +S + PS F  +C F I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|218547424|sp|A9JRZ0.1|SMUF2_DANRE</Hit_id>
+  <Hit_def>RecName: Full=E3 ubiquitin-protein ligase SMURF2; AltName: Full=SMAD ubiquitination regulatory factor 2; AltName: Full=SMAD-specific E3 ubiquitin-protein ligase 2 [Danio rerio]</Hit_def>
+  <Hit_accession>A9JRZ0</Hit_accession>
+  <Hit_len>765</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>7.6221</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>LPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFV</Hsp_qseq>
+      <Hsp_hseq>LPPGWEIRNTATGRVYFVDHNNRTTQFTD-PRLSANLHLVLNPS-PNGSRAAVEA-----QSSSRPGQLKEQAQSVVSPGNL-PEDPECLTV</Hsp_hseq>
+      <Hsp_midline>LPP  + +      +Y++ +N    Q+ D  RLS N  + +  + P G R A  +     QS+    +LKE ++S+ +  +L P D  C  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|18203055|sp|Q9J538.1|V195_FOWPN</Hit_id>
+  <Hit_def>RecName: Full=Protein FPV195 [Fowlpox virus strain NVSL]</Hit_def>
+  <Hit_accession>Q9J538</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>9.98611</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>ELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAV</Hsp_qseq>
+      <Hsp_hseq>ELISENEKYFNGIPIILPKKKKTYVYKNITFIFYIPSDNKIEQYIQRSELHYSDFIVYGKVI</Hsp_hseq>
+      <Hsp_midline>EL+ +  ++F+G P+      K +    +  I+YI ++   +QY   + L Y+  I  GK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

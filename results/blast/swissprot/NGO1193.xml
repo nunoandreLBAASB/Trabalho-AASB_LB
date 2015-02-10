@@ -1,0 +1,630 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>52205</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7I4</BlastOutput_query-def>
+  <BlastOutput_query-len>230</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>52205</Iteration_query-ID>
+  <Iteration_query-def>Q5F7I4</Iteration_query-def>
+  <Iteration_query-len>230</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|82592568|sp|P0AD19.1|YOHK_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Inner membrane protein YohK [Escherichia coli K-12] &gt;gi|82592569|sp|P0AD20.1|YOHK_SHIFL RecName: Full=Inner membrane protein YohK [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AD19</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>1.7137e-39</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>LTLAVYALAIIVRTRTGNIFCNPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKNTVVMPSSV-GMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVL</Hsp_qseq>
+      <Hsp_hseq>LTLIVFFAARKLAARYKFPLLNPLLVAMVVIIPFLMLTGISYDSYFKGSEVLNDLLQPAVVALAYPLYEQLHQIRARWKSIITICFIGSVVAMVTGTSVALLMGASPEIAASILPKSVTTPIAMAVGGSIGGIPAISAVCVIFVGILGAVFGHTLLNAMRIRTKAARGLAMGTASHALGTARCAELDYQEGAFSSLALVLCGIITSLIAPFLFPII</Hsp_hseq>
+      <Hsp_midline>LTL V+  A  +  R      NP+LV+ +V+I +L + GI Y  Y   ++ ++  L+PAVV LA PLY+   +I  +W  +I     GSV  +VTG   A  +GA  E+   +  KSVT PIA+ +  SIGGIPAI+A  VI  G++G + G+ +L    +   +  G+++GTASHA+G A   E   +  A++ + L   G++T+LIAP L P++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|254763456|sp|P42102.4|YXAC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YxaC [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P42102</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>3.531e-31</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>LTLAVYALAIIVRTRTGNIFCNPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKNTVVMPS-SVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLI</Hsp_qseq>
+      <Hsp_hseq>LTVAAYLAMVKLYKRFPLPFLIPVLTTTILIVAALMMFHVSYEGYMIGGKWINSLLGPAVVALAYPLYKQWHIIVKHCVPILGGVLVGLCMGMISGLIFAEAFGIDHDLLLSILPKSITTPVAIQIAAGLGGVPSMTVVFVMIAGFSGVILGPLFLKWLRIRSSLGQGIALGSASHALGTSKALEYGELAVSMSSVSMTLCAVLGSFFGPLVV</Hsp_hseq>
+      <Hsp_midline>LT+A Y   + +  R    F  PVL +TI+++A L +  + Y  Y    ++I+  L PAVV LA PLY+    I    +P++   L G   G+++G+ FA+  G + +++L +  KS+T P+AI+I   +GG+P++T   V+IAG  G I G   LK   +  S   G++LG+ASHA+G + +LE      + + + +T   VL +   PL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81650378|sp|Q6GDQ8.1|CIDB_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Holin-like protein CidB [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GDQ8</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>3.6875e-29</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QPSVLLFLTLAVYALAIIVRTRTGNIFCNPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKNTVVMPS-SVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVL</Hsp_qseq>
+      <Hsp_hseq>QALLMILLTVVLYYFAKRLQQKYPNPFLNPALIASLGIIFVLLIFGISYNGYMKGGSWINHILNATVVCLAYPLYKNREKIKDNVSIIFASVLTGVMLNFMLVFLTLKAFGYSKDVIVTLLPRSITAAVGIEVSHELGGTDTMTVLFIITTGLIGSILGSMLLRFGRFESSIAKGLTYGNASHAFGTAKALEMDIESGAFSSIGM----ILTAVISSVLIPVL</Hsp_hseq>
+      <Hsp_midline>Q  +++ LT+ +Y  A  ++ +  N F NP L++++ +I  L I GI Y  Y     +I+  L   VV LA PLY+NR KI +    +  S L G +   +      K  G  ++V++ L  +S+T  + IE++  +GG   +T   +I  GL+G I G  +L+      S + G++ G ASHA G A +LE      A++ +G+    +LTA+I+ +LIPVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|48474293|sp|P60637.1|CIDB_STAAM</Hit_id>
+  <Hit_def>RecName: Full=Holin-like protein CidB [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|48474294|sp|P60638.1|CIDB_STAAN RecName: Full=Holin-like protein CidB [Staphylococcus aureus subsp. aureus N315] &gt;gi|48474770|sp|P60639.1|CIDB_STAA8 RecName: Full=Holin-like protein CidB [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|48474771|sp|P60640.1|CIDB_STAAW RecName: Full=Holin-like protein CidB [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81648611|sp|Q6G6D4.1|CIDB_STAAS RecName: Full=Holin-like protein CidB [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81693698|sp|Q5HD11.1|CIDB_STAAC RecName: Full=Holin-like protein CidB [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>P60637</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>3.96435e-29</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QPSVLLFLTLAVYALAIIVRTRTGNIFCNPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKNTVVMPS-SVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVL</Hsp_qseq>
+      <Hsp_hseq>QALLMILLTVVLYYFAKRLQQKYPNPFLNPALIASLGIIFVLLIFGISYNGYMKGGSWINHILNATVVCLAYPLYKNREKIKDNVSIIFASVLTGVMLNFMLVFLTLKAFGYSKDVIVTLLPRSITAAVGIEVSHELGGTDTMTVLFIITTGLIGSILGSMLLRFGRFESSIAKGLTYGNASHAFGTAKALEMDIESGAFSSIGM----ILTAVISSVLIPVL</Hsp_hseq>
+      <Hsp_midline>Q  +++ LT+ +Y  A  ++ +  N F NP L++++ +I  L I GI Y  Y     +I+  L   VV LA PLY+NR KI +    +  S L G +   +      K  G  ++V++ L  +S+T  + IE++  +GG   +T   +I  GL+G I G  +L+      S + G++ G ASHA G A +LE      A++ +G+    +LTA+I+ +LIPVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|48474847|sp|Q8CR39.1|CIDB_STAES</Hit_id>
+  <Hit_def>RecName: Full=Holin-like protein CidB [Staphylococcus epidermidis ATCC 12228] &gt;gi|81673288|sp|Q5HL71.1|CIDB_STAEQ RecName: Full=Holin-like protein CidB [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q8CR39</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>1.33392e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MSEILRQPSVLLFLTLAVYALAIIVRTRTGNIFCNPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKNTVVMPSSV--GMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVL</Hsp_qseq>
+      <Hsp_hseq>MNEYL-QAVLMILLTIVLYYVSKKIQDKYNNPLLNPALIASIAIIIVLLVCGVSYKGYMKGGTWINHVLNATVVCLAYPLYQNKKKIKKYLTIIFTSVLTGVVLNFVLVFTTLKIFGYSKDTIVTLLPRSITAAVGIEVSQELGGTDTITVLFIITTGLIGSILG-SMLLRMGGFKSSIARGLTYGNASHAFGTAKALELDIESGAFSSIGM----ILTAVISSVLIPVL</Hsp_hseq>
+      <Hsp_midline>M+E L Q  +++ LT+ +Y ++  ++ +  N   NP L+++I +I  L + G+ Y  Y     +I+  L   VV LA PLYQN++KI      +  S L G V   V      K  G  ++ ++ L  +S+T  + IE+++ +GG   IT   +I  GL+G I G  ML       SS+  G++ G ASHA G A +LE      A++ +G+    +LTA+I+ +LIPVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|46397481|sp|P94516.1|LRGB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Antiholin-like protein LrgB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P94516</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>2.7591e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>EILRQPSVLLFLTLAVYALAIIVRTRTGNIFC-NPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLK-NTVVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVLG</Hsp_qseq>
+      <Hsp_hseq>ESTMSPYFGIVVSLAAFGIGTFLFKKTKGFFLFTPLFVAMVLGIAFLKIGGFSYADYNNGGEIIKFFLEPATIAFAIPLYKQRDKLKKYWWQIMASIIAGSICSVTIVYLLAKGIHLDSAVMKSMLPQAATTAIALPLSKGIGGISDITAFAVIFNAVIVYALGALFLKVFKVKNPISKGLALGTSGHALGVAVGIEMGEVEAAMASIAVVVVGVVTVLVIPVFVQLIG</Hsp_hseq>
+      <Hsp_midline>E    P   + ++LA + +   +  +T   F   P+ V+ ++ IA+LKI G  YA Y+N  + I F L+PA +  A+PLY+ R K+   W  ++ S +AGS+  +      AK +  +  V+  +  ++ T  IA+ +++ IGGI  ITA  VI   ++    G   LK   V  P S G++LGT+ HA+G+A  +E     AA A + +   GV+T L+ P+ + ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|47606430|sp|Q81JL5.1|LRGB_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Antiholin-like protein LrgB [Bacillus anthracis] &gt;gi|48474811|sp|Q814J3.1|LRGB_BACCR RecName: Full=Antiholin-like protein LrgB [Bacillus cereus ATCC 14579] &gt;gi|81394102|sp|Q6HAJ7.1|LRGB_BACHK RecName: Full=Antiholin-like protein LrgB [Bacillus thuringiensis serovar konkukian str. 97-27] &gt;gi|81408318|sp|Q72X07.1|LRGB_BACC1 RecName: Full=Antiholin-like protein LrgB [Bacillus cereus ATCC 10987] &gt;gi|81685240|sp|Q630G4.1|LRGB_BACCZ RecName: Full=Antiholin-like protein LrgB [Bacillus cereus E33L] &gt;gi|226740855|sp|B7JIF5.1|LRGB_BACC0 RecName: Full=Antiholin-like protein LrgB [Bacillus cereus AH820] &gt;gi|226740856|sp|B7IRX1.1|LRGB_BACC2 RecName: Full=Antiholin-like protein LrgB [Bacillus cereus G9842] &gt;gi|226740857|sp|B7HGA1.1|LRGB_BACC4 RecName: Full=Antiholin-like protein LrgB [Bacillus cereus B4264] &gt;gi|226740858|sp|B7HZC3.1|LRGB_BACC7 RecName: Full=Antiholin-like protein LrgB [Bacillus cereus AH187] &gt;gi|254810424|sp|C3P2J6.1|LRGB_BACAA RecName: Full=Antiholin-like protein LrgB [Bacillus anthracis str. A0248] &gt;gi|254810425|sp|C3LGP7.1|LRGB_BACAC RecName: Full=Antiholin-like protein LrgB [Bacillus anthracis str. CDC 684] &gt;gi|254810426|sp|C1ER33.1|LRGB_BACC3 RecName: Full=Antiholin-like protein LrgB [Bacillus cereus 03BB102] &gt;gi|254810427|sp|B9ISZ3.1|LRGB_BACCQ RecName: Full=Antiholin-like protein LrgB [Bacillus cereus Q1]</Hit_def>
+  <Hit_accession>Q81JL5</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.13537e-24</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>IIVRTRTGNIFCNPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKN-TVVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVLG</Hsp_qseq>
+      <Hsp_hseq>LLFKHSKGFFLFTPLFVAMVLGIVFLKVGNFTFEEYNTGGKMISFFLEPATIAFAIPLYKQVDKLKKYWWQILSAIVVGSICSVIVVFIVAKAIGLDTAVMNSMLPQAATTAIALPISESIGGIPAITSFAVIFNAVIVYALGALFLKTFRVKHPIAKGLALGTAGHALGVAVGIEMGEVEAAMASIAVTVVGVVTVVVIPMFMPFIG</Hsp_hseq>
+      <Hsp_midline>++ +   G     P+ V+ ++ I +LK+    +  Y+   + I F L+PA +  A+PLY+   K+   W  ++ + + GS+  ++     AK +G +  V+  +  ++ T  IA+ I+ SIGGIPAIT+  VI   ++    G   LK   V  P + G++LGTA HA+G+A  +E     AA A + +T  GV+T ++ P+ +P +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|226740859|sp|A9VTH6.1|LRGB_BACWK</Hit_id>
+  <Hit_def>RecName: Full=Antiholin-like protein LrgB [Bacillus weihenstephanensis KBAB4]</Hit_def>
+  <Hit_accession>A9VTH6</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.17893e-24</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>IIVRTRTGNIFCNPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKN-TVVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVLG</Hsp_qseq>
+      <Hsp_hseq>LLFKHSKGFFLFTPLFVAMVLGIVFLKVGNFTFEEYNTGGKMISFFLEPATIAFAIPLYKQVDKLKKYWWQILSAIVVGSICSVVVVYIVAKAIGLDTAVMNSMLPQAATTAIALPISESIGGIPAITSFAVIFNAVIVYALGALFLKTFRVKHPIAKGLALGTAGHALGVAVGIEMGEVEAAMASIAVTVVGVVTVVVIPMFMPFIG</Hsp_hseq>
+      <Hsp_midline>++ +   G     P+ V+ ++ I +LK+    +  Y+   + I F L+PA +  A+PLY+   K+   W  ++ + + GS+  +V     AK +G +  V+  +  ++ T  IA+ I+ SIGGIPAIT+  VI   ++    G   LK   V  P + G++LGTA HA+G+A  +E     AA A + +T  GV+T ++ P+ +P +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|82592941|sp|Q4A012.1|LRGB_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Antiholin-like protein LrgB [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q4A012</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>2.26613e-23</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LRQPSVLLFLTLAVYALAIIVRTRTGNIFC-NPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLK-NTVVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVL</Hsp_qseq>
+      <Hsp_hseq>INTPYFGILLSLIPFIIATFLFKKTNGFFLFTPLFVSMVVGIAFLKLTGIDYANYKIGGDIINFFLEPATICFAIPLYKRRDVLKKYWKQILGGITLGTTAALVCIYLIAEAFQFSNGIIASMLPQGATTAIALPVSADIGGIKELTSLAVILNGVIIYALGSKLIKLFNITNPIARGLALGTSGHSLGVSSAQEFGETEASMASISLVIVGVIVVIVAPILATLL</Hsp_hseq>
+      <Hsp_midline>+  P   + L+L  + +A  +  +T   F   P+ VS +V IA+LK+ GIDYA Y      I+F L+PA +  A+PLY+ R  +   W  ++     G+   +V     A+       ++  +  +  T  IA+ ++  IGGI  +T+  VI+ G++    G K++K   +  P + G++LGT+ H++G++++ E     A+ A + L   GV+  ++AP+L  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1176629|sp|P45146.1|Y1298_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1298 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45146</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>4.38124e-23</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>FLTLAVYALAIIVRTRTGNIFCNPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKNT-VVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVLGF</Hsp_qseq>
+      <Hsp_hseq>FLTIFGFWLALQISKRWKSMIFNTFVLTVLILAAILVIGKIPYDDYMAGNAPINNLLGLSIVALALPLYEQLRQIARQWKIILSTVVIASFLAMLSGGLLALLLGSTPEMVATVLPKSITMPIAMEVSRHLGGIPAVTAVGVVVAGLQGSIFGYLVLKKLGVKHQEAIGLSVGSVSHALGTVSCMETNPTAGSYSSISLVLCGIISSILAPFVFKLIYF</Hsp_hseq>
+      <Hsp_midline>FLT+  + LA+ +  R  ++  N  +++ ++L A L I  I Y  Y      I+  L  ++V LA+PLY+  R+I  QW  ++ + +  S   +++G   A  LG+  E+V  +  KS+T PIA+E++R +GGIPA+TA  V++AGL G I GY +LK   V    ++G+S+G+ SHA+G  + +E +    +Y+ + L   G++++++AP +  ++ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|189028599|sp|A7GVI2.1|LRGB_BACCN</Hit_id>
+  <Hit_def>RecName: Full=Antiholin-like protein LrgB [Bacillus cytotoxicus NVH 391-98]</Hit_def>
+  <Hit_accession>A7GVI2</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>1.47258e-22</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>LTLAVYALAIIVRTRTGNIFC-NPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKN-TVVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVL</Hsp_qseq>
+      <Hsp_hseq>VSLIAYGIGTFLFKHSKQFFLFTPLFVAMVLGIGFLKVGNFTFEEYNTGGKIISFFLEPATIAFAIPLYKQADKLKKYWWQILSAIIVGSICSVVVVFIVAKAIHLDTAIMNSMLPQAATTAIALPLSESIGGIPAITSFAVIFNAVIVYALGALFLKTFRVKNPIAKGLALGTAGHALGVAVGIEMGEVEAAMASIAVTVVGVVTVVVIPLFMPLI</Hsp_hseq>
+      <Hsp_midline>++L  Y +   +   +   F   P+ V+ ++ I +LK+    +  Y+   + I F L+PA +  A+PLY+   K+   W  ++ + + GS+  +V     AK +  +  ++  +  ++ T  IA+ ++ SIGGIPAIT+  VI   ++    G   LK   V  P + G++LGTA HA+G+A  +E     AA A + +T  GV+T ++ PL +P++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|48474295|sp|P60641.1|LRGB_STAAM</Hit_id>
+  <Hit_def>RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|48474296|sp|P60642.1|LRGB_STAAN RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus N315] &gt;gi|48474297|sp|P60643.1|LRGB_STAA8 RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|48474298|sp|P60644.1|LRGB_STAAW RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81650090|sp|Q6GCK9.1|LRGB_STAAS RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81651892|sp|Q6GK49.1|LRGB_STAAR RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|81695427|sp|Q5HJB3.1|LRGB_STAAC RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus COL] &gt;gi|123487476|sp|Q2FK07.1|LRGB_STAA3 RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus USA300] &gt;gi|123548391|sp|Q2YV65.1|LRGB_STAAB RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus RF122] &gt;gi|167008900|sp|A7WXS7.1|LRGB_STAA1 RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus Mu3] &gt;gi|172048759|sp|A6QDN7.1|LRGB_STAAE RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus str. Newman] &gt;gi|189028600|sp|A6TY48.1|LRGB_STAA2 RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus JH1] &gt;gi|189028601|sp|A5IPD2.1|LRGB_STAA9 RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus JH9] &gt;gi|189028602|sp|A8Z0M6.1|LRGB_STAAT RecName: Full=Antiholin-like protein LrgB [Staphylococcus aureus subsp. aureus USA300_TCH1516]</Hit_def>
+  <Hit_accession>P60641</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>5.39431e-21</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>LRQPSVLLFLTLAVYALAIIVRTRTGNIFC-NPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLK-NTVVMPSSVGMSLGTASHAMGIAASLE</Hsp_qseq>
+      <Hsp_hseq>LNTPYFGILLSVIPFFLATILFEKTNRFFLFAPLFVSMVFGVAFLYLTGIPYKTYKIGGDIIYFFLEPATICFAIPLYKKREVLVKHWHRIIGGIGIGTVVALLIILTFAKLAQFANDVILSMLPQAATTAIALPVSAGIGGIKELTSLAVILNGVIIYALGNKFLKLFRITNPIARGLALGTSGHTLGVAPAKE</Hsp_hseq>
+      <Hsp_midline>L  P   + L++  + LA I+  +T   F   P+ VS +  +A+L + GI Y  Y      I F L+PA +  A+PLY+ R  +   W  +I     G+V  ++  + FAK      +V+L +  ++ T  IA+ ++  IGGI  +T+  VI+ G++    G K LK   +  P + G++LGT+ H +G+A + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|254763345|sp|P39590.2|YWBG_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YwbG [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39590</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>4.48051e-20</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VLLFLTLAVYALAIIVRTRTGNIFCNPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAG-----YKMLKNTVVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLI</Hsp_qseq>
+      <Hsp_hseq>VSLFLTVLVYLGAKKVYQRFPRVYTSPLLVTPAVLVGLLLLVNVPYESYNLGGGLLTDMLQPATVAFAIPLYKYFPVLKKYAVEIILNVAVGSCIAIISTALIAKWLHLGTGLIDSLVPRSVTTPIAMNVSEMIGGMPAVTAVFVILTALLGTVIGPMVIRYFRIDNEI----ARGVLLGTSAHGAGTSKAFELSSVSGTISSVSMILAAIMTLCAAPFLL</Hsp_hseq>
+      <Hsp_midline>V LFLT+ VY  A  V  R   ++ +P+LV+  VL+  L ++ + Y  Y+     +   L+PA V  A+PLY+    +    + +I++   GS   I++    AKWL     ++  L  +SVT PIA+ ++  IGG+PA+TA  VI+  L+G + G     Y  + N +    + G+ LGT++H  G + + E S      + + +    ++T   AP L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81673368|sp|Q5HLG0.1|LRGB_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Antiholin-like protein LrgB [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q5HLG0</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.72382e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LRQPSVLLFLTLAVYALAIIVRTRTGNIFC-NPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLK-NTVVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVL</Hsp_qseq>
+      <Hsp_hseq>INTPYFGILVSLIPFVIATYFYKKTNGFFLLAPLFVSMVAGIAFLKLTGISYENYKIGGDIINFFLEPATICFAIPLYRKREVLKKYWLQIFGGIAVGTIIALLLIYLVAITFQFGNQIIASMLPQAATTAIALPVSDGIGGVKELTSLAVILNAVVISALGAKIVKLFKISNPIARGLALGTSGHTLGVAAAKELGETEESMGSIAVVIVGVIVVAVVPILAPIL</Hsp_hseq>
+      <Hsp_midline>+  P   + ++L  + +A     +T   F   P+ VS +  IA+LK+ GI Y  Y      I+F L+PA +  A+PLY+ R  +   WL +      G++  ++     A       +++  +  ++ T  IA+ ++  IGG+  +T+  VI+  +V    G K++K   +  P + G++LGT+ H +G+AA+ E      +   + +   GV+   + P+L P+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|48474846|sp|Q8CN53.1|LRGB_STAES</Hit_id>
+  <Hit_def>RecName: Full=Antiholin-like protein LrgB [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CN53</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>2.06644e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LRQPSVLLFLTLAVYALAIIVRTRTGNIFC-NPVLVSTIVLIAYLKILGIDYAVYHNAAQFIDFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLK-NTVVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIAPLLIPVL</Hsp_qseq>
+      <Hsp_hseq>INTPYFGILVSLIPFVIATYFYKKTNGFFLLAPLFVSMVAGIAFLKLTGISYENYKIGGDIINFFLEPATICFAIPLYRKREVLKRYWLQIFGGIAVGTIIALLLIYLVAITFQFGNQIIASMLPQAATTAIALPVSDGIGGVKELTSLAVILNAVVISALGAKIVKLFKISNPIARGLALGTSGHTLGVAAAKELGETEESMGSIAVVIVGVIVVAVVPILAPIL</Hsp_hseq>
+      <Hsp_midline>+  P   + ++L  + +A     +T   F   P+ VS +  IA+LK+ GI Y  Y      I+F L+PA +  A+PLY+ R  +   WL +      G++  ++     A       +++  +  ++ T  IA+ ++  IGG+  +T+  VI+  +V    G K++K   +  P + G++LGT+ H +G+AA+ E      +   + +   GV+   + P+L P+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|74694967|sp|Q75C82.1|GPI14_ASHGO</Hit_id>
+  <Hit_def>RecName: Full=GPI mannosyltransferase 1; AltName: Full=GPI mannosyltransferase I; Short=GPI-MT-I; AltName: Full=Glycosylphosphatidylinositol-anchor biosynthesis protein 14 [Ashbya gossypii ATCC 10895]</Hit_def>
+  <Hit_accession>Q75C82</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.87304</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>KILGIDYAVYHNAAQFI----------DFRLKPAVVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEIT</Hsp_qseq>
+      <Hsp_hseq>KYTDIDYHVFHDAARYVAQGNSPYLRDTYRYTPLLSWMLVPNHWLQWVHFGKFIFVLFDLLAGVMVMNLLGK-----CGRRRKLI--LASLWLLNPVVITVS</Hsp_hseq>
+      <Hsp_midline>K   IDY V+H+AA+++           +R  P +  + VP +  +   F +++ V+   LAG +   + G       G  R+++  LAS  + NP+ I ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|75172658|sp|Q9FVQ4.1|PLGG1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Plastidal glycolate/glycerate translocator 1, chloroplastic; AltName: Full=Bacterial membrane protein LrgB-like protein; Short=AtLrgB; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FVQ4</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>3.83646</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>VVVLAVPLYQNRRKIFNQWLPVIVSQLAGSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGI-PAITAATVIIAGLVG-QIAGYKMLKNTVVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGMGLTFNGVLTALIA</Hsp_qseq>
+      <Hsp_hseq>ILSFAFSMFKQRKLVKRHAAEIFTSVIVSTVFSLYSTALVGRLVGLEPSLTVSILPRCITVALALSIVSLFEGTNSSLTAAVVVVTGLIGANFVQVVLDKLRLRDPIARGIATASSAHGLGTAALSAKEPEALPFCAIAYALTGIFGSLLC</Hsp_hseq>
+      <Hsp_midline>++  A  +++ R+ +      +  S +  +V  + +     + +G E  + + +  + +T  +A+ I     G   ++TAA V++ GL+G       + K  +  P + G++  +++H +G AA   +      +  +     G+  +L+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|123584384|sp|Q3BQ83.1|SUCC_XANC5</Hit_id>
+  <Hit_def>RecName: Full=Succinyl-CoA ligase [ADP-forming] subunit beta; AltName: Full=Succinyl-CoA synthetase subunit beta; Short=SCS-beta [Xanthomonas campestris pv. vesicatoria str. 85-10]</Hit_def>
+  <Hit_accession>Q3BQ83</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.33286</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>YFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKNTVVMPSSVGMSLGT</Hsp_qseq>
+      <Hsp_hseq>YQSKQLLAEYGIPVPAGKVAATPDEAVEVANSLGNGPWMVKAQ-IHAGGRGKAGGVKFCKTTDDVKAAAAKMLGT</Hsp_hseq>
+      <Hsp_midline>Y +K L AE  + +P    + T   A+E+  S+G  P +  A  I AG  G+  G K  K T  + ++    LGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|24212434|sp|Q8PHL5.1|SUCC_XANAC</Hit_id>
+  <Hit_def>RecName: Full=Succinyl-CoA ligase [ADP-forming] subunit beta; AltName: Full=Succinyl-CoA synthetase subunit beta; Short=SCS-beta [Xanthomonas axonopodis pv. citri str. 306]</Hit_def>
+  <Hit_accession>Q8PHL5</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.56325</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>YFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKNTVVMPSSVGMSLGT</Hsp_qseq>
+      <Hsp_hseq>YQSKQLLAEYGIPVPAGKVAATPDEAVEVANSLGNGPWMVKAQ-IHAGGRGKAGGVKFCKTTDDVKAAAAKMLGT</Hsp_hseq>
+      <Hsp_midline>Y +K L AE  + +P    + T   A+E+  S+G  P +  A  I AG  G+  G K  K T  + ++    LGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|193806311|sp|Q7Z5P9.2|MUC19_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Mucin-19; Short=MUC-19; Flags: Precursor, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>Q7Z5P9</Hit_accession>
+  <Hit_len>6254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.01594</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>3779</Hsp_hit-from>
+      <Hsp_hit-to>3862</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>PLASKSVTNPIAIEITRSIGGIPAITAATVIIAGLVGQIAGYKMLKNTVVMPSSVGMSLGTASHAMGIAASLERSRRMAAYAGM</Hsp_qseq>
+      <Hsp_hseq>PLAGVTGTTGISTEVTGTTGPSARVTGTTVLSAGVTGITGLSAIVTETTGSSARSGTSTPSVGETGTTRTSVEESRATRPSAGI</Hsp_hseq>
+      <Hsp_midline>PLA  + T  I+ E+T + G    +T  TV+ AG+ G      ++  T    +  G S  +         S+E SR     AG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|460425347|sp|E3PY95.1|OAME_CLOSD</Hit_id>
+  <Hit_def>RecName: Full=D-ornithine 4,5-aminomutase subunit beta; AltName: Full=D-ornithine aminomutase E component; Short=OAM-E [[Clostridium] sticklandii DSM 519]</Hit_def>
+  <Hit_accession>E3PY95</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>7.54202</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>LAVPLYQNRRKIFNQWLPVIVSQLA-GSVTGIVTGMYFAKWLGAEREVVLPLASKSVTNPIAIEITRSIGGIP</Hsp_qseq>
+      <Hsp_hseq>VALPSAKYFGDIDPQPLPVITTEIASGRFEDDIRRMRMAAWHGADHIMVIRTAGQSHYDGLIEGTPQGIGGVP</Hsp_hseq>
+      <Hsp_midline>+A+P  +    I  Q LPVI +++A G     +  M  A W GA+  +V+  A +S  + +     + IGG+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

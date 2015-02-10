@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>56907</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7X7</BlastOutput_query-def>
+  <BlastOutput_query-len>114</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>56907</Iteration_query-ID>
+  <Iteration_query-def>Q5F7X7</Iteration_query-def>
+  <Iteration_query-len>114</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1174963|sp|Q04973.1|VIPB_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Vi polysaccharide biosynthesis protein VipB/TviC [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q04973</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.337252</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>NAKNRAQNPSAAYRPALFGQTLILPPSRTLVQTGTDDTARAFPVFTGYPSSGLCSSTISALRFSGGSRRKYSGLNLNRYGVASPCRTGLNLIHYILRPLQNSLPSRQ</Hsp_qseq>
+      <Hsp_hseq>NVFGRRQNPNGAYSAVIPRWILSLLKDEPIYINGDGSTSRDFCYIENVIQANLLSATTNDL----ASKNKV-------YNVAVGDRTSLNELYYLIRDGLNLWRNEQ</Hsp_hseq>
+      <Hsp_midline>N   R QNP+ AY   +    L L     +   G   T+R F        + L S+T + L     S+ K        Y VA   RT LN ++Y++R   N   + Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|82186249|sp|Q6P301.1|YIF1B_XENTR</Hit_id>
+  <Hit_def>RecName: Full=Protein YIF1B; AltName: Full=YIP1-interacting factor homolog B [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>Q6P301</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.606144</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LFGQTLILPPSRTLVQTGTDDTARAFPVFTGYPSSGLCSSTISALRFSGGSRRKYSGLNLNRYGVASPCRTGLNLIHYILRPLQNSLPSR</Hsp_qseq>
+      <Hsp_hseq>LIVEVLAILLSLYLVTVNTDLTTVDLVAFSGYKYVGMISGVISGLLFG----------KTGYYVVLSWC--GISVVFFMIRTLRLKILSE</Hsp_hseq>
+      <Hsp_midline>L  + L +  S  LV   TD T      F+GY   G+ S  IS L F               Y V S C  G++++ +++R L+  + S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|442570080|sp|P32113.2|COPA_ENTHA</Hit_id>
+  <Hit_def>RecName: Full=Probable copper-importing P-type ATPase A [Enterococcus hirae ATCC 9790]</Hit_def>
+  <Hit_accession>P32113</Hit_accession>
+  <Hit_len>727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.63338</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>460</Hsp_hit-from>
+      <Hsp_hit-to>513</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PPSRTLVQTGTDDTARAFPV--FTGYPSSGLCSSTISALRFSGGSRRKYSGLNLN</Hsp_qseq>
+      <Hsp_hseq>PLGKAIVAYGAKVGAKTQPITDFVAHPGAGI-SGTINGVHYFAGTRKRLAEMNLS</Hsp_hseq>
+      <Hsp_midline>P  + +V  G    A+  P+  F  +P +G+ S TI+ + +  G+R++ + +NL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|150416122|sp|Q86VD7.2|S2542_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Mitochondrial coenzyme A transporter SLC25A42; AltName: Full=Solute carrier family 25 member 42 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q86VD7</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.76453</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>TGYPSSGLCSSTISALRFSGGSRRKYSGLNLNRYGVASPCRTGL-----NLIHYILRPLQN</Hsp_qseq>
+      <Hsp_hseq>TGYPRASIARTLRTIVREEGAVRGLYKGLSMN--WVKGPIAVGISFTTFDLMQILLRHLQS</Hsp_hseq>
+      <Hsp_midline>TGYP + +  +  + +R  G  R  Y GL++N   V  P   G+     +L+  +LR LQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|82184146|sp|Q6GN58.1|YF1BA_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Protein YIF1B-A; AltName: Full=YIP1-interacting factor homolog B-A [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q6GN58</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.25124</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>LFGQTLILPPSRTLVQTGTDDTARAFPVFTGYPSSGLCSSTISALRF</Hsp_qseq>
+      <Hsp_hseq>LIVEVLAILLSLYLVTVNTDLTTVDLVAFTGYKYVGMISGVISGLLF</Hsp_hseq>
+      <Hsp_midline>L  + L +  S  LV   TD T      FTGY   G+ S  IS L F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|374110543|sp|C7TC36.1|DIVIB_LACRG</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB [Lactobacillus rhamnosus GG]</Hit_def>
+  <Hit_accession>C7TC36</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.08559</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>GTDDTARAFPVFTGYPSSGLCSSTISALRFSGGSRRKYSGLNLNRYGVASPCRTGLNL</Hsp_qseq>
+      <Hsp_hseq>GTQTPVTTYPVFSGFTAKELPQMITLLKQFPAAIRRDISEIDASR-GDANPNQIALNM</Hsp_hseq>
+      <Hsp_midline>GT      +PVF+G+ +  L        +F    RR  S ++ +R G A+P +  LN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123903949|sp|Q4FZQ0.1|YF1BB_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Protein YIF1B-B; AltName: Full=YIP1-interacting factor homolog B-B [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q4FZQ0</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.27437</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LFGQTLILPPSRTLVQTGTDDTARAFPVFTGYPSSGLCSSTISALRFSGGSRRKYSGLNLNRYGVASPCRTGLNLIHYILRPLQNSLPSR</Hsp_qseq>
+      <Hsp_hseq>LIVEVLAILLSLYLVTVNTDLTTVDLVAFSGYKYVGMISGVIAGLLFG----------NTGYYVVLAWC--CISIVFFMIRTLRLKILSE</Hsp_hseq>
+      <Hsp_midline>L  + L +  S  LV   TD T      F+GY   G+ S  I+ L F           N   Y V + C   ++++ +++R L+  + S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|205829038|sp|B0TL07.1|MNMC_SHEHH</Hit_id>
+  <Hit_def>RecName: Full=tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC; Short=tRNA mnm(5)s(2)U biosynthesis bifunctional protein; Includes: RecName: Full=tRNA (mnm(5)s(2)U34)-methyltransferase; Includes: RecName: Full=FAD-dependent cmnm(5)s(2)U34 oxidoreductase [Shewanella halifaxensis HAW-EB4]</Hit_def>
+  <Hit_accession>B0TL07</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.32298</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>548</Hsp_hit-from>
+      <Hsp_hit-to>592</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>ALFGQTLILPPSRTLVQTGTDDTARAFPVFTGYPSSGLCSSTISA</Hsp_qseq>
+      <Hsp_hseq>ALYQQHQLTPESRQFWQTHAAPTHKNLYVLGGLGSRGLCSGPLAA</Hsp_hseq>
+      <Hsp_midline>AL+ Q  + P SR   QT    T +   V  G  S GLCS  ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|75338583|sp|Q9XGR4.1|2AB2A_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine protein phosphatase 2A regulatory subunit B&apos;&apos;alpha; Short=AtB&apos;&apos;alpha; Short=PP2A, B&apos;&apos; subunit, alpha isoform [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9XGR4</Hit_accession>
+  <Hit_len>538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.09475</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>QNPSAAYRPALFGQTLILPPSRTLVQTGTDDTARAFPVFTGYPSSGL---CSSTISALRFSGGS</Hsp_qseq>
+      <Hsp_hseq>ENPHIA--EELFSQWLSLPETGRLVKSLIDDTKSSTPVSVSKNCTSLNVACGSALPSVFLNSGT</Hsp_hseq>
+      <Hsp_midline>+NP  A    LF Q L LP +  LV++  DDT  + PV      + L   C S + ++  + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|12230976|sp|Q51551.2|PYRX_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Dihydroorotase-like protein; AltName: Full=Aspartate carbamoyltransferase 44 kDa non-catalytic chain [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q51551</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.17891</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>41</Hsp_query-to>
+      <Hsp_hit-from>312</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>SNAKNRAQNPSAAYRPALFGQTLILPPSRTLVQTGTDD</Hsp_qseq>
+      <Hsp_hseq>ADAKN---APFAATEPGISGAELLLPLAMTLVQDGLLD</Hsp_hseq>
+      <Hsp_midline>++AKN    P AA  P + G  L+LP + TLVQ G  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

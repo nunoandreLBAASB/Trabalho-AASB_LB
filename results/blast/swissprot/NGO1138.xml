@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>11847</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7K6</BlastOutput_query-def>
+  <BlastOutput_query-len>361</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>11847</Iteration_query-ID>
+  <Iteration_query-def>Q5F7K6</Iteration_query-def>
+  <Iteration_query-len>361</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|137996|sp|P03626.1|VG301_BPPF3</Hit_id>
+  <Hit_def>RecName: Full=Putative assembly protein ORF301; AltName: Full=ORF301 [Pseudomonas phage Pf3]</Hit_def>
+  <Hit_accession>P03626</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.54864e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>MIYLFTGNMGAGKTPRVVSMILNNEDGLFKMELEDGTEADRPLYFCHIDGLDKRKFNARELAEGQIMSAP--LRDVIPEGAVLIVGEAH--YTYPVRAAGRPVPPYIQELTEL---RHHGHTVILMTRHPSQLDIFVRNLVSKHVHL--ERKAIGMKQYYWYKCVTSLDNPAGVSGVEAANWKPPKEAFKYYKSASRH-QKFK--KKVPWAVWALIAVVGFVGWKSYGMFQVYSKATDSRIEQEAQKESVVQTMTEQTAS-SETAPFE-HFDNLKPEDFVPTLPEKPESKPIYNTVRQVKTFEQIAGCIDGGKSD-CTCYSNQGTPLKEITKIMCKEYVKNGLP</Hsp_qseq>
+      <Hsp_hseq>MITLITAVPGSGKTLYAI--------GLIEAALSEG----RPV-FTNISGLVKDKFSNPHL----LSDAPDDWRDT-PEGSLVVYDEAQQAHLYPSNAQRGPVTD--ERLTAMETHRHTGHDLVFITQAPTFVHHHIRKLVGLHIHLYRSRGLQAASKYEWSHVCDSPNDRKEQQRADFVLWKFPKEHFAFYTSAVMHTHKFKMPKKIGVLLVFVVLGLGAVGFNLY-------------------KNSGLASMAEATASVAEATPSPLALNGVKPSSLAAPYQWSAAAPAV-----------PVSGCVANRSTNRCQCFDASGVVLA-IEHAACLSVISSPLP</Hsp_hseq>
+      <Hsp_midline>MI L T   G+GKT   +        GL +  L +G    RP+ F +I GL K KF+   L    +  AP   RD  PEG++++  EA   + YP  A   PV    + LT +   RH GH ++ +T+ P+ +   +R LV  H+HL   R      +Y W     S ++       +   WK PKE F +Y SA  H  KFK  KK+   +  ++  +G VG+  Y                   K S + +M E TAS +E  P     + +KP            +  +            ++GC+    ++ C C+   G  L  I    C   + + LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|82242600|sp|Q8AV58.1|SDK1_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Protein sidekick-1; Flags: Precursor [Gallus gallus]</Hit_def>
+  <Hit_accession>Q8AV58</Hit_accession>
+  <Hit_len>2169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.12724</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>KMELEDGTEADRPLYFCHIDGLDKRKFNARELAEGQIMSAPLRDVIPEGAVLIVGEAHYTYPVRAAGRPVPPYIQ-----ELTELRHHGHTVIL</Hsp_qseq>
+      <Hsp_hseq>RLTITNPTSADVGMYFCEAKLRDSTEEPARAKAFISLMVPPYFTAEPEGVILAEVEKDVDILCQAMGVPIPSLVWYKDSVPLSKLQNPRYKVLL</Hsp_hseq>
+      <Hsp_midline>++ + + T AD  +YFC     D  +  AR  A   +M  P     PEG +L   E       +A G P+P  +       L++L++  + V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1172451|sp|Q05793.1|PGBM_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Basement membrane-specific heparan sulfate proteoglycan core protein; Short=HSPG; Contains: RecName: Full=Endorepellin; Contains: RecName: Full=LG3 peptide; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q05793</Hit_accession>
+  <Hit_len>3707</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.41646</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>1673</Hsp_hit-from>
+      <Hsp_hit-to>1751</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>RELAEGQIMSAPLRDVIPEGA-----VLIVGEA-HYTYPVRAAGRPVPPYIQELTELRHHGHTVILMTRHPSQLDIFV---RNLV</Hsp_qseq>
+      <Hsp_hseq>KESLEVQIH--PSRSVVPQGGPHSLRCQVSGSPPHYFYWSREDGRPLPSSAQQ----RHQGSELHFPSVQPSDAGVYICTCRNLI</Hsp_hseq>
+      <Hsp_midline>+E  E QI   P R V+P+G        + G   HY Y  R  GRP+P   Q+    RH G  +   +  PS   +++   RNL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|3219812|sp|P87110.1|ITR2_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Myo-inositol transporter 2 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>P87110</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.7189</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GQIMSAPLRDVIPEGAVLIVGEAHYTYPVRAAGRPVPPYIQELTELRHHGHTVILMTRHPS--QLDIFVRNLVSKHVH</Hsp_qseq>
+      <Hsp_hseq>GSVIMAASRNV----AMMVVGRFIVGYGIGLTSLIVPMYITELAPARLRGRLVIIYVVFITGGQLIAYSLNAAFEHVH</Hsp_hseq>
+      <Hsp_midline>G ++ A  R+V    A+++VG     Y +      VP YI EL   R  G  VI+     +  QL  +  N   +HVH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|317373536|sp|P98160.4|PGBM_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Basement membrane-specific heparan sulfate proteoglycan core protein; Short=HSPG; AltName: Full=Perlecan; Short=PLC; Contains: RecName: Full=Endorepellin; Contains: RecName: Full=LG3 peptide; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P98160</Hit_accession>
+  <Hit_len>4391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.36609</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1683</Hsp_hit-from>
+      <Hsp_hit-to>1751</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>PLRDVIPEGA-----VLIVGEA-HYTYPVRAAGRPVPPYIQELTELRHHGHTVILMTRHPSQLDIFV---RNL</Hsp_qseq>
+      <Hsp_hseq>PARSIVPQGGSHSLRCQVSGSPPHYFYWSREDGRPVPSGTQQ----RHQGSELHFPSVQPSDAGVYICTCRNL</Hsp_hseq>
+      <Hsp_midline>P R ++P+G        + G   HY Y  R  GRPVP   Q+    RH G  +   +  PS   +++   RNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|56748864|sp|Q99NF3.1|CEP41_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Centrosomal protein of 41 kDa; Short=Cep41; AltName: Full=Testis-specific gene A14 protein [Mus musculus]</Hit_def>
+  <Hit_accession>Q99NF3</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.19334</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>FTGNMGAGKTPR-----VVSMI--LNNEDGLFKMELEDGTEADRPLYFCHIDGLDKRKFNARELAEGQIMSAPLRDVIPEGAVLIVGEAHYTYPVRAAGRPVPPYIQELTELRH-HGHTVIL</Hsp_qseq>
+      <Hsp_hseq>FINSTGAGDSSRSTLQSVISGVGELDVDKGLVKKEEPNG--KDKPYPDCPFLLLDVRDRDSYQQCH------------------IVGA--YSYPIATLSRTMNPYSNDILEYKNAHGKIIIL</Hsp_hseq>
+      <Hsp_midline>F  + GAG + R     V+S +  L+ + GL K E  +G   D+P   C    LD R  ++ +                     IVG   Y+YP+    R + PY  ++ E ++ HG  +IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|74965765|sp|Q22006.1|PRO1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Pre-rRNA-processing protein pro-1; AltName: Full=Proximal proliferation in germline protein 1 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q22006</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>9.48426</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>GKTPRVVSMILNNEDGLFKMELED---GTEADRPLYFCHIDGLDKRKFNARELAEGQIMSAPLRDVIPEGAVLIV--GEAHYT</Hsp_qseq>
+      <Hsp_hseq>GSNPRVLSAGADHIACLHSISMDSVILKASSDRPLTACAIDPAETRIFIGTEV--GNIAQINLFQLAPEERDLLVQAGDEHNT</Hsp_hseq>
+      <Hsp_midline>G  PRV+S   ++   L  + ++       +DRPL  C ID  + R F   E+  G I    L  + PE   L+V  G+ H T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|20178131|sp|Q978Y8.1|SYW_THEVO</Hit_id>
+  <Hit_def>RecName: Full=Tryptophan--tRNA ligase; AltName: Full=Tryptophanyl-tRNA synthetase; Short=TrpRS [Thermoplasma volcanium GSS1]</Hit_def>
+  <Hit_accession>Q978Y8</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.5209</Hsp_evalue>
+      <Hsp_query-from>280</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>NTVRQVKTFEQIAGCIDGGKSDCTCYSNQGTPLKEITKIMCKEYVKN</Hsp_qseq>
+      <Hsp_hseq>SAIDQVIYFQKLGGSVSIAVADLESYSTRGIPLDKAREIAIEKYILN</Hsp_hseq>
+      <Hsp_midline>+ + QV  F+++ G +    +D   YS +G PL +  +I  ++Y+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>60815</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7Z9</BlastOutput_query-def>
+  <BlastOutput_query-len>288</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>60815</Iteration_query-ID>
+  <Iteration_query-def>Q5F7Z9</Iteration_query-def>
+  <Iteration_query-len>288</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75099976|sp|O80899.1|CSLB2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Cellulose synthase-like protein B2; Short=AtCslB2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O80899</Hit_accession>
+  <Hit_len>757</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.60772</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>TADKKPQPKLMSVPRPEKRTSGIKPNFLWDKTAYALGVEANKNKAEAKEKPFTPSEKTFEAFKQYHLDLLQNSEDEGLQALCRFLQNWQ-PAHFAAENLPAEMLDSNT</Hsp_qseq>
+      <Hsp_hseq>VGDEKEVPHIVYISR-EKR-----PNYLHHYKAGAMNFLA-RVSGLMTNAPY---------MLNVDCDMYANEADVVRQAMCIFLQKSQNQNHCAFVQFPQEFYDSNT</Hsp_hseq>
+      <Hsp_midline>  D+K  P ++ + R EKR     PN+L    A A+   A +        P+               D+  N  D   QA+C FLQ  Q   H A    P E  DSNT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|32699749|sp|Q8PET9.1|UXAC_XANAC</Hit_id>
+  <Hit_def>RecName: Full=Uronate isomerase; AltName: Full=Glucuronate isomerase; AltName: Full=Uronic isomerase [Xanthomonas axonopodis pv. citri str. 306]</Hit_def>
+  <Hit_accession>Q8PET9</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.13501</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>EALESLCLISGDTAPIARLHPAIKGVFGGQSSGGSIISFNKEAFSSFGKEQGANAPVSEQSAFAYTTALNYLLRRENN</Hsp_qseq>
+      <Hsp_hseq>QVLTEMAAMSLDDGLVMQLHP------------GCFRNHNRQLFEQYGRDKGADIPMRTD----YVHALKPLLDRHGN</Hsp_hseq>
+      <Hsp_midline>+ L  +  +S D   + +LHP            G   + N++ F  +G+++GA+ P+       Y  AL  LL R  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|123583756|sp|Q3BMC5.1|UXAC_XANC5</Hit_id>
+  <Hit_def>RecName: Full=Uronate isomerase; AltName: Full=Glucuronate isomerase; AltName: Full=Uronic isomerase [Xanthomonas campestris pv. vesicatoria str. 85-10]</Hit_def>
+  <Hit_accession>Q3BMC5</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.21896</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>EALESLCLISGDTAPIARLHPAIKGVFGGQSSGGSIISFNKEAFSSFGKEQGANAPVSEQSAFAYTTALNYLLRRENN</Hsp_qseq>
+      <Hsp_hseq>QVLTEMAAMSLDDGLVMQLHP------------GCFRNHNRQLFEQYGRDKGADIPMRTD----YVHALKPLLDRHGN</Hsp_hseq>
+      <Hsp_midline>+ L  +  +S D   + +LHP            G   + N++ F  +G+++GA+ P+       Y  AL  LL R  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122131693|sp|Q00PJ3.1|ASZ1_ATEAB</Hit_id>
+  <Hit_def>RecName: Full=Ankyrin repeat, SAM and basic leucine zipper domain-containing protein 1; AltName: Full=Germ cell-specific ankyrin, SAM and basic leucine zipper domain-containing protein [Atelerix albiventris]</Hit_def>
+  <Hit_accession>Q00PJ3</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.64745</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>NKAEAKEKPFTPSEKTFEAFKQY----HLDLLQNSEDEGLQALCRFLQNWQPAHFAAENLPAEMLD------SNTAFSLEKPTALI</Hsp_qseq>
+      <Hsp_hseq>DRAAQKLRGPLPTEEKNETFKKALTTGDISLVQELLDSGISVDTSFRYGWTPLMYAANVANVEMVQVLLDRGANASFSKDKQTILI</Hsp_hseq>
+      <Hsp_midline>++A  K +   P+E+  E FK+      + L+Q   D G+     F   W P  +AA     EM+       +N +FS +K T LI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|189038456|sp|A6Q8G0.1|PYRD_SULNB</Hit_id>
+  <Hit_def>RecName: Full=Dihydroorotate dehydrogenase (quinone); AltName: Full=DHOdehase; Short=DHOD; Short=DHODase; AltName: Full=Dihydroorotate oxidase [Sulfurovum sp. NBC37-1]</Hit_def>
+  <Hit_accession>A6Q8G0</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.11872</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>YALGVEANKNKAEAKEKPFTPSEKTFEAFKQYHLDLLQNSEDEGLQALCRFLQNWQ</Hsp_qseq>
+      <Hsp_hseq>YPIGINIGKNKVTSEEKALEDYETLFHAFKDYGDYIVINISSPNTPGL-RDLQNEQ</Hsp_hseq>
+      <Hsp_midline>Y +G+   KNK  ++EK     E  F AFK Y   ++ N        L R LQN Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|313118187|sp|A7UWE6.1|ASA1_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=ASTRA-associated protein 1 [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>A7UWE6</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.90968</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>GNPKVPSYGFSEEKIGWILVLDKEGRLKTVVP-NLTADKKPQPKLMSV</Hsp_qseq>
+      <Hsp_hseq>GNDRIITHGRDNKLIVWKLIGDDEARMSTTLPLDPCAEPRPKPWILHL</Hsp_hseq>
+      <Hsp_midline>GN ++ ++G   + I W L+ D E R+ T +P +  A+ +P+P ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|97053472|sp|Q4FVB2.1|ISPE_PSYA2</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase [Psychrobacter arcticus 273-4]</Hit_def>
+  <Hit_accession>Q4FVB2</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.10254</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>EGLQALCRFLQNWQPAHFAAENLPAEMLDS---NTA----------FSLEKPTALIHKRE------AAQTLWAGCLKSDEALESL--CLISGDTAPIARLHPAIKGVFGGQSSGGSII---------SFNKEAFSSFGKEQGANAPV</Hsp_qseq>
+      <Hsp_hseq>HNLQTVFRLLDWGDYLHFSVANKPMATIDSAVDNSAVDINSLCGQLLTLDGAEAITSSIEDNLIFKAARTLLAAAIDSSKLPEHLPKVLVTLD-----KHLPMGAGLGGGSSNAATTLLVLNEIWQLNFNQETLIKIGAKIGADVPI</Hsp_hseq>
+      <Hsp_midline>  LQ + R L      HF+  N P   +DS   N+A           +L+   A+    E      AA+TL A  + S +  E L   L++ D     +  P   G+ GG S+  + +         +FN+E     G + GA+ P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|32699748|sp|Q8P3F4.1|UXAC_XANCP</Hit_id>
+  <Hit_def>RecName: Full=Uronate isomerase; AltName: Full=Glucuronate isomerase; AltName: Full=Uronic isomerase [Xanthomonas campestris pv. campestris str. ATCC 33913] &gt;gi|81303548|sp|Q4UNX6.1|UXAC_XANC8 RecName: Full=Uronate isomerase; AltName: Full=Glucuronate isomerase; AltName: Full=Uronic isomerase [Xanthomonas campestris pv. campestris str. 8004]</Hit_def>
+  <Hit_accession>Q8P3F4</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.29516</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>EALESLCLISGDTAPIARLHPAIKGVFGGQSSGGSIISFNKEAFSSFGKEQGANAPVSEQSAFAYTTALNYLLRRENN</Hsp_qseq>
+      <Hsp_hseq>QVLTEMAAMSVDDGLVMQLHP------------GCFRNHNRQLFERYGRDKGADIPMRTD----YVHALKPLLDRFGN</Hsp_hseq>
+      <Hsp_midline>+ L  +  +S D   + +LHP            G   + N++ F  +G+++GA+ P+       Y  AL  LL R  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166215710|sp|A8GMD2.1|NUSB_RICAH</Hit_id>
+  <Hit_def>RecName: Full=N utilization substance protein B homolog; Short=Protein NusB [Rickettsia akari str. Hartford]</Hit_def>
+  <Hit_accession>A8GMD2</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>9.31821</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ILASLVRYYRRLATETDETGNPKVPSYGFSEEKIGWILVLDKEGRLKTVVPN-LTADKKP</Hsp_qseq>
+      <Hsp_hseq>IMQNVLSFYRNDSSITNLTGNLKI-SLSISHFKILVKSVFENINKLDEIIDNHLTNDKDP</Hsp_hseq>
+      <Hsp_midline>I+ +++ +YR  ++ T+ TGN K+ S   S  KI    V +   +L  ++ N LT DK P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

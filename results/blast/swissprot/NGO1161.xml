@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>24957</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7L0</BlastOutput_query-def>
+  <BlastOutput_query-len>289</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>24957</Iteration_query-ID>
+  <Iteration_query-def>Q5F7L0</Iteration_query-def>
+  <Iteration_query-len>289</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|449061893|sp|E1X791.1|TEHB_HAEI1</Hit_id>
+  <Hit_def>RecName: Full=Probable S-adenosyl-L-methionine-dependent methyltransferase TehB; AltName: Full=Tellurite resistance protein TehB homolog [Haemophilus influenzae 10810]</Hit_def>
+  <Hit_accession>E1X791</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>2.02239e-92</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>GELFCFGQMPVWKVENLPEVLLSGYSSEEGEWVCLNVLQGDVE----VRAPDGAAE-VWSAESGDCVFAPQQVFSVKPKTDDAEIRLSLYCAAADYFHKKYGMSATHSAVAAAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTADFPCPMPFPFKFKEGELKDYYRDWELVEYKEELGAMHAKDENGNPIRFKFVTMLAKK</Hsp_qseq>
+      <Hsp_hseq>NELICYKQMPVWTKDKLPQMFQEKHNTKVGTWGKLTVLKGKIKFYELTENGDVVAEHIFTPESHIPFVEPQAWHRVEALSDDLECTLGFYCKKEDYFSKKYNMTAIHGDVVDAAKIISPCKVLDLGCGQGRNSLYLSLLGYDVTSWDHNENSIAFLNETKEKENLNISTALYDINAANIQENYDFIVSTVVFMFLNRERVPSIIKNMQEHTNVGGYNLIVAAMSTDDVPCPLPFSFTFAENELKEYYKDWEFLEYNENMGELHKTDENGNRIKMKFATMLARK</Hsp_hseq>
+      <Hsp_midline> EL C+ QMPVW  + LP++    ++++ G W  L VL+G ++        D  AE +++ ES      PQ    V+  +DD E  L  YC   DYF KKY M+A H  V  A   +   + LD+GCGQGRN+L+L L G+DVT+ D N  ++A + E  E E LN+ T  YD+NAA +Q  +D+IV+TVV MFL  +RVP +I +MQ HT  GGYNLIV+AM T D PCP+PF F F E ELK+YY+DWE +EY E +G +H  DENGN I+ KF TMLA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1174634|sp|P45134.1|TEHB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Probable S-adenosyl-L-methionine-dependent methyltransferase TehB; AltName: Full=Tellurite resistance protein TehB homolog [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45134</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>2.12233e-91</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>GELFCFGQMPVWKVENLPEVLLSGYSSEEGEWVCLNVLQGDVEVR--APDG---AAEVWSAESGDCVFAPQQVFSVKPKTDDAEIRLSLYCAAADYFHKKYGMSATHSAVAAAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTADFPCPMPFPFKFKEGELKDYYRDWELVEYKEELGAMHAKDENGNPIRFKFVTMLAKK</Hsp_qseq>
+      <Hsp_hseq>NELICYKQMPVWTKDNLPQMFQEKHNTKVGTWGKLTVLKGKLKFYELTENGDVIAEHIFTPESHIPFVEPQAWHRVEALSDDLECTLGFYCKKEDYFSKKYNTTAIHGDVVDAAKIISPCKVLDLGCGQGRNSLYLSLLGYDVTSWDHNENSIAFLNETKEKENLNISTALYDINAANIQENYDFIVSTVVFMFLNRERVPSIIKNMKEHTNVGGYNLIVAAMSTDDVPCPLPFSFTFAENELKEYYKDWEFLEYNENMGELHKTDENGNRIKMKFATMLARK</Hsp_hseq>
+      <Hsp_midline> EL C+ QMPVW  +NLP++    ++++ G W  L VL+G ++      +G   A  +++ ES      PQ    V+  +DD E  L  YC   DYF KKY  +A H  V  A   +   + LD+GCGQGRN+L+L L G+DVT+ D N  ++A + E  E E LN+ T  YD+NAA +Q  +D+IV+TVV MFL  +RVP +I +M+ HT  GGYNLIV+AM T D PCP+PF F F E ELK+YY+DWE +EY E +G +H  DENGN I+ KF TMLA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|544472|sp|P35647.1|HAG1_EIKCO</Hit_id>
+  <Hit_def>RecName: Full=Hemagglutinin 1 [Eikenella corrodens]</Hit_def>
+  <Hit_accession>P35647</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>3.57999e-90</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>AAEVWSAESGDCVFAPQQVFSVKPKTDDAEIRLSLYCAAADYFHKKYGMSATHSAVAAAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTADFPCPMPFPFKFKEGELKDYYRDWELVEYKEELGAMHAKDENGNPIRFKFVTMLAKKPG</Hsp_qseq>
+      <Hsp_hseq>AEHILQPDSGVWTLYPQAQHKVEPLDDDFAVQLEFHCEKADYFHKKHGMTTTHSAIREAVQTVAPCKTLDLGCGQGHNALFLSLAGYDVRAVDHSPAAVASVLDMAAREQLPLRADAYDINAAALNEDYDFIFATVVFIFLQAGRVPEIIADMQAHTRPGGYNLIVSAMDTADYPCHMPFSFTFKEDELRQYYADWELLKYEEAVGLMHATDAQGRPIQLKFVTMLAKKPG</Hsp_hseq>
+      <Hsp_midline>A  +   +SG     PQ    V+P  DD  ++L  +C  ADYFHKK+GM+ THSA+  A  TV   + LD+GCGQG NALFL L G+DV A D +PAA+A+V ++A  E L +R   YD+NAAAL  ++D+I ATVV +FL   RVP++IADMQAHT  GGYNLIVSAMDTAD+PC MPF F FKE EL+ YY DWEL++Y+E +G MHA D  G PI+ KFVTMLAKKPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|135581|sp|P25397.1|TEHB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Tellurite methyltransferase; AltName: Full=Chalcogen-detoxifying protein TehB; AltName: Full=Selenite methyltransferase; AltName: Full=Tellurite resistance protein TehB [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P25397</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>1.58493e-63</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>DYFHKKYGMSATHSAVAAAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGL-NVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTADFPCPMPFPFKFKEGELKDYYRDWELVEYKEELGAMHAKDENGNPIRFKFVTMLAKK</Hsp_qseq>
+      <Hsp_hseq>NYFTDKYELTRTHSEVLEAVKVVKPGKTLDLGCGNGRNSLYLAANGYDVDAWDKNAMSIANVERIKSIENLDNLHTRVVDLNNLTFDRQYDFILSTVVLMFLEAKTIPGLIANMQRCTKPGGYNLIVAAMDTADYPCTVGFPFAFKEGELRRYYEGWERVKYNEDVGELHRTDANGNRIKLRFATMLARK</Hsp_hseq>
+      <Hsp_midline>+YF  KY ++ THS V  A   V  G+ LD+GCG GRN+L+L   G+DV A D N  ++ANV  +   E L N+ T   DLN      ++D+I++TVVLMFL  + +P +IA+MQ  T  GGYNLIV+AMDTAD+PC + FPF FKEGEL+ YY  WE V+Y E++G +H  D NGN I+ +F TMLA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|254782833|sp|A7ZES6.1|PRMA_CAMC1</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Campylobacter concisus 13826]</Hit_def>
+  <Hit_accession>A7ZES6</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000736612</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>ATHSAVAAAQDTVPAG-RALDMGCGQGRNALFLGLKGFDVTAADCNPAA----LANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVV--LMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTADFPCPMPFPFKFKEGELKDYYRDWELVEYKE</Hsp_qseq>
+      <Hsp_hseq>STNSCLQLLQKYAKSGDTALDVGCGSGILSIALAKLGCKVDACDTDEQATQSSLSN-AQLNEVKFNKIWT----GSIANLEQKYDIVVANIIADVIFMLSN-------DLKKSLKKGGY-LVLSGI------------LNKYEDRIKDTFKDLELVEIKQ</Hsp_hseq>
+      <Hsp_midline>+T+S +   Q    +G  ALD+GCG G  ++ L   G  V A D +  A    L+N A+L E +   + T     + A L+ ++D +VA ++  ++F++         D++     GGY L++S +                E  +KD ++D ELVE K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|6136578|sp|Q55423.1|Y829_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized methyltransferase sll0829 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55423</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00081511</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>PAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGG</Hsp_qseq>
+      <Hsp_hseq>PGQKVLDLCCGGGQATVYLAQSGATVVGLDASPKALGR-AKINVPQATYVQGLAEDLPFG--EGEFDLVHTSVALHEMTPAQLQSIISGVHRVLKPGG</Hsp_hseq>
+      <Hsp_midline>P  + LD+ CG G+  ++L   G  V   D +P AL   A++   +   V+ L  DL     +GEFD +  +V L  + P ++  +I+ +      GG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81858957|sp|Q9RXR2.1|PRMC_DEIRA</Hit_id>
+  <Hit_def>RecName: Full=Release factor glutamine methyltransferase; Short=RF MTase; AltName: Full=N5-glutamine methyltransferase PrmC; AltName: Full=Protein-(glutamine-N5) MTase PrmC; AltName: Full=Protein-glutamine N-methyltransferase PrmC [Deinococcus radiodurans R1]</Hit_def>
+  <Hit_accession>Q9RXR2</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00241265</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>RALDMGCGQGRNALFLGLKGF----DVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVA</Hsp_qseq>
+      <Hsp_hseq>RVLDVGTGTG--ALALGLKAAIPQAEVTATDLSPEALSLARENAALSGLDVKFVEGSL-LAGLSGPFNLIVS</Hsp_hseq>
+      <Hsp_midline>R LD+G G G  AL LGLK      +VTA D +P AL+   E A   GL+V+ +E  L  A L G F+ IV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|229892073|sp|B9DN09.1|Y1399_STACT</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized methyltransferase Sca_1399 [Staphylococcus carnosus subsp. carnosus TM300]</Hit_def>
+  <Hit_accession>B9DN09</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00322213</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>TVPAGRALDMGCGQGRNALFLGLKGFDVTAAD--CNPAALANVAELAEAEGLNVRTLE-YDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTADFPCPMPFPFKFKEGELKDYYRDWELVEYKEEL</Hsp_qseq>
+      <Hsp_hseq>STAEGRVLEIGAGTGNLTLMLKDKGREVSAIDPSDDMRAIAN-----ETKNLDVQYGHFFDI---PFDQPFDYIVTSFAFHHVKPEEKSDAIKTMMHSLTDDGKLLILDTMFESE---------KYKQDLIK-YYNNQEFYNLTEDL</Hsp_hseq>
+      <Hsp_midline>+   GR L++G G G   L L  KG +V+A D   +  A+AN     E + L+V+    +D+        FDYIV +     + P+   D I  M       G  LI+  M  ++         K+K+  +K YY + E     E+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166223497|sp|A6QBN7.1|PRMA_SULNB</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Sulfurovum sp. NBC37-1]</Hit_def>
+  <Hit_accession>A6QBN7</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00393046</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>SATHSAVAAAQDTVPAG-RALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVAT--VVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTADFPCPMPFP-FKFKEGELKDYYRDWELVEYKEE</Hsp_qseq>
+      <Hsp_hseq>ATTFSCLEAISKTVKAGDRVVDVGCGSGILGLAAKKLGATVELCDTDPLSVESC-----KENFKLNEAQYD---ELWEGSIDKAVGTYDVVIANIIADVLRFISRDLKAAVQEGGYLILSGILDKKEELVKASFQDLTLEKRTLKD---EWVTLVYKKE</Hsp_hseq>
+      <Hsp_midline>+ T S + A   TV AG R +D+GCG G   L     G  V   D +P ++ +       E   +   +YD      +G  D  V T  VV+  ++   +  +  D++A    GGY ++   +D  +      F     ++  LKD   +W  + YK+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|254782834|sp|A0RQL1.1|PRMA_CAMFF</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Campylobacter fetus subsp. fetus 82-40]</Hit_def>
+  <Hit_accession>A0RQL1</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00677675</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVV--LMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTADFPCPMPFPFKFKEGELK---DYYRDWELVEYKEELGAMHAKDENG</Hsp_qseq>
+      <Hsp_hseq>ALDVGCGSGILSIALAKLGLAVDACDTDEQAVLSSTDNARKNGIKFNNI-WTGSITDANGRYDVVVANIISDVILLLSK-------DLKMHVNNNGY-LILSGILT-----------KYKDRILQAFGDLELVWNITQNEWESFIFKNKDKNG</Hsp_hseq>
+      <Hsp_midline>ALD+GCG G  ++ L   G  V A D +  A+ +  + A   G+    + +  +     G +D +VA ++  ++ L+ +       D++ H    GY LI+S + T           K+K+  L+   D    W + + + E      KD+NG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|259491280|sp|C1DQT0.1|CMOA_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=tRNA (cmo5U34)-methyltransferase [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DQT0</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00910752</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VAAAQDTVPAGRALDMGCGQG--RNALFLGLK--GFDVTAADCNPAALANVAELAEA------EGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTAD</Hsp_qseq>
+      <Hsp_hseq>VLAAQFARPGTRLYDLGCSLGAVSQALRRHVKSEGCRVIAVDNSPAMLERCREYLHAQDSMFQELLPVETVEADILALALEPA-SLVAMNFTLQFIPPERRLELLGHIHHSLLPGGALILSEKLRFSD</Hsp_hseq>
+      <Hsp_midline>V AAQ   P  R  D+GC  G    AL   +K  G  V A D +PA L    E   A      E L V T+E D+ A AL+     +     L F+ P+R  +++  +      GG  ++   +  +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|123050454|sp|Q0VP64.1|RSMC_ALCBS</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase C; AltName: Full=16S rRNA m2G1207 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase RsmC [Alcanivorax borkumensis SK2]</Hit_def>
+  <Hit_accession>Q0VP64</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00943221</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVA</Hsp_qseq>
+      <Hsp_hseq>GKVIDMGCGAGVISVWLARHGWQVQGVDVSASAVTASTESLARNGLQGRIMGGDL-FSPIQGRVDMVVT</Hsp_hseq>
+      <Hsp_midline>G+ +DMGCG G  +++L   G+ V   D + +A+    E     GL  R +  DL  + +QG  D +V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|62297879|sp|Q84BQ9.2|PRMA_THET8</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>Q84BQ9</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0100938</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>EVWSAESGDCVFAPQQVFSVKPKTDDAEIRLSLYCAAADYFHKKYGMSATHSAVAAAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATV</Hsp_qseq>
+      <Hsp_hseq>EAWRRDLKPALAPPFVVLAPWHTWEGAEIPLVIEPGMA--FGTGHHETTRLALKALARHLRPGDKVLDLGTGSGVLAIAAEKLGGKALGVDIDPMVLPQAEANAKRNGVRPRFLEGSLEAALPFGPFDLLVANL</Hsp_hseq>
+      <Hsp_midline>E W  +    +  P  V +     + AEI L +    A  F   +  +   +  A A+   P  + LD+G G G  A+     G      D +P  L      A+  G+  R LE  L AA   G FD +VA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|114864|sp|P26236.1|BCHM_RHOCA</Hit_id>
+  <Hit_def>RecName: Full=Magnesium-protoporphyrin O-methyltransferase; AltName: Full=Magnesium-protoporphyrin IX methyltransferase [Rhodobacter capsulatus]</Hit_def>
+  <Hit_accession>P26236</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0101107</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>DTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDV</Hsp_qseq>
+      <Hsp_hseq>DDLTGCRVMDAGCGTGLTTVELARRGADVVAVDISPQLIDIAKDRLPPELRGKVSFHVGDMADPALGQFDYVVAMDSLIYY---RAPDI</Hsp_hseq>
+      <Hsp_midline>D +   R +D GCG G   + L  +G DV A D +P  +    +    E     +      A    G+FDY+VA   L++    R PD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|75536745|sp|Q4UME7.1|UBIG_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UME7</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0113973</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>VAAAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDT</Hsp_qseq>
+      <Hsp_hseq>ITSHYNDISKLEILDVGCGGGLIATPLAAQGFNVTAIDALQSNIETASTYAKENGVKVNYLQSTIEELQSDKLYDVVICLEVIEHV--ENVQQFILNLVGHIKPNGMAIISTINRT</Hsp_hseq>
+      <Hsp_midline>+ +  + +     LD+GCG G  A  L  +GF+VTA D   + +   +  A+  G+ V  L+  +        +D ++   V+  +  + V   I ++  H    G  +I +   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|123524952|sp|Q2RKY6.1|PRMA_MOOTA</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Moorella thermoacetica ATCC 39073]</Hit_def>
+  <Hit_accession>Q2RKY6</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0133043</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>PAGRALDMGCGQGRNALFLGLKGFD-VTAADCNPAALA----NVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPD</Hsp_qseq>
+      <Hsp_hseq>PGARVVDVGCGTGILALAAAKMGAGAVLALDLDPVAVAVARKNIARNGAADKVTVRN--NDL-LAGLEGPFDLVVANILAEVIL-KMIPD</Hsp_hseq>
+      <Hsp_midline>P  R +D+GCG G  AL     G   V A D +P A+A    N+A    A+ + VR    DL  A L+G FD +VA ++   ++ + +PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|7674407|sp|Q9ZCT9.1|UBIG_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZCT9</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0151728</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>VAAAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMD</Hsp_qseq>
+      <Hsp_hseq>IKSNYNDISKLQILDVGCGGGLIAAPLALQGFNVTAIDALKSNVETATIYAQKNGLKINYLQATIEELENDKLYDVVICLEVIEHV--ANIQQFILNLVQHIKPNGI-AIISTMN</Hsp_hseq>
+      <Hsp_midline>+ +  + +   + LD+GCG G  A  L L+GF+VTA D   + +      A+  GL +  L+  +        +D ++   V+  +    +   I ++  H    G   I+S M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|38605196|sp|Q7WF92.1|PRMA_BORBR</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7WF92</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0208997</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>THSAVAAAQDTVPAG-RALDMGCGQGRNALFL-GLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAM</Hsp_qseq>
+      <Hsp_hseq>THLCLAWLEAELPAGARLLDYGCGSGILAIAARKLGAGETVAVDIDPQAVQSTVDNAE---VNQVRLQAMLPDALPAGEFQVVVANILSNPL------KVLAPMLAGRVAPGGHLVLSGV</Hsp_hseq>
+      <Hsp_midline>TH  +A  +  +PAG R LD GCG G  A+    L   +  A D +P A+ +  + AE   +N   L+  L  A   GEF  +VA ++   L       V+A M A   A G +L++S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|38605194|sp|Q7W3W2.1|PRMA_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>Q7W3W2</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0224519</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>THSAVAAAQDTVPAG-RALDMGCGQGRNALFL-GLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAM</Hsp_qseq>
+      <Hsp_hseq>THLCLAWLEAELPAGARLLDYGCGSGILAIAARKLGAGETVAVDIDPQAVQSTVDNAE---VNQVRLQAMLPDALPAGEFQVVVANILSNPL------KVLAPMLAGRVAPGGHLVLSGV</Hsp_hseq>
+      <Hsp_midline>TH  +A  +  +PAG R LD GCG G  A+    L   +  A D +P A+ +  + AE   +N   L+  L  A   GEF  +VA ++   L       V+A M A   A G +L++S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81815831|sp|O34954.1|YODH_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized methyltransferase YodH [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34954</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0306761</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>PAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGE-FDYIVATVVLMF</Hsp_qseq>
+      <Hsp_hseq>PDQPILDAGCGTGQTAAYLGHLLYPVTVVDKDPIMLEKAKKRFANEGLAIPAYQAELEHLPFSSESFSCVLSESVLSF</Hsp_hseq>
+      <Hsp_midline>P    LD GCG G+ A +LG   + VT  D +P  L    +    EGL +   + +L       E F  +++  VL F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|259561433|sp|C1DRQ3.1|UBIG_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DRQ3</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0369439</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RALDMGCGQGRNALFLGLKGFDVTAADCN--PAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQA-HT</Hsp_qseq>
+      <Hsp_hseq>KVLDVGCGGGILSEAMALRGAAVTAIDMGEAPLAVARLHQLESGVEVDYRQSTVEALAAEMPGRFD-----VVTCLEMLEHVPDPASVIHACHT</Hsp_hseq>
+      <Hsp_midline>+ LD+GCG G  +  + L+G  VTA D    P A+A + +L     ++ R    +  AA + G FD     VV    M + VPD  + + A HT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|54040155|sp|P64840.1|Y1438_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein Mb1438c; Flags: Precursor [Mycobacterium bovis AF2122/97] &gt;gi|618798357|sp|P9WLY8.1|Y1403_MYCTO RecName: Full=Uncharacterized protein MT1447; Flags: Precursor [Mycobacterium tuberculosis CDC1551] &gt;gi|618798358|sp|P9WLY9.1|Y1403_MYCTU RecName: Full=Uncharacterized protein Rv1403c; Flags: Precursor [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P64840</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.037891</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQ-GEFDYIVATVVLMFL-MPQRVPDVIA</Hsp_qseq>
+      <Hsp_hseq>RVLDVAAGSGNVSIPAAMAGAHVTASDLTPELLRRAQARAAAAGLELGWREANAEALPFSAGEFDAVLSTIGVMFAPRHQRTADELA</Hsp_hseq>
+      <Hsp_midline>R LD+  G G  ++   + G  VTA+D  P  L      A A GL +   E +  A     GEFD +++T+ +MF    QR  D +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|166201217|sp|A8EY40.1|UBIG_RICCK</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Rickettsia canadensis str. McKiel]</Hit_def>
+  <Hit_accession>A8EY40</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0388232</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>VAAAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLI</Hsp_qseq>
+      <Hsp_hseq>ITSHYNDISKLEILDVGCGGGLIATPLAAQGFNVTAIDALQSNIETATAYAKENGVKINYLQSTIEELKSNKLYDVVICLEVIEHV--ENVQQFILNLVQHIKPNGIAII</Hsp_hseq>
+      <Hsp_midline>+ +  + +     LD+GCG G  A  L  +GF+VTA D   + +      A+  G+ +  L+  +        +D ++   V+  +  + V   I ++  H    G  +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|24418723|sp|Q8P8H2.1|UBIG_XANCP</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Xanthomonas campestris pv. campestris str. ATCC 33913] &gt;gi|81305858|sp|Q4UVL4.1|UBIG_XANC8 RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Xanthomonas campestris pv. campestris str. 8004] &gt;gi|226725569|sp|B0RS27.1|UBIG_XANCB RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Xanthomonas campestris pv. campestris str. B100]</Hit_def>
+  <Hit_accession>Q8P8H2</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0395614</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEG---LNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQA</Hsp_qseq>
+      <Hsp_hseq>AARVALPGARVLDVGCGGGLLSEAMARLGAQVTAIDLAP-ELVKVARLHSLESSVQVDYRVQSVEDLAAEQPGSFDAVTCMEML-----EHVPDPLAIIRA</Hsp_hseq>
+      <Hsp_midline>AA+  +P  R LD+GCG G  +  +   G  VTA D  P  L  VA L   E    ++ R    +  AA   G FD +    +L     + VPD +A ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|298351891|sp|C5D4V7.1|Y2453_GEOSW</Hit_id>
+  <Hit_def>RecName: Full=Putative methyltransferase GWCH70_2453 [Geobacillus sp. WCH70]</Hit_def>
+  <Hit_accession>C5D4V7</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.041302</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQG</Hsp_qseq>
+      <Hsp_hseq>AKRILDVGCGTGELAVRLAKEGFLVTGVDLSENMLAIAQAKAEAQQVTIEFFQ--QNMTELEG</Hsp_hseq>
+      <Hsp_midline>A R LD+GCG G  A+ L  +GF VT  D +   LA     AEA+ + +   +   N   L+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1730986|sp|P54458.1|YQEM_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative methyltransferase YqeM [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54458</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0416753</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLN-AAALQGEFDYIV</Hsp_qseq>
+      <Hsp_hseq>GRILDLACGTGEISIRLAEKGFEVTGIDLSEEMLS-FAQQKVSSSQPILFLQQDMREITGFDGQFDAVV</Hsp_hseq>
+      <Hsp_midline>GR LD+ CG G  ++ L  KGF+VT  D +   L+  A+   +    +  L+ D+       G+FD +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|122419455|sp|Q1QUF2.1|RSMC_CHRSD</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase C; AltName: Full=16S rRNA m2G1207 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase RsmC [Chromohalobacter salexigens DSM 3043]</Hit_def>
+  <Hit_accession>Q1QUF2</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.044511</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>PAG-RALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVA</Hsp_qseq>
+      <Hsp_hseq>PAGQRVLDVGCGDGILGAWLGVRGAQVAAVDLDAFAVAATRRTFQANGVAGEAWQSDVF-GDVSGSYDAIVS</Hsp_hseq>
+      <Hsp_midline>PAG R LD+GCG G    +LG++G  V A D +  A+A      +A G+     + D+    + G +D IV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|74698340|sp|Q9P7U5.1|YI73_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized methyltransferase C977.03 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9P7U5</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0544996</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNA-AALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTADFPCPMPFPFKFKEGELKDYYRDWE</Hsp_qseq>
+      <Hsp_hseq>LDAGCEPNRNARYLASLGYKVVGIDISERAISKAIDKTSSEKSNVNFNQRDFSRLNEFKGHFDTVIDIGCFHSILN-------SDHEPHTASLSH---ICHSDSS------VFLRAFSETN-KSRYRRWQ</Hsp_hseq>
+      <Hsp_midline>LD GC   RNA +L   G+ V   D +  A++   +   +E  NV   + D +     +G FD ++       ++        +D + HTA+  +   +   D++       F   F E   K  YR W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|21363062|sp|Q92H07.1|UBIG_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92H07</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0881132</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>LDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDT</Hsp_qseq>
+      <Hsp_hseq>LDVGCGGGLIATPLAAQGFNVTAIDALQSNIETATAYAKENGVKINYLQSTIEELDSDKLYDVVICLEVIEHV--ENVQQFILNLVKHIKPNGMAIISTINRT</Hsp_hseq>
+      <Hsp_midline>LD+GCG G  A  L  +GF+VTA D   + +      A+  G+ +  L+  +        +D ++   V+  +  + V   I ++  H    G  +I +   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|226710104|sp|B5ZWH3.1|PRMA_RHILW</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Rhizobium leguminosarum bv. trifolii WSM2304]</Hit_def>
+  <Hit_accession>B5ZWH3</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0996652</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>AVAAAQDTVPAGRALDMGCGQGRNALFL-GLKGFDVTAADCNPAALA----NVAELAEAEGLNVRTLE-YDLNAAALQGEFDYIVATVV---LMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDT</Hsp_qseq>
+      <Hsp_hseq>AIDAVVRSRPVRNALDLGTGSGVLAIAVRKLKNIPVLATDIDPIATRVAAENVRRNGIASGIVTRTAPGFHSTAFSEHGPFDLIIANILARPLIRMAPK--------LATHLAPGGSVILSGILAT</Hsp_hseq>
+      <Hsp_midline>A+ A   + P   ALD+G G G  A+ +  LK   V A D +P A      NV     A G+  RT   +   A +  G FD I+A ++   L+ + P+        +  H A GG  ++   + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|122260295|sp|Q02PX7.1|UBIG_PSEAB</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Pseudomonas aeruginosa UCBPP-PA14]</Hit_def>
+  <Hit_accession>Q02PX7</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.123654</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>RALDMGCGQGRNALFLGLKGFDVTAADCN--PAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPD</Hsp_qseq>
+      <Hsp_hseq>KVLDIGCGGGILSEAMAQRGANVTGIDMGEAPLAVARLHQLESGVAVDYRQITAEQMAEEMPGQFD-----VVTCLEMLEHVPD</Hsp_hseq>
+      <Hsp_midline>+ LD+GCG G  +  +  +G +VT  D    P A+A + +L     ++ R +  +  A  + G+FD     VV    M + VPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|38605127|sp|P60093.1|PRMA_PORGI</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Porphyromonas gingivalis W83]</Hit_def>
+  <Hit_accession>P60093</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.153927</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>RALDMGCGQGRNALF-LGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGE---FDYIVATVVLMFLMPQRVPDVIADMQAHTA--AGGYNLIVSAMDTADFP</Hsp_qseq>
+      <Hsp_hseq>RVLDMGCGTGILAILARKLGASSVTAIDIDDWCIRNTGENAALN--DIRDIDVRIGDASLLADCPMFDLIIANINRNILL--------DDMSAYRSRLGNGGTLLLSGFYTEDIP</Hsp_hseq>
+      <Hsp_midline>R LDMGCG G  A+    L    VTA D +   + N  E A     ++R ++  +  A+L  +   FD I+A +    L+         DM A+ +    G  L++S   T D P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|74698269|sp|Q9P3V6.1|YI44_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized methyltransferase C1348.04 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9P3V6</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.166746</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>LDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNA-AALQGEFDYIV</Hsp_qseq>
+      <Hsp_hseq>LDAGCEPNRNARYLASLGYKVVGIDISERAISKAIDKTSSEKSNVNFNQRDFSRLNEFKGHFDTVI</Hsp_hseq>
+      <Hsp_midline>LD GC   RNA +L   G+ V   D +  A++   +   +E  NV   + D +     +G FD ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|74698262|sp|Q9P3E7.1|YLZ3_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized methyltransferase C750.03c [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9P3E7</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.180091</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>LDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNA-AALQGEFDYIV</Hsp_qseq>
+      <Hsp_hseq>LDAGCEPNRNARYLASLGYKVVGIDISERAISKAIDKTSSEKSNVNFNQRDFSRLNEFKGHFDTVI</Hsp_hseq>
+      <Hsp_midline>LD GC   RNA +L   G+ V   D +  A++   +   +E  NV   + D +     +G FD ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|17369012|sp|Q9HZ63.1|UBIG_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HZ63</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.182189</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>RALDMGCGQGRNALFLGLKGFDVTAADCN--PAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPD</Hsp_qseq>
+      <Hsp_hseq>KVLDIGCGGGILSEAMAQRGASVTGIDMGEAPLAVARLHQLESGVAVDYRQITAEQMAEEMPGQFD-----VVTCLEMLEHVPD</Hsp_hseq>
+      <Hsp_midline>+ LD+GCG G  +  +  +G  VT  D    P A+A + +L     ++ R +  +  A  + G+FD     VV    M + VPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|226725554|sp|B7V9J5.1|UBIG_PSEA8</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>B7V9J5</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.183838</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>RALDMGCGQGRNALFLGLKGFDVTAADCN--PAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPD</Hsp_qseq>
+      <Hsp_hseq>KVLDIGCGGGILSEAMAQRGASVTGIDMGEAPLAVARLHQLESGVAVDYRQITAEQMAEEMPGQFD-----VVTCLEMLEHVPD</Hsp_hseq>
+      <Hsp_midline>+ LD+GCG G  +  +  +G  VT  D    P A+A + +L     ++ R +  +  A  + G+FD     VV    M + VPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|109895670|sp|Q47GP8.1|UBIG_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47GP8</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.190587</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>RALDMGCGQGRNALFLGLKGFDVTAADCN--PAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVL</Hsp_qseq>
+      <Hsp_hseq>RVLDVGCGGGLLSEGMAVRGANVTGIDLSEKPLGVAKLHLLETGQKVDYRKISVEELAEQMPGEFDAVTCLEML</Hsp_hseq>
+      <Hsp_midline>R LD+GCG G  +  + ++G +VT  D +  P  +A +  L   + ++ R +  +  A  + GEFD +    +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|97537969|sp|Q10125.3|YSM5_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein F52C9.5; Flags: Precursor [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q10125</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.196214</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGE-FDYIVATVVLMFLMPQRVP</Hsp_qseq>
+      <Hsp_hseq>SCPRGKQSTFLRTEGFELFSHDDQELVVGDVAECAKA------CIENKINGVALKCKSFDFLSSTSTCAFTSEAAVP</Hsp_hseq>
+      <Hsp_midline> C +G+ + FL  +GF++ + D     + +VAE A+A       +E  +N  AL+ + FD++ +T    F     VP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|259491283|sp|C6E228.1|CMOA_GEOSM</Hit_id>
+  <Hit_def>RecName: Full=tRNA (cmo5U34)-methyltransferase [Geobacter sp. M21]</Hit_def>
+  <Hit_accession>C6E228</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.228385</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>YGMSATHSAVAAAQDTVPAGRALDMGCGQGRNAL----FLGLKGFDVTAADCNPAALANVAELAEAEG---LNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTAD-----FPCPMPFPFKFKEGELKDYYRDWELVEYKEEL</Hsp_qseq>
+      <Hsp_hseq>YGMIISNIGILAAKYAQPGSHCYDLGCSLGAATLSMRQRISQRDCDIIAVDNSPAMIERGRELLARDSQPTVPVTLICADIQSVVIENA-SVVVLNFTLQFIPPEQRLALIKRIHAGLRPGGILILSEKIAFSEPARQHFHVEMHHDFKRANG-----YSDLEISQKRSAL</Hsp_hseq>
+      <Hsp_midline>YGM  ++  + AA+   P     D+GC  G   L     +  +  D+ A D +PA +    EL   +    + V  +  D+ +  ++     +V    L F+ P++   +I  + A    GG  ++   +  ++     F   M   FK   G     Y D E+ + +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|166223402|sp|A4JBD7.1|PRMA_BURVG</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Burkholderia vietnamiensis G4]</Hit_def>
+  <Hit_accession>A4JBD7</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.252546</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QDTVPAGRALDMGCGQGRNALFLGLKGFD-VTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVV</Hsp_qseq>
+      <Hsp_hseq>QTVKPGQSVLDYGCGSGILAILARKCGADPVIGIDIDPQAVESARQNSERNHADVT---YGLPDACPDGEFDIVVANIL</Hsp_hseq>
+      <Hsp_midline>Q   P    LD GCG G  A+     G D V   D +P A+ +  + +E    +V    Y L  A   GEFD +VA ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|166201215|sp|A8GPB1.1|UBIG_RICAH</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Rickettsia akari str. Hartford]</Hit_def>
+  <Hit_accession>A8GPB1</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.28918</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>LDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDT</Hsp_qseq>
+      <Hsp_hseq>LDVGCGGGLIAMPLAAQGFNVTAIDALQSNIETASTYAKENNVKINYLQSTIEELESDKLYDVVICIEVIEHV--GNVQQFILNLVKHIKPNGMAIISTINRT</Hsp_hseq>
+      <Hsp_midline>LD+GCG G  A+ L  +GF+VTA D   + +   +  A+   + +  L+  +        +D ++   V+  +    V   I ++  H    G  +I +   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|226710057|sp|B1JVC0.1|PRMA_BURCC</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Burkholderia cenocepacia MC0-3]</Hit_def>
+  <Hit_accession>B1JVC0</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.307458</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QDTVPAGRALDMGCGQGRNALFLGLKGFD-VTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVV</Hsp_qseq>
+      <Hsp_hseq>QSVKPGQSVLDYGCGSGILAILAKKCGANPVIGIDIDPQAVESARQNSER---NRAEVTYGLPDACPEGEFDIVVANIL</Hsp_hseq>
+      <Hsp_midline>Q   P    LD GCG G  A+     G + V   D +P A+ +  + +E    N   + Y L  A  +GEFD +VA ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|123358450|sp|Q13U36.1|PRMA_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>Q13U36</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.313006</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QDTVPAGRALDMGCGQGRNALFLGLKGFD-VTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVV</Hsp_qseq>
+      <Hsp_hseq>QSVQPGQSVLDYGCGSGILAILAKKCGADPVYGIDIDPQAVESARHNSER---NRAEVTYGLPDACPTGEFDIVVANIL</Hsp_hseq>
+      <Hsp_midline>Q   P    LD GCG G  A+     G D V   D +P A+ +    +E    N   + Y L  A   GEFD +VA ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|410591697|sp|A5TZU0.1|Y567_MYCTA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MRA_0567 [Mycobacterium tuberculosis H37Ra] &gt;gi|410591698|sp|A1KG37.1|Y605_MYCBP RecName: Full=Uncharacterized protein BCG_0605c [Mycobacterium bovis BCG str. Pasteur 1173P2] &gt;gi|614102160|sp|P9WKL4.1|Y560_MYCTO RecName: Full=Uncharacterized protein MT0586 [Mycobacterium tuberculosis CDC1551] &gt;gi|614102166|sp|P9WKL5.1|Y560_MYCTU RecName: Full=Uncharacterized protein Rv0560c [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>A5TZU0</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.321588</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEY-DLNA-AALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDTADFP</Hsp_qseq>
+      <Hsp_hseq>GDVLDVGCGEAAISLALAERGHTTVGLDLSPAAVELARHEAAKRGLANASFEVADASSFTGYDGRFDTIVDS-TLFHSMPVESREGYLQSIVRAAAPGASYFVLVFDRAAIP</Hsp_hseq>
+      <Hsp_midline>G  LD+GCG+   +L L  +G      D +PAA+      A   GL   + E  D ++     G FD IV +  L   MP    +         AA G +  V   D A  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|50401700|sp|Q9UZK1.1|ARLMC_PYRAB</Hit_id>
+  <Hit_def>RecName: Full=23S rRNA (uracil(747)-C(5))-methyltransferase; AltName: Full=23S rRNA(m5U747)-methyltransferase [Pyrococcus abyssi GE5]</Hit_def>
+  <Hit_accession>Q9UZK1</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.331412</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAAAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIV</Hsp_qseq>
+      <Hsp_hseq>LKAVESFAEGSKVLDLYSGVGTFSLYLAKKGFEVTGVEVNEESVRVAKKSAEVNSLDVSFIPGRAEDAKLKGYETLIV</Hsp_hseq>
+      <Hsp_midline>+ A +      + LD+  G G  +L+L  KGF+VT  + N  ++    + AE   L+V  +      A L+G    IV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|81574029|sp|Q7U4Z8.1|GSMT_SYNPX</Hit_id>
+  <Hit_def>RecName: Full=Glycine/sarcosine N-methyltransferase [Synechococcus sp. WH 8102]</Hit_def>
+  <Hit_accession>Q7U4Z8</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.363953</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYD---LNAAALQGEFDYIV</Hsp_qseq>
+      <Hsp_hseq>ARSVLDVATGTGFHSIRLLEEGFDVVSADGSPNMLARAFRNARNRDQLLRTSQADWRFLN-RDIHGEFDAVI</Hsp_hseq>
+      <Hsp_midline>A   LD+  G G +++ L  +GFDV +AD +P  LA     A      +RT + D   LN   + GEFD ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|2496152|sp|Q58523.1|Y1123_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ1123 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58523</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.373113</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>HSAVAAAQDTVPAGRALDMGCGQGRNALFLGLK-GFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMF</Hsp_qseq>
+      <Hsp_hseq>KSEIEALKRHIPKGRGLEIGVGTGRFAKPFNIKIGVDIS---------KEMAKIAEKRGIKV-IIAKGEDLPFKDEEFDFFLINTVLEF</Hsp_hseq>
+      <Hsp_midline> S + A +  +P GR L++G G GR A    +K G D++           +A++AE  G+ V  +    +      EFD+ +   VL F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|54040156|sp|P64842.1|Y1440_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein Mb1440c; Flags: Precursor [Mycobacterium bovis AF2122/97] &gt;gi|618798359|sp|P9WLY6.1|Y1405_MYCTO RecName: Full=Uncharacterized protein MT1449; Flags: Precursor [Mycobacterium tuberculosis CDC1551] &gt;gi|618798360|sp|P9WLY7.1|Y1405_MYCTU RecName: Full=Uncharacterized protein Rv1405c; Flags: Precursor [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P64842</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.373782</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>VAAAQDTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEY-DLNAAAL---QGEFDYIVATVVLMF</Hsp_qseq>
+      <Hsp_hseq>LVAAAGIGPGVRVLDVAAGSGNISLPAAKTGATVISTDLTPELLQRSQARAAQQGL---TLQYQEANAQALPFADDEFDTVISAIGVMF</Hsp_hseq>
+      <Hsp_midline>+ AA    P  R LD+  G G  +L     G  V + D  P  L      A  +GL   TL+Y + NA AL     EFD +++ + +MF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|166234769|sp|A6V2Q4.1|UBIG_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Pseudomonas aeruginosa PA7]</Hit_def>
+  <Hit_accession>A6V2Q4</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.409986</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LDMGCGQGRNALFLGLKGFDVTAADCN--PAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPD</Hsp_qseq>
+      <Hsp_hseq>LDVGCGGGILSEAMAQRGASVTGIDMGEAPLAVARLHQLESGVAVDYRQITAEQMAEEMPGQFD-----VVTCLEMLEHVPD</Hsp_hseq>
+      <Hsp_midline>LD+GCG G  +  +  +G  VT  D    P A+A + +L     ++ R +  +  A  + G+FD     VV    M + VPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|57013191|sp|Q68WB5.1|UBIG_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68WB5</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.484829</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>DTVPAGRALDMGCGQGRNALFLGLKGFDVTAADCNPAALANVAELAEAEGLNVRTLEYDLNAAALQGEFDYIVATVVLMFLMPQRVPDVIADMQAHTAAGGYNLIVSAMDT</Hsp_qseq>
+      <Hsp_hseq>NDISKLQILDVGCGGGLIAAPLASQGFNVTAIDALKSNIETATIYAQKNDLKINYLQTTIEELENDKLYDVVICLEVIEHV--ENVQQFILNLVQHIKPNGIAIISTINRT</Hsp_hseq>
+      <Hsp_midline>+ +   + LD+GCG G  A  L  +GF+VTA D   + +      A+   L +  L+  +        +D ++   V+  +  + V   I ++  H    G  +I +   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

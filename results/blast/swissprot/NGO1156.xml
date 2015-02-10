@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>14983</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7L5</BlastOutput_query-def>
+  <BlastOutput_query-len>284</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>14983</Iteration_query-ID>
+  <Iteration_query-def>Q5F7L5</Iteration_query-def>
+  <Iteration_query-len>284</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|20178184|sp|P76017.1|YCGV_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YcgV [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P76017</Hit_accession>
+  <Hit_len>955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>1.94299e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>482</Hsp_hit-from>
+      <Hsp_hit-to>752</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>NGARWTVTNDSMLKELDLSEDAQVEFSDNNK----FVKVSVSKLKGDGGVFKMYGDIV------KGESDKLITRKGSEGTHIIEYMDDAKAKTTGREYLKLVENKGNQEDNKASNKASYKLNVRCTEQGGWCFALGESG------ASKKVN----------------ISTDGKRDFYLYPDTLTPGASSSVLFGEALYQLNAVSDETLVQRMGEIHADGMPQEDNNVWIKRVGGKFSGSRSDYRVGGYGNRYWGFA-GGFNRTGFGDKWIHYKGLMLRHLQSSYASEDYVG</Hsp_qseq>
+      <Hsp_hseq>NNSVWNVTSNSNLDTLALSH-STVDFASHGSTAGTFATLNVENLSGNS-TFIMRADVVGEGNGVNNKGDLLNISGSSAGNHVLAIRNQGSEATTGNEVLTVVK----TTDGAASFSASSQV-----ELGGYLYDVRKNGTNWELYASGTVPEPTPNPEPTPAPAQPPIVNPDPTPEPAPTPKPTTTADAGGNYLNVGYLLNYVENRTLMQRMGDLRNQ---SKDGNIWLRSYGGSLD-SFASGKLSGFDMGYSGIQFGGDKR--LSDVMPLYVGL---YIGSTHASPDYSG</Hsp_hseq>
+      <Hsp_midline>N + W VT++S L  L LS  + V+F+ +      F  ++V  L G+   F M  D+V        + D L     S G H++   +     TTG E L +V+      D  AS  AS ++     E GG+ + + ++G      AS  V                 I               T  A +   +    Y LN V + TL+QRMG++       +D N+W++  GG    S +  ++ G+   Y G   GG  R    D    Y GL   ++ S++AS DY G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|129828|sp|P24328.1|PERT_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Pertactin autotransporter; AltName: Full=P.95; Contains: RecName: Full=Outer membrane protein P.70; Contains: RecName: Full=Pertactin translocator; Flags: Precursor [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>P24328</Hit_accession>
+  <Hit_len>922</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.138947</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>432</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>NGARWTVTNDSMLKELDLSEDAQVEF---SDNNKFVKVSVSKLKGDGGVFKM--YGDIVKGESDKLITRKGSEGTHIIEYMDDAKAKTTGREYLKLVENKGNQEDNKASNK------ASYKLNVRCTEQGGW</Hsp_qseq>
+      <Hsp_hseq>DNATWVMTDNSNVGALRLASDGSVDFQQPAEAGRFKVLMVDTLAGSG-LFRMNVFADL--GLSDKLVVMRDASGQHRLWVRNSGSEPASGNTMLLVQTPRGSAATFTLANKDGKVDIGTYRYRLAANGNGQW</Hsp_hseq>
+      <Hsp_midline>+ A W +T++S +  L L+ D  V+F   ++  +F  + V  L G G +F+M  + D+  G SDKL+  + + G H +   +      +G   L +   +G+      +NK       +Y+  +     G W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|33301120|sp|Q818E2.1|GPR_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Germination protease; AltName: Full=GPR endopeptidase; AltName: Full=Germination proteinase; AltName: Full=Spore protease; Flags: Precursor [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q818E2</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.455157</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KGESDKLITRKGSEGTHIIEY-MDDAKAKTTGRE---YLKLVENKGNQEDNKASNKASYKLNVRCTEQGGWCFALGESGASKKVNISTDGKRDFYLYPDTLTPGASSSVLFGEALYQLNAVSDE</Hsp_qseq>
+      <Hsp_hseq>KGIQGVIVKEREEEGTIITKVTIDEAASEAMGKKPGNYLTLEVQGIRQQDTELQQKVE-----RIFAKEFSCF-LEEVGVTKEASCLIVGLGNWNVTPDALGPIVVENVLVTRHLFQLQPESVE</Hsp_hseq>
+      <Hsp_midline>KG    ++  +  EGT I +  +D+A ++  G++   YL L      Q+D +   K       R   +   CF L E G +K+ +    G  ++ + PD L P    +VL    L+QL   S E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|226736978|sp|B7HCU7.1|GPR_BACC4</Hit_id>
+  <Hit_def>RecName: Full=Germination protease; AltName: Full=GPR endopeptidase; AltName: Full=Germination proteinase; AltName: Full=Spore protease; Flags: Precursor [Bacillus cereus B4264]</Hit_def>
+  <Hit_accession>B7HCU7</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.543662</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KGESDKLITRKGSEGTHIIEY-MDDAKAKTTGRE---YLKLVENKGNQEDNKASNKASYKLNVRCTEQGGWCFALGESGASKKVNISTDGKRDFYLYPDTLTPGASSSVLFGEALYQLNAVSDE</Hsp_qseq>
+      <Hsp_hseq>KGIQGVIVKEREEEGTIITKVTIDEAASEAMGKKPGNYLTLEVQGIRQQDTELQQKVE-----RIFAKEFSCF-LEEVGVTKEASCLIVGLGNWNVTPDALGPIVVENVLVTRHLFQLQPESVE</Hsp_hseq>
+      <Hsp_midline>KG    ++  +  EGT I +  +D+A ++  G++   YL L      Q+D +   K       R   +   CF L E G +K+ +    G  ++ + PD L P    +VL    L+QL   S E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|34978536|sp|Q03035.2|PERT_BORBR</Hit_id>
+  <Hit_def>RecName: Full=Pertactin autotransporter; AltName: Full=P.94; Contains: RecName: Full=Outer membrane protein P.68; Contains: RecName: Full=Pertactin translocator; Flags: Precursor [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q03035</Hit_accession>
+  <Hit_len>916</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.638931</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>435</Hsp_hit-from>
+      <Hsp_hit-to>563</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>NGARWTVTNDSMLKELDLSEDAQVEF---SDNNKFVKVSVSKLKGDGGVFKM--YGDIVKGESDKLITRKGSEGTHIIEYMDDAKAKTTGREYLKLVENKGNQEDNKASNK------ASYKLNVRCTEQGGW</Hsp_qseq>
+      <Hsp_hseq>DNATWVMTDNSNVGALRLASDGSVDFQQPAEAGRFKVLMVDTLAGSG-LFRMNVFADL--GLSDKLVVMRDASGQHRLWVRNSGSEPASANTMLLVQTPRGSAATFTLANKDGKVDIGTYRYRLAANGNGQW</Hsp_hseq>
+      <Hsp_midline>+ A W +T++S +  L L+ D  V+F   ++  +F  + V  L G G +F+M  + D+  G SDKL+  + + G H +   +      +    L +   +G+      +NK       +Y+  +     G W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|464364|sp|P14283.3|PERT_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Pertactin autotransporter; AltName: Full=P.93; Contains: RecName: Full=Outer membrane protein P.69; Contains: RecName: Full=Pertactin translocator; Flags: Precursor [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>P14283</Hit_accession>
+  <Hit_len>910</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.721713</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>436</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>NGARWTVTNDSMLKELDLSEDAQVEF---SDNNKFVKVSVSKLKGDGGVFKM--YGDIVKGESDKLITRKGSEGTH</Hsp_qseq>
+      <Hsp_hseq>DNATWVMTDNSNVGALRLASDGSVDFQQPAEAGRFKVLTVNTLAGS-GLFRMNVFADL--GLSDKLVVMQDASGQH</Hsp_hseq>
+      <Hsp_midline>+ A W +T++S +  L L+ D  V+F   ++  +F  ++V+ L G  G+F+M  + D+  G SDKL+  + + G H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|68565509|sp|Q84GK0.1|EATA_ECOH1</Hit_id>
+  <Hit_def>RecName: Full=Serine protease EatA; AltName: Full=Autotransporter protein EatA; AltName: Full=ETEC autotransporter A; Contains: RecName: Full=Secreted autotransporter protein EatA; Contains: RecName: Full=Autotransporter protein EatA translocator; Flags: Precursor [Escherichia coli ETEC H10407]</Hit_def>
+  <Hit_accession>Q84GK0</Hit_accession>
+  <Hit_len>1364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.29626</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>929</Hsp_hit-from>
+      <Hsp_hit-to>1025</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>NGARWTVTNDSMLKELDLSEDAQVEFSDNNKFVKVSVSKLKGDGGVFKMYGDIVKGESDKL-ITRK--GSEGTHIIEYMDDAKAKTTGREYLKLVENKGNQED</Hsp_qseq>
+      <Hsp_hseq>NNALWHSDRNSELKELK-ANDSQIELGVRGHFAKLRVKELIASNSVFLVHAN--NSQADQLNVTDKLQGSNNTILVDFFNKA---ANGTNVTLITAPKGSDEN</Hsp_hseq>
+      <Hsp_midline>N A W    +S LKEL  + D+Q+E      F K+ V +L     VF ++ +    ++D+L +T K  GS  T ++++ + A     G     +   KG+ E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|71153750|sp|Q8FDW4.2|SAT_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Serine protease sat autotransporter; Contains: RecName: Full=Serine protease sat; AltName: Full=Secreted autotransporter toxin sat; Contains: RecName: Full=Serine protease sat translocator; Flags: Precursor [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FDW4</Hit_accession>
+  <Hit_len>1295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.31729</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>857</Hsp_hit-from>
+      <Hsp_hit-to>931</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>NGARWTVTNDSMLKELDLSEDAQVEFS-DNNKFVKVSVSKLKGDGGVFKMYGDIVKGESDKLITRKGSEGTHIIEYMD</Hsp_qseq>
+      <Hsp_hseq>NNAIWHLNSQSSINRLE-TKDSMVRFTGDNGKFTTLTVNNLTIDDSAFVLRANL--AQADQLVVNKSLSGKNNLLLVD</Hsp_hseq>
+      <Hsp_midline>N A W + + S +  L+ ++D+ V F+ DN KF  ++V+ L  D   F +  ++   ++D+L+  K   G + +  +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1170167|sp|P45387.1|HAP2_HAEIF</Hit_id>
+  <Hit_def>RecName: Full=Adhesion and penetration protein autotransporter; Contains: RecName: Full=Adhesion and penetration protein; Contains: RecName: Full=Adhesion and penetration protein translocator; Flags: Precursor [Haemophilus influenzae]</Hit_def>
+  <Hit_accession>P45387</Hit_accession>
+  <Hit_len>1394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.97004</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>823</Hsp_hit-from>
+      <Hsp_hit-to>964</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>ARWTVTNDSMLKELDLS-----------------------EDAQVEFSDNNKFVKVSVS-KLKGDGGVFKMYGDIVKGESDKLITRKGSEGTHIIEYMDDAKAKTTGREYLKLVENKGNQEDNKASNKASYKLNVRCTEQGGWCFAL</Hsp_qseq>
+      <Hsp_hseq>ATWTMPSDTTLQNLTLNNSTITLNSAYSASSNNTPRRRSLETETTPTSAEHRFNTLTVNGKLSGQG-TFQFTSSLFGYKSDKLKLSNDAEGDYILSVRNTGKEPET-LEQLTLVESKDNQ---PLSDKLKFTLENDHVDAGALRYKL</Hsp_hseq>
+      <Hsp_midline>A WT+ +D+ L+ L L+                       E      S  ++F  ++V+ KL G G  F+    +   +SDKL     +EG +I+   +  K   T  E L LVE+K NQ     S+K  + L     + G   + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|74848523|sp|Q9BP81.1|O1615_CONAE</Hit_id>
+  <Hit_def>RecName: Full=Conotoxin ArMKLT2-032; Flags: Precursor [Conus arenatus]</Hit_def>
+  <Hit_accession>Q9BP81</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.9191</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>TTGREYLKLVENKGNQEDN--KASNKASYKLNVRCTEQGGWCF</Hsp_qseq>
+      <Hsp_hseq>TTGETY-----SRGEQKDHALRSTDKNS-KLTRQCTPVGGYCF</Hsp_hseq>
+      <Hsp_midline>TTG  Y     ++G Q+D+  ++++K S KL  +CT  GG+CF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|226736977|sp|B7IYH4.1|GPR_BACC2</Hit_id>
+  <Hit_def>RecName: Full=Germination protease; AltName: Full=GPR endopeptidase; AltName: Full=Germination proteinase; AltName: Full=Spore protease; Flags: Precursor [Bacillus cereus G9842]</Hit_def>
+  <Hit_accession>B7IYH4</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.36018</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KGESDKLITRKGSEGTHIIEY-MDDAKAKTTGRE---YLKLVENKGNQEDNKASNKASYKLNVRCTEQGGWCFALGESGASKKVNISTDGKRDFYLYPDTLTPGASSSVLFGEALYQLNAVSDE</Hsp_qseq>
+      <Hsp_hseq>KGIQGVIVKEREEEGTIITKVTIDEAASEAMGKKPGNYLTLEVQGIRQQDTELQQKVE---RIFAKE---FSYFLEEVGVTKEASCLIVGLGNWNVTPDALGPIVVENVLVTRHLFQLQPESVE</Hsp_hseq>
+      <Hsp_midline>KG    ++  +  EGT I +  +D+A ++  G++   YL L      Q+D +   K      +   E   + + L E G +K+ +    G  ++ + PD L P    +VL    L+QL   S E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|82181511|sp|Q66KI9.1|NSUN4_XENTR</Hit_id>
+  <Hit_def>RecName: Full=5-methylcytosine rRNA methyltransferase NSUN4; AltName: Full=NOL1/NOP2/Sun domain family member 4 [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>Q66KI9</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.97326</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>SEGTHIIEYM------DDAKAKTTGREYLKLVENKGNQEDNKASNKASYKLNVRCTEQGGWCFALGESGASKKVNISTD--GKRDFYLY-PDTLTPGASSSVLFGEALYQLNA</Hsp_qseq>
+      <Hsp_hseq>SEAQHVISLLQIQNNLDTSEKMTSGEASLNLVGQKNNAEKTQATNLLSSLSNTKLT-----CFKFSRGDISRFPQSRSDSFGLLEYYLMDAASLLPVLALDVQHGHSVLDLCA</Hsp_hseq>
+      <Hsp_midline>SE  H+I  +      D ++  T+G   L LV  K N E  +A+N  S   N + T     CF       S+     +D  G  ++YL    +L P  +  V  G ++  L A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|90101860|sp|Q2QLF8.1|CTTB2_CALJA</Hit_id>
+  <Hit_def>RecName: Full=Cortactin-binding protein 2; Short=CortBP2 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>Q2QLF8</Hit_accession>
+  <Hit_len>1662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.94504</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1449</Hsp_hit-from>
+      <Hsp_hit-to>1503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GESGASKKVNISTDGKRDFYLYPDTLTPGASSSVLFGEALYQLNAVSDETLVQRM</Hsp_qseq>
+      <Hsp_hseq>GESGAWRKVNTSPRRKSGRFSLPTWNKPDLSTEGIKNKTLSQLNCNRNASLSKQM</Hsp_hseq>
+      <Hsp_midline>GESGA +KVN S   K   +  P    P  S+  +  + L QLN   + +L ++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

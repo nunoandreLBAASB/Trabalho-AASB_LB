@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>189625</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F803</BlastOutput_query-def>
+  <BlastOutput_query-len>161</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>189625</Iteration_query-ID>
+  <Iteration_query-def>Q5F803</Iteration_query-def>
+  <Iteration_query-len>161</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489802475|ref|WP_003706356.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|59801384|ref|YP_208096.1| phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|59718279|gb|AAW89684.1| hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|291610659|gb|EFF39769.1| CRISPR-associated protein cas4 [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>WP_003706356</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>1.59569e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489797348|ref|WP_003701239.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|268624412|gb|EEZ56812.1| crispr-associated protein cas4 [Neisseria gonorrhoeae SK-92-679] &gt;gi|268626666|gb|EEZ59066.1| crispr-associated protein cas4 [Neisseria gonorrhoeae SK-93-1035]</Hit_def>
+  <Hit_accession>WP_003701239</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>1.90635e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETRKGVRFERTVHVSVEKPGISGILDLVEADTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPET KGVRFE TVHV  +K GISGILDLVE DTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489793086|ref|WP_003696977.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|268585245|gb|EEZ49921.1| crispr-associated protein cas4 [Neisseria gonorrhoeae PID18]</Hit_def>
+  <Hit_accession>WP_003696977</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>9.4247e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNAQAWAENCLTAQGKALHERVDSDEPETHKGVRFERTVHVSAEKPGISGILDLVEADTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHN QAWAEN LTAQGKALHERVDSDEPET KGVRFE TVHV A+K GISGILDLVE DTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|498044186|ref|WP_010358342.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_010358342</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.612</Hsp_bit-score>
+      <Hsp_score>797</Hsp_score>
+      <Hsp_evalue>9.65862e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNAQAWAENCLTAQGKALHERVDSGEPETHKGVRFERTVHVSAEKPGISGILDLVEADTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHN QAWAEN LTAQGKALHERVDS EPET KGVRFE TVHV A+K GISGILDLVE DTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLRPLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|728044721|ref|WP_033910618.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria gonorrhoeae] &gt;gi|654607276|gb|KEC87759.1| CRISPR-associated protein Cas4 [Neisseria gonorrhoeae] &gt;gi|693765048|gb|KGI95931.1| CRISPR-associated protein Cas4 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_033910618</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.383</Hsp_bit-score>
+      <Hsp_score>799</Hsp_score>
+      <Hsp_evalue>2.52786e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETHKGVRFERTVHVSVEKPGISGILDLVEADTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPET KGVRFE TVHV  +K GISGILDLVE DTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|489787126|ref|WP_003691017.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria gonorrhoeae] &gt;gi|268547997|gb|EEZ43415.1| CRISPR-associated protein cas4 [Neisseria gonorrhoeae 35/02]</Hit_def>
+  <Hit_accession>WP_003691017</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.383</Hsp_bit-score>
+      <Hsp_score>799</Hsp_score>
+      <Hsp_evalue>2.78875e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETRKGVRFERTVHVSVEKPGISGILDLVEADTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPET KGVRFE TVHV  +K GISGILDLVE DTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|728044032|ref|WP_033910052.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria gonorrhoeae] &gt;gi|636862101|gb|KDM99223.1| CRISPR-associated protein Cas4 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_033910052</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>9.88973e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNAQAWAENCLTAQGKALHERVDSDEPETHKGVRFERTVHVSAEKPGISGILDLVEADTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHN QAWAEN LTAQGKALHERVDSDEPET KGVRFE TVHV A+K GISGILDLVE DTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|501495171|ref|WP_012503540.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria gonorrhoeae] &gt;gi|194098354|ref|YP_002001412.1| recombinase B [Neisseria gonorrhoeae NCCP11945] &gt;gi|193933644|gb|ACF29468.1| RecB family exonuclease [Neisseria gonorrhoeae NCCP11945] &gt;gi|636866244|gb|KDN03056.1| CRISPR-associated protein Cas4 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_012503540</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>1.1397e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNAQAWAENCLTAQGKALHERVDSDEPETHKGVRFERTVHVSAEKPGISGILDLVEADTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHN QAWAEN LTAQGKALHERVDSDEPET KGVRFE TVHV A+K GISGILDLVE DTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|518102979|ref|WP_019273187.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273187</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>2.39107e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQGENQDMRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVDTKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQ ENQD RLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEVDTKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|489789479|ref|WP_003693370.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria gonorrhoeae] &gt;gi|268550853|gb|EEZ45872.1| CRISPR-associated protein cas4 [Neisseria gonorrhoeae FA19] &gt;gi|268587563|gb|EEZ52239.1| crispr-associated protein cas4 [Neisseria gonorrhoeae PID1] &gt;gi|268622196|gb|EEZ54596.1| crispr-associated protein cas4 [Neisseria gonorrhoeae PID332] &gt;gi|636864014|gb|KDN00976.1| CRISPR-associated protein Cas4 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003693370</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.834</Hsp_bit-score>
+      <Hsp_score>782</Hsp_score>
+      <Hsp_evalue>1.1394e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNAQAWAENCLTAQGKALHERVDSGEPETHKGVRFERTVHVSAEKPGISGILDLVEADTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHN QAWAEN LTAQGKALHERVDS EPET KGVRFE TVHV A+K GISGILDLVE DTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|489784365|ref|WP_003688256.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria gonorrhoeae] &gt;gi|538321668|ref|YP_008502728.1| CRISPR-associated recb family exonuclease [Neisseria gonorrhoeae MS11] &gt;gi|226512589|gb|EEH61934.1| crispr-associated protein cas4 [Neisseria gonorrhoeae 1291] &gt;gi|268582886|gb|EEZ47562.1| CRISPR-associated recb family exonuclease [Neisseria gonorrhoeae MS11]</Hit_def>
+  <Hit_accession>WP_003688256</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>1.35672e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNAQAWAENCLTAQGKALHERVDSGEPETHKGVRFERTVHVSAEKPGISGILDLVEADTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHN QAWAEN LTAQGKALHERVDS EPET KGVRFE TVHV A+K GISGILDLVE DTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|291308786|gb|EFE50029.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>EFE50029</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>1.40135e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTESQGENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGRALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVDTKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTE+Q ENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQG+ALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEVDTKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|489781693|ref|WP_003685584.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria flavescens] &gt;gi|241319515|gb|EER55945.1| CRISPR-associated protein Cas4 [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003685584</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>1.49964e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGINGVLDLVEVDTKTGRLKPVEYKRGKPKLDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGI+G+LDLVEVDTKTGRLKPVEYKRGKPK DP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|489841046|ref|WP_003744748.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria mucosa] &gt;gi|288565592|gb|EFC87152.1| CRISPR-associated protein Cas4 [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003744748</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>3.82876e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQGENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQ ENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|545356079|ref|WP_021615277.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Aggregatibacter sp. oral taxon 458] &gt;gi|541487043|gb|ERH28853.1| CRISPR-associated protein Cas4 [Aggregatibacter sp. oral taxon 458 str. W10330]</Hit_def>
+  <Hit_accession>WP_021615277</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>6.10902e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTESQGENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGETETRKGVRFERTVHVLAEKLGISGVLDLVEVDTKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGAMWYMQTRHRVPIVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTE+Q ENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS E ET KGVRFE TVHVLA+KLGISG+LDLVEVDTKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGA+WYMQTRHRVP+VFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|496668983|ref|WP_009311473.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria sp. GT4A_CT1] &gt;gi|348611945|gb|EGY61573.1| CRISPR-associated protein cas4 [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>WP_009311473</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>1.23036e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTKTQGENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLT+TQ ENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|489855028|ref|WP_003758693.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria sicca] &gt;gi|255048971|gb|EET44435.1| CRISPR-associated protein Cas4 [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>WP_003758693</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>1.86241e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQGENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQ ENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|518100877|ref|WP_019271085.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_019271085</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>2.28926e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLITLSALQHYAFCPRQCALIHNEQAWAENYLTAQGRALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQIVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLI LSALQHYAFCPRQCALIHNEQAWAENYLTAQG+ALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQ VSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|489850814|ref|WP_003754492.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria polysaccharea] &gt;gi|296837935|gb|EFH21873.1| CRISPR-associated protein Cas4 [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>WP_003754492</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>4.12612e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQVWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKPGISGVLDLVEVDTKTGRLKPVEYKRGKPKPEPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPITFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQ WAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+K GISG+LDLVEVDTKTGRLKPVEYKRGKPKP+P DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVP+ FSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|491876373|ref|WP_005647080.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Haemophilus haemolyticus] &gt;gi|386908043|gb|EIJ72742.1| CRISPR-associated protein Cas4 [Haemophilus haemolyticus HK386]</Hit_def>
+  <Hit_accession>WP_005647080</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>6.82132e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQGENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVRVSAEKLGISGVLDLVEVDTKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQIVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQ ENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TV V A+KLGISG+LDLVEVDTKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQ VSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|489810065|ref|WP_003713921.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria lactamica] &gt;gi|309378745|emb|CBX22695.1| unnamed protein product [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003713921</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>7.76137e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQGENQDTHLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKPGISGVLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRYRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQ ENQDT LIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+K GISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTR+RVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|489874254|ref|WP_003777772.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria macacae] &gt;gi|339887680|gb|EGQ77213.1| CRISPR-associated protein cas4 [Neisseria macacae ATCC 33926]</Hit_def>
+  <Hit_accession>WP_003777772</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>1.17477e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVDTKTGSLKPVEYKRGKPKPDSMDEIQLCAQGLCLEEMTGQTVSEGALWYMKIRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEVDTKTG LKPVEYKRGKPKPD  DEIQLCAQGLCLEEMTGQTVSEGALWYM+ RHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|491978203|ref|WP_005702615.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Aggregatibacter aphrophilus] &gt;gi|353344841|gb|EHB89141.1| CRISPR-associated protein cas4 [Aggregatibacter aphrophilus F0387]</Hit_def>
+  <Hit_accession>WP_005702615</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>1.29594e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTESQGENQDSRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVDTKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQIRHRILVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTE+Q ENQD+RLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEVDTKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQ RHR+ VVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|490655763|ref|WP_004520753.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria subflava] &gt;gi|284795897|gb|EFC51244.1| CRISPR-associated protein Cas4 [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>WP_004520753</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>1.52504e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQGENQDTCLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRYERTVHVSAEKLGISGVLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMMGQTVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQ ENQDT LIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVR+E TVHV A+KLGISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEM GQTVSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|494789414|ref|WP_007524822.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Haemophilus sputorum] &gt;gi|400376592|gb|EJP29479.1| CRISPR-associated protein Cas4 [Haemophilus sputorum HK 2154]</Hit_def>
+  <Hit_accession>WP_007524822</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>1.82029e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTESQGDNQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVDTKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQIVSDGALWYMQTRHRIPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TE+Q +NQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEVDTKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQ VS+GALWYMQTRHR+PVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|489804779|ref|WP_003708655.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria lactamica] &gt;gi|269209455|gb|EEZ75910.1| CRISPR-associated protein Cas4 [Neisseria lactamica ATCC 23970] &gt;gi|673469550|gb|KFJ36180.1| CRISPR-associated protein Cas4 [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003708655</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>2.75069e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQGENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKPGISGVLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRRRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQ ENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+K GISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTR RVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|489859108|ref|WP_003762760.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria sicca] &gt;gi|385700130|gb|EIG30386.1| CRISPR-associated protein Cas4 [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003762760</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>3.29054e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTKTQGENQDMRLISLSALQHYAFCPRQCALIHNEQAWTENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVDTKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVNEGALWYMQTRHRIPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLT+TQ ENQD RLI LSALQHYAFCPRQCALIHNEQAW ENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEVDTKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTV+EGALWYMQTRHR+PVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|491854895|ref|WP_005635209.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Haemophilus haemolyticus] &gt;gi|341949154|gb|EGT75763.1| CRISPR-associated protein Cas4 [Haemophilus haemolyticus M21127]</Hit_def>
+  <Hit_accession>WP_005635209</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>3.57378e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTVLSPKTQGENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRNGVRFERTVHVSAEKLGISGVLDLVEVDTKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MT L  +TQ ENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET  GVRFE TVHV A+KLGISG+LDLVEVDTKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|491840531|ref|WP_005626991.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Haemophilus haemolyticus] &gt;gi|341953294|gb|EGT79803.1| CRISPR-associated protein Cas4 [Haemophilus haemolyticus M19107]</Hit_def>
+  <Hit_accession>WP_005626991</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>4.30184e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQGENQDTHLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVETKTGRLKSVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTISEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQ ENQDT LIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+TKTGRLK VEYKRGKPKPDP DEIQLCAQGLCLEEMTGQT+SEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|489842535|ref|WP_003746234.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria mucosa] &gt;gi|317400646|gb|EFV81303.1| RecB family exonuclease [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003746234</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>8.45932e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTKTQGENQDMRLIPLSALQHYAFCSRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGMLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPITFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLT+TQ ENQD RLIPLSALQHYAFC RQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVP+ FSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|502356974|ref|WP_012771282.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Aggregatibacter aphrophilus] &gt;gi|251792129|ref|YP_003006849.1| CRISPR-associated protein Cas4 [Aggregatibacter aphrophilus NJ8700] &gt;gi|247533516|gb|ACS96762.1| crispr-associated protein Cas4 [Aggregatibacter aphrophilus NJ8700]</Hit_def>
+  <Hit_accession>WP_012771282</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>9.78502e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTESQGENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKVLHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVDTKTGRLKPVEYKRGKSKLDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRIPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTE+Q ENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGK LHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEVDTKTGRLKPVEYKRGK K DP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHR+PVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|515030257|ref|WP_016687511.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016687511</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>1.66845e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQGENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDLGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLYAQGLCLEEMTGQTISEGALWYMQTRHRISIVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQ ENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVD  EPET KGVRFE TVHV A+KLGISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQL AQGLCLEEMTGQT+SEGALWYMQTRHR+ +VFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|751266961|ref|WP_040976601.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Pasteurella sp. FF6]</Hit_def>
+  <Hit_accession>WP_040976601</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>5.83467e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLAENQGENQDIRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGSALHERVDSGEPETRKGVRFERTVHVAAEKLGISGVLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGKIISEGALWYMQTRHRIPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALL E Q ENQD RLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQG ALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTG+ +SEGALWYMQTRHR+PVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|491868532|ref|WP_005642807.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Haemophilus haemolyticus] &gt;gi|341953740|gb|EGT80242.1| CRISPR-associated protein Cas4 [Haemophilus haemolyticus M21639]</Hit_def>
+  <Hit_accession>WP_005642807</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>6.48022e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTESQGENQDTRQIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDFVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVSIVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TE+Q ENQDTR IPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LD VEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRV +VFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|696445785|ref|WP_033001860.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4, partial [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>WP_033001860</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>6.78117e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQKGNQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGSALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVEAKTGRLKPVEYKRGKPKLEPMDEIQLCAQGLCLEEMTGQTVLEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQ+ NQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQG ALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+ KTGRLKPVEYKRGKPK +P DEIQLCAQGLCLEEMTGQTV EGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|645196907|ref|WP_025457769.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025457769</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>7.74176e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTESQGGSQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKPGIIGVLDLVEVDTKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPIMFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTE+Q  +QDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+K GI G+LDLVEVDTKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVP++FSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|489878211|ref|WP_003781695.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Kingella denitrificans] &gt;gi|324982394|gb|EGC18022.1| CRISPR-associated protein Cas4 [Kingella denitrificans ATCC 33394]</Hit_def>
+  <Hit_accession>WP_003781695</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>9.86202e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQGENQDPRLIPLSALQHYAFCPRQCALIHNEQVWAENYLTAQGKALHERVDSGEPETRKGVRFERAVHVSAEKLGISGVLDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTIFEGALWYMQTRHRVPIVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQ ENQD RLIPLSALQHYAFCPRQCALIHNEQ WAENYLTAQGKALHERVDS EPET KGVRFE  VHV A+KLGISG+LDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQT+ EGALWYMQTRHRVP+VFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|491684701|ref|WP_005540839.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans] &gt;gi|387120007|ref|YP_006285890.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans D7S-1] &gt;gi|347994233|gb|EGY35535.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans serotype a str. H5P1] &gt;gi|347997170|gb|EGY38198.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans serotype e str. SCC393] &gt;gi|348000671|gb|EGY41445.1| crispr-associated protein Cas4 [Aggregatibacter actinomycetemcomitans serotype f str. D18P1] &gt;gi|348655170|gb|EGY70646.1| crispr-associated protein Cas4 [Aggregatibacter actinomycetemcomitans D17P-3] &gt;gi|385874499|gb|AFI86058.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans D7S-1] &gt;gi|443549078|gb|ELT58109.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans serotype a str. A160]</Hit_def>
+  <Hit_accession>WP_005540839</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>1.60638e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALLTETQKGNQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGSALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVEAKTGRLKPVEYKRGKPKLEPMDEIQLCAQGLCLEEMTGQTVLEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTALLTETQ+ NQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQG ALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+ KTGRLKPVEYKRGKPK +P DEIQLCAQGLCLEEMTGQTV EGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|491780473|ref|WP_005595080.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans] &gt;gi|429150955|gb|EKX93845.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans Y4]</Hit_def>
+  <Hit_accession>WP_005595080</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>2.25413e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQKVNQDIRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGNALHERVDSGEPETRRGVRFERTVHVSAEKLGISGVLDLVEVEAKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVLEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQ+ NQD RLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQG ALHERVDS EPET +GVRFE TVHV A+KLGISG+LDLVEV+ KTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTV EGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|692228018|ref|WP_032109694.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Haemophilus sp. FF7]</Hit_def>
+  <Hit_accession>WP_032109694</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>1.52064e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSPKTQGENQDKRLIPLSALQHFAFCPRQCALIHNEQVWAENYLTAQGSALHERVDSGEPETRKGVRFERTVHVSAEKLGISGILDLVEVETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQIVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL  +TQ ENQD RLIPLSALQH+AFCPRQCALIHNEQ WAENYLTAQG ALHERVDS EPET KGVRFE TVHV A+KLGISGILDLVEV+TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQ VSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|491684152|ref|WP_005540290.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans] &gt;gi|387121789|ref|YP_006287672.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans D7S-1] &gt;gi|347998605|gb|EGY39517.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans serotype a str. H5P1] &gt;gi|347998985|gb|EGY39869.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans serotype f str. D18P1] &gt;gi|348003178|gb|EGY43830.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans serotype e str. SCC393] &gt;gi|348655406|gb|EGY70861.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans D17P-3] &gt;gi|385876281|gb|AFI87840.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans D7S-1] &gt;gi|443551761|gb|ELT59491.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans serotype a str. A160]</Hit_def>
+  <Hit_accession>WP_005540290</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>1.20629e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQKVNQDIRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGNALHERVDSGEPETRRGVRFERTVHVSVEKLGISGVLDLVEVEAKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVLEGALWYMQTRHRVPVVFSADLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQ+ NQD RLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQG ALHERVDS EPET +GVRFE TVHV  +KLGISG+LDLVEV+ KTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTV EGALWYMQTRHRVPVVFS  LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|491739611|ref|WP_005572744.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans] &gt;gi|348008693|gb|EGY48940.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans serotype b str. I23C]</Hit_def>
+  <Hit_accession>WP_005572744</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>2.83723e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQQGNQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGSALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVEAKTGRLKPVEYKSGKPKLEPMDEIQLCAQGLCLEEMTGQTVLEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQ+ NQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQG ALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+ KTGRLKPVEYK GKPK +P DEIQLCAQGLCLEEMTGQTV EGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|491745479|ref|WP_005578612.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans] &gt;gi|359755770|gb|EHK89933.1| CRISPR-associated protein Cas4 [Aggregatibacter actinomycetemcomitans RhAA1]</Hit_def>
+  <Hit_accession>WP_005578612</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>4.22394e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQQGNQDIRLIPLSALQHYAFCPRQCALIHNEQAWVENYLTAQGSALHERVDSGEPETRRGVRFERTVHVSAKKLGISGVLDLVEVEAKTGRLKPVEYKRGKPKLEPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQ+ NQD RLIPLSALQHYAFCPRQCALIHNEQAW ENYLTAQG ALHERVDS EPET +GVRFE TVHV A KLGISG+LDLVEV+ KTGRLKPVEYKRGKPK +P DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|746360845|ref|WP_039405438.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Morococcus cerebrosus] &gt;gi|742699863|gb|KIC12108.1| CRISPR-associated protein Cas4 [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_039405438</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>2.14499e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTKLSVENPRGIQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKVLHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEMETKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTIFEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MT L  E  R  QDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGK LHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVE++TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQT+ EGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|503933742|ref|WP_014167736.1|</Hit_id>
+  <Hit_def>ATP-dependent OLD family endonuclease [Aggregatibacter actinomycetemcomitans] &gt;gi|365967614|ref|YP_004949176.1| ATP-dependent OLD family endonuclease [Aggregatibacter actinomycetemcomitans ANH9381] &gt;gi|365746527|gb|AEW77432.1| ATP-dependent OLD family endonuclease [Aggregatibacter actinomycetemcomitans ANH9381]</Hit_def>
+  <Hit_accession>WP_014167736</Hit_accession>
+  <Hit_len>806</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.36794e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MTALSTETQQGNQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGSALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVEAKTGRLKPVEYKSGKPKLEPMDEIQLCAQGLCLEEMTGQTVLEGALWYMQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>MTAL TETQ+ NQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQG ALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+ KTGRLKPVEYK GKPK +P DEIQLCAQGLCLEEMTGQTV EGALWYMQTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|489776771|ref|WP_003680663.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria flavescens] &gt;gi|224952280|gb|EEG33489.1| CRISPR-associated protein Cas4 [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>WP_003680663</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.174</Hsp_bit-score>
+      <Hsp_score>705</Hsp_score>
+      <Hsp_evalue>3.02984e-91</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>RLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>KIIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGRALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVDTKTDRLKPVEYKRGKPKPDPMDEIQLCSQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>++IPLSALQHYAFCPRQCALIHNEQAWAENYLTAQG+ALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEVDTKT RLKPVEYKRGKPKPDP DEIQLC+QGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|503214043|ref|WP_013448704.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Neisseria lactamica] &gt;gi|313668076|ref|YP_004048360.1| hypothetical protein NLA_7380 [Neisseria lactamica 020-06] &gt;gi|313005538|emb|CBN86974.1| hypothetical protein NLA_7380 [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448704</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.707</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>6.00514e-90</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>RLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>QIIPLSALQHYAFCPRQCALIHNEQAWVENYLTAQGKALHERVDSGEPETRKGMRFERTVHVSAEKPGISGVLDLVEVDTKTGRLKPVEYKRGKPKPEPMDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>++IPLSALQHYAFCPRQCALIHNEQAW ENYLTAQGKALHERVDS EPET KG+RFE TVHV A+K GISG+LDLVEVDTKTGRLKPVEYKRGKPKP+P DEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|494044704|ref|WP_006986822.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Cardiobacterium valvarum] &gt;gi|364572986|gb|EHM50513.1| CRISPR-associated protein Cas4 [Cardiobacterium valvarum F0432]</Hit_def>
+  <Hit_accession>WP_006986822</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>3.80097e-89</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>LTETQRENQDTRLIPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MPETQRENQDEYLISLSALQHYAFCPRQCALIHSEQMWVENLLTAQGRALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVETKTGHLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMTGQTVSGGALWYGQTRHRVPVVFSDDLR</Hsp_hseq>
+      <Hsp_midline>+ ETQRENQD  LI LSALQHYAFCPRQCALIH+EQ W EN LTAQG+ALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV+TKTG LKPVEYKRGKPKPDP DEIQLCAQGLCLEEMTGQTVS GALWY QTRHRVPVVFSD LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|505245725|ref|WP_015432827.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Bibersteinia trehalosi] &gt;gi|470167393|ref|YP_007548480.1| CRISPR-associated protein Cas4 [Bibersteinia trehalosi USDA-ARS-USMARC-192] &gt;gi|469489316|gb|AGH38689.1| CRISPR-associated protein Cas4 [Bibersteinia trehalosi USDA-ARS-USMARC-192] &gt;gi|575451769|gb|AHG83781.1| CRISPR-associated protein Cas4 [Bibersteinia trehalosi USDA-ARS-USMARC-189]</Hit_def>
+  <Hit_accession>WP_015432827</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.929</Hsp_bit-score>
+      <Hsp_score>681</Hsp_score>
+      <Hsp_evalue>2.07248e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MTALLTETQRE----NQDTRLI-PLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>MLSVLQKTEQNQSLVTEDKQLIVPLSALQHYAFCPRQCALIYNEQAWAENYLTAQGQALHERVDSGEPETRKGVRFERTVHVAAEKLGISGILDLVERDLKTGELKPVEYKRGKPKPEPMDEIQLCAQALCLEEMTGQTINEGALWYMQTRHRVPVVFSDGLR</Hsp_hseq>
+      <Hsp_midline>M ++L +T++      +D +LI PLSALQHYAFCPRQCALI+NEQAWAENYLTAQG+ALHERVDS EPET KGVRFE TVHV A+KLGISGILDLVE D KTG LKPVEYKRGKPKP+P DEIQLCAQ LCLEEMTGQT++EGALWYMQTRHRVPVVFSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|490242047|ref|WP_004140286.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Cas4 [Cardiobacterium hominis] &gt;gi|258520196|gb|EEV89055.1| CRISPR-associated protein Cas4 [Cardiobacterium hominis ATCC 15826]</Hit_def>
+  <Hit_accession>WP_004140286</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.848</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>2.29666e-86</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>IPLSALQHYAFCPRQCALIHNEQAWAENYLTAQGKALHERVDSDEPETCKGVRFEWTVHVLADKLGISGILDLVEVDTKTGRLKPVEYKRGKPKPDPGDEIQLCAQGLCLEEMTGQTVSEGALWYMQTRHRVPVVFSDGLR</Hsp_qseq>
+      <Hsp_hseq>IPLSALQHYAFCTRQCALIHNEQAWAENYLTAQGKALHERVDSGEPETRKGVRFERTVHVSAEKLGISGVLDLVEVGTKTGRLKPVEYKRGKPKPDPMDEIQLCAQGLCLEEMMGQTVSEGALWYGQTCHRVPVMFSDGLR</Hsp_hseq>
+      <Hsp_midline>IPLSALQHYAFC RQCALIHNEQAWAENYLTAQGKALHERVDS EPET KGVRFE TVHV A+KLGISG+LDLVEV TKTGRLKPVEYKRGKPKPDP DEIQLCAQGLCLEEM GQTVSEGALWY QT HRVPV+FSDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

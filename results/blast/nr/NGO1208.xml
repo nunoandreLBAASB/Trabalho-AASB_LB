@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>200945</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7H0</BlastOutput_query-def>
+  <BlastOutput_query-len>213</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>200945</Iteration_query-ID>
+  <Iteration_query-def>Q5F7H0</Iteration_query-def>
+  <Iteration_query-len>213</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489785758|ref|WP_003689649.1|</Hit_id>
+  <Hit_def>restriction endonuclease [Neisseria gonorrhoeae] &gt;gi|59801567|ref|YP_208279.1| type II restriction-modification system endonuclease [Neisseria gonorrhoeae FA 1090] &gt;gi|194097888|ref|YP_002000933.1| restriction endonuclease R.NgoMIII [Neisseria gonorrhoeae NCCP11945] &gt;gi|538321859|ref|YP_008502919.1| restriction endonuclease [Neisseria gonorrhoeae MS11] &gt;gi|10444407|gb|AAG17897.1|AF297971_1 restriction endonuclease R.NgoMIII [Neisseria gonorrhoeae] &gt;gi|59718462|gb|AAW89867.1| restriction endonuclease R.NgoMIII [Neisseria gonorrhoeae FA 1090] &gt;gi|193933178|gb|ACF29002.1| restriction endonuclease R.NgoMIII [Neisseria gonorrhoeae NCCP11945] &gt;gi|226513477|gb|EEH62822.1| restriction endonuclease [Neisseria gonorrhoeae 1291] &gt;gi|268547613|gb|EEZ43031.1| restriction endonuclease R.NgoMIII [Neisseria gonorrhoeae 35/02] &gt;gi|268583880|gb|EEZ48556.1| restriction endonuclease [Neisseria gonorrhoeae MS11] &gt;gi|268586224|gb|EEZ50900.1| restriction endonuclease [Neisseria gonorrhoeae PID18] &gt;gi|268586984|gb|EEZ51660.1| restriction endonuclease [Neisseria gonorrhoeae PID1] &gt;gi|268623995|gb|EEZ56395.1| restriction endonuclease [Neisseria gonorrhoeae SK-92-679] &gt;gi|291011026|gb|EFE03023.1| restriction endonuclease R.NgoMIII [Neisseria gonorrhoeae DGI2] &gt;gi|636865439|gb|KDN02289.1| restriction endonuclease [Neisseria gonorrhoeae] &gt;gi|654606985|gb|KEC87485.1| restriction endonuclease [Neisseria gonorrhoeae] &gt;gi|693764719|gb|KGI95621.1| restriction endonuclease [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003689649</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>2.86562e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MNNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKRK</Hsp_qseq>
+      <Hsp_hseq>MNNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKRK</Hsp_hseq>
+      <Hsp_midline>MNNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|728042994|ref|WP_033909026.1|</Hit_id>
+  <Hit_def>restriction endonuclease [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_033909026</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>3.62067e-138</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>IRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKRK</Hsp_qseq>
+      <Hsp_hseq>MRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKRK</Hsp_hseq>
+      <Hsp_midline>+RFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|503214457|ref|WP_013449118.1|</Hit_id>
+  <Hit_def>restriction endonuclease [Neisseria lactamica] &gt;gi|313668595|ref|YP_004048879.1| restriction endonuclease [Neisseria lactamica 020-06] &gt;gi|313006057|emb|CBN87518.1| putative restriction endonuclease [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013449118</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>9.86771e-132</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>FFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKRK</Hsp_qseq>
+      <Hsp_hseq>FFHGTPVHTLPPPEQFKGAGVYAIYYIGSNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNSLNQSTELFHRLKEHGRSIAAVSDLNPSDFMCRFVIFEGDGSAMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKRK</Hsp_hseq>
+      <Hsp_midline>FFHGTPVHTLPPP+QFKGAGVYAIYYIG+NPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDN+LNQSTELFHRLKEH RSIAAVSDL+PSDFMCRFVIFEG GS MIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|489808347|ref|WP_003712209.1|</Hit_id>
+  <Hit_def>putative Type II restriction endonuclease [Neisseria lactamica] &gt;gi|309380075|emb|CBX21486.1| putative Type II restriction endonuclease [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003712209</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.481</Hsp_bit-score>
+      <Hsp_score>968</Hsp_score>
+      <Hsp_evalue>1.90816e-130</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>FFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKRK</Hsp_qseq>
+      <Hsp_hseq>FFHGTPVHTLPPPEQFKGAGVYAIYYIGSNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNTLNQSTELFHRLKEHGRSIAAVSDLNPSDFMCRFVIFESAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQTKSDWDVLHNGRVWADRLNGIPNSYESIPENINTHLEIIKRK</Hsp_hseq>
+      <Hsp_midline>FFHGTPVHTLPPP+QFKGAGVYAIYYIG+NPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDN LNQSTELFHRLKEH RSIAAVSDL+PSDFMCRFVIFE AGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQ KSDWDVLH+GRVWADRLNGIPNSYESI ENINTHLEIIKRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|386427480|gb|EIJ41308.1|</Hit_id>
+  <Hit_def>Eco29kI restriction endonuclease [Beggiatoa alba B18LD]</Hit_def>
+  <Hit_accession>EIJ41308</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>2.01089e-109</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>FDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKR</Hsp_qseq>
+      <Hsp_hseq>FNRAKHIYHNAAFAELVKDAVRFFNGTPVHSLPPSERFLGSGVYALYYTGENPLYTRYKALNRLSYDFPIYVGKAVPKGWRQARTSDAMTTQSTELYSRLKEHSRSILSVNGLSLEDFSCRFVLFENEGSDMIGSIEATLIKLNQPLWNSCVDGFGNHDPGKGRYEQARSDWDVIHTGRVWAERLNGVPNNKNKILDKIEKHLKQLKK</Hsp_hseq>
+      <Hsp_midline>F+R+KHIYHN AF ELVKDA+RFF+GTPVH+LPP ++F G+GVYA+YY G NPLY +Y   NRLSY+ PIYVGKAVPKGWRQAR SD    QSTEL+ RLKEHSRSI +V+ L   DF CRFV+FE  GSDMIG+IEA LIKL++PLWNSCVDGFGNHDPGKGRYEQA+SDWDV+H+GRVWA+RLNG+PN+   IL+ I  HL+ +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|501501258|ref|WP_012509484.1|</Hit_id>
+  <Hit_def>hypothetical protein [Pelodictyon phaeoclathratiforme] &gt;gi|194337839|ref|YP_002019633.1| hypothetical protein Ppha_2870 [Pelodictyon phaeoclathratiforme BU-1] &gt;gi|194310316|gb|ACF45016.1| NgoMIIIM [Pelodictyon phaeoclathratiforme BU-1]</Hit_def>
+  <Hit_accession>WP_012509484</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>9.09781e-104</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>FDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLE</Hsp_qseq>
+      <Hsp_hseq>FDRSEHVYRNDAFAELVKDAIRFFNGTPVHTLPPPESFFGTGVYALYYTGSNPLYKRYAELNRLSYGYPIYVGKAVPKGWRQARSSDNALNQSRELIGRLREHGRSISLGAQLSLEDFMCRFVIFEVEGSDMISAIEAALIKLNKPLWNTAVDGFGNHDPGSGRYAQAKSDWDVIHEGRAWANKCNGKHAEKNAIMSNILLHLK</Hsp_hseq>
+      <Hsp_midline>FDRS+H+Y N+AF ELVKDAIRFF+GTPVHTLPPP+ F G GVYA+YY G+NPLYK+YA+ NRLSY  PIYVGKAVPKGWRQAR+SDNALNQS EL  RL+EH RSI+  + L   DFMCRFVIFE  GSDMI  IEAALIKL+KPLWN+ VDGFGNHDPG GRY QAKSDWDV+H GR WA++ NG      +I+ NI  HL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|749816279|ref|WP_040295112.1|</Hit_id>
+  <Hit_def>restriction endonuclease [Beggiatoa alba]</Hit_def>
+  <Hit_accession>WP_040295112</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>2.53201e-96</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>IRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIKR</Hsp_qseq>
+      <Hsp_hseq>MRFFNGTPVHSLPPSERFLGSGVYALYYTGENPLYTRYKALNRLSYDFPIYVGKAVPKGWRQARTSDAMTTQSTELYSRLKEHSRSILSVNGLSLEDFSCRFVLFENEGSDMIGSIEATLIKLNQPLWNSCVDGFGNHDPGKGRYEQARSDWDVIHTGRVWAERLNGVPNNKNKILDKIEKHLKQLKK</Hsp_hseq>
+      <Hsp_midline>+RFF+GTPVH+LPP ++F G+GVYA+YY G NPLY +Y   NRLSY+ PIYVGKAVPKGWRQAR SD    QSTEL+ RLKEHSRSI +V+ L   DF CRFV+FE  GSDMIG+IEA LIKL++PLWNSCVDGFGNHDPGKGRYEQA+SDWDV+H+GRVWA+RLNG+PN+   IL+ I  HL+ +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|503027052|ref|WP_013262028.1|</Hit_id>
+  <Hit_def>restriction endonuclease [gamma proteobacterium HdN1] &gt;gi|304311590|ref|YP_003811188.1| restriction endonuclease [gamma proteobacterium HdN1] &gt;gi|301797323|emb|CBL45543.1| restriction endonuclease, similar to Eco29kIR [gamma proteobacterium HdN1]</Hit_def>
+  <Hit_accession>WP_013262028</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>9.61449e-93</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>FDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEII</Hsp_qseq>
+      <Hsp_hseq>FDRNKHVYKNDVFVELVKDAVRFFNGTPVHPLPPPRPFQGTGVYALYYIGQDGMYNRYGELNRLAYNHPIYVGKAVPRGWRQARVSDSATTQSNELFNRLREHSRNIAVGAHLELANFKCRFVIFESEGSDMISTIEAALIKLHKPLWNVALDGFGNHTPGNGRFQQAKSDWDVVHPGRAWADKCTGVHNTLELVLLNIKRHLDSI</Hsp_hseq>
+      <Hsp_midline>FDR+KH+Y N+ FVELVKDA+RFF+GTPVH LPPP+ F+G GVYA+YYIG + +Y +Y + NRL+YN PIYVGKAVP+GWRQAR SD+A  QS ELF+RL+EHSR+IA  + L+ ++F CRFVIFE  GSDMI TIEAALIKLHKPLWN  +DGFGNH PG GR++QAKSDWDV+H GR WAD+  G+ N+ E +L NI  HL+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|746511374|ref|WP_039548074.1|</Hit_id>
+  <Hit_def>restriction endonuclease [Pectobacterium carotovorum] &gt;gi|741101256|gb|KHS93964.1| restriction endonuclease [Pectobacterium carotovorum subsp. carotovorum]</Hit_def>
+  <Hit_accession>WP_039548074</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>2.08281e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MNNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNG</Hsp_qseq>
+      <Hsp_hseq>ISKHFDKSEHIYRNDAFLELLKDAIRFFNGTPVHSLPPPQPFPGAGVYALYYTGHSPLYEAYSQINRFAYNLPLYVGKAVPAGWRQSRISDSTTRARSELSFRIREHSRNIAKASNLKLEDFTCRFVIFEAAGSDMISTVEAALIKLHKPLWNTVVDGFGNHTPGAGRFAQAKSDWDVIHPGREWAEKCTG</Hsp_hseq>
+      <Hsp_midline>++ +FD+S+HIY N+AF+EL+KDAIRFF+GTPVH+LPPP+ F GAGVYA+YY G++PLY+ Y+  NR +YN P+YVGKAVP GWRQ+R SD+     +EL  R++EHSR+IA  S+L   DF CRFVIFE AGSDMI T+EAALIKLHKPLWN+ VDGFGNH PG GR+ QAKSDWDV+H GR WA++  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|545255187|ref|WP_021551512.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli] &gt;gi|535449414|gb|EQV89664.1| hypothetical protein G893_03746 [Escherichia coli KOEGE 71 (186a)]</Hit_def>
+  <Hit_accession>WP_021551512</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>2.17552e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MNNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIK</Hsp_qseq>
+      <Hsp_hseq>ISKPFDRSEHVYRNDAFLELLKDAVRFFNGTPVHSLPPPQGFQGAGVYALYYTGHNPLYDEFSRINRLAYNLPIYVGKAVPAGWRQSRISDSATRAGSELSNRIREHSRNIAKAENLKLEDFSCRFIIFEATGSDMISTVEAALIKIHKPLWNTVVDGFGNHTPGAGRFAQAKSDWDVIHPGREWAEKCTGRHSEPASVENRIKQYFLELK</Hsp_hseq>
+      <Hsp_midline>++  FDRS+H+Y N+AF+EL+KDA+RFF+GTPVH+LPPP+ F+GAGVYA+YY G+NPLY +++  NRL+YN PIYVGKAVP GWRQ+R SD+A    +EL +R++EHSR+IA   +L   DF CRF+IFE  GSDMI T+EAALIK+HKPLWN+ VDGFGNH PG GR+ QAKSDWDV+H GR WA++  G  +   S+   I  +   +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|486166310|ref|WP_001529705.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli] &gt;gi|10955251|ref|NP_052187.1| restriction endonuclease [Escherichia coli] &gt;gi|1237267|gb|AAC37144.1| eco29kIR [Escherichia coli] &gt;gi|2660512|emb|CAA04943.1| restriction endonuclease [Escherichia coli] &gt;gi|430934620|gb|ELC54968.1| hypothetical protein WGI_05079 [Escherichia coli KTE44] &gt;gi|508437771|gb|EOW07832.1| hypothetical protein A1WQ_05081 [Escherichia coli KTE103]</Hit_def>
+  <Hit_accession>WP_001529705</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>2.18938e-91</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>NNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>NKKFDRSEHVYRNDSFLELIKDAVRFFSGTPVHSLPPPERFQGAGVYALYYTGHYSLYDEYSRINRLAYNLPIYVGKAVPAGWRQSRISDHETRAGSELSNRIREHGRNIAKTSNLDLCDFSCRFVIFEATGSDMISTVEAALIKIYKPLWNTVVDGFGNHTPGAGRFAQAKSDWDVIHPGREWAEKCTGVHSEPYFIEERIKQYF</Hsp_hseq>
+      <Hsp_midline>N  FDRS+H+Y N++F+EL+KDA+RFF GTPVH+LPPP++F+GAGVYA+YY G+  LY +Y+  NRL+YN PIYVGKAVP GWRQ+R SD+     +EL +R++EH R+IA  S+LD  DF CRFVIFE  GSDMI T+EAALIK++KPLWN+ VDGFGNH PG GR+ QAKSDWDV+H GR WA++  G+ +    I E I  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|499326710|ref|WP_011017202.1|</Hit_id>
+  <Hit_def>MULTISPECIES: plasmid encoded restriction endonuclease Per [Enterobacteriaceae] &gt;gi|19718331|ref|NP_604404.1| plasmid encoded restriction endonuclease Per [Salmonella enterica subsp. enterica serovar Enteritidis] &gt;gi|19526585|gb|AAL87018.1| plasmid encoded restriction endonuclease Per [Salmonella enterica subsp. enterica serovar Enteritidis] &gt;gi|729821695|gb|KHH15987.1| restriction endonuclease [Escherichia coli] &gt;gi|748083743|gb|KIG91000.1| restriction endonuclease [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_011017202</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>2.26205e-91</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>NNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>NKKFDRSEHVYRNDSFLELIKDAVRFFSGTPVHSLPPPERFQGAGVYALYYTGHYSLYDEYSRINRLAYNLPIYVGKAVPAGWRQSRISDHETRAGSELSNRIREHSRNIAKTSNLNLCDFSCRFVIFEATGSDMISTVEAALIKIYKPLWNTVVDGFGNHTPGAGRFAQAKSDWDVIHPGREWAEKCTGVHSEPYFIEERIKQYF</Hsp_hseq>
+      <Hsp_midline>N  FDRS+H+Y N++F+EL+KDA+RFF GTPVH+LPPP++F+GAGVYA+YY G+  LY +Y+  NRL+YN PIYVGKAVP GWRQ+R SD+     +EL +R++EHSR+IA  S+L+  DF CRFVIFE  GSDMI T+EAALIK++KPLWN+ VDGFGNH PG GR+ QAKSDWDV+H GR WA++  G+ +    I E I  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|306440558|pdb|3MX1|A</Hit_id>
+  <Hit_def>Chain A, The Structure Of Giy-Yig Endonuclease R.Eco29ki</Hit_def>
+  <Hit_accession>3MX1_A</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>1.2436e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>NNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>NKKFDRSEHVYRNDSFLELIKDAVRFFSGTPVHSLPPPERFQGAGVYALYYTGHYSLYDEYSRINRLAYNLPIYVGKAVPAGWRQSRISDHETRAGSELSNRIREHGRNIAKTSNLDLCDFSCRFVIFEATGSDMISTVQAALIKIYKPLWNTVVDGFGNHTPGAGRFAQAKSDWDVIHPGREWAEKCTGVHSEPYFIEERIKQYF</Hsp_hseq>
+      <Hsp_midline>N  FDRS+H+Y N++F+EL+KDA+RFF GTPVH+LPPP++F+GAGVYA+YY G+  LY +Y+  NRL+YN PIYVGKAVP GWRQ+R SD+     +EL +R++EH R+IA  S+LD  DF CRFVIFE  GSDMI T++AALIK++KPLWN+ VDGFGNH PG GR+ QAKSDWDV+H GR WA++  G+ +    I E I  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|306440559|pdb|3MX4|A</Hit_id>
+  <Hit_def>Chain A, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant E142q &gt;gi|306440560|pdb|3MX4|B Chain B, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant E142q &gt;gi|306440561|pdb|3MX4|C Chain C, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant E142q &gt;gi|306440562|pdb|3MX4|D Chain D, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant E142q &gt;gi|306440563|pdb|3MX4|E Chain E, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant E142q &gt;gi|306440564|pdb|3MX4|F Chain F, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant E142q &gt;gi|306440565|pdb|3MX4|G Chain G, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant E142q &gt;gi|306440566|pdb|3MX4|H Chain H, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant E142q</Hit_def>
+  <Hit_accession>3MX4_A</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>1.07149e-89</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>NNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>NKKFDRSEHVYRNDSFLELIKDAVRFFSGTPVHSLPPPERFQGAGVYALYYTGHYSLYDEYSRINRKAYNLPIYVGKAVPAGWRQSRISDHETRAGSELSNRIREHGRNIAKTSNLDLCDFSCRFVIFEATGSDMISTVQAALIKIYKPLWNTVVDGFGNHTPGAGRFAQAKSDWDVIHPGREWAEKCTGVHSEPYFIEERIKQYF</Hsp_hseq>
+      <Hsp_midline>N  FDRS+H+Y N++F+EL+KDA+RFF GTPVH+LPPP++F+GAGVYA+YY G+  LY +Y+  NR +YN PIYVGKAVP GWRQ+R SD+     +EL +R++EH R+IA  S+LD  DF CRFVIFE  GSDMI T++AALIK++KPLWN+ VDGFGNH PG GR+ QAKSDWDV+H GR WA++  G+ +    I E I  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|306440636|pdb|3NIC|A</Hit_id>
+  <Hit_def>Chain A, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant Y49f &gt;gi|306440637|pdb|3NIC|B Chain B, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant Y49f &gt;gi|306440638|pdb|3NIC|C Chain C, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant Y49f &gt;gi|306440639|pdb|3NIC|D Chain D, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant Y49f &gt;gi|306440640|pdb|3NIC|E Chain E, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant Y49f &gt;gi|306440641|pdb|3NIC|F Chain F, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant Y49f &gt;gi|306440642|pdb|3NIC|G Chain G, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant Y49f &gt;gi|306440643|pdb|3NIC|H Chain H, Dna Binding And Cleavage By The Giy-Yig Endonuclease R.Eco29ki Inactive Variant Y49f</Hit_def>
+  <Hit_accession>3NIC_A</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>1.27515e-89</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>NNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>NKKFDRSEHVYRNDSFLELIKDAVRFFSGTPVHSLPPPERFQGAGVFALYYTGHYSLYDEYSRINRKAYNLPIYVGKAVPAGWRQSRISDHETRAGSELSNRIREHGRNIAKTSNLDLCDFSCRFVIFEATGSDMISTVEAALIKIYKPLWNTVVDGFGNHTPGAGRFAQAKSDWDVIHPGREWAEKCTGVHSEPYFIEERIKQYF</Hsp_hseq>
+      <Hsp_midline>N  FDRS+H+Y N++F+EL+KDA+RFF GTPVH+LPPP++F+GAGV+A+YY G+  LY +Y+  NR +YN PIYVGKAVP GWRQ+R SD+     +EL +R++EH R+IA  S+LD  DF CRFVIFE  GSDMI T+EAALIK++KPLWN+ VDGFGNH PG GR+ QAKSDWDV+H GR WA++  G+ +    I E I  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|495905726|ref|WP_008630305.1|</Hit_id>
+  <Hit_def>Eco29kI restriction endonuclease [Paraprevotella xylaniphila] &gt;gi|329568256|gb|EGG50072.1| Eco29kI restriction endonuclease [Paraprevotella xylaniphila YIT 11841]</Hit_def>
+  <Hit_accession>WP_008630305</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>1.07328e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MNNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNG</Hsp_qseq>
+      <Hsp_hseq>MNDVFDRSKHVYKSNAFEEIIKDTIRFFNGTPVHELPPPEKFIGTGVYALYYIGKNPYYKILYDLNRLEFKQPIYVGKAVPQGWRQARTVGKS-QSSHELYRRLCEHANSINQVHNLDLKDFHCRFMILENAACDMIGTIEAALIRCYTPVWNSSIDGFGNHDPGKGRYNQSKSDWDVLHPGRSWAYKCQG</Hsp_hseq>
+      <Hsp_midline>MN+ FDRSKH+Y + AF E++KD IRFF+GTPVH LPPP++F G GVYA+YYIG NP YK   D NRL +  PIYVGKAVP+GWRQAR    +   S EL+ RL EH+ SI  V +LD  DF CRF+I E A  DMIGTIEAALI+ + P+WNS +DGFGNHDPGKGRY Q+KSDWDVLH GR WA +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|501113520|ref|WP_012163049.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acaryochloris marina] &gt;gi|158335734|ref|YP_001516906.1| hypothetical protein AM1_2584 [Acaryochloris marina MBIC11017] &gt;gi|158305975|gb|ABW27592.1| hypothetical protein AM1_2584 [Acaryochloris marina MBIC11017]</Hit_def>
+  <Hit_accession>WP_012163049</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>4.31867e-82</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>NNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>NSFDRSKHVYVSPDFDEIIKDTIRFFNGTPVHSIPVPTRFHGTGVYALYCIAKSGIYSRFNSVNRTAFHIPIYVGKAVPKGWRQARQSSSSDTKSYELNNRIREHSRSIEIGEGVNSSDFFCRFMILEGKESDLIGTVEAALIRKYQPLWNTLIDGFGNHDPGKGRYEQAKSDWDVCHPGRLWAEKCQGVHANKADLLQSIEAFM</Hsp_hseq>
+      <Hsp_midline>N+FDRSKH+Y +  F E++KD IRFF+GTPVH++P P +F G GVYA+Y I  + +Y ++   NR +++ PIYVGKAVPKGWRQAR S ++  +S EL +R++EHSRSI     ++ SDF CRF+I EG  SD+IGT+EAALI+ ++PLWN+ +DGFGNHDPGKGRYEQAKSDWDV H GR+WA++  G+  +   +L++I   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|647587373|ref|WP_025864535.1|</Hit_id>
+  <Hit_def>restriction endonuclease [Prolixibacter bellariivorans]</Hit_def>
+  <Hit_accession>WP_025864535</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>1.2176e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MNNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILE</Hsp_qseq>
+      <Hsp_hseq>MNRDFKREEHVYSSEAFEEIIKDTIRFFNGTPVIKLPPPEKFHGTGVYAIYFIGKSKLYSKLAAQNRIEFSMPIYVGKAVPRGWRQARIETQSSKKSYELNGRLNEHGRSIEQVNNLSIEDFYCRFIILENAASSLISTVEAALIRYYKPIWNTQIDGFGNHDPGKGRYNQAKSEWDVLHPGRPWADKCLGDAPNFDKVEE</Hsp_hseq>
+      <Hsp_midline>MN +F R +H+Y +EAF E++KD IRFF+GTPV  LPPP++F G GVYAIY+IG + LY + A  NR+ ++ PIYVGKAVP+GWRQAR    +  +S EL  RL EH RSI  V++L   DF CRF+I E A S +I T+EAALI+ +KP+WN+ +DGFGNHDPGKGRY QAKS+WDVLH GR WAD+  G   +++ + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|648411450|ref|WP_026103201.1|</Hit_id>
+  <Hit_def>restriction endonuclease [Pseudanabaena sp. PCC 6802]</Hit_def>
+  <Hit_accession>WP_026103201</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>2.78381e-78</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>NNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>NVFHRSDHVYVSPDLDEVIKDTIRFFNGTPVHSIPTPERFHGTGVYALYCIAKSGIYSKFHLVNRTEFRMPIYVGKAVPKGWRQSRLLPSVDAKVYELYNRIKEHSRSIDIGDGLNISDFFCRFMILEGKESDLIGTVEAALIRKYKPIWNTLIDGFGNHDPGKGRYEQAKSDWDVCHPGRAWAEKCQGVPANKEILVQSIEEFL</Hsp_hseq>
+      <Hsp_midline>N F RS H+Y +    E++KD IRFF+GTPVH++P P++F G GVYA+Y I  + +Y ++   NR  +  PIYVGKAVPKGWRQ+R   +   +  EL++R+KEHSRSI     L+ SDF CRF+I EG  SD+IGT+EAALI+ +KP+WN+ +DGFGNHDPGKGRYEQAKSDWDV H GR WA++  G+P + E ++++I   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|493666204|ref|WP_006616550.1|</Hit_id>
+  <Hit_def>hypothetical protein [Arthrospira platensis] &gt;gi|479126998|ref|YP_005066958.1| restriction endonuclease [Arthrospira platensis NIES-39] &gt;gi|291566148|dbj|BAI88420.1| restriction endonuclease [Arthrospira platensis NIES-39] &gt;gi|647977530|gb|KDR54706.1| restriction endonuclease [Arthrospira platensis str. Paraca]</Hit_def>
+  <Hit_accession>WP_006616550</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>3.68003e-75</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>NNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>NSCDRSKHLYIYPDFDEIIKDTIRFFNGTPVHPISIQYRFPGTGVYAIYCIRKTEIYSRFYLINRTAFRAPIYVGKEVPKGWRKAMQSFSVNSQGYELNNRIREHSRSINLGEGLEPSDFFCRFMILEGKESDFIGTVEAALIRIYQQIWNTLIDGFGNHDPGKGRYKQAKSDWDVCHPGRSWADKCQGIHADKKQLLQSIEIFM</Hsp_hseq>
+      <Hsp_midline>N+ DRSKH+Y    F E++KD IRFF+GTPVH +    +F G GVYAIY I    +Y ++   NR ++ APIYVGK VPKGWR+A  S +  +Q  EL +R++EHSRSI     L+PSDF CRF+I EG  SD IGT+EAALI++++ +WN+ +DGFGNHDPGKGRY+QAKSDWDV H GR WAD+  GI    + +L++I   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|750664419|ref|WP_040943576.1|</Hit_id>
+  <Hit_def>restriction endonuclease [Prochloron didemni]</Hit_def>
+  <Hit_accession>WP_040943576</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>2.17114e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>MNNNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENI</Hsp_qseq>
+      <Hsp_hseq>MTSSFNPQDHLFRSPAFKQIIDDAIEFLNQTPVHPLPSITRFNGTGVYALYYLGEFPHYLQQKAANLESCQQPIYVGKAVPPGWRQGRKIQT---NSTALYNRLKEHSRSIKQAQNLDIDDFRCRFIILDNDESNLIGTIEAELIRRFLPLWNTVIDGFGNHDPGSGRYNQAKSEWDVLHPGRPWTEKLTGVSPSLENIIAKI</Hsp_hseq>
+      <Hsp_midline>M ++F+   H++ + AF +++ DAI F + TPVH LP   +F G GVYA+YY+G  P Y Q    N  S   PIYVGKAVP GWRQ R        ST L++RLKEHSRSI    +LD  DF CRF+I +   S++IGTIEA LI+   PLWN+ +DGFGNHDPG GRY QAKS+WDVLH GR W ++L G+  S E+I+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|494657504|ref|WP_007415448.1|</Hit_id>
+  <Hit_def>restriction endonuclease R.NgoMIII [Pedosphaera parvula] &gt;gi|223894042|gb|EEF60497.1| restriction endonuclease R.NgoMIII [bacterium Ellin514]</Hit_def>
+  <Hit_accession>WP_007415448</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>9.24349e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>NNFDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNA-PIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTH</Hsp_qseq>
+      <Hsp_hseq>KQFNISNHRLQSKDFLKLIDEAFMFFNQTPLCTLPPMQSFTGSGVYALYYSGDFQPYLEIAKTNKLNAGSRAVYVGKAVPRGWRQGRTV--ADEEGEELHSRLREHAKSIKHTPSLKLGDFTCRFMVMEGAQSDLIGTVEAALIRRYMPLWNSVVDGFGNHDPGKGRYEQARSEWDVLHKGRPWAERLRGVSPETKDILEKILSY</Hsp_hseq>
+      <Hsp_midline>  F+ S H   ++ F++L+ +A  FF+ TP+ TLPP + F G+GVYA+YY G+   Y + A  N+L+  +  +YVGKAVP+GWRQ R    A  +  EL  RL+EH++SI     L   DF CRF++ EGA SD+IGT+EAALI+ + PLWNS VDGFGNHDPGKGRYEQA+S+WDVLH GR WA+RL G+    + ILE I ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|574956254|dbj|BAO45097.1|</Hit_id>
+  <Hit_def>restriction endonuclease R [Thiolapillus brandeum]</Hit_def>
+  <Hit_accession>BAO45097</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>1.53345e-67</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>KHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTH</Hsp_qseq>
+      <Hsp_hseq>EHIFHSESFIELIDEAVAFMVNTPMESLPPDEKFSGGGVYSLYYSGDFPLYQKIYSQNK---ELPIYVGKAVLPGWRQGRGT--VKENDPALFRRLSEHSRSINAAKNLKLSHFSCRFVVLKSQEADLISTVEAAMTRKYNPLWNSHIDGFGNHDPGKGRYEQAKSEWDVLHPGREWAERLNGTPPDGNKIEEKIGVY</Hsp_hseq>
+      <Hsp_midline>+HI+H+E+F+EL+ +A+ F   TP+ +LPP ++F G GVY++YY G+ PLY++    N+     PIYVGKAV  GWRQ R +         LF RL EHSRSI A  +L  S F CRFV+ +   +D+I T+EAA+ + + PLWNS +DGFGNHDPGKGRYEQAKS+WDVLH GR WA+RLNG P     I E I  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|493319089|ref|WP_006276430.1|</Hit_id>
+  <Hit_def>hypothetical protein [Cylindrospermopsis raciborskii] &gt;gi|281195690|gb|EFA70620.1| hypothetical protein CRC_00874 [Cylindrospermopsis raciborskii CS-505]</Hit_def>
+  <Hit_accession>WP_006276430</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>9.07186e-66</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>SKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALN-QSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>SDHVYVSSKLHQIIEDTVNFFDGTPVYPIPITERFCGTGVYGLYCTAKSGIYSGFNLVNRTILRLPIYIGKAVPKGWRQGRGL--LLNSRSYELNNRIKEHSSSIDLAEGLDRSDFFCRFIILEGRESDLIGTVEAALIRKYKPIWNTLIDGFGNHDPGKGRYEQAKSDWDICHPGRPWAEKCQGKSKNQKYLLEAIKEYM</Hsp_hseq>
+      <Hsp_midline>S H+Y +    ++++D + FF GTPV+ +P  ++F G GVY +Y    + +Y  +   NR     PIY+GKAVPKGWRQ R     LN +S EL +R+KEHS SI     LD SDF CRF+I EG  SD+IGT+EAALI+ +KP+WN+ +DGFGNHDPGKGRYEQAKSDWD+ H GR WA++  G   + + +LE I  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|406905782|gb|EKD47147.1|</Hit_id>
+  <Hit_def>Restriction endonuclease R.NgoMIII [uncultured bacterium]</Hit_def>
+  <Hit_accession>EKD47147</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>1.52592e-63</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>KHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEI</Hsp_qseq>
+      <Hsp_hseq>KHIFKSAKLQSIMEEAISFFEKTPVHNLPPQSAFPGPGVYAIYYVGPHKIYTAVAANNNKDCVLPIYVGKAVPPGSRTARNISS---NTPDLLKRLREHSKSIQHSPDFDLSDFKCRFMILSDVESQLISITESSLIRKYRPLWNTCIDGFGNHDPGSGRYNQACSEWDVLHPGRSWAKKLKGKSPQIEKILLKIEKHLDL</Hsp_hseq>
+      <Hsp_midline>KHI+ +     ++++AI FF  TPVH LPP   F G GVYAIYY+G + +Y   A  N      PIYVGKAVP G R ARN  +    + +L  RL+EHS+SI    D D SDF CRF+I     S +I   E++LI+ ++PLWN+C+DGFGNHDPG GRY QA S+WDVLH GR WA +L G     E IL  I  HL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|655035017|ref|WP_028483803.1|</Hit_id>
+  <Hit_def>hypothetical protein [Candidatus Omnitrophus fodinae]</Hit_def>
+  <Hit_accession>WP_028483803</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>1.63951e-61</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>DRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLE</Hsp_qseq>
+      <Hsp_hseq>ETESHTFKSPKFRSVVEDAISFFSKAPIYNLPIQKPFLGSGVYSLYYKGELGVYAPLACLNKQTCVQPIYIGKAVPSGWRTGRKIEST---TTDLFRRINEHARNISHTKDLKATDFQCQFIILSGAEADLIVPVEAELIRRFKPLWNSLVDGFGNHDPGKGRYQQALSEWDLLHPGRPWAKKLQKGTSNRKKVLEALNKFFE</Hsp_hseq>
+      <Hsp_midline>+   H + +  F  +V+DAI FF   P++ LP  K F G+GVY++YY G   +Y   A  N+ +   PIY+GKAVP GWR  R  ++    +T+LF R+ EH+R+I+   DL  +DF C+F+I  GA +D+I  +EA LI+  KPLWNS VDGFGNHDPGKGRY+QA S+WD+LH GR WA +L    ++ + +LE +N   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|737758626|ref|WP_035727132.1|</Hit_id>
+  <Hit_def>restriction endonuclease, partial [Flexibacter elegans]</Hit_def>
+  <Hit_accession>WP_035727132</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>2.63845e-58</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>IRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDN-ALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTH</Hsp_qseq>
+      <Hsp_hseq>MAFFVSTPAYPLPSLERFSGARVYALYYTGEFTPYQTLSKENQHAFRRAIYVGKAVPRGWRQGIPISNISATSSFELYQRLKEHLKSINQVQSLSSEDFYCRLMILEGSTSYLISTVEAAIIQSQKPLWNAVIDGFGNHDPDSGRYNQAKSDWDVLHSSRPWAEKCLGVSSNYSEILYKINSY</Hsp_hseq>
+      <Hsp_midline>+ FF  TP + LP  ++F GA VYA+YY G    Y+  +  N+ ++   IYVGKAVP+GWRQ     N +   S EL+ RLKEH +SI  V  L   DF CR +I EG+ S +I T+EAA+I+  KPLWN+ +DGFGNHDP  GRY QAKSDWDVLHS R WA++  G+ ++Y  IL  IN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|496551845|ref|WP_009257920.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type II restriction endonuclease Eco29kI [Clostridiales] &gt;gi|354823047|gb|EHF07390.1| hypothetical protein HMPREF1020_00669 [Clostridium sp. 7_3_54FAA] &gt;gi|363616505|gb|EHL67941.1| hypothetical protein HMPREF1032_00005 [Subdoligranulum sp. 4_3_54A2FAA] &gt;gi|371669187|gb|EHO34290.1| hypothetical protein HMPREF0995_01608 [Lachnospiraceae bacterium 7_1_58FAA]</Hit_def>
+  <Hit_accession>WP_009257920</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>1.75062e-51</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>GTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLE</Hsp_qseq>
+      <Hsp_hseq>ASPVHTLPP-EPFIGAGVYAIYYRGDFAPYKRLVDLNKEGYNVPIYVGKAVPAGARKGGLGMN-VDHGLALFNRLSEHFGSVSKANNLNEKDFMCRYLVVDDI---WIPLAESMLIERFKPLWNRCIDGFGNHDPGKGRYQQQKSPWDCIHEGREWAEKLNPNTTSKDELLEKVAKYLE</Hsp_hseq>
+      <Hsp_midline> +PVHTLPP + F GAGVYAIYY G+   YK+  D N+  YN PIYVGKAVP G R+     N ++    LF+RL EH  S++  ++L+  DFMCR+++ +      I   E+ LI+  KPLWN C+DGFGNHDPGKGRY+Q KS WD +H GR WA++LN    S + +LE +  +LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|742414407|ref|WP_038893521.1|</Hit_id>
+  <Hit_def>hypothetical protein [Vibrio owensii]</Hit_def>
+  <Hit_accession>WP_038893521</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>1.34177e-48</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>FDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPL-YKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTE-LFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTH</Hsp_qseq>
+      <Hsp_hseq>MDISQHQLHTES---VLKPLVAEFQTKARYPLQDIASFSGAGVYALYLVDSSRTPYDGFVDSQR-----PIYVGKAVPEGSRQGRT----LNAATKKLSARIREHRRSIDAV-DLGAERFEVRFAVLSGEGVDLIAALESALIRTHTPLWNSYIDGFGNHDPGSGRYEQSISEWDTLHTGRKWASKLTGVPPRMENISAKIKSY</Hsp_hseq>
+      <Hsp_midline> D S+H  H E+   ++K  +  F     + L     F GAGVYA+Y + ++   Y  + D  R     PIYVGKAVP+G RQ R     LN +T+ L  R++EH RSI AV DL    F  RF +  G G D+I  +E+ALI+ H PLWNS +DGFGNHDPG GRYEQ+ S+WD LH+GR WA +L G+P   E+I   I ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|750361223|ref|WP_040643140.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Pseudoalteromonas ruthenica]</Hit_def>
+  <Hit_accession>WP_040643140</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>2.11542e-47</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>HIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRL</Hsp_qseq>
+      <Hsp_hseq>QTFQSHQLIQLANEAARFLEATPKHILPIASQFMGSGVYALYYNGAD---KDYAGIG----NVPIYVGKAVPTG---ARTGSMVRKEEPKLKSRLNEHARSIQQASNLKIADFKCQFMIIPVDMSAIIPVVESMLINKYRPIWNTQIDGFGNHDPGKGRYEQARSAWDRKHPGRKWADKL</Hsp_hseq>
+      <Hsp_midline>  + +   ++L  +A RF   TP H LP   QF G+GVYA+YY G +   K YA       N PIYVGKAVP G   AR       +  +L  RL EH+RSI   S+L  +DF C+F+I     S +I  +E+ LI  ++P+WN+ +DGFGNHDPGKGRYEQA+S WD  H GR WAD+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|543169449|ref|WP_021021356.1|</Hit_id>
+  <Hit_def>NgoMIIIM [Vibrio gazogenes]</Hit_def>
+  <Hit_accession>WP_021021356</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.11555e-45</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>FDRSKHIYHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYI-GNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTH</Hsp_qseq>
+      <Hsp_hseq>IDINRHQLHTESVLGPLVEQFQRFERYSLEDIP---SFLGAGVYALYLVDAVGTPYEGFVDSTR-----PIYVGKAVPEGSRQGRTINTT---TSKLSARIREHKRSIESV-QLGAYRFEVRFAVLTEQGLDLISALESALIRQFMPLWNSYIDGFGNHDPGRGRYEQSISEWDTLHEGRVWASRLTGVPPRLENIIQKIENY</Hsp_hseq>
+      <Hsp_midline> D ++H  H E+ +  + +  + F    +  +P    F GAGVYA+Y +      Y+ + D  R     PIYVGKAVP+G RQ R  +     +++L  R++EH RSI +V  L    F  RF +    G D+I  +E+ALI+   PLWNS +DGFGNHDPG+GRYEQ+ S+WD LH GRVWA RL G+P   E+I++ I  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|502515451|ref|WP_012810508.1|</Hit_id>
+  <Hit_def>type II restriction endonuclease Eco29kI [Alicyclobacillus acidocaldarius] &gt;gi|258511121|ref|YP_003184555.1| Restriction endonuclease, type II, Eco29kI [Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446] &gt;gi|257477847|gb|ACV58166.1| Restriction endonuclease, type II, Eco29kI [Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446]</Hit_def>
+  <Hit_accession>WP_012810508</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>4.81912e-43</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLS-YNAPIYVGKAVPKGWRQARNSDNALN--QSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>PISKLPPPEPFEGAGIYAIYYTGDFSLYQKIAERNRNGRFEAPIYVGKAVPPG---ARKGGFGLDIPPGQVLYRRLCEHAESIKQARNLDIEGFYCRYLVVDDI---WIPLGESLLIQRFSPVWNQVLDGFGNHDPGSGRYSQQRSRWDTVHPGRVWADRLTPNAESLEKIVQAVEEFL</Hsp_hseq>
+      <Hsp_midline>P+  LPPP+ F+GAG+YAIYY G+  LY++ A+ NR   + APIYVGKAVP G   AR     L+      L+ RL EH+ SI    +LD   F CR+++ +      I   E+ LI+   P+WN  +DGFGNHDPG GRY Q +S WD +H GRVWADRL     S E I++ +   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|517097132|ref|WP_018285950.1|</Hit_id>
+  <Hit_def>hypothetical protein [zeta proteobacterium SCGC AB-133-C04]</Hit_def>
+  <Hit_accession>WP_018285950</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>9.25509e-43</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>FDRSKHI--YHNEAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGN-NPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEII</Hsp_qseq>
+      <Hsp_hseq>FDINNHIAKISDEKIEAVVNPAFLFFENTPYYQLSNLPSFEGAGVYALFLKSTANTCYDK-----RLLPMHPIYVGKAVPSGARQGKKKGTG----KSLRNRLQKHLRSIEQADDLETDIFLCRFMILQGQATDMISAMESYLIRQYNPLWNSYIDGFGINAPGAGRYNQSPSEWDTLHPGRYYAKQLTGKVRDKKAILEKIEGYLSKI</Hsp_hseq>
+      <Hsp_midline>FD + HI    +E    +V  A  FF  TP + L     F+GAGVYA++     N  Y +     RL    PIYVGKAVP G RQ +           L +RL++H RSI    DL+   F+CRF+I +G  +DMI  +E+ LI+ + PLWNS +DGFG + PG GRY Q+ S+WD LH GR +A +L G     ++ILE I  +L  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|671461804|ref|WP_031472807.1|</Hit_id>
+  <Hit_def>restriction endonuclease Eco29kI [[Clostridium] aminophilum]</Hit_def>
+  <Hit_accession>WP_031472807</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>2.46838e-41</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PPKQFKGAGVYAIYYIGNNPLYKQYADWNR-LSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL---EIIKRK</Hsp_qseq>
+      <Hsp_hseq>PPEPFIGAGVYAIFYVGDNSLYKPLAEYNQDHDCMYPIYVGKAVPQGARKG-GIGLGENQGPALQKRLGDHAKSITEVNDLNIDDFFCRFIVVDDI---WIPLAESLMISRYKPVWNSIIDGFGNHDPGSGRKGQVQSPWDMLHPGRSWAKKLPAGPKSQSELSRLVAYYFKTNEILQRK</Hsp_hseq>
+      <Hsp_midline>PP+ F GAGVYAI+Y+G+N LYK  A++N+      PIYVGKAVP+G R+        NQ   L  RL +H++SI  V+DL+  DF CRF++ +      I   E+ +I  +KP+WNS +DGFGNHDPG GR  Q +S WD+LH GR WA +L   P S   +   +  +    EI++RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|504199976|ref|WP_014387078.1|</Hit_id>
+  <Hit_def>Eco29kI restriction endonuclease [Enterococcus faecium] &gt;gi|383328965|ref|YP_005354849.1| Eco29kI restriction endonuclease [Enterococcus faecium Aus0004] &gt;gi|378938659|gb|AFC63731.1| Eco29kI restriction endonuclease [Enterococcus faecium Aus0004]</Hit_def>
+  <Hit_accession>WP_014387078</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.263e-40</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>PPKQFKGAGVYAIYYIGNNPLYKQYADWNR-LSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>PPEPFIGAGVYALYYLGDFPAYEVLAEVNRNGQYACPIYVGKAVPDGARKGGQGDD-VDPGTALFKRLTDHAKSVDAATNLKLEDFRCRFLSVDDI---WIPLTESLLIERFKPVWNRVLDGFGNHDPGKGRHRGRMPLWDCLHPGRAWAERLQPCAFTAEELEQRVRKYL</Hsp_hseq>
+      <Hsp_midline>PP+ F GAGVYA+YY+G+ P Y+  A+ NR   Y  PIYVGKAVP G R+    D+ ++  T LF RL +H++S+ A ++L   DF CRF+  +      I   E+ LI+  KP+WN  +DGFGNHDPGKGR+      WD LH GR WA+RL     + E + + +  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|496568171|ref|WP_009269289.1|</Hit_id>
+  <Hit_def>type II restriction endonuclease Eco29kI [Erysipelotrichaceae bacterium 21_3] &gt;gi|371664633|gb|EHO29802.1| hypothetical protein HMPREF0982_00450 [Erysipelotrichaceae bacterium 21_3]</Hit_def>
+  <Hit_accession>WP_009269289</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.75829e-40</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>PPKQFKGAGVYAIYYIGNNPLYKQYADWNR-LSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>PPEPFIGAGVYALYYLGDFPAYEVLAEVNRNGQYACPIYVGKAVPDGARKGGQGDD-VDPGTALFKRLTDHAKSLDAATNLKLEDFRCRFLSVDDI---WIPLTESLLIERFKPVWNRVLDGFGNHDPGKGRHRGRMPLWDCLHPGRAWAERLQPCAFTAEELEQRVREYL</Hsp_hseq>
+      <Hsp_midline>PP+ F GAGVYA+YY+G+ P Y+  A+ NR   Y  PIYVGKAVP G R+    D+ ++  T LF RL +H++S+ A ++L   DF CRF+  +      I   E+ LI+  KP+WN  +DGFGNHDPGKGR+      WD LH GR WA+RL     + E + + +  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|489898151|ref|WP_003801593.1|</Hit_id>
+  <Hit_def>hypothetical protein [Alcaligenes faecalis] &gt;gi|393163196|gb|EJC63250.1| hypothetical protein QWA_06565 [Alcaligenes faecalis subsp. faecalis NCIB 8687]</Hit_def>
+  <Hit_accession>WP_003801593</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>2.1676e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>NFDRSKHIYHNEAFV--ELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGN-NPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTH</Hsp_qseq>
+      <Hsp_hseq>TFDSSDHVLPIDAELIDRILIPAANYFDATARYPLEQLPMFEGVGVYAIYVRPDADTIYR-----DVLHEEYPIYVGKAVPSGSRQGRST----TSNRQLRSRLMEHRRSIEQ-GGMPASAFYCRFMIMQGLGEDLIPAMESTLIRRYHPIWNSYIDGFGIHTPGAGRFNQQPSEWDTLHPGRPWLDKLTGAPRDKALILKKIKSY</Hsp_hseq>
+      <Hsp_midline> FD S H+   +A +   ++  A  +F  T  + L     F+G GVYAIY   + + +Y+     + L    PIYVGKAVP G RQ R++      + +L  RL EH RSI     +  S F CRF+I +G G D+I  +E+ LI+ + P+WNS +DGFG H PG GR+ Q  S+WD LH GR W D+L G P     IL+ I ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|648264138|ref|WP_026045287.1|</Hit_id>
+  <Hit_def>restriction endonuclease Eco29kI [Burkholderia pyrrocinia]</Hit_def>
+  <Hit_accession>WP_026045287</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>1.44809e-38</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>KQFKGAGVYAIYYIGNNPLYKQYADWNRLS-YNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEII</Hsp_qseq>
+      <Hsp_hseq>KQFFGVGIYAIYYTGDFGPYAPLAERNRNGLFQVPIYVGKAIPRGARKGGGVGEV--QSRSLYDRLREHAESVTLASNLDIKDFYCRFLVVDDI---WIPLGESLLIAKFAPLWNSSIDGFGNHDPGSGRYKGLRPRWDVLHPGRAWADKCQPREETQEHIARDVSNYFMTI</Hsp_hseq>
+      <Hsp_midline>KQF G G+YAIYY G+   Y   A+ NR   +  PIYVGKA+P+G R+         QS  L+ RL+EH+ S+   S+LD  DF CRF++ +      I   E+ LI    PLWNS +DGFGNHDPG GRY+  +  WDVLH GR WAD+      + E I  +++ +   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|740928111|ref|WP_038713193.1|</Hit_id>
+  <Hit_def>restriction endonuclease Eco29kI [Burkholderia thailandensis]</Hit_def>
+  <Hit_accession>WP_038713193</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>1.47202e-38</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>KQFKGAGVYAIYYIGNNPLYKQYADWNRL-SYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIK</Hsp_qseq>
+      <Hsp_hseq>KQFMGVGIYAIYYTGDFEPYEPLAAQNRDDAFHAPIYVGKAVPKGARKGGGVGEV--RSRALYDRLREHAESVEFAQNLDIKDFFCRFLVVDDI---WIPLGESLLIAKFSPLWNQLIDGFGNHDPGKGRYEGLCPRWDVLHPGRAWATKCKQREETQEQIIRDVHNYFATFQ</Hsp_hseq>
+      <Hsp_midline>KQF G G+YAIYY G+   Y+  A  NR  +++APIYVGKAVPKG R+         +S  L+ RL+EH+ S+    +LD  DF CRF++ +      I   E+ LI    PLWN  +DGFGNHDPGKGRYE     WDVLH GR WA +      + E I+ +++ +    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|584108550|gb|AHI80168.1|</Hit_id>
+  <Hit_def>eco29kIR domain protein [Burkholderia thailandensis E444] &gt;gi|655539196|gb|AIC88372.1| eco29kIR domain protein [Burkholderia thailandensis USAMRU Malaysia #20]</Hit_def>
+  <Hit_accession>AHI80168</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>1.77812e-38</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>KQFKGAGVYAIYYIGNNPLYKQYADWNRL-SYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEIIK</Hsp_qseq>
+      <Hsp_hseq>KQFMGVGIYAIYYTGDFEPYEPLAAQNRDDAFHAPIYVGKAVPKGARKGGGVGEV--RSRALYDRLREHAESVEFAQNLDIKDFFCRFLVVDDI---WIPLGESLLIAKFSPLWNQLIDGFGNHDPGKGRYEGLCPRWDVLHPGRAWATKCKQREETQEQIIRDVHNYFATFQ</Hsp_hseq>
+      <Hsp_midline>KQF G G+YAIYY G+   Y+  A  NR  +++APIYVGKAVPKG R+         +S  L+ RL+EH+ S+    +LD  DF CRF++ +      I   E+ LI    PLWN  +DGFGNHDPGKGRYE     WDVLH GR WA +      + E I+ +++ +    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|516382176|ref|WP_017772209.1|</Hit_id>
+  <Hit_def>type II restriction endonuclease Eco29kI [Burkholderia kururiensis]</Hit_def>
+  <Hit_accession>WP_017772209</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>2.52185e-38</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>KQFKGAGVYAIYYIGNNPLYKQYADWNR-LSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEII</Hsp_qseq>
+      <Hsp_hseq>KQFIGVGIYAIYYVGDFDAYAPLAERNRNGAFQAPIYVGKAVPKGARKGGGVGEV--RSKALYDRLREHAESVQLAANLNIKDFFCRFLVVDDI---WIPLGESLLIAKFAPLWNALIDGFGNHDPGSGRYNGLRPRWDVLHPGRAWAEKCRTREETQEHIIRDVRNYFATI</Hsp_hseq>
+      <Hsp_midline>KQF G G+YAIYY+G+   Y   A+ NR  ++ APIYVGKAVPKG R+         +S  L+ RL+EH+ S+   ++L+  DF CRF++ +      I   E+ LI    PLWN+ +DGFGNHDPG GRY   +  WDVLH GR WA++      + E I+ ++  +   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|512630407|ref|WP_016460443.1|</Hit_id>
+  <Hit_def>hypothetical protein [Actinomyces sp. HPA0247] &gt;gi|512074485|gb|EPD73737.1| hypothetical protein HMPREF1478_00448 [Actinomyces sp. HPA0247]</Hit_def>
+  <Hit_accession>WP_016460443</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>2.86037e-38</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>EAFVELVKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLE</Hsp_qseq>
+      <Hsp_hseq>ENLAESIVHALHLQDPVPLALVP---EFDGAGVYALYYHGKFPAYKALAAVNAEKLIEPIYIGKASPSG---ARKGIELATQTTALTKRLKDHRKSIEAAINLNIEDFSARWLVMEDV---WIALGESAMIRRHQPVWNARIDGFGNHAPGRGRAKGARPQWDTLHPGRAWAEALPSALKSADELLQDVQEYLD</Hsp_hseq>
+      <Hsp_midline>E   E +  A+      P+  +P   +F GAGVYA+YY G  P YK  A  N      PIY+GKA P G   AR       Q+T L  RLK+H +SI A  +L+  DF  R+++ E      I   E+A+I+ H+P+WN+ +DGFGNH PG+GR + A+  WD LH GR WA+ L     S + +L+++  +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|502213062|ref|WP_012734253.1|</Hit_id>
+  <Hit_def>type II restriction endonuclease Eco29kI [Burkholderia glumae] &gt;gi|238025825|ref|YP_002910056.1| Eco29kI restriction endonuclease [Burkholderia glumae BGR1] &gt;gi|237875019|gb|ACR27352.1| Eco29kI restriction endonuclease [Burkholderia glumae BGR1]</Hit_def>
+  <Hit_accession>WP_012734253</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>4.0693e-38</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>KQFKGAGVYAIYYIGNNPLYKQYADWNR-LSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEII</Hsp_qseq>
+      <Hsp_hseq>KQFFGVGIYAIYYVGDFEAYAPLAERNRNGALQAPIYVGKAVPKGARKGGGVGEV--RSKALYDRLREHAESVQLATNLDIKDFVCRFLVVD---DIWIPLGESLLIAKFAPLWNALIDGFGNHDPGSGRYNGLRPRWDVLHPGRAWAEKCKAREETQGHIVRDVQNYFSTI</Hsp_hseq>
+      <Hsp_midline>KQF G G+YAIYY+G+   Y   A+ NR  +  APIYVGKAVPKG R+         +S  L+ RL+EH+ S+   ++LD  DF+CRF++ +      I   E+ LI    PLWN+ +DGFGNHDPG GRY   +  WDVLH GR WA++      +   I+ ++  +   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|740462151|ref|WP_038293579.1|</Hit_id>
+  <Hit_def>restriction endonuclease Eco29kI, partial [alpha proteobacterium L41A]</Hit_def>
+  <Hit_accession>WP_038293579</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>4.79699e-38</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>PVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNR-LSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLE</Hsp_qseq>
+      <Hsp_hseq>PIEPLAPVQPFEGAGIYAIYYTGDFPAYSKVADKNRDGAFALPIYIGKADPMGGR--RGGDFDAPHGRALWNRLADHAKSVAQADNLRSEDFACRFLAVDDV---WIRMAERMLISWHFPVWNLVVDGFGNHDPGGRRATQYRSPWDVLHPGRTWAVKLADSGVTPEDIAAKVAGHLE</Hsp_hseq>
+      <Hsp_midline>P+  L P + F+GAG+YAIYY G+ P Y + AD NR  ++  PIY+GKA P G R  R  D        L++RL +H++S+A   +L   DF CRF+  +      I   E  LI  H P+WN  VDGFGNHDPG  R  Q +S WDVLH GR WA +L     + E I   +  HLE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|748595092|ref|WP_039853272.1|</Hit_id>
+  <Hit_def>restriction endonuclease Eco29kI, partial [Hylemonella gracilis]</Hit_def>
+  <Hit_accession>WP_039853272</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>5.09633e-38</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>VKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYN---APIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEII</Hsp_qseq>
+      <Hsp_hseq>VAEALLGRKPHPLANLP---MFHGAGIYALYYGGDFAPYLSLSLRNRESDGNPIAPIYVGKAVPAGGRKGGALDQT-SKTKALWNRLNEHAESIAAASNLRIEDFQCRFLVVDDI---WIPLGESLLIAKFTPIWNALIDGFGNHDPGKGRYNGMQPKWDVLHPGRAWALKCQPRPESAEQIAREAKDHLESI</Hsp_hseq>
+      <Hsp_midline>V +A+      P+  LP    F GAG+YA+YY G+   Y   +  NR S     APIYVGKAVP G R+    D   +++  L++RL EH+ SIAA S+L   DF CRF++ +      I   E+ LI    P+WN+ +DGFGNHDPGKGRY   +  WDVLH GR WA +    P S E I      HLE I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|332040041|gb|EGI76426.1|</Hit_id>
+  <Hit_def>hypothetical protein HGR_11087 [Hylemonella gracilis ATCC 19624]</Hit_def>
+  <Hit_accession>EGI76426</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>6.27059e-38</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>VKDAIRFFHGTPVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNRLSYN---APIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEII</Hsp_qseq>
+      <Hsp_hseq>VAEALLGRKPHPLANLP---MFHGAGIYALYYGGDFAPYLSLSLRNRESDGNPIAPIYVGKAVPAGGRKGGALDQT-SKTKALWNRLNEHAESIAAASNLRIEDFQCRFLVVD---DIWIPLGESLLIAKFTPIWNALIDGFGNHDPGKGRYNGMQPKWDVLHPGRAWALKCQPRPESAEQIAREAKDHLESI</Hsp_hseq>
+      <Hsp_midline>V +A+      P+  LP    F GAG+YA+YY G+   Y   +  NR S     APIYVGKAVP G R+    D   +++  L++RL EH+ SIAA S+L   DF CRF++ +      I   E+ LI    P+WN+ +DGFGNHDPGKGRY   +  WDVLH GR WA +    P S E I      HLE I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|550978838|ref|WP_022726949.1|</Hit_id>
+  <Hit_def>type II restriction endonuclease Eco29kI [Fodinicurvata sediminis]</Hit_def>
+  <Hit_accession>WP_022726949</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>6.52901e-38</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>KQFKGAGVYAIYYIGNNPLYKQYADWNRLS-YNAPIYVGKAVPKGWRQARNSDNALNQ-STELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHL</Hsp_qseq>
+      <Hsp_hseq>ESFEGAGVYALYYTGPFEPYRPMAERNKEGRFEWPIYVGEAMPKGSRKG--TDNLDDPPGAVLFKRLKDHRKSIQQAENLETWDFFCRYLSVE---QHFISLGEALLISKFAPLWNKFIDGFGNHNPGKGRHAGLRPRWDVLHPGRPWTLNLQGRPETYEQIVAEIETHL</Hsp_hseq>
+      <Hsp_midline>+ F+GAGVYA+YY G    Y+  A+ N+   +  PIYVG+A+PKG R+   +DN  +     LF RLK+H +SI    +L+  DF CR++  E      I   EA LI    PLWN  +DGFGNH+PGKGR+   +  WDVLH GR W   L G P +YE I+  I THL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|491165780|ref|WP_005024151.1|</Hit_id>
+  <Hit_def>type II restriction endonuclease Eco29kI [Bilophila wadsworthia] &gt;gi|316924889|gb|EFV46036.1| hypothetical protein HMPREF0179_00160 [Bilophila wadsworthia 3_1_6]</Hit_def>
+  <Hit_accession>WP_005024151</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>1.19188e-37</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PVHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNR-LSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLEII</Hsp_qseq>
+      <Hsp_hseq>PIFPLGGLESFNGAGIYAIYYTGDFEAYTPLSAKNKDGEFNMPIYVGKAVPPGARKGNFGLDS-EPGPSLYKRLQEHAESIATVENLRIEDFFCRFLVVDDI---WIPLGESLLIAKFSPVWNKLIDGFGNHDPGKGRYEGARPKWDTLHPGRNWANKCATRAESVEQIIQEIQAYFRGI</Hsp_hseq>
+      <Hsp_midline>P+  L   + F GAG+YAIYY G+   Y   +  N+   +N PIYVGKAVP G R+     ++      L+ RL+EH+ SIA V +L   DF CRF++ +      I   E+ LI    P+WN  +DGFGNHDPGKGRYE A+  WD LH GR WA++      S E I++ I  +   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|446069243|ref|WP_000147098.1|</Hit_id>
+  <Hit_def>type II restriction endonuclease Eco29kI [Escherichia coli] &gt;gi|331035990|gb|EGI08228.1| Eco29kI restriction endonuclease superfamily protein [Escherichia coli H736] &gt;gi|377864980|gb|EHU29772.1| eco29kI restriction endonuclease family protein [Escherichia coli DEC1D] &gt;gi|553616558|gb|ESD36446.1| Eco29kI restriction endonuclease [Escherichia coli 907889] &gt;gi|554721529|gb|ESK26834.1| hypothetical protein G966_04952 [Escherichia coli UMEA 3323-1] &gt;gi|650068201|gb|KDT90310.1| eco29kI restriction endonuclease family protein [Escherichia coli 3-105-05_S4_C1]</Hit_def>
+  <Hit_accession>WP_000147098</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>1.62649e-37</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>VHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNR-LSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLE</Hsp_qseq>
+      <Hsp_hseq>AHPLEELTSFQGAGIYAIYYTGDHPAYRQLAELNRDGQFRLPIYVGKAVPAGARMGLTNPDKVGNV--LFRRLKEHAESIRAAENLSIEDFYCRFLVVDDI---WIPLGESLVISRFKPIWNSSIDGFGNHDPGKHRYTGLRPRWDFMHPGRGWAQNLRERDETVDELIRDSIQYLQ</Hsp_hseq>
+      <Hsp_midline> H L     F+GAG+YAIYY G++P Y+Q A+ NR   +  PIYVGKAVP G R    + + +     LF RLKEH+ SI A  +L   DF CRF++ +      I   E+ +I   KP+WNS +DGFGNHDPGK RY   +  WD +H GR WA  L     + + ++ +   +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|749666289|ref|WP_040265368.1|</Hit_id>
+  <Hit_def>restriction endonuclease Eco29kI [Serratia symbiotica] &gt;gi|669018991|emb|CDS57739.1| Eco29kI restriction endonuclease family protein [Serratia symbiotica]</Hit_def>
+  <Hit_accession>WP_040265368</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>2.65187e-37</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>VHTLPPPKQFKGAGVYAIYYIGNNPLYKQYADWNR-LSYNAPIYVGKAVPKGWRQARNSDNALNQSTELFHRLKEHSRSIAAVSDLDPSDFMCRFVIFEGAGSDMIGTIEAALIKLHKPLWNSCVDGFGNHDPGKGRYEQAKSDWDVLHSGRVWADRLNGIPNSYESILENINTHLE</Hsp_qseq>
+      <Hsp_hseq>AHPLEELTSFLGAGIYAIYYTGDHPAYAQLAELNRDGQFRLPIYVGKAVPAGARMGLTNPDKVGNV--LFRRLKEHAESVRAAENLSIEDFYCRFLVVDDIS---IPLGESLVISRFKPIWNSSIDGFGNHDPGKHRYTGLRPRWDFMHPGRGWAQNLRERDETVDELIRDARQYLQ</Hsp_hseq>
+      <Hsp_midline> H L     F GAG+YAIYY G++P Y Q A+ NR   +  PIYVGKAVP G R    + + +     LF RLKEH+ S+ A  +L   DF CRF++ +      I   E+ +I   KP+WNS +DGFGNHDPGK RY   +  WD +H GR WA  L     + + ++ +   +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

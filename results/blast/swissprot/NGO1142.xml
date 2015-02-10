@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>59183</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7B1</BlastOutput_query-def>
+  <BlastOutput_query-len>92</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>59183</Iteration_query-ID>
+  <Iteration_query-def>Q5F7B1</Iteration_query-def>
+  <Iteration_query-len>92</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|25008866|sp|Q8K9X8.1|NUOK_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit K; AltName: Full=NADH dehydrogenase I subunit K; AltName: Full=NDH-1 subunit K [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K9X8</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.24434</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>NLYFSLVVPRIKENGQIIRPEYNGSMWKMSDGQPL</Hsp_qseq>
+      <Hsp_hseq>NILFMLISLEIMMNAAALALVVSGSYWKQSDGQIM</Hsp_hseq>
+      <Hsp_midline>N+ F L+   I  N   +    +GS WK SDGQ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|281312377|sp|B4EZ50.1|NUOK_PROMH</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit K; AltName: Full=NADH dehydrogenase I subunit K; AltName: Full=NDH-1 subunit K [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4EZ50</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.64047</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>VGNKCLEKHRAENLYFSLVVPRIKENGQIIRPEYNGSMWKMSDGQ---PLRLSLAECSPKDNLQSGLETGR</Hsp_qseq>
+      <Hsp_hseq>LGFTCLVLRR--NLLFMLIGLEIMINSAALAFVVGGSYWGQTDGQIMYILAISLAAAEASIGLALLLQLHR</Hsp_hseq>
+      <Hsp_midline>+G  CL   R  NL F L+   I  N   +     GS W  +DGQ    L +SLA       L   L+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|160380539|sp|A6NMN3.1|F170B_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative protein FAM170B [Homo sapiens]</Hit_def>
+  <Hit_accession>A6NMN3</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.47782</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>PRIKENGQIIRPEYNGSMWKMSDGQPLRLSL----AECSPK</Hsp_qseq>
+      <Hsp_hseq>PRIHEAQFIKRQRWNGSSFEMASNTDMRWDLEACKSNCSPE</Hsp_hseq>
+      <Hsp_midline>PRI E   I R  +NGS ++M+    +R  L    + CSP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|123808687|sp|Q197E9.1|011L_IIV3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein 011L [Invertebrate iridescent virus 3]</Hit_def>
+  <Hit_accession>Q197E9</Hit_accession>
+  <Hit_len>751</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.61808</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>380</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>VGNKCLEKHRAENLYFSLVVPRIKENGQIIRPEYNGSMWKMSDGQ</Hsp_qseq>
+      <Hsp_hseq>MGVKLLYRWRSSTTFYRAIVPEIDEPVQVMQDVLSSSEWAKFDSQ</Hsp_hseq>
+      <Hsp_midline>+G K L + R+   ++  +VP I E  Q+++   + S W   D Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|281312289|sp|C5B8H7.1|NUOK_EDWI9</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit K; AltName: Full=NADH dehydrogenase I subunit K; AltName: Full=NDH-1 subunit K [Edwardsiella ictaluri 93-146]</Hit_def>
+  <Hit_accession>C5B8H7</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.68135</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ENLYFSLVVPRIKENGQIIRPEYNGSMWKMSDGQP---LRLSLAECSPKDNLQSGLETGR</Hsp_qseq>
+      <Hsp_hseq>RNLLFMLISLEIMINAAALAFVVAGSVWGQADGQVMYILAISLAAAEASIGLALLLQLHR</Hsp_hseq>
+      <Hsp_midline> NL F L+   I  N   +     GS+W  +DGQ    L +SLA       L   L+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|308197136|sp|A8XYX3.2|MTR1B_CAEBR</Hit_id>
+  <Hit_def>RecName: Full=Inactive cap-specific mRNA (nucleoside-2&apos;-O-)-methyltransferase 1B; AltName: Full=Inactive cap1 2&apos;O-ribose methyltransferase 1B; Short=MTr1B [Caenorhabditis briggsae]</Hit_def>
+  <Hit_accession>A8XYX3</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.93983</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LEKHRAENLYFSLVVPRIKENGQIIRPEYNGSMWKM----SDGQPLRLSLAE</Hsp_qseq>
+      <Hsp_hseq>LQKFTASSAYFFETFYGTKKNGDVMDPENIDSLEKLISEGTDGQGVHLMMAD</Hsp_hseq>
+      <Hsp_midline>L+K  A + YF       K+NG ++ PE   S+ K+    +DGQ + L +A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|119368777|sp|Q0ID58.1|EFG_SYNS3</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor G; Short=EF-G [Synechococcus sp. CC9311]</Hit_def>
+  <Hit_accession>Q0ID58</Hit_accession>
+  <Hit_len>691</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>9.12655</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IRPEYNGSMWKMSDGQPLRLSLAECSPKDNLQSGLETGRIVFGVLASVYFVSLLKKVLK</Hsp_qseq>
+      <Hsp_hseq>VEPKTKGDMEKLSKAL---VSLAEEDPTFRVRTDQETGQTVIAGMGELHLEILVDRMLR</Hsp_hseq>
+      <Hsp_midline>+ P+  G M K+S      +SLAE  P   +++  ETG+ V   +  ++   L+ ++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|73620904|sp|Q9GV77.1|FREM2_LYTVA</Hit_id>
+  <Hit_def>RecName: Full=Extracellular matrix protein 3; AltName: Full=FREM2 homolog; Flags: Precursor [Lytechinus variegatus]</Hit_def>
+  <Hit_accession>Q9GV77</Hit_accession>
+  <Hit_len>3103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>9.25581</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>YFSLVVPRIKENGQIIRPEYNGSMWKMSDG</Hsp_qseq>
+      <Hsp_hseq>YIPLVVELQNQQGQVIKQEYFQSMVRIIDG</Hsp_hseq>
+      <Hsp_midline>Y  LVV    + GQ+I+ EY  SM ++ DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>9875</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7P2</BlastOutput_query-def>
+  <BlastOutput_query-len>163</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>9875</Iteration_query-ID>
+  <Iteration_query-def>Q5F7P2</Iteration_query-def>
+  <Iteration_query-len>163</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|254799596|sp|A5VJE6.1|GRPE_LACRD</Hit_id>
+  <Hit_def>RecName: Full=Protein GrpE; AltName: Full=HSP-70 cofactor [Lactobacillus reuteri DSM 20016] &gt;gi|254799597|sp|B2G6W2.1|GRPE_LACRJ RecName: Full=Protein GrpE; AltName: Full=HSP-70 cofactor [Lactobacillus reuteri JCM 1112]</Hit_def>
+  <Hit_accession>A5VJE6</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.045853</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>QSLKDYLARNMQAAGITEIKADDGTFKASFRKSEAVVILDEAQIP</Hsp_qseq>
+      <Hsp_hseq>QMVHDHLVKALNDHGITEIKADGETFDPTLHQAVQTVPVEEGQKP</Hsp_hseq>
+      <Hsp_midline>Q + D+L + +   GITEIKAD  TF  +  ++   V ++E Q P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|55583987|sp|Q9I969.1|TXLNB_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Beta-taxilin; AltName: Full=Muscle-derived protein 77 [Gallus gallus]</Hit_def>
+  <Hit_accession>Q9I969</Hit_accession>
+  <Hit_len>676</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0947378</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>TEREDTLEAVIGQFEVKAQSVIAYIKNQEITEKMLEGHIRQMTGKLKAAKARNQSLKDYL</Hsp_qseq>
+      <Hsp_hseq>TELAEKLKSIIDQYELREEHLDKIFKHRELQQKLVDAKLEQSQEMMKEAEERHQKEKEYL</Hsp_hseq>
+      <Hsp_midline>TE  + L+++I Q+E++ + +    K++E+ +K+++  + Q    +K A+ R+Q  K+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|226700445|sp|A9INS6.1|FABZ_BORPD</Hit_id>
+  <Hit_def>RecName: Full=3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ; AltName: Full=(3R)-hydroxymyristoyl-[acyl-carrier-protein] dehydratase; Short=(3R)-hydroxymyristoyl-ACP dehydrase; AltName: Full=Beta-hydroxyacyl-ACP dehydratase [Bordetella petrii DSM 12804]</Hit_def>
+  <Hit_accession>A9INS6</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.394162</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VKAQSVIAYIKNQEITEKMLEGHIRQ---MTGKLKAAKARNQSLKDYLARNMQAAGITEIKADDGTFKA-SFRKSEAVVILDEAQ-----IPAEFMREAVKTEPDKTAIRK----AIESGRQVAGAKI</Hsp_qseq>
+      <Hsp_hseq>VPGKSIVA-IKNVSINEPFFEGHFPHHPVMPGVL---------ITEAMA---QAAALFSFTDDDGGLKCDSAKTAYYLVGIDEARFRRPVVPGDQLRLEVQAERLSRAICKYQARALVDGQIVAEAKL</Hsp_hseq>
+      <Hsp_midline>V  +S++A IKN  I E   EGH      M G L         + + +A   QAA +     DDG  K  S + +  +V +DEA+     +P + +R  V+ E    AI K    A+  G+ VA AK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|55584162|sp|P40222.3|TXLNA_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Alpha-taxilin [Homo sapiens]</Hit_def>
+  <Hit_accession>P40222</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.46058</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>309</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>LEAVIGQFEVKAQSVIAYIKNQEITEKMLEGHIRQMTGKLKAAKARNQSLKDYL</Hsp_qseq>
+      <Hsp_hseq>LKKLIEQYELREEHIDKVFKHKDLQQQLVDAKLQQAQEMLKEAEERHQREKDFL</Hsp_hseq>
+      <Hsp_midline>L+ +I Q+E++ + +    K++++ +++++  ++Q    LK A+ R+Q  KD+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|6226224|sp|O59497.1|THIL_PYRHO</Hit_id>
+  <Hit_def>RecName: Full=Thiamine-monophosphate kinase; Short=TMP kinase; Short=Thiamine-phosphate kinase [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O59497</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.3951</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LEAVIGQFEVKAQSVIAYIKNQEITEKMLEGHIRQMTGKLKAAKARNQSLKDYLARNMQAAGITEIKADDGTFKASF---RKSEAVVILDEAQIPA-EFMREAVKTEPDKTAI</Hsp_qseq>
+      <Hsp_hseq>LVCVTGELGRPLTALLLWLKGEEIPPKILE-------------KAKNPKAREREGIELSNYANSAIDISDGLSKELWEIARSSNVRIVIDEDKIPVNEEVREIVK-DPIKIAL</Hsp_hseq>
+      <Hsp_midline>L  V G+      +++ ++K +EI  K+LE             KA+N   ++     +     + I   DG  K  +   R S   +++DE +IP  E +RE VK +P K A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|122945826|sp|Q0ID65.1|RNH2_SYNS3</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease HII; Short=RNase HII [Synechococcus sp. CC9311]</Hit_def>
+  <Hit_accession>Q0ID65</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.64087</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>LKDYLARNMQAAGITEIKADDGTFKASFRKSEAVVILDEAQIPAEFMREAVKTEPDKTAIRKAIESGRQVAGAKIEGRKNLQI</Hsp_qseq>
+      <Hsp_hseq>LSDHAAEHLQAAGLTDSKALTPSRRA------ALVPLIEAHAHAWGLGQSSARAVDRDGIRSATEQAMLCALQRLPCRPQLVL</Hsp_hseq>
+      <Hsp_midline>L D+ A ++QAAG+T+ KA   + +A      A+V L EA   A  + ++     D+  IR A E     A  ++  R  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|75333353|sp|Q9C566.1|CYP40_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase CYP40; Short=PPIase CYP40; AltName: Full=Cyclophilin of 40 kDa; Short=Cyclophilin-40; AltName: Full=Protein SQUINT; AltName: Full=Rotamase CYP40 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9C566</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.30634</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>IKADDGTFKASFRKSEAVVILDEAQIPAEFMREAVKTEPDKTAIRK</Hsp_qseq>
+      <Hsp_hseq>MRDEDNNVKALFRQGQAYMALNNVDAAAESLEKALQFEPNDAGIKK</Hsp_hseq>
+      <Hsp_midline>++ +D   KA FR+ +A + L+     AE + +A++ EP+   I+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|166222672|sp|A1S4P1.1|EFTS_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor Ts; Short=EF-Ts [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1S4P1</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.5658</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>TLYRCAADVQAGLDYYFDSETEREDTLEAVIGQFEVKAQSVIAYIKNQEITEKMLEGHIRQMTGKL</Hsp_qseq>
+      <Hsp_hseq>TLKHLAMHVAASKPEYVNPE---DVPAEVVAKEREVQVEIAINEGKPKEIAEKMVEGRMKKFTGEV</Hsp_hseq>
+      <Hsp_midline>TL   A  V A    Y + E   +   E V  + EV+ +  I   K +EI EKM+EG +++ TG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122275008|sp|Q049Z4.1|CCA_LACDB</Hit_id>
+  <Hit_def>RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl- transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT [Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365]</Hit_def>
+  <Hit_accession>Q049Z4</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.27694</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>FEVKAQSVIAYIKNQEITEKMLEGHIRQMTGKLKAAKARNQSLKDYLARNM------------QAAGITEIKA--DDGTFKASFRKSEAVVILDEAQIPAEFMR</Hsp_qseq>
+      <Hsp_hseq>FSLEEKTRQAIINNHELLSKISVERIREEFVKLALGKDSRQAFKDFLATGLSEECPGLAGKKDQLSVLTDLKAGPDD---EAVFWSLIAVLINLPADKISPFMR</Hsp_hseq>
+      <Hsp_midline>F ++ ++  A I N E+  K+    IR+   KL   K   Q+ KD+LA  +            Q + +T++KA  DD   +A F    AV+I   A   + FMR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|122397131|sp|Q1G9U3.1|CCA_LACDA</Hit_id>
+  <Hit_def>RecName: Full=CCA-adding enzyme; AltName: Full=CCA tRNA nucleotidyltransferase; AltName: Full=tRNA CCA-pyrophosphorylase; AltName: Full=tRNA adenylyl-/cytidylyl- transferase; AltName: Full=tRNA nucleotidyltransferase; AltName: Full=tRNA-NT [Lactobacillus delbrueckii subsp. bulgaricus ATCC 11842 = JCM 1002]</Hit_def>
+  <Hit_accession>Q1G9U3</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.33449</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>FEVKAQSVIAYIKNQEITEKMLEGHIRQMTGKLKAAKARNQSLKDYLARNM------------QAAGITEIKA--DDGTFKASFRKSEAVVILDEAQIPAEFMR</Hsp_qseq>
+      <Hsp_hseq>FSLEEKTRQAIINNHELLSKISVERIREEFVKLALGKDSRQAFKDFLATGLSEECPGLAGKKDQLSVLTDLKAGPDD---EAVFWSLIAVLINLPADKISPFMR</Hsp_hseq>
+      <Hsp_midline>F ++ ++  A I N E+  K+    IR+   KL   K   Q+ KD+LA  +            Q + +T++KA  DD   +A F    AV+I   A   + FMR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|254803469|sp|B9DPF5.1|IF2_STACT</Hit_id>
+  <Hit_def>RecName: Full=Translation initiation factor IF-2 [Staphylococcus carnosus subsp. carnosus TM300]</Hit_def>
+  <Hit_accession>B9DPF5</Hit_accession>
+  <Hit_len>707</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.34221</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>LDYYFDSETEREDTLE-----AVIGQFEVKAQSVIAYIKNQEITEKMLEGHIRQMTGKLKAAKARNQSLK-DYL------------ARNMQAAGIT--EIKADDGTFKASFRKSEAVVILDEAQIP</Hsp_qseq>
+      <Hsp_hseq>LDIYFDDEEEDPDAIERPAVVTIMGHVDHGKTTLLDSIRNTHVT----EGEAGGITQHIGAYQIENDGKKITFLDTPGHAAFTTMRARGAQVTDITILVVAADDGVMPQTI---EAINHAKEADVP</Hsp_hseq>
+      <Hsp_midline>LD YFD E E  D +E      ++G  +    +++  I+N  +T    EG    +T  + A +  N   K  +L            AR  Q   IT   + ADDG    +    EA+    EA +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|171704253|sp|A6VME8.1|EFTS_ACTSZ</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor Ts; Short=EF-Ts [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VME8</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.25175</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>KNQEITEKMLEGHIRQMTGKLKAAKA-----RNQSLKDYLARNMQAAGIT</Hsp_qseq>
+      <Hsp_hseq>KPREIAEKMVEGRMRKFTGEVSLTGQPFVMDPSQSVGDFL----KAAGAT</Hsp_hseq>
+      <Hsp_midline>K +EI EKM+EG +R+ TG++           +QS+ D+L    +AAG T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|226740502|sp|B4RBZ3.1|EFTS_PHEZH</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor Ts; Short=EF-Ts [Phenylobacterium zucineum HLK1]</Hit_def>
+  <Hit_accession>B4RBZ3</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.34637</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>EAVIGQFEVKAQSVIAYIKNQEITEKMLEGHIRQM</Hsp_qseq>
+      <Hsp_hseq>EAVAKEREIQTQTAMESGKPREIAEKMVEGRIRKW</Hsp_hseq>
+      <Hsp_midline>EAV  + E++ Q+ +   K +EI EKM+EG IR+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|52782891|sp|Q74IT5.1|GRPE_LACJO</Hit_id>
+  <Hit_def>RecName: Full=Protein GrpE; AltName: Full=HSP-70 cofactor [Lactobacillus johnsonii NCC 533]</Hit_def>
+  <Hit_accession>Q74IT5</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.84936</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>DYLARNMQAAGITEIKADDGTFKASFRKS</Hsp_qseq>
+      <Hsp_hseq>DSLVKSMKDQGITEIKAEGETFDPSLHQA</Hsp_hseq>
+      <Hsp_midline>D L ++M+  GITEIKA+  TF  S  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

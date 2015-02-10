@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>903</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7I0</BlastOutput_query-def>
+  <BlastOutput_query-len>539</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>903</Iteration_query-ID>
+  <Iteration_query-def>Q5F7I0</Iteration_query-def>
+  <Iteration_query-len>539</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81859206|sp|Q9X1R4.1|SECA_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecA [Thermotoga maritima MSB8] &gt;gi|172047879|sp|A5IM05.1|SECA_THEP1 RecName: Full=Protein translocase subunit SecA [Thermotoga petrophila RKU-1]</Hit_def>
+  <Hit_accession>Q9X1R4</Hit_accession>
+  <Hit_len>871</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0694589</Hsp_evalue>
+      <Hsp_query-from>404</Hsp_query-from>
+      <Hsp_query-to>509</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>SNYFKIIEEENSQLLKLIDKHSIASTQYFPIYGFSRICSDIHKEAVLK-------RQQKEKLDHFIEEINRRCKNNHSSI---QSILDDENISDTYKNDAIAWGIWNNQLSEDEVE</Hsp_qseq>
+      <Hsp_hseq>QNYFRMYE----KLAGMTGTAKTEESEFVQVYGMEVVVIPTHKPMIRKDHDDLVFRTQKEKYEKIVEEIEKRYKKGQPVLVGTTSIEKSELLSSMLKKKGIPHQVLNAKYHEKEAE</Hsp_hseq>
+      <Hsp_midline> NYF++ E    +L  +        +++  +YG   +    HK  + K       R QKEK +  +EEI +R K     +    SI   E +S   K   I   + N +  E E E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|226732258|sp|B1LB87.1|SECA_THESQ</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecA [Thermotoga sp. RQ2]</Hit_def>
+  <Hit_accession>B1LB87</Hit_accession>
+  <Hit_len>871</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0789863</Hsp_evalue>
+      <Hsp_query-from>404</Hsp_query-from>
+      <Hsp_query-to>509</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>SNYFKIIEEENSQLLKLIDKHSIASTQYFPIYGFSRICSDIHKEAVLK-------RQQKEKLDHFIEEINRRCKNNHSSI---QSILDDENISDTYKNDAIAWGIWNNQLSEDEVE</Hsp_qseq>
+      <Hsp_hseq>QNYFRMYE----KLAGMTGTAKTEESEFVQVYGMEVVVIPTHKPMIRKDHDDLVFRTQKEKYEKIVEEIEKRYKKGQPVLVGTTSIEKSELLSSILKKKGIPHQVLNAKYHEKEAE</Hsp_hseq>
+      <Hsp_midline> NYF++ E    +L  +        +++  +YG   +    HK  + K       R QKEK +  +EEI +R K     +    SI   E +S   K   I   + N +  E E E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|254767936|sp|B9K8Q4.1|SECA_THENN</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecA [Thermotoga neapolitana DSM 4359]</Hit_def>
+  <Hit_accession>B9K8Q4</Hit_accession>
+  <Hit_len>871</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.327466</Hsp_evalue>
+      <Hsp_query-from>404</Hsp_query-from>
+      <Hsp_query-to>509</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>SNYFKIIEEENSQLLKLIDKHSIASTQYFPIYGFSRICSDIHKEAVLK-------RQQKEKLDHFIEEINRRCKNNHSSI---QSILDDENISDTYKNDAIAWGIWNNQLSEDEVE</Hsp_qseq>
+      <Hsp_hseq>QNYFRMYE----KLAGMTGTAKTEENEFVQVYGMEVVVIPTHRPMIRKDHDDLVFRTQKEKYEKIVEEIEKRYKKGQPVLVGTTSIEKSELLSSMLKKKGIPHQVLNAKHHEKEAE</Hsp_hseq>
+      <Hsp_midline> NYF++ E    +L  +         ++  +YG   +    H+  + K       R QKEK +  +EEI +R K     +    SI   E +S   K   I   + N +  E E E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|128256|sp|P08293.1|NIFE_AZOVI</Hit_id>
+  <Hit_def>RecName: Full=Nitrogenase iron-molybdenum cofactor biosynthesis protein NifE [Azotobacter vinelandii]</Hit_def>
+  <Hit_accession>P08293</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.84428</Hsp_evalue>
+      <Hsp_query-from>360</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>329</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>IYTGGNIKVSFTEDMDNLNNSDKVVAIGSTKTISYNFQTTSEMMSNYFKIIEEENSQ-LLKLIDKH</Hsp_qseq>
+      <Hsp_hseq>LYTGGVKSWSVVSPLQDLGM--KVVATGTKKSTEEDKARIRELMGDDVKMLDEGNARVLLKTVDEY</Hsp_hseq>
+      <Hsp_midline>+YTGG    S    + +L    KVVA G+ K+   +     E+M +  K+++E N++ LLK +D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|341941058|sp|Q9R002.3|IFI2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Interferon-activable protein 202; Short=Ifi-202; AltName: Full=Interferon-inducible protein p202; AltName: Full=Lupus susceptibility protein p202 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9R002</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>3.51464</Hsp_evalue>
+      <Hsp_query-from>382</Hsp_query-from>
+      <Hsp_query-to>537</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>KVVAIGSTKTISYN-------FQTTSEMMSNYFKIIEEENSQLLKLIDKHSIASTQYFPIYGFSRICSDIHKEAVLKRQQKEKL----DHFIEEINRRCKNNHSSIQSILDDE--NISDTYKNDAIAWGIWNNQLSEDEVENYLKNFVNKKNTHYKRLLCMFDYKKYAD</Hsp_qseq>
+      <Hsp_hseq>QVVALKATKLFTYDSIKSKKMFHATVATDTEFFRVMVFEENLEKKFIPGNTIALSDYFGMYG-SLAIHEYSSVSEVKSQNKEDSSSSDERLIEHL-KICDLHLQTKERLVDGEFKVYRKSTGNNCICYGIWDDTGAMKVVVSGQLTSVNCEIGNTIRLVC-FELTSNAD</Hsp_hseq>
+      <Hsp_midline>+VVA+ +TK  +Y+       F  T    + +F+++  E +   K I  ++IA + YF +YG S    +    + +K Q KE      +  IE + + C  +  + + ++D E      +  N+ I +GIW++  +   V +     VN +  +  RL+C F+    AD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|61215014|sp|Q6GER9.3|PTMA_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Mannitol-specific phosphotransferase enzyme IIA component; AltName: Full=EIIA-Mtl; AltName: Full=EIII-Mtl; AltName: Full=PTS system mannitol-specific EIIA component [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GER9</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.82719</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>IGTGMSLRYLDNSYTWDGLLSKIAIDLFGDDREYLNIKSR----YCEDG---RFQYEEIAEELQSKFDK</Hsp_qseq>
+      <Hsp_hseq>IHSGLTLLQIPEGVDWDGEVVKVVVGIAGKDGEHLDLLSKIAITFSEEGNVDRIVQAKSAEEIKQVFEE</Hsp_hseq>
+      <Hsp_midline>I +G++L  +     WDG + K+ + + G D E+L++ S+    + E+G   R    + AEE++  F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|118888|sp|P27172.1|DPOL_MUHVS</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase catalytic subunit [Murine cytomegalovirus (strain Smith)]</Hit_def>
+  <Hit_accession>P27172</Hit_accession>
+  <Hit_len>1097</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>4.2169</Hsp_evalue>
+      <Hsp_query-from>210</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>PYGSVYKIHGCVDDPSKIIITKKDYEKFKEKYELIRAQLLSLFIHNPIIFLGYNVGDENIKEILKTIFTYVEQNSPSANKIRRNFLLVEYEPE</Hsp_qseq>
+      <Hsp_hseq>PENHLFTIGPCAPIPDVKIYT------FPSEYEMLRGFFIFLSWYSPEFITGYNINGFDIKYILTRAEKLYKMDVGQFTKLRRGGRMFVFSPE</Hsp_hseq>
+      <Hsp_midline>P   ++ I  C   P   I T      F  +YE++R   + L  ++P    GYN+   +IK IL       + +     K+RR   +  + PE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75138548|sp|Q766Z3.1|REV3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase zeta catalytic subunit; AltName: Full=Protein reversionless 3-like; Short=AtREV3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q766Z3</Hit_accession>
+  <Hit_len>1890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>4.57109</Hsp_evalue>
+      <Hsp_query-from>370</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>605</Hsp_hit-from>
+      <Hsp_hit-to>683</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>FTEDMDNLNNSDKVVAIGSTKTISYNFQTTSEMMSNYFKIIEEENSQLLKLIDKHSIASTQYFPIYGFSRICSDIHKEAVLKRQQKEK</Hsp_qseq>
+      <Hsp_hseq>LQKDFDSTNASDK---LGLTKISSYPM---NEMTDNYIVPVKEHQADVCNTIDRNVLAGCSLRDLMRKKRLC---HGESPVSQHMKSR</Hsp_hseq>
+      <Hsp_midline>  +D D+ N SDK   +G TK  SY     +EM  NY   ++E  + +   ID++ +A      +    R+C   H E+ + +  K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254781365|sp|B3DWU2.1|DNLJ_METI4</Hit_id>
+  <Hit_def>RecName: Full=DNA ligase; AltName: Full=Polydeoxyribonucleotide synthase [Methylacidiphilum infernorum V4]</Hit_def>
+  <Hit_accession>B3DWU2</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>4.79114</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>PIYGFSRICSDIHKEAVLKRQQKEKLDHFIEEINRRCKNNHSS--IQSILDDENISDTYKNDAIAWGI--WNNQLSEDEVEN</Hsp_qseq>
+      <Hsp_hseq>PLSGFSQVTHEIPMLSLENTYSKEELFAFLERIKRALPGKKISFTVEPKIDGVSISAVYKNGLFSLGATRGNGTVGDDITQN</Hsp_hseq>
+      <Hsp_midline>P+ GFS++  +I   ++     KE+L  F+E I R       S  ++  +D  +IS  YKN   + G    N  + +D  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|259645696|sp|Q4JQX9.2|DEN_VZVO</Hit_id>
+  <Hit_def>RecName: Full=Deneddylase; AltName: Full=Ubiquitin thioesterase [Human herpesvirus 3 strain Oka vaccine]</Hit_def>
+  <Hit_accession>Q4JQX9</Hit_accession>
+  <Hit_len>2763</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>6.01687</Hsp_evalue>
+      <Hsp_query-from>362</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>1158</Hsp_hit-from>
+      <Hsp_hit-to>1253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>TGGNIKVSFTEDMDNLNNSDKVVAIGSTKTISYNFQTTSEMMSNYFKIIEEENSQLLKLIDKHSIASTQYFPIYGFSRICSDIHKEAVLKRQQKEKLDHFIEEINRRCKNNHSSI</Hsp_qseq>
+      <Hsp_hseq>SSGHLKFISSSNVDDYEINDAILSI----------QTNVHALMDTVKLVEVE----LQKLPPHCIAGTS-----TLSRVVKDLHKLVTMAHEKKEQAKVLITDCERAHKQQTTRV</Hsp_hseq>
+      <Hsp_midline>+ G++K   + ++D+   +D +++I          QT    + +  K++E E    L+ +  H IA T        SR+  D+HK   +  ++KE+    I +  R  K   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|56405023|sp|P68730.1|DEGR_BACNA</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein DegR [Bacillus subtilis subsp. natto] &gt;gi|56405024|sp|P68731.1|DEGR_BACSU RecName: Full=Regulatory protein DegR [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P68730</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.40506</Hsp_evalue>
+      <Hsp_query-from>437</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>FSRICSDIHKEAVLKRQQKEKLDHFIEEINRRCKNNHSSIQ</Hsp_qseq>
+      <Hsp_hseq>FIEIYSDLEELADIAKKGKPSMEKYVEEIEQRCKQNILAIE</Hsp_hseq>
+      <Hsp_midline>F  I SD+ + A + ++ K  ++ ++EEI +RCK N  +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|135579|sp|P09278.1|DEN_VZVD</Hit_id>
+  <Hit_def>RecName: Full=Deneddylase; AltName: Full=Ubiquitin thioesterase [Human herpesvirus 3 strain Dumas]</Hit_def>
+  <Hit_accession>P09278</Hit_accession>
+  <Hit_len>2763</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>6.60693</Hsp_evalue>
+      <Hsp_query-from>362</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>1158</Hsp_hit-from>
+      <Hsp_hit-to>1253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>TGGNIKVSFTEDMDNLNNSDKVVAIGSTKTISYNFQTTSEMMSNYFKIIEEENSQLLKLIDKHSIASTQYFPIYGFSRICSDIHKEAVLKRQQKEKLDHFIEEINRRCKNNHSSI</Hsp_qseq>
+      <Hsp_hseq>SSGHLKFISSSNVDDYEINDAILSI----------QTNVHALMDTVKLVEVE----LQKLPPHCIAGTS-----TLSRVVKDLHKLVTMAHEKKEQAKVLITDCERAHKQQTTRV</Hsp_hseq>
+      <Hsp_midline>+ G++K   + ++D+   +D +++I          QT    + +  K++E E    L+ +  H IA T        SR+  D+HK   +  ++KE+    I +  R  K   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|14195041|sp|Q9K680.1|PTMA_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Mannitol-specific phosphotransferase enzyme IIA component; AltName: Full=EIIA-Mtl; AltName: Full=EIII-Mtl; AltName: Full=PTS system mannitol-specific EIIA component [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K680</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.22294</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>IGTGMSLRYLDNSYTWDGLLSKIAIDLFGDDREYLNIKSRYCEDGRFQYEEIAEELQS</Hsp_qseq>
+      <Hsp_hseq>IHSGMSVLVFDDPVDWDGQEVRVVIGIAGKGTEHLDILSKIAIT--FSEEENVERLLS</Hsp_hseq>
+      <Hsp_midline>I +GMS+   D+   WDG   ++ I + G   E+L+I S+      F  EE  E L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>48765</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F828</BlastOutput_query-def>
+  <BlastOutput_query-len>244</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>48765</Iteration_query-ID>
+  <Iteration_query-def>Q5F828</Iteration_query-def>
+  <Iteration_query-len>244</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489789453|ref|WP_003693344.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria gonorrhoeae] &gt;gi|59801359|ref|YP_208071.1| DNA polymerase III subunit epsilon [Neisseria gonorrhoeae FA 1090] &gt;gi|59718254|gb|AAW89659.1| putative DNA polymerase III, epsilon chain [Neisseria gonorrhoeae FA 1090] &gt;gi|268550822|gb|EEZ45841.1| DNA polymerase III, epsilon subunit [Neisseria gonorrhoeae FA19] &gt;gi|636862132|gb|KDM99254.1| DNA polymerase III subunit epsilon [Neisseria gonorrhoeae] &gt;gi|654607245|gb|KEC87728.1| DNA polymerase III subunit epsilon [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003693344</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>499.975</Hsp_bit-score>
+      <Hsp_score>1286</Hsp_score>
+      <Hsp_evalue>1.91448e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_hseq>
+      <Hsp_midline>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489784430|ref|WP_003688321.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria gonorrhoeae] &gt;gi|194098390|ref|YP_002001448.1| putative DNA polymerase III, epsilon chain [Neisseria gonorrhoeae NCCP11945] &gt;gi|538321639|ref|YP_008502699.1| DNA polymerase III, epsilon subunit [Neisseria gonorrhoeae MS11] &gt;gi|193933680|gb|ACF29504.1| putative DNA polymerase III, epsilon chain [Neisseria gonorrhoeae NCCP11945] &gt;gi|226512621|gb|EEH61966.1| DNA polymerase subunit III [Neisseria gonorrhoeae 1291] &gt;gi|268548029|gb|EEZ43447.1| DNA polymerase III [Neisseria gonorrhoeae 35/02] &gt;gi|268582919|gb|EEZ47595.1| DNA polymerase III, epsilon subunit [Neisseria gonorrhoeae MS11] &gt;gi|268585278|gb|EEZ49954.1| DNA polymerase subunit III [Neisseria gonorrhoeae PID18] &gt;gi|268622229|gb|EEZ54629.1| DNA polymerase subunit III [Neisseria gonorrhoeae PID332] &gt;gi|268626697|gb|EEZ59097.1| DNA polymerase subunit III [Neisseria gonorrhoeae SK-93-1035] &gt;gi|291012491|gb|EFE04480.1| DNA polymerase subunit III [Neisseria gonorrhoeae DGI2] &gt;gi|291610634|gb|EFF39744.1| DNA polymerase III, epsilon subunit [Neisseria gonorrhoeae F62] &gt;gi|636863983|gb|KDN00945.1| DNA polymerase III subunit epsilon [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003688321</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.819</Hsp_bit-score>
+      <Hsp_score>1283</Hsp_score>
+      <Hsp_evalue>5.53384e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_hseq>
+      <Hsp_midline>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489794431|ref|WP_003698322.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria gonorrhoeae] &gt;gi|268587596|gb|EEZ52272.1| DNA polymerase subunit III [Neisseria gonorrhoeae PID1] &gt;gi|268624443|gb|EEZ56843.1| DNA polymerase subunit III [Neisseria gonorrhoeae SK-92-679]</Hit_def>
+  <Hit_accession>WP_003698322</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.278</Hsp_bit-score>
+      <Hsp_score>1279</Hsp_score>
+      <Hsp_evalue>2.17299e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEETTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_hseq>
+      <Hsp_midline>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEE TAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|498046124|ref|WP_010360280.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_010360280</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>8.81722e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAIAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEETTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_hseq>
+      <Hsp_midline>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLA+AREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEE TAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488169432|ref|WP_002240640.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|254670687|emb|CBA06809.1| DNA polymerase III, epsilon chain [Neisseria meningitidis alpha153] &gt;gi|402337257|gb|EJU72506.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM2657] &gt;gi|432271219|gb|ELL26345.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 77221]</Hit_def>
+  <Hit_accession>WP_002240640</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.641</Hsp_bit-score>
+      <Hsp_score>1241</Hsp_score>
+      <Hsp_evalue>1.65824e-170</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAEEEEPAAKPVASAEMKLGAKLKVIKADEAELAAHEKYLDGLGEACIWRKEAVPSENGGADA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE EEEEP AKPVASAEMKLGAKLKVIKADEAELAAHE+YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|488168730|ref|WP_002239938.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|402335399|gb|EJU70665.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 92045] &gt;gi|514069449|gb|EPF54364.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM134]</Hit_def>
+  <Hit_accession>WP_002239938</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>481.871</Hsp_bit-score>
+      <Hsp_score>1239</Hsp_score>
+      <Hsp_evalue>2.8035e-170</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAEEEEPAAKPVASAEMKLGAKLKVIKADEAELAAHGQYLDGLGEACIWRKEAVPSENGGADA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE EEEEP AKPVASAEMKLGAKLKVIKADEAELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488184974|ref|WP_002256182.1|</Hit_id>
+  <Hit_def>DNA polymerase III, epsilon subunit [Neisseria meningitidis] &gt;gi|485349634|gb|EOC11243.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 73704] &gt;gi|485394816|gb|EOC53160.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2003051]</Hit_def>
+  <Hit_accession>WP_002256182</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.945</Hsp_bit-score>
+      <Hsp_score>1234</Hsp_score>
+      <Hsp_evalue>1.54478e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEVEEKEPAAKPVASAEMKLGAKLKVIKADEAELAAHEKYLDGLGEACIWRKTQMPSENGGENA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE EE+EP AKPVASAEMKLGAKLKVIKADEAELAAHE+YLDGLGEACIWRK  +PSENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|503214067|ref|WP_013448728.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria lactamica] &gt;gi|313668102|ref|YP_004048386.1| DNA polymerase III subunit epsilon [Neisseria lactamica 020-06] &gt;gi|313005564|emb|CBN87000.1| DNA polymerase III, epsilon chain [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448728</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.174</Hsp_bit-score>
+      <Hsp_score>1232</Hsp_score>
+      <Hsp_evalue>3.54763e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEDEKEEPAAQPAVSAEMKRSAKLKVVKADEAELAAHEKYLDGLGESCIWRKEAVPSENGGENA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE E+EEP A+P  SAEMK  AKLKV+KADEAELAAHE+YLDGLGE+CIWRKEAVPSENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488163833|ref|WP_002235041.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|402316600|gb|EJU52143.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM255]</Hit_def>
+  <Hit_accession>WP_002235041</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.174</Hsp_bit-score>
+      <Hsp_score>1232</Hsp_score>
+      <Hsp_evalue>3.66599e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEVEEKEPAAKPVASAEMKLGAKLKVIKADEAELAAHGQYLDGLGEACIWRKEAVPSENGGADA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE EE+EP AKPVASAEMKLGAKLKVIKADEAELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|489770873|ref|WP_003674783.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria cinerea] &gt;gi|269146340|gb|EEZ72758.1| DNA polymerase III, epsilon subunit [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003674783</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.019</Hsp_bit-score>
+      <Hsp_score>1229</Hsp_score>
+      <Hsp_evalue>8.89226e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIKRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYIHPERDMPEEAARVHGLTIEVLEGKNAPPFARVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTITDTLSMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGEAEEEGPAAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGESCIWRKEAVPSENGGENA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLY+HPERDMPEEAARVHGLTI+VLE KNAPPFA VGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCT+TDTL+MAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMGE EEE P AKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGE+CIWRKEAVPSENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|489810022|ref|WP_003713879.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria lactamica] &gt;gi|309378712|emb|CBX22662.1| unnamed protein product [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003713879</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>477.248</Hsp_bit-score>
+      <Hsp_score>1227</Hsp_score>
+      <Hsp_evalue>1.99789e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEDEKEEPAAQPAVSAEMKRSAKLKVVKADEAELAAHEKYLDGLGESCIWRKEAVPSENGGENA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE E+EEP A+P  SAEMK  AKLKV+KADEAELAAHE+YLDGLGE+CIWRKEAVPSENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|489804850|ref|WP_003708726.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria lactamica] &gt;gi|269209492|gb|EEZ75947.1| DNA polymerase III, epsilon subunit [Neisseria lactamica ATCC 23970] &gt;gi|673469599|gb|KFJ36229.1| DNA polymerase III, epsilon subunit [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003708726</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.396</Hsp_bit-score>
+      <Hsp_score>1217</Hsp_score>
+      <Hsp_evalue>7.63012e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAAKVHGLTIEVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEDEKEEPAAQPAVSVEMKRSAKLKVVKADETELAAHEKYLDGLGESCIWRKEAVPSENGGENA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAA+VHGLTI+VLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE E+EEP A+P  S EMK  AKLKV+KADE ELAAHE+YLDGLGE+CIWRKEAVPSENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|518103388|ref|WP_019273596.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273596</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.389</Hsp_bit-score>
+      <Hsp_score>1204</Hsp_score>
+      <Hsp_evalue>5.67738e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIKRQIILDTETTGLYADGSDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAAKVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLSMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEDEKEEPAAQPVASAEMKRGAKLKVIKADEAELAEHEKYLDGLGDSCIWRKEAVPFENGGENA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADG DRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAA+VHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTL+MAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE E+EEP A+PVASAEMK GAKLKVIKADEAELA HE+YLDGLG++CIWRKEAVP ENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|488164766|ref|WP_002235974.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|402322391|gb|EJU57853.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM183] &gt;gi|402322623|gb|EJU58075.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM140] &gt;gi|402324555|gb|EJU59987.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM2781] &gt;gi|402329005|gb|EJU64368.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM576]</Hit_def>
+  <Hit_accession>WP_002235974</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.307</Hsp_bit-score>
+      <Hsp_score>1196</Hsp_score>
+      <Hsp_evalue>1.1121e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAEEEEPAAKPVASAEMKLGAKLKVIKADEAELAAHEKYLDGLGEACIWRKEAVPSENGGADA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE EEEEP AKPVASAEMKLGAKLKVIKADEAELAAHE+YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|488147182|ref|WP_002218390.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|218768496|ref|YP_002343008.1| DNA polymerase III subunit epsilon [Neisseria meningitidis Z2491] &gt;gi|254805280|ref|YP_003083501.1| DNA polymerase III subunit epsilon [Neisseria meningitidis alpha14] &gt;gi|385338330|ref|YP_005892203.1| DNA polymerase III subunit epsilon [Neisseria meningitidis WUE 2594] &gt;gi|121052504|emb|CAM08843.1| DNA polymerase III, epsilon chain [Neisseria meningitidis Z2491] &gt;gi|254668822|emb|CBA06831.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis alpha14] &gt;gi|319410744|emb|CBY91127.1| DNA polymerase III epsilon subunit [Neisseria meningitidis WUE 2594] &gt;gi|325127153|gb|EGC50103.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis N1568] &gt;gi|432209030|gb|ELK65001.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 88050] &gt;gi|432215018|gb|ELK70909.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 63041] &gt;gi|432246469|gb|ELL01916.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 63049] &gt;gi|432252383|gb|ELL07739.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2004090] &gt;gi|432252639|gb|ELL07991.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 96023] &gt;gi|432256142|gb|ELL11466.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 65014] &gt;gi|432258801|gb|ELL14082.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 97020] &gt;gi|432264251|gb|ELL19455.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3652] &gt;gi|432265589|gb|ELL20781.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3642] &gt;gi|432265788|gb|ELL20979.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2007056] &gt;gi|432270672|gb|ELL25808.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2001212] &gt;gi|432276900|gb|ELL31954.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 63006] &gt;gi|485281116|gb|EOB47252.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2000080] &gt;gi|485281369|gb|EOB47493.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 94018] &gt;gi|485287314|gb|EOB53060.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 75689] &gt;gi|485287701|gb|EOB53426.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 75643] &gt;gi|485293914|gb|EOB59230.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 97018] &gt;gi|485301193|gb|EOB66024.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 65012] &gt;gi|485301901|gb|EOB66687.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 64182] &gt;gi|485307129|gb|EOB71567.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 97027] &gt;gi|485308383|gb|EOB72728.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 96024] &gt;gi|485308963|gb|EOB73276.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 97008] &gt;gi|485313511|gb|EOB77541.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 98005] &gt;gi|485315186|gb|EOB79095.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2004085] &gt;gi|485315606|gb|EOB79490.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2003022] &gt;gi|485320213|gb|EOB83803.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2000063] &gt;gi|485321931|gb|EOB85395.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM604] &gt;gi|485322532|gb|EOB85962.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2002007] &gt;gi|485326852|gb|EOB90005.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM606] &gt;gi|485329087|gb|EOB92080.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM607] &gt;gi|610427334|gb|AHW76210.1| DNA polymerase III subunit epsilon [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002218390</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>1.79943e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAEEEEPAAKPVASAEMKLGAKLKVIKADEAELAAHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE EEEEP AKPVASAEMKLGAKLKVIKADEAELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|504394298|ref|WP_014581400.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|385850916|ref|YP_005897431.1| DNA polymerase III subunit epsilon [Neisseria meningitidis M04-240196] &gt;gi|325205739|gb|ADZ01192.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M04-240196]</Hit_def>
+  <Hit_accession>WP_014581400</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>1.90058e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAEEEEPAAKPVASAEMKLGAKLKVIKADEAELAAHGQYLDGLGEACIWRKEAVPSENGGADA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE EEEEP AKPVASAEMKLGAKLKVIKADEAELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|545067451|ref|WP_021439108.1|</Hit_id>
+  <Hit_def>DNA polymerase III, epsilon subunit [Neisseria meningitidis] &gt;gi|530914634|gb|EQD12448.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM0552]</Hit_def>
+  <Hit_accession>WP_021439108</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.381</Hsp_bit-score>
+      <Hsp_score>1191</Hsp_score>
+      <Hsp_evalue>6.32933e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGKVYLAMTRRQFDLMGEAEEEEPAAKPVASAEMKLGAKLKVIKADEAELAAHGQYLDGLGEACIWRKEAVPSENGGADA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLG+VYLAMTRRQFDLMGE EEEEP AKPVASAEMKLGAKLKVIKADEAELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488167719|ref|WP_002238927.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|402336137|gb|EJU71399.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 80179] &gt;gi|485352839|gb|EOC14234.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 81858] &gt;gi|485371805|gb|EOC31662.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2001001]</Hit_def>
+  <Hit_accession>WP_002238927</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.996</Hsp_bit-score>
+      <Hsp_score>1190</Hsp_score>
+      <Hsp_evalue>8.69158e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAEEEEPAAKPVASAEMKLGAKLKVIKADEAELAAHGQYLDGLGEACIWRKEAVPSENGGADA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE EEEEP AKPVASAEMKLGAKLKVIKADEAELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|372200732|gb|EHP14763.1|</Hit_id>
+  <Hit_def>DNA polymerase III, epsilon subunit [Neisseria meningitidis NM220] &gt;gi|372201304|gb|EHP15246.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM233]</Hit_def>
+  <Hit_accession>EHP14763</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>1.75983e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGKVYLAMTRRQFDLMGEAEEEEPAAKPVASAEMKLGAKLKVIKADEAELAAHGQYLDGLGEACIWRKEAVPSENGGADA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLG+VYLAMTRRQFDLMGE EEEEP AKPVASAEMKLGAKLKVIKADEAELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|488188749|ref|WP_002259957.1|</Hit_id>
+  <Hit_def>DNA polymerase III, epsilon subunit [Neisseria meningitidis] &gt;gi|485399279|gb|EOC57311.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM271] &gt;gi|485399763|gb|EOC57757.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM115] &gt;gi|485401292|gb|EOC59194.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM90] &gt;gi|485405884|gb|EOC63457.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3042] &gt;gi|485406344|gb|EOC63875.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3222] &gt;gi|485408071|gb|EOC65494.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3131] &gt;gi|485412490|gb|EOC69579.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3144] &gt;gi|485412928|gb|EOC69978.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3158] &gt;gi|485415209|gb|EOC72125.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3164] &gt;gi|485419099|gb|EOC75725.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM27] &gt;gi|485419400|gb|EOC76000.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM51] &gt;gi|485422580|gb|EOC78983.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM80] &gt;gi|485425698|gb|EOC81855.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM165] &gt;gi|485425887|gb|EOC82028.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3223]</Hit_def>
+  <Hit_accession>WP_002259957</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.84</Hsp_bit-score>
+      <Hsp_score>1187</Hsp_score>
+      <Hsp_evalue>2.35134e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGKVYLAMTRRQFDLMGEAEEEEPAAKPVASAEMKLGAKLKVIKADEAELAAHGQYLDGLGEACIWRKEAVPSENGGADA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLG+VYLAMTRRQFDLMGE EEEEP AKPVASAEMKLGAKLKVIKADEAELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|488184744|ref|WP_002255952.1|</Hit_id>
+  <Hit_def>DNA polymerase III, epsilon subunit [Neisseria meningitidis] &gt;gi|485349590|gb|EOC11202.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 73696]</Hit_def>
+  <Hit_accession>WP_002255952</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>5.04941e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAEEEEPAAKPVASAEMKLGAKLKVIKADEAELAAHGRYLDGLGEACIWRKTQMPSENGGTEA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE EEEEP AKPVASAEMKLGAKLKVIKADEAELAAH  YLDGLGEACIWRK  +PSENGG  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|488161540|ref|WP_002232748.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|402316493|gb|EJU52038.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 93003] &gt;gi|402317800|gb|EJU53329.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 93004] &gt;gi|402342598|gb|EJU77757.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3081]</Hit_def>
+  <Hit_accession>WP_002232748</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.751</Hsp_bit-score>
+      <Hsp_score>1166</Hsp_score>
+      <Hsp_evalue>3.77622e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAAEEKMETKPVVHTETKRSGKLKVIRADENELAAHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE  EE+   KPV   E K   KLKVI+ADE ELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|488147818|ref|WP_002219026.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|15677367|ref|NP_274522.1| DNA polymerase III subunit epsilon [Neisseria meningitidis MC58] &gt;gi|385323852|ref|YP_005878291.1| DNA polymerase III subunit epsilon [Neisseria meningitidis 8013] &gt;gi|385328807|ref|YP_005883110.1| DNA polymerase III subunit epsilon [Neisseria meningitidis alpha710] &gt;gi|385341588|ref|YP_005895459.1| DNA polymerase III subunit epsilon [Neisseria meningitidis M01-240149] &gt;gi|385852879|ref|YP_005899393.1| DNA polymerase III subunit epsilon [Neisseria meningitidis H44/76] &gt;gi|385857564|ref|YP_005904076.1| DNA polymerase III subunit epsilon [Neisseria meningitidis NZ-05/33] &gt;gi|7226758|gb|AAF41870.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis MC58] &gt;gi|261392239|emb|CAX49759.1| DNA polymerase III epsilon subunit [Neisseria meningitidis 8013] &gt;gi|308389659|gb|ADO31979.1| DNA polymerase III, epsilon chain [Neisseria meningitidis alpha710] &gt;gi|316986028|gb|EFV64965.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis H44/76] &gt;gi|325130586|gb|EGC53333.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis OX99.30304] &gt;gi|325136592|gb|EGC59193.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M0579] &gt;gi|325140658|gb|EGC63175.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis CU385] &gt;gi|325199883|gb|ADY95338.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis H44/76] &gt;gi|325201794|gb|ADY97248.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M01-240149] &gt;gi|325208453|gb|ADZ03905.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NZ-05/33] &gt;gi|402328656|gb|EJU64023.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 69166] &gt;gi|432202121|gb|ELK58186.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM422] &gt;gi|432207760|gb|ELK63748.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 68094] &gt;gi|432208823|gb|ELK64795.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 97021] &gt;gi|432214371|gb|ELK70272.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 70012] &gt;gi|432215124|gb|ELK71014.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2006087] &gt;gi|432219154|gb|ELK75002.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2002038] &gt;gi|432221231|gb|ELK77044.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 97014] &gt;gi|432224924|gb|ELK80686.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M13255] &gt;gi|432226619|gb|ELK82345.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM418] &gt;gi|432240525|gb|ELK96060.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 9757] &gt;gi|432240617|gb|ELK96151.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 9506] &gt;gi|432260236|gb|ELL15496.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 69096] &gt;gi|432272776|gb|ELL27882.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 70030] &gt;gi|485274164|gb|EOB40770.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 70021] &gt;gi|485274187|gb|EOB40789.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 69176] &gt;gi|485274218|gb|EOB40819.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 69155] &gt;gi|485280600|gb|EOB46770.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 96060] &gt;gi|485284761|gb|EOB50702.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 96060] &gt;gi|485284894|gb|EOB50830.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 96060] &gt;gi|485288346|gb|EOB54030.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 69100] &gt;gi|485294394|gb|EOB59676.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 63023] &gt;gi|485294769|gb|EOB60030.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 61106] &gt;gi|485300867|gb|EOB65726.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 70082] &gt;gi|485355288|gb|EOC16516.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2002020] &gt;gi|485357388|gb|EOC18419.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM477] &gt;gi|485359783|gb|EOC20601.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M13265] &gt;gi|485392231|gb|EOC50743.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2005172] &gt;gi|485393723|gb|EOC52128.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2008223] &gt;gi|514069813|gb|EPF54695.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 98002] &gt;gi|530899278|gb|EQC98031.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2002030] &gt;gi|530899481|gb|EQC98221.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 96037] &gt;gi|530900054|gb|EQC98758.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3141] &gt;gi|530905383|gb|EQD03753.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3139] &gt;gi|530906518|gb|EQD04812.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM045] &gt;gi|530907817|gb|EQD06039.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM151] &gt;gi|530911146|gb|EQD09173.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM003] &gt;gi|530914454|gb|EQD12280.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM1476] &gt;gi|530917074|gb|EQD14755.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM518] &gt;gi|530920815|gb|EQD18259.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3173] &gt;gi|530922196|gb|EQD19554.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3230] &gt;gi|530923183|gb|EQD20480.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM2866] &gt;gi|663090495|gb|KER38791.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 992008] &gt;gi|744799136|gb|AJC63924.1| DNA polymerase III subunit epsilon [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>WP_002219026</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.751</Hsp_bit-score>
+      <Hsp_score>1166</Hsp_score>
+      <Hsp_evalue>3.94505e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGAAAEEKMETKPVVHTETKRSGKLKVIRADENELAAHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMG   EE+   KPV   E K   KLKVI+ADE ELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|389605328|emb|CCA44248.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis alpha522]</Hit_def>
+  <Hit_accession>CCA44248</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.981</Hsp_bit-score>
+      <Hsp_score>1164</Hsp_score>
+      <Hsp_evalue>1.09575e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAAEEKMETKPVVHTETKRSGKLKVIRADENELAAHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE  EE+   KPV   E K   KLKVI+ADE ELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|645203845|ref|WP_025459212.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_025459212</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.21</Hsp_bit-score>
+      <Hsp_score>1162</Hsp_score>
+      <Hsp_evalue>1.58181e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFSRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAAEEKMETKPVVHTETKRSGKLKVIRADENELAAHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEF R+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE  EE+   KPV   E K   KLKVI+ADE ELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|488155007|ref|WP_002226215.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|385340392|ref|YP_005894264.1| DNA polymerase III subunit epsilon [Neisseria meningitidis G2136] &gt;gi|325142705|gb|EGC65085.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 961-5945] &gt;gi|325198636|gb|ADY94092.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis G2136] &gt;gi|432202462|gb|ELK58525.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 98080] &gt;gi|432246363|gb|ELL01814.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 4119] &gt;gi|432247275|gb|ELL02713.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 12888]</Hit_def>
+  <Hit_accession>WP_002226215</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.44</Hsp_bit-score>
+      <Hsp_score>1160</Hsp_score>
+      <Hsp_evalue>2.64451e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAAEEKMETKPVVHTETKRSGKLKVIRADENELAEHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE  EE+   KPV   E K   KLKVI+ADE ELA H +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|488141672|ref|WP_002212880.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|385855550|ref|YP_005902063.1| DNA polymerase III subunit epsilon [Neisseria meningitidis M01-240355] &gt;gi|304338830|gb|EFM04933.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis ATCC 13091] &gt;gi|325132669|gb|EGC55354.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M6190] &gt;gi|325138557|gb|EGC61120.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis ES14902] &gt;gi|325204491|gb|ADY99944.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M01-240355] &gt;gi|393291603|emb|CCI73133.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis alpha704] &gt;gi|402340190|gb|EJU75393.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM2795] &gt;gi|432227199|gb|ELK82910.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM586] &gt;gi|432243064|gb|ELK98579.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM126] &gt;gi|485329432|gb|EOB92395.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM133] &gt;gi|485336358|gb|EOB98852.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM94] &gt;gi|485336383|gb|EOB98875.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM94] &gt;gi|485339092|gb|EOC01423.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM95] &gt;gi|485339742|gb|EOC02027.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM94] &gt;gi|694193190|gb|KGI98416.1| DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|743394623|gb|KID54161.1| DNA polymerase III subunit epsilon [Neisseria meningitidis LNP27256]</Hit_def>
+  <Hit_accession>WP_002212880</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.44</Hsp_bit-score>
+      <Hsp_score>1160</Hsp_score>
+      <Hsp_evalue>2.95007e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGAAAEEKMETKPVVHTETKRSGKLKVIRADENELAEHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMG   EE+   KPV   E K   KLKVI+ADE ELA H +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|645196941|ref|WP_025457795.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025457795</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.055</Hsp_bit-score>
+      <Hsp_score>1159</Hsp_score>
+      <Hsp_evalue>4.00679e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGAAAEEKMETKPVAHTETKRSGKLKVIRADENELAEHGQYLDGLGEACIWRKTQMPSENGGENA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMG   EE+   KPVA  E K   KLKVI+ADE ELA H +YLDGLGEACIWRK  +PSENGGENA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|500122939|ref|WP_011798944.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|121635185|ref|YP_975430.1| DNA polymerase III subunit epsilon [Neisseria meningitidis FAM18] &gt;gi|120866891|emb|CAM10650.1| DNA polymerase III, epsilon chain [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>WP_011798944</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.055</Hsp_bit-score>
+      <Hsp_score>1159</Hsp_score>
+      <Hsp_evalue>6.30129e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGAAAEEKMETKPVVHTETKRSGKLKVIRADENELAAHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMG   EE+   KPV   E K   KLKVI+ADE ELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|488166923|ref|WP_002238131.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|402331439|gb|EJU66776.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 98008]</Hit_def>
+  <Hit_accession>WP_002238131</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.669</Hsp_bit-score>
+      <Hsp_score>1158</Hsp_score>
+      <Hsp_evalue>6.48243e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAALVHGLTIQVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGAAAEEKMETKPVVHTETKRSGKLKVIRADENELAAHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAA VHGLTIQVLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMG   EE+   KPV   E K   KLKVI+ADE ELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|488151032|ref|WP_002222240.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|325134669|gb|EGC57309.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M13399] &gt;gi|432229417|gb|ELK85105.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM762] &gt;gi|432232911|gb|ELK88546.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M7089] &gt;gi|432233692|gb|ELK89318.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M7124] &gt;gi|432235036|gb|ELK90655.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM174] &gt;gi|485332885|gb|EOB95624.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM43] &gt;gi|485342594|gb|EOC04687.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM313] &gt;gi|485343475|gb|EOC05486.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM1482] &gt;gi|485345807|gb|EOC07678.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM1495] &gt;gi|485362009|gb|EOC22621.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3147] &gt;gi|485365502|gb|EOC25789.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2001072] &gt;gi|485366865|gb|EOC27058.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2001073] &gt;gi|485368687|gb|EOC28771.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2000081] &gt;gi|485375113|gb|EOC34756.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2001213] &gt;gi|485378277|gb|EOC37725.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2004264] &gt;gi|485380767|gb|EOC40042.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2000175] &gt;gi|485380908|gb|EOC40171.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2005079] &gt;gi|485383688|gb|EOC42788.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2000175] &gt;gi|485384970|gb|EOC43983.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2001068] &gt;gi|485387304|gb|EOC46152.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2005040] &gt;gi|485387638|gb|EOC46464.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2002004] &gt;gi|485430084|gb|EOC85854.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM23] &gt;gi|485430628|gb|EOC86333.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM32] &gt;gi|485435074|gb|EOC90356.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM35] &gt;gi|485436462|gb|EOC91621.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM36] &gt;gi|723270280|gb|KHC97472.1| DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|723273880|gb|KHD01064.1| DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|726975736|gb|KHF23156.1| DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|730571088|gb|AIZ18890.1| DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|730573467|gb|AIZ20869.1| DNA polymerase III subunit epsilon [Neisseria meningitidis M7124] &gt;gi|730575803|gb|AIZ22752.1| DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|730578272|gb|AIZ24719.1| DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|730579574|gb|AIZ25555.1| DNA polymerase III subunit epsilon [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002222240</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>1.07195e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGAAAEEKMETKPVVHTETKRSGKLKVIRADENELAAHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMG   EE+   KPV   E K   KLKVI+ADE ELAAH +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|488172088|ref|WP_002243296.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|402344857|gb|EJU79990.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM3001]</Hit_def>
+  <Hit_accession>WP_002243296</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.514</Hsp_bit-score>
+      <Hsp_score>1155</Hsp_score>
+      <Hsp_evalue>1.91358e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGAAAEEKMETKPVVHTETKRSGKLKVIRADENELAEHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMG   EE+   KPV   E K   KLKVI+ADE ELA H +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|488173224|ref|WP_002244432.1|</Hit_id>
+  <Hit_def>DNA polymerase III, epsilon subunit [Neisseria meningitidis] &gt;gi|432204664|gb|ELK60703.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 87255]</Hit_def>
+  <Hit_accession>WP_002244432</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.588</Hsp_bit-score>
+      <Hsp_score>1150</Hsp_score>
+      <Hsp_evalue>8.74748e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLLTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGEAAEEKMETKPVVHTETKRSGKLKVIRADENELAEHGQYLDGLGEACIWRKEAVPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GL TVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGE  EE+   KPV   E K   KLKVI+ADE ELA H +YLDGLGEACIWRKEAVPSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|488155952|ref|WP_002227160.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria meningitidis] &gt;gi|254673235|emb|CBA08224.1| DNA polymerase III, epsilon chain [Neisseria meningitidis alpha275] &gt;gi|325144796|gb|EGC67087.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis M01-240013] &gt;gi|485336217|gb|EOB98726.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis NM82] &gt;gi|485373460|gb|EOC33197.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2004032] &gt;gi|514070273|gb|EPF55123.1| DNA polymerase III, epsilon subunit [Neisseria meningitidis 2007461]</Hit_def>
+  <Hit_accession>WP_002227160</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.121</Hsp_bit-score>
+      <Hsp_score>1141</Hsp_score>
+      <Hsp_evalue>2.06121e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MTTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGAAAEEKMETKPVAHTETKRSGKLKVIRADENELAEHGRYLDGLGEACIWRKTQMPSENGGTEA</Hsp_hseq>
+      <Hsp_midline>M TRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMG   EE+   KPVA  E K   KLKVI+ADE ELA H  YLDGLGEACIWRK  +PSENGG  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|296839296|gb|EFH23234.1|</Hit_id>
+  <Hit_def>DNA polymerase III, epsilon subunit [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>EFH23234</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>2.23372e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGAVAEEKMETKPVAHTETKRSGKLKVIRADENELAEHGQYLDGLGESCIWRKTQMPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMG   EE+   KPVA  E K   KLKVI+ADE ELA H +YLDGLGE+CIWRK  +PSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|645192909|ref|WP_025456727.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025456727</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>3.67932e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSENGGENA</Hsp_qseq>
+      <Hsp_hseq>MIQRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIEVLEGKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGAVAEEKMETKPVAHTETKRSGKLKVIRADENELAEHGQYLDGLGESCIWRKTQMPSENGGTDA</Hsp_hseq>
+      <Hsp_midline>M+ RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTI+VLE KNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRR+GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMG   EE+   KPVA  E K   KLKVI+ADE ELA H +YLDGLGE+CIWRK  +PSENGG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|496465207|ref|WP_009174052.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria sp. oral taxon 014] &gt;gi|298283361|gb|EFI24848.1| DNA polymerase III, epsilon subunit [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009174052</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.846</Hsp_bit-score>
+      <Hsp_score>1065</Hsp_score>
+      <Hsp_evalue>7.29559e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRK</Hsp_qseq>
+      <Hsp_hseq>MSKRQIILDTETTGLYAEGGDRLVEFAGLEMINRQMTDNNLHLYIHPERDMPEEAAKVHGLTIEVLEEKNAPPFAEVGRQIADFIRDAELIIHNAKFDIGFLNMEFRRMGLPSIEELGCTVTDTLAMAREMFPGQKASLDALCNRLSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEKEEDEEVKPVIIAETKRPAHLKVIKANAEELAAHEQYLDGLGEACLWRK</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLYA+GGDRLVEFAGLEM+NRQMTD NLHLY+HPERDMPEEAA+VHGLTI+VLEEKNAPPFAEVGRQIADF+R AELIIHNAKFD+GFLNMEFRR+GLP++EELGCTVTDTLAMAREMFPGQKASLDALCNR SVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG  +EE+   KPV  AE K  A LKVIKA+  ELAAHE+YLDGLGEAC+WRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|348611255|gb|EGY60916.1|</Hit_id>
+  <Hit_def>DNA polymerase III, epsilon subunit [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>EGY60916</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>415.231</Hsp_bit-score>
+      <Hsp_score>1066</Hsp_score>
+      <Hsp_evalue>9.63568e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRK</Hsp_qseq>
+      <Hsp_hseq>MSKRQIILDTETTGLYAEGGDRLVEFAGLEMINRKMTDNNLHLYVHPERDMPEEAAKVHGLTIEVLEEKNAPPFAEVGRQIADFIRDAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCTVTDTLAMAREMFPGQKASLDALCNRLSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEKEEDEEVKPVIIAETKRPAHLKVIKANAEELAAHEQYLDGLGEACLWRK</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLYA+GGDRLVEFAGLEM+NR+MTD NLHLYVHPERDMPEEAA+VHGLTI+VLEEKNAPPFAEVGRQIADF+R AELIIHNAKFDVGFLNMEFRR+GLP++EELGCTVTDTLAMAREMFPGQKASLDALCNR SVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG  +EE+   KPV  AE K  A LKVIKA+  ELAAHE+YLDGLGEAC+WRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|738619519|ref|WP_036529225.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>WP_036529225</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.461</Hsp_bit-score>
+      <Hsp_score>1064</Hsp_score>
+      <Hsp_evalue>1.03493e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRK</Hsp_qseq>
+      <Hsp_hseq>MSKRQIILDTETTGLYAEGGDRLVEFAGLEMINRKMTDNNLHLYVHPERDMPEEAAKVHGLTIEVLEEKNAPPFAEVGRQIADFIRDAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCTVTDTLAMAREMFPGQKASLDALCNRLSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEKEEDEEVKPVIIAETKRPAHLKVIKANAEELAAHEQYLDGLGEACLWRK</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLYA+GGDRLVEFAGLEM+NR+MTD NLHLYVHPERDMPEEAA+VHGLTI+VLEEKNAPPFAEVGRQIADF+R AELIIHNAKFDVGFLNMEFRR+GLP++EELGCTVTDTLAMAREMFPGQKASLDALCNR SVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG  +EE+   KPV  AE K  A LKVIKA+  ELAAHE+YLDGLGEAC+WRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|255049865|gb|EET45329.1|</Hit_id>
+  <Hit_def>DNA polymerase III, epsilon subunit [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>EET45329</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.535</Hsp_bit-score>
+      <Hsp_score>1059</Hsp_score>
+      <Hsp_evalue>9.6588e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRK</Hsp_qseq>
+      <Hsp_hseq>MSKRQIILDTETTGLYAEGGDRLVEFAGLEMINRQITGNNLHLYVHPERDMPEEAAKVHGLTIEVLEEKNAPPFAEVGRQIADFIRDAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCTVTDTLAMAREMFPGQKASLDALCNRLSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEKEEDEEVKPVIIAETKRPAHLKVIKANAEELAAHEQYLDGLGEACLWRK</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLYA+GGDRLVEFAGLEM+NRQ+T  NLHLYVHPERDMPEEAA+VHGLTI+VLEEKNAPPFAEVGRQIADF+R AELIIHNAKFDVGFLNMEFRR+GLP++EELGCTVTDTLAMAREMFPGQKASLDALCNR SVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG  +EE+   KPV  AE K  A LKVIKA+  ELAAHE+YLDGLGEAC+WRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|750386178|ref|WP_040668088.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_040668088</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>1.45631e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRK</Hsp_qseq>
+      <Hsp_hseq>MSKRQIILDTETTGLYAEGGDRLVEFAGLEMINRQITGNNLHLYVHPERDMPEEAAKVHGLTIEVLEEKNAPPFAEVGRQIADFIRDAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCTVTDTLAMAREMFPGQKASLDALCNRLSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEKEEDEEVKPVIIAETKRPAHLKVIKANAEELAAHEQYLDGLGEACLWRK</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLYA+GGDRLVEFAGLEM+NRQ+T  NLHLYVHPERDMPEEAA+VHGLTI+VLEEKNAPPFAEVGRQIADF+R AELIIHNAKFDVGFLNMEFRR+GLP++EELGCTVTDTLAMAREMFPGQKASLDALCNR SVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG  +EE+   KPV  AE K  A LKVIKA+  ELAAHE+YLDGLGEAC+WRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|385694977|gb|EIG25553.1|</Hit_id>
+  <Hit_def>DNA polymerase III, epsilon subunit [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>EIG25553</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>2.53762e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRK</Hsp_qseq>
+      <Hsp_hseq>MSKRQIILDTETTGLYAEGGDRLVEFAGLEMINRQITGNNLHLYVHPERDMPEEAAKVHGLTIEVLEEKNAPPFAEVGRQIADFIRDAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCTITDTLAMAREMFPGQKASLDALCNRLSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEKEEDEEVKPVIIAETKRPAHLKVIKANAEELAAHEQYLDGLGEACLWRK</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLYA+GGDRLVEFAGLEM+NRQ+T  NLHLYVHPERDMPEEAA+VHGLTI+VLEEKNAPPFAEVGRQIADF+R AELIIHNAKFDVGFLNMEFRR+GLP++EELGCT+TDTLAMAREMFPGQKASLDALCNR SVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG  +EE+   KPV  AE K  A LKVIKA+  ELAAHE+YLDGLGEAC+WRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|738544636|ref|WP_036492878.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_036492878</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>2.80513e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRK</Hsp_qseq>
+      <Hsp_hseq>MSKRQIILDTETTGLYAEGGDRLVEFAGLEMINRQITGNNLHLYVHPERDMPEEAAKVHGLTIEVLEEKNAPPFAEVGRQIADFIRDAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCTITDTLAMAREMFPGQKASLDALCNRLSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEKEEDEEVKPVIIAETKRPAHLKVIKANAEELAAHEQYLDGLGEACLWRK</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLYA+GGDRLVEFAGLEM+NRQ+T  NLHLYVHPERDMPEEAA+VHGLTI+VLEEKNAPPFAEVGRQIADF+R AELIIHNAKFDVGFLNMEFRR+GLP++EELGCT+TDTLAMAREMFPGQKASLDALCNR SVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG  +EE+   KPV  AE K  A LKVIKA+  ELAAHE+YLDGLGEAC+WRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|489843250|ref|WP_003746948.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria mucosa] &gt;gi|317400118|gb|EFV80777.1| DNA polymerase subunit III [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003746948</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>6.89862e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSE-NGGENA</Hsp_qseq>
+      <Hsp_hseq>MSQRQIILDTETTGLYPENGDRLVEFAGLEMINRQMTDSNLHLYVHPERDMPEEAAKVHGLTIEVLEAKNAPPFAQVGKQIADFIRGAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCKVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEAEEEGEVKPTIIAETKRTSQLKVIKADADELAAHEKYLDDLGEACVWRKAETPDEANAGASA</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLY + GDRLVEFAGLEM+NRQMTD NLHLYVHPERDMPEEAA+VHGLTI+VLE KNAPPFA+VG+QIADF+RGAELIIHNAKFDVGFLNMEFRR+GLP++EELGC VTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG   EEE   KP   AE K  ++LKVIKAD  ELAAHE+YLD LGEAC+WRK   P E N G +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|339887193|gb|EGQ76779.1|</Hit_id>
+  <Hit_def>DNA-directed DNA polymerase III epsilon subunit [Neisseria macacae ATCC 33926]</Hit_def>
+  <Hit_accession>EGQ76779</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>9.20733e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLM-GETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRK</Hsp_qseq>
+      <Hsp_hseq>MSKRQIILDTETTGLYAEGGDRLVEFAGLEMINRQMTDNNLHLYIHPERDMPEEAAKVHGLTIEVLEEKNAPPFAEVGRQIADFIRDAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCTVTDTLAMAREMFPGQKASLDALCNRLSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEEKEEDEEVKPVIVAETKRPAHLKVIKANAEELAAHEQYLDGLGEACLWRK</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLYA+GGDRLVEFAGLEM+NRQMTD NLHLY+HPERDMPEEAA+VHGLTI+VLEEKNAPPFAEVGRQIADF+R AELIIHNAKFDVGFLNMEFRR+GLP++EELGCTVTDTLAMAREMFPGQKASLDALCNR SVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLM GE +EE+   KPV  AE K  A LKVIKA+  ELAAHE+YLDGLGEAC+WRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|748604819|ref|WP_039862999.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria macacae]</Hit_def>
+  <Hit_accession>WP_039862999</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.371</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>1.45166e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLM-GETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRK</Hsp_qseq>
+      <Hsp_hseq>MSKRQIILDTETTGLYAEGGDRLVEFAGLEMINRQMTDNNLHLYIHPERDMPEEAAKVHGLTIEVLEEKNAPPFAEVGRQIADFIRDAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCTVTDTLAMAREMFPGQKASLDALCNRLSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEEKEEDEEVKPVIVAETKRPAHLKVIKANAEELAAHEQYLDGLGEACLWRK</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLYA+GGDRLVEFAGLEM+NRQMTD NLHLY+HPERDMPEEAA+VHGLTI+VLEEKNAPPFAEVGRQIADF+R AELIIHNAKFDVGFLNMEFRR+GLP++EELGCTVTDTLAMAREMFPGQKASLDALCNR SVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLM GE +EE+   KPV  AE K  A LKVIKA+  ELAAHE+YLDGLGEAC+WRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|738542430|ref|WP_036490680.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria mucosa] &gt;gi|694242041|gb|KGJ32895.1| DNA polymerase III subunit epsilon [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_036490680</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.601</Hsp_bit-score>
+      <Hsp_score>1041</Hsp_score>
+      <Hsp_evalue>3.55127e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSE</Hsp_qseq>
+      <Hsp_hseq>MSQRQIILDTETTGLYPENGDRLVEFAGLEMINRQMTDSNLHLYVHPERDMPEEAAKVHGLTIEVLEAKNAPPFAQVGKQIADFIRGAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCKVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEVEEEGEVKPTIIAETKRTSQLKVIKADADELAAHEKYLDDLGEACVWRKAETPDE</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLY + GDRLVEFAGLEM+NRQMTD NLHLYVHPERDMPEEAA+VHGLTI+VLE KNAPPFA+VG+QIADF+RGAELIIHNAKFDVGFLNMEFRR+GLP++EELGC VTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG   EEE   KP   AE K  ++LKVIKAD  ELAAHE+YLD LGEAC+WRK   P E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|490654752|ref|WP_004519742.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria subflava] &gt;gi|284796997|gb|EFC52344.1| DNA polymerase III, epsilon subunit [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>WP_004519742</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>3.33335e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSE-NGGENA</Hsp_qseq>
+      <Hsp_hseq>MSQRQIILDTETTGLYPENGDRLVEFAGLEMINRQMTDSNLHLYVHPERDMPEEAAKVHGLTIEVLEAKNAPPFAQVGKQIADFIRGAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCKVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEAEEEGEVKQTVIAETKRTSQLKVIKANADELAAHEKYLDDLGEACVWRKAETPDEANAGASA</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLY + GDRLVEFAGLEM+NRQMTD NLHLYVHPERDMPEEAA+VHGLTI+VLE KNAPPFA+VG+QIADF+RGAELIIHNAKFDVGFLNMEFRR+GLP++EELGC VTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG   EEE   K    AE K  ++LKVIKA+  ELAAHE+YLD LGEAC+WRK   P E N G +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|489775169|ref|WP_003679064.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria flavescens] &gt;gi|224953417|gb|EEG34626.1| DNA polymerase III, epsilon subunit [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>WP_003679064</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>2.46015e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSE-NGGENA</Hsp_qseq>
+      <Hsp_hseq>MSQRQIILDTETTGLYPENGDRLVEFAGLEMINRQMTDSNLHLYVHPERDMPEEAAKVHGLTIEVLEAKNAPPFAQVGKQIADFLRGAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCKVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEAEEEGEVKQTVIAETKRTSQLKVVKANADELAAHEKYLDDLGEACVWRKAETSDEANAGASA</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLY + GDRLVEFAGLEM+NRQMTD NLHLYVHPERDMPEEAA+VHGLTI+VLE KNAPPFA+VG+QIADFLRGAELIIHNAKFDVGFLNMEFRR+GLP++EELGC VTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG   EEE   K    AE K  ++LKV+KA+  ELAAHE+YLD LGEAC+WRK     E N G +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|489779564|ref|WP_003683455.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit epsilon [Neisseria flavescens] &gt;gi|241320984|gb|EER57197.1| DNA polymerase III, epsilon subunit [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003683455</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.208</Hsp_bit-score>
+      <Hsp_score>1027</Hsp_score>
+      <Hsp_evalue>4.29415e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MMTRQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGEACIWRKEAVPSE-NGGENA</Hsp_qseq>
+      <Hsp_hseq>MSQRQIILDTETTGLYPENGDRLVEFAGLEMINRQMTDSNLHLYVHPERDMPEEAAKVHGLTIEVLEAKNAPPFAQVGKQIADFIRGAELIIHNAKFDVGFLNMEFRRMGLPSIEELGCKVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRQQFDLMGGEAEEEGEVKQTVIAETKRTSQLKVIKANADELAAHEKYLDDLGEACVWRKAETSDEANAGVSA</Hsp_hseq>
+      <Hsp_midline>M  RQIILDTETTGLY + GDRLVEFAGLEM+NRQMTD NLHLYVHPERDMPEEAA+VHGLTI+VLE KNAPPFA+VG+QIADF+RGAELIIHNAKFDVGFLNMEFRR+GLP++EELGC VTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR+QFDLMG   EEE   K    AE K  ++LKVIKA+  ELAAHE+YLD LGEAC+WRK     E N G +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

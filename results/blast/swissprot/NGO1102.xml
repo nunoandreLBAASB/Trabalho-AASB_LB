@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>56417</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7R8</BlastOutput_query-def>
+  <BlastOutput_query-len>172</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>56417</Iteration_query-ID>
+  <Iteration_query-def>Q5F7R8</Iteration_query-def>
+  <Iteration_query-len>172</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81999976|sp|Q5UPT4.1|YL247_MIMIV</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HNH endonuclease L247 [Acanthamoeba polyphaga mimivirus]</Hit_def>
+  <Hit_accession>Q5UPT4</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0312056</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>YLKLK-IFKKQYNAHRLIWL-FVYGKHASS---IGHINRDKTDNRISNLRDVTHAENMK</Hsp_qseq>
+      <Hsp_hseq>YLKPKDIDAQQKKIHRLVALTFVKNKDPENKKVVNHINGDKLDNRAENLEWVTASENVQ</Hsp_hseq>
+      <Hsp_midline>YLK K I  +Q   HRL+ L FV  K   +   + HIN DK DNR  NL  VT +EN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|148886784|sp|Q6PQQ3.2|AIL5_ARATH</Hit_id>
+  <Hit_def>RecName: Full=AP2-like ethylene-responsive transcription factor AIL5; AltName: Full=Protein AINTEGUMENTA-LIKE 5 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q6PQQ3</Hit_accession>
+  <Hit_len>558</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.910371</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>FKNNTSGHTGVYFHKPSKKWQARI--MVNRKNKILGLFEHIEDAAKAREAASKDF</Hsp_qseq>
+      <Hsp_hseq>FSRGASMYRGVTRHHQHGRWQARIGRVAGNKDLYLGTFSTQEEAAEAYDIAAIKF</Hsp_hseq>
+      <Hsp_midline>F    S + GV  H    +WQARI  +   K+  LG F   E+AA+A + A+  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|140044|sp|P03797.1|Y38_BPT7</Hit_id>
+  <Hit_def>RecName: Full=Protein 3.8; AltName: Full=Gene product 3.8; Short=Gp3.8 [Enterobacteria phage T7]</Hit_def>
+  <Hit_accession>P03797</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.19488</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>KIFKKQYNAHRLIWLFVYGKHASS--IGHINRDKTDNRISNLRDVTHAENMKNRGKFKNNTSGHTGVYFHKPSKKWQARIMVNRK</Hsp_qseq>
+      <Hsp_hseq>KQFYKAPRRHIQVWEAANGPIPKGYYIDHIDGNPLNDALDNLRLALPKENSWNMKTPKSNTSGLKGLSWSKEREMWRGTVTAEGK</Hsp_hseq>
+      <Hsp_midline>K F K    H  +W    G       I HI+ +  ++ + NLR     EN  N    K+NTSG  G+ + K  + W+  +    K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122244098|sp|Q1PFE1.1|AIL1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=AP2-like ethylene-responsive transcription factor AIL1; AltName: Full=Protein AINTEGUMENTA-LIKE 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q1PFE1</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.31871</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>KNRGKFKNNTSGHTGVYFHKPSKKWQARI--MVNRKNKILGLFEHIEDAAKAREAASKDF</Hsp_qseq>
+      <Hsp_hseq>RNSSGFSRGASVYRGVTRHHQHGRWQARIGRVAGNKDLYLGTFSTQEEAAEAYDIAAIKF</Hsp_hseq>
+      <Hsp_midline>+N   F    S + GV  H    +WQARI  +   K+  LG F   E+AA+A + A+  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|82592621|sp|Q38914.2|ANT_ARATH</Hit_id>
+  <Hit_def>RecName: Full=AP2-like ethylene-responsive transcription factor ANT; AltName: Full=Complementing a protein kinase C mutant protein 1; AltName: Full=Protein AINTEGUMENTA; AltName: Full=Protein DRAGON; AltName: Full=Protein OVULE MUTANT [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q38914</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.83616</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>WNTGFSGKEVFLYKGRLGYLK-LKIFKKQYNAHRLIWLFVYGKHASSIGHINRDKTDNRISNLRDVTHAENM----KNRGKFKNNTSGHTGVYFHKPSKKWQARI--MVNRKNKILGLFEHIEDAAKAREAASKDF</Hsp_qseq>
+      <Hsp_hseq>WDNSFK-KEGHSRKGRQVYLGGYDMEEKAARAYDLAALKYWGP--STHTNFSAENYQKEIEDMKNMTRQEYVAHLRRKSSGFSRGASIYRGVTRHHQHGRWQARIGRVAGNKDLYLGTFGTQEEAAEAYDVAAIKF</Hsp_hseq>
+      <Hsp_midline>W+  F  KE    KGR  YL    + +K   A+ L  L  +G   S+  + + +     I +++++T  E +    +    F    S + GV  H    +WQARI  +   K+  LG F   E+AA+A + A+  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|29611858|sp|Q8NBS3.2|S4A11_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Sodium bicarbonate transporter-like protein 11; AltName: Full=Bicarbonate transporter-related protein 1; AltName: Full=Sodium borate cotransporter 1; Short=NaBC1; AltName: Full=Solute carrier family 4 member 11 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8NBS3</Hit_accession>
+  <Hit_len>891</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.93251</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>TQEVLKELL---RYDDNTGKLYWAERPRKYFNSGLHYKSWNT---GFSGKEVFLYKGRLGYLKLKIFKKQYNAHR</Hsp_qseq>
+      <Hsp_hseq>TFEAREEILGDEAFDTANSSIVSGESIRFFVNVNLEMQATNTENEATSGGCVLLHTSR-KYLKLKNFKEEIRAHR</Hsp_hseq>
+      <Hsp_midline>T E  +E+L    +D     +   E  R + N  L  ++ NT     SG  V L+  R  YLKLK FK++  AHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|75252568|sp|Q5YGP8.1|PLET1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=AP2-like ethylene-responsive transcription factor PLT1; AltName: Full=Protein AINTEGUMENTA-LIKE 3; AltName: Full=Protein PLETHORA 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q5YGP8</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.1354</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>FKNNTSGHTGVYFHKPSKKWQARI--MVNRKNKILGLFEHIEDAAKAREAASKDF</Hsp_qseq>
+      <Hsp_hseq>FSRGASMYRGVTRHHQHGRWQARIGRVAGNKDLYLGTFSTEEEAAEAYDIAAIKF</Hsp_hseq>
+      <Hsp_midline>F    S + GV  H    +WQARI  +   K+  LG F   E+AA+A + A+  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|61252242|sp|P49009.2|HEXA_ENTHI</Hit_id>
+  <Hit_def>RecName: Full=Beta-hexosaminidase subunit alpha; AltName: Full=Beta-GlcNAcase subunit alpha; AltName: Full=Beta-N-acetylhexosaminidase subunit alpha; AltName: Full=N-acetyl-beta-glucosaminidase subunit alpha; Flags: Precursor [Entamoeba histolytica]</Hit_def>
+  <Hit_accession>P49009</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.16852</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>46</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>LTQEVLKELLRYDDNTGKLYWAERPRKYFNSGLHYKSWNTGFSG</Hsp_qseq>
+      <Hsp_hseq>LTQSFLRELAQYGANRGVIVYGE-----IDTPAHTASWNLGYPG</Hsp_hseq>
+      <Hsp_midline>LTQ  L+EL +Y  N G + + E      ++  H  SWN G+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|75252566|sp|Q5YGP7.1|PLET2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=AP2-like ethylene-responsive transcription factor PLT2; AltName: Full=Protein AINTEGUMENTA-LIKE 4; AltName: Full=Protein PLETHORA 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q5YGP7</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.29267</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>DNRISNLRDVTHAENM----KNRGKFKNNTSGHTGVYFHKPSKKWQARI--MVNRKNKILGLFEHIEDAAKAREAASKDF</Hsp_qseq>
+      <Hsp_hseq>EKEVEEMKNMTRQEFVASIRRKSSGFSRGASMYRGVTRHHQHGRWQARIGRVAGNKDLYLGTFSTEEEAAEAYDIAAIKF</Hsp_hseq>
+      <Hsp_midline>+  +  ++++T  E +    +    F    S + GV  H    +WQARI  +   K+  LG F   E+AA+A + A+  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|73917639|sp|Q8L3U3.1|BBM1_BRANA</Hit_id>
+  <Hit_def>RecName: Full=AP2-like ethylene-responsive transcription factor BBM1; Short=BnBBM1; AltName: Full=Protein BABY BOOM 1 [Brassica napus]</Hit_def>
+  <Hit_accession>Q8L3U3</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.78286</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>YGKHASSIGHINRDKTDNRISNLRDVTHAENMKNRGKFKNNTSGHTGVYFHKPSKKWQARI--MVNRKNKILGLFEHIEDAAKAREAASKDF</Hsp_qseq>
+      <Hsp_hseq>YEKEVEEMKHMTRQEY---VASLR--------RKSSGFSRGASIYRGVTRHHQHGRWQARIGRVAGNKDLYLGTFGTQEEAAEAYDIAAIKF</Hsp_hseq>
+      <Hsp_midline>Y K    + H+ R +    +++LR        +    F    S + GV  H    +WQARI  +   K+  LG F   E+AA+A + A+  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|73917641|sp|Q6PQQ4.2|BBM_ARATH</Hit_id>
+  <Hit_def>RecName: Full=AP2-like ethylene-responsive transcription factor BBM; Short=AtBBM; AltName: Full=Protein AINTEGUMENTA-LIKE 2; AltName: Full=Protein BABY BOOM [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q6PQQ4</Hit_accession>
+  <Hit_len>584</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.59234</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>YGKHASSIGHINRDKTDNRISNLRDVTHAENMKNRGKFKNNTSGHTGVYFHKPSKKWQARI--MVNRKNKILGLFEHIEDAAKAREAASKDF</Hsp_qseq>
+      <Hsp_hseq>YEKEVEEMKHMTRQEY---VASLR--------RKSSGFSRGASIYRGVTRHHQHGRWQARIGRVAGNKDLYLGTFGTQEEAAEAYDIAAIKF</Hsp_hseq>
+      <Hsp_midline>Y K    + H+ R +    +++LR        +    F    S + GV  H    +WQARI  +   K+  LG F   E+AA+A + A+  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|73917640|sp|Q8LSN2.1|BBM2_BRANA</Hit_id>
+  <Hit_def>RecName: Full=AP2-like ethylene-responsive transcription factor BBM2; Short=BnBBM2; AltName: Full=Protein BABY BOOM 2 [Brassica napus]</Hit_def>
+  <Hit_accession>Q8LSN2</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.58199</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>YGKHASSIGHINRDKTDNRISNLRDVTHAENMKNRGKFKNNTSGHTGVYFHKPSKKWQARI--MVNRKNKILGLFEHIEDAAKAREAASKDF</Hsp_qseq>
+      <Hsp_hseq>YEKEIEEMKHMTRQEY---VASLR--------RKSSGFSRGASIYRGVTRHHQHGRWQARIGRVAGNKDLYLGTFGTQEEAAEAYDIAAIKF</Hsp_hseq>
+      <Hsp_midline>Y K    + H+ R +    +++LR        +    F    S + GV  H    +WQARI  +   K+  LG F   E+AA+A + A+  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|182628303|sp|P28349.2|NIT4_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen assimilation transcription factor nit-4 [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>P28349</Hit_accession>
+  <Hit_len>1090</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.17997</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>LKIFKKQYNAHRLIWLFVYGKH-ASSIGHINRDKTDNRISNLRDVTHA----ENMKNRGKFKNNTSGHTGVYFHKPSKKW------QARIMVNRKNKILGLFEHIEDAAKAREAAS</Hsp_qseq>
+      <Hsp_hseq>MRLYKKLYNLRQICNIAVYMLHSACTIHMLNLPEKTAR----RDITHGVRQLEEMAEDWPCARRTLGIISVL----ARKWNVELPEEAAIVLKRTDEKYGMFSTSEVPSPNRTAPS</Hsp_hseq>
+      <Hsp_midline>++++KK YN  ++  + VY  H A +I  +N  +   R    RD+TH     E M         T G   V     ++KW      +A I++ R ++  G+F   E  +  R A S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|82000368|sp|Q5UR39.1|YL560_MIMIV</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HNH endonuclease L560 [Acanthamoeba polyphaga mimivirus]</Hit_def>
+  <Hit_accession>Q5UR39</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.24079</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>YKGRLGY-LKLKIFKKQYNAHRLIW-LFVYGKHASSI--GHINRDKTDNRISNLRDVTHAENMKNRGKFKN</Hsp_qseq>
+      <Hsp_hseq>YLGKSGYPVSYDLGKMQL--HRFIYTLIIEGKIPSDIYVDHIDHNKLNNTNSNLRLATPQQNSFNKSTSSN</Hsp_hseq>
+      <Hsp_midline>Y G+ GY +   + K Q   HR I+ L + GK  S I   HI+ +K +N  SNLR  T  +N  N+    N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>46917</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F808</BlastOutput_query-def>
+  <BlastOutput_query-len>140</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>46917</Iteration_query-ID>
+  <Iteration_query-def>Q5F808</Iteration_query-def>
+  <Iteration_query-len>140</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14424241|sp|O28022.1|Y2262_ARCFU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein AF_2262 [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>O28022</Hit_accession>
+  <Hit_len>62</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.846335</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>SKAALESFDSAAAKLEERHPELAEALEELVRKY</Hsp_qseq>
+      <Hsp_hseq>TKEHRERFEEVASKIESTHPEIAKKLKEAAEKY</Hsp_hseq>
+      <Hsp_midline>+K   E F+  A+K+E  HPE+A+ L+E   KY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|57012724|sp|Q9GMC7.1|CP17A_BISBI</Hit_id>
+  <Hit_def>RecName: Full=Steroid 17-alpha-hydroxylase/17,20 lyase; AltName: Full=17-alpha-hydroxyprogesterone aldolase; AltName: Full=CYPXVII; AltName: Full=Cytochrome P450 17A1; AltName: Full=Cytochrome P450-C17; Short=Cytochrome P450c17 [Bison bison]</Hit_def>
+  <Hit_accession>Q9GMC7</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.17704</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>RRLDAAVKKLLPANLHPHFQTACIEDGRLVLLAANNMAASRLKMIAPSVLPQLAGLDASIRSVSV</Hsp_qseq>
+      <Hsp_hseq>KRIQDDIDQIIGFNRTP----AISDRNRLVLLEATIREVLRIRPVAPTLIPHKAVIDSSIGDLTI</Hsp_hseq>
+      <Hsp_midline>+R+   + +++  N  P    A  +  RLVLL A      R++ +AP+++P  A +D+SI  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|117281|sp|P05185.1|CP17A_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Steroid 17-alpha-hydroxylase/17,20 lyase; AltName: Full=17-alpha-hydroxyprogesterone aldolase; AltName: Full=CYPXVII; AltName: Full=Cytochrome P450 17A1; AltName: Full=Cytochrome P450-C17; Short=Cytochrome P450c17 [Bos taurus]</Hit_def>
+  <Hit_accession>P05185</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.38376</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>RRLDAAVKKLLPANLHPHFQTACIED-GRLVLLAANNMAASRLKMIAPSVLPQLAGLDASIRSVSV</Hsp_qseq>
+      <Hsp_hseq>KRIQDDIDQIIGFN-----RTPTISDRNRLVLLEATIREVLRIRPVAPTLIPHKAVIDSSIGDLTI</Hsp_hseq>
+      <Hsp_midline>+R+   + +++  N     +T  I D  RLVLL A      R++ +AP+++P  A +D+SI  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|117283|sp|P05093.1|CP17A_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Steroid 17-alpha-hydroxylase/17,20 lyase; AltName: Full=17-alpha-hydroxyprogesterone aldolase; AltName: Full=CYPXVII; AltName: Full=Cytochrome P450 17A1; AltName: Full=Cytochrome P450-C17; Short=Cytochrome P450c17; AltName: Full=Steroid 17-alpha-monooxygenase [Homo sapiens]</Hit_def>
+  <Hit_accession>P05093</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.0313</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>QTACIED-GRLVLLAANNMAASRLKMIAPSVLPQLAGLDASIRSVSV</Hsp_qseq>
+      <Hsp_hseq>RTPTISDRNRLLLLEATIREVLRLRPVAPMLIPHKANVDSSIGEFAV</Hsp_hseq>
+      <Hsp_midline>+T  I D  RL+LL A      RL+ +AP ++P  A +D+SI   +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|38503035|sp|Q8HYN1.1|CP17A_PANTR</Hit_id>
+  <Hit_def>RecName: Full=Steroid 17-alpha-hydroxylase/17,20 lyase; AltName: Full=17-alpha-hydroxyprogesterone aldolase; AltName: Full=CYPXVII; AltName: Full=Cytochrome P450 17A1; AltName: Full=Cytochrome P450-C17; Short=Cytochrome P450c17 [Pan troglodytes]</Hit_def>
+  <Hit_accession>Q8HYN1</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.0313</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>QTACIED-GRLVLLAANNMAASRLKMIAPSVLPQLAGLDASIRSVSV</Hsp_qseq>
+      <Hsp_hseq>RTPTISDRNRLLLLEATIREVLRLRPVAPMLIPHKANVDSSIGEFAV</Hsp_hseq>
+      <Hsp_midline>+T  I D  RL+LL A      RL+ +AP ++P  A +D+SI   +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|205829211|sp|Q2TV78.2|MST1L_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative macrophage stimulating 1-like protein; AltName: Full=Brain rescue factor 1; Short=BRF-1; AltName: Full=Hepatocyte growth factor-like protein homolog; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q2TV78</Hit_accession>
+  <Hit_len>715</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.27619</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>393</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>RDALLSGLLKQAGQWRRLDAAVKKLLPANLHPHFQTACIEDGRLV</Hsp_qseq>
+      <Hsp_hseq>RHALMSG--TRAWKWLRLPCHDFAPAPASVHIYLRTACTTGGELL</Hsp_hseq>
+      <Hsp_midline>R AL+SG   +A +W RL        PA++H + +TAC   G L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|205829961|sp|B0CFX4.1|SYA_ACAM1</Hit_id>
+  <Hit_def>RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Acaryochloris marina MBIC11017]</Hit_def>
+  <Hit_accession>B0CFX4</Hit_accession>
+  <Hit_len>873</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.7797</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>676</Hsp_hit-from>
+      <Hsp_hit-to>748</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RLVLLAANNMAASRLKMIA-PSVLPQLAGLDASIRSVSVRLVPKPEK-PPKTNTLHLS-KAALESFDSAAAKL</Hsp_qseq>
+      <Hsp_hseq>KIVTEAGVASGVRRIEAIAGPAVLEYLNVRDAVVRDLSDRFKAKPEELPERITTLQADLKTAQKQLDTLKAQL</Hsp_hseq>
+      <Hsp_midline>++V  A       R++ IA P+VL  L   DA +R +S R   KPE+ P +  TL    K A +  D+  A+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123608724|sp|Q3M785.1|MTNA_ANAVT</Hit_id>
+  <Hit_def>RecName: Full=Methylthioribose-1-phosphate isomerase; Short=M1Pi; Short=MTR-1-P isomerase; AltName: Full=S-methyl-5-thioribose-1-phosphate isomerase [Anabaena variabilis ATCC 29413]</Hit_def>
+  <Hit_accession>Q3M785</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.94977</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GLLKQAGQWRRLDAAVKKLLPANLHPHFQTA------CIEDGRLVLLAANNMAASRLK--MIAPSVLPQ---LAGLDAS--IRSVSVRLVPKPEKPPKTNTLHLSKAALESFDSAAAKLEERHP</Hsp_qseq>
+      <Hsp_hseq>GVVRSA--WR--EGRLERLFADETRPRLQGAKLTTWECVQEGIPVTLITDNMAAHCMKQGLIDAVVVGADRIAANGDAANKIGTYSLAIVAKAHNVPFFVAAPVSTIDFELTDGSQIPIEERNP</Hsp_hseq>
+      <Hsp_midline>G+++ A  WR  +  +++L      P  Q A      C+++G  V L  +NMAA  +K  +I   V+      A  DA+  I + S+ +V K    P      +S    E  D +   +EER+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166991318|sp|A1VAI9.1|GPMA_DESVV</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Desulfovibrio vulgaris DP4]</Hit_def>
+  <Hit_accession>A1VAI9</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.07017</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>LDAAVKKLLPANLHPHFQTACIED---GRLVLLAA---------------NNMAASRLKMIAPSVLPQLAGLDASIRSVSVRLVPKP</Hsp_qseq>
+      <Hsp_hseq>LEATVARVLP-----YWYDAIAPDLMAGRDVLVAAHGNSLRALVMHLDGLDREAVSRLDI--PTGLPRLYELDAALRPVSYRYLGDP</Hsp_hseq>
+      <Hsp_midline>L+A V ++LP     ++  A   D   GR VL+AA               +  A SRL +  P+ LP+L  LDA++R VS R +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|57015309|sp|Q29497.2|CP17A_SHEEP</Hit_id>
+  <Hit_def>RecName: Full=Steroid 17-alpha-hydroxylase/17,20 lyase; AltName: Full=17-alpha-hydroxyprogesterone aldolase; AltName: Full=CYPXVII; AltName: Full=Cytochrome P450 17A1; AltName: Full=Cytochrome P450-C17; Short=Cytochrome P450c17 [Ovis aries]</Hit_def>
+  <Hit_accession>Q29497</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.63414</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>QTACIED-GRLVLLAANNMAASRLKMIAPSVLPQLAGLDASIRSVSV</Hsp_qseq>
+      <Hsp_hseq>RTPTISDRNRLVLLEATIREVLRIRPVAPMLIPHKAIIDSSIGDLTI</Hsp_hseq>
+      <Hsp_midline>+T  I D  RLVLL A      R++ +AP ++P  A +D+SI  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|33301282|sp|Q8A0B5.2|KDUI2_BACTN</Hit_id>
+  <Hit_def>RecName: Full=4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase 2; AltName: Full=5-keto-4-deoxyuronate isomerase 2; AltName: Full=DKI isomerase 2 [Bacteroides thetaiotaomicron VPI-5482]</Hit_def>
+  <Hit_accession>Q8A0B5</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.78187</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LGRRDALLSGLLKQAGQWRRLDA---AVKKLLPANLHPHFQTACIE-DGRLVLLAANNMAASRLKMIAPSVLPQL</Hsp_qseq>
+      <Hsp_hseq>LNFKDALYVGRGKQKVTFKSKDASKPAKFYINSATAHKEYKTQLITIDGRKGSLKANSFAAGKMEESNDRVINQL</Hsp_hseq>
+      <Hsp_midline>L  +DAL  G  KQ   ++  DA   A   +  A  H  ++T  I  DGR   L AN+ AA +++     V+ QL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|38503033|sp|Q8HYM9.1|CP17A_MACMU</Hit_id>
+  <Hit_def>RecName: Full=Steroid 17-alpha-hydroxylase/17,20 lyase; AltName: Full=17-alpha-hydroxyprogesterone aldolase; AltName: Full=CYPXVII; AltName: Full=Cytochrome P450 17A1; AltName: Full=Cytochrome P450-C17; Short=Cytochrome P450c17 [Macaca mulatta] &gt;gi|85718634|sp|Q2XVA1.1|CP17A_MACFA RecName: Full=Steroid 17-alpha-hydroxylase/17,20 lyase; AltName: Full=17-alpha-hydroxyprogesterone aldolase; AltName: Full=CYPXVII; AltName: Full=Cytochrome P450 17A1; AltName: Full=Cytochrome P450-C17; Short=Cytochrome P450c17 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q8HYM9</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.95035</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>QTACIED-GRLVLLAANNMAASRLKMIAPSVLPQLAGLDASIRSVSV</Hsp_qseq>
+      <Hsp_hseq>RTPTISDRNRLLLLEATIREVLRIRPVAPMLIPHKANVDSSIGEFAV</Hsp_hseq>
+      <Hsp_midline>+T  I D  RL+LL A      R++ +AP ++P  A +D+SI   +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|38503034|sp|Q8HYN0.1|CP17A_PAPCY</Hit_id>
+  <Hit_def>RecName: Full=Steroid 17-alpha-hydroxylase/17,20 lyase; AltName: Full=17-alpha-hydroxyprogesterone aldolase; AltName: Full=CYPXVII; AltName: Full=Cytochrome P450 17A1; AltName: Full=Cytochrome P450-C17; Short=Cytochrome P450c17 [Papio cynocephalus]</Hit_def>
+  <Hit_accession>Q8HYN0</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.95035</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>QTACIED-GRLVLLAANNMAASRLKMIAPSVLPQLAGLDASIRSVSV</Hsp_qseq>
+      <Hsp_hseq>RTPTISDRNRLLLLEATIREVLRIRPVAPMLIPHKANVDSSIGEFAV</Hsp_hseq>
+      <Hsp_midline>+T  I D  RL+LL A      R++ +AP ++P  A +D+SI   +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|38605047|sp|Q9GLD2.1|CP17A_PAPHU</Hit_id>
+  <Hit_def>RecName: Full=Steroid 17-alpha-hydroxylase/17,20 lyase; AltName: Full=17-alpha-hydroxyprogesterone aldolase; AltName: Full=CYPXVII; AltName: Full=Cytochrome P450 17A1; AltName: Full=Cytochrome P450-C17; Short=Cytochrome P450c17 [Papio ursinus]</Hit_def>
+  <Hit_accession>Q9GLD2</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.01575</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>QTACIED-GRLVLLAANNMAASRLKMIAPSVLPQLAGLDASIRSVSV</Hsp_qseq>
+      <Hsp_hseq>RTPTISDRNRLLLLEATIREVLRIRPVAPMLIPHKANVDSSIGEFAV</Hsp_hseq>
+      <Hsp_midline>+T  I D  RL+LL A      R++ +AP ++P  A +D+SI   +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|81770660|sp|Q8YR82.1|MTNA_NOSS1</Hit_id>
+  <Hit_def>RecName: Full=Methylthioribose-1-phosphate isomerase; Short=M1Pi; Short=MTR-1-P isomerase; AltName: Full=S-methyl-5-thioribose-1-phosphate isomerase [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>Q8YR82</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.91404</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GLLKQAGQWRRLDAAVKKLLPANLHPHFQTA------CIEDGRLVLLAANNMAASRLK--MIAPSVLPQ---LAGLDAS--IRSVSVRLVPKPEKPPKTNTLHLSKAALESFDSAAAKLEERHP</Hsp_qseq>
+      <Hsp_hseq>GVVRSA--WR--EGRLERLFADETRPRLQGAKLTTWECVQEGIPVTLITDNMAAHCMKQGLIHAVVVGADRIAANGDAANKIGTYSLAIVAKAHNVPFFVAAPVSTIDFELADGSQIPIEERNP</Hsp_hseq>
+      <Hsp_midline>G+++ A  WR  +  +++L      P  Q A      C+++G  V L  +NMAA  +K  +I   V+      A  DA+  I + S+ +V K    P      +S    E  D +   +EER+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|74636890|sp|Q6CT34.1|ATR_KLULA</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase MEC1; AltName: Full=ATR homolog; AltName: Full=DNA-damage checkpoint kinase MEC1; AltName: Full=Mitosis entry checkpoint protein 1 [Kluyveromyces lactis NRRL Y-1140]</Hit_def>
+  <Hit_accession>Q6CT34</Hit_accession>
+  <Hit_len>2287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.22599</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>541</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>VLLAANNMAASRLKMIAPSVLPQLAGLDASIRSVSVRLV----PKPEKPPKTNTLHLS</Hsp_qseq>
+      <Hsp_hseq>VFQRASNSRSRFLRLLSVRLLPYFASLGSKYEDINLKFLIIFLQKPKAPYLTETLHMS</Hsp_hseq>
+      <Hsp_midline>V   A+N  +  L++++  +LP  A L +    ++++ +     KP+ P  T TLH+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|74746201|sp|Q5TDH0.1|DDI2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Protein DDI1 homolog 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q5TDH0</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.68898</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>HPHFQTACIEDGRLVLLAANNMAASRLKMIAPSVLPQLAGLDASIRSVSVRLVPKPEKPPKTNTLHLSKAALES----FDSAA-------------AKLEERHPELAEAL</Hsp_qseq>
+      <Hsp_hseq>HRSLASYGLKDGDVVILRQKENADPR----PPVQFPNLPRIDFSSIAVPGTSSPRQRQPPGTQQSHSSPGEITSSPQGLDNPALLRDMLLANPHELSLLKERNPPLAEAL</Hsp_hseq>
+      <Hsp_midline>H    +  ++DG +V+L     A  R     P   P L  +D S  +V     P+  +PP T   H S   + S     D+ A             + L+ER+P LAEAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|81439344|sp|Q88C26.1|PDXY_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Pyridoxamine kinase; Short=PM kinase [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88C26</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.80125</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>NLEQLGRRDALLSGLLKQAGQWRRLDAAVKKLLPAN</Hsp_qseq>
+      <Hsp_hseq>NIGELGHCDAVLSGYLGSAEQGRAILAGVERIKAVN</Hsp_hseq>
+      <Hsp_midline>N+ +LG  DA+LSG L  A Q R + A V+++   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|189036775|sp|B0KR83.1|PDXY_PSEPG</Hit_id>
+  <Hit_def>RecName: Full=Pyridoxamine kinase; Short=PM kinase [Pseudomonas putida GB-1]</Hit_def>
+  <Hit_accession>B0KR83</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>9.30974</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>NLEQLGRRDALLSGLLKQAGQWRRLDAAVKKLLPAN</Hsp_qseq>
+      <Hsp_hseq>NIGELGHCDAVLSGYLGSAEQGRAILAGVERIKAVN</Hsp_hseq>
+      <Hsp_midline>N+ +LG  DA+LSG L  A Q R + A V+++   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|166980451|sp|A5WB73.1|PDXY_PSEP1</Hit_id>
+  <Hit_def>RecName: Full=Pyridoxamine kinase; Short=PM kinase [Pseudomonas putida F1]</Hit_def>
+  <Hit_accession>A5WB73</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>9.39727</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>NLEQLGRRDALLSGLLKQAGQWRRLDAAVKKLLPAN</Hsp_qseq>
+      <Hsp_hseq>NIGELGHCDAVLSGYLGSAEQGRAILAGVERIKAVN</Hsp_hseq>
+      <Hsp_midline>N+ +LG  DA+LSG L  A Q R + A V+++   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

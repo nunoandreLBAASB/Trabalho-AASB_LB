@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>28569</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7X8</BlastOutput_query-def>
+  <BlastOutput_query-len>207</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>28569</Iteration_query-ID>
+  <Iteration_query-def>Q5F7X8</Iteration_query-def>
+  <Iteration_query-len>207</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81341887|sp|O31608.1|YJBJ_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative murein lytic transglycosylase YjbJ [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31608</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.10101e-08</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>IQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFWKNYIGKPAHNLFDIRTNLRYGCTILRHYRNLEKGDIVRALARFNGSLG</Hsp_qseq>
+      <Hsp_hseq>IKKAADKYGVDEKLIRAVIKQESGFNAKAVSGAGAMGLMQLMPSTASSLG--VSNPLDPQQNVEGGTKYLKQMLDKYDGNVSMALAAYNAGPG</Hsp_hseq>
+      <Hsp_midline>I+  + + G+D +++  +I+ ES F   A+SG GA GLMQ+MP   + +G    N  D + N+  G   L+   +   G++  ALA +N   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|139148|sp|P27380.3|VP07_BPPRD</Hit_id>
+  <Hit_def>RecName: Full=Transglycosylase; AltName: Full=Protein P7 [Enterobacteria phage PRD1]</Hit_def>
+  <Hit_accession>P27380</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>3.75632e-07</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>IQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFWKNYIGKPAHNLFDIRTNLRYGCTILRHYRNLEK-GDIVRALARFNGSLGSNK</Hsp_qseq>
+      <Hsp_hseq>IGAASAQYNLDPRLVAGVVQTESSGNPRTTSGVGAMGLMQLMPATAKSLG--VTNAYDPTQNIYGGAALLR--ENLDRYGDVNTALLAYHG--GTNQ</Hsp_hseq>
+      <Hsp_midline>I   S++  LD ++V G+++ ES+      SGVGA GLMQ+MP     +G    N +D   N+  G  +LR   NL++ GD+  AL  ++G  G+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|254811438|sp|B8F6F0.1|MLTC_HAEPS</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Haemophilus parasuis SH0165]</Hit_def>
+  <Hit_accession>B8F6F0</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>7.84979e-07</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>EGERRRLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMP</Hsp_qseq>
+      <Hsp_hseq>EVRARRYLPLVRQMSKRYGIDMSLILGIMEVESAFNPYAVSYANAIGLMQVVP</Hsp_hseq>
+      <Hsp_midline>E   RR L  ++  S R G+D  ++LG++EVESAF  YA+S   A GLMQV+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|71151928|sp|Q7N7I2.1|MLTC_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N7I2</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.45338e-06</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>RFVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>QLVPNHLDKRAHKYLPLIRQASIKYGIDESLILAIMQIESSFNPYAVSRSDALGLMQVVQHTAGRDVFKMKGKSGQPSRSYLFDPENNIDAGTAYLSILQNSYLVDITNATSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline>+ VP+  ++R  + L  I+  S + G+D  ++L ++++ES+F  YA+S   A GLMQV+           K   G+P+ + LFD   N+  G   L   +N    DI  A +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|251757362|sp|O31976.2|YOMI_BACSU</Hit_id>
+  <Hit_def>RecName: Full=SPBc2 prophage-derived uncharacterized transglycosylase YomI [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31976</Hit_accession>
+  <Hit_len>2285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.72505e-06</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1426</Hsp_hit-from>
+      <Hsp_hit-to>1517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>IQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFWKNYIGKPAHNLFDIRTNLRYGCTILRHYRNLEK--GDIVRALARFNGSLGS</Hsp_qseq>
+      <Hsp_hseq>INSAASKYNVDPALIAAVIQQESGFNAKARSGVGAMGLMQLMPATAKSLG--VNNAYDPYQNVMGGTKYLA--QQLEKFGGNVEKALAAYNAGPGN</Hsp_hseq>
+      <Hsp_midline>I   +S+  +D  ++  +I+ ES F   A SGVGA GLMQ+MP     +G   +N +D   N+  G   L   + LEK  G++ +ALA +N   G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123518869|sp|Q2NRB3.1|MLTC_SODGM</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Sodalis glossinidius str. &apos;morsitans&apos;]</Hit_def>
+  <Hit_accession>Q2NRB3</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.80662e-06</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>RFVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>QLVPNHLDKRAHKYLGMVRKASQQYGVDQSLILAIMQTESSFNPYAVSHADALGLMQVVQHSAGRDVFKMKGKWGQPSRSYLFDPENNIDTGTAYLAMLQNSYLGGIVNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline>+ VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           K   G+P+ + LFD   N+  G   L   +N   G IV   +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|71151926|sp|Q65VT8.2|MLTC_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65VT8</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.87628e-06</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>RRLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTIL</Hsp_qseq>
+      <Hsp_hseq>RKYLSLVRQASRRYGIDESLILGIMQTESSFNPYAISYANAMGLMQVVPHTAGRDIFKLKGRSGQPSKSYLFDPANNIDAGVSYL</Hsp_hseq>
+      <Hsp_midline>R+ L  ++  S R G+D  ++LG+++ ES+F  YAIS   A GLMQV+P          K   G+P+ + LFD   N+  G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|171704552|sp|A1JPV7.2|MLTC_YERE8</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JPV7</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>2.40228e-06</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>RFVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>QLVPNHLDKRAHKYLPLVRQSAEKYGVEESLILAIMQTESSFNPYAVSGSDALGLMQVVQHTAGRDVFKMKGKSGQPSRSYLFDPANNIDAGTAYLSILQNTYLGGIQNATSRRYAVITSYNGGAGS</Hsp_hseq>
+      <Hsp_midline>+ VP+  ++R  + L  ++  + + G++  ++L +++ ES+F  YA+SG  A GLMQV+           K   G+P+ + LFD   N+  G   L   +N   G I  A +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|259495798|sp|C5BCE9.1|MLTC_EDWI9</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Edwardsiella ictaluri 93-146]</Hit_def>
+  <Hit_accession>C5BCE9</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>4.04621e-06</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>LADDVASV-MRSSVGSVNPPR------LVFDNPKEGERW----------------------LSAMSARLARFVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MGDDPSSIDLYSDANDIKPSREPFLYGQVLDNTGQPIRWSGRANSFADYLLQNKLMKRTSGLHVIYSVTIQLVPNHLDKRAHKYLDMVRRASERYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVMQHTAGKDVFVSKGKWGTPSRSYLFDPEKNIDTGTAYLAILQNTYLGGIQNTTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline>+ DD +S+ + S    + P R       V DN  +  RW                      L  + +   + VP+  ++R  + L  ++  S R G+D  ++L +++ ES+F  YA+S   A GLMQVM           K   G P+ + LFD   N+  G   L   +N   G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|71151934|sp|Q8ZHE6.2|MLTC_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Yersinia pestis] &gt;gi|71151935|sp|Q666M2.2|MLTC_YERPS RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Yersinia pseudotuberculosis IP 32953] &gt;gi|167011801|sp|A7FEX3.1|MLTC_YERP3 RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Yersinia pseudotuberculosis IP 31758] &gt;gi|172044489|sp|A4TI58.2|MLTC_YERPP RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Yersinia pestis Pestoides F] &gt;gi|172045865|sp|Q1CEV1.2|MLTC_YERPN RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Yersinia pestis Nepal516] &gt;gi|172045870|sp|Q1CB94.2|MLTC_YERPA RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Yersinia pestis Antiqua] &gt;gi|254811441|sp|B2K0V2.1|MLTC_YERPB RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Yersinia pseudotuberculosis PB1/+] &gt;gi|254811442|sp|A9R6R2.1|MLTC_YERPG RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Yersinia pestis Angola]</Hit_def>
+  <Hit_accession>Q8ZHE6</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>6.42263e-06</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>LSAMSARLARFVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LHVISFVTIQLVPNHLDKRAHKYLPLVRKSAARYGVEESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFKLKGKSGQPSRSYLFDPENNIDAGTAYLSILQNTYLGGIQNATSRRYAVITSYNGGAGS</Hsp_hseq>
+      <Hsp_midline>L  +S    + VP+  ++R  + L  ++  ++R G++  ++L +++ ES+F  YA+S   A GLMQV+           K   G+P+ + LFD   N+  G   L   +N   G I  A +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|167011800|sp|A8GJ50.1|MLTC_SERP5</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GJ50</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>1.30429e-05</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>LSAMSARLARFVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LHVIYSVTIQLVPNHLDKRAHKYLPMVRKASEKYGVEESLILAIMQTESSFNPYAVSGSDALGLMQVVQHTAGKDVFQMRGKWGKPSRSYLFDPENNIDTGTAYLAILQNNYLGGIQNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline>L  + +   + VP+  ++R  + L  ++  S + G++  ++L +++ ES+F  YA+SG  A GLMQV+           +   GKP+ + LFD   N+  G   L   +N   G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|171704209|sp|A6VLS0.1|MLTC_ACTSZ</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VLS0</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>1.43339e-05</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>RRLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRN</Hsp_qseq>
+      <Hsp_hseq>RKYLPFVRKASRQYGIDESLILGIMQTESSFNPYAISYANAIGLMQVVPHSAGRDIFKMKGRSGQPSKSYLFDPAKNVDAGTSYLWLLRN</Hsp_hseq>
+      <Hsp_midline>R+ L  ++  S + G+D  ++LG+++ ES+F  YAIS   A GLMQV+P          K   G+P+ + LFD   N+  G + L   RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|71151925|sp|Q7VKB7.1|MLTC_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VKB7</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.85154e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>RFVPDEGE--RRRLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMP</Hsp_qseq>
+      <Hsp_hseq>KMVADHVEVRARKYLPLVRKMAKRYGIETSLIFGIMEVESSFNPYAVSYANAIGLMQVVP</Hsp_hseq>
+      <Hsp_midline>+ V D  E   R+ L  ++  + R G++T ++ G++EVES+F  YA+S   A GLMQV+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|167011798|sp|A5UDW4.1|MLTC_HAEIE</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Haemophilus influenzae PittEE]</Hit_def>
+  <Hit_accession>A5UDW4</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.61782e-05</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>EGERRRLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTIL</Hsp_qseq>
+      <Hsp_hseq>EVRARKYLPLIRKAAQRYGIDESLILGIMQTESSFNPYAISYANAIGLMQVVPHTAGRDVFTMKGKGGQPSTRYLYDPTNNIDAGVSYL</Hsp_hseq>
+      <Hsp_midline>E   R+ L  I+  + R G+D  ++LG+++ ES+F  YAIS   A GLMQV+P          K   G+P+   L+D   N+  G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|254811435|sp|B6I7A0.1|MLTC_ECOSE</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli SE11]</Hit_def>
+  <Hit_accession>B6I7A0</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.44834e-05</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRNFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ N LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|189028873|sp|A7MLX9.2|MLTC_CROS8</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MLX9</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.90188e-05</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF------------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LVPNHLDKRAHKYIGMVRQASRKYGVDESLILAIMQTESSFNPYAVSHADALGLMQVVQHSAGKDVFRSQGKW----GTPSRSYLFDPQSNIDTGTAYLAMLNNVYLGGITNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + +  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+              W    G P+ + LFD ++N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1175303|sp|P44049.1|MLTC_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44049</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.96155e-05</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>EGERRRLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTIL</Hsp_qseq>
+      <Hsp_hseq>EVRARKYLPLIRKAAQRYGIDESLILGIMQTESSFNPYAISYANAIGLMQVVPHTAGRDVFAMKGKGGQPSTRYLYDPANNIDAGVSYL</Hsp_hseq>
+      <Hsp_midline>E   R+ L  I+  + R G+D  ++LG+++ ES+F  YAIS   A GLMQV+P          K   G+P+   L+D   N+  G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|81336216|sp|Q4QMD8.1|MLTC_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Haemophilus influenzae 86-028NP]</Hit_def>
+  <Hit_accession>Q4QMD8</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.96155e-05</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>EGERRRLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTIL</Hsp_qseq>
+      <Hsp_hseq>EVRARKYLPLIRKAAQRYGIDESLILGIMQTESSFNPYAISYANAIGLMQVVPHTAGRDVFAMKGKGGQPSTRYLYDPANNIDAGVSYL</Hsp_hseq>
+      <Hsp_midline>E   R+ L  I+  + R G+D  ++LG+++ ES+F  YAIS   A GLMQV+P          K   G+P+   L+D   N+  G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|167011799|sp|A5UHR5.1|MLTC_HAEIG</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Haemophilus influenzae PittGG]</Hit_def>
+  <Hit_accession>A5UHR5</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>4.07496e-05</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>EGERRRLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTIL</Hsp_qseq>
+      <Hsp_hseq>EVRARKYLPLIRKAAQRYGIDESLILGIMQTESSFNPYAISYANAIGLMQVVPHTAGRDVFAMKGKGGQPSTRYLYDPANNIDAGVSYL</Hsp_hseq>
+      <Hsp_midline>E   R+ L  I+  + R G+D  ++LG+++ ES+F  YAIS   A GLMQV+P          K   G+P+   L+D   N+  G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|167011795|sp|A3N339.1|MLTC_ACTP2</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Actinobacillus pleuropneumoniae serovar 5b str. L20] &gt;gi|254811424|sp|B3GYW8.1|MLTC_ACTP7 RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Actinobacillus pleuropneumoniae serovar 7 str. AP76] &gt;gi|254811425|sp|B0BSH0.1|MLTC_ACTPJ RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Actinobacillus pleuropneumoniae serovar 3 str. JL03]</Hit_def>
+  <Hit_accession>A3N339</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>4.82772e-05</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RRLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMP</Hsp_qseq>
+      <Hsp_hseq>RQYLPLVRKMAKRYGIEPSLILGIMEVESAFNPYAVSYANAIGLMQVVP</Hsp_hseq>
+      <Hsp_midline>R+ L  ++  + R G++  ++LG++EVESAF  YA+S   A GLMQV+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|123132239|sp|Q0I513.1|MLTC_HISS1</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Haemophilus somnus 129PT] &gt;gi|189028840|sp|B0UWE6.1|MLTC_HISS2 RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Haemophilus somnus 2336]</Hit_def>
+  <Hit_accession>Q0I513</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>5.24157e-05</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>RRLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW----------------KNYIGKPAHNLFDIRTNLRYGCTILR</Hsp_qseq>
+      <Hsp_hseq>QRYLPLIRKAAGRYGIDESLILGIMQTESSFNPYAISYANAIGLMQVVPHTAGRDVFRLKGLNGQPSKKYLFNPAKN---IDTGVAY-LTLLR</Hsp_hseq>
+      <Hsp_midline>+R L  I+  + R G+D  ++LG+++ ES+F  YAIS   A GLMQV+P                  K Y+  PA N   I T + Y  T+LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|71151929|sp|Q57K03.2|MLTC_SALCH</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67]</Hit_def>
+  <Hit_accession>Q57K03</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.07016e-05</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>LSAMSARLARFVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LSIIYSVTINLVPNHLDKRAHKYIGMVRQASRKYGVDESLILAIMQTESSFNPYAVSHADALGLMQVVQHSAGKDVFRSQGKSGTPSRNFLFDPASNIDTGTAYLAMLNNVYLSGIENPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline>LS + +     VP+  ++R  + +  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ N LFD  +N+  G   L    N+    I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|254811437|sp|B7LPT3.1|MLTC_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LPT3</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000133303</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQSSRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRSFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|71151930|sp|Q5PMM0.2|MLTC_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|71151932|sp|Q8ZM39.2|MLTC_SALTY RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|189028845|sp|A9N4R0.2|MLTC_SALPB RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7]</Hit_def>
+  <Hit_accession>Q5PMM0</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000142504</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LVPNHLDKRAHKYIGMVRQASRKYGVDESLILAIMQTESSFNPYAVSHADALGLMQVVQHSAGKDVFRSQGKSGTPSRNFLFDPASNIDTGTAYLAMLNNVYLSGIENPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + +  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ N LFD  +N+  G   L    N+    I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|71151931|sp|Q8Z3T9.2|MLTC_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z3T9</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000145197</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LVPNHLDKRAHKYIGMVRQASRKYGVDESLILAIMQTESSFNPYAVSHADALGLMQVVQHSAGKDVFRSQGKSGTPSRNFLFDPASNIDTGTAYLAMLNNVYLSGIENPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + +  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ N LFD  +N+  G   L    N+    I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|71151923|sp|Q8XCS6.2|MLTC_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli O157:H7] &gt;gi|254811429|sp|B5YQG2.1|MLTC_ECO5E RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli O157:H7 str. EC4115]</Hit_def>
+  <Hit_accession>Q8XCS6</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000162253</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRSFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|254811431|sp|B7MZB8.1|MLTC_ECO81</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli ED1a]</Hit_def>
+  <Hit_accession>B7MZB8</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000166871</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRSFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|254811436|sp|B1LDH3.1|MLTC_ECOSM</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli SMS-3-5]</Hit_def>
+  <Hit_accession>B1LDH3</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000166871</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRSFLFDPASNIDIGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|71152890|sp|P0C067.1|MLTC_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli CFT073] &gt;gi|71152891|sp|P0C066.1|MLTC_ECOLI RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli K-12] &gt;gi|189028868|sp|A1AFE9.2|MLTC_ECOK1 RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli APEC O1] &gt;gi|189028869|sp|Q0TDN8.2|MLTC_ECOL5 RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli 536] &gt;gi|189028871|sp|Q1R762.2|MLTC_ECOUT RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli UTI89] &gt;gi|254811426|sp|B7UI10.1|MLTC_ECO27 RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli O127:H6 str. E2348/69] &gt;gi|254811427|sp|B7MN10.1|MLTC_ECO45 RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli S88] &gt;gi|254811433|sp|B1XFC3.1|MLTC_ECODH RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli str. K-12 substr. DH10B] &gt;gi|259495797|sp|C5A0N2.1|MLTC_ECOBW RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P0C067</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000170022</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRSFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|254811430|sp|B7NI32.1|MLTC_ECO7I</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli IAI39]</Hit_def>
+  <Hit_accession>B7NI32</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000170022</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>VPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRSFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline>VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|167011796|sp|A7ZR89.1|MLTC_ECO24</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli O139:H28 str. E24377A] &gt;gi|167011797|sp|A8A4A6.1|MLTC_ECOHS RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli HS] &gt;gi|189028846|sp|Q31WM5.2|MLTC_SHIBS RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Shigella boydii Sb227] &gt;gi|189028870|sp|B1ISK6.2|MLTC_ECOLC RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli ATCC 8739] &gt;gi|254811428|sp|B7LFM1.1|MLTC_ECO55 RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli 55989] &gt;gi|254811434|sp|B7N7L9.1|MLTC_ECOLU RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli UMN026] &gt;gi|254811440|sp|B2U178.1|MLTC_SHIB3 RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Shigella boydii CDC 3083-94]</Hit_def>
+  <Hit_accession>A7ZR89</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000174859</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRSFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|189028847|sp|Q32C32.2|MLTC_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32C32</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000174859</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRSFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|71151933|sp|Q83Q83.2|MLTC_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Shigella flexneri] &gt;gi|189028848|sp|Q0T0S4.2|MLTC_SHIF8 RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q83Q83</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000181522</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFWKNYIGK-----------PAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVV---QNTAGKDVFRSQGKSGTPSRSFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+   +N  GK           P+ + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|254811432|sp|B7LYZ3.1|MLTC_ECO8A</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Escherichia coli IAI1]</Hit_def>
+  <Hit_accession>B7LYZ3</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000181522</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRSFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|189028872|sp|A4WEA0.2|MLTC_ENT38</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4WEA0</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000184723</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LVPNHLDKRAHKYVGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHSAGKDVFRSQGKSGTPSRSYLFDPQSNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + +  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD ++N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|71151927|sp|Q9CLB8.2|MLTC_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CLB8</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000212519</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTIL</Hsp_qseq>
+      <Hsp_hseq>RYNMDESLILGIMQTESSFNPYAISYANAIGLMQVVPTTAGRDIFKMKGKGGQPSKSYLFDPEKNIDAGTSYL</Hsp_hseq>
+      <Hsp_midline>R  +D  ++LG+++ ES+F  YAIS   A GLMQV+P          K   G+P+ + LFD   N+  G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|189028844|sp|A9MQR3.2|MLTC_SALAR</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MQR3</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000287197</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LVPNHLDKRAHKYIGMVRQASRKYGVDESLILAIMQTESSFNPYAVSHADALGLMQVVQHSAGKDVFRSQGKSGIPSRNFLFDPASNIDTGTAYLAMLNNVYLSGIENPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + +  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ N LFD  +N+  G   L    N+    I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|71151924|sp|Q6D8K0.1|MLTC_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D8K0</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.000613866</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>RFVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRN</Hsp_qseq>
+      <Hsp_hseq>QLVPNHLDKRAHKYLPLVRKASERYGIEESLILAIMQTESSFNPYAVSRSDALGLMQVVQHSAGRDVFKMKGKWGQPSRSYLFDPEQNIDAGTAYLSILKN</Hsp_hseq>
+      <Hsp_midline>+ VP+  ++R  + L  ++  S R G++  ++L +++ ES+F  YA+S   A GLMQV+           K   G+P+ + LFD   N+  G   L   +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|254811439|sp|B5XU88.1|MLTC_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XU88</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000979637</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSHADAMGLMQVVQHSAGKDVFRSQGKSGLPSRSYLFDPANNIDTGTAYLAMLNNVYLAGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD   N+  G   L    N+    I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|189028843|sp|A6TDX1.2|MLTC_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6TDX1</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00101661</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSHADAMGLMQVVQHSAGRDVFRSQGKSGLPSRSYLFDPANNIDTGTAYLAMLNNVYLAGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD   N+  G   L    N+    I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|215275620|sp|A8ZWR8.2|MLTF_DESOH</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Desulfococcus oleovorans Hxd3]</Hit_def>
+  <Hit_accession>A8ZWR8</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00123776</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>IQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFWKNYIGKPAHNLFDIRTNLRYGCTI---LRH-YRNLE--KGDIVRALARFNGSLGSNKYPNAV---LGAWRNRWQ</Hsp_qseq>
+      <Hsp_hseq>IEKAADRHGFDWQMIAAVIYQESHFDPFAQSHTGVKGLMQLTRVTAEEMG--VTDRFDFEQNITAGVAYLAKLRHRFDDIEDPRTRLLFALASYNIGYGHVRDAQQIAKNMGMDPNRWQ</Hsp_hseq>
+      <Hsp_midline>I+  + R G D Q++  +I  ES F  +A S  G +GLMQ+       +G    + FD   N+  G      LRH + ++E  +  ++ ALA +N   G  +    +   +G   NRWQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|189028867|sp|A8API2.2|MLTC_CITK8</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8API2</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00126945</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>LVPNHLDKRAHKYVGMVRQAARKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPGRSFLFDPASNIDTGTAYLAMLNNVYLGGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + +  ++  + + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P  + LFD  +N+  G   L    N+  G I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|189028849|sp|Q3YXF0.2|MLTC_SHISS</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase C; AltName: Full=Murein lyase C; Flags: Precursor [Shigella sonnei Ss046]</Hit_def>
+  <Hit_accession>Q3YXF0</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00135273</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>FVPDEGERR--RLLVNIQYESSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFW--------KNYIGKPAHN-LFDIRTNLRYGCTILRHYRNLEKGDIVRALAR-------FNGSLGS</Hsp_qseq>
+      <Hsp_hseq>MVPNHLDKRAHKYLGMVRQASRKYGVDESLILAIMQTESSFNPYAVSRSDALGLMQVVQHTAGKDVFRSQGKSGTPSRSFLFDPASNIDTGTAYLAMLNNVYLDGIDNPTSRRYAVITAYNGGAGS</Hsp_hseq>
+      <Hsp_midline> VP+  ++R  + L  ++  S + G+D  ++L +++ ES+F  YA+S   A GLMQV+           +   G P+ + LFD  +N+  G   L    N+    I    +R       +NG  GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|46396398|sp|Q89AM2.1|MLTE_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase E; AltName: Full=Murein hydrolase E [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AM2</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.127349</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>SSRAGLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPF--------WKNYIGKPAH-NLFDIRTNLRYGCTILRHYRN</Hsp_qseq>
+      <Hsp_hseq>SKKYNVDKKLITAIICVESSGNTHAVSISKAIGLMQIKPFSAGREVYRFRGLLNQPSDVDLYDPKINIDIGTSYINILRN</Hsp_hseq>
+      <Hsp_midline>S +  +D +++  +I VES+   +A+S   A GLMQ+ PF        ++  + +P+  +L+D + N+  G + +   RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|84028111|sp|P0AEZ8.1|MLTD_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase D; AltName: Full=Murein hydrolase D; AltName: Full=Regulatory protein DniR; Flags: Precursor [Escherichia coli CFT073] &gt;gi|84028112|sp|P0AEZ7.1|MLTD_ECOLI RecName: Full=Membrane-bound lytic murein transglycosylase D; AltName: Full=Murein hydrolase D; AltName: Full=Regulatory protein DniR; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AEZ8</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.33203</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VESAFRQYAISGVGARGLMQVMP-FWKNYIGKPAHNLFDIRTNLRYGCT----ILRHYRNLEKGDIVRALARFNGSLG</Hsp_qseq>
+      <Hsp_hseq>VESAFDPHATSGANAAGIWQIIPSTGRNYGLKQTRN-YDARRDVVASTTAALNMMQRLNKMFDGDWLLTVAAYNSGEG</Hsp_hseq>
+      <Hsp_midline>VESAF  +A SG  A G+ Q++P   +NY  K   N +D R ++    T    +++    +  GD +  +A +N   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|586388|sp|P38348.1|HSM3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=DNA mismatch repair protein HSM3; AltName: Full=Enhanced spontaneous mutability protein 3 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P38348</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.38822</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>LVFDNPKEGERWLSAMSARLARFVPDEGERRRLLV-NIQYESSRAG-LDTQIVLGLIEVESAFRQYAISGVGARGLMQVMPFWKNYIGKPAHNLFDIRTNLRYGCTILRHYRNLEK</Hsp_qseq>
+      <Hsp_hseq>ILFDEKVENDKLITAIEKALERLSTDELIRRRLFDNNLPYLVSVKGRMETVSFVRLIDFLTIEFQF-ISGPEFKDI--IFCFTKEEILKSVEDILVFIELVNYYTKFLLEIRNQDK</Hsp_hseq>
+      <Hsp_midline>++FD   E ++ ++A+   L R   DE  RRRL   N+ Y  S  G ++T   + LI+  +   Q+ ISG   + +  +  F K  I K   ++      + Y    L   RN +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|166224366|sp|A6TAW0.2|EMTA_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Endo-type membrane-bound lytic murein transglycosylase A; AltName: Full=Peptidoglycan lytic endotransglycosylase; Flags: Precursor [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6TAW0</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.90839</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>GLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMP</Hsp_qseq>
+      <Hsp_hseq>GVDPQLITAIIAIESGGNPAVVSKSGAVGLMQLKP</Hsp_hseq>
+      <Hsp_midline>G+D Q++  +I +ES      +S  GA GLMQ+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|226741092|sp|B5XQ85.1|EMTA_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=Endo-type membrane-bound lytic murein transglycosylase A; AltName: Full=Peptidoglycan lytic endotransglycosylase; Flags: Precursor [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XQ85</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.92581</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>GLDTQIVLGLIEVESAFRQYAISGVGARGLMQVMP</Hsp_qseq>
+      <Hsp_hseq>GVDPQLITAIIAIESGGNPAVVSKSGAVGLMQLKP</Hsp_hseq>
+      <Hsp_midline>G+D Q++  +I +ES      +S  GA GLMQ+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|84028718|sp|P0AGC4.1|SLT_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Soluble lytic murein transglycosylase; AltName: Full=Exomuramidase; AltName: Full=Peptidoglycan lytic exotransglycosylase; AltName: Full=Slt70; Flags: Precursor [Escherichia coli O157:H7] &gt;gi|84028719|sp|P0AGC3.1|SLT_ECOLI RecName: Full=Soluble lytic murein transglycosylase; AltName: Full=Exomuramidase; AltName: Full=Peptidoglycan lytic exotransglycosylase; AltName: Full=Slt70; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AGC4</Hit_accession>
+  <Hit_len>645</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.21721</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>498</Hsp_hit-from>
+      <Hsp_hit-to>584</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>VLGLIEVESAFRQYAISGVGARGLMQVMPFWKNYIGK----PAHN----LFDIRTNLRYGCTILRHYRNLEKGDIVRALARFNGSLG</Hsp_qseq>
+      <Hsp_hseq>AMAIARQESAWNPKVKSPVGASGLMQIMPGTATHTVKMFSIPGYSSPGQLLDPETNINIGTSYLQYVYQQFGNNRIFSSAAYNAGPG</Hsp_hseq>
+      <Hsp_midline> + +   ESA+     S VGA GLMQ+MP    +  K    P ++    L D  TN+  G + L++       + + + A +N   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|122140887|sp|Q3ZC64.1|EFNA1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Ephrin-A1; Contains: RecName: Full=Ephrin-A1, secreted form; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q3ZC64</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.28103</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>PVNLQRRRLL----CAAGALLISPLAHAGAQREETLADDVASVMRSSVGSVNPPRLV</Hsp_qseq>
+      <Hsp_hseq>PIHHQEDRCLRLKVMIAGKITHSPQAHPNAQEKRLPADDPEVQVLHSIGHSAAPRLF</Hsp_hseq>
+      <Hsp_midline>P++ Q  R L      AG +  SP AH  AQ +   ADD    +  S+G    PRL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

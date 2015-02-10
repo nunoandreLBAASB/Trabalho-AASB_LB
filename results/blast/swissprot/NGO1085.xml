@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>15479</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7T5</BlastOutput_query-def>
+  <BlastOutput_query-len>281</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>15479</Iteration_query-ID>
+  <Iteration_query-def>Q5F7T5</Iteration_query-def>
+  <Iteration_query-len>281</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1175791|sp|P44189.1|Y1418_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1418 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44189</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>6.62806e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>NAVQV--LNFQQNSVRTVADNKGELWFLANDVCEILGYTNPRRTVDLHCKSRGVTKRYTPTTSGEQEMTYINEPNLYRLIIKSRKPAAEAFEEWVMETVLPAIRKTGGCQVGPKTTA</Hsp_qseq>
+      <Hsp_hseq>NQIQFSTFNFKDLPVRVILDPKGEFWFCGTDVCHILGYTNSRKALQDHCKQGGVTKRYTPTKSADQEMTFINEPNLYRLIIKSRKPEAEPFEAWVFEEVLPQIRKTGKYQLQPQQLA</Hsp_hseq>
+      <Hsp_midline>N +Q    NF+   VR + D KGE WF   DVC ILGYTN R+ +  HCK  GVTKRYTPT S +QEMT+INEPNLYRLIIKSRKP AE FE WV E VLP IRKTG  Q+ P+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|131843|sp|P03037.1|RANT_BPP22</Hit_id>
+  <Hit_def>RecName: Full=Antirepressor protein ant [Enterobacteria phage P22]</Hit_def>
+  <Hit_accession>P03037</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>2.79586e-15</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>KTTADDRTGLRQAVAALVGRKGIDYSSAYSMIHQRFNVESIEDLPAGKLPEAVAYVHALTLHTGLTGE</Hsp_qseq>
+      <Hsp_hseq>KTSVDERTPLRDAVNMLVSKKHLMYPEAYAMIHQRFNVESIEELEASQIPLAVEYIHRVVLEGEFIGK</Hsp_hseq>
+      <Hsp_midline>KT+ D+RT LR AV  LV +K + Y  AY+MIHQRFNVESIE+L A ++P AV Y+H + L     G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|82012215|sp|Q91FW9.1|VF201_IIV6</Hit_id>
+  <Hit_def>RecName: Full=Putative Bro-N domain-containing protein 201R [Invertebrate iridescent virus 6]</Hit_def>
+  <Hit_accession>Q91FW9</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>5.12437e-10</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>WFLANDVCEILGYTNPRRTVDLHCKSRG-------VTKRYTPTTSG-------------EQEMTYINEPNLYRLIIKSRKPAAEAFEEWVMETVLPAIRKTGGCQVGPKTTA</Hsp_qseq>
+      <Hsp_hseq>YFCGKDVCTILGYKDKEQALRKRVKSKHKKSLSELFEKKLPVVTTGNFFLGTQNELSYHEGKSIYINEPGLYNLIMSSEAPFAEQFQDMVYEKILPSIRKYGSYSIEQKLSS</Hsp_hseq>
+      <Hsp_midline>+F   DVC ILGY +  + +    KS+          K+    T+G             E +  YINEP LY LI+ S  P AE F++ V E +LP+IRK G   +  K ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|123808679|sp|Q197E1.1|VF201_IIV3</Hit_id>
+  <Hit_def>RecName: Full=Putative Bro-N domain-containing protein 019R [Invertebrate iridescent virus 3]</Hit_def>
+  <Hit_accession>Q197E1</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.87873e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>QNSVRTVADNKGELWFLANDVCEILGYTNPRRTVDLHCKSR----------------GVTKRYT------PTTSGEQEMTYINEPNLYRLIIKSRKPAAEAFEEWVMETVLPAIRKTGGCQVGPKTT</Hsp_qseq>
+      <Hsp_hseq>QNHHIKLAGTMDDPYFCGKDVCSILRYKDVKQALQNKVKPKNKKMLSVLVKQDHNAVGVQTTSTRLGSNSPLTYNEGKAIYINEPGLYALIMHSNAPFAEEFQDLVYEQILPSIRKYGSYQLEMQLT</Hsp_hseq>
+      <Hsp_midline>QN    +A    + +F   DVC IL Y + ++ +    K +                GV    T      P T  E +  YINEP LY LI+ S  P AE F++ V E +LP+IRK G  Q+  + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|82012134|sp|Q91FN5.1|289L_IIV6</Hit_id>
+  <Hit_def>RecName: Full=Putative Bro-N domain-containing protein 289L [Invertebrate iridescent virus 6]</Hit_def>
+  <Hit_accession>Q91FN5</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>5.52977e-05</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>WFLANDVCEILGYTNPRRTVDLHC-----------KSRGVT-------KRYTPTTSGEQEMTYINEPNLYRLIIKSRKPAAEAFEEWVMETVLPAIRKTGGCQVGPKTTA</Hsp_qseq>
+      <Hsp_hseq>YFCGKDVCKVLGYKDIKDALKKHVDREDKLPLSEIKKVGGTAPPTFLGQTYAYLSHNDGRAVYISEGGLYSLIMSSEAPFAKDFRRLVCNVILPSIRKFGSYSIEQQLSS</Hsp_hseq>
+      <Hsp_midline>+F   DVC++LGY + +  +  H            K  G T       + Y   +  +    YI+E  LY LI+ S  P A+ F   V   +LP+IRK G   +  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81999811|sp|Q5UP77.1|YL002_MIMIV</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized Bro-N domain-containing protein L2 [Acanthamoeba polyphaga mimivirus]</Hit_def>
+  <Hit_accession>Q5UP77</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00136847</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>DNKGELWFLANDVCEILGYTNPRRTVDLHCKS--RGV---TKRYTPTTSG------EQEMTYINEPNLYRLIIKSRKPAAEAFEEWVMETVLPAIRKTGGCQVGPK</Hsp_qseq>
+      <Hsp_hseq>DGKWDVWIYGAEVARFLGYNDDKKAISIHVESCNRLIFEEIRNNFPIESNSIPKTLDKKTKFINLSGFCNLIHHSKKPFAMKIKKWLDDEVIPALIMDGVYSMQPK</Hsp_hseq>
+      <Hsp_midline>D K ++W    +V   LGY + ++ + +H +S  R +    +   P  S       +++  +IN      LI  S+KP A   ++W+ + V+PA+   G   + PK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1175048|sp|P24655.2|Y002_NPVAC</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized Bro-N domain-containing protein ORF2 [Autographa californica nucleopolyhedrovirus]</Hit_def>
+  <Hit_accession>P24655</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.029663</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>SVRTVADNKGELWFLANDVCEILGYTNPRRTVDLHCK-----------------SRGVTKRYTPTTSGEQEMTYINEPNLYRLIIKSRKPAAEAFEEWVMETVLPAIRKTG</Hsp_qseq>
+      <Hsp_hseq>NLRYVLERDQQVRFVAKDVANSLKYTVCDKAIRVHVDNKYKSLFEQTIQNGGPTSNSVVKRGDPLYL-QPHTVLITKSGVIQLIMKSKLPYAIELQEWLLEEVIPQVLCTG</Hsp_hseq>
+      <Hsp_midline>++R V +   ++ F+A DV   L YT   + + +H                   S  V KR  P    +     I +  + +LI+KS+ P A   +EW++E V+P +  TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|56757633|sp|P76347.3|YEEJ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YeeJ [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P76347</Hit_accession>
+  <Hit_len>2358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.78029</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>2260</Hsp_hit-from>
+      <Hsp_hit-to>2301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>NKGE---LWFLANDVCEILGYTNPRRTVDLHCKSRGVTKRYT</Hsp_qseq>
+      <Hsp_hseq>NAGEAFMIYSLAENFCSSNGYTLPRANYLNHCSSRGIGSLYS</Hsp_hseq>
+      <Hsp_midline>N GE   ++ LA + C   GYT PR     HC SRG+   Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122422133|sp|Q1R5S8.1|YHEU_ECOUT</Hit_id>
+  <Hit_def>RecName: Full=UPF0270 protein YheU [Escherichia coli UTI89] &gt;gi|226730913|sp|B7MCX0.1|YHEU_ECO45 RecName: Full=UPF0270 protein YheU [Escherichia coli S88]</Hit_def>
+  <Hit_accession>Q1R5S8</Hit_accession>
+  <Hit_len>72</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.50187</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>KDISAPLKQLGCRQAVTMWTVWHETRPILKRS</Hsp_qseq>
+      <Hsp_hseq>QKVSDVKRQLQCGEAVLVWSELHETVNIMPRS</Hsp_hseq>
+      <Hsp_midline>+ +S   +QL C +AV +W+  HET  I+ RS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|166227587|sp|A1WSF0.1|TRPA_VEREI</Hit_id>
+  <Hit_def>RecName: Full=Tryptophan synthase alpha chain [Verminephrobacter eiseniae EF01-2]</Hit_def>
+  <Hit_accession>A1WSF0</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.24413</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>GNSLADIAAMVYYGTWMIESGKDI------------SAPLKQLGCRQA----VTMWTVWHETRPILKRSAAALEVLRGYAD</Hsp_qseq>
+      <Hsp_hseq>GFPFADITPALMHG--MVEAGADIIELGVPFSDPMADGPVIQRAGEKALGLGIGMSQVFHQVREFRKRNGTTPVVLMGYAN</Hsp_hseq>
+      <Hsp_midline>G   ADI   + +G  M+E+G DI              P+ Q    +A    + M  V+H+ R   KR+     VL GYA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

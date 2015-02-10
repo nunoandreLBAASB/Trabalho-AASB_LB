@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>47599</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F826</BlastOutput_query-def>
+  <BlastOutput_query-len>61</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>47599</Iteration_query-ID>
+  <Iteration_query-def>Q5F826</Iteration_query-def>
+  <Iteration_query-len>61</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|120210|sp|P18399.1|FIXS_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen fixation protein FixS [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>P18399</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.00114064</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>46</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>46</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>MESMFILVPISIILAFVIGWFFWWSGKNGQFDDLEGPAHRILMDDD</Hsp_qseq>
+      <Hsp_hseq>MNTLIYLIPVALSLGGLGLVAFLWALKSGQYEDLDGASWRILDDGD</Hsp_hseq>
+      <Hsp_midline>M ++  L+P+++ L  +    F W+ K+GQ++DL+G + RIL D D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|332321887|sp|C7YGZ0.1|VPS10_NECH7</Hit_id>
+  <Hit_def>RecName: Full=Vacuolar protein sorting/targeting protein 10; AltName: Full=Carboxypeptidase Y receptor; Short=CPY receptor; AltName: Full=Sortilin VPS10; AltName: Full=Vacuolar carboxypeptidase sorting receptor VPS10; Flags: Precursor [Nectria haematococca mpVI 77-13-4]</Hit_def>
+  <Hit_accession>C7YGZ0</Hit_accession>
+  <Hit_len>1516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.292555</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>1393</Hsp_hit-from>
+      <Hsp_hit-to>1421</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>MFILVPISIILAFVIGWFFW--WSGKNGQ</Hsp_qseq>
+      <Hsp_hseq>IFFAVVIPIGLAAAIGWYVWRNWSGKFGQ</Hsp_hseq>
+      <Hsp_midline>+F  V I I LA  IGW+ W  WSGK GQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|84029543|sp|P0AFN1.1|PSPB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Phage shock protein B [Escherichia coli O157:H7] &gt;gi|84029544|sp|P0AFN0.1|PSPB_ECOL6 RecName: Full=Phage shock protein B [Escherichia coli CFT073] &gt;gi|84029545|sp|P0AFM9.1|PSPB_ECOLI RecName: Full=Phage shock protein B [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AFN1</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.608172</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MESMFILVPISIILAFVIGWFFW--WSGKNGQFDDLEGPAHRILMDDDSTSKLIEK</Hsp_qseq>
+      <Hsp_hseq>MSALFLAIPLTIFVLFVLPIWLWLHYSNRSGRSELSQSEQQRLAQLADEAKRMRER</Hsp_hseq>
+      <Hsp_midline>M ++F+ +P++I + FV+  + W  +S ++G+ +  +    R+    D   ++ E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|77416561|sp|Q7UTK9.2|PSD_RHOBA</Hit_id>
+  <Hit_def>RecName: Full=Phosphatidylserine decarboxylase proenzyme; Contains: RecName: Full=Phosphatidylserine decarboxylase alpha chain; Contains: RecName: Full=Phosphatidylserine decarboxylase beta chain [Rhodopirellula baltica SH 1]</Hit_def>
+  <Hit_accession>Q7UTK9</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.051</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>MESMFILVPISIILAFVIGWFFW</Hsp_qseq>
+      <Hsp_hseq>LAELIIMTLVSLVLAVIAGWFWW</Hsp_hseq>
+      <Hsp_midline>+  + I+  +S++LA + GWF+W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|189081779|sp|A9WKU9.1|SUCC_RENSM</Hit_id>
+  <Hit_def>RecName: Full=Succinyl-CoA ligase [ADP-forming] subunit beta; AltName: Full=Succinyl-CoA synthetase subunit beta; Short=SCS-beta [Renibacterium salmoninarum ATCC 33209]</Hit_def>
+  <Hit_accession>A9WKU9</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.28337</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>DLEGPAHRILMDDDSTSKLIEKEKEND</Hsp_qseq>
+      <Hsp_hseq>DFRHPDHEALEDKDSADPLEAKAKEND</Hsp_hseq>
+      <Hsp_midline>D   P H  L D DS   L  K KEND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|46577126|sp|Q9JI18.1|LRP1B_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Low-density lipoprotein receptor-related protein 1B; Short=LRP-1B; AltName: Full=Low-density lipoprotein receptor-related protein-deleted in tumor; Short=LRP-DIT; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9JI18</Hit_accession>
+  <Hit_len>4599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.57273</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>44</Hsp_query-to>
+      <Hsp_hit-from>647</Hsp_hit-from>
+      <Hsp_hit-to>682</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>PISIILAFVIGWFFWWSGKNGQFDDLEGPAHRILMD</Hsp_qseq>
+      <Hsp_hseq>PRAIVVDPVNGWMYWTDWKEDKIDDSVGRIEKAWMD</Hsp_hseq>
+      <Hsp_midline>P +I++  V GW +W   K  + DD  G   +  MD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|205831588|sp|A8MFC3.1|RNY_ALKOO</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease Y; Short=RNase Y [Alkaliphilus oremlandii OhILAs]</Hit_def>
+  <Hit_accession>A8MFC3</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.89402</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>ILVPISIILAFVIGWFFWWSGKNGQFDDLEGPAHRILMDDDSTSKLIEKE</Hsp_qseq>
+      <Hsp_hseq>LLILVGILIGCLVGYFFRKNIAEGKISNAEDLAKKIVEDAEKDAETTKKE</Hsp_hseq>
+      <Hsp_midline>+L+ + I++  ++G+FF  +   G+  + E  A +I+ D +  ++  +KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75249276|sp|Q93VV0.1|ZDHC6_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable protein S-acyltransferase 16; AltName: Full=Probable palmitoyltransferase At3g09320; AltName: Full=Zinc finger DHHC domain-containing protein At3g09320 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q93VV0</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.00166</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>SMFILVPISIILAFVIGWFFW</Hsp_qseq>
+      <Hsp_hseq>SAFLLIPLSIALGVLLGWHIY</Hsp_hseq>
+      <Hsp_midline>S F+L+P+SI L  ++GW  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|121788557|sp|Q2HAB1.1|VPS10_CHAGB</Hit_id>
+  <Hit_def>RecName: Full=Vacuolar protein sorting/targeting protein 10; AltName: Full=Carboxypeptidase Y receptor; Short=CPY receptor; AltName: Full=Sortilin VPS10; AltName: Full=Vacuolar carboxypeptidase sorting receptor VPS10; Flags: Precursor [Chaetomium globosum CBS 148.51]</Hit_def>
+  <Hit_accession>Q2HAB1</Hit_accession>
+  <Hit_len>1526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.21528</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>1387</Hsp_hit-from>
+      <Hsp_hit-to>1416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>SMFILVPISIILAFVIGWFFW--WSGKNGQ</Hsp_qseq>
+      <Hsp_hseq>ALFFAITVPFALAGAAGWYVWRNWNGKFGQ</Hsp_hseq>
+      <Hsp_midline>++F  + +   LA   GW+ W  W+GK GQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|218511924|sp|O75185.2|AT2C2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Calcium-transporting ATPase type 2C member 2; Short=ATPase 2C2; AltName: Full=Secretory pathway Ca(2+)-ATPase 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>O75185</Hit_accession>
+  <Hit_len>946</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.9533</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>WSGKNGQFDDLEGPAHRILMDDDSTSKLIEKEKE</Hsp_qseq>
+      <Hsp_hseq>FSGGGRQYQALEKDEEEALIDEQSELKAIEKEKK</Hsp_hseq>
+      <Hsp_midline>+SG   Q+  LE      L+D+ S  K IEKEK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|465654|sp|Q04354.1|Y3710_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein CA_C3710 [Clostridium acetobutylicum ATCC 824]</Hit_def>
+  <Hit_accession>Q04354</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.43672</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>ISIILAFVIGWFFWWSGKNGQ</Hsp_qseq>
+      <Hsp_hseq>LAIILALVLGWFTYYYYSNSQ</Hsp_hseq>
+      <Hsp_midline>++IILA V+GWF ++   N Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

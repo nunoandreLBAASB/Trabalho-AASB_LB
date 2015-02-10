@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>61149</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7R7</BlastOutput_query-def>
+  <BlastOutput_query-len>127</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>61149</Iteration_query-ID>
+  <Iteration_query-def>Q5F7R7</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2495552|sp|Q37870.1|YBCN_BP82</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein in rusA 5&apos;region; AltName: Full=ORF151 [Enterobacteria phage 82]</Hit_def>
+  <Hit_accession>Q37870</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.00395651</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>WFENGN-LEITIRPRKSKRSVEQNRRLWFLYREISEKVFIDGRRFSQDVW-HEFLKRKFIG-----CIEMPNGQLMGIS----TTKLSVREMSEYQEKIISWA</Hsp_qseq>
+      <Hsp_hseq>YLEDGKCFRMVLKPWRERRSLSQNALSHMWYSEISEYLISKGKTFATPAWVKDALKHTYLGYETKDLVDVVTGDITTIQSLRHTSDLDTGEMYVFLCKVEAWA</Hsp_hseq>
+      <Hsp_midline>+ E+G    + ++P + +RS+ QN      Y EISE +   G+ F+   W  + LK  ++G      +++  G +  I     T+ L   EM  +  K+ +WA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2495551|sp|Q47269.1|YBCN_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YbcN [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>Q47269</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00546904</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>WFENGN-LEITIRPRKSKRSVEQNRRLWFLYREISEKVFIDGRRFSQDVW-HEFLKRKFIG-----CIEMPNGQLMGIS----TTKLSVREMSEYQEKIISWA</Hsp_qseq>
+      <Hsp_hseq>YLEEGKCFRMVLKPWREKRSLSQNALSHMWYSEISEYLISRGKTFATPAWVKDALKHTYLGYETKDLVDVVTGDITTIQSLRHTSDLDTGEMYVFLCKVEAWA</Hsp_hseq>
+      <Hsp_midline>+ E G    + ++P + KRS+ QN      Y EISE +   G+ F+   W  + LK  ++G      +++  G +  I     T+ L   EM  +  K+ +WA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|56405074|sp|P68651.1|NINB_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=P21 prophage-derived protein NinB [Escherichia coli CFT073] &gt;gi|56405075|sp|P68652.1|NINB_BPP21 RecName: Full=Protein ninB [Enterobacteria phage P21]</Hit_def>
+  <Hit_accession>P68651</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00653338</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ITIRPRKSKRSVEQNRRLWFLYREISEKVFIDGRRFSQDVWHEFLKRKFIGCIEMPNGQ-----LMGISTTKLSVREMSEYQEKIISWASMEHGVLW</Hsp_qseq>
+      <Hsp_hseq>VTIQERN--RSLDQNRKLWACLGDVSRQVEWHGRWLDAESWKCVFTAALKQQDVVPNLAGNGFVVIGQSTSRMRVSEFAELLELIQAFGT-ERGVKW</Hsp_hseq>
+      <Hsp_midline>+TI+ R   RS++QNR+LW    ++S +V   GR    + W             +PN       ++G ST+++ V E +E  E I ++ + E GV W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|9910781|sp|Q38662.1|NINB_BPP22</Hit_id>
+  <Hit_def>RecName: Full=Protein ninB [Enterobacteria phage P22]</Hit_def>
+  <Hit_accession>Q38662</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00672486</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ITIRPRKSKRSVEQNRRLWFLYREISEKVFIDGRRFSQDVWHEFLKRKFIGCIEMPNGQ-----LMGISTTKLSVREMSEYQEKIISWASMEHGVLW</Hsp_qseq>
+      <Hsp_hseq>VTIQERN--RSLDQNRKLWACLGDVSRQVNWHGRWLDAESWKCVFTAALKQQDVVPNLAGHGFVVIGQSTSRMRVSEFAELLELIQAFGT-ERGVKW</Hsp_hseq>
+      <Hsp_midline>+TI+ R   RS++QNR+LW    ++S +V   GR    + W             +PN       ++G ST+++ V E +E  E I ++ + E GV W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|139953|sp|P03765.1|NINB_LAMBD</Hit_id>
+  <Hit_def>RecName: Full=Protein ninB [Enterobacteria phage lambda]</Hit_def>
+  <Hit_accession>P03765</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00875939</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ITIRPRKSKRSVEQNRRLWFLYREISEKVFIDGRRFSQDVWHEFLKRKFIGCIEMPNGQ-----LMGISTTKLSVREMSEYQEKIISWASMEHGVLW</Hsp_qseq>
+      <Hsp_hseq>VTIQERN--RSLDQNRKLWACLGDVSRQVEWHGRWLDAESWKCVFTAALKQQDVVPNLAGNGFVVIGQSTSRMRVGEFAELLELIQAFGT-ERGVKW</Hsp_hseq>
+      <Hsp_midline>+TI+ R   RS++QNR+LW    ++S +V   GR    + W             +PN       ++G ST+++ V E +E  E I ++ + E GV W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|167017086|sp|A8FEJ6.1|HIS8_BACP2</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Bacillus pumilus SAFR-032]</Hit_def>
+  <Hit_accession>A8FEJ6</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.356356</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>WFLYREISEKVFIDGRRFSQDVWHEFLKRKFIGCIEMPNGQLMGISTT-KLSVREMSEYQEKIISWASMEHGV</Hsp_qseq>
+      <Hsp_hseq>LFIYPSQTNFVLIDFKRDADELFHALLKKGYI----VRSGKVLGFPTSLRITVGTMEQNAEILSTLADLLQGI</Hsp_hseq>
+      <Hsp_midline> F+Y   +  V ID +R + +++H  LK+ +I    + +G+++G  T+ +++V  M +  E + + A +  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|33302595|sp|P50123.2|AMPE_RAT</Hit_id>
+  <Hit_def>RecName: Full=Glutamyl aminopeptidase; Short=EAP; AltName: Full=Aminopeptidase A; Short=AP-A; AltName: CD_antigen=CD249 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P50123</Hit_accession>
+  <Hit_len>945</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.57181</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>555</Hsp_hit-from>
+      <Hsp_hit-to>602</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>EFTLTPQNKKQVMRSIWDSPDGWFENGNLEITIRPRKSKRSVEQNRRL</Hsp_qseq>
+      <Hsp_hseq>DYKADPSQPPSALGYTWNIPIKWTENGNSNITVYYRSNREGITLNANL</Hsp_hseq>
+      <Hsp_midline>++   P      +   W+ P  W ENGN  IT+  R ++  +  N  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123461022|sp|A0AIF6.1|EFP_LISW6</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Listeria welshimeri serovar 6b str. SLCC5334]</Hit_def>
+  <Hit_accession>A0AIF6</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.91785</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>NRRLWFLYREISEKVFIDGRRFSQ------DVWHE--FLKRKFIGCIEMPNGQLMGI</Hsp_qseq>
+      <Hsp_hseq>NRKMAYLYADGSNHVFMDNESYEQIELPEDQIAHELKFLKENMEINIIMYQGETIGI</Hsp_hseq>
+      <Hsp_midline>NR++ +LY + S  VF+D   + Q       + HE  FLK      I M  G+ +GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|123734997|sp|Q4L6M9.1|EFP_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L6M9</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.27033</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>KSKRSVEQNRRLWFLYREISEKVFIDGRRFSQ-DVWHEFLKR--KFIGC-----IEMPNGQLMGISTTKLSVREMSEYQEKI</Hsp_qseq>
+      <Hsp_hseq>KVEQAMIENRRMQYLYADGDNHVFMDNETFDQTELSADYLKDELKYLKANMEVQIQSYEGETIGVELPKTVELEVTETEPGI</Hsp_hseq>
+      <Hsp_midline>K ++++ +NRR+ +LY +    VF+D   F Q ++  ++LK   K++       I+   G+ +G+   K    E++E +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123768794|sp|Q30ZZ6.1|EFP_DESAG</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Desulfovibrio alaskensis G20]</Hit_def>
+  <Hit_accession>Q30ZZ6</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.3789</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>KSKRSVEQNRRLWFLYREISEKVFIDGRRFSQDVWHE--------FLKRKFIGCIEMPNGQLMGISTTKLSVREMSEYQ--------EKIISWASMEHGVL</Hsp_qseq>
+      <Hsp_hseq>KVGRPDMENRDMQFLYREDANLVFMDMTTYEQIYMPEETTEGKAGFLKEGQTIRVLLFNGTPLAIELPAALVLEVTETEPGAKGDTVSNVTKPATLETGIV</Hsp_hseq>
+      <Hsp_midline>K  R   +NR + FLYRE +  VF+D   + Q    E        FLK      + + NG  + I      V E++E +          +   A++E G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|74577306|sp|Q9YAQ8.1|MTAP_AERPE</Hit_id>
+  <Hit_def>RecName: Full=S-methyl-5&apos;-thioadenosine phosphorylase; AltName: Full=5&apos;-methylthioadenosine phosphorylase; Short=MTA phosphorylase; Short=MTAP [Aeropyrum pernix K1]</Hit_def>
+  <Hit_accession>Q9YAQ8</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.45435</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KRSVEQNRRLWFLYREISEKVFIDGRRFS----QDVWHEFLKRKFIGCIEMPNGQL</Hsp_qseq>
+      <Hsp_hseq>QRLIDSGRRLGYTVHERGTYVCIEGPRFSTRAESRVWKDVFKADIIGMTLVPEINL</Hsp_hseq>
+      <Hsp_midline>+R ++  RRL +   E    V I+G RFS      VW +  K   IG   +P   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|51315759|sp|Q71ZW7.1|EFP_LISMF</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Listeria monocytogenes serotype 4b str. F2365] &gt;gi|54037017|sp|P64033.1|EFP_LISIN RecName: Full=Elongation factor P; Short=EF-P [Listeria innocua Clip11262] &gt;gi|54040752|sp|P64032.1|EFP_LISMO RecName: Full=Elongation factor P; Short=EF-P [Listeria monocytogenes EGD-e] &gt;gi|254782636|sp|B8DFX3.1|EFP_LISMH RecName: Full=Elongation factor P; Short=EF-P [Listeria monocytogenes HCC23] &gt;gi|259645795|sp|C1L2R1.1|EFP_LISMC RecName: Full=Elongation factor P; Short=EF-P [Listeria monocytogenes serotype 4b str. CLIP 80459]</Hit_def>
+  <Hit_accession>Q71ZW7</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.65332</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>NRRLWFLYREISEKVFIDGRRFSQ------DVWHE--FLKRKFIGCIEMPNGQLMGI</Hsp_qseq>
+      <Hsp_hseq>NRKMAYLYADGTNHVFMDNESYEQIELPEDQIAHELKFLKENMEINIIMYQGETIGI</Hsp_hseq>
+      <Hsp_midline>NR++ +LY + +  VF+D   + Q       + HE  FLK      I M  G+ +GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|31563041|sp|Q8CP34.1|EFP_STAES</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor P; Short=EF-P [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CP34</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.88616</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>KSKRSVEQNRRLWFLYREISEKVFIDGRRFSQ-DVWHEFLKRKF</Hsp_qseq>
+      <Hsp_hseq>KVEQAMIENRRMQYLYADGDNHVFMDNETFNQIELPGDYLKDEL</Hsp_hseq>
+      <Hsp_midline>K ++++ +NRR+ +LY +    VF+D   F+Q ++  ++LK + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

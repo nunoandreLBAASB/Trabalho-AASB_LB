@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>22033</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7T2</BlastOutput_query-def>
+  <BlastOutput_query-len>161</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>22033</Iteration_query-ID>
+  <Iteration_query-def>Q5F7T2</Iteration_query-def>
+  <Iteration_query-len>161</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75520418|sp|Q70LM4.1|LGRD_BREPA</Hit_id>
+  <Hit_def>RecName: Full=Linear gramicidin synthase subunit D; Includes: RecName: Full=ATP-dependent D-leucine adenylase; Short=D-LeuA; AltName: Full=D-leucine activase; Includes: RecName: Full=Leucine racemase [ATP-hydrolyzing]; Includes: RecName: Full=ATP-dependent tryptophan adenylase; Short=TrpA; AltName: Full=Tryptophan activase; Includes: RecName: Full=ATP-dependent glycine adenylase; Short=GlyA; AltName: Full=Glycine activase; Includes: RecName: Full=Linear gramicidin--PCP reductase [Brevibacillus parabrevis]</Hit_def>
+  <Hit_accession>Q70LM4</Hit_accession>
+  <Hit_len>5085</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0690561</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1856</Hsp_hit-from>
+      <Hsp_hit-to>1979</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>YIGGRAVWRDRIYHTGLVFEDGQVREVSAGAAAKLLRHGDVFAAVPGKRVE---KADDTEALE--KAGASELEREAAAFDAVQDVILQI--NRMGKDELELYAKANYGQGLDKRKSAENLREAV</Hsp_qseq>
+      <Hsp_hseq>YIGGSSLARGYLNRPDLTQERFVAHPFTEKAGARLYRTGDLVRSLPDGSIEFIGRADDQTSIRGFRVELGEVETAIVALPAVKEAVVTVCTDKQGTKRLAAYLVLEEGAALATGDIRKALKETL</Hsp_hseq>
+      <Hsp_midline>YIGG ++ R  +    L  E       +  A A+L R GD+  ++P   +E   +ADD  ++   +    E+E    A  AV++ ++ +  ++ G   L  Y     G  L      + L+E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|226741135|sp|A8ZU05.1|DER_DESOH</Hit_id>
+  <Hit_def>RecName: Full=GTPase Der; AltName: Full=GTP-binding protein EngA [Desulfococcus oleovorans Hxd3]</Hit_def>
+  <Hit_accession>A8ZU05</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.905615</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>KAGASELEREAAAF--DAVQDVILQINRMGKDELELYAKANYGQGLDK</Hsp_qseq>
+      <Hsp_hseq>KSGISPFDREAMAFLQSASCPVFYLVNKIDSPEREVYTAEFFGLGLDN</Hsp_hseq>
+      <Hsp_midline>K+G S  +REA AF   A   V   +N++   E E+Y    +G GLD </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|33301084|sp|Q8DCZ0.1|DSBD_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbD; AltName: Full=Protein-disulfide reductase; Short=Disulfide reductase; Flags: Precursor [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8DCZ0</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.46087</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GICLCGVAVFDNAVRTAAGGWMDKV</Hsp_qseq>
+      <Hsp_hseq>GIPLILVAVFGNKLLPKAGGWMDRV</Hsp_hseq>
+      <Hsp_midline>GI L  VAVF N +   AGGWMD+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|33301072|sp|Q87KW0.1|DSBD_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbD; AltName: Full=Protein-disulfide reductase; Short=Disulfide reductase; Flags: Precursor [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87KW0</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.46771</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GICLCGVAVFDNAVRTAAGGWMDKV</Hsp_qseq>
+      <Hsp_hseq>GIPLILVAVFGNKLLPKAGGWMDRV</Hsp_hseq>
+      <Hsp_midline>GI L  VAVF N +   AGGWMD+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|61212671|sp|Q7MGV6.1|DSBD_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=Thiol:disulfide interchange protein DsbD; AltName: Full=Protein-disulfide reductase; Short=Disulfide reductase; Flags: Precursor [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MGV6</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.63279</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>366</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GICLCGVAVFDNAVRTAAGGWMDKV</Hsp_qseq>
+      <Hsp_hseq>GIPLILVAVFGNKLLPKAGGWMDHV</Hsp_hseq>
+      <Hsp_midline>GI L  VAVF N +   AGGWMD V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|160359040|sp|Q3V0C1.2|ZMAT1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger matrin-type protein 1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q3V0C1</Hit_accession>
+  <Hit_len>714</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.81772</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>349</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>FAAVPGKRVEKADDTEALEKAGASELEREAAAFDAVQDVILQINRMGKDELELYAKANYGQGLDKRKSAENLREA</Hsp_qseq>
+      <Hsp_hseq>FWAHPGPY----NDSRALEEQLPHNLPAESKTYDSFQD-----------ELEDYIKGQKARGLDPNTSFRRMSES</Hsp_hseq>
+      <Hsp_midline>F A PG      +D+ ALE+     L  E+  +D+ QD           ELE Y K    +GLD   S   + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|259495728|sp|C5D5A6.1|SAT_GEOSW</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase; AltName: Full=ATP-sulfurylase; AltName: Full=Sulfate adenylate transferase; Short=SAT [Geobacillus sp. WCH70]</Hit_def>
+  <Hit_accession>C5D5A6</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.30963</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>AVWRDRIYHTGLVFEDGQVREVSAGAAAKLLRHGDVFAAVPGKRVEKADDT-EALEKAGASELER</Hsp_qseq>
+      <Hsp_hseq>TVWSIPI---TLAVTEEKAKEISAGETAKLVYNGEVYGVIDIQEIYQPDKTKEALLVYKTDELKH</Hsp_hseq>
+      <Hsp_midline> VW   I    L   + + +E+SAG  AKL+ +G+V+  +  + + + D T EAL      EL+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|374095387|sp|Q9LS04.2|FB187_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Putative F-box protein At3g25750 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LS04</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.56154</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>AAKLLRHGDVFAAVPGKRVEKADDTEALEKAGASELER--EAAAFDAVQD</Hsp_qseq>
+      <Hsp_hseq>ASKMYRKITLLCPLSGERITRSHQTLDLLKVGVSEIRQSYEIQIFDGLKD</Hsp_hseq>
+      <Hsp_midline>A+K+ R   +   + G+R+ ++  T  L K G SE+ +  E   FD ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

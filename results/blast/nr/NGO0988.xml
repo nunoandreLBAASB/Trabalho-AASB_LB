@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>38205</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F814</BlastOutput_query-def>
+  <BlastOutput_query-len>289</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>38205</Iteration_query-ID>
+  <Iteration_query-def>Q5F814</Iteration_query-def>
+  <Iteration_query-len>289</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489789466|ref|WP_003693357.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria gonorrhoeae] &gt;gi|59801373|ref|YP_208085.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria gonorrhoeae FA 1090] &gt;gi|59718268|gb|AAW89673.1| putative methylated-DNA-protein-cysteine methyltransferase [Neisseria gonorrhoeae FA 1090] &gt;gi|268587579|gb|EEZ52255.1| methylated-DNA-protein-cysteine methyltransferase [Neisseria gonorrhoeae PID1] &gt;gi|268624427|gb|EEZ56827.1| methylated-DNA-protein-cysteine methyltransferase [Neisseria gonorrhoeae SK-92-679] &gt;gi|291012511|gb|EFE04500.1| methylated-DNA-protein-cysteinemethyltransferase [Neisseria gonorrhoeae DGI2] &gt;gi|291610648|gb|EFF39758.1| methylated-DNA-[protein]-cysteine S-methyltransferase [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>WP_003693357</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.504</Hsp_bit-score>
+      <Hsp_score>1534</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|268585261|gb|EEZ49937.1|</Hit_id>
+  <Hit_def>methylated-DNA-protein-cysteine methyltransferase [Neisseria gonorrhoeae PID18]</Hit_def>
+  <Hit_accession>EEZ49937</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.193</Hsp_bit-score>
+      <Hsp_score>1528</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MSQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>M QPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489791205|ref|WP_003695096.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria gonorrhoeae] &gt;gi|194098368|ref|YP_002001426.1| Methylated-DNA-protein-cysteinemethyltransferase [Neisseria gonorrhoeae NCCP11945] &gt;gi|538321653|ref|YP_008502713.1| methylated-DNA-[protein]-cysteine S-methyltransferase [Neisseria gonorrhoeae MS11] &gt;gi|193933658|gb|ACF29482.1| Methylated-DNA-protein-cysteinemethyltransferase [Neisseria gonorrhoeae NCCP11945] &gt;gi|268582902|gb|EEZ47578.1| methylated-DNA-[protein]-cysteine S-methyltransferase [Neisseria gonorrhoeae MS11] &gt;gi|268622212|gb|EEZ54612.1| methylated-DNA-protein-cysteine methyltransferase [Neisseria gonorrhoeae PID332]</Hit_def>
+  <Hit_accession>WP_003695096</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.637</Hsp_bit-score>
+      <Hsp_score>1498</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDVLLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYF+  LKTFATPLE IGT FQKQAWD LLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|226512604|gb|EEH61949.1|</Hit_id>
+  <Hit_def>methylated-DNA-protein-cysteine methyltransferase [Neisseria gonorrhoeae 1291]</Hit_def>
+  <Hit_accession>EEH61949</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.252</Hsp_bit-score>
+      <Hsp_score>1497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDVLLAIPYGETRSYKEQAQRLGNPKAIRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYF+  LKTFATPLE IGT FQKQAWD LLAIPYGETRSYKEQAQRLGNPKA+RAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|268626680|gb|EEZ59080.1|</Hit_id>
+  <Hit_def>methylated-DNA-protein-cysteine methyltransferase [Neisseria gonorrhoeae SK-93-1035]</Hit_def>
+  <Hit_accession>EEZ59080</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>579.326</Hsp_bit-score>
+      <Hsp_score>1492</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKHMEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDVLLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQK++EQEIAAVQKALRGRFVFREDGRMQFLRQELDLYF+  LKTFATPLE IGT FQKQAWD LLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|268548012|gb|EEZ43430.1|</Hit_id>
+  <Hit_def>conserved hypothetical protein [Neisseria gonorrhoeae 35/02]</Hit_def>
+  <Hit_accession>EEZ43430</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.17</Hsp_bit-score>
+      <Hsp_score>1489</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGYAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDVLLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIG APEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYF+  LKTFATPLE IGT FQKQAWD LLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|500122942|ref|WP_011798947.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|121635199|ref|YP_975444.1| methylated-DNA-protein-cysteine methyltransferase [Neisseria meningitidis FAM18] &gt;gi|120866905|emb|CAM10664.1| putative methylated-DNA-protein-cysteine methyltransferase [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>WP_011798947</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>552.362</Hsp_bit-score>
+      <Hsp_score>1422</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MPQPNPQDLRHSPFLHRRAGMTRIGDFAAKSMIEIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEVRYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MPQP+PQ  R S FL+RRAGM  IGDFA K MI IRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE+RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|499289963|ref|WP_010981229.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|218768510|ref|YP_002343022.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis Z2491] &gt;gi|121052518|emb|CAM08857.1| putative methylated-DNA-protein-cysteine methyltransferase [Neisseria meningitidis Z2491] &gt;gi|610427353|gb|AHW76229.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_010981229</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.176</Hsp_bit-score>
+      <Hsp_score>1367</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MPQPDPQGFRRSLFLHRRAGMAKIGDFAVKSMIEIRSKRMITLPSLNNLPSKWDEIRYWLETRVCECGVMSHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPNAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MPQPDPQGFRRSLFL+RRAGMA+IGDFAVK MI IRSKRMITLPSLNNLPSKWDEIR+ LETRV ECGVM +PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNP AVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|325128597|gb|EGC51467.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis N1568]</Hit_def>
+  <Hit_accession>EGC51467</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.094</Hsp_bit-score>
+      <Hsp_score>1359</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>256</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAEIGDFAVKSMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQHLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MAEIGDFAVK MIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQ LGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|723270294|gb|KHC97486.1|</Hit_id>
+  <Hit_def>cysteine methyltransferase [Neisseria meningitidis] &gt;gi|723273894|gb|KHD01078.1| cysteine methyltransferase [Neisseria meningitidis] &gt;gi|730571074|gb|AIZ18876.1| cysteine methyltransferase [Neisseria meningitidis] &gt;gi|730573481|gb|AIZ20883.1| cysteine methyltransferase [Neisseria meningitidis M7124] &gt;gi|730575817|gb|AIZ22766.1| cysteine methyltransferase [Neisseria meningitidis] &gt;gi|730578286|gb|AIZ24733.1| cysteine methyltransferase [Neisseria meningitidis] &gt;gi|730579588|gb|AIZ25569.1| cysteine methyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>KHC97486</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.087</Hsp_bit-score>
+      <Hsp_score>1346</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MTRIGDFAAKSMIEIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEVRYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>M  IGDFA K MI IRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE+RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|325138544|gb|EGC61107.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis ES14902] &gt;gi|743394548|gb|KID54086.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis LNP27256]</Hit_def>
+  <Hit_accession>EGC61107</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>521.161</Hsp_bit-score>
+      <Hsp_score>1341</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MTRIGDFAAKSMIEIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPHPNLTECEAGQFDRDFWDNTGCAPEEYVRIRRAIRLLEVRYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>M  IGDFA K MI IRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMP+PNLTECEAGQF+RDFWDN GCAPEEYVRIRRAIRLLE+RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488153852|ref|WP_002225060.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|15677380|ref|NP_274535.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis MC58] &gt;gi|385852866|ref|YP_005899380.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis H44/76] &gt;gi|7226772|gb|AAF41883.1| putative methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis MC58] &gt;gi|316986008|gb|EFV64945.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis H44/76] &gt;gi|325140683|gb|EGC63199.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis CU385] &gt;gi|325199870|gb|ADY95325.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis H44/76] &gt;gi|744799121|gb|AJC63909.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>WP_002225060</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.694</Hsp_bit-score>
+      <Hsp_score>1332</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAVKSMIGIRSKQMITLPSLNNLPSKWDEIRHWLESRVFECGVMPHPNLTECEAKQFERDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGSRGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALEHGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFAVK MIGIRSK+MITLPSLNNLPSKWDEIRH LE+RVFECGVMP+PNLTECEA QFERDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG +GLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALE GEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|538033390|ref|WP_020996845.1|</Hit_id>
+  <Hit_def>methylated-DNA-[protein]-cysteine S-methyltransferase [Neisseria gonorrhoeae] &gt;gi|535127644|gb|EEZ45857.2| methylated-DNA-[protein]-cysteine S-methyltransferase [Neisseria gonorrhoeae FA19]</Hit_def>
+  <Hit_accession>WP_020996845</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.153</Hsp_bit-score>
+      <Hsp_score>1328</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|504394294|ref|WP_014581396.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|385850901|ref|YP_005897416.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis M04-240196] &gt;gi|325205724|gb|ADZ01177.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis M04-240196]</Hit_def>
+  <Hit_accession>WP_014581396</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.153</Hsp_bit-score>
+      <Hsp_score>1328</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAAKSMIEIRSKRMITLPSLNNLPSKWDEIRYWLETRVFECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEVRYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQHLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFA K MI IRSKRMITLPSLNNLPSKWDEIR+ LETRVFECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE+RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQ LGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|504386801|ref|WP_014573903.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|385323839|ref|YP_005878278.1| methylated-DNA--protein-cysteine methyltransferase (6-O-methylguanine-DNA methyltransferase; MGMT; O-6-methylguanine-DNA-alkyltransferase) [Neisseria meningitidis 8013] &gt;gi|261392226|emb|CAX49744.1| methylated-DNA--protein-cysteine methyltransferase (6-O-methylguanine-DNA methyltransferase; MGMT; O-6-methylguanine-DNA-alkyltransferase) [Neisseria meningitidis 8013]</Hit_def>
+  <Hit_accession>WP_014573903</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>515.768</Hsp_bit-score>
+      <Hsp_score>1327</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAVKSMIEIRSKRMITLPSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVLIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFAVK MI IRSKRMITLPSLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSV+IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|325134656|gb|EGC57296.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis M13399]</Hit_def>
+  <Hit_accession>EGC57296</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.227</Hsp_bit-score>
+      <Hsp_score>1323</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGNFAVKSMIEIRSKRMITLPSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVLIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IG+FAVK MI IRSKRMITLPSLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSV+IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|325144782|gb|EGC67073.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis M01-240013]</Hit_def>
+  <Hit_accession>EGC67073</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.531</Hsp_bit-score>
+      <Hsp_score>1316</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAAKSMIEIRSKRMITLPSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHMEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDVLLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVLIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFA K MI IRSKRMITLPSLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK++EQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWD LLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSV+IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|298283143|gb|EFI24630.1|</Hit_id>
+  <Hit_def>6-O-methylguanine DNA methyltransferase, DNA binding domain protein [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>EFI24630</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.76</Hsp_bit-score>
+      <Hsp_score>1314</Hsp_score>
+      <Hsp_evalue>4.10795e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MPQPDPQGFRRSLFLYRRAGMAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MPQPNPQDLRHSPFLHRRAGMAKIGDFAVKSMIEIRSKQMITLPSLNNLPSKWDEIRHWLETQVFECEVMPYPNLTEHDAKQFEQDFIDRIGCAPEEYVLIRRAIRMLEASYPDSPNELTTAAIATPLGEMLAVFGGKGLCLLEFVGQKHMEQEITAVQKALRGRLVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQSLLALERGEVQTTLF</Hsp_hseq>
+      <Hsp_midline>MPQP+PQ  R S FL+RRAGMA+IGDFAVK MI IRSK+MITLPSLNNLPSKWDEIRH LET+VFEC VMPYPNLTE +A QFE+DF D IGCAPEEYV IRRAIR+LE  YPDS NEL  AAIATPLGEMLAVFG KGLCLLEFVGQK++EQEI AVQKALRGR VFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQ LLALERGEVQT LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|269209469|gb|EEZ75924.1|</Hit_id>
+  <Hit_def>6-O-methylguanine DNA methyltransferase, DNA binding domain protein [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>EEZ75924</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.908</Hsp_bit-score>
+      <Hsp_score>1304</Hsp_score>
+      <Hsp_evalue>5.71969e-179</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAEIGDFAVKSMIGIRSKQMITLPALNNLPSKWDEIRHWLETQVFECGVMPYPNLTEHEAKQFERDFWDNIGCAPEEYVRIRRAIRLLEASYPDSLNELVCAAIATPLGEMLAVFGSKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKCRLKTFATPLEMIGTAFQKQAWDALLEIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVLIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MAEIGDFAVK MIGIRSK+MITLP+LNNLPSKWDEIRH LET+VFECGVMPYPNLTE EA QFERDFWDNIGCAPEEYVRIRRAIRLLE  YPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFK  LKTFATPLE IGT FQKQAWDALL IPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSV+IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|296839274|gb|EFH23212.1|</Hit_id>
+  <Hit_def>6-O-methylguanine DNA methyltransferase, DNA binding domain protein [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>EFH23212</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.138</Hsp_bit-score>
+      <Hsp_score>1302</Hsp_score>
+      <Hsp_evalue>1.12677e-178</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAVKSMIEIRSKQMITLPSLNNLPSKWDEIRHWLETQVFECEVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLEASYPDSLNELVCAAIATPLGEMLAVFGSKGLCLLEFVGQKHLEQEIAAVQKALRGQFVFREDERTQLLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFAVK MI IRSK+MITLPSLNNLPSKWDEIRH LET+VFEC VMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLE  YPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRG+FVFRED R Q LRQELDLYF+  LKTFATPLE IGT FQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|498046138|ref|WP_010360294.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria gonorrhoeae] &gt;gi|636862116|gb|KDM99238.1| cysteine methyltransferase [Neisseria gonorrhoeae] &gt;gi|636863998|gb|KDN00960.1| cysteine methyltransferase [Neisseria gonorrhoeae] &gt;gi|636866228|gb|KDN03040.1| cysteine methyltransferase [Neisseria gonorrhoeae] &gt;gi|654607260|gb|KEC87743.1| cysteine methyltransferase [Neisseria gonorrhoeae] &gt;gi|693765064|gb|KGI95947.1| cysteine methyltransferase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_010360294</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.671</Hsp_bit-score>
+      <Hsp_score>1293</Hsp_score>
+      <Hsp_evalue>1.57347e-177</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDVLLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYF+  LKTFATPLE IGT FQKQAWD LLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|645182334|ref|WP_025455880.1|</Hit_id>
+  <Hit_def>cysteine methyltransferase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025455880</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.901</Hsp_bit-score>
+      <Hsp_score>1291</Hsp_score>
+      <Hsp_evalue>2.43702e-177</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDVLLAIPYGETRSYKEQAQRLGNPKAIRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYF+  LKTFATPLE IGT FQKQAWD LLAIPYGETRSYKEQAQRLGNPKA+RAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|498044173|ref|WP_010358329.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_010358329</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.901</Hsp_bit-score>
+      <Hsp_score>1291</Hsp_score>
+      <Hsp_evalue>2.65986e-177</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKHMEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQK++EQEIAAVQKALRGRFVFREDGRMQFLRQELDLYF+  LKTFATPLE IGT FQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|325136579|gb|EGC59180.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis M0579]</Hit_def>
+  <Hit_accession>EGC59180</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.13</Hsp_bit-score>
+      <Hsp_score>1289</Hsp_score>
+      <Hsp_evalue>1.06535e-176</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAAKSMIEIRSKRMITLPSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEASYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKYMEQEITAVQKALRGRFVFREDERTQLLRQELDLYFKCRLKTFATPLEMIGTAFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERDEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFA K MI IRSKRMITLPSLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE  YPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQKY+EQEI AVQKALRGRFVFRED R Q LRQELDLYFK  LKTFATPLE IGT FQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALER EVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|645189777|ref|WP_025456318.1|</Hit_id>
+  <Hit_def>cysteine methyltransferase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025456318</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.36</Hsp_bit-score>
+      <Hsp_score>1287</Hsp_score>
+      <Hsp_evalue>1.10242e-176</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKHMEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDVLLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQK++EQEIAAVQKALRGRFVFREDGRMQFLRQELDLYF+  LKTFATPLE IGT FQKQAWD LLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|645180472|ref|WP_025455786.1|</Hit_id>
+  <Hit_def>cysteine methyltransferase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025455786</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.049</Hsp_bit-score>
+      <Hsp_score>1281</Hsp_score>
+      <Hsp_evalue>9.61168e-176</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGYAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDVLLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIG APEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYF+  LKTFATPLE IGT FQKQAWD LLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|488161548|ref|WP_002232756.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|402316507|gb|EJU52052.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis 93003] &gt;gi|402328670|gb|EJU64037.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis 69166] &gt;gi|402342571|gb|EJU77730.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NM3081] &gt;gi|432202478|gb|ELK58541.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 98080] &gt;gi|432207750|gb|ELK63738.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 68094] &gt;gi|432214385|gb|ELK70286.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 70012] &gt;gi|432229431|gb|ELK85119.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM762] &gt;gi|432232925|gb|ELK88560.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis M7089] &gt;gi|432233706|gb|ELK89332.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis M7124] &gt;gi|432235050|gb|ELK90669.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM174] &gt;gi|432258435|gb|ELL13719.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 61103] &gt;gi|432260224|gb|ELL15484.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 69096] &gt;gi|432272790|gb|ELL27896.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 70030] &gt;gi|485274163|gb|EOB40769.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 70021] &gt;gi|485274201|gb|EOB40803.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 69176] &gt;gi|485274232|gb|EOB40833.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 69155] &gt;gi|485288360|gb|EOB54044.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 69100] &gt;gi|485294408|gb|EOB59690.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 63023] &gt;gi|485294784|gb|EOB60045.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 61106] &gt;gi|485300881|gb|EOB65740.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 70082] &gt;gi|485332787|gb|EOB95535.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM43] &gt;gi|485342542|gb|EOC04637.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM313] &gt;gi|485343489|gb|EOC05500.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM1482] &gt;gi|485345771|gb|EOC07645.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM1495] &gt;gi|485349604|gb|EOC11215.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 73704] &gt;gi|485362023|gb|EOC22635.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM3147] &gt;gi|485365434|gb|EOC25725.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2001072] &gt;gi|485366759|gb|EOC26956.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2001073] &gt;gi|485368616|gb|EOC28703.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2000081] &gt;gi|485375127|gb|EOC34770.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2001213] &gt;gi|485378217|gb|EOC37668.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2004264] &gt;gi|485380734|gb|EOC40011.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2000175] &gt;gi|485380932|gb|EOC40195.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2005079] &gt;gi|485384853|gb|EOC43872.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2001068] &gt;gi|485387318|gb|EOC46166.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2005040] &gt;gi|485387579|gb|EOC46408.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2002004] &gt;gi|485430060|gb|EOC85833.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM23] &gt;gi|485430590|gb|EOC86299.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM32] &gt;gi|485435055|gb|EOC90339.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM35] &gt;gi|485436437|gb|EOC91598.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM36] &gt;gi|530914616|gb|EQD12430.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM0552] &gt;gi|726975718|gb|KHF23138.1| cysteine methyltransferase [Neisseria meningitidis] &gt;gi|747185329|gb|KIF89409.1| cysteine methyltransferase [Neisseria meningitidis] &gt;gi|747185361|gb|KIF89434.1| cysteine methyltransferase [Neisseria meningitidis] &gt;gi|747188082|gb|KIF91645.1| cysteine methyltransferase [Neisseria meningitidis] &gt;gi|747189143|gb|KIF92491.1| cysteine methyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002232756</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.352</Hsp_bit-score>
+      <Hsp_score>1274</Hsp_score>
+      <Hsp_evalue>9.34782e-175</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEVRYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE+RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|506295959|ref|WP_015815734.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|254805294|ref|YP_003083515.1| Methylated DNA-protein cysteine methyltransferase [Neisseria meningitidis alpha14] &gt;gi|254668836|emb|CBA06873.1| Methylated DNA-protein cysteine methyltransferase [Neisseria meningitidis alpha14]</Hit_def>
+  <Hit_accession>WP_015815734</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.812</Hsp_bit-score>
+      <Hsp_score>1270</Hsp_score>
+      <Hsp_evalue>3.83164e-174</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHMEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK++EQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|488149363|ref|WP_002220571.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|325132688|gb|EGC55372.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis M6190] &gt;gi|432227213|gb|ELK82924.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM586] &gt;gi|432242905|gb|ELK98420.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM126] &gt;gi|485329400|gb|EOB92366.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM133] &gt;gi|485336226|gb|EOB98735.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM82] &gt;gi|485336345|gb|EOB98841.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM94] &gt;gi|485339036|gb|EOC01370.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM95] &gt;gi|694193176|gb|KGI98402.1| cysteine methyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002220571</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.426</Hsp_bit-score>
+      <Hsp_score>1269</Hsp_score>
+      <Hsp_evalue>5.14774e-174</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPHPNLTECEAGQFDRDFWDNTGCAPEEYVRIRRAIRLLEVRYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMP+PNLTECEAGQF+RDFWDN GCAPEEYVRIRRAIRLLE+RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|488174439|ref|WP_002245647.1|</Hit_id>
+  <Hit_def>methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis] &gt;gi|432208837|gb|ELK64809.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 97021] &gt;gi|432215138|gb|ELK71028.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2006087] &gt;gi|432219168|gb|ELK75016.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2002038] &gt;gi|432221245|gb|ELK77058.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 97014] &gt;gi|485392225|gb|EOC50737.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2005172] &gt;gi|485393737|gb|EOC52142.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2008223] &gt;gi|514069826|gb|EPF54708.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 98002]</Hit_def>
+  <Hit_accession>WP_002245647</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.041</Hsp_bit-score>
+      <Hsp_score>1268</Hsp_score>
+      <Hsp_evalue>8.23829e-174</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQHLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQ LGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|742701101|gb|KIC13288.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>KIC13288</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.426</Hsp_bit-score>
+      <Hsp_score>1269</Hsp_score>
+      <Hsp_evalue>1.2449e-173</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAVKSMIEIRSKRMITLPSLNNLPSKWDEIRHWLETQVFECEVMPYPNLTEHEAKQFEQDFIDRIGCAPEEYVRIRRAIRLLEVHYPDSLNELTAAAIATPLGEMLAVFGGKGLCLLEFVGQKHMEQEITAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQSLLALERGEVQTTLF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFAVK MI IRSKRMITLPSLNNLPSKWDEIRH LET+VFEC VMPYPNLTE EA QFE+DF D IGCAPEEYVRIRRAIRLLE+ YPDSLNEL  AAIATPLGEMLAVFG KGLCLLEFVGQK++EQEI AVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQ LLALERGEVQT LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|304338863|gb|EFM04965.1|</Hit_id>
+  <Hit_def>6-O-methylguanine DNA methyltransferase, DNA binding domain protein [Neisseria meningitidis ATCC 13091]</Hit_def>
+  <Hit_accession>EFM04965</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.886</Hsp_bit-score>
+      <Hsp_score>1265</Hsp_score>
+      <Hsp_evalue>4.05464e-173</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAAKSMIEIRSKRMITLPSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPNAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFA K MI IRSKRMITLPSLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNP AVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|504395355|ref|WP_014582457.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|385857577|ref|YP_005904089.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NZ-05/33] &gt;gi|325208466|gb|ADZ03918.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NZ-05/33]</Hit_def>
+  <Hit_accession>WP_014582457</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.115</Hsp_bit-score>
+      <Hsp_score>1263</Hsp_score>
+      <Hsp_evalue>8.52768e-173</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAAKSMIEIRSKRMITLPSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHMEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPNAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFA K MI IRSKRMITLPSLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK++EQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNP AVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|518102990|ref|WP_019273198.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273198</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.574</Hsp_bit-score>
+      <Hsp_score>1259</Hsp_score>
+      <Hsp_evalue>4.20779e-172</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAVKSMIEIRSKRMITLPSLNNLPSKWDEIRHWLETQVFECEVMPYPNLTEHEAGQFEQDFIDRIGCTPEEYVRIRCAVRLLEARYPDSLNELTTAAIATPLGEMLAVFGSKGLCLLEFVGQKHMEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKCRLKTFTTPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQSLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFAVK MI IRSKRMITLPSLNNLPSKWDEIRH LET+VFEC VMPYPNLTE EAGQFE+DF D IGC PEEYVRIR A+RLLE RYPDSLNEL  AAIATPLGEMLAVFG KGLCLLEFVGQK++EQEIAAVQKALRGRFVFRED R Q LRQELDLYFK  LKTF TPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQ LLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|488166932|ref|WP_002238140.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|402331452|gb|EJU66789.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis 98008]</Hit_def>
+  <Hit_accession>WP_002238140</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.419</Hsp_bit-score>
+      <Hsp_score>1256</Hsp_score>
+      <Hsp_evalue>5.08452e-172</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRYWLETRVFECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEVRYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIR+ LETRVFECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE+RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|504395046|ref|WP_014582148.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|385855564|ref|YP_005902077.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis M01-240355] &gt;gi|325204505|gb|ADY99958.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis M01-240355]</Hit_def>
+  <Hit_accession>WP_014582148</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.419</Hsp_bit-score>
+      <Hsp_score>1256</Hsp_score>
+      <Hsp_evalue>1.21509e-171</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAAKSMIEIRSKRMITLLSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLEASYPDSLNELVCAAIATPLGEMLAVFGSKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPNAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFA K MI IRSKRMITL SLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLE  YPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNP AVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|488173018|ref|WP_002244226.1|</Hit_id>
+  <Hit_def>methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis] &gt;gi|389605311|emb|CCA44231.1| methylated-DNA-protein cysteine methyltransferase [Neisseria meningitidis alpha522] &gt;gi|432202165|gb|ELK58230.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM422] &gt;gi|432224910|gb|ELK80672.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis M13255] &gt;gi|432226663|gb|ELK82389.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM418] &gt;gi|432240539|gb|ELK96074.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 9757] &gt;gi|432240660|gb|ELK96194.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 9506] &gt;gi|485355302|gb|EOC16530.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2002020] &gt;gi|485357402|gb|EOC18433.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM477] &gt;gi|485359764|gb|EOC20582.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis M13265] &gt;gi|530899292|gb|EQC98045.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2002030] &gt;gi|530900068|gb|EQC98772.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM3141] &gt;gi|530914467|gb|EQD12293.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM1476] &gt;gi|530920861|gb|EQD18305.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM3173]</Hit_def>
+  <Hit_accession>WP_002244226</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>485.723</Hsp_bit-score>
+      <Hsp_score>1249</Hsp_score>
+      <Hsp_evalue>6.15148e-171</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHWLESRVFECGVMPHPNLTECEAKQFERDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGSRGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALEHGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRH LE+RVFECGVMP+PNLTECEA QFERDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG +GLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALE GEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|255047836|gb|EET43300.1|</Hit_id>
+  <Hit_def>6-O-methylguanine DNA methyltransferase, DNA binding domain protein [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>EET43300</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>486.493</Hsp_bit-score>
+      <Hsp_score>1251</Hsp_score>
+      <Hsp_evalue>7.54222e-171</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MTKIGDFAVKSMIEIRSKRMITLPSLNNLPSKWDEIRHWLETQVFECEVMPYPNLTEHEAKQFEQDFIDRIGCAPEEYVRIRRAIRLLEARYLDSPNELTTAAIATPLGEMLAVFGGKGLCLLEFVGQKHMEQEITAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQSLLALERGEVQTTLF</Hsp_hseq>
+      <Hsp_midline>M +IGDFAVK MI IRSKRMITLPSLNNLPSKWDEIRH LET+VFEC VMPYPNLTE EA QFE+DF D IGCAPEEYVRIRRAIRLLE RY DS NEL  AAIATPLGEMLAVFG KGLCLLEFVGQK++EQEI AVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQ LLALERGEVQT LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|488163839|ref|WP_002235047.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|402316614|gb|EJU52157.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NM255] &gt;gi|402335371|gb|EJU70637.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis 92045] &gt;gi|402336152|gb|EJU71414.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis 80179] &gt;gi|485371819|gb|EOC31676.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2001001] &gt;gi|485373474|gb|EOC33211.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2004032] &gt;gi|485394830|gb|EOC53174.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2003051] &gt;gi|514069392|gb|EPF54310.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM134] &gt;gi|514070287|gb|EPF55137.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 2007461] &gt;gi|663091027|gb|KER39304.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002235047</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.952</Hsp_bit-score>
+      <Hsp_score>1247</Hsp_score>
+      <Hsp_evalue>1.36657e-170</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVLIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSV+IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|488162872|ref|WP_002234080.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|402317814|gb|EJU53343.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis 93004]</Hit_def>
+  <Hit_accession>WP_002234080</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.952</Hsp_bit-score>
+      <Hsp_score>1247</Hsp_score>
+      <Hsp_evalue>1.47527e-170</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEVRYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHMEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVLIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE+RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK++EQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSV+IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|488158481|ref|WP_002229689.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|372200699|gb|EHP14734.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NM220] &gt;gi|372201310|gb|EHP15252.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NM233] &gt;gi|485399237|gb|EOC57272.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM271] &gt;gi|485399714|gb|EOC57711.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM115] &gt;gi|485401258|gb|EOC59162.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM90] &gt;gi|485405899|gb|EOC63472.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM3042] &gt;gi|485406313|gb|EOC63846.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM3222] &gt;gi|485408047|gb|EOC65472.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM3131] &gt;gi|485412473|gb|EOC69563.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM3144] &gt;gi|485412871|gb|EOC69926.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM3158] &gt;gi|485415109|gb|EOC72028.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM3164] &gt;gi|485419060|gb|EOC75690.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM27] &gt;gi|485419415|gb|EOC76015.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM51] &gt;gi|485422595|gb|EOC78998.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM80] &gt;gi|485425713|gb|EOC81870.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM165] &gt;gi|485425860|gb|EOC82004.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis NM3223]</Hit_def>
+  <Hit_accession>WP_002229689</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.567</Hsp_bit-score>
+      <Hsp_score>1246</Hsp_score>
+      <Hsp_evalue>1.87647e-170</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEVRYPDSLNELVCAAIATPLGEMLAVFGGKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDALLAIPYGETRSYKEQAQHLGNPKAVRAVAAANGQNKVSVLIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE+RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYF+  LKTFATPLE IGT FQKQAWDALLAIPYGETRSYKEQAQ LGNPKAVRAVAAANGQNKVSV+IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|645907559|ref|WP_025462975.1|</Hit_id>
+  <Hit_def>cysteine methyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_025462975</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.182</Hsp_bit-score>
+      <Hsp_score>1245</Hsp_score>
+      <Hsp_evalue>2.72141e-170</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|385699462|gb|EIG29758.1|</Hit_id>
+  <Hit_def>methylated-DNA-[protein]-cysteine S-methyltransferase [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>EIG29758</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.952</Hsp_bit-score>
+      <Hsp_score>1247</Hsp_score>
+      <Hsp_evalue>2.86232e-170</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAVKSMIEIRSKRMITLPFLNNLPSKWDEIRHWLETQVFECEVMPYPNLTEHEAKQFEQDFIDRIGCTPEEYIRIRRAIRLLEARYPDSSNELTAAAIATPLGEMLAVFGGKGLCLLEFVGQKHMEQEITAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDELLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQSLLALERGEVQTTLF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFAVK MI IRSKRMITLP LNNLPSKWDEIRH LET+VFEC VMPYPNLTE EA QFE+DF D IGC PEEY+RIRRAIRLLE RYPDS NEL  AAIATPLGEMLAVFG KGLCLLEFVGQK++EQEI AVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWD LLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQ LLALERGEVQT LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|488170582|ref|WP_002241790.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|393291617|emb|CCI73147.1| methylated-DNA-protein cysteine methyltransferase [Neisseria meningitidis alpha704] &gt;gi|402340205|gb|EJU75408.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NM2795]</Hit_def>
+  <Hit_accession>WP_002241790</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>483.026</Hsp_bit-score>
+      <Hsp_score>1242</Hsp_score>
+      <Hsp_evalue>7.52326e-170</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPHPNLTECEAGQFERNFWDNIGCAPEEYVRIRRAIRLLEASYPDSLNELVCAAIATPLGEMLAVFGSKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDALLAIPYGETRSYKEQAQHLGNPKAVRAVAAANGQNKVSVLIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRHCLETRVFECGVMP+PNLTECEAGQFER+FWDNIGCAPEEYVRIRRAIRLLE  YPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYF+  LKTFATPLE IGT FQKQAWDALLAIPYGETRSYKEQAQ LGNPKAVRAVAAANGQNKVSV+IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|645201702|ref|WP_025458809.1|</Hit_id>
+  <Hit_def>cysteine methyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_025458809</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.256</Hsp_bit-score>
+      <Hsp_score>1240</Hsp_score>
+      <Hsp_evalue>1.48187e-169</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRYWLETRVCECGVMPHPNLTECEAGQFDRDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHMEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDVLLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVLIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIR+ LETRV ECGVMP+PNLTECEAGQF+RDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK++EQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWD LLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSV+IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|748592376|ref|WP_039850556.1|</Hit_id>
+  <Hit_def>cysteine methyltransferase [Neisseria sp. oral taxon 014]</Hit_def>
+  <Hit_accession>WP_039850556</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.715</Hsp_bit-score>
+      <Hsp_score>1236</Hsp_score>
+      <Hsp_evalue>1.17721e-168</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MAEIGDFAVKFMIGIRSKRMITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MAKIGDFAVKSMIEIRSKQMITLPSLNNLPSKWDEIRHWLETQVFECEVMPYPNLTEHDAKQFEQDFIDRIGCAPEEYVLIRRAIRMLEASYPDSPNELTTAAIATPLGEMLAVFGGKGLCLLEFVGQKHMEQEITAVQKALRGRLVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQSLLALERGEVQTTLF</Hsp_hseq>
+      <Hsp_midline>MA+IGDFAVK MI IRSK+MITLPSLNNLPSKWDEIRH LET+VFEC VMPYPNLTE +A QFE+DF D IGCAPEEYV IRRAIR+LE  YPDS NEL  AAIATPLGEMLAVFG KGLCLLEFVGQK++EQEI AVQKALRGR VFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQ LLALERGEVQT LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|488164775|ref|WP_002235983.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|402322405|gb|EJU57867.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NM183] &gt;gi|402322637|gb|EJU58089.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NM140] &gt;gi|402324569|gb|EJU60001.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NM2781] &gt;gi|402329019|gb|EJU64382.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis NM576] &gt;gi|485280538|gb|EOB46711.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 96060] &gt;gi|485349567|gb|EOC11182.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 73696]</Hit_def>
+  <Hit_accession>WP_002235983</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.945</Hsp_bit-score>
+      <Hsp_score>1234</Hsp_score>
+      <Hsp_evalue>1.18301e-168</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRYWLETQVFECEVMPYPNLTEHEAKQFERDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIR+ LET+VFEC VMPYPNLTE EA QFERDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|645207785|ref|WP_025460058.1|</Hit_id>
+  <Hit_def>cysteine methyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_025460058</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.019</Hsp_bit-score>
+      <Hsp_score>1229</Hsp_score>
+      <Hsp_evalue>7.42464e-168</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRYWLETQVFECEVMPYPNLTEHEAKQFERDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQHLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIR+ LET+VFEC VMPYPNLTE EA QFERDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQ LGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|645192900|ref|WP_025456723.1|</Hit_id>
+  <Hit_def>cysteine methyltransferase [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025456723</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.863</Hsp_bit-score>
+      <Hsp_score>1226</Hsp_score>
+      <Hsp_evalue>2.1676e-167</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLPSLNNLPSKWDEIRHWLETQVFECEVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLEASYPDSLNELVCAAIATPLGEMLAVFGSKGLCLLEFVGQKHLEQEIAAVQKALRGQFVFREDERTQLLRQELDLYFQCRLKTFATPLEMIGTAFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITLPSLNNLPSKWDEIRH LET+VFEC VMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLE  YPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRG+FVFRED R Q LRQELDLYF+  LKTFATPLE IGT FQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|488173228|ref|WP_002244436.1|</Hit_id>
+  <Hit_def>methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis] &gt;gi|385340405|ref|YP_005894277.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis G2136] &gt;gi|325198649|gb|ADY94105.1| methylated-DNA--protein-cysteine methyltransferase [Neisseria meningitidis G2136] &gt;gi|432204678|gb|ELK60717.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 87255] &gt;gi|432246377|gb|ELL01828.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 4119] &gt;gi|432247379|gb|ELL02817.1| methylated-DNA-[]-cysteine S-methyltransferase family protein [Neisseria meningitidis 12888]</Hit_def>
+  <Hit_accession>WP_002244436</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.478</Hsp_bit-score>
+      <Hsp_score>1225</Hsp_score>
+      <Hsp_evalue>3.35657e-167</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MITLPSLNNLPSKWDEIRHCLETRVFECGVMPYPNLTECEAGQFERDFWDNIGCAPEEYVRIRRAIRLLELRYPDSLNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_qseq>
+      <Hsp_hseq>MITLLSLNNLPSKWDEIRYWLETQVFECEVMPYPNLTEHEAKQFERDFWDNIGCAPEEYVRIRRAIRLLEARYPDSLNELVCAAIATPLGEMLAVFGNKGLCLLEFVGQKHLEQEIAAVQKALRGRFVFREDERTQLLRQELDLYFKGRLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSILIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_hseq>
+      <Hsp_midline>MITL SLNNLPSKWDEIR+ LET+VFEC VMPYPNLTE EA QFERDFWDNIGCAPEEYVRIRRAIRLLE RYPDSLNELVCAAIATPLGEMLAVFG KGLCLLEFVGQK+LEQEIAAVQKALRGRFVFRED R Q LRQELDLYFKG LKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVS++IPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

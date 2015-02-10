@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>43835</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7Y9</BlastOutput_query-def>
+  <BlastOutput_query-len>96</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>43835</Iteration_query-ID>
+  <Iteration_query-def>Q5F7Y9</Iteration_query-def>
+  <Iteration_query-len>96</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81815561|sp|O32067.1|YTZE_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator YtzE [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32067</Hit_accession>
+  <Hit_len>73</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.169677</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIA</Hsp_qseq>
+      <Hsp_hseq>MKPSTNRMLTRIKSVYMFIQEKGLV--TTQELVDEFGITPRTIQRDLNVLAYNDLVHSPSRGKWETTRKKVKIT</Hsp_hseq>
+      <Hsp_midline>M+ +T++   R+  V++ +    ++  + +EL D  G+TP  + RD++ L  + LV     G +    K ++I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|39931153|sp|Q8FTN0.2|ARGR_COREF</Hit_id>
+  <Hit_def>RecName: Full=Arginine repressor [Corynebacterium efficiens YS-314]</Hit_def>
+  <Hit_accession>Q8FTN0</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.290242</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>LSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQEL</Hsp_qseq>
+      <Hsp_hseq>LDEGIDITQATLSRDLDELGARKVRPDRGRAFYAIGPVDTTIGEDLRGPQEKLRRMLDEL</Hsp_hseq>
+      <Hsp_midline>L +G+ +T + +SRD+D+L A  +        YA G     I E  R  QE+L   L EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|51316142|sp|Q6F7X1.1|MDH_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Malate dehydrogenase [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6F7X1</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.605152</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>IGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELE</Hsp_qseq>
+      <Hsp_hseq>LGTNGKWVTMGI---PSDGSYGIPEGVIYGVPVTCENGEYKR-VEGLEIDEFSR---ERMDKTLQELE</Hsp_hseq>
+      <Hsp_midline>+G + K ++ G+   PS  S  I + V  G+ +  ENG Y   ++ L+I E  R   ER++  LQELE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|166977337|sp|A0Q2U4.1|REX_CLONN</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium novyi NT]</Hit_def>
+  <Hit_accession>A0Q2U4</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.736289</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTL</Hsp_qseq>
+      <Hsp_hseq>ISMAVIRRLPKYYRYLAELMDNDVDRISSKELSEKIGFTASQIRQDLNNFGDFG-----QQG-YGYNVKDL</Hsp_hseq>
+      <Hsp_midline>+ MA  ++  +  R    +  + V  IS+KELS+ +G T SQ+ +D+++    G     + G Y Y +K L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|254790836|sp|B9MPL7.1|REX_CALBD</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Caldicellulosiruptor bescii DSM 6725]</Hit_def>
+  <Hit_accession>B9MPL7</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.858641</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDD</Hsp_qseq>
+      <Hsp_hseq>ISLAVIRRLPRYLRYVEDLLNHDVLRISSSELSQRMGYTASQVRQDFNN</Hsp_hseq>
+      <Hsp_midline>+ +A  ++  R LR    +  H V+ IS+ ELS  +G T SQV +D ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|6136711|sp|P10022.2|YGI1_BACTU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized 23.6 kDa protein; AltName: Full=ORF 1 [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>P10022</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.898725</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>QRLLRV---FLAMDAHP--VIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIK</Hsp_qseq>
+      <Hsp_hseq>QRFLQFKSNCIVNDIHSRNALPMSQKQIADRLKTDKSKISRIVNSLVQKGVIVK-ANGHKPEGVK</Hsp_hseq>
+      <Hsp_midline>QR L+     +  D H    + +S K+++D L    S++SR ++ LV  G+++K  NG+   G+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|226729709|sp|B2J7E8.1|KHSE_NOSP7</Hit_id>
+  <Hit_def>RecName: Full=Homoserine kinase; Short=HK; Short=HSK [Nostoc punctiforme PCC 73102]</Hit_def>
+  <Hit_accession>B2J7E8</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.967727</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>ATSKKAQRLLRVFLAMDAHPVIGISNKEL--SDGLGLTPSQVSR--DIDDLVASGLVIK-LENGNYAYGIKTLQ--IAERFRK</Hsp_qseq>
+      <Hsp_hseq>ATSGTAWEICDVPWHKDVVPVVAIPNFELSTSEARGVLPTEVSRADAIFNTAHLGLLLRGLETGNGQWLKTALQDKLHQPYRK</Hsp_hseq>
+      <Hsp_midline>ATS  A  +  V    D  PV+ I N EL  S+  G+ P++VSR   I +    GL+++ LE GN  +    LQ  + + +RK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|166977333|sp|A4XIT8.1|REX_CALS8</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Caldicellulosiruptor saccharolyticus DSM 8903]</Hit_def>
+  <Hit_accession>A4XIT8</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.13163</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDD</Hsp_qseq>
+      <Hsp_hseq>LAVVRRLPRYLRYVEDLLNHDIMRISSSELSQRMGYTASQVRQDFNN</Hsp_hseq>
+      <Hsp_midline>+A  ++  R LR    +  H ++ IS+ ELS  +G T SQV +D ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122267237|sp|Q03JN2.1|REX_STRTD</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Streptococcus thermophilus LMD-9]</Hit_def>
+  <Hit_accession>Q03JN2</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.18846</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>ATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDI</Hsp_qseq>
+      <Hsp_hseq>ATAKRLSLYYRIFKRFHRENIVKTSSKQIAEAIGIDPATVRRDF</Hsp_hseq>
+      <Hsp_midline>AT+K+     R+F       ++  S+K++++ +G+ P+ V RD </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|131500|sp|P09323.1|PTW3C_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=PTS system N-acetylglucosamine-specific EIICBA component; AltName: Full=EIICBA-Nag; Short=EII-Nag; Includes: RecName: Full=N-acetylglucosamine permease IIC component; AltName: Full=PTS system N-acetylglucosamine-specific EIIC component; Includes: RecName: Full=N-acetylglucosamine-specific phosphotransferase enzyme IIB component; AltName: Full=PTS system N-acetylglucosamine-specific EIIB component; Includes: RecName: Full=N-acetylglucosamine-specific phosphotransferase enzyme IIA component; AltName: Full=PTS system N-acetylglucosamine-specific EIIA component [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P09323</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.37387</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>510</Hsp_hit-from>
+      <Hsp_hit-to>565</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLV---ASGLVIKLENGNYAYGIKTLQIAE</Hsp_qseq>
+      <Hsp_hseq>VALDQVPDEAFASKAVGDGVAVKPT------DKIVVSPAAGTIVKIFNTNHAFCLETEKGAE</Hsp_hseq>
+      <Hsp_midline>+A+D  P    ++K + DG+ + P+      D +V   A+G ++K+ N N+A+ ++T + AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|42559280|sp|Q8XI22.1|REX_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium perfringens str. 13] &gt;gi|123344517|sp|Q0TN14.1|REX_CLOP1 RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium perfringens ATCC 13124]</Hit_def>
+  <Hit_accession>Q8XI22</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.6643</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTL</Hsp_qseq>
+      <Hsp_hseq>ISMAVIKRLPKYHRYLQELMENDVDRISSKELSEKIGFTASQIRQDLNCFGDFG-----QQG-YGYNVKEL</Hsp_hseq>
+      <Hsp_midline>+ MA  K+  +  R    +  + V  IS+KELS+ +G T SQ+ +D++     G     + G Y Y +K L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|122956520|sp|Q0SQP4.1|REX_CLOPS</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium perfringens SM101]</Hit_def>
+  <Hit_accession>Q0SQP4</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>2.44322</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTL</Hsp_qseq>
+      <Hsp_hseq>ISMAVIKRLPKYHRYLQELMENDIDRISSKELSEKIGFTASQIRQDLNCFGDFG-----QQG-YGYNVKEL</Hsp_hseq>
+      <Hsp_midline>+ MA  K+  +  R    +  + +  IS+KELS+ +G T SQ+ +D++     G     + G Y Y +K L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|42559500|sp|Q8TZE2.1|REG2_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator PF2053 [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>Q8TZE2</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>2.80269</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>ISNKELSDGLGLTPSQVSRDIDDLVASGLVIK------LENGNYAYGIKTLQI</Hsp_qseq>
+      <Hsp_hseq>LTYRELAEMLGTTRQRVARKVDKLKKLGIIRKFTIIPNLEKLNYMYAILLIKV</Hsp_hseq>
+      <Hsp_midline>++ +EL++ LG T  +V+R +D L   G++ K      LE  NY Y I  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|12230137|sp|O74700.1|TIM9_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Mitochondrial import inner membrane translocase subunit TIM9 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>O74700</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.81301</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>ISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQE</Hsp_qseq>
+      <Hsp_hseq>VEQKQMKDFMRLYSNLVERCFTDCVNDFTTSKLTNKEQTCIMK---CSEKFLKHSERVGQRFQE</Hsp_hseq>
+      <Hsp_midline>+  K++ D + L  + V R   D V      KL N      +K    +E+F K  ER+  R QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1172705|sp|P45604.1|PTW3C_KLEPN</Hit_id>
+  <Hit_def>RecName: Full=PTS system N-acetylglucosamine-specific EIICBA component; AltName: Full=EIICBA-Nag; Short=EII-Nag; Includes: RecName: Full=N-acetylglucosamine permease IIC component; AltName: Full=PTS system N-acetylglucosamine-specific EIIC component; Includes: RecName: Full=N-acetylglucosamine-specific phosphotransferase enzyme IIB component; AltName: Full=PTS system N-acetylglucosamine-specific EIIB component; Includes: RecName: Full=N-acetylglucosamine-specific phosphotransferase enzyme IIA component; AltName: Full=PTS system N-acetylglucosamine-specific EIIA component [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P45604</Hit_accession>
+  <Hit_len>651</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>2.83966</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>512</Hsp_hit-from>
+      <Hsp_hit-to>567</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLV---ASGLVIKLENGNYAYGIKTLQIAE</Hsp_qseq>
+      <Hsp_hseq>VALEQVPDEAFASKAVGDGIAVKPT------DNIVVAPAAGTVVKIFNTNHAFCLETNNGAE</Hsp_hseq>
+      <Hsp_midline>+A++  P    ++K + DG+ + P+      D++V   A+G V+K+ N N+A+ ++T   AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|42559272|sp|Q8RC93.1|REX_THETN</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Caldanaerobacter subterraneus subsp. tengcongensis MB4]</Hit_def>
+  <Hit_accession>Q8RC93</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.77703</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDD</Hsp_qseq>
+      <Hsp_hseq>VSMAVIRRLPRYHRCLEELLKNDIKRISSKELSERMGVTASQIRQDLNN</Hsp_hseq>
+      <Hsp_midline>+ MA  ++  R  R    +  + +  IS+KELS+ +G+T SQ+ +D+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|74584643|sp|Q59R24.1|TIM9_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Mitochondrial import inner membrane translocase subunit TIM9 [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>Q59R24</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.79875</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>ISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQE</Hsp_qseq>
+      <Hsp_hseq>VEQKQMKDFMNLYSNLVSRCFDDCVNDFTSNSLTSKETSCIAK---CSEKFLKHSERVGQRFQE</Hsp_hseq>
+      <Hsp_midline>+  K++ D + L  + VSR  DD V       L +   +   K    +E+F K  ER+  R QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|123176909|sp|Q1AR91.1|REX_RUBXD</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Rubrobacter xylanophilus DSM 9941]</Hit_def>
+  <Hit_accession>Q1AR91</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.86184</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ISNKELSDGLGLTPSQVSRDIDDLVASG</Hsp_qseq>
+      <Hsp_hseq>VSSKELGDFTGINPVQVRRDLNAIGFSG</Hsp_hseq>
+      <Hsp_midline>+S+KEL D  G+ P QV RD++ +  SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|61211411|sp|Q5WF65.1|ARGR_BACSK</Hit_id>
+  <Hit_def>RecName: Full=Arginine repressor [Bacillus clausii KSM-K16]</Hit_def>
+  <Hit_accession>Q5WF65</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.86978</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>SDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQE</Hsp_qseq>
+      <Hsp_hseq>SDGYNVTQATVSRDIKEL--HLVKVPLQDGRYKY---SLPADQKFNPQQK</Hsp_hseq>
+      <Hsp_midline>SDG  +T + VSRDI +L    + + L++G Y Y   +L   ++F  QQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|342187124|sp|Q99PJ2.3|TRIM8_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Probable E3 ubiquitin-protein ligase TRIM8; AltName: Full=Glioblastoma-expressed RING finger protein; AltName: Full=RING finger protein 27; AltName: Full=Tripartite motif-containing protein 8 [Mus musculus]</Hit_def>
+  <Hit_accession>Q99PJ2</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.98512</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>184</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>IKTLQIAERFRKQQERLNARLQELENRIY</Hsp_qseq>
+      <Hsp_hseq>IRRNEIRKMLMKQQERLEEREQDIEDQLY</Hsp_hseq>
+      <Hsp_midline>I+  +I +   KQQERL  R Q++E+++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|42559239|sp|Q891F1.1|REX_CLOTE</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium tetani E88]</Hit_def>
+  <Hit_accession>Q891F1</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.11884</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQ</Hsp_qseq>
+      <Hsp_hseq>ISMAVIKRLPKYHRYLEELLRNEVDRISSKELSKKIGFTASQIRQDFNCFGDFG------QQGYGYNVKELH</Hsp_hseq>
+      <Hsp_midline>+ MA  K+  +  R    +  + V  IS+KELS  +G T SQ+ +D +     G         Y Y +K L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|226739078|sp|B1L1Y6.1|REX_CLOBM</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium botulinum A3 str. Loch Maree]</Hit_def>
+  <Hit_accession>B1L1Y6</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.01502</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDID</Hsp_qseq>
+      <Hsp_hseq>ISMAVIRRLPKYHRYLYELLKNDVDRISSKELSEKIGFTASQIRQDLN</Hsp_hseq>
+      <Hsp_midline>+ MA  ++  +  R    +  + V  IS+KELS+ +G T SQ+ +D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|123174689|sp|Q18CR5.1|REX_PEPD6</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Peptoclostridium difficile 630]</Hit_def>
+  <Hit_accession>Q18CR5</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.06489</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ISNKELSDGLGLTPSQVSRDIDD</Hsp_qseq>
+      <Hsp_hseq>ISSKELSDIIGFTASQIRQDLNN</Hsp_hseq>
+      <Hsp_midline>IS+KELSD +G T SQ+ +D+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|166977334|sp|A7FYQ1.1|REX_CLOB1</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium botulinum A str. ATCC 19397] &gt;gi|166977335|sp|A5I731.1|REX_CLOBH RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium botulinum A str. Hall] &gt;gi|166977336|sp|A7GIP1.1|REX_CLOBL RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium botulinum F str. Langeland] &gt;gi|226739077|sp|B1IFE2.1|REX_CLOBK RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium botulinum B1 str. Okra] &gt;gi|254790844|sp|C1FLW3.1|REX_CLOBJ RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium botulinum A2 str. Kyoto] &gt;gi|259563718|sp|C3KUS0.1|REX_CLOB6 RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium botulinum Ba4 str. 657]</Hit_def>
+  <Hit_accession>A7FYQ1</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.16614</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDID</Hsp_qseq>
+      <Hsp_hseq>ISMAVIRRLPKYHRYLYELLKNDVDRISSKELSEKIGFTASQIRQDLN</Hsp_hseq>
+      <Hsp_midline>+ MA  ++  +  R    +  + V  IS+KELS+ +G T SQ+ +D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|189040071|sp|A6LQ78.1|REX_CLOB8</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Clostridium beijerinckii NCIMB 8052]</Hit_def>
+  <Hit_accession>A6LQ78</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.89142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTL</Hsp_qseq>
+      <Hsp_hseq>ISMAVIKRLPKYHRYLEELMKNEVDRISSKELGEKIGFTASQIRQDLNCFGDFG------QQGYGYNVKEL</Hsp_hseq>
+      <Hsp_midline>+ MA  K+  +  R    +  + V  IS+KEL + +G T SQ+ +D++     G         Y Y +K L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|20138037|sp|Q9P0U4.2|CXXC1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=CXXC-type zinc finger protein 1; AltName: Full=CpG-binding protein; AltName: Full=PHD finger and CXXC domain-containing protein 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9P0U4</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.92009</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>QIAERFRKQQERLNARLQELENRIY</Hsp_qseq>
+      <Hsp_hseq>KLLERIRREQQSARTRLQEMERRFH</Hsp_hseq>
+      <Hsp_midline>++ ER R++Q+    RLQE+E R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|20137943|sp|Q9CWW7.1|CXXC1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=CXXC-type zinc finger protein 1; AltName: Full=CpG-binding protein; AltName: Full=PHD finger and CXXC domain-containing protein 1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9CWW7</Hit_accession>
+  <Hit_len>660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.92277</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>432</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>QIAERFRKQQERLNARLQELENRIY</Hsp_qseq>
+      <Hsp_hseq>KLLERIRREQQSARTRLQEMERRFH</Hsp_hseq>
+      <Hsp_midline>++ ER R++Q+    RLQE+E R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|226739092|sp|B0KBS9.1|REX_THEP3</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Thermoanaerobacter pseudethanolicus ATCC 33223]</Hit_def>
+  <Hit_accession>B0KBS9</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.70202</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDD</Hsp_qseq>
+      <Hsp_hseq>VSMAVIRRLPRYHRYLEELLKNDVKRISSRELSEKMGVTASQIRQDLNN</Hsp_hseq>
+      <Hsp_midline>+ MA  ++  R  R    +  + V  IS++ELS+ +G+T SQ+ +D+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|75057886|sp|Q5EA28.1|CXXC1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=CXXC-type zinc finger protein 1; AltName: Full=CpG-binding protein; AltName: Full=PHD finger and CXXC domain-containing protein 1 [Bos taurus]</Hit_def>
+  <Hit_accession>Q5EA28</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.71226</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>430</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>QIAERFRKQQERLNARLQELENRIY</Hsp_qseq>
+      <Hsp_hseq>KLLERIRREQQSARTRLQEMERRFH</Hsp_hseq>
+      <Hsp_midline>++ ER R++Q+    RLQE+E R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|226739093|sp|B0K3N1.1|REX_THEPX</Hit_id>
+  <Hit_def>RecName: Full=Redox-sensing transcriptional repressor Rex [Thermoanaerobacter sp. X514]</Hit_def>
+  <Hit_accession>B0K3N1</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>8.17399</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDD</Hsp_qseq>
+      <Hsp_hseq>VSMAVIRRLPRYHRYLEELLKNDVKRISSRELSEKMGVTASQIRQDLNN</Hsp_hseq>
+      <Hsp_midline>+ MA  ++  R  R    +  + V  IS++ELS+ +G+T SQ+ +D+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|172048242|sp|A5VFA5.1|HUTI_SPHWW</Hit_id>
+  <Hit_def>RecName: Full=Imidazolonepropionase; AltName: Full=Imidazolone-5-propionate hydrolase [Sphingomonas wittichii RW1]</Hit_def>
+  <Hit_accession>A5VFA5</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>8.32514</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>DGLGLTPSQVSRDIDDLVASGLVIKL</Hsp_qseq>
+      <Hsp_hseq>EGIGFTPAQTQRVFDAARAAGLPVKL</Hsp_hseq>
+      <Hsp_midline>+G+G TP+Q  R  D   A+GL +KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2496042|sp|Q57978.1|Y558_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ0558 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57978</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>9.10641</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>ISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_qseq>
+      <Hsp_hseq>IKQKEIAENLGITVQAVSEHIRNLVKEGYVKSRGRGEYVVTEKGLR---KLKNWISEFKDYLDEINTAVY</Hsp_hseq>
+      <Hsp_midline>I  KE+++ LG+T   VS  I +LV  G V     G Y    K L+   + +         L E+   +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

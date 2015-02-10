@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>56723</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F820 Peptidyl-prolyl cis-trans isomerase</BlastOutput_query-def>
+  <BlastOutput_query-len>160</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>56723</Iteration_query-ID>
+  <Iteration_query-def>Q5F820 Peptidyl-prolyl cis-trans isomerase</Iteration_query-def>
+  <Iteration_query-len>160</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81544370|sp|Q9KNX6.1|SLYD_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KNX6</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>1.22537e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKT--EEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPV--EVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVH</Hsp_qseq>
+      <Hsp_hseq>MKIEKNTVASLAYQLTIEDGVVVDQSTVDAPLDYLHG-HNNLITGLERELEGKVAGDKFTVTIAPEDAYGEHNEDLVQRVPADVFQGVDELEVGMRFLAD-TDQGPIPV-EITEVDGDEVVVDGNHMLAGQSLTFTVEVVAVRAATEDEIAHGHIH</Hsp_hseq>
+      <Hsp_midline>M I KN+V SL Y++   +  ++D++  + P+ YLHG ++ +   +E  L GK AGD   V ++ +DA+GE + +LV+   A  F    E+EVGM F AD  + G + V  +T+V   + VVDGNH LAG  + F   V +VR A+++EIAHGH+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81636599|sp|Q9CKP2.1|SLYD_PASMU</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CKP2</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>3.57313e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDK--TEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPV--EVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVH---GSHGHYHH</Hsp_qseq>
+      <Hsp_hseq>MKIAKNVVVSIAYQVRTEDGVLVDEAPVNQPLEYLQG-HNNLVIGLENALEGKAVGDKFEVRVKPEEAYGEYNENMVQRVPKDVFQGVDELVVGMRFIAD-TDIGPLPVV-ITEVAENDVVVDGNHMLAGQELLFSVEVVATREATLEEIAHGHIHQEGGCCGGHHH</Hsp_hseq>
+      <Hsp_midline>M IAKN VVS+ Y++   +  L+D+    +P+ YL G ++ +   +E AL GK  GD  +V +  ++A+GE +  +V+      F    E+ VGM F AD  + G + V  +T+VA+   VVDGNH LAG ++ F   V + R+A+ EEIAHGH+H   G  G +HH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1173449|sp|P44830.1|SLYD_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44830</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>5.28592e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKT--EEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPV--EVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHGH</Hsp_qseq>
+      <Hsp_hseq>MKVEKNVVVSISYQVRTQDGVLVDEAPANQPLEYLQGHNNLVIGL-EKALEGKEVGDKFEVRVQPEEGYGAYSENMVQRVPKDVFQGVDELEVGMRFLAD-TDIGPVPVV-ITEIDGDEVVVDGNHMLAGQELHFTVEVVAAREATLEEIAHGHVHGAHSH</Hsp_hseq>
+      <Hsp_midline>M + KN VVS+ Y++   +  L+D+    +P+ YL G  + +  L E+AL GK+ GD  +V +  ++ +G     +V+      F    E+EVGM F AD  + G V V  +T++   + VVDGNH LAG ++ F   V + R+A+ EEIAHGHVHG+H H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|8134667|sp|O07046.1|SLYD_AERHY</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>O07046</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.3738e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKT--EEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAF-PVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHV</Hsp_qseq>
+      <Hsp_hseq>MKVAPLSVVTLEYTVTDEHGEVIDTTVGKEPLVYLHGTRYLVSGL-EAELEGRSVGEAFDVTLTPEQAYGQYDENLVQEVPGELFDGMEVSEGDTFVAETDDGHRPVT--VIEVSEEFVKVDGNHPLAGVTLGFKVEIKDVRAATAEELAHGHV</Hsp_hseq>
+      <Hsp_midline>M +A  SVV+L Y + D + +++D T  +EP+ YLHG    +  L E  L G+  G+  DV L+ + A+G+ D  LV+      F  +EV  G  F A+  +    V   V +V++    VDGNHPLAG+ + FK  ++ VR A+ EE+AHGHV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|71162376|sp|P0A9L1.1|SLYD_ECO57</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Escherichia coli O157:H7] &gt;gi|71162377|sp|P0A9L0.1|SLYD_ECOL6 RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Escherichia coli CFT073] &gt;gi|71162378|sp|P0A9K9.1|SLYD_ECOLI RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Histidine-rich protein; AltName: Full=Metallochaperone SlyD; AltName: Full=Rotamase; AltName: Full=Sensitivity to lysis protein D; AltName: Full=WHP [Escherichia coli K-12] &gt;gi|71162379|sp|P0A9L2.1|SLYD_SHIFL RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0A9L1</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>3.97865e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKT--EEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPV--EVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGH</Hsp_qseq>
+      <Hsp_hseq>MKVAKDLVVSLAYQVRTEDGVLVDESPVSAPLDYLHG-HGSLISGLETALEGHEVGDKFDVAVGANDAYGQYDENLVQRVPKDVFMGVDELQVGMRFLAE-TDQGPVPV-EITAVEDDHVVVDGNHMLAGQNLKFNVEVVAIREATEEELAHGH</Hsp_hseq>
+      <Hsp_midline>M +AK+ VVSL Y++   +  L+D++    P+ YLHG +  +   +E AL G + GD  DVA+ ++DA+G+ D  LV+      F    E++VGM F A+  + G V V  +T V D   VVDGNH LAG  ++F   V ++R+A++EE+AHGH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123777878|sp|Q7CFU4.1|SLYD_YERPE</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q7CFU4</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>3.69693e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKT--EEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPV--EVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHG</Hsp_qseq>
+      <Hsp_hseq>MKVTKDLVVSLAYQVRTEDGVLVDESPVSAPLDYLHG-HGSLIAGLENALEGHEAGDSFDVRVNADEGYGSYDENLVQRVPKDVFMGVDELEVGMRFLAD-TDQGPVPV-EITAVEDEHVVVDGNHMLAGQDLNFHVEVVAVREATEEELQHGHVHG</Hsp_hseq>
+      <Hsp_midline>M + K+ VVSL Y++   +  L+D++    P+ YLHG +  +   +E AL G +AGD+ DV +++D+ +G  D  LV+      F    E+EVGM F AD  + G V V  +T V D   VVDGNH LAG  + F   V +VR+A++EE+ HGHVHG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|6094301|sp|O83369.1|SLYD_TREPA</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>O83369</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>4.10169e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>MAIAKNSVVSLHYEMYDANNQLLDKTE--EPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFP--VEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIA</Hsp_qseq>
+      <Hsp_hseq>MKIANECVVNIEYTLRDDTGEIIDSSDVMGALEYVQG-HGMIIPGLETALINREEGEEFSVTIPPVGAYGEVQEDLRMTVGRDQFPPNVPIEVGMRFDAGS--GGDSRPVTVTDVQGETIIVDGNHPLAGKTLHFEVAVRSVREATDDDLA</Hsp_hseq>
+      <Hsp_midline>M IA   VV++ Y + D   +++D ++    + Y+ G +  I P +E AL  ++ G+   V +    A+GE   +L        FP  V +EVGM F+A     GD     VTDV     +VDGNHPLAG  + F+  V SVR+A+D+++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|141004|sp|P21863.1|FKBX_PSEFL</Hit_id>
+  <Hit_def>RecName: Full=Probable FKBP-type 16 kDa peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>P21863</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>6.97513e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>IAKNSVVSLHYEMYDANNQLLDKT-EEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFP-VEVEVGMMFEADDPETGDVV-VYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVR</Hsp_qseq>
+      <Hsp_hseq>IGQNTEVTLHFALRLENGDTVDSTFDKAPATFKVGDGNLLPGFEAALFGFKAGDKRTLQILPENAFGQPNPQNVQIIPRSQFQNMDLSEGLLVIFNDAANTELPGVVKAFD--DAQVTIDFNHPLAGKTLTFDVEIIDVK</Hsp_hseq>
+      <Hsp_midline>I +N+ V+LH+ +   N   +D T ++  A    G   + P  E AL G  AGD   + +  ++AFG+ + + V+I     F  +++  G++   +D    ++  V +  D  D +  +D NHPLAG  + F   +  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|3915696|sp|Q58235.2|FKBP2_METJA</Hit_id>
+  <Hit_def>RecName: Full=Putative FKBP-type peptidyl-prolyl cis-trans isomerase MJ0825; Short=PPIase; AltName: Full=Rotamase [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58235</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>3.39896e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>IAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYD---------------GIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAF------PVEVEVGMMFEADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRD</Hsp_qseq>
+      <Hsp_hseq>VEKGKMVKISYDGY-VDGKLFDTTNEELAKKEGIYNPAMIYGPVAIFAGEGQVLPGLDEAILEMDVGEEREVVLPPEKAFGKRDPSKIKLIPLSEFTKRGIKPIK---GLTI------TIDGIPGKIVSINSGRVLVDFNHELAGKEVKYRIKIEEVVD</Hsp_hseq>
+      <Hsp_midline>+ K  +V + Y+ Y  + +L D T E +A   G Y+                + P ++EA+   D G+  +V L  + AFG++D   +++     F      P++   G+        T D +  ++  +  G+ +VD NH LAG +++++  +E V D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|11387121|sp|Q9ZK89.1|SLYD_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZK89</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>4.62968e-06</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFP-VEVEVGMMF--EADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGH</Hsp_qseq>
+      <Hsp_hseq>SKEPLEFIIGANQIIVGL-EKAVLKAQIGEWEEIVIAPEEAYGVYESGYLQEVPRDQFEGIELEKGMSVFGQTEDNQT---IQATIKDFSNTHVMVDYNHPLAGKTLAFRFKVLGFREVSEEEILASH</Hsp_hseq>
+      <Hsp_midline>++EP+ ++ G    I  L E+A+     G+  ++ ++ ++A+G  +S  ++      F  +E+E GM    + +D +T   +   + D ++   +VD NHPLAG  + F+  V   R+ S+EEI   H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|6094300|sp|O25748.1|SLYD_HELPY</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase SlyD; Short=PPIase; AltName: Full=Metallochaperone SlyD [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25748</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>1.60057e-05</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>LHYEMYDANNQLL---DKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFP-VEVEVGMMF--EADDPETGDVVVYRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEI</Hsp_qseq>
+      <Hsp_hseq>IEYEVREQGSSIVLDSNISKEPLEFIIGT-NQIIAGLEKAVLKAQIGEWEEVVIAPEEAYGVYESSYLQEVPRDQFEGIELEKGMSVFGQTEDNQTIQAII---KDFSATHVMVDYNHPLAGKTLAFRFKVLGFREVSEEEI</Hsp_hseq>
+      <Hsp_midline>+ YE+ +  + ++   + ++EP+ ++ G  + I   +E+A+     G+  +V ++ ++A+G  +S  ++      F  +E+E GM    + +D +T   ++    D +    +VD NHPLAG  + F+  V   R+ S+EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|2499776|sp|Q57726.1|FKBP1_METJA</Hit_id>
+  <Hit_def>RecName: Full=Putative FKBP-type peptidyl-prolyl cis-trans isomerase MJ0278; Short=PPIase; AltName: Full=Rotamase [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57726</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.000628559</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEAD-DPETGDVVVY-----RVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDE</Hsp_qseq>
+      <Hsp_hseq>EPIGFIVGNGELIEGF-EEAVIGMEVGEEKTVTIPPEKGYGLRDERLIQ---------EIPKEMFADADFEPQEGMLILASGIPAKIIKVTDDTVTLDFNHELAGKELKFTIKVRDVQPAESE</Hsp_hseq>
+      <Hsp_midline>EPI ++ G  + I    EEA+ G + G+   V +  +  +G +D  L++         E+   M  +AD +P+ G +++      ++  V D    +D NH LAG +++F   V  V+ A  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|84028129|sp|P0AEM2.2|FKBX_ECO57</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type 16 kDa peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Escherichia coli O157:H7] &gt;gi|84028130|sp|P0AEM1.2|FKBX_ECOL6 RecName: Full=FKBP-type 16 kDa peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Escherichia coli CFT073] &gt;gi|84028131|sp|P0AEM0.2|FKBX_ECOLI RecName: Full=FKBP-type 16 kDa peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Escherichia coli K-12] &gt;gi|84028132|sp|P0AEM3.2|FKBX_SHIFL RecName: Full=FKBP-type 16 kDa peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AEM2</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0112307</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>AIAKNSVVSLHYEMYDANNQLLDKTEEPIAYLHGGYDGIFPL--------VEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEADDPETGDVVVYRVTDVADGKAV----------VDGNHPLAGMKIRF</Hsp_qseq>
+      <Hsp_hseq>SVQSNSAVLVHFTLK------LDDGTTAESTRNNGKPALFRLGDASLSEGLEQHLLGLKVGDKTTFSLEPDAAFGVPSPDLIQYFSRREF---------MDAGEPEIGAIMLFTAMDGSEMPGVIREINGDSITVDFNHPLAGQTVHF</Hsp_hseq>
+      <Hsp_midline>++  NS V +H+ +       LD      +  + G   +F L        +E+ L G   GD    +L  D AFG    +L++      F          +A +PE G ++++   D ++   V          VD NHPLAG  + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|6015157|sp|O52980.1|FKBP_METTL</Hit_id>
+  <Hit_def>RecName: Full=FKBP-type peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=MtFK; AltName: Full=Rotamase [Methanothermococcus thermolithotrophicus]</Hit_def>
+  <Hit_accession>O52980</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0669375</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>DKTEEPIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAGAFPVEVEVGMMFEAD-DPETGDVVVYR-----VTDVADGKAVVDGNHPLAGMKIRFKATV</Hsp_qseq>
+      <Hsp_hseq>DREYEPLEFVVGEGQLIQGF-EEAVLDMEVGDEKTVKIPAEKAYGNRNEMLIQKIPRDAFK---------EADFEPEEGMVILAEGIPATITEVTDNEVTLDFNHELAGKDLVFTIKI</Hsp_hseq>
+      <Hsp_midline>D+  EP+ ++ G    I    EEA+   + GD   V + ++ A+G ++  L++     AF          EAD +PE G V++       +T+V D +  +D NH LAG  + F   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|61228239|sp|P0A5Q3.1|MP63_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Immunogenic protein MPB63; AltName: Full=16 kDa immunoprotective extracellular protein; AltName: Full=Antigen MPB63; Flags: Precursor [Mycobacterium bovis AF2122/97] &gt;gi|614095526|sp|P9WIP0.1|MP63_MYCTO RecName: Full=Immunogenic protein MPT63; AltName: Full=16 kDa immunoprotective extracellular protein; AltName: Full=Antigen MPT63; Flags: Precursor [Mycobacterium tuberculosis CDC1551] &gt;gi|614095538|sp|P9WIP1.1|MP63_MYCTU RecName: Full=Immunogenic protein MPT63; AltName: Full=16 kDa immunoprotective extracellular protein; AltName: Full=Antigen MPT63; Flags: Precursor [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P0A5Q3</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.07939</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>AFPVEVEVGMMFEADDPETGDVVV-YRVTDVADGKAVVDGNHPLAGMKIRFKATVESVRDASDEEIAHGHVHGSHG</Hsp_qseq>
+      <Hsp_hseq>AYPITGKLGSELTMTD-TVGQVVLGWKVSDLKSSTAVIPG-YPVAGQVWEATATVNAIRGSVTPAVSQFNARTADG</Hsp_hseq>
+      <Hsp_midline>A+P+  ++G      D   G VV+ ++V+D+    AV+ G +P+AG      ATV ++R +    ++  +   + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|110831817|sp|Q2G630.1|PURL_NOVAD</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylformylglycinamidine synthase subunit PurL; Short=FGAM synthase; AltName: Full=Formylglycinamide ribonucleotide amidotransferase subunit II; Short=FGAR amidotransferase II; Short=FGAR-AT II; AltName: Full=Glutamine amidotransferase PurL; AltName: Full=Phosphoribosylformylglycinamidine synthase subunit II [Novosphingobium aromaticivorans DSM 12444]</Hit_def>
+  <Hit_accession>Q2G630</Hit_accession>
+  <Hit_len>719</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.58154</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>640</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>IFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDAG</Hsp_qseq>
+      <Hsp_hseq>LVALTEMALAG-NKGCTLDIALTTAAAFGEDQSRYVVTTRAG</Hsp_hseq>
+      <Hsp_midline>+  L E AL G + G T+D+AL++  AFGE  S  V    AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|29428082|sp|O35458.1|VIAAT_RAT</Hit_id>
+  <Hit_def>RecName: Full=Vesicular inhibitory amino acid transporter; AltName: Full=GABA and glycine transporter; AltName: Full=Solute carrier family 32 member 1; AltName: Full=Vesicular GABA transporter; Short=rGVAT [Rattus norvegicus]</Hit_def>
+  <Hit_accession>O35458</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.17661</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>PIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDA</Hsp_qseq>
+      <Hsp_hseq>PYAILHGGYLGLFLIIFAAVVCCYTGKILIACLYEEN----EDGEVVRVRDS</Hsp_hseq>
+      <Hsp_midline>P A LHGGY G+F ++  A+     G  +   L  ++    +D E+VR+ D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|29428127|sp|O35633.3|VIAAT_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Vesicular inhibitory amino acid transporter; AltName: Full=GABA and glycine transporter; AltName: Full=Solute carrier family 32 member 1; AltName: Full=Vesicular GABA transporter; Short=mVGAT; Short=mVIAAT [Mus musculus]</Hit_def>
+  <Hit_accession>O35633</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.17661</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>PIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDA</Hsp_qseq>
+      <Hsp_hseq>PYAILHGGYLGLFLIIFAAVVCCYTGKILIACLYEEN----EDGEVVRVRDS</Hsp_hseq>
+      <Hsp_midline>P A LHGGY G+F ++  A+     G  +   L  ++    +D E+VR+ D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|29428243|sp|Q95KE2.1|VIAAT_MACFA</Hit_id>
+  <Hit_def>RecName: Full=Vesicular inhibitory amino acid transporter; AltName: Full=GABA and glycine transporter; AltName: Full=Solute carrier family 32 member 1; AltName: Full=Vesicular GABA transporter [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q95KE2</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.17661</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>PIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDA</Hsp_qseq>
+      <Hsp_hseq>PYAILHGGYLGLFLIIFAAVVCCYTGKILIACLYEEN----EDGEVVRVRDS</Hsp_hseq>
+      <Hsp_midline>P A LHGGY G+F ++  A+     G  +   L  ++    +D E+VR+ D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|29428257|sp|Q9H598.2|VIAAT_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Vesicular inhibitory amino acid transporter; AltName: Full=GABA and glycine transporter; AltName: Full=Solute carrier family 32 member 1; AltName: Full=Vesicular GABA transporter; Short=hVIAAT [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9H598</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.17661</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>PIAYLHGGYDGIFPLVEEALHGKDAGDTVDVALSSDDAFGEQDSELVRIEDA</Hsp_qseq>
+      <Hsp_hseq>PYAILHGGYLGLFLIIFAAVVCCYTGKILIACLYEEN----EDGEVVRVRDS</Hsp_hseq>
+      <Hsp_midline>P A LHGGY G+F ++  A+     G  +   L  ++    +D E+VR+ D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

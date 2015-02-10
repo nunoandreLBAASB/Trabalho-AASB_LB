@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_50867</BlastOutput_query-ID>
+  <BlastOutput_query-def>YP_009115483.1 phage associated protein [Neisseria gonorrhoeae FA 1090]</BlastOutput_query-def>
+  <BlastOutput_query-len>76</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_50867</Iteration_query-ID>
+  <Iteration_query-def>YP_009115483.1 phage associated protein [Neisseria gonorrhoeae FA 1090]</Iteration_query-def>
+  <Iteration_query-len>76</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|118574439|sp|Q1RKL1.1|Y022_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Putative outer membrane protein RBE_0022; Flags: Precursor [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RKL1</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.13734</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>NFKPIPYLQTRGSTAVWFKRNGVCKTHRAKHFNLERTAVEHPL</Hsp_qseq>
+      <Hsp_hseq>NYDNIPYYENEGSLLVKMRLNGVFA--HAKQKNLPAPTVPQPL</Hsp_hseq>
+      <Hsp_midline>N+  IPY +  GS  V  + NGV     AK  NL    V  PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2495099|sp|P55702.1|Y4XJ_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein y4xJ [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55702</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.73224</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>PIPYLQTRGSTAVWFKRNGV</Hsp_qseq>
+      <Hsp_hseq>PIPVLQENGQTSVEFRRFGV</Hsp_hseq>
+      <Hsp_midline>PIP LQ  G T+V F+R GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|146325791|sp|Q65N90.2|TOP3_BACLD</Hit_id>
+  <Hit_def>RecName: Full=DNA topoisomerase 3; AltName: Full=DNA topoisomerase III [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>Q65N90</Hit_accession>
+  <Hit_len>727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.13676</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>NFKPIPYLQTR----GSTAVWFKRNGVCKTHRAKHFNLERTAVEHPLRGKLKG</Hsp_qseq>
+      <Hsp_hseq>NFKPVPYFGLRAAVDGMTLTWQDK----KTSQTRTFN---ASVTSQLAGALQG</Hsp_hseq>
+      <Hsp_midline>NFKP+PY   R    G T  W  +    KT + + FN    +V   L G L+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|38257784|sp|Q9P1P4.1|TAAR3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative trace amine-associated receptor 3; Short=TaR-3; Short=Trace amine receptor 3; Short=hTaar3; AltName: Full=G-protein coupled receptor 57 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9P1P4</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.26692</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>46</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LNFKPIPYLQTRGSTAVWFKRNGVCKTHRAKHFNLERTAVEH</Hsp_qseq>
+      <Hsp_hseq>LGFVIMPYSIMRSVESCWYFGDGFCKFHTSFDMMLRLTSIFH</Hsp_hseq>
+      <Hsp_midline>L F  +PY   R   + W+  +G CK H +    L  T++ H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|21263846|sp|Q8YAD1.1|PTH_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-tRNA hydrolase; Short=PTH [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q8YAD1</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.05979</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>LQTRGSTAVWFKRNGVCKTHRAKHFNLERTAVEHPLRGKLK----GNFGKSHEAAVKLGLKEDADGDE</Hsp_qseq>
+      <Hsp_hseq>LRQKGSAGGHNGMKSIIQHVKTQEFNRIRVGVSRPLKGEVINYVLGDFPKAEQPDIIAAIQKSADAIE</Hsp_hseq>
+      <Hsp_midline>L+ +GS         + +  + + FN  R  V  PL+G++     G+F K+ +  +   +++ AD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|254783874|sp|B8DGL2.1|PTH_LISMH</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-tRNA hydrolase; Short=PTH [Listeria monocytogenes HCC23]</Hit_def>
+  <Hit_accession>B8DGL2</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.23979</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>LQTRGSTAVWFKRNGVCKTHRAKHFNLERTAVEHPLRGKLK----GNFGKSHEAAVKLGLKEDADGDE</Hsp_qseq>
+      <Hsp_hseq>LRQKGSAGGHNGMKSIIQHVKTQEFNRIRVGVSRPLKGEVIHYVLGDFPKAEQPDIIAAIQKSADAIE</Hsp_hseq>
+      <Hsp_midline>L+ +GS         + +  + + FN  R  V  PL+G++     G+F K+ +  +   +++ AD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|67460688|sp|Q724K0.1|PTH_LISMF</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-tRNA hydrolase; Short=PTH [Listeria monocytogenes serotype 4b str. F2365] &gt;gi|259535204|sp|C1KYE6.1|PTH_LISMC RecName: Full=Peptidyl-tRNA hydrolase; Short=PTH [Listeria monocytogenes serotype 4b str. CLIP 80459]</Hit_def>
+  <Hit_accession>Q724K0</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.80179</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>LQTRGSTAVWFKRNGVCKTHRAKHFNLERTAVEHPLRGKLK----GNFGKSHEAAVKLGLKEDADGDE</Hsp_qseq>
+      <Hsp_hseq>LRQKGSAGGHNGMKSIIQHVKTQEFNRIRVGVSRPLKGEVIHYVLGDFPKAEQPDIIAAIQKSADAIE</Hsp_hseq>
+      <Hsp_midline>L+ +GS         + +  + + FN  R  V  PL+G++     G+F K+ +  +   +++ AD  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>46935</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7Q2</BlastOutput_query-def>
+  <BlastOutput_query-len>119</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>46935</Iteration_query-ID>
+  <Iteration_query-def>Q5F7Q2</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|239977624|sp|B4P0U1.1|SMG8_DROYA</Hit_id>
+  <Hit_def>RecName: Full=Protein SMG8; AltName: Full=Protein smg-8 homolog [Drosophila yakuba]</Hit_def>
+  <Hit_accession>B4P0U1</Hit_accession>
+  <Hit_len>950</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.06733</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>NVPADDPQWLEKVRFAQRHNLWHY</Hsp_qseq>
+      <Hsp_hseq>NLPVDDKE-LEKQQYKQDHTVWHF</Hsp_hseq>
+      <Hsp_midline>N+P DD + LEK ++ Q H +WH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|122985077|sp|Q1GTN0.1|ISPDF_SPHAL</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional enzyme IspD/IspF; Includes: RecName: Full=2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase; AltName: Full=4-diphosphocytidyl-2C-methyl-D-erythritol synthase; AltName: Full=MEP cytidylyltransferase; Short=MCT; Includes: RecName: Full=2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase; Short=MECDP-synthase; Short=MECPP-synthase; Short=MECPS [Sphingopyxis alaskensis RB2256]</Hit_def>
+  <Hit_accession>Q1GTN0</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.33222</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>HVQQNGLSGLPGRNKSSDNVPADDPQWLEKVRFAQRHNLWHYHIGIPKYNGGRYGDL</Hsp_qseq>
+      <Hsp_hseq>HALTDAILGALGDGDIGDHFPPSDPQW----RGAASHHFLSFAGERVAANGGRIGHL</Hsp_hseq>
+      <Hsp_midline>H   + + G  G     D+ P  DPQW    R A  H+   +       NGGR G L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|549024|sp|Q06752.1|SYC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Cysteine--tRNA ligase; AltName: Full=Cysteinyl-tRNA synthetase; Short=CysRS [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>Q06752</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.81468</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>QNGLSGLPGRNKSSDNVPADDPQWLEKV</Hsp_qseq>
+      <Hsp_hseq>KTAYSNLQHRLNSSTNLTEDDDQWLEKV</Hsp_hseq>
+      <Hsp_midline>+   S L  R  SS N+  DD QWLEKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81884620|sp|Q6AYL9.1|NUF2_RAT</Hit_id>
+  <Hit_def>RecName: Full=Kinetochore protein Nuf2; AltName: Full=Cell division cycle-associated protein 1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q6AYL9</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.85729</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>RRKIAEFIAHVQQNGLSGLPGRNKS-SDNVPADDPQWL</Hsp_qseq>
+      <Hsp_hseq>RYNIAEIVVHIRNKLLTGADGKNLSKSDFLPNPKPEVL</Hsp_hseq>
+      <Hsp_midline>R  IAE + H++   L+G  G+N S SD +P   P+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

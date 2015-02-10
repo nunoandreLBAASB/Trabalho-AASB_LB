@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>37401</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7L8</BlastOutput_query-def>
+  <BlastOutput_query-len>268</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>37401</Iteration_query-ID>
+  <Iteration_query-def>Q5F7L8</Iteration_query-def>
+  <Iteration_query-len>268</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489785858|ref|WP_003689749.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria gonorrhoeae] &gt;gi|59801519|ref|YP_208231.1| amino acid ABC transporter substrate-binding protein [Neisseria gonorrhoeae FA 1090] &gt;gi|194099507|ref|YP_002002631.1| Histidine-binding protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|538321806|ref|YP_008502866.1| histidine-binding protein [Neisseria gonorrhoeae MS11] &gt;gi|59718414|gb|AAW89819.1| ABC transporter, periplasmic histidine-binding protein precursor [Neisseria gonorrhoeae FA 1090] &gt;gi|193934797|gb|ACF30621.1| Histidine-binding protein precursor [Neisseria gonorrhoeae NCCP11945] &gt;gi|226513542|gb|EEH62887.1| amino acid ABC transporter [Neisseria gonorrhoeae 1291] &gt;gi|268583952|gb|EEZ48628.1| histidine-binding protein [Neisseria gonorrhoeae MS11] &gt;gi|268586287|gb|EEZ50963.1| amino acid ABC transporter [Neisseria gonorrhoeae PID18] &gt;gi|268588547|gb|EEZ53223.1| amino acid ABC transporter [Neisseria gonorrhoeae PID1] &gt;gi|268623161|gb|EEZ55561.1| amino acid ABC transporter [Neisseria gonorrhoeae PID332] &gt;gi|291013061|gb|EFE05032.1| histidine-binding protein [Neisseria gonorrhoeae DGI2] &gt;gi|636862908|gb|KDM99971.1| ABC transporter substrate-binding protein [Neisseria gonorrhoeae] &gt;gi|636865465|gb|KDN02313.1| ABC transporter substrate-binding protein [Neisseria gonorrhoeae] &gt;gi|654606105|gb|KEC86697.1| ABC transporter substrate-binding protein [Neisseria gonorrhoeae] &gt;gi|693764741|gb|KGI95641.1| ABC transporter substrate-binding protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003689749</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>547.74</Hsp_bit-score>
+      <Hsp_score>1410</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489797764|ref|WP_003701655.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria gonorrhoeae] &gt;gi|268625326|gb|EEZ57726.1| amino acid ABC transporter [Neisseria gonorrhoeae SK-92-679]</Hit_def>
+  <Hit_accession>WP_003701655</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>547.354</Hsp_bit-score>
+      <Hsp_score>1409</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADIVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDAD+VMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489787881|ref|WP_003691772.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria gonorrhoeae] &gt;gi|584826|sp|Q06758.1|HISJ_NEIGO RecName: Full=Probable histidine-binding protein; Short=HBP; Flags: Precursor [Neisseria gonorrhoeae] &gt;gi|49068|emb|CAA45768.1| unnamed protein product [Neisseria gonorrhoeae] &gt;gi|268548903|gb|EEZ44321.1| histidine-binding protein [Neisseria gonorrhoeae 35/02]</Hit_def>
+  <Hit_accession>WP_003691772</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.428</Hsp_bit-score>
+      <Hsp_score>1404</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADIVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSDDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDAD+VMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSS+DLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|489801641|ref|WP_003705523.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria gonorrhoeae] &gt;gi|291611280|gb|EFF40364.1| histidine-binding protein [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>WP_003705523</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.888</Hsp_bit-score>
+      <Hsp_score>1400</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSDDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGNEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSS+DLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKG+EATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|518103422|ref|WP_019273630.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273630</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.806</Hsp_bit-score>
+      <Hsp_score>1392</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALKKVRESGEYDKIYAKYFAQEGGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDAL+KVRESGEYDKIYAKYFA+EGGQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|489799258|ref|WP_003703148.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria gonorrhoeae] &gt;gi|268627586|gb|EEZ59986.1| amino acid ABC transporter [Neisseria gonorrhoeae SK-93-1035]</Hit_def>
+  <Hit_accession>WP_003703148</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.036</Hsp_bit-score>
+      <Hsp_score>1390</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSDDLKKMNKVGVVTGYTGDFSVSKLLGSDNPKIARFESVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSS+DLKKMNKVGVVTG+TGDFSVSKLLG+DNPKIARFE+VPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|489790258|ref|WP_003694149.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria gonorrhoeae] &gt;gi|268551358|gb|EEZ46377.1| histidine-binding protein [Neisseria gonorrhoeae FA19] &gt;gi|636860484|gb|KDM97737.1| ABC transporter substrate-binding protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003694149</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.65</Hsp_bit-score>
+      <Hsp_score>1389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADIVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSDDLKKMNKVGVVTGYTGDFSVSKLLGSDNPKIARFESVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDAD+VMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSS+DLKKMNKVGVVTG+TGDFSVSKLLG+DNPKIARFE+VPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|489805495|ref|WP_003709369.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ABC transporter substrate-binding protein [Neisseria] &gt;gi|269209074|gb|EEZ75529.1| ABC transporter, substrate-binding protein, family 3 [Neisseria lactamica ATCC 23970] &gt;gi|296839609|gb|EFH23547.1| ABC transporter, substrate-binding protein, family 3 [Neisseria polysaccharea ATCC 43768] &gt;gi|309378375|emb|CBX23021.1| unnamed protein product [Neisseria lactamica Y92-1009] &gt;gi|673469066|gb|KFJ35696.1| artJ [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003709369</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.724</Hsp_bit-score>
+      <Hsp_score>1384</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALKKVRESGEYDKIYAKYFAKEGEQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDAL+KVRESGEYDKIYAKYFAKEG QAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488141566|ref|WP_002212774.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|304338928|gb|EFM05024.1| ABC transporter, substrate-binding protein, family 3 [Neisseria meningitidis ATCC 13091] &gt;gi|402318651|gb|EJU54168.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis 93003]</Hit_def>
+  <Hit_accession>WP_002212774</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSEDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSSEDLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|488150973|ref|WP_002222181.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|15677462|ref|NP_274618.1| amino acid ABC transporter substrate-binding protein [Neisseria meningitidis MC58] &gt;gi|385852789|ref|YP_005899303.1| amino acid ABC transporter substrate-binding protein [Neisseria meningitidis H44/76] &gt;gi|7226862|gb|AAF41964.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis MC58] &gt;gi|316983864|gb|EFV62844.1| bacterial extracellular solute-binding s, family 3 family protein [Neisseria meningitidis H44/76] &gt;gi|325134711|gb|EGC57350.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis M13399] &gt;gi|325140742|gb|EGC63256.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis CU385] &gt;gi|325199793|gb|ADY95248.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis H44/76] &gt;gi|432201766|gb|ELK57841.1| artJ [Neisseria meningitidis NM422] &gt;gi|432222313|gb|ELK78111.1| artJ [Neisseria meningitidis M13255] &gt;gi|432226440|gb|ELK82168.1| artJ [Neisseria meningitidis NM418] &gt;gi|432240165|gb|ELK95707.1| artJ [Neisseria meningitidis 9506] &gt;gi|432240402|gb|ELK95940.1| artJ [Neisseria meningitidis 9757] &gt;gi|432245591|gb|ELL01058.1| artJ [Neisseria meningitidis 12888] &gt;gi|432246279|gb|ELL01734.1| artJ [Neisseria meningitidis 4119] &gt;gi|485357028|gb|EOC18103.1| artJ [Neisseria meningitidis NM477] &gt;gi|485359510|gb|EOC20349.1| artJ [Neisseria meningitidis M13265] &gt;gi|530899032|gb|EQC97799.1| artJ [Neisseria meningitidis NM3141] &gt;gi|530914108|gb|EQD11951.1| artJ [Neisseria meningitidis NM1476] &gt;gi|530920659|gb|EQD18120.1| artJ [Neisseria meningitidis NM3173] &gt;gi|744799061|gb|AJC63849.1| ABC transporter substrate-binding protein [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>WP_002222181</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.798</Hsp_bit-score>
+      <Hsp_score>1379</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDTAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKD AAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|503213996|ref|WP_013448657.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria lactamica] &gt;gi|313668015|ref|YP_004048299.1| histidine-binding periplasmic protein [Neisseria lactamica 020-06] &gt;gi|313005477|emb|CBN86912.1| histidine-binding periplasmic protein [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448657</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.798</Hsp_bit-score>
+      <Hsp_score>1379</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSVLALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALKKVRESGEYDKIYAKYFAKEGEQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACS LALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDAL+KVRESGEYDKIYAKYFAKEG QAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488186045|ref|WP_002257253.1|</Hit_id>
+  <Hit_def>artJ [Neisseria meningitidis] &gt;gi|485355065|gb|EOC16310.1| artJ [Neisseria meningitidis 2002020] &gt;gi|530899113|gb|EQC97875.1| artJ [Neisseria meningitidis 2002030]</Hit_def>
+  <Hit_accession>WP_002257253</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.413</Hsp_bit-score>
+      <Hsp_score>1378</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPATNPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSEDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPA NP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSSEDLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488172529|ref|WP_002243737.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|402342543|gb|EJU77703.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NM3001]</Hit_def>
+  <Hit_accession>WP_002243737</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.413</Hsp_bit-score>
+      <Hsp_score>1378</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSEDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSSEDLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|504395070|ref|WP_014582172.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|385855643|ref|YP_005902156.1| amino acid ABC transporter substrate-binding protein [Neisseria meningitidis M01-240355] &gt;gi|325204584|gb|ADZ00038.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis M01-240355]</Hit_def>
+  <Hit_accession>WP_014582172</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.028</Hsp_bit-score>
+      <Hsp_score>1377</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSDDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSS+DLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|645204426|ref|WP_025459540.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_025459540</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.258</Hsp_bit-score>
+      <Hsp_score>1375</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSEDLKKMSKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALKKVRESGEYDKIYAKYFAKENGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSSEDLKKM+KVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDAL+KVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|488154969|ref|WP_002226177.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|254805377|ref|YP_003083598.1| histidine transport system substrate-binding protein [Neisseria meningitidis alpha14] &gt;gi|385323764|ref|YP_005878203.1| putative amino acid-binding lipoprotein (HBP) [Neisseria meningitidis 8013] &gt;gi|385340478|ref|YP_005894350.1| amino acid ABC transporter substrate-binding protein [Neisseria meningitidis G2136] &gt;gi|254668919|emb|CBA07124.1| histidine transport system substrate-binding protein [Neisseria meningitidis alpha14] &gt;gi|254670060|emb|CBA04906.1| glutamine transport system substrate-binding protein [Neisseria meningitidis alpha153] &gt;gi|254673285|emb|CBA08377.1| glutamine transport system substrate-binding protein [Neisseria meningitidis alpha275] &gt;gi|261392151|emb|CAX49659.1| putative amino acid-binding lipoprotein (HBP) [Neisseria meningitidis 8013] &gt;gi|325142784|gb|EGC65156.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis 961-5945] &gt;gi|325198722|gb|ADY94178.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis G2136] &gt;gi|393291582|emb|CCI73217.1| Membrane-bound lytic murein transglycosylase F [Neisseria meningitidis alpha704] &gt;gi|402328190|gb|EJU63568.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis 69166] &gt;gi|402335433|gb|EJU70699.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis 92045] &gt;gi|402337114|gb|EJU72365.1| artJ [Neisseria meningitidis NM2657] &gt;gi|402340276|gb|EJU75479.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NM2795] &gt;gi|402342470|gb|EJU77631.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NM3081] &gt;gi|432201810|gb|ELK57884.1| artJ [Neisseria meningitidis 87255] &gt;gi|432202070|gb|ELK58136.1| artJ [Neisseria meningitidis 98080] &gt;gi|432207298|gb|ELK63289.1| artJ [Neisseria meningitidis 68094] &gt;gi|432214261|gb|ELK70164.1| artJ [Neisseria meningitidis 70012] &gt;gi|432258182|gb|ELL13470.1| artJ [Neisseria meningitidis 61103] &gt;gi|432259925|gb|ELL15194.1| artJ [Neisseria meningitidis 69096] &gt;gi|432272288|gb|ELL27399.1| artJ [Neisseria meningitidis 70030] &gt;gi|432272816|gb|ELL27921.1| artJ [Neisseria meningitidis 77221] &gt;gi|485273818|gb|EOB40443.1| artJ [Neisseria meningitidis 69176] &gt;gi|485273897|gb|EOB40517.1| artJ [Neisseria meningitidis 70021] &gt;gi|485273931|gb|EOB40548.1| artJ [Neisseria meningitidis 69155] &gt;gi|485280264|gb|EOB46459.1| artJ [Neisseria meningitidis 96060] &gt;gi|485287953|gb|EOB53659.1| artJ [Neisseria meningitidis 69100] &gt;gi|485294190|gb|EOB59488.1| artJ [Neisseria meningitidis 63023] &gt;gi|485294564|gb|EOB59839.1| artJ [Neisseria meningitidis 61106] &gt;gi|485300765|gb|EOB65632.1| artJ [Neisseria meningitidis 70082] &gt;gi|485349353|gb|EOC10986.1| artJ [Neisseria meningitidis 73696] &gt;gi|485352573|gb|EOC13985.1| artJ [Neisseria meningitidis 81858] &gt;gi|485371492|gb|EOC31377.1| artJ [Neisseria meningitidis 2001001] &gt;gi|485373604|gb|EOC33335.1| artJ [Neisseria meningitidis 2004032] &gt;gi|485391926|gb|EOC50422.1| artJ [Neisseria meningitidis 2005172] &gt;gi|485393566|gb|EOC51986.1| artJ [Neisseria meningitidis 2008223] &gt;gi|485413742|gb|EOC70743.1| artJ [Neisseria meningitidis NM3144] &gt;gi|514069232|gb|EPF54159.1| artJ [Neisseria meningitidis NM134] &gt;gi|514069506|gb|EPF54416.1| artJ [Neisseria meningitidis 2007461] &gt;gi|663090963|gb|KER39243.1| amino acid ABC transporter [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002226177</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.487</Hsp_bit-score>
+      <Hsp_score>1373</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSDDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSS+DLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|488158538|ref|WP_002229746.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|218768584|ref|YP_002343096.1| histidine-binding periplasmic protein [Neisseria meningitidis Z2491] &gt;gi|385338407|ref|YP_005892280.1| putative amino acid-binding lipoprotein (HBP) [Neisseria meningitidis WUE 2594] &gt;gi|121052592|emb|CAM08932.1| histidine-binding periplasmic protein [Neisseria meningitidis Z2491] &gt;gi|319410821|emb|CBY91211.1| putative amino acid-binding lipoprotein (HBP) [Neisseria meningitidis WUE 2594] &gt;gi|372200549|gb|EHP14610.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NM220] &gt;gi|372201046|gb|EHP15022.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NM233] &gt;gi|402317726|gb|EJU53259.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis 93004] &gt;gi|402334514|gb|EJU69801.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis 80179] &gt;gi|432209118|gb|ELK65089.1| artJ [Neisseria meningitidis 88050] &gt;gi|432214906|gb|ELK70799.1| artJ [Neisseria meningitidis 63041] &gt;gi|432246554|gb|ELL02001.1| artJ [Neisseria meningitidis 63049] &gt;gi|432252089|gb|ELL07448.1| artJ [Neisseria meningitidis 2004090] &gt;gi|432252503|gb|ELL07856.1| artJ [Neisseria meningitidis 96023] &gt;gi|432253656|gb|ELL08998.1| artJ [Neisseria meningitidis 65014] &gt;gi|432258685|gb|ELL13966.1| artJ [Neisseria meningitidis 97020] &gt;gi|432264338|gb|ELL19542.1| artJ [Neisseria meningitidis NM3652] &gt;gi|432265675|gb|ELL20867.1| artJ [Neisseria meningitidis NM3642] &gt;gi|432265875|gb|ELL21066.1| artJ [Neisseria meningitidis 2007056] &gt;gi|432270650|gb|ELL25786.1| artJ [Neisseria meningitidis 2001212] &gt;gi|432276570|gb|ELL31626.1| artJ [Neisseria meningitidis 63006] &gt;gi|485280917|gb|EOB47067.1| artJ [Neisseria meningitidis 2000080] &gt;gi|485281045|gb|EOB47186.1| artJ [Neisseria meningitidis 94018] &gt;gi|485287108|gb|EOB52874.1| artJ [Neisseria meningitidis 75689] &gt;gi|485287503|gb|EOB53242.1| artJ [Neisseria meningitidis 75643] &gt;gi|485293656|gb|EOB58990.1| artJ [Neisseria meningitidis 97018] &gt;gi|485300994|gb|EOB65838.1| artJ [Neisseria meningitidis 65012] &gt;gi|485301528|gb|EOB66335.1| artJ [Neisseria meningitidis 64182] &gt;gi|485308063|gb|EOB72433.1| artJ [Neisseria meningitidis 97027] &gt;gi|485308182|gb|EOB72534.1| artJ [Neisseria meningitidis 96024] &gt;gi|485308704|gb|EOB73029.1| artJ [Neisseria meningitidis 97008] &gt;gi|485313305|gb|EOB77350.1| artJ [Neisseria meningitidis 98005] &gt;gi|485315007|gb|EOB78927.1| artJ [Neisseria meningitidis 2004085] &gt;gi|485315407|gb|EOB79308.1| artJ [Neisseria meningitidis 2003022] &gt;gi|485320046|gb|EOB83671.1| artJ [Neisseria meningitidis 2000063] &gt;gi|485321763|gb|EOB85240.1| artJ [Neisseria meningitidis NM604] &gt;gi|485322197|gb|EOB85647.1| artJ [Neisseria meningitidis 2002007] &gt;gi|485326751|gb|EOB89910.1| artJ [Neisseria meningitidis NM606] &gt;gi|485328859|gb|EOB91867.1| artJ [Neisseria meningitidis NM607] &gt;gi|485398291|gb|EOC56408.1| artJ [Neisseria meningitidis 2003051] &gt;gi|485398931|gb|EOC56993.1| artJ [Neisseria meningitidis NM271] &gt;gi|485399514|gb|EOC57529.1| artJ [Neisseria meningitidis NM115] &gt;gi|485400846|gb|EOC58775.1| artJ [Neisseria meningitidis NM90] &gt;gi|485405631|gb|EOC63228.1| artJ [Neisseria meningitidis NM3042] &gt;gi|485405931|gb|EOC63498.1| artJ [Neisseria meningitidis NM3222] &gt;gi|485411619|gb|EOC68789.1| artJ [Neisseria meningitidis NM3131] &gt;gi|485412706|gb|EOC69777.1| artJ [Neisseria meningitidis NM3158] &gt;gi|485414827|gb|EOC71765.1| artJ [Neisseria meningitidis NM3164] &gt;gi|485418926|gb|EOC75572.1| artJ [Neisseria meningitidis NM27] &gt;gi|485419231|gb|EOC75847.1| artJ [Neisseria meningitidis NM51] &gt;gi|485422138|gb|EOC78562.1| artJ [Neisseria meningitidis NM80] &gt;gi|485425276|gb|EOC81465.1| artJ [Neisseria meningitidis NM165] &gt;gi|485425675|gb|EOC81835.1| artJ [Neisseria meningitidis NM3223] &gt;gi|610427435|gb|AHW76311.1| histidine-binding periplasmic protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002229746</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.487</Hsp_bit-score>
+      <Hsp_score>1373</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSEDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALKKVRESGEYDKIYAKYFAKEDGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSSEDLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDAL+KVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|501178711|ref|WP_012221887.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|161870463|ref|YP_001599635.1| polar amino acid transport system substrate-binding protein [Neisseria meningitidis 053442] &gt;gi|161596016|gb|ABX73676.1| polar amino acid transport system substrate-binding protein [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>WP_012221887</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.332</Hsp_bit-score>
+      <Hsp_score>1370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSDDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALKKVRESGEYDKIYAKYFAKENGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSS+DLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDAL+KVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|488166997|ref|WP_002238205.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|402330824|gb|EJU66168.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis 98008]</Hit_def>
+  <Hit_accession>WP_002238205</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.946</Hsp_bit-score>
+      <Hsp_score>1369</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSDDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENAPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSS+DLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFEN PLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|488145545|ref|WP_002216753.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|325128657|gb|EGC51525.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis N1568] &gt;gi|432208910|gb|ELK64882.1| artJ [Neisseria meningitidis 97021] &gt;gi|432215211|gb|ELK71101.1| artJ [Neisseria meningitidis 2006087] &gt;gi|432219240|gb|ELK75088.1| artJ [Neisseria meningitidis 2002038] &gt;gi|432223749|gb|ELK79528.1| artJ [Neisseria meningitidis 97014] &gt;gi|514069733|gb|EPF54621.1| artJ [Neisseria meningitidis 98002]</Hit_def>
+  <Hit_accession>WP_002216753</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.561</Hsp_bit-score>
+      <Hsp_score>1368</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFSALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSEDLKKMSKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALKKVRESGEYDKIYAKYFAKEDGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLF ALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSSEDLKKM+KVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDAL+KVRESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|488147754|ref|WP_002218962.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|121635265|ref|YP_975510.1| histidine-binding periplasmic protein [Neisseria meningitidis FAM18] &gt;gi|385328889|ref|YP_005883192.1| amino acid ABC transporter substrate-binding protein [Neisseria meningitidis alpha710] &gt;gi|385341511|ref|YP_005895382.1| amino acid ABC transporter substrate-binding protein [Neisseria meningitidis M01-240149] &gt;gi|385857650|ref|YP_005904162.1| amino acid ABC transporter substrate-binding protein [Neisseria meningitidis NZ-05/33] &gt;gi|120866971|emb|CAM10733.1| histidine-binding periplasmic protein [Neisseria meningitidis FAM18] &gt;gi|308389741|gb|ADO32061.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis alpha710] &gt;gi|325130652|gb|EGC53393.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis OX99.30304] &gt;gi|325132704|gb|EGC55387.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis M6190] &gt;gi|325136726|gb|EGC59326.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis M0579] &gt;gi|325138590|gb|EGC61149.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis ES14902] &gt;gi|325144831|gb|EGC67119.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis M01-240013] &gt;gi|325201717|gb|ADY97171.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis M01-240149] &gt;gi|325208539|gb|ADZ03991.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NZ-05/33] &gt;gi|402316159|gb|EJU51709.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NM255] &gt;gi|432227289|gb|ELK83000.1| artJ [Neisseria meningitidis NM586] &gt;gi|432229249|gb|ELK84940.1| artJ [Neisseria meningitidis NM762] &gt;gi|432232570|gb|ELK88208.1| artJ [Neisseria meningitidis M7089] &gt;gi|432233781|gb|ELK89407.1| artJ [Neisseria meningitidis M7124] &gt;gi|432234100|gb|ELK89722.1| artJ [Neisseria meningitidis NM174] &gt;gi|432242868|gb|ELK98383.1| artJ [Neisseria meningitidis NM126] &gt;gi|485332467|gb|EOB95234.1| artJ [Neisseria meningitidis NM43] &gt;gi|485335891|gb|EOB98423.1| artJ [Neisseria meningitidis NM82] &gt;gi|485336189|gb|EOB98701.1| artJ [Neisseria meningitidis NM94] &gt;gi|485338814|gb|EOC01166.1| artJ [Neisseria meningitidis NM95] &gt;gi|485342379|gb|EOC04488.1| artJ [Neisseria meningitidis NM313] &gt;gi|485345549|gb|EOC07439.1| artJ [Neisseria meningitidis NM1495] &gt;gi|485349494|gb|EOC11113.1| artJ [Neisseria meningitidis 73704] &gt;gi|485361620|gb|EOC22262.1| artJ [Neisseria meningitidis NM3147] &gt;gi|485365076|gb|EOC25384.1| artJ [Neisseria meningitidis 2001072] &gt;gi|485366518|gb|EOC26731.1| artJ [Neisseria meningitidis 2001073] &gt;gi|485368342|gb|EOC28448.1| artJ [Neisseria meningitidis 2000081] &gt;gi|485374754|gb|EOC34417.1| artJ [Neisseria meningitidis 2001213] &gt;gi|485377687|gb|EOC37162.1| artJ [Neisseria meningitidis 2004264] &gt;gi|485380568|gb|EOC39858.1| artJ [Neisseria meningitidis 2000175] &gt;gi|485380750|gb|EOC40026.1| artJ [Neisseria meningitidis 2005079] &gt;gi|485384635|gb|EOC43674.1| artJ [Neisseria meningitidis 2001068] &gt;gi|485387084|gb|EOC45948.1| artJ [Neisseria meningitidis 2005040] &gt;gi|485387285|gb|EOC46134.1| artJ [Neisseria meningitidis 2002004] &gt;gi|485429927|gb|EOC85716.1| artJ [Neisseria meningitidis NM23] &gt;gi|485430473|gb|EOC86194.1| artJ [Neisseria meningitidis NM32] &gt;gi|485434890|gb|EOC90199.1| artJ [Neisseria meningitidis NM35] &gt;gi|485436328|gb|EOC91525.1| artJ [Neisseria meningitidis NM36] &gt;gi|530899371|gb|EQC98119.1| artJ [Neisseria meningitidis 96037] &gt;gi|530905234|gb|EQD03613.1| artJ [Neisseria meningitidis NM3139] &gt;gi|530906249|gb|EQD04558.1| artJ [Neisseria meningitidis NM045] &gt;gi|530907471|gb|EQD05707.1| artJ [Neisseria meningitidis NM151] &gt;gi|530910973|gb|EQD09013.1| artJ [Neisseria meningitidis NM003] &gt;gi|530914485|gb|EQD12310.1| artJ [Neisseria meningitidis NM0552] &gt;gi|530916883|gb|EQD14575.1| artJ [Neisseria meningitidis NM518] &gt;gi|530921849|gb|EQD19229.1| artJ [Neisseria meningitidis NM3230] &gt;gi|530923048|gb|EQD20350.1| artJ [Neisseria meningitidis NM2866] &gt;gi|694192314|gb|KGI97591.1| ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|723270370|gb|KHC97562.1| ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|723273968|gb|KHD01152.1| ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|726975654|gb|KHF23075.1| ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|730570998|gb|AIZ18800.1| ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|730573557|gb|AIZ20959.1| ABC transporter substrate-binding protein [Neisseria meningitidis M7124] &gt;gi|730575892|gb|AIZ22841.1| ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|730578362|gb|AIZ24809.1| ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|730579662|gb|AIZ25643.1| ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|743394501|gb|KID54039.1| ABC transporter substrate-binding protein [Neisseria meningitidis LNP27256] &gt;gi|747185482|gb|KIF89526.1| ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|747187999|gb|KIF91586.1| ABC transporter substrate-binding protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002218962</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.176</Hsp_bit-score>
+      <Hsp_score>1367</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSDDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDEQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSS+DLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE  QAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|504394283|ref|WP_014581385.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|385850833|ref|YP_005897348.1| amino acid ABC transporter substrate-binding protein [Neisseria meningitidis M04-240196] &gt;gi|325205656|gb|ADZ01109.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis M04-240196]</Hit_def>
+  <Hit_accession>WP_014581385</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.176</Hsp_bit-score>
+      <Hsp_score>1367</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVAANAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSDDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDEQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVA+NAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSS+DLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE  QAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|488164810|ref|WP_002236018.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria meningitidis] &gt;gi|402322200|gb|EJU57665.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NM183] &gt;gi|402322587|gb|EJU58043.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NM140] &gt;gi|402324639|gb|EJU60071.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NM2781] &gt;gi|402328967|gb|EJU64332.1| amino acid ABC transporter, periplasmic amino acid-binding protein [Neisseria meningitidis NM576]</Hit_def>
+  <Hit_accession>WP_002236018</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>530.791</Hsp_bit-score>
+      <Hsp_score>1366</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSDDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVLESGEYDKIYAKYFAKEDGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSS+DLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKV ESGEYDKIYAKYFAKE GQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|498489915|ref|WP_010791174.1|</Hit_id>
+  <Hit_def>artJ [Neisseria meningitidis] &gt;gi|485343208|gb|EOC05251.1| artJ [Neisseria meningitidis NM1482]</Hit_def>
+  <Hit_accession>WP_010791174</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.635</Hsp_bit-score>
+      <Hsp_score>1363</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDTAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSDDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDEQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKD AAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSS+DLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE  QAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|488183140|ref|WP_002254348.1|</Hit_id>
+  <Hit_def>artJ [Neisseria meningitidis] &gt;gi|485329164|gb|EOB92150.1| artJ [Neisseria meningitidis NM133]</Hit_def>
+  <Hit_accession>WP_002254348</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.635</Hsp_bit-score>
+      <Hsp_score>1363</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSTLALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSDDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEDEQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACS LALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSS+DLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE  QAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|489774153|ref|WP_003678051.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria cinerea] &gt;gi|269144568|gb|EEZ70986.1| ABC transporter, substrate-binding protein, family 3 [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003678051</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.916</Hsp_bit-score>
+      <Hsp_score>1317</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAAIACSALTLSACGGQSKDAASPAANTGKVYRVASNAEFAPFESLDSKGDVEGFDVDLMNAMAKEGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSDDLKNMNKVGVVTGYTGDFSVSKLLGSDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDGETLKVMNDALKKVRESGEYDKIYAKYFAKEGEQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAA+ACSAL LSACGGQ KDAA+PAAN GKVYRVASNAEFAPFESLDSKG+VEGFDVDLMNAMAK GNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSS+DLK MNKVGVVTG+TGDFSVSKLLG+DNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGD  T+K++NDAL+KVRESGEYDKIYAKYFAKEG QAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|645196023|ref|WP_025457118.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025457118</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.99</Hsp_bit-score>
+      <Hsp_score>1312</Hsp_score>
+      <Hsp_evalue>1.5203e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALVCSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSDDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVRKGDGETLKVMNDALKKVRESGEYDKIYAKYFAKEGEQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAAL CSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSS+DLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVRKGD  T+K++NDAL+KVRESGEYDKIYAKYFAKEG QAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|738543063|ref|WP_036491312.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria mucosa] &gt;gi|694241730|gb|KGJ32588.1| ABC transporter substrate-binding protein [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_036491312</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.019</Hsp_bit-score>
+      <Hsp_score>1229</Hsp_score>
+      <Hsp_evalue>6.87837e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWLATALACSALALTACGGQSNNASAPA---DKVYRVGSNAEFAPFESLDSAGKVEGFDVDLMNAMAKAGNFKVEFKHQPWESLFPSLNNGDVDIVMSGVTITDDRKQSMLFSDPYFEITQVVLVPKGKKVTSSEDLKNMAKVGVVTGYTGDFSVSKLLGNDNPKIARFESVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGLDFISLPDFTIENYGIAARKGDEATIKMLNDALKKVRESGEYDKIYAKYFAKEGEKAEK</Hsp_hseq>
+      <Hsp_midline>MNMKKW+A ALACSALAL+ACGGQ  +A+APA    KVYRV SNAEFAPFESLDS G VEGFDVDLMNAMAKAGNFK+EFKHQPW+SLFP+LNNGD D+VMSGVTITDDRKQSM FSDPYFEITQVVLVPKGKKV+SSEDLK M KVGVVTG+TGDFSVSKLLGNDNPKIARFE+VPLIIKELENGGLDSVVSDSAVIANYVKNNP KG+DF++LPDFT E+YGIA RKGDEAT+KMLNDAL+KVRESGEYDKIYAKYFAKEG +A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|490656110|ref|WP_004521100.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria subflava] &gt;gi|284795613|gb|EFC50960.1| ABC transporter, substrate-binding protein, family 3 [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>WP_004521100</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.478</Hsp_bit-score>
+      <Hsp_score>1225</Hsp_score>
+      <Hsp_evalue>1.98954e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>MNMKKWLATALACSALALTACGGQSNNASAPA---DKVYRVGSNAEFAPFESLDSAGKVEGFDVDLMNAMAKAGNFKVEFKHQPWESLFPSLNNGDVDIVMSGVTITDDRKQSMLFSDPYFEITQVVLVPKGKKVSSSEDLKNMAKVGVVTGYTGDFSVSKLLGNDNPKIARFESVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGLDFISLPDFTIENYGIAARKGDEATIKMLNDALKKVRESGEYDKIYAKYFAKEG</Hsp_hseq>
+      <Hsp_midline>MNMKKW+A ALACSALAL+ACGGQ  +A+APA    KVYRV SNAEFAPFESLDS G VEGFDVDLMNAMAKAGNFK+EFKHQPW+SLFP+LNNGD D+VMSGVTITDDRKQSM FSDPYFEITQVVLVPKGKKVSSSEDLK M KVGVVTG+TGDFSVSKLLGNDNPKIARFE+VPLIIKELENGGLDSVVSDSAVIANYVKNNP KG+DF++LPDFT E+YGIA RKGDEAT+KMLNDAL+KVRESGEYDKIYAKYFAKEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|489781128|ref|WP_003685019.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria flavescens] &gt;gi|241319773|gb|EER56169.1| ABC transporter, substrate-binding protein, family 3 [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003685019</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.011</Hsp_bit-score>
+      <Hsp_score>1216</Hsp_score>
+      <Hsp_evalue>4.63663e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQA</Hsp_qseq>
+      <Hsp_hseq>MNIKKWLATALACSALALTACGGQSNNASAPT---DKVYRVGSNAEFAPFESLDSAGKVEGFDVDLMNAMAKAGNFKVEFKHQPWESLFPSLNNGDVDIVMSGVTITDDRKQSMLFSDPYFEITQVVLVPKGKKVASSEDLKNMAKVGVVTGYTGDFSVSKLLGNDNPKIARFESVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGLDFISLPDFTIENYGIAARKGDEATIKMLNDALKKVRESGEYDKIYAKYFAKEGEKA</Hsp_hseq>
+      <Hsp_midline>MN+KKW+A ALACSALAL+ACGGQ  +A+AP     KVYRV SNAEFAPFESLDS G VEGFDVDLMNAMAKAGNFK+EFKHQPW+SLFP+LNNGD D+VMSGVTITDDRKQSM FSDPYFEITQVVLVPKGKKV+SSEDLK M KVGVVTG+TGDFSVSKLLGNDNPKIARFE+VPLIIKELENGGLDSVVSDSAVIANYVKNNP KG+DF++LPDFT E+YGIA RKGDEAT+KMLNDAL+KVRESGEYDKIYAKYFAKEG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|489776635|ref|WP_003680527.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria flavescens] &gt;gi|224952394|gb|EEG33603.1| ABC transporter, substrate-binding protein, family 3 [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>WP_003680527</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.011</Hsp_bit-score>
+      <Hsp_score>1216</Hsp_score>
+      <Hsp_evalue>5.70707e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQA</Hsp_qseq>
+      <Hsp_hseq>MNMKKWLATALACSALALTACGGQSNNASTPA---DKVYRVGSNAEFAPFESLDSAGKVEGFDVDLMDAMAKAGNFKVEFKHQPWESLFPSLNNGDVDIVMSGVTITDDRKQSMLFSDPYFEITQVVLVPKGKKVASSEDLKNMAKVGVVTGYTGDFSVSKLLGNDNPKIARFESVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGLDFISLPDFTIENYGIAARKGDEATIKMLNDALKKVRESGEYDKIYAKYFAKEGEKA</Hsp_hseq>
+      <Hsp_midline>MNMKKW+A ALACSALAL+ACGGQ  +A+ PA    KVYRV SNAEFAPFESLDS G VEGFDVDLM+AMAKAGNFK+EFKHQPW+SLFP+LNNGD D+VMSGVTITDDRKQSM FSDPYFEITQVVLVPKGKKV+SSEDLK M KVGVVTG+TGDFSVSKLLGNDNPKIARFE+VPLIIKELENGGLDSVVSDSAVIANYVKNNP KG+DF++LPDFT E+YGIA RKGDEAT+KMLNDAL+KVRESGEYDKIYAKYFAKEG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|518099707|ref|WP_019269915.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_019269915</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>1.07431e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAVALACSALALSACGGQSKDASSSAPQADKVYRVAANAEFAPFESLDSAGNVEGFDVDLMNAIAKAGKFKVEFKHQPWDSLFPALKNGDTDIVISGVTITDERKQSMDFTDPYFEITQVVLVPKGKKVASSDDLKNMAKVGVVTGQTGDFSVSKLLGNDNPKIARFESVPLVIKELENGGVDAVVSDSAVIANYVKNNPTKSMDFITLPDFTIENYGIAVRKGDEATAKMLNEALKKVRDSGEYDKIHAKYFAKEG</Hsp_hseq>
+      <Hsp_midline>MNMKKWIA ALACSALALSACGGQ KDA++ A    KVYRVA+NAEFAPFESLDS GNVEGFDVDLMNA+AKAG FK+EFKHQPWDSLFPAL NGD D+V+SGVTITD+RKQSMDF+DPYFEITQVVLVPKGKKV+SS+DLK M KVGVVTG TGDFSVSKLLGNDNPKIARFE+VPL+IKELENGG+D+VVSDSAVIANYVKNNP K MDF+TLPDFT E+YGIAVRKGDEAT KMLN+AL+KVR+SGEYDKI+AKYFAKEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|489843714|ref|WP_003747411.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria mucosa] &gt;gi|317400361|gb|EFV81020.1| histidine-binding protein [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003747411</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.848</Hsp_bit-score>
+      <Hsp_score>1200</Hsp_score>
+      <Hsp_evalue>1.39204e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>MNMKKWLATALACSALALTACGGQSNNASAPA---DKVYRVGSNAEFAPFESLDSAGKVEGFDVDLMNAMAKAGNFKVEFKHQPWESLFPSLNNGDVDIVMSGVTITDDRKQSMLFSDPYFEITQVVLVPKGKKVASSEDLKNMAKVGVVTGYTGDFSVSKLLGNDNPKIARFESVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGLDFISLPDFTIENYGIAARKGDEATIKMLNDALKKVRESGEYDKIYAKYF</Hsp_hseq>
+      <Hsp_midline>MNMKKW+A ALACSALAL+ACGGQ  +A+APA    KVYRV SNAEFAPFESLDS G VEGFDVDLMNAMAKAGNFK+EFKHQPW+SLFP+LNNGD D+VMSGVTITDDRKQSM FSDPYFEITQVVLVPKGKKV+SSEDLK M KVGVVTG+TGDFSVSKLLGNDNPKIARFE+VPLIIKELENGGLDSVVSDSAVIANYVKNNP KG+DF++LPDFT E+YGIA RKGDEAT+KMLNDAL+KVRESGEYDKIYAKYF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|496465084|ref|WP_009173929.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria sp. oral taxon 014] &gt;gi|298283232|gb|EFI24719.1| ABC transporter, substrate-binding protein, family 3 [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009173929</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.151</Hsp_bit-score>
+      <Hsp_score>1193</Hsp_score>
+      <Hsp_evalue>1.96669e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIIAAVACSALALGACGGQNKNSSA--ANPYKVYRVGMNAEFAPFESQTSEGNVEGFDVDLMNAMAKAGNFKVEFKHQPWESLFPSLGNGDIDIVISGVTITDERKQSMDFSDPYFEITQVVLVPKGKKVASSDDLKNMAKVGVVTGQTGDFSVSKLLGSDNPKISRFETVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGLDFITLPDFSVENYGIAVRKGDEAAVKMLNDALKKVRESGEYDKIYAKYFAKEEAKAGK</Hsp_hseq>
+      <Hsp_midline>MNMKKWI AA+ACSALAL ACGGQ K+++A  ANP KVYRV  NAEFAPFES  S+GNVEGFDVDLMNAMAKAGNFK+EFKHQPW+SLFP+L NGD D+V+SGVTITD+RKQSMDFSDPYFEITQVVLVPKGKKV+SS+DLK M KVGVVTG TGDFSVSKLLG+DNPKI+RFE VPLIIKELENGGLDSVVSDSAVIANYVKNNP KG+DF+TLPDF+ E+YGIAVRKGDEA VKMLNDAL+KVRESGEYDKIYAKYFAKE  +A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|658748961|ref|WP_029771569.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein, partial [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_029771569</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.521</Hsp_bit-score>
+      <Hsp_score>1168</Hsp_score>
+      <Hsp_evalue>2.23537e-159</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVR</Hsp_qseq>
+      <Hsp_hseq>MKKWIAAALACSALALSACGGQGKDAAAPAANPDKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKISSSEDLKNMNKVGVVTGYTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPTKGMDFVTLPDFTTEHYGIAVR</Hsp_hseq>
+      <Hsp_midline>MKKWIAAALACSALALSACGGQGKDAAAPAANP KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK+SSSEDLK MNKVGVVTG+TGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP KGMDFVTLPDFTTEHYGIAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|489854272|ref|WP_003757939.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria sicca] &gt;gi|255049117|gb|EET44581.1| ABC transporter, substrate-binding protein, family 3 [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>WP_003757939</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>1.0759e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQSKDASSSAPKADKVYRVAANAEFAPFESLDSAGNVEGFDVDLMNAMAKAGGFKVEFKHQPWDSLFPALKNGDTDIVISGVTITDERKQSMDFTDPYFEITQVVLVPKGKKVASSDDLKNMAKVGVVTGQTGDFSVSKLLGNDNPKIARFESVPLVIKELENGGVDAVVSDSAVIANYVKNNPTKSMDFITLPDFTIENYGIAVRKGDEATVKMLNEALKKVRDSGEYDKIHAKYFAKEG</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQ KDA++ A    KVYRVA+NAEFAPFESLDS GNVEGFDVDLMNAMAKAG FK+EFKHQPWDSLFPAL NGD D+V+SGVTITD+RKQSMDF+DPYFEITQVVLVPKGKKV+SS+DLK M KVGVVTG TGDFSVSKLLGNDNPKIARFE+VPL+IKELENGG+D+VVSDSAVIANYVKNNP K MDF+TLPDFT E+YGIAVRKGDEATVKMLN+AL+KVR+SGEYDKI+AKYFAKEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|515029922|ref|WP_016687176.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016687176</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.039</Hsp_bit-score>
+      <Hsp_score>1133</Hsp_score>
+      <Hsp_evalue>3.24282e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQSKDASSSAPKADKVYRVAANAEFAPFESLDSAGNVEGFDVDLMNAMAKIGNFKVEFKHQPWDSLFPALKNGDTDIIISGVTITDERKQSMDFTDPYFEITQVVLVPKGKKVASSDDLKNMAKVGVVTGQTGDFSVSKLLGNDNPKIARFESVPLVIKELENGGVDAVVSDSAVIANYVKNNPTKSMDFITLPDFTIENYGIAVRKGDEATAKMLNEALKKVRDSGEYDKIHAKYFAKEG</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQ KDA++ A    KVYRVA+NAEFAPFESLDS GNVEGFDVDLMNAMAK GNFK+EFKHQPWDSLFPAL NGD D+++SGVTITD+RKQSMDF+DPYFEITQVVLVPKGKKV+SS+DLK M KVGVVTG TGDFSVSKLLGNDNPKIARFE+VPL+IKELENGG+D+VVSDSAVIANYVKNNP K MDF+TLPDFT E+YGIAVRKGDEAT KMLN+AL+KVR+SGEYDKI+AKYFAKEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|489864942|ref|WP_003768540.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria sicca] &gt;gi|385694259|gb|EIG24871.1| ABC transporter, substrate-binding protein, family 3 [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003768540</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.654</Hsp_bit-score>
+      <Hsp_score>1132</Hsp_score>
+      <Hsp_evalue>5.41862e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQSKDASSSAPKADKVYRVAANAEFAPFESLDSAGNVEGFDVDLMNAMAKAGGFKVEFKHQPWDSLFPALKNGDTDIVISGVTITDERKQSMDFTDPYFEITQVVLVPKGKKVASSDDLKNMAKVGVVTGQTGDFSVSKLLGNDNPKIARFESVPLVIKELENGGVDAVVSDSAVIANYVKNNPTKSMDFITLPDFTIENYGIAARKGDEATVKMLNEALKKVRDSGEYDKIHAKYFAKEG</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQ KDA++ A    KVYRVA+NAEFAPFESLDS GNVEGFDVDLMNAMAKAG FK+EFKHQPWDSLFPAL NGD D+V+SGVTITD+RKQSMDF+DPYFEITQVVLVPKGKKV+SS+DLK M KVGVVTG TGDFSVSKLLGNDNPKIARFE+VPL+IKELENGG+D+VVSDSAVIANYVKNNP K MDF+TLPDFT E+YGIA RKGDEATVKMLN+AL+KVR+SGEYDKI+AKYFAKEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|496669890|ref|WP_009312380.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria sp. GT4A_CT1] &gt;gi|348610126|gb|EGY59828.1| histidine-binding protein [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>WP_009312380</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>8.20648e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQSKDASSSAPKADKVYRVAANAEFAPFESLDSAGNVEGFDVDLMNAMAKAGGFKVEFKHQPWDSLFPALKNGDTDIVISGVTITDERKQSMDFTDPYFEITQVVLVPKGKKVASSDDLKNMAKVGVVTGQTGDFSVSKLLGNDNPKIARFESVPLVIKELENGGVDAVVSDSAVIANYVKNNPTKSMDFITLPDFTIENYGIAARKGDEATIKMLNEALKKVRDSGEYDKIHAKYFAKEG</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQ KDA++ A    KVYRVA+NAEFAPFESLDS GNVEGFDVDLMNAMAKAG FK+EFKHQPWDSLFPAL NGD D+V+SGVTITD+RKQSMDF+DPYFEITQVVLVPKGKKV+SS+DLK M KVGVVTG TGDFSVSKLLGNDNPKIARFE+VPL+IKELENGG+D+VVSDSAVIANYVKNNP K MDF+TLPDFT E+YGIA RKGDEAT+KMLN+AL+KVR+SGEYDKI+AKYFAKEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|489841430|ref|WP_003745131.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria mucosa] &gt;gi|288565423|gb|EFC86983.1| ABC transporter, substrate-binding protein, family 3 [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003745131</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>9.15718e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQSKDASSSAPKADKVYRVAANAEFAPFESLDSAGNVEGFDVDLMNAMAKAGGFKVEFKHQPWDSLFPALKNGDTDIVISGVTITDERKQSMDFTDPYFEITQVVLVPKGKKVASSDDLKNMAKVGVVTGQTGDFSVSKLLGNDNPKIARFESVPLVIKELENGGVDAVVSDSAVIANYVKNNPTKSMDFITLPDFTIENYGIAARKGDEATIKMLNEALKKVRDSGEYDKIHAKYFAKEG</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQ KDA++ A    KVYRVA+NAEFAPFESLDS GNVEGFDVDLMNAMAKAG FK+EFKHQPWDSLFPAL NGD D+V+SGVTITD+RKQSMDF+DPYFEITQVVLVPKGKKV+SS+DLK M KVGVVTG TGDFSVSKLLGNDNPKIARFE+VPL+IKELENGG+D+VVSDSAVIANYVKNNP K MDF+TLPDFT E+YGIA RKGDEAT+KMLN+AL+KVR+SGEYDKI+AKYFAKEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|746362211|ref|WP_039406775.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Morococcus cerebrosus] &gt;gi|742696879|gb|KIC09194.1| ABC transporter substrate-binding protein [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_039406775</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>2.17042e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQSKDASSSAPKADKVYRVAANAEFAPFESLDSAGNVEGFDVDLMNAMAKAGGFKVEFKHQPWDSLFPTLKNGDTDIVISGVTITDERKQSMDFTDPYFEITQVVLVPKGKKVASSDDLKNMAKVGVVTGQTGDFSVSKLLGNDNPKIARFESVPLVIKELENGGVDAVVSDSAVIANYVKNNPTKSMDFITLPDFTIENYGIAARKGDEATVKMLNEALKKVRDSGEYDKIHAKYFAKEG</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQ KDA++ A    KVYRVA+NAEFAPFESLDS GNVEGFDVDLMNAMAKAG FK+EFKHQPWDSLFP L NGD D+V+SGVTITD+RKQSMDF+DPYFEITQVVLVPKGKKV+SS+DLK M KVGVVTG TGDFSVSKLLGNDNPKIARFE+VPL+IKELENGG+D+VVSDSAVIANYVKNNP K MDF+TLPDFT E+YGIA RKGDEATVKMLN+AL+KVR+SGEYDKI+AKYFAKEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|489873446|ref|WP_003776971.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria macacae] &gt;gi|339888271|gb|EGQ77744.1| histidine ABC superfamily ATP binding cassette transporter, binding protein [Neisseria macacae ATCC 33926]</Hit_def>
+  <Hit_accession>WP_003776971</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>2.61216e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQSKDASSSAPKADKVYRVAANAEFAPFESLDSASNVEGFDVDLMNAMAKAGGFKVEFKHQPWDSLFPALKNGDTDIVISGVTITDERKQSMDFTDPYFEITQVVLVPKGKKVASSDDLKNMAKVGVVTGQTGDFSVSKLLGNDNPKIARFESVPLVIKELENGGVDAVVSDSAVIANYVKNNPTKSMDFITLPDFTIENYGIAARKGDEATVKMLNEALKKVRDSGEYDKIHAKYFAKEG</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQ KDA++ A    KVYRVA+NAEFAPFESLDS  NVEGFDVDLMNAMAKAG FK+EFKHQPWDSLFPAL NGD D+V+SGVTITD+RKQSMDF+DPYFEITQVVLVPKGKKV+SS+DLK M KVGVVTG TGDFSVSKLLGNDNPKIARFE+VPL+IKELENGG+D+VVSDSAVIANYVKNNP K MDF+TLPDFT E+YGIA RKGDEATVKMLN+AL+KVR+SGEYDKI+AKYFAKEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|490412902|ref|WP_004285521.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria weaveri] &gt;gi|343968933|gb|EGV37154.1| histidine-binding periplasmic protein [Neisseria weaveri ATCC 51223]</Hit_def>
+  <Hit_accession>WP_004285521</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>4.75366e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQ-GKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALGACGGQSGTDKAAATQTDAKVYRVSMNAEFAPFESQDANNNVEGFDVDLMNALSQAGNFKVEYKHQPWDSLFPALKNGDTDIVISAVTITDERKQTMDFTEPYFEITQVILVPEGKGVKSVEDLKKVNRVGVVTGQTGDFAASKILGNDSPKVARFETLPLVIKELENGGLDAVISDSAVIGNYLKHNSNKGFTMVEVPDFETEHYGIAVRKGDEAALNMLNDALKKVRENGEYDKIHDQYFAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALAL ACGGQ G D AA      KVYRV+ NAEFAPFES D+  NVEGFDVDLMNA+++AGNFK+E+KHQPWDSLFPAL NGD D+V+S VTITD+RKQ+MDF++PYFEITQV+LVP+GK V S EDLKK+N+VGVVTG TGDF+ SK+LGND+PK+ARFE +PL+IKELENGGLD+V+SDSAVI NY+K+N  KG   V +PDF TEHYGIAVRKGDEA + MLNDAL+KVRE+GEYDKI+ +YFAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|489868052|ref|WP_003771627.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria elongata] &gt;gi|291308731|gb|EFE49974.1| ABC transporter, substrate-binding protein, family 3 [Neisseria elongata subsp. glycolytica ATCC 29315] &gt;gi|747148373|gb|AJE18756.1| ABC transporter substrate-binding protein [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>WP_003771627</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.882</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>1.55373e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDA---AAPAANPG--KVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>MSMKKWLATALACSAL-LTACGGQGQNQGQESAPAGAQGGEKVYRVAMNAEFAPFEFMDSANNIQGFDVDLVNAMAKAGNFKVEFKHQPWDSLFPALGNGDVDILASAVTITDDRKQTMDFSDPYYKITQVILVPQGKTIKSAEDLKQVNKVGVVTGTTGDLAASKTLGSDSTKIARFENIILVTKELENGGLDAVISDSAVIANYIKNNGSKGFSMVEIPDFTEENYGFAVRKGDTATVAMLNDALKKVRESGEYDKIADKYFAK</Hsp_hseq>
+      <Hsp_midline>M+MKKW+A ALACSAL L+ACGGQG++    +APA   G  KVYRVA NAEFAPFE +DS  N++GFDVDL+NAMAKAGNFK+EFKHQPWDSLFPAL NGD D++ S VTITDDRKQ+MDFSDPY++ITQV+LVP+GK + S+EDLK++NKVGVVTG TGD + SK LG+D+ KIARFEN+ L+ KELENGGLD+V+SDSAVIANY+KNN +KG   V +PDFT E+YG AVRKGD ATV MLNDAL+KVRESGEYDKI  KYFAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|343968994|gb|EGV37214.1|</Hit_id>
+  <Hit_def>histidine-binding periplasmic protein [Neisseria weaveri LMG 5135]</Hit_def>
+  <Hit_accession>EGV37214</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.497</Hsp_bit-score>
+      <Hsp_score>994</Hsp_score>
+      <Hsp_evalue>1.85123e-132</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MKKWIAAALACSALALSACGGQ-GKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>MKKWIAAALACSALALGACGGQSGTDKAAATQTDAKVYRVSMNAEFAPFESQDANNNVEGFDVDLMNALSQAGNFKVEYKHQPWDSLFPALKNGDTDIVISAVTITDERKQTMDFTEPYFEITQVILVPEGKGVKSVEDLKKVNRVGVVTGQTGDFAASKILGNDSPKVARFETLPLVIKELENGGLDAVISDSAVIGNYLKHNSNKGFTMVEVPDFETEHYGIAVRKGDEAALNMLNDALKKVRENGEYDKIHDQYFAK</Hsp_hseq>
+      <Hsp_midline>MKKWIAAALACSALAL ACGGQ G D AA      KVYRV+ NAEFAPFES D+  NVEGFDVDLMNA+++AGNFK+E+KHQPWDSLFPAL NGD D+V+S VTITD+RKQ+MDF++PYFEITQV+LVP+GK V S EDLKK+N+VGVVTG TGDF+ SK+LGND+PK+ARFE +PL+IKELENGGLD+V+SDSAVI NY+K+N  KG   V +PDF TEHYGIAVRKGDEA + MLNDAL+KVRE+GEYDKI+ +YFAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|496407898|ref|WP_009116762.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria wadsworthii] &gt;gi|349791645|gb|EGZ45524.1| histidine ABC superfamily ATP binding cassette transporter, binding protein [Neisseria wadsworthii 9715]</Hit_def>
+  <Hit_accession>WP_009116762</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.999</Hsp_bit-score>
+      <Hsp_score>933</Hsp_score>
+      <Hsp_evalue>2.98027e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWLAATLMCSALVMGGCGGQGQSGEQKV---DKVYRVAMNAEFAPFESLDAQNNVEGFDVDLMNAMAAAGNFKVEYKHQPWDSLFAALGNGDVDILASAITITDERKQSMSFTDPYYKITQVILVPQGKNIKNVDDLKKANKVGVITGQTGDFVISKMLGKDSAKIARFDTLPLVIKEMESGGLDAVVTDSAVVGNYLKHNANKGFTVVEAPDFTEENYGFAVRKNDEETLKMLNDSLKKVRESGEYEKIESKYFAK</Hsp_hseq>
+      <Hsp_midline>MNMKKW+AA L CSAL +  CGGQG+          KVYRVA NAEFAPFESLD++ NVEGFDVDLMNAMA AGNFK+E+KHQPWDSLF AL NGD D++ S +TITD+RKQSM F+DPY++ITQV+LVP+GK + + +DLKK NKVGV+TG TGDF +SK+LG D+ KIARF+ +PL+IKE+E+GGLD+VV+DSAV+ NY+K+N  KG   V  PDFT E+YG AVRK DE T+KMLND+L+KVRESGEY+KI +KYFAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|494580137|ref|WP_007343386.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Neisseria bacilliformis] &gt;gi|327462623|gb|EGF08946.1| amino acid ABC superfamily ATP binding cassette transporter, binding protein [Neisseria bacilliformis ATCC BAA-1200]</Hit_def>
+  <Hit_accession>WP_007343386</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.533</Hsp_bit-score>
+      <Hsp_score>924</Hsp_score>
+      <Hsp_evalue>9.70228e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAA------APAA-NPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>MNIKQWIATAAAAALL--AACGGQQNQAANTPASSAPAAPQEGKVYRVAANAEFAPFEFMDTNNNVQGFDVDLINAMAKAGGFRVEFKHQPWDSLFAALGNGDVDILASAVTITDERKQSMDFSDPYYKITQVILVPQGKDIKSAEDLKKANKVGVVTGTTGDLAVGKLLGADNGKIARFENITLVTKELENGGLDAVVSDSAVVANYVKNNGNKGFTMVTVPDFPEENYGFVVRKGDTETQAALNAALKKVRESGEYDKIAEKYFAK</Hsp_hseq>
+      <Hsp_midline>MN+K+WIA A A + L  +ACGGQ   AA      APAA   GKVYRVA+NAEFAPFE +D+  NV+GFDVDL+NAMAKAG F++EFKHQPWDSLF AL NGD D++ S VTITD+RKQSMDFSDPY++ITQV+LVP+GK + S+EDLKK NKVGVVTG TGD +V KLLG DN KIARFEN+ L+ KELENGGLD+VVSDSAV+ANYVKNN  KG   VT+PDF  E+YG  VRKGD  T   LN AL+KVRESGEYDKI  KYFAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|740484455|ref|WP_038315389.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038315389</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.533</Hsp_bit-score>
+      <Hsp_score>924</Hsp_score>
+      <Hsp_evalue>1.31995e-121</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>KWIAAALACSALALSACGGQ--GKDAAAPA-------------ANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>KWLAAAVSCVALSLTACGGSNSGNQTAAPAPVSDTNSASTASAPASGKVLRVAMNAEFAPFESLDAQQNIEGFDVDLMNAMAKAGNFQVQFQHQPWDSLFPALSQGDVDVVMSGVTITDERKMTMDFTEPYYQITQVVLVTPGKKVQNINDVKSLSKVGVVTGHTGDFAAQKIFGATSGNIARFKTLPLMLKEVESSGVDAGISDSAVVANYVKNNESKGFTMVQVPDFTTENYGIAVKKGNQETLDMLNAALKKVRESGEYTQIESKYFAK</Hsp_hseq>
+      <Hsp_midline>KW+AAA++C AL+L+ACGG   G   AAPA                GKV RVA NAEFAPFESLD++ N+EGFDVDLMNAMAKAGNF+++F+HQPWDSLFPAL+ GD DVVMSGVTITD+RK +MDF++PY++ITQVVLV  GKKV +  D+K ++KVGVVTGHTGDF+  K+ G  +  IARF+ +PL++KE+E+ G+D+ +SDSAV+ANYVKNN +KG   V +PDFTTE+YGIAV+KG++ T+ MLN AL+KVRESGEY +I +KYFAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|740474889|ref|WP_038306071.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038306071</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.992</Hsp_bit-score>
+      <Hsp_score>920</Hsp_score>
+      <Hsp_evalue>6.20218e-121</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>KWIAAALACSALALSACGGQ--GKDAAAPAA-------------NPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>KWLAAAVSCVALSLTACGGSNSGNQTAAPAPVSDTNSASTASVPASGKVLRVAMNAEFAPFESLDAQQNIEGFDVDLMNAMAKAGNFQVQFQHQPWDSLFPALSQGDVDVVMSGVTITDERKMTMDFTEPYYQITQVVLVTPGKKVQNINDVKSLSKVGVVTGHTGDFAAQKIFGATSGNIARFKTLPLMLKEVESSGVDAGISDSAVVANYVKNNESKGFTMVQVPDFTVENYGIAVKKGNQETLDMLNAALKKVRESGEYTQIESKYFAK</Hsp_hseq>
+      <Hsp_midline>KW+AAA++C AL+L+ACGG   G   AAPA                GKV RVA NAEFAPFESLD++ N+EGFDVDLMNAMAKAGNF+++F+HQPWDSLFPAL+ GD DVVMSGVTITD+RK +MDF++PY++ITQVVLV  GKKV +  D+K ++KVGVVTGHTGDF+  K+ G  +  IARF+ +PL++KE+E+ G+D+ +SDSAV+ANYVKNN +KG   V +PDFT E+YGIAV+KG++ T+ MLN AL+KVRESGEY +I +KYFAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|489881670|ref|WP_003785124.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Kingella kingae] &gt;gi|332975192|gb|EGK12092.1| amino acid ABC superfamily ATP binding cassette transporter, binding protein [Kingella kingae ATCC 23330]</Hit_def>
+  <Hit_accession>WP_003785124</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.607</Hsp_bit-score>
+      <Hsp_score>919</Hsp_score>
+      <Hsp_evalue>1.02381e-120</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>KWIAAALACSALALSACGGQ--GKDAAAPA-------------ANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>KWLAAAVSCVALSLTACGGSNSGNQTAAPAPASDTNSASTASAPASGKVLRVAMNAEFAPFESLDAQQNIEGFDVDLMNAMAKAGNFQVQFQHQPWDSLFPALSQGDVDVVMSGVTITDERKMTMDFTEPYYQITQVVLVTPGKKVQNINDVKSLSKVGVVTGHTGDFAAQKIFGATSGNIARFKTLPLMLKEVESSGVDAGISDSAVVANYVKNNESKGFTMVQVPDFTVENYGIAVKKGNQETLDMLNAALKKVRESGEYTQIESKYFAK</Hsp_hseq>
+      <Hsp_midline>KW+AAA++C AL+L+ACGG   G   AAPA                GKV RVA NAEFAPFESLD++ N+EGFDVDLMNAMAKAGNF+++F+HQPWDSLFPAL+ GD DVVMSGVTITD+RK +MDF++PY++ITQVVLV  GKKV +  D+K ++KVGVVTGHTGDF+  K+ G  +  IARF+ +PL++KE+E+ G+D+ +SDSAV+ANYVKNN +KG   V +PDFT E+YGIAV+KG++ T+ MLN AL+KVRESGEY +I +KYFAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

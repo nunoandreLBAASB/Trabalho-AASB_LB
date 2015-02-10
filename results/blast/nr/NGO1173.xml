@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>22103</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7K0</BlastOutput_query-def>
+  <BlastOutput_query-len>140</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>22103</Iteration_query-ID>
+  <Iteration_query-def>Q5F7K0</Iteration_query-def>
+  <Iteration_query-len>140</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489787860|ref|WP_003691751.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Neisseria gonorrhoeae] &gt;gi|59801537|ref|YP_208249.1| DNA mismatch endonuclease [Neisseria gonorrhoeae FA 1090] &gt;gi|194099463|ref|YP_002002583.1| Putative very short patch repair endonuclease [Neisseria gonorrhoeae NCCP11945] &gt;gi|538321827|ref|YP_008502887.1| DNA mismatch endonuclease Vsr [Neisseria gonorrhoeae MS11] &gt;gi|59718432|gb|AAW89837.1| putative DNA mismatch endonuclease, patch repair protein [Neisseria gonorrhoeae FA 1090] &gt;gi|193934753|gb|ACF30577.1| Putative very short patch repair endonuclease [Neisseria gonorrhoeae NCCP11945] &gt;gi|226513446|gb|EEH62791.1| patch repair protein [Neisseria gonorrhoeae 1291] &gt;gi|268548890|gb|EEZ44308.1| patch repair protein [Neisseria gonorrhoeae 35/02] &gt;gi|268551343|gb|EEZ46362.1| DNA mismatch endonuclease, patch repair protein [Neisseria gonorrhoeae FA19] &gt;gi|268583847|gb|EEZ48523.1| DNA mismatch endonuclease Vsr [Neisseria gonorrhoeae MS11] &gt;gi|268586191|gb|EEZ50867.1| patch repair protein [Neisseria gonorrhoeae PID18] &gt;gi|268588531|gb|EEZ53207.1| patch repair protein [Neisseria gonorrhoeae PID1] &gt;gi|268623145|gb|EEZ55545.1| patch repair protein [Neisseria gonorrhoeae PID332] &gt;gi|268625292|gb|EEZ57692.1| patch repair protein [Neisseria gonorrhoeae SK-92-679] &gt;gi|268627570|gb|EEZ59970.1| patch repair protein [Neisseria gonorrhoeae SK-93-1035] &gt;gi|291013043|gb|EFE05016.1| conserved hypothetical protein [Neisseria gonorrhoeae DGI2] &gt;gi|291611213|gb|EFF40299.1| DNA mismatch endonuclease, patch repair protein [Neisseria gonorrhoeae F62] &gt;gi|636860353|gb|KDM97625.1| endonuclease [Neisseria gonorrhoeae] &gt;gi|636862354|gb|KDM99463.1| endonuclease [Neisseria gonorrhoeae] &gt;gi|636865280|gb|KDN02151.1| endonuclease [Neisseria gonorrhoeae] &gt;gi|654605965|gb|KEC86603.1| endonuclease [Neisseria gonorrhoeae] &gt;gi|693764581|gb|KGI95504.1| endonuclease [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003691751</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>1.57589e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_hseq>
+      <Hsp_midline>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|488146931|ref|WP_002218139.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Neisseria meningitidis] &gt;gi|254804175|ref|YP_003082396.1| putative very-short-patch-repair endonuclease [Neisseria meningitidis alpha14] &gt;gi|254667717|emb|CBA03600.1| putative very-short-patch-repair endonuclease [Neisseria meningitidis alpha14] &gt;gi|325127386|gb|EGC50320.1| very short patch repair protein [Neisseria meningitidis N1568]</Hit_def>
+  <Hit_accession>WP_002218139</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>2.87383e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MTDIFTTSKRSFVMSKIHSKETKPEILVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWYGHSCNKGHIPKSNTDFWLEKITKNCERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVREIKDAV</Hsp_hseq>
+      <Hsp_midline>MTDIFT SKRSFVMSKIHSKETKPE+LVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFW+GHSCNKGHIPKSN DFWLEKITKN ERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLV EIKDAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|488143720|ref|WP_002214928.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Neisseria meningitidis] &gt;gi|385324951|ref|YP_005879390.1| putative very-short-patch-repair endonuclease [Neisseria meningitidis 8013] &gt;gi|385856019|ref|YP_005902532.1| Very short patch repair protein [Neisseria meningitidis M01-240355] &gt;gi|254671707|emb|CBA09491.1| patch repair protein [Neisseria meningitidis alpha153] &gt;gi|261393338|emb|CAX50972.1| putative very-short-patch-repair endonuclease [Neisseria meningitidis 8013] &gt;gi|304337439|gb|EFM03609.1| DNA mismatch endonuclease Vsr [Neisseria meningitidis ATCC 13091] &gt;gi|325131419|gb|EGC54128.1| patch repair protein [Neisseria meningitidis M6190] &gt;gi|325141452|gb|EGC63928.1| Very short patch repair protein [Neisseria meningitidis 961-5945] &gt;gi|325204960|gb|ADZ00414.1| Very short patch repair protein [Neisseria meningitidis M01-240355] &gt;gi|393290979|emb|CCI73766.1| patch repair protein [Neisseria meningitidis alpha704] &gt;gi|402321410|gb|EJU56885.1| very short patch repair protein [Neisseria meningitidis NM140] &gt;gi|402321743|gb|EJU57216.1| very short patch repair protein [Neisseria meningitidis NM183] &gt;gi|402323407|gb|EJU58851.1| very short patch repair protein [Neisseria meningitidis NM2781] &gt;gi|402327900|gb|EJU63285.1| very short patch repair protein [Neisseria meningitidis NM576] &gt;gi|402331046|gb|EJU66388.1| very short patch repair protein [Neisseria meningitidis 98008] &gt;gi|402333239|gb|EJU68547.1| very short patch repair protein [Neisseria meningitidis 80179] &gt;gi|402336425|gb|EJU71686.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM2657] &gt;gi|402339173|gb|EJU74392.1| very short patch repair protein [Neisseria meningitidis NM2795] &gt;gi|402344112|gb|EJU79253.1| very short patch repair protein [Neisseria meningitidis NM3001] &gt;gi|432201117|gb|ELK57203.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 98080] &gt;gi|432201204|gb|ELK57288.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 87255] &gt;gi|432225906|gb|ELK81643.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM586] &gt;gi|432227878|gb|ELK83583.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM762] &gt;gi|432231818|gb|ELK87475.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis M7089] &gt;gi|432232683|gb|ELK88320.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis M7124] &gt;gi|432233179|gb|ELK88812.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM174] &gt;gi|432238360|gb|ELK93927.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM126] &gt;gi|485327425|gb|EOB90531.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM133] &gt;gi|485331155|gb|EOB94001.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM43] &gt;gi|485334176|gb|EOB96823.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM82] &gt;gi|485334987|gb|EOB97587.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM94] &gt;gi|485337020|gb|EOB99468.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM95] &gt;gi|485341116|gb|EOC03326.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM313] &gt;gi|485341749|gb|EOC03904.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM1482] &gt;gi|485343998|gb|EOC05991.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM1495] &gt;gi|485347471|gb|EOC09234.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 73696] &gt;gi|485348358|gb|EOC10062.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 73704] &gt;gi|485350840|gb|EOC12365.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 81858] &gt;gi|485360277|gb|EOC21041.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM3147] &gt;gi|485363785|gb|EOC24223.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2001072] &gt;gi|485364919|gb|EOC25242.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2001073] &gt;gi|485366433|gb|EOC26655.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2000081] &gt;gi|485373284|gb|EOC33036.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2001213] &gt;gi|485376394|gb|EOC35945.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2004264] &gt;gi|485379160|gb|EOC38539.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2005079] &gt;gi|485379381|gb|EOC38746.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2000175] &gt;gi|485383489|gb|EOC42607.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2001068] &gt;gi|485385732|gb|EOC44678.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2005040] &gt;gi|485385797|gb|EOC44739.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2002004] &gt;gi|485428944|gb|EOC84843.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM23] &gt;gi|485429611|gb|EOC85438.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM32] &gt;gi|485434161|gb|EOC89548.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM35] &gt;gi|485435028|gb|EOC90319.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM36] &gt;gi|694192252|gb|KGI97535.1| endonuclease [Neisseria meningitidis] &gt;gi|723270796|gb|KHC97987.1| endonuclease [Neisseria meningitidis] &gt;gi|723272364|gb|KHC99551.1| endonuclease [Neisseria meningitidis] &gt;gi|726974899|gb|KHF22334.1| endonuclease [Neisseria meningitidis] &gt;gi|730570574|gb|AIZ18376.1| endonuclease [Neisseria meningitidis] &gt;gi|730571918|gb|AIZ19320.1| endonuclease [Neisseria meningitidis M7124] &gt;gi|730574346|gb|AIZ21295.1| endonuclease [Neisseria meningitidis] &gt;gi|730578780|gb|AIZ25227.1| endonuclease [Neisseria meningitidis] &gt;gi|730580073|gb|AIZ26054.1| endonuclease [Neisseria meningitidis] &gt;gi|743394230|gb|KID53768.1| DNA glycosylase [Neisseria meningitidis LNP27256] &gt;gi|747184585|gb|KIF88837.1| endonuclease [Neisseria meningitidis] &gt;gi|747187351|gb|KIF91080.1| endonuclease [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002214928</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>1.13943e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MTDIFTTSKRSFVMSKIHSKETKPEILVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWYGHSCNKGHIPKSNTDFWLEKITKNCERDIKNETELEKIGFKVIVVWECELKNKAIGRERLNRLVREIKDAV</Hsp_hseq>
+      <Hsp_midline>MTDIFT SKRSFVMSKIHSKETKPE+LVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFW+GHSCNKGHIPKSN DFWLEKITKN ERDIKNETELEKIGFKVIVVWECELKNKAI RERLNRLV EIKDAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|488161988|ref|WP_002233196.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Neisseria meningitidis] &gt;gi|402315689|gb|EJU51252.1| very short patch repair protein [Neisseria meningitidis 93003]</Hit_def>
+  <Hit_accession>WP_002233196</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>3.35856e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MSDIFTPSKRSLVMSKIHSKETKPEILVRKFLFFQGFRYRKNDKRYVGKPDIVLPKYKTVVFIHGCFWYGHSCNKGHIPKSNTDFWLEKITKNCERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVREIKDAV</Hsp_hseq>
+      <Hsp_midline>M+DIFTPSKRS VMSKIHSKETKPE+LVRKFLF QGFRYRKNDKRY GKPDIVLPKYKTVVFIHGCFW+GHSCNKGHIPKSN DFWLEKITKN ERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLV EIKDAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488166168|ref|WP_002237376.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Neisseria meningitidis] &gt;gi|402327144|gb|EJU62537.1| putative very short patch repair endonuclease [Neisseria meningitidis 69166] &gt;gi|432210331|gb|ELK66291.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 68094] &gt;gi|432213091|gb|ELK69019.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 70012] &gt;gi|432257665|gb|ELL12962.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 61103] &gt;gi|432258291|gb|ELL13578.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 69096] &gt;gi|432271106|gb|ELL26235.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 70030] &gt;gi|485272561|gb|EOB39297.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 70021] &gt;gi|485272592|gb|EOB39327.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 69155] &gt;gi|485272669|gb|EOB39401.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 69176] &gt;gi|485279007|gb|EOB45313.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 96060] &gt;gi|485286423|gb|EOB52243.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 69100] &gt;gi|485292767|gb|EOB58175.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 63023] &gt;gi|485293279|gb|EOB58648.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 61106] &gt;gi|485299294|gb|EOB64280.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 70082]</Hit_def>
+  <Hit_accession>WP_002237376</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>1.02288e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MTDIFTTSKRSFVMSKIHSKETKPEVLVRKFLFFQGFRYRKNDKRYVGKPDIVLSKYKTVVFIHGCFWYGHSCNKGHIPKSNTDFWLEKITKNCERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVREIKDAV</Hsp_hseq>
+      <Hsp_midline>MTDIFT SKRSFVMSKIHSKETKPEVLVRKFLF QGFRYRKNDKRY GKPDIVL KYKTVVFIHGCFW+GHSCNKGHIPKSN DFWLEKITKN ERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLV EIKDAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|488175293|ref|WP_002246501.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Neisseria meningitidis] &gt;gi|218767415|ref|YP_002341927.1| patch repair protein [Neisseria meningitidis Z2491] &gt;gi|385337264|ref|YP_005891137.1| putative very-short-patch-repair endonuclease [Neisseria meningitidis WUE 2594] &gt;gi|11387236|sp|Q9JWD6.1|VSR_NEIMA RecName: Full=Putative very short patch repair endonuclease [Neisseria meningitidis Z2491] &gt;gi|121051423|emb|CAM07716.1| patch repair protein [Neisseria meningitidis Z2491] &gt;gi|319409678|emb|CBY89979.1| putative very-short-patch-repair endonuclease [Neisseria meningitidis WUE 2594] &gt;gi|432207885|gb|ELK63872.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 88050] &gt;gi|432213758|gb|ELK69668.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 63041] &gt;gi|432245817|gb|ELL01282.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 63049] &gt;gi|432250954|gb|ELL06330.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2004090] &gt;gi|432251312|gb|ELL06682.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 96023] &gt;gi|432251508|gb|ELL06873.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 65014] &gt;gi|432260544|gb|ELL15802.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 97020] &gt;gi|432263736|gb|ELL18949.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM3652] &gt;gi|432264164|gb|ELL19372.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM3642] &gt;gi|432267275|gb|ELL22455.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2007056] &gt;gi|432269366|gb|ELL24526.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2001212] &gt;gi|432275315|gb|ELL30390.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 63006] &gt;gi|485279541|gb|EOB45799.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2000080] &gt;gi|485279700|gb|EOB45940.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 94018] &gt;gi|485285861|gb|EOB51727.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 75689] &gt;gi|485286068|gb|EOB51913.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 75643] &gt;gi|485292604|gb|EOB58030.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 97018] &gt;gi|485299652|gb|EOB64608.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 65012] &gt;gi|485300016|gb|EOB64943.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 64182] &gt;gi|485306019|gb|EOB70553.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 97027] &gt;gi|485306622|gb|EOB71092.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 96024] &gt;gi|485307080|gb|EOB71522.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 97008] &gt;gi|485311837|gb|EOB75989.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 98005] &gt;gi|485313799|gb|EOB77805.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2004085] &gt;gi|485313842|gb|EOB77846.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2003022] &gt;gi|485319094|gb|EOB82772.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2000063] &gt;gi|485320348|gb|EOB83925.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM604] &gt;gi|485320700|gb|EOB84246.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2002007] &gt;gi|485324996|gb|EOB88281.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM606] &gt;gi|485327271|gb|EOB90386.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis NM607] &gt;gi|610425895|gb|AHW74771.1| patch repair protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002246501</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.05808e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MTDIFTTSKRSFVMLKIHSKETKPEVLVRKFLFFQGFRYRKNDKRYVGKPDIVLSKYKTVVFIHGCFWYGHSCNKGHIPKSNTDFWLEKITKNCERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVREIKDAV</Hsp_hseq>
+      <Hsp_midline>MTDIFT SKRSFVM KIHSKETKPEVLVRKFLF QGFRYRKNDKRY GKPDIVL KYKTVVFIHGCFW+GHSCNKGHIPKSN DFWLEKITKN ERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLV EIKDAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|432207653|gb|ELK63642.1|</Hit_id>
+  <Hit_def>DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 97021] &gt;gi|432214237|gb|ELK70142.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2006087] &gt;gi|432219486|gb|ELK75331.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2002038] &gt;gi|432220270|gb|ELK76094.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 97014] &gt;gi|485390844|gb|EOC49472.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2005172] &gt;gi|485393887|gb|EOC52278.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 2008223] &gt;gi|514068877|gb|EPF53829.1| DNA mismatch endonuclease Vsr family protein [Neisseria meningitidis 98002]</Hit_def>
+  <Hit_accession>ELK63642</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>5.11387e-83</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>MSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MSKIHSKETKPEILVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWYGHSCNKGHIPKSNTDFWLEKITKNCERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVREIKDAV</Hsp_hseq>
+      <Hsp_midline>MSKIHSKETKPE+LVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFW+GHSCNKGHIPKSN DFWLEKITKN ERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLV EIKDAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|500123022|ref|WP_011799027.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Neisseria meningitidis] &gt;gi|121635668|ref|YP_975913.1| patch repair protein [Neisseria meningitidis FAM18] &gt;gi|120867374|emb|CAM11146.1| patch repair protein [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>WP_011799027</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>1.09748e-81</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MMSKIHSKETKPEILVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWYGHSCNKGHIPKSNTDFWLEKITKNCERDIKNETELEKIGFKVIVVWECELKNKAIGRERLNRLVREIKDAV</Hsp_hseq>
+      <Hsp_midline>+MSKIHSKETKPE+LVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFW+GHSCNKGHIPKSN DFWLEKITKN ERDIKNETELEKIGFKVIVVWECELKNKAI RERLNRLV EIKDAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488153473|ref|WP_002224681.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Neisseria meningitidis] &gt;gi|385340857|ref|YP_005894729.1| Very short patch repair protein [Neisseria meningitidis G2136] &gt;gi|325137452|gb|EGC60039.1| Very short patch repair protein [Neisseria meningitidis ES14902] &gt;gi|325199101|gb|ADY94557.1| Very short patch repair protein [Neisseria meningitidis G2136] &gt;gi|402315722|gb|EJU51284.1| very short patch repair protein [Neisseria meningitidis 93004]</Hit_def>
+  <Hit_accession>WP_002224681</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>1.71733e-81</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>MSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MSKIHSKETKPEILVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWYGHSCNKGHIPKSNTDFWLEKITKNCERDIKNETELEKIGFKVIVVWECELKNKAIGRERLNRLVREIKDAV</Hsp_hseq>
+      <Hsp_midline>MSKIHSKETKPE+LVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFW+GHSCNKGHIPKSN DFWLEKITKN ERDIKNETELEKIGFKVIVVWECELKNKAI RERLNRLV EIKDAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|736607530|ref|WP_034616081.1|</Hit_id>
+  <Hit_def>hypothetical protein [Chelonobacter oris] &gt;gi|703884175|gb|KGQ70013.1| hypothetical protein OA57_08035 [Chelonobacter oris]</Hit_def>
+  <Hit_accession>WP_034616081</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>1.07178e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MTDIFSPKKRSEIMSKVKSKNTKPEILVGTFLFSKGFRYRKNDKRYTDVPDIVLPKYKTVIFVHGCFWHGHTCPRGNLPSSNREFWQEKITKNKKRDVRSCNSLEDLGFKVIVIWECELKNKTLREARLLRLIDEIRNAA</Hsp_hseq>
+      <Hsp_midline>MTDIF+P KRS +MSK+ SK TKPE+LV  FLFS+GFRYRKNDKRY   PDIVLPKYKTV+F+HGCFWHGH+C +G++P SN +FW EKITKN++RD+++   LE +GFKVIV+WECELKNK +   RL RL++EI++A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|505489423|ref|WP_015674069.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Actinobacillus suis] &gt;gi|407693338|ref|YP_006818127.1| putative DNA mismatch endonuclease [Actinobacillus suis H91-0380] &gt;gi|407389395|gb|AFU19888.1| putative DNA mismatch endonuclease [Actinobacillus suis H91-0380] &gt;gi|672593048|gb|AIJ32026.1| putative DNA mismatch endonuclease [Actinobacillus suis ATCC 33415]</Hit_def>
+  <Hit_accession>WP_015674069</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>2.273e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>MTDIFSPQKRSEIMSRVKSKNTKPEIIVRTFLFSMGFRYRKNDKRYAGVPDILLPKYKTAIFVHGCFWHGHTCAKGGLPTSRTEFWKDKIARNKERDAKNIRLLENSGFHVIIIWECELKNKALREDRLIRLVNEIR</Hsp_hseq>
+      <Hsp_midline>MTDIF+P KRS +MS++ SK TKPE++VR FLFS GFRYRKNDKRYAG PDI+LPKYKT +F+HGCFWHGH+C KG +P S  +FW +KI +N+ERD KN   LE  GF VI++WECELKNKA+  +RL RLV EI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|500174118|ref|WP_011848543.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Actinobacillus pleuropneumoniae] &gt;gi|126208668|ref|YP_001053893.1| DNA mismatch endonuclease [Actinobacillus pleuropneumoniae serovar 5b str. L20] &gt;gi|126097460|gb|ABN74288.1| putative DNA mismatch endonuclease [Actinobacillus pleuropneumoniae serovar 5b str. L20]</Hit_def>
+  <Hit_accession>WP_011848543</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>2.89793e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>MTDIFSPQKRSEIMSRVKSKNTKPEIIVRTFLFSVGFRYRKNDKRYAGVPDILLPKYKTAIFVHGCFWHGHTCAKGGLPSSRTEFWKNKIMKNKERDVKNIRLLEDSGIHVIIIWECELKNKTLREKRLARLVNEIK</Hsp_hseq>
+      <Hsp_midline>MTDIF+P KRS +MS++ SK TKPE++VR FLFS GFRYRKNDKRYAG PDI+LPKYKT +F+HGCFWHGH+C KG +P S  +FW  KI KN+ERD+KN   LE  G  VI++WECELKNK +  +RL RLV EIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|493897850|ref|WP_006843702.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Dysgonomonas mossii] &gt;gi|332885822|gb|EGK06068.1| short patch repair endonuclease [Dysgonomonas mossii DSM 22836]</Hit_def>
+  <Hit_accession>WP_006843702</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>1.51163e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>MSDIYSKSKRSDIMSKISGRETMPEILVRKFLFSRGFRFRKNVKELPGKPDIVLPKYKTVIFVHGCFWHGHSCKRGRLPEANHVFWQEKITKNIERDFRNINELNEKGWNVIVIWQCEIKNKVNINNRLDRLIEEIK</Hsp_hseq>
+      <Hsp_midline>M+DI++ SKRS +MSKI  +ET PE+LVRKFLFS+GFR+RKN K   GKPDIVLPKYKTV+F+HGCFWHGHSC +G +P++N  FW EKITKN ERD +N  EL + G+ VIV+W+CE+KNK     RL+RL+EEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|655034448|ref|WP_028483234.1|</Hit_id>
+  <Hit_def>endonuclease [Candidatus Aminicenans sakinawicola]</Hit_def>
+  <Hit_accession>WP_028483234</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>8.10942e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKD</Hsp_qseq>
+      <Hsp_hseq>MTDIFRTKKRSEIMSKISGKETKPEILVRKYLFSKRFRYRKNDNRLPGKPDIVLPKYKTVIFIQGCFWHGHHCKAGNLPKTNKEFWESKINSNIERDKKNQRELEKLGWKIIVIWQCELKNKELRAKKLKETEQKIQN</Hsp_hseq>
+      <Hsp_midline>MTDIF   KRS +MSKI  KETKPE+LVRK+LFS+ FRYRKND R  GKPDIVLPKYKTV+FI GCFWHGH C  G++PK+N +FW  KI  N ERD KN+ ELEK+G+K+IV+W+CELKNK +  ++L    ++I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|647513568|ref|WP_025814766.1|</Hit_id>
+  <Hit_def>endonuclease [Bacteroides fragilis]</Hit_def>
+  <Hit_accession>WP_025814766</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>8.51962e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>MSDIYSKSKRSDIMSRISGKETKPEILVRKYLFSKGFRFRKNVKELPGKPDIVLPKYKTVIFIHGCFWHGHTCKRGKLPQTNYQFWQKKIEKNIERDNRNTNELEVKGWNVIIIWQCEIQNYSLQKERFDKLVVQI</Hsp_hseq>
+      <Hsp_midline>M+DI++ SKRS +MS+I  KETKPE+LVRK+LFS+GFR+RKN K   GKPDIVLPKYKTV+FIHGCFWHGH+C +G +P++N  FW +KI KN ERD +N  ELE  G+ VI++W+CE++N ++ +ER ++LV +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|495032529|ref|WP_007758072.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Bacteroides finegoldii] &gt;gi|260620366|gb|EEX43237.1| DNA mismatch endonuclease Vsr [Bacteroides finegoldii DSM 17565]</Hit_def>
+  <Hit_accession>WP_007758072</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>2.12573e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>MSDIFSQTKRSDIMSKISSKDTKPEILVRKFLFSKGFRYRINVKTLPGKPDIVLPKYKTIIFVNGCFWHGHNCKKGKLPSSNTDFWKEKISNNKSRDAKNSDLLVKLGWKVIIIWQCEISKIDNRTKILNKLLEDIK</Hsp_hseq>
+      <Hsp_midline>M+DIF+ +KRS +MSKI SK+TKPE+LVRKFLFS+GFRYR N K   GKPDIVLPKYKT++F++GCFWHGH+C KG +P SN DFW EKI+ N+ RD KN   L K+G+KVI++W+CE+       + LN+L+E+IK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|547170288|ref|WP_021919697.1|</Hit_id>
+  <Hit_def>dNA mismatch endonuclease Vsr [Firmicutes bacterium CAG:114] &gt;gi|524045158|emb|CCY26066.1| dNA mismatch endonuclease Vsr [Firmicutes bacterium CAG:114]</Hit_def>
+  <Hit_accession>WP_021919697</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>3.83202e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDA</Hsp_qseq>
+      <Hsp_hseq>MADTKTPAERSENMSRIRSTNTKPEEIVRKYLFSHGFRYRKNDKRYPGKPDIVLPKYHTIIFVNGCFWHMHGCSRSRLPRSNQEYWKPKIERNIQRDAENQQKLEADSWKVIVVWECELK-KRTAEERLSRLCDEIRKS</Hsp_hseq>
+      <Hsp_midline>M D  TP++RS  MS+I S  TKPE +VRK+LFS GFRYRKNDKRY GKPDIVLPKY T++F++GCFWH H C++  +P+SN ++W  KI +N +RD +N+ +LE   +KVIVVWECELK K    ERL+RL +EI+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|504301965|ref|WP_014489067.1|</Hit_id>
+  <Hit_def>Fis family transcriptional regulator [Brachyspira intermedia] &gt;gi|384210137|ref|YP_005595857.1| DNA mismatch endonuclease Vsr [Brachyspira intermedia PWS/A] &gt;gi|343387787|gb|AEM23277.1| DNA mismatch endonuclease Vsr [Brachyspira intermedia PWS/A]</Hit_def>
+  <Hit_accession>WP_014489067</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>4.47019e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>MSDTKTPEERSRNMARIKSENTKPENIVRKYLFKHGFRYRKNDKRYPGKPDIVLPKYHTIIFVNGCFWHMHNCSRGRMPLSNKSYWVPKIKRNIERDKNNIINLESMGWKVIVIWECELKNK-IAEERLKKLCEEI</Hsp_hseq>
+      <Hsp_midline>M+D  TP +RS  M++I S+ TKPE +VRK+LF  GFRYRKNDKRY GKPDIVLPKY T++F++GCFWH H+C++G +P SN  +W+ KI +N ERD  N   LE +G+KVIV+WECELKNK I  ERL +L EEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|502879052|ref|WP_013114028.1|</Hit_id>
+  <Hit_def>Fis family transcriptional regulator [Brachyspira murdochii] &gt;gi|296126558|ref|YP_003633810.1| DNA mismatch endonuclease Vsr [Brachyspira murdochii DSM 12563] &gt;gi|296018374|gb|ADG71611.1| DNA mismatch endonuclease Vsr [Brachyspira murdochii DSM 12563]</Hit_def>
+  <Hit_accession>WP_013114028</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>4.4506e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>MADNKTHEERSKNMSNIKSENTRPENIVRKYLFKNGFRYRKNDKRYPGKPDIVLPKYHTIIFVNGCFWHMHNCSRGRMPLSNQNYWIPKIKRNIERDKNNIANLESMGWKVIVVWECELKNK-IAEERLKKLCEEIR</Hsp_hseq>
+      <Hsp_midline>M D  T  +RS  MS I S+ T+PE +VRK+LF  GFRYRKNDKRY GKPDIVLPKY T++F++GCFWH H+C++G +P SN ++W+ KI +N ERD  N   LE +G+KVIVVWECELKNK I  ERL +L EEI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|696264524|ref|WP_032841701.1|</Hit_id>
+  <Hit_def>endonuclease [Bacteroides sp. 1_1_30]</Hit_def>
+  <Hit_accession>WP_032841701</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>4.31515e-51</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>DIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>DIYSKPKRSNIMARISDKDTKPEILVRKYLFQKGFRYRKNVKDLPGKPDIVLHKYKIIIFINGCFWHGHMCKAGKLPKTNYSFWKNKIDANIVRDLKNINELQISGWKVIIIWQCEIKNKTLLDKRMNLLIHEIK</Hsp_hseq>
+      <Hsp_midline>DI++  KRS +M++I  K+TKPE+LVRK+LF +GFRYRKN K   GKPDIVL KYK ++FI+GCFWHGH C  G +PK+N  FW  KI  N  RD+KN  EL+  G+KVI++W+CE+KNK +  +R+N L+ EIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|653073992|ref|WP_027325097.1|</Hit_id>
+  <Hit_def>endonuclease [Bacteroides pyogenes] &gt;gi|567761940|dbj|GAE19103.1| very-short-patch mismatch repair endonuclease [Bacteroides pyogenes DSM 20611 = JCM 6294] &gt;gi|567764514|dbj|GAE16640.1| very-short-patch mismatch repair endonuclease [Bacteroides pyogenes JCM 6292]</Hit_def>
+  <Hit_accession>WP_027325097</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>9.67816e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRE-RLNRLVEEIKD</Hsp_qseq>
+      <Hsp_hseq>MTDIFSKDKRSDIMSKISNKNTKPEILVRKYLFANGFRFRVNDKRFPGKPDILLPKYKTAIFVNGCFWHGHKNCKAATLPSSNTDYWANKIASNIERDKKAQIQLEQMGYRVFIIWQCQLKAKE--RECTLSNLAEKLID</Hsp_hseq>
+      <Hsp_midline>MTDIF+  KRS +MSKI +K TKPE+LVRK+LF+ GFR+R NDKR+ GKPDI+LPKYKT +F++GCFWHGH +C    +P SN D+W  KI  N ERD K + +LE++G++V ++W+C+LK K   RE  L+ L E++ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|749815690|ref|WP_040294523.1|</Hit_id>
+  <Hit_def>hypothetical protein [Alistipes indistinctus]</Hit_def>
+  <Hit_accession>WP_040294523</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.777</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>1.22361e-49</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>DIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>DIWNKSSRSKIMSLVNQKDTKPELVVRKYLFAAGFRYRKNDRRLPGSPDIVLPKYKTVVFVNGCFWHGHDCRAGRRPQSNEAYWNEKLEGNIIRDRKKIEQIEALEWKVLIVWQCEIKNIESRKQRLERLVEEIK</Hsp_hseq>
+      <Hsp_midline>DI+  S RS +MS ++ K+TKPE++VRK+LF+ GFRYRKND+R  G PDIVLPKYKTVVF++GCFWHGH C  G  P+SN  +W EK+  N  RD K   ++E + +KV++VW+CE+KN    ++RL RLVEEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|551239282|ref|WP_022859695.1|</Hit_id>
+  <Hit_def>DNA glycosylase [Bifidobacterium magnum] &gt;gi|672973917|gb|KFI69318.1| DNA mismatch endonuclease Vsr [Bifidobacterium magnum]</Hit_def>
+  <Hit_accession>WP_022859695</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.777</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>1.51615e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>MTDIVSADKRSQIMSRIRSKNTKPEIVVRKYLFSRGLRYRINVRKLPGTPDIVLRKYKTVIFVNGCFWHHHDCEKFHWPKSNVEFWTEKITRNERRDKRNHSELAEAGWNVVTVWECELK-KSLLEDTLQRVYNEV</Hsp_hseq>
+      <Hsp_midline>MTDI +  KRS +MS+I SK TKPE++VRK+LFS+G RYR N ++  G PDIVL KYKTV+F++GCFWH H C K H PKSN++FW EKIT+N  RD +N +EL + G+ V+ VWECELK K++  + L R+  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|748637005|ref|WP_039895182.1|</Hit_id>
+  <Hit_def>endonuclease [Campylobacter showae]</Hit_def>
+  <Hit_accession>WP_039895182</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.777</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>1.66467e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRER-LNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>MSDIFSKSKRSDIMSKISGKETKPEILVRKYLFAHGFRYRKNAKDLPGKPDIVLPKYKAVVFVNGCFWHGHENCKKATLPVTNTEFWREKISNNIIRDEKTYVELAGIGYKVLVVWQCELGIKE--REKTLDELVNKIR</Hsp_hseq>
+      <Hsp_midline>M+DIF+ SKRS +MSKI  KETKPE+LVRK+LF+ GFRYRKN K   GKPDIVLPKYK VVF++GCFWHGH +C K  +P +N +FW EKI+ N  RD K   EL  IG+KV+VVW+CEL  K   RE+ L+ LV +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|736352262|ref|WP_034378012.1|</Hit_id>
+  <Hit_def>hypothetical protein [Dehalobacter sp. UNSWDHB]</Hit_def>
+  <Hit_accession>WP_034378012</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>2.65458e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHI-PKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>MADNHSPEERSYNMSRIRSGNTKPEEIVRKYLFSRGLRYRKNDKRYPGKPDAVFPKYRTVVFINGCFWHSHSGCPGFVMPKSNLEYWKPKLERNRQRDAENIDVLQKNGWRVIVVWECELK-KTLRDERLAKLYDEI</Hsp_hseq>
+      <Hsp_midline>M D  +P +RS+ MS+I S  TKPE +VRK+LFS+G RYRKNDKRY GKPD V PKY+TVVFI+GCFWH HS   G + PKSN+++W  K+ +NR+RD +N   L+K G++VIVVWECELK K +  ERL +L +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|294485139|gb|EFG32773.1|</Hit_id>
+  <Hit_def>DNA mismatch endonuclease Vsr [Parascardovia denticolens F0305]</Hit_def>
+  <Hit_accession>EFG32773</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>7.19433e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MSDVLTKEQRHLNMSHIHGKDTKPEEIVKKYLFSKGYRYRKNDSRYPGRPDIVLPKYHTVIFVHGCFWHRHPGCTYAAIPSTNREFWQKKFDQNVARDKKVQGQLKADGWNIIVVWECEISRKSDRKERLQRLENEIRTAI</Hsp_hseq>
+      <Hsp_midline>M+D+ T  +R   MS IH K+TKPE +V+K+LFS+G+RYRKND RY G+PDIVLPKY TV+F+HGCFWH H  C    IP +N +FW +K  +N  RD K + +L+  G+ +IVVWECE+  K+  +ERL RL  EI+ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|502721244|ref|WP_012956228.1|</Hit_id>
+  <Hit_def>Fis family transcriptional regulator [Methanobrevibacter ruminantium] &gt;gi|288560685|ref|YP_003424171.1| DNA mismatch endonuclease Vsr [Methanobrevibacter ruminantium M1] &gt;gi|288543395|gb|ADC47279.1| DNA mismatch endonuclease Vsr [Methanobrevibacter ruminantium M1]</Hit_def>
+  <Hit_accession>WP_012956228</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>9.89482e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKN---KAICRERLNRLVEEIKD</Hsp_qseq>
+      <Hsp_hseq>MADKFSKEKRSYIMSRIRGKDTKPEILVRSYLFSKGLRFRKNDKRYPGSPDVVLPKYNTVVFVHGCFWHLHEGCKHAKIPKSNVEYWEKKLYGNRDRDKRNKKELEDMGWNVITVWECNLKKDKREKTLFELYNQIISEDED</Hsp_hseq>
+      <Hsp_midline>M D F+  KRS++MS+I  K+TKPE+LVR +LFS+G R+RKNDKRY G PD+VLPKY TVVF+HGCFWH H  C    IPKSN+++W +K+  NR+RD +N+ ELE +G+ VI VWEC LK    +    E  N+++ E +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|488742877|ref|WP_002666229.1|</Hit_id>
+  <Hit_def>very short patch repair endonuclease [Treponema denticola] &gt;gi|325475444|gb|EGC78625.1| XorII short patch repair endonuclease [Treponema denticola F0402]</Hit_def>
+  <Hit_accession>WP_002666229</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.78563e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRE-RLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MSDIYSKSKRSSIMSKISGKDTKPEILVRKYLFSKGFRFRKNVKDLPGKPDIVLPKYKTIIFVNGCFWHGHENCKKATLPATNTEFWREKISGNIIRDKGNIQKLREMGYKVITVWQCELNAKK--REIALSELAREIKSCT</Hsp_hseq>
+      <Hsp_midline>M+DI++ SKRS +MSKI  K+TKPE+LVRK+LFS+GFR+RKN K   GKPDIVLPKYKT++F++GCFWHGH +C K  +P +N +FW EKI+ N  RD  N  +L ++G+KVI VW+CEL  K   RE  L+ L  EIK   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|749817175|ref|WP_040296008.1|</Hit_id>
+  <Hit_def>endonuclease [Barnesiella intestinihominis]</Hit_def>
+  <Hit_accession>WP_040296008</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>2.81477e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKD</Hsp_qseq>
+      <Hsp_hseq>MMDSCSKEKRSEIMSKVKRKDTRPEIQVRKYLFSRGLRYRTNFKSLPGSPDIVLKKYKTAIFIHGCFWHGHSCRAGHRPSSNTDYWIPKIEKNIERDSRKIEELKEKGWHVIVIWQCEINTIAKRNDRLSRLFDEIKN</Hsp_hseq>
+      <Hsp_midline>M D  +  KRS +MSK+  K+T+PE+ VRK+LFS+G RYR N K   G PDIVL KYKT +FIHGCFWHGHSC  GH P SN D+W+ KI KN ERD +   EL++ G+ VIV+W+CE+   A   +RL+RL +EIK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|739488420|ref|WP_037348168.1|</Hit_id>
+  <Hit_def>DNA glycosylase [Selenomonas bovis]</Hit_def>
+  <Hit_accession>WP_037348168</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>3.3577e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKD</Hsp_qseq>
+      <Hsp_hseq>MSDVLTREQRHLNMSHIHRKDTKPEEIVRKYLFSKGYRYRKNDSRYPGKPDIVLPKYRTMIFVHGCFWHRHPECRYATTPSTNRDFWQKKFDQNVARDWEVQEQLKADGWHVIVVWECEISRKADREERLQRLERQIRE</Hsp_hseq>
+      <Hsp_midline>M+D+ T  +R   MS IH K+TKPE +VRK+LFS+G+RYRKND RY GKPDIVLPKY+T++F+HGCFWH H  C     P +N DFW +K  +N  RD + + +L+  G+ VIVVWECE+  KA   ERL RL  +I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|646313300|ref|WP_025482084.1|</Hit_id>
+  <Hit_def>endonuclease [Clostridiales bacterium VE202-28]</Hit_def>
+  <Hit_accession>WP_025482084</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>4.26088e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>MADNHSKEIRSYNMSQIRSKNTKPEEIVRKYLFSKGFRYRKNDKRYPGRPDIILPKYKTAIFVNGCFWHMHDGCPKFIMPKSNIEYWKPKLERNKRHDIENKITLEKQEWKVIVVWECELK-KDNKEDRLRRLVEEI</Hsp_hseq>
+      <Hsp_midline>M D  +   RS+ MS+I SK TKPE +VRK+LFS+GFRYRKNDKRY G+PDI+LPKYKT +F++GCFWH H  C K  +PKSN+++W  K+ +N+  DI+N+  LEK  +KVIVVWECELK K    +RL RLVEEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|672992885|gb|KFI88070.1|</Hit_id>
+  <Hit_def>DNA mismatch endonuclease vsr [Bifidobacterium reuteri DSM 23975]</Hit_def>
+  <Hit_accession>KFI88070</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>4.5489e-48</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>FTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>YARGTRSYTMSHIRGKDTSIEVAVRSYLFRRGLRFRKNDKRYPGHPDVVLPKYHTIVFINGCFWHAHEGCPKYSMPKSNVEFWTAKLTRNRERDARQHAELEAAGWRVIVVWECEL-GKATREERLARLYEQI</Hsp_hseq>
+      <Hsp_midline>+    RS+ MS I  K+T  EV VR +LF +G R+RKNDKRY G PD+VLPKY T+VFI+GCFWH H  C K  +PKSN++FW  K+T+NRERD +   ELE  G++VIVVWECEL  KA   ERL RL E+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|493332938|ref|WP_006290040.1|</Hit_id>
+  <Hit_def>DNA mismatch repair protein Vsr [Parascardovia denticolens] &gt;gi|315119975|gb|EFT83107.1| DNA mismatch endonuclease Vsr [Parascardovia denticolens DSM 10105 = JCM 12538]</Hit_def>
+  <Hit_accession>WP_006290040</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>5.14696e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>VSDVLTKEQRHLNMSHIHGKDTKPEEIVKKYLFSKGYRYRKNDSRYPGRPDIVLPKYHTVIFVHGCFWHRHPGCTYAAIPSTNREFWQKKFDQNVARDKKVQGQLKADGWNIIVVWECEISRKSDRKERLQRLENEIRTAI</Hsp_hseq>
+      <Hsp_midline>++D+ T  +R   MS IH K+TKPE +V+K+LFS+G+RYRKND RY G+PDIVLPKY TV+F+HGCFWH H  C    IP +N +FW +K  +N  RD K + +L+  G+ +IVVWECE+  K+  +ERL RL  EI+ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|498420092|ref|WP_010727618.1|</Hit_id>
+  <Hit_def>DNA mismatch endonuclease Vsr [Enterococcus faecium] &gt;gi|486664487|gb|EOG03868.1| DNA mismatch endonuclease Vsr [Enterococcus faecium EnGen0171] &gt;gi|487086508|gb|EOK12615.1| DNA mismatch endonuclease Vsr [Enterococcus faecium EnGen0372] &gt;gi|487324291|gb|EOM39334.1| DNA mismatch endonuclease Vsr [Enterococcus faecium EnGen0172]</Hit_def>
+  <Hit_accession>WP_010727618</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>6.75186e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKD</Hsp_qseq>
+      <Hsp_hseq>MTDKISKEARSRNMSHIHSNNTKPEITVRKYLFSKGLRYRLYDKRFPGKPDLIFPKYNTAVFVNGCFWHHHNCKFGTTPKSNTGYWVEKFKKNQDRDLKNYESLKAIGWKVIIVWECDLKNKNV-ENTLKNLYKEITN</Hsp_hseq>
+      <Hsp_midline>MTD  +   RS  MS IHS  TKPE+ VRK+LFS+G RYR  DKR+ GKPD++ PKY T VF++GCFWH H+C  G  PKSN  +W+EK  KN++RD+KN   L+ IG+KVI+VWEC+LKNK +    L  L +EI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|696264662|ref|WP_032841823.1|</Hit_id>
+  <Hit_def>endonuclease [Bacteroides sp. 1_1_30]</Hit_def>
+  <Hit_accession>WP_032841823</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>6.93752e-48</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>DIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKD</Hsp_qseq>
+      <Hsp_hseq>DNLDKNKRSCLMAKIKQKNTEPEIIVRHFLYSKGFRYRINLKSLPGSPDIVLPKYKTVIFVHGCFWHGHTCKAGHLPTSNLDYWKLKIEKNIERDRKKNEELEMQGWNVIVVWQCEVKTLKNRHQRLFTLVLEIMN</Hsp_hseq>
+      <Hsp_midline>D    +KRS +M+KI  K T+PE++VR FL+S+GFRYR N K   G PDIVLPKYKTV+F+HGCFWHGH+C  GH+P SN+D+W  KI KN ERD K   ELE  G+ VIVVW+CE+K      +RL  LV EI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|672963088|gb|KFI58614.1|</Hit_id>
+  <Hit_def>Fis family transcriptional regulator [Bifidobacterium gallicum DSM 20093 = LMG 11596]</Hit_def>
+  <Hit_accession>KFI58614</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>9.70548e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>MTDIVSADKRSRIMSHIRGKNTKPELMVRKYLFSRGLRYRVNVRKLPGTPDIVLRKYKTVVFVNGCFWHHHDCAAFHWPKSNVEFWTEKITRNEQRDARNHRELADAGWNVVTVWECELK-KSVLEDTLQRVYRTI</Hsp_hseq>
+      <Hsp_midline>MTDI +  KRS +MS I  K TKPE++VRK+LFS+G RYR N ++  G PDIVL KYKTVVF++GCFWH H C   H PKSN++FW EKIT+N +RD +N  EL   G+ V+ VWECELK K++  + L R+   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|518510460|ref|WP_019680667.1|</Hit_id>
+  <Hit_def>Fis family transcriptional regulator [Ruminococcus flavefaciens]</Hit_def>
+  <Hit_accession>WP_019680667</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>1.008e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>DIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>DVHDKKTRSYNMSRIKGKDTKPEEMVRKALFSRGFRYRKNDKRLPGKPDIVLPKYKTVIFVNGCFWHGHYGCKYYVVPKTNSDFWLKKIHTNIERDVQKNAQLKELGWKVLTVWECKLK-KSCLEETINDLIDNIQ</Hsp_hseq>
+      <Hsp_midline>D+     RS+ MS+I  K+TKPE +VRK LFS+GFRYRKNDKR  GKPDIVLPKYKTV+F++GCFWHGH  C    +PK+N DFWL+KI  N ERD++   +L+++G+KV+ VWEC+LK K+   E +N L++ I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|736874964|ref|WP_034874605.1|</Hit_id>
+  <Hit_def>DNA mismatch repair protein Vsr [Bifidobacterium moukalabense] &gt;gi|575770328|gb|ETY71782.1| DNA mismatch repair protein Vsr [Bifidobacterium moukalabense DSM 27321]</Hit_def>
+  <Hit_accession>WP_034874605</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.51771e-47</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>FTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>YERGTRSYIMSHIRGENTSIETLVRSFLFAKGLRFRKNDKRYPGHPDVVLPKYHTVVFVNGCFWHMHEGCTKHSMPKSNVEFWSAKLVRNRERDIKQHAELEAMGWKVIVVWECEL-GKKVREERLERLYREI</Hsp_hseq>
+      <Hsp_midline>+    RS++MS I  + T  E LVR FLF++G R+RKNDKRY G PD+VLPKY TVVF++GCFWH H  C K  +PKSN++FW  K+ +NRERDIK   ELE +G+KVIVVWECEL  K +  ERL RL  EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|404338286|gb|EJZ64733.1|</Hit_id>
+  <Hit_def>DNA mismatch endonuclease Vsr [Barnesiella intestinihominis YIT 11860]</Hit_def>
+  <Hit_accession>EJZ64733</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>2.0944e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>DIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKD</Hsp_qseq>
+      <Hsp_hseq>DSCSKEKRSEIMSKVKRKDTRPEIQVRKYLFSRGLRYRTNFKSLPGSPDIVLKKYKTAIFIHGCFWHGHSCRAGHRPSSNTDYWIPKIEKNIERDSRKIEELKEKGWHVIVIWQCEINTIAKRNDRLSRLFDEIKN</Hsp_hseq>
+      <Hsp_midline>D  +  KRS +MSK+  K+T+PE+ VRK+LFS+G RYR N K   G PDIVL KYKT +FIHGCFWHGHSC  GH P SN D+W+ KI KN ERD +   EL++ G+ VIV+W+CE+   A   +RL+RL +EIK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|695338988|ref|WP_032536364.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacteroides] &gt;gi|663480299|gb|KER74941.1| hypothetical protein EC80_0212570 [Bacteroides fragilis]</Hit_def>
+  <Hit_accession>WP_032536364</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>2.47034e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHS-CNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>MTDIYTKDKRSKIMSNIGSVSTKPEIIIRKSLFSKGFRYRINYKKLPGKPDIVLPKYRTVIFVHGCFWHAHSNCKDSHLPKSNIEFWENKISSNINRDKNNIEQLVDLKWNIIVIWECEIKKKS-----LESLIEEVANCI</Hsp_hseq>
+      <Hsp_midline>MTDI+T  KRS +MS I S  TKPE+++RK LFS+GFRYR N K+  GKPDIVLPKY+TV+F+HGCFWH HS C   H+PKSN++FW  KI+ N  RD  N  +L  + + +IV+WECE+K K+     L  L+EE+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|335948652|gb|EGN10355.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF0127_00534 [Bacteroides sp. 1_1_30]</Hit_def>
+  <Hit_accession>EGN10355</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>3.80141e-47</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>MARISDKDTKPEILVRKYLFQKGFRYRKNVKDLPGKPDIVLHKYKIIIFINGCFWHGHMCKAGKLPKTNYSFWKNKIDANIVRDLKNINELQISGWKVIIIWQCEIKNKTLLDKRMNLLIHEIK</Hsp_hseq>
+      <Hsp_midline>M++I  K+TKPE+LVRK+LF +GFRYRKN K   GKPDIVL KYK ++FI+GCFWHGH C  G +PK+N  FW  KI  N  RD+KN  EL+  G+KVI++W+CE+KNK +  +R+N L+ EIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|639095727|ref|WP_024469446.1|</Hit_id>
+  <Hit_def>endonuclease [Treponema pedis]</Hit_def>
+  <Hit_accession>WP_024469446</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>3.92461e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>DIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECEL</Hsp_qseq>
+      <Hsp_hseq>DKFSQKKRSEIMSKISGKETKPEILVRKYLFAKGFRYRKNVKTLPGKPDIVLPKYKTVIFVNGCFWHGHKNCKKAALPTTNFNFWKEKIDKNIIRDRKNISDLKKMGYNVIVVWQCTL</Hsp_hseq>
+      <Hsp_midline>D F+  KRS +MSKI  KETKPE+LVRK+LF++GFRYRKN K   GKPDIVLPKYKTV+F++GCFWHGH +C K  +P +N +FW EKI KN  RD KN ++L+K+G+ VIVVW+C L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|545442835|ref|WP_021680139.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DNA mismatch endonuclease Vsr [Porphyromonas] &gt;gi|543982165|gb|ERJ85805.1| DNA mismatch endonuclease Vsr [Porphyromonas gingivalis W4087] &gt;gi|696217601|gb|KGL56453.1| hypothetical protein HQ50_02360 [Porphyromonas sp. UQD_349_COT-052_OH4946]</Hit_def>
+  <Hit_accession>WP_021680139</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>9.02652e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>DIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH--SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDAV</Hsp_qseq>
+      <Hsp_hseq>DIWDKKKRSEVMSKIPSKNTKPEIILRKALFAKGFRYRINYKKLPGKPDIVFPKYKIVIFVHGCFWHGHDIGCIDSHIPKTNTDYWVKKIAKNKERDKNNAIQILSMGWKILTVWDCEIQQ----RDNLKLLIEKIANTI</Hsp_hseq>
+      <Hsp_midline>DI+   KRS VMSKI SK TKPE+++RK LF++GFRYR N K+  GKPDIV PKYK V+F+HGCFWHGH   C   HIPK+N D+W++KI KN+ERD  N  ++  +G+K++ VW+CE++     R+ L  L+E+I + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|639745786|ref|WP_024731710.1|</Hit_id>
+  <Hit_def>DNA glycosylase [Clostridiales bacterium VE202-14]</Hit_def>
+  <Hit_accession>WP_024731710</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>9.03839e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>DIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIK</Hsp_qseq>
+      <Hsp_hseq>DKFSKEKRSDIMSHVRGKNTKPEEAIRKYLFSKGFRYRKNDKRYPGKPDIVLPKYHTVIFVNGCFWHQHPGCKSAALPETNRDYWKAKLQRNVERDAVQIRQLEEMGWYVIVLWECEISSKSKRKERLISLVNEIE</Hsp_hseq>
+      <Hsp_midline>D F+  KRS +MS +  K TKPE  +RK+LFS+GFRYRKNDKRY GKPDIVLPKY TV+F++GCFWH H  C    +P++N D+W  K+ +N ERD     +LE++G+ VIV+WECE+ +K+  +ERL  LV EI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|570841885|gb|ETO95668.1|</Hit_id>
+  <Hit_def>DNA mismatch endonuclease Vsr [Bifidobacterium sp. MSTE12]</Hit_def>
+  <Hit_accession>ETO95668</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>1.37943e-46</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>FTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>YERGTRSYIMSHIRGKDTSIETLVRSFLFAKGLRFRKNDKRYPGHPDVVLPKYHTVVFVNGCFWHMHEDCTKHAMPKSNVEFWSAKLLRNRDRDAKQHAELEAMGWRVIVVWECEL-GKKVREERLERLYREI</Hsp_hseq>
+      <Hsp_midline>+    RS++MS I  K+T  E LVR FLF++G R+RKNDKRY G PD+VLPKY TVVF++GCFWH H  C K  +PKSN++FW  K+ +NR+RD K   ELE +G++VIVVWECEL  K +  ERL RL  EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|705447368|ref|WP_033517384.1|</Hit_id>
+  <Hit_def>DNA mismatch repair protein Vsr, partial [Bifidobacterium scardovii]</Hit_def>
+  <Hit_accession>WP_033517384</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>1.5378e-46</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>FTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>YARGTRSYTMSHIRAKDTKIEVLVRRYLFARGLRFRKNDRRYPGHPDVVLPKWHAIVFVNGCFWHMHEGCAKHAMPKSNVEFWSAKLMRNHERDLRQHTELESAGWHVIVVWECEL-GKATRDERLARLYDEI</Hsp_hseq>
+      <Hsp_midline>+    RS+ MS I +K+TK EVLVR++LF++G R+RKND+RY G PD+VLPK+  +VF++GCFWH H  C K  +PKSN++FW  K+ +N ERD++  TELE  G+ VIVVWECEL  KA   ERL RL +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|503693623|ref|WP_013927699.1|</Hit_id>
+  <Hit_def>Fis family transcriptional regulator [Runella slithyformis] &gt;gi|338211466|ref|YP_004655519.1| DNA mismatch endonuclease Vsr [Runella slithyformis DSM 19594] &gt;gi|336305285|gb|AEI48387.1| DNA mismatch endonuclease Vsr [Runella slithyformis DSM 19594]</Hit_def>
+  <Hit_accession>WP_013927699</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.82091e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MTDIFTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKD</Hsp_qseq>
+      <Hsp_hseq>MADKHTPQQRSYNMSQVKSKNTKPELMVRKFLFSQGFRYRLHDKKLPGKPDMVLPKYKTVIFVHGCFFHGHEGCKYATIPQTRTEWWQEKINGNRRRDGENEARLSALGWRIITLYECELK-PAQREQTLQRLGFRVAD</Hsp_hseq>
+      <Hsp_midline>M D  TP +RS+ MS++ SK TKPE++VRKFLFSQGFRYR +DK+  GKPD+VLPKYKTV+F+HGCF+HGH  C    IP++  ++W EKI  NR RD +NE  L  +G+++I ++ECELK  A   + L RL   + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|672999567|gb|KFI94651.1|</Hit_id>
+  <Hit_def>DNA mismatch endonuclease Vsr [Bifidobacterium scardovii]</Hit_def>
+  <Hit_accession>KFI94651</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>1.97189e-46</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>FTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>YARGTRSYTMSHIRAKDTKIEVLVRRYLFARGLRFRKNDRRYPGHPDVVLPKWHAIVFVNGCFWHMHEGCAKHAMPKSNVEFWSAKLMRNHERDLRQHTELESAGWHVIVVWECEL-GKATRDERLARLYDEI</Hsp_hseq>
+      <Hsp_midline>+    RS+ MS I +K+TK EVLVR++LF++G R+RKND+RY G PD+VLPK+  +VF++GCFWH H  C K  +PKSN++FW  K+ +N ERD++  TELE  G+ VIVVWECEL  KA   ERL RL +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|727804635|ref|WP_033891623.1|</Hit_id>
+  <Hit_def>DNA mismatch repair protein Vsr, partial [Bifidobacterium saguini]</Hit_def>
+  <Hit_accession>WP_033891623</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>2.64958e-46</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>FTPSKRSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGH-SCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEI</Hsp_qseq>
+      <Hsp_hseq>YARGTRSYTMSHIRGKDTSIEVLVRSYLFRRGLRFRKNDKRYPGHPDVVLPKYRTIVFVNGCFWHMHEGCTKHSMPKSNVEFWTAKLLRNRARDAAQHAELEAAGWRVIVVWECELA-KATREERLGKLYEQI</Hsp_hseq>
+      <Hsp_midline>+    RS+ MS I  K+T  EVLVR +LF +G R+RKNDKRY G PD+VLPKY+T+VF++GCFWH H  C K  +PKSN++FW  K+ +NR RD     ELE  G++VIVVWECEL  KA   ERL +L E+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|740428147|ref|WP_038260684.1|</Hit_id>
+  <Hit_def>endonuclease [[Clostridium] litorale] &gt;gi|649362926|gb|KDR96810.1| putative very short patch repair endonuclease Vsr [ [[Clostridium] litorale DSM 5388]</Hit_def>
+  <Hit_accession>WP_038260684</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>2.76675e-46</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>RSFVMSKIHSKETKPEVLVRKFLFSQGFRYRKNDKRYAGKPDIVLPKYKTVVFIHGCFWHGHSCNKGHIPKSNMDFWLEKITKNRERDIKNETELEKIGFKVIVVWECELKNKAICRERLNRLVEEIKDA</Hsp_qseq>
+      <Hsp_hseq>RSKIMSAIPSKDTSIELSVRKYLFKNGFRFRKNDSRYPGKPDILLPKYKVAIFVNGCFWHGHGCANDRKPKTNIAYWQNKIQNNIARDLKNRIELKNMGFKVITIWECELMDNPT--ERLERLIKEILDT</Hsp_hseq>
+      <Hsp_midline>RS +MS I SK+T  E+ VRK+LF  GFR+RKND RY GKPDI+LPKYK  +F++GCFWHGH C     PK+N+ +W  KI  N  RD+KN  EL+ +GFKVI +WECEL +     ERL RL++EI D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

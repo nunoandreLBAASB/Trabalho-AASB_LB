@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>32803</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7L3</BlastOutput_query-def>
+  <BlastOutput_query-len>422</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>32803</Iteration_query-ID>
+  <Iteration_query-def>Q5F7L3</Iteration_query-def>
+  <Iteration_query-len>422</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81311665|sp|Q5GTE5.1|HTPG_WOLTR</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein HtpG; AltName: Full=Heat shock protein HtpG; AltName: Full=High temperature protein G [Wolbachia endosymbiont strain TRS of Brugia malayi]</Hit_def>
+  <Hit_accession>Q5GTE5</Hit_accession>
+  <Hit_len>637</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.4451</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>SDDRHKSSSLAPAMLAFKGRNTINMDADSNANSSNEGILLLNNGEKMGEYRLVSEEGSTLNIN-------IKSGKDKGQGITANHYGNSDINFNKASPNITTMEFKGDVNIKIDRNGQEEA---ESNGFGFYSSRKLGNKKQIPEGSKMEAIFRGNVDIVATPVYDEQGRPKSIGSAFAIDGKYSKVEVVGGEGKVVKIKGDIFAYNGGSVSVNLANKDSYFEGEAHIG</Hsp_qseq>
+      <Hsp_hseq>CDKLRYESQLNPNLLDSSGELKITISSNKDENE----LYVTDNGIGMSRQDLIGNLGTIASSGTQKFLDAIKNSKDSSQAVEL--IGKFGVGF------YSSFMVASEVIVESRKAGEEESWVWRSTGDGEYSISKLDN--QIPCGTKITLVMRPEEN-----EFLDKFRIENIVTTYS-DHINFPVEFIDEEGKSEKLNSKAAIWTKLKNDVTQEEHNDFFRGVAHVG</Hsp_hseq>
+      <Hsp_midline> D     S L P +L   G   I + ++ + N     + + +NG  M    L+   G+  +         IK+ KD  Q +     G   + F       ++     +V ++  + G+EE+    S G G YS  KL N  QIP G+K+  + R   +      + ++ R ++I + ++ D     VE +  EGK  K+      +      V     + +F G AH+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|229891467|sp|P0CA10.1|PRIM_ASFK5</Hit_id>
+  <Hit_def>RecName: Full=Putative helicase/primase complex protein; Short=pF1055L [African swine fever virus pig/Kenya/KEN-50/1950]</Hit_def>
+  <Hit_accession>P0CA10</Hit_accession>
+  <Hit_len>1048</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.73925</Hsp_evalue>
+      <Hsp_query-from>223</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>506</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>TANHYGNSDINFNKASPNITTMEFKGDVNIKIDRNGQEEAESNGFGFYSSRKLG-----------NKKQIPEGSKMEA</Hsp_qseq>
+      <Hsp_hseq>TANHVICLDANLGNRTYNIL-QRFRGDVPIFFHWNQYQKAQNDMYYFTSSREIWLNNLLKDLLEDKKIVIPTNSLMEA</Hsp_hseq>
+      <Hsp_midline>TANH    D N    + NI    F+GDV I    N  ++A+++ + F SSR++             K  IP  S MEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|259585626|sp|C6BVV4.1|RIBB_DESAD</Hit_id>
+  <Hit_def>RecName: Full=3,4-dihydroxy-2-butanone 4-phosphate synthase; Short=DHBP synthase [Desulfovibrio salexigens DSM 2638]</Hit_def>
+  <Hit_accession>C6BVV4</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.8473</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>TIEKTDKYTLVLAKQGQENNYTLNGGTEVKPLNSLIIAANGGTNNITIKGKLADG--PADAPPTIDNNSIERNINKNGYTYAWQNWSGAVMLVDQSYEGENKVTFENVTIAAHNAPAGILSDDRHKSSSLA--PAMLAF</Hsp_qseq>
+      <Hsp_hseq>TDEKTEQLGLPMMVESNSSRYQTGFTVTIEAAEGVTTGVSAADRVTTVKAAIADGAKPAD-------------LHRPGHVFPLRAREGGVL----EREGHTEATVDMMTLAGLN-PCGVLCELTNPDGTMARLPEIVEF</Hsp_hseq>
+      <Hsp_midline>T EKT++  L +  +   + Y       ++    +    +      T+K  +ADG  PAD             +++ G+ +  +   G V+      EG  + T + +T+A  N P G+L +  +   ++A  P ++ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|229891468|sp|P0CA12.1|PRIM_ASFM2</Hit_id>
+  <Hit_def>RecName: Full=Putative helicase/primase complex protein; Short=pF1055L [African swine fever virus Malawi LIL 20/1]</Hit_def>
+  <Hit_accession>P0CA12</Hit_accession>
+  <Hit_len>1102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.92586</Hsp_evalue>
+      <Hsp_query-from>223</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>511</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>TANHYGNSDINFNKASPNITTMEFKGDVNIKIDRNGQEEAESNGFGFYSSRKLG-----------NKKQIPEGSKMEA</Hsp_qseq>
+      <Hsp_hseq>TANHVICLDANLGNRTYNIL-QRFRGDVPIFFHWNQYQKAQNDMYYFTSSREIWLNNLLKDLLEDKKIVIPTNSLMEA</Hsp_hseq>
+      <Hsp_midline>TANH    D N    + NI    F+GDV I    N  ++A+++ + F SSR++             K  IP  S MEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>34923</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F800</BlastOutput_query-def>
+  <BlastOutput_query-len>119</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>34923</Iteration_query-ID>
+  <Iteration_query-def>Q5F800</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489787124|ref|WP_003691015.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|59801387|ref|YP_208099.1| phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|194098352|ref|YP_002001410.1| putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|59718282|gb|AAW89687.1| hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|193933642|gb|ACF29466.1| putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|268547994|gb|EEZ43412.1| conserved hypothetical protein [Neisseria gonorrhoeae 35/02] &gt;gi|268585242|gb|EEZ49918.1| predicted protein [Neisseria gonorrhoeae PID18] &gt;gi|535127651|gb|EQS73032.1| hypothetical protein NGEG_04768 [Neisseria gonorrhoeae FA19] &gt;gi|636862097|gb|KDM99219.1| hypothetical protein AW44_03700 [Neisseria gonorrhoeae] &gt;gi|636864018|gb|KDN00980.1| hypothetical protein BK61_06935 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003691015</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.98269e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENIQRLGNRCLPETQNP</Hsp_qseq>
+      <Hsp_hseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENIQRLGNRCLPETQNP</Hsp_hseq>
+      <Hsp_midline>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENIQRLGNRCLPETQNP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|490655765|ref|WP_004520755.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Neisseria subflava] &gt;gi|284795899|gb|EFC51246.1| CRISPR-associated protein, Csd1 family [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>WP_004520755</Hit_accession>
+  <Hit_len>596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.56034e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489842533|ref|WP_003746232.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Neisseria mucosa] &gt;gi|317400644|gb|EFV81301.1| hypothetical protein HMPREF0604_00386 [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003746232</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.89611e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKVFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAK+FNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|491857484|ref|WP_005636526.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Haemophilus haemolyticus] &gt;gi|341955660|gb|EGT82116.1| CRISPR-associated protein, Csd1 family [Haemophilus haemolyticus M21621]</Hit_def>
+  <Hit_accession>WP_005636526</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.95653e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKVFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAK+FNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|491980005|ref|WP_005703627.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Aggregatibacter aphrophilus] &gt;gi|347814706|gb|EGY31354.1| CRISPR-associated protein [Aggregatibacter aphrophilus ATCC 33389]</Hit_def>
+  <Hit_accession>WP_005703627</Hit_accession>
+  <Hit_len>597</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>2.39427e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKVFNVLEQIGKGRPLQEIAPELSANTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAK+FNVLEQIGKGRPLQEIAPELS NTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|489855025|ref|WP_003758690.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Neisseria sicca] &gt;gi|255048969|gb|EET44433.1| CRISPR-associated protein, Csd1 family [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>WP_003758690</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>2.4139e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKVFNVLEQMGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAKNLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAK+FNVLEQ+GKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLA+NLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|489781706|ref|WP_003685597.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Neisseria flavescens] &gt;gi|241319522|gb|EER55952.1| CRISPR-associated protein, Csd1 family [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003685597</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>3.05255e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKIFNVLEQIGKGRPLQEIAPELSANTRFYVLGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAKIFNVLEQIGKGRPLQEIAPELS NTRFY+LGLAPNAARISVRFWLDTTFGQLAENLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|545356077|ref|WP_021615275.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein, Csd1 family [Aggregatibacter sp. oral taxon 458] &gt;gi|541487041|gb|ERH28851.1| CRISPR-associated protein, Csd1 family [Aggregatibacter sp. oral taxon 458 str. W10330]</Hit_def>
+  <Hit_accession>WP_021615275</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>6.67609e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESVKVFNVLEQMGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLSLEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQES K+FNVLEQ+GKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HWQDL+LEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|502356972|ref|WP_012771280.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Aggregatibacter aphrophilus] &gt;gi|251792127|ref|YP_003006847.1| Csd1 family CRISPR-associated protein [Aggregatibacter aphrophilus NJ8700] &gt;gi|247533514|gb|ACS96760.1| crispr-associated protein, Csd1 family [Aggregatibacter aphrophilus NJ8700]</Hit_def>
+  <Hit_accession>WP_012771280</Hit_accession>
+  <Hit_len>596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>9.52776e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKVFNVLEQMSKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLAIEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAK+FNVLEQ+ KGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HWQDLA+EPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|491876215|ref|WP_005646984.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Haemophilus haemolyticus] &gt;gi|386907996|gb|EIJ72695.1| CRISPR-associated protein Cas8c/Csd1, subtype I-C/DVULG [Haemophilus haemolyticus HK386]</Hit_def>
+  <Hit_accession>WP_005646984</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.44434e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKVFNVLEQMGKGRPLQEIAPELSANTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLAVEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAK+FNVLEQ+GKGRPLQEIAPELS NTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HWQDLA+EPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|491978199|ref|WP_005702613.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Aggregatibacter aphrophilus] &gt;gi|353344839|gb|EHB89139.1| csd1 family CRISPR-associated protein [Aggregatibacter aphrophilus F0387]</Hit_def>
+  <Hit_accession>WP_005702613</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.55368e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKVFNVLEQIGKGRPLQEIAPELSANTRFYILGLAPNAARISVRFWLDTTFGQLAANLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAK+FNVLEQIGKGRPLQEIAPELS NTRFYILGLAPNAARISVRFWLDTTFGQLA NLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|489841048|ref|WP_003744750.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Neisseria mucosa] &gt;gi|288565594|gb|EFC87154.1| CRISPR-associated protein, Csd1 family [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003744750</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>1.32836e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFAPPDDEQESAKVFKVLEQMGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAANLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+F P DDEQESAK+F VLEQ+GKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLA NLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|489874258|ref|WP_003777776.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Neisseria macacae] &gt;gi|339887682|gb|EGQ77215.1| csd1 family CRISPR-associated protein [Neisseria macacae ATCC 33926]</Hit_def>
+  <Hit_accession>WP_003777776</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>3.35131e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIG-KGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKVFNVLKQISNKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAK+FNVL+QI  KGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|489776778|ref|WP_003680670.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Neisseria flavescens] &gt;gi|224952284|gb|EEG33493.1| CRISPR-associated protein, Csd1 family [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>WP_003680670</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.12009e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>IFTPPDGEQESTKVFNVLEQIANGRPLQDIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP D EQES K+FNVLEQI  GRPLQ+IAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|503214040|ref|WP_013448701.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Neisseria lactamica] &gt;gi|313668073|ref|YP_004048357.1| hypothetical protein NLA_7350 [Neisseria lactamica 020-06] &gt;gi|313005535|emb|CBN86971.1| Conserved hypothetical protein [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448701</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.26884e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>IFTPPDGEQESTKVFNVLEQIANGRPLQDIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP D EQES K+FNVLEQI  GRPLQ+IAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|491745994|ref|WP_005579127.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Aggregatibacter actinomycetemcomitans] &gt;gi|359755555|gb|EHK89719.1| Csd1 family CRISPR-associated protein [Aggregatibacter actinomycetemcomitans RhAA1]</Hit_def>
+  <Hit_accession>WP_005579127</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>2.06754e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKIFNVLEQIAKGRPLQDIAPELSPDTRFYILGLAPNAARISIRFWLDTTFGQLAENLARHWQDLAIEPRAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAKIFNVLEQI KGRPLQ+IAPELSP+TRFYILGLAPNAARIS+RFWLDTTFGQLAENLA HWQDLA+EP AWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|491868542|ref|WP_005642817.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Haemophilus haemolyticus] &gt;gi|341953743|gb|EGT80245.1| CRISPR-associated protein, Csd1 family [Haemophilus haemolyticus M21639]</Hit_def>
+  <Hit_accession>WP_005642817</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>2.62537e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESSKVFNVLEQVGKGRPLQEIAPELSPNTRFYILGLAPNAARISIRFWLDTAFGQLAENLEQHWQDLTLEPCAWKTTPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQES+K+FNVLEQ+GKGRPLQEIAPELSPNTRFYILGLAPNAARIS+RFWLDT FGQLAENL  HWQDL LEPCAWKT PSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|491716353|ref|WP_005560336.1|</Hit_id>
+  <Hit_def>carnitine-CoA ligase [Aggregatibacter actinomycetemcomitans] &gt;gi|348003181|gb|EGY43833.1| CRISPR-associated protein, Csd1 family [Aggregatibacter actinomycetemcomitans serotype e str. SCC393]</Hit_def>
+  <Hit_accession>WP_005560336</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>2.93136e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKIFNVLEQIAKGRPLEEIAPELSPDTRFYILGLAPNAARISIRFWLDTTFGQLAENLALHWQDLAIEPRPWKTPPSVWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAKIFNVLEQI KGRPL+EIAPELSP+TRFYILGLAPNAARIS+RFWLDTTFGQLAENLA HWQDLA+EP  WKTPPS+WRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|491697881|ref|WP_005550134.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Aggregatibacter actinomycetemcomitans] &gt;gi|347996103|gb|EGY37221.1| LOW QUALITY PROTEIN: crispr-associated protein, Csd1 family [Aggregatibacter actinomycetemcomitans serotype d str. I63B] &gt;gi|347998602|gb|EGY39514.1| LOW QUALITY PROTEIN: crispr-associated protein, Csd1 family [Aggregatibacter actinomycetemcomitans serotype a str. H5P1] &gt;gi|429150958|gb|EKX93848.1| CRISPR-associated protein, Csd1 family [Aggregatibacter actinomycetemcomitans Y4]</Hit_def>
+  <Hit_accession>WP_005550134</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>2.00661e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKIFNVLEQIAKGRPLEEIAPELSPDTRFYILGLAPNAARISIRFWLDTTFGQLAENLALHWQDLAIEPRPWKTPPSVWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAKIFNVLEQI KGRPL+EIAPELSP+TRFYILGLAPNAARIS+RFWLDTTFGQLAENLA HWQDLA+EP  WKTPPS+WRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|504515443|ref|WP_014702545.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1, partial [Aggregatibacter actinomycetemcomitans] &gt;gi|387121787|ref|YP_006287670.1| LOW QUALITY PROTEIN: crispr-associated protein, Csd1 family, partial [Aggregatibacter actinomycetemcomitans D7S-1] &gt;gi|385876279|gb|AFI87838.1| LOW QUALITY PROTEIN: crispr-associated protein, Csd1 family [Aggregatibacter actinomycetemcomitans D7S-1]</Hit_def>
+  <Hit_accession>WP_014702545</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>1.00591e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKIFNVLEQIAKGRPLEEIAPELSPDTRFYILGLAPNAARISIRFWLDTTFGQLAENLALHWQDLAIEPRPWKTPPSVWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAKIFNVLEQI KGRPL+EIAPELSP+TRFYILGLAPNAARIS+RFWLDTTFGQLAENLA HWQDLA+EP  WKTPPS+WRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|491727491|ref|WP_005565917.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Aggregatibacter actinomycetemcomitans] &gt;gi|347998987|gb|EGY39871.1| crispr-associated protein, Csd1 family [Aggregatibacter actinomycetemcomitans serotype f str. D18P1] &gt;gi|443551759|gb|ELT59489.1| crispr-associated protein, Csd1 family [Aggregatibacter actinomycetemcomitans serotype a str. A160]</Hit_def>
+  <Hit_accession>WP_005565917</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>1.20403e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKIFNVLEQIAKGRPLEEIAPELSPDTRFYILGLAPNAARISIRFWLDTTFGQLAENLALHWQDLAIEPRPWKTPPSVWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAKIFNVLEQI KGRPL+EIAPELSP+TRFYILGLAPNAARIS+RFWLDTTFGQLAENLA HWQDLA+EP  WKTPPS+WRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|491684160|ref|WP_005540298.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Aggregatibacter actinomycetemcomitans] &gt;gi|348655409|gb|EGY70864.1| CRISPR-associated protein, Csd1 family [Aggregatibacter actinomycetemcomitans D17P-3]</Hit_def>
+  <Hit_accession>WP_005540298</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>1.54566e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDEQESAKIFNVLEQIAKSRPLEEIAPELSPDTRFYILGLAPNAARISIRFWLDTTFGQLAENLALHWQDLAIEPRPWKTPPSVWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DDEQESAKIFNVLEQI K RPL+EIAPELSP+TRFYILGLAPNAARIS+RFWLDTTFGQLAENLA HWQDLA+EP  WKTPPS+WRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|491710349|ref|WP_005556489.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Aggregatibacter actinomycetemcomitans] &gt;gi|347992869|gb|EGY34246.1| CRISPR-associated protein, Csd1 family [Aggregatibacter actinomycetemcomitans serotype e str. SC1083]</Hit_def>
+  <Hit_accession>WP_005556489</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>2.89163e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFTPPDDKQESTKIFNVLEQIAKGRPLRDIAPELSPDTRFYILGLAPNAARISIRFLLDTTFGQLAGNLAQHWQDLAIEPRAWKTPPSIWRLLLQTAVLGKSENI</Hsp_hseq>
+      <Hsp_midline>+FTP DD+QES KIFNVLEQI KGRPL++IAPELSP+TRFYILGLAPNAARIS+RF LDTTFGQLA NLA HWQDLA+EP AWKTPPSIWRLLLQTAVLGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|644208167|ref|WP_025289164.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Bibersteinia trehalosi] &gt;gi|575454231|gb|AHG86052.1| Crispr-associated protein, Csd1 [Bibersteinia trehalosi USDA-ARS-USMARC-190]</Hit_def>
+  <Hit_accession>WP_025289164</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>1.52382e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDEQENQKIFEELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLALEPCAWKTPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DDEQE+ KIF  L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLALEPCAWKTPPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|749034056|ref|WP_040080916.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Mannheimia haemolytica] &gt;gi|748239179|gb|AJE08398.1| Crispr-associated protein, Csd1 [Mannheimia haemolytica USDA-ARS-USMARC-184]</Hit_def>
+  <Hit_accession>WP_040080916</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>1.69314e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDEQENQKIFEELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLALEPCAWKTPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DDEQE+ KIF  L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLALEPCAWKTPPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|493292990|ref|WP_006250670.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Mannheimia haemolytica] &gt;gi|525656093|ref|YP_008219474.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica D171] &gt;gi|261309864|gb|EEY11081.1| CRISPR-associated protein, CT1133 [Mannheimia haemolytica serotype A2 str. OVINE] &gt;gi|523431331|gb|AGQ37969.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica D171]</Hit_def>
+  <Hit_accession>WP_006250670</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>1.72817e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDEQENQKIFEELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLALEPCAWKTPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DDEQE+ KIF  L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLALEPCAWKTPPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|493295068|ref|WP_006252735.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Mannheimia haemolytica] &gt;gi|261311974|gb|EEY13116.1| CRISPR-associated protein, CT1133 [Mannheimia haemolytica serotype A2 str. BOVINE]</Hit_def>
+  <Hit_accession>WP_006252735</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>1.78209e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDEQENQKIFEELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLALEPCAWKTPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DDEQE+ KIF  L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLALEPCAWKTPPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|517482313|ref|WP_018652891.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Actinobacillus capsulatus]</Hit_def>
+  <Hit_accession>WP_018652891</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>6.83796e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDDQENQKIFDELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGRLAKNLSEHWQDLALEPCAWKTPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DD+QE+ KIF+ L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFG+LA+NL+ HWQDLALEPCAWKTPPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|665838459|ref|WP_031206576.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Mannheimia haemolytica]</Hit_def>
+  <Hit_accession>WP_031206576</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.45794e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDEQENQKIFEELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLALEPCPWKTPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DDEQE+ KIF  L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLALEPC WKTPPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|493295849|ref|WP_006253508.1|</Hit_id>
+  <Hit_def>Csd1 family CRISPR-associated protein [Mannheimia haemolytica] &gt;gi|472333882|ref|YP_007666157.1| Crispr-associated protein, Csd1 [Mannheimia haemolytica USDA-ARS-USMARC-183] &gt;gi|482886278|ref|YP_007883451.1| CRISPR-associated protein Cas8c/Csd1, subtype I-C/DVULG [Mannheimia haemolytica M42548] &gt;gi|525663034|ref|YP_008221969.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica D174] &gt;gi|525701709|ref|YP_008233396.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica D153] &gt;gi|526468415|ref|YP_008338545.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica USMARC_2286] &gt;gi|452087603|gb|EME03980.1| Csd1 family CRISPR-associated protein [Mannheimia haemolytica serotype 6 str. H23] &gt;gi|472258119|gb|AGI32649.1| Crispr-associated protein, Csd1 [Mannheimia haemolytica USDA-ARS-USMARC-183] &gt;gi|481064879|gb|AGK02095.1| CRISPR-associated protein Cas8c/Csd1, subtype I-C/DVULG [Mannheimia haemolytica M42548] &gt;gi|523433846|gb|AGQ40483.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica D174] &gt;gi|523447033|gb|AGQ24918.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica D153] &gt;gi|526274623|gb|AGR74823.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica USMARC_2286] &gt;gi|528825071|gb|EPZ01876.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica D38] &gt;gi|528876845|gb|EPZ27871.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica MhBrain2012] &gt;gi|528878469|gb|EPZ29477.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica MhSwine2000]</Hit_def>
+  <Hit_accession>WP_006253508</Hit_accession>
+  <Hit_len>569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>1.46863e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDEQENQKIFEELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLALEPCPWKTPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DDEQE+ KIF  L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLALEPC WKTPPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|505297556|ref|WP_015484658.1|</Hit_id>
+  <Hit_def>Crispr-associated protein, Csd1 [Mannheimia haemolytica] &gt;gi|472336765|ref|YP_007669039.1| Crispr-associated protein, Csd1 [Mannheimia haemolytica USDA-ARS-USMARC-185] &gt;gi|472261002|gb|AGI35531.1| Crispr-associated protein, Csd1 [Mannheimia haemolytica USDA-ARS-USMARC-185]</Hit_def>
+  <Hit_accession>WP_015484658</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.65595e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDEQENQKIFEELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLALEPCPWKTPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DDEQE+ KIF  L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLALEPC WKTPPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|153091350|gb|EDN73324.1|</Hit_id>
+  <Hit_def>hypothetical protein MHA_0344 [Mannheimia haemolytica PHL213] &gt;gi|528878866|gb|EPZ29868.1| CRISPR-associated protein Csd1 [Mannheimia haemolytica D193]</Hit_def>
+  <Hit_accession>EDN73324</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>1.69753e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDEQENQKIFEELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLALEPCPWKTPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DDEQE+ KIF  L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLALEPC WKTPPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|665824733|ref|WP_031192850.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Mannheimia haemolytica]</Hit_def>
+  <Hit_accession>WP_031192850</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.7236e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDEQENQKIFEELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLALEPCPWKTPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DDEQE+ KIF  L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLALEPC WKTPPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|643487630|ref|WP_025217638.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Mannheimia varigena] &gt;gi|575443751|gb|AHG75933.1| Crispr-associated protein, Csd1 [Mannheimia varigena USDA-ARS-USMARC-1296]</Hit_def>
+  <Hit_accession>WP_025217638</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>2.38787e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDDQENQKIFDELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLAIEPCAWKNPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DD+QE+ KIF+ L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLA+EPCAWK PPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|643669815|ref|WP_025247935.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Mannheimia varigena] &gt;gi|575445776|gb|AHG77943.1| Crispr-associated protein, Csd1 [Mannheimia varigena USDA-ARS-USMARC-1312]</Hit_def>
+  <Hit_accession>WP_025247935</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>2.92884e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>LMTPPDDDQENQKIFDELQKISKGRPLAEISPELSENTRFYVLGLAPNAARISVRFWLDTTFGQLAKNLSEHWQDLAIEPCAWKNPPSIWRLLLQTASLGKSENI</Hsp_hseq>
+      <Hsp_midline>+ TP DD+QE+ KIF+ L++I KGRPL EI+PELS NTRFY+LGLAPNAARISVRFWLDTTFGQLA+NL+ HWQDLA+EPCAWK PPSIWRLLLQTA LGKSENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|499513524|ref|WP_011200164.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [[Mannheimia] succiniciproducens] &gt;gi|52425042|ref|YP_088179.1| hypothetical protein MS0987 [Mannheimia succiniciproducens MBEL55E] &gt;gi|52307094|gb|AAU37594.1| unknown [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>WP_011200164</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>3.5557e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>VFSPPDDEQESQKVFNILEQIAKGRGIKEVSPDLAPDTRFYILGLAPNAARISIRFWLDTTFGQLAEHLAQHWQDLAIEPCPWKTFPSIWRLLLQTAVLSKTENI</Hsp_hseq>
+      <Hsp_midline>+F+P DDEQES K+FN+LEQI KGR ++E++P+L+P+TRFYILGLAPNAARIS+RFWLDTTFGQLAE+LA HWQDLA+EPC WKT PSIWRLLLQTAVL K+ENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|496408372|ref|WP_009117236.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Neisseria wadsworthii] &gt;gi|349790667|gb|EGZ44570.1| csd1 family CRISPR-associated protein [Neisseria wadsworthii 9715]</Hit_def>
+  <Hit_accession>WP_009117236</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>1.29188e-48</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>PSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAV</Hsp_qseq>
+      <Hsp_hseq>PPDDEQESKKVFNILEQITKGRPLQEAAPELSPDTRFYILGLAPNASRISIRFWLDTTFGKLAEHLAQHWKDLALEPCAWKTPPSIFKLLLETAI</Hsp_hseq>
+      <Hsp_midline>P DDEQES K+FN+LEQI KGRPLQE APELSP+TRFYILGLAPNA+RIS+RFWLDTTFG+LAE+LA HW+DLALEPCAWKTPPSI++LLL+TA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|736603616|ref|WP_034612302.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Chelonobacter oris] &gt;gi|703885638|gb|KGQ71411.1| CRISPR-associated protein Csd1 [Chelonobacter oris]</Hit_def>
+  <Hit_accession>WP_034612302</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>4.0578e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAV</Hsp_qseq>
+      <Hsp_hseq>LLKPPTDEQESRKLFNVLEQIAKGRPMQEVAPDLSPDTRFYVLGLSPNAARISVRFWLDTRFGQLAENIAQHWQDLALEPCAWRTPPSMFGLLLETAI</Hsp_hseq>
+      <Hsp_midline>+  P  DEQES K+FNVLEQI KGRP+QE+AP+LSP+TRFY+LGL+PNAARISVRFWLDT FGQLAEN+A HWQDLALEPCAW+TPPS++ LLL+TA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|489894296|ref|WP_003797746.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Kingella oralis] &gt;gi|237867200|gb|EEP68242.1| CRISPR-associated protein, Csd1 family [Kingella oralis ATCC 51147]</Hit_def>
+  <Hit_accession>WP_003797746</Hit_accession>
+  <Hit_len>611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.777</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>6.23183e-46</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>DDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAV</Hsp_qseq>
+      <Hsp_hseq>DDEQEAQKVFYILEQVAKGRPLHKVAPELSPDTRFYILGLAPNAARISIRFWLDTSFGQLAAHLAQHWQDLALEPKAWKTPPSVWRLLLETAV</Hsp_hseq>
+      <Hsp_midline>DDEQE+ K+F +LEQ+ KGRPL ++APELSP+TRFYILGLAPNAARIS+RFWLDT+FGQLA +LA HWQDLALEP AWKTPPS+WRLLL+TAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|494044702|ref|WP_006986820.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Cardiobacterium valvarum] &gt;gi|364572984|gb|EHM50511.1| CRISPR-associated protein, Csd1 family [Cardiobacterium valvarum F0432]</Hit_def>
+  <Hit_accession>WP_006986820</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>1.51658e-45</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>330</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>DDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAV</Hsp_qseq>
+      <Hsp_hseq>DDDEESAKVFAVLEQVAKGRPLQEVAPELSPDTRFYVLGLAPNASRLSIRFWLDTTFGQLAQNLAQHWQDLAIEPRSWRTPPSIFKLLLETAI</Hsp_hseq>
+      <Hsp_midline>DD++ESAK+F VLEQ+ KGRPLQE+APELSP+TRFY+LGLAPNA+R+S+RFWLDTTFGQLA+NLA HWQDLA+EP +W+TPPSI++LLL+TA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|489878214|ref|WP_003781698.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Kingella denitrificans] &gt;gi|324982396|gb|EGC18024.1| CRISPR-associated protein, Csd1 family [Kingella denitrificans ATCC 33394]</Hit_def>
+  <Hit_accession>WP_003781698</Hit_accession>
+  <Hit_len>624</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>1.61403e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWK--TPPSIWRLLLQT</Hsp_qseq>
+      <Hsp_hseq>VFMPPNDEQESVKIFNVLEQIGKGCPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWKDLHIEPSAWKKGKEPPVWRILLET</Hsp_hseq>
+      <Hsp_midline>+F P +DEQES KIFNVLEQIGKG PLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HW+DL +EP AWK    P +WR+LL+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|489859103|ref|WP_003762755.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Neisseria sicca] &gt;gi|385700126|gb|EIG30382.1| CRISPR-associated protein Cas8c/Csd1, subtype I-C/DVULG [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003762755</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>2.11729e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWK--TPPSIWRLLLQT</Hsp_qseq>
+      <Hsp_hseq>VFMPPNDEQESVKIFNVLEQIGKGCPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAQHWKDLHIEPSAWKKGKEPPVWRILLET</Hsp_hseq>
+      <Hsp_midline>+F P +DEQES KIFNVLEQIGKG PLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLA HW+DL +EP AWK    P +WR+LL+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|258520193|gb|EEV89052.1|</Hit_id>
+  <Hit_def>putative CRISPR-associated protein, Csd1 family [Cardiobacterium hominis ATCC 15826]</Hit_def>
+  <Hit_accession>EEV89052</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>5.11363e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>MMTVTDGE-ENQKVFDILQQIAKDRSLKEIAPNLHEDTRFYILGLEPNVSRISIRFWLNTTFGQLAQNLTAHWQDLAIEPCPWQTPPSIWRLLIQTALLGKTENI</Hsp_hseq>
+      <Hsp_midline>M T +D E E+ K+F++L+QI K R L+EIAP L  +TRFYILGL PN +RIS+RFWL+TTFGQLA+NL  HWQDLA+EPC W+TPPSIWRLL+QTA+LGK+ENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|652756696|ref|WP_027074457.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Mannheimia granulomatis]</Hit_def>
+  <Hit_accession>WP_027074457</Hit_accession>
+  <Hit_len>624</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>2.26975e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKT-PPSIWRLLLQTAVLGKSEN</Hsp_qseq>
+      <Hsp_hseq>VLTPPDDEQEAEKVFHVLEQLAKGRPLQEIAPELSPDTRFYVLGLAPNAARISIRFWLDTTFGQLAENLAKYWEDLIIEPKAWKSKPPSVWCILLETAPKRKDAN</Hsp_hseq>
+      <Hsp_midline>+ TP DDEQE+ K+F+VLEQ+ KGRPLQEIAPELSP+TRFY+LGLAPNAARIS+RFWLDTTFGQLAENLA +W+DL +EP AWK+ PPS+W +LL+TA   K  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|750050305|ref|WP_040354990.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_040354990</Hit_accession>
+  <Hit_len>616</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>1.03529e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>324</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFTPSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVLGKSENI</Hsp_qseq>
+      <Hsp_hseq>MMTVTDGE-ENQKVFDILQQIAKDRSLKEIAPNLHEDTRFYILGLEPNVSRISIRFWLNTTFGQLAQNLTAHWQDLAIEPCPWQTPPSIWRLLIQTALLGKTENI</Hsp_hseq>
+      <Hsp_midline>M T +D E E+ K+F++L+QI K R L+EIAP L  +TRFYILGL PN +RIS+RFWL+TTFGQLA+NL  HWQDLA+EPC W+TPPSIWRLL+QTA+LGK+ENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|746004437|ref|WP_039081831.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Gallibacterium anatis] &gt;gi|702409619|gb|KGQ38171.1| CRISPR-associated protein Csd1 [Gallibacterium anatis]</Hit_def>
+  <Hit_accession>WP_039081831</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.9175e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>PSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVL------GKSENI</Hsp_qseq>
+      <Hsp_hseq>PADDEQESSKIFNILDQVRKGRPLQEIDPKLSEKTQFFILGLAPNAARISIRFWLKTDFGRLAKNLANHWADLALEPCPWKKPPSLYSLLLQTTPLDKTSKKGKAEHI</Hsp_hseq>
+      <Hsp_midline>P+DDEQES+KIFN+L+Q+ KGRPLQEI P+LS  T+F+ILGLAPNAARIS+RFWL T FG+LA+NLA+HW DLALEPC WK PPS++ LLLQT  L      GK+E+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|746015456|ref|WP_039091921.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Gallibacterium anatis] &gt;gi|702396586|gb|KGQ26643.1| CRISPR-associated protein Csd1 [Gallibacterium anatis] &gt;gi|702397823|gb|KGQ27796.1| CRISPR-associated protein Csd1 [Gallibacterium anatis]</Hit_def>
+  <Hit_accession>WP_039091921</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>2.60139e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>PSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVL------GKSENI</Hsp_qseq>
+      <Hsp_hseq>PADDEQESSKIFNILDQVRKGRPLPEIDPKLSAKTQFFILGLAPNASRISIRFWLKTDFGQLAKNLANHWADLALEPCPWKKPPSLYSLLLQTTPLDKTSKKGKAENI</Hsp_hseq>
+      <Hsp_midline>P+DDEQES+KIFN+L+Q+ KGRPL EI P+LS  T+F+ILGLAPNA+RIS+RFWL T FGQLA+NLA+HW DLALEPC WK PPS++ LLLQT  L      GK+ENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|746097614|ref|WP_039163963.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Gallibacterium anatis] &gt;gi|703614921|gb|KGQ61129.1| CRISPR-associated protein Csd1 [Gallibacterium anatis 4895]</Hit_def>
+  <Hit_accession>WP_039163963</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>2.9856e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>PSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVL------GKSENI</Hsp_qseq>
+      <Hsp_hseq>PADDEQESSKIFNILDQVRKGRPLPEIDPKLSAKTQFFILGLAPNASRISIRFWLKTDFGQLAKNLANHWADLALEPCPWKKPPSLYSLLLQTTPLDKTSKKGKAENI</Hsp_hseq>
+      <Hsp_midline>P+DDEQES+KIFN+L+Q+ KGRPL EI P+LS  T+F+ILGLAPNA+RIS+RFWL T FGQLA+NLA+HW DLALEPC WK PPS++ LLLQT  L      GK+ENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|746090764|ref|WP_039157479.1|</Hit_id>
+  <Hit_def>CRISPR-associated protein Csd1 [Gallibacterium anatis] &gt;gi|703621277|gb|KGQ67252.1| CRISPR-associated protein Csd1 [Gallibacterium anatis]</Hit_def>
+  <Hit_accession>WP_039157479</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>3.10545e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>PSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVL------GKSENI</Hsp_qseq>
+      <Hsp_hseq>PADDEQESSKIFNILDQVRKGRPLPEIDPKLSAKTQFFILGLAPNASRISIRFWLKTDFGQLAKNLANHWADLALEPCPWKKPPSLYSLLLQTTPLDKTSKKGKAENI</Hsp_hseq>
+      <Hsp_midline>P+DDEQES+KIFN+L+Q+ KGRPL EI P+LS  T+F+ILGLAPNA+RIS+RFWL T FGQLA+NLA+HW DLALEPC WK PPS++ LLLQT  L      GK+ENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|517157856|ref|WP_018346674.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gallibacterium anatis] &gt;gi|703612098|gb|KGQ58428.1| CRISPR-associated protein Csd1 [Gallibacterium anatis DSM 16844 = F 149]</Hit_def>
+  <Hit_accession>WP_018346674</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>4.05045e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>PSDDEQESAKIFNVLEQIGKGRPLQEIAPELSPNTRFYILGLAPNAARISVRFWLDTTFGQLAENLAHHWQDLALEPCAWKTPPSIWRLLLQTAVL------GKSENI</Hsp_qseq>
+      <Hsp_hseq>PSDDEQESSKIFNILDQVRKGRPLPEIDPKLSAKTQFFILGLAPNASRISIRFWLKTDFGRLAKNLANHWADLALEPCPWKKPPSLYSLLLQTTPLDKTSKKGKAENI</Hsp_hseq>
+      <Hsp_midline>PSDDEQES+KIFN+L+Q+ KGRPL EI P+LS  T+F+ILGLAPNA+RIS+RFWL T FG+LA+NLA+HW DLALEPC WK PPS++ LLLQT  L      GK+ENI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

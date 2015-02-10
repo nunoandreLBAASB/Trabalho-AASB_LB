@@ -1,0 +1,1613 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>31055</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7R0</BlastOutput_query-def>
+  <BlastOutput_query-len>453</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>31055</Iteration_query-ID>
+  <Iteration_query-def>Q5F7R0</Iteration_query-def>
+  <Iteration_query-len>453</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|254763288|sp|P37469.2|DNAC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P37469</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>8.95245e-75</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDL-------IGGLDKRLDGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYV-SQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMPRAGR---DEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDG-NENPSIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>NIEAEQAVLGAIFLQPSALTLASEVLIPDDFYRMSHQKIYNAMLVLGDRGEPVDLVTVTSELANTDLLEEVGGISYLTDIANSVPTAANIEYYAKIVEEKSILRRLIRTATTI-----AQDGYTREDEVEDLLSEAEKTIMEVAQRKNTSAFQNIKDVLVQTYDNIEQLHNR-KGDITGIPTGFTELDRMTAGFQRNDLIIVAARPSVGKTAFALNIAQNVATKTDESVAIFSLEMGAEQLVMRMLCAEGNINAQNLRTGNLTEEDWGKLTMAMGSLSNSGIYIDDTPGIRVSEIRAKCRRLKQESGLGMILIDYLQLIQGSGRSKDNRQQEVSEISRELKSIARELQVPVIALSQLSRGVEQRQDKRPMMSDIRESGSIEQDADIVAFLYRDDYYDKETENKNIIEIIIAKQRNGPVGTVSLAFVKEYNKF</Hsp_hseq>
+      <Hsp_midline>++ AEQ +LG I ++P+A+   + +L P+ FY+  H+ I+ A+L +    EP+D++T+  +L      E  GG++YL D+  + P+A NI  Y  IV ++ + R L++ +  I     ++DG T  +++     E      +  +R+  +  Q ++D+       I  L  R  G   G+PTG  +LD MT G    +LI++AARPS+GKT  A NIA+  A K  ++V   S EM A +L  R + AE NI  QNL+TGNLT+ D+  + + + S +    +  +   + V E+    +  K  +GL ++++D+L ++  +GR   +   E+  ISR LK++A EL  PV+ ++QL+RG  ++ DKRP M+DIR SG+IEQDA+I+   +R+ YYD   EN +I E+IIAK R+G +GTV   +  ++ KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20137939|sp|Q9CNL6.1|DNAB_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CNL6</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>1.63425e-72</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>456</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGLDKRLDGVRF-----------GLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGN-LTQSDY----ANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKE-KKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGN-ENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFEEEPDLAWQAPKHDEY</Hsp_qseq>
+      <Hsp_hseq>SLEAEQSVLGGILIHPAHWDSISDMLIADDFYLAAHRVIFQEMENLLRQGKPIDLINLYEFLREKNLSEDVGGFAYLAELSKNTPSVSNIVSYAAIVRDRAILRDLISVSNDVAQSCYTTKGMEVKDILDEAERKVFAISE---KRTTSNEGP--QNICAILEKTIDRIELLSKTEGHNGITGVSTGFDALDKKTAGLQPSDLIIVAARPSMGKTTFAMNLCENAALKSDKPVLVFSLEMPAEQIMMRSLASLSRVDQTKIRTGQGLDQSDWSKIGSTMGLFANKPNLYIDDSSG--LTPTELRSRARRVYRENGGLSLIMVDYLQLMRAPGFADNRTLEIAEISRSLKALAKELEVPVIALSQLNRTLENRADKRPVNSDLRESGSIEQDADLIMFIYRDEVYNENSEDKGVAEIIIGKQRNGPIGRVRLAFRGQFSRFD---NLAEQRDIRDDY</Hsp_hseq>
+      <Hsp_midline>S+ AEQ++LGGILI P      + +L  + FY A HR+IF+ + ++    +PID+I L + L  +  +E+ GG AYL +L++NTPS  NI  Y  IV DR + R L+  S  + +   +  G  V + L +A  ++ A+ +   KR T   G   +++   L+K +D +             G+ TG   LD  T GL   +LI++AARPSMGKT  A N+    ALK  K V   S EM A ++  R +A+   +    ++TG  L QSD+    + M ++ ++   +  D +   L   EL   A+   +   GL L++VD+L +M  P    +   E+  ISR LK LA EL  PV+ ++QLNR    +ADKRP  +D+R SG+IEQDA++I+  +R+  Y+ N E+  +AE+II K R+G +G V   ++GQF +F+   +LA Q    D+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81390326|sp|Q6ABX1.1|DNAB_LEIXX</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Leifsonia xyli subsp. xyli str. CTCB07]</Hit_def>
+  <Hit_accession>Q6ABX1</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>5.72678e-68</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>436</Hsp_align-len>
+      <Hsp_qseq>AEQNILGGILIEPTAIARCAILTP-EKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGLD-----KRLDGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFA-LKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANM----------PIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMPRAGRDEV--AELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPSI--AELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>AEQSALGGMLLSKDAVADVVEVVRGTDFYIPKHEIVYDAILSLYSHGEPTDVITVTDELTKLGELSRAGGAEYLHTLTSLVPTAANAGYYANIVAEKALLRRLVEAGTRITQMGY-KAEGEVLDLVNNAQAEIYSVTG---TQEVEDYVPLTEAVTVAIDEIEASKHKDGSMTGVPTGFTELDELTNGLHPGQMIIVAARPALGKSTLALDFARAAAIKHDLPTIFFSLEMGRSEIAMRLLSAEATVPLQHMRKGTVDNRDWTTIAATRGRINDAPLYIDDSP------NMTLVEIRAKCRRLKQR---VGLKMVIIDYLQLMTSGKRVESRQQEVSEFSRALKLLAKELQVPVIALSQLNRGPEQRADKLPALSDLRESGSIEQDADVVVLLHRESAYE-KDNPRAGEADLIVAKHRNGPTKTVKVAFQGMYSRF</Hsp_hseq>
+      <Hsp_midline>AEQ+ LGG+L+   A+A    +     FY  +H I++ A+L + +  EP D+IT+ D+L   GE   AGG  YL  L    P+A N   Y  IV ++ + R L++A   I ++   K  G V + ++ A  E+ +V      +E + +    E +   +D     K  DG   G+PTG  +LD +T GL  G +I++AARP++GK+ LA + AR A +K      F S EM   E+A R ++AE  +P+Q+++ G +   D+  +          P+Y+  +       N  L+ +   C   K++    GL ++++D+L +M    R E    E+   SR LK LA EL  PV+ ++QLNRG  ++ADK P ++D+R SG+IEQDA+++++ HRES Y+  +NP    A+LI+AK+R+G   TV   ++G + +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1352280|sp|P49519.1|DNAB_ODOSI</Hit_id>
+  <Hit_def>RecName: Full=Probable replicative DNA helicase (chloroplast) [Odontella sinensis]</Hit_def>
+  <Hit_accession>P49519</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>2.98828e-66</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>AEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKA------SAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGLDKRLDGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKA-VHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLT---TGLDLLVVDHLHIMPRA---GRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGN----ENPSIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>AEKIVLSSLLISSEAIETCLRSLTIDAFYFKNHREIYKAILIMYKKNTPIDIVTLNTFLQNQGLLPKIGGIKVLIELVNQLPNLVYLEEYIRIIQDKYVRRSLIKLGYEAINSGYITNISLEEILISLEKQMFSLTNE---IKNQDVFSSVDLFSQILLELKYKSSK---PVLAGLSSGFYDLDSLTQGFQKSDLIIIAGRPSMGKTAFCLNIATNIVKKYKLPILFFSLEMSKEQLAYRLLSAEALINPMRLRNGHLNKKDWLKLHRIIKNLSSLPFFID-DTPNLSIQAIRSKVKKLLFEQNTIGLVVIDYLQLMQSSTLKSSNRVQELSQITRSLKNIAREFNVPVIALSQLSRNVENRIIKRPILSDLRESGSIEQDADLVLMLYRDQYYNSNNENDEQLDITELILAKQRNGPIGTIQLKFDANYTKF</Hsp_hseq>
+      <Hsp_midline>AE+ +L  +LI   AI  C   LT + FY   HR I++A+L M   N PIDI+TLN  L+ +G     GG+  LI+L    P+   +  Y+ I+ D++V R L+K       S  I  I++ +   ++ +++    +E   +    V      F Q + +L     K    V  GL +G   LD +T G    +LI+IA RPSMGKT    NIA   +K+ K  + F S EMS  +LA R ++AE  I    L+ G+L + D+  +   +       F ++ D  N+      +K KKL      + L+V+D+L +M  +     + V EL  I+R LKN+A E N PV+ ++QL+R    +  KRP ++D+R SG+IEQDA++++M +R+ YY+ N    E   I ELI+AK R+G +GT+   +   + KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81170429|sp|Q8X5V3.1|DNAB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8X5V3</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>3.63333e-66</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>447</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>451</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFG-QTVEDLIGGLDKRL--------DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYA----NMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR-ESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFEEEPDLAWQAPKHDE</Hsp_qseq>
+      <Hsp_hseq>SIEAEQSVLGGLMLDNERWDDVAERVVADDFYTRPHRHIFTEMARLQESGSPIDLITLAESLERQGQLDSVGGFAYLAELSKNTPSAANISSYADIVRERAVVREMISVANEIAEAGFDPQGRTSEDLLDLAE---SRVFKIAESRANKDEGPKNIADVLDATVARIEQLFQQPHDGVT-GVNTGYDDLNKKTAGLQPSDLIIVAARPSMGKTTFAMNLVENAAMLQDKPVLIFSLEMPSEQIMMRSLASLSRVDQTKIRTGQLDDEDWARISGTMGILL-EKRNIYIDDSSGLTPTEVRSRARRIAREHGGIGLIMIDYLQLMRVPALSDNRTLEIAEISRSLKALAKELNVPVVALSQLNRSLEQRADKRPVNSDLRESGSIEQDADLIMFIYRDEVYHENSDLKGIAEIIIGKQRNGPIGTVRLTFNGQWSRFDN-----YAGPQYDD</Hsp_hseq>
+      <Hsp_midline>S+ AEQ++LGG++++       A  +  + FY   HR IF  +  +  +  PID+ITL + LE +G+ ++ GG AYL +L++NTPSA NIS Y  IV +R V R ++  +  I +      G T  + L  A    + V K A  R  K  G + + D++     R+        DGV  G+ TG   L+  T GL   +LI++AARPSMGKT  A N+    A+ Q K V   S EM + ++  R +A+   +    ++TG L   D+A     M I + + +    D +  L   +      +  +   G+ L+++D+L +M  P    +   E+  ISR LK LA ELN PVV ++QLNR   ++ADKRP  +D+R SG+IEQDA++I+  +R E Y++ ++   IAE+II K R+G +GTV   + GQ+ +F+      +  P++D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|61222609|sp|P0A1Q4.1|DNAB_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|61222610|sp|P0A1Q5.1|DNAB_SALTI RecName: Full=Replicative DNA helicase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P0A1Q4</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>4.43138e-66</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>447</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRE--TKTFGQTVEDLIGGLDKRL----DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYA----NMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR-ESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFEEEPDLAWQAPKHDE</Hsp_qseq>
+      <Hsp_hseq>SIEAEQSVLGGLMLDNERWDDVAERVVAEDFYTRPHRHIFTEMGRLQESGSPIDLITLAESLERQGQLDSVGGFAYLAELSKNTPSAANISAYADIVRERAVVRDMIAVAHEIADAGYDPQGRNSDELLDLAESRVFQIAENRANKDEGPKSIDQILDATVARIEQLFQQPHDGV-TGVDTGYQDLNKKTAGLQRSDLIIVAARPSMGKTTFAMNLCENAAMLQDKPVLIFSLEMPGEQIMMRMLASLSRVDQTRIRTGQLDDEDWARISGTMGILL-EKRNMYIDDSSGLTPTEVRSRARRIFREHGGLSLIMIDYLQLMRVPSLSDNRTLEIAEISRSLKALAKELQVPVVALSQLNRSLEQRADKRPVNSDLRESGSIEQDADLIMFIYRDEVYHENSDLKGIAEIIIGKQRNGPIGTVRLTFNGQWSRFDN-----YAGPQYDD</Hsp_hseq>
+      <Hsp_midline>S+ AEQ++LGG++++       A  +  E FY   HR IF  +  +  +  PID+ITL + LE +G+ ++ GG AYL +L++NTPSA NIS Y  IV +R V R ++  +  I        G    E L  A   +  + ++   ++   K+  Q ++  +  +++      DGV  G+ TG   L+  T GL   +LI++AARPSMGKT  A N+    A+ Q K V   S EM   ++  R +A+   +    ++TG L   D+A     M I + + +    D +  L   +      +  +   GL L+++D+L +M  P    +   E+  ISR LK LA EL  PVV ++QLNR   ++ADKRP  +D+R SG+IEQDA++I+  +R E Y++ ++   IAE+II K R+G +GTV   + GQ+ +F+      +  P++D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|20141388|sp|P45256.2|DNAB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45256</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>4.68769e-66</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>448</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>455</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPT---AIARCAILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFG-QTVEDLIGGLDKRLD---------GVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTG-NLTQSDYANMPIYVSQAKEWK---FDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR-ESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFEEEPDLAWQAPKHDEY</Hsp_qseq>
+      <Hsp_hseq>STEAEQAVLGGIMLSNQHWDGIAERVI--ADDFYTFQHRLIFTEMEHLMRNQSPIDLITLDQALRSRGVSDEVGGFAYLAELSNNTPNAINILAYADIVREKAILRELISVGNRIAENSYSPKGQDIKLILDEAEREVFAI---AEKRTTSSEGPQNVINVLESTIEKIDILSKLENHSGVT-GVTTGFTDLDKKTAGLQPSDLIIVAARPSMGKTTFAMNLCENAAMASEKPVLVFSLEMPAEQIMMRMIASLARVDQTKIRTGQNLDEIEWNKIASVVGMFKQKNNLFIDDSSGLTPTDVRSRARRVYRENGGLSMIMVDYLQLMRAPAFSDNRTLEIAEISRSLKALAKELQVPVVALSQLNRTLEQRGDKRPVNSDLRESGSIEQDADLIMFIYRDEVYNDNSEDKGVAEIIIGKQRNGPIGRVRLKFNGQFSRFD---NLAEQREYRDDY</Hsp_hseq>
+      <Hsp_midline>S  AEQ +LGGI++       IA   I   + FY  QHR+IF  +  +     PID+ITL+  L +RG ++  GG AYL +L+ NTP+A NI  Y  IV ++ + R L+     I + + S  G  +   L +A  E+ A+   A KR T + G Q V +++    +++D         GV  G+ TG   LD  T GL   +LI++AARPSMGKT  A N+    A+   K V   S EM A ++  R +A+   +    ++TG NL + ++  +   V   K+      D +  L   D      +  +   GL +++VD+L +M  P    +   E+  ISR LK LA EL  PVV ++QLNR   ++ DKRP  +D+R SG+IEQDA++I+  +R E Y D +E+  +AE+II K R+G +G V   + GQF +F+   +LA Q    D+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81170430|sp|Q8FB22.2|DNAB_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FB22</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>5.02341e-66</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>447</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>451</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFG-QTVEDLIGGLDKRL--------DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYA----NMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR-ESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFEEEPDLAWQAPKHDE</Hsp_qseq>
+      <Hsp_hseq>SIEAEQSVLGGLMLDNERWDDVAERVVADDFYTRPHRHIFTEMARLQESGSPIDLITLAESLERQGQLDSVGGFAYLAELSKNTPSAANISAYADIVRERAVVREMISVANEIAEAGFDPQGRTSEDLLDLAE---SRVFKIAESRANKDEGPKNIADVLDATVARIEQLFQQPHDGV-TGVNTGYDDLNKKTAGLQPSDLIIVAARPSMGKTTFAMNLVENAAMLQDKPVLIFSLEMPSEQIMMRSLASLSRVDQTKIRTGQLDDEDWARISGTMGILL-EKRNIYIDDSSGLTPTEVRSRARRIAREHGGIGLIMIDYLQLMRVPALSDNRTLEIAEISRSLKALAKELNVPVVALSQLNRSLEQRADKRPVNSDLRESGSIEQDADLIMFIYRDEVYHENSDLKGIAEIIIGKQRNGPIGTVRLTFNGQWSRFDN-----YAGPQYDD</Hsp_hseq>
+      <Hsp_midline>S+ AEQ++LGG++++       A  +  + FY   HR IF  +  +  +  PID+ITL + LE +G+ ++ GG AYL +L++NTPSA NIS Y  IV +R V R ++  +  I +      G T  + L  A    + V K A  R  K  G + + D++     R+        DGV  G+ TG   L+  T GL   +LI++AARPSMGKT  A N+    A+ Q K V   S EM + ++  R +A+   +    ++TG L   D+A     M I + + +    D +  L   +      +  +   G+ L+++D+L +M  P    +   E+  ISR LK LA ELN PVV ++QLNR   ++ADKRP  +D+R SG+IEQDA++I+  +R E Y++ ++   IAE+II K R+G +GTV   + GQ+ +F+      +  P++D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81174930|sp|P0ACB0.1|DNAB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Escherichia coli K-12] &gt;gi|81174931|sp|P0ACB1.1|DNAB_SHIFL RecName: Full=Replicative DNA helicase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0ACB0</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>6.59144e-66</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>447</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>451</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFG-QTVEDLIGGLDKRL--------DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYA----NMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR-ESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFEEEPDLAWQAPKHDE</Hsp_qseq>
+      <Hsp_hseq>SIEAEQSVLGGLMLDNERWDDVAERVVADDFYTRPHRHIFTEMARLQESGSPIDLITLAESLERQGQLDSVGGFAYLAELSKNTPSAANISAYADIVRERAVVREMISVANEIAEAGFDPQGRTSEDLLDLAE---SRVFKIAESRANKDEGPKNIADVLDATVARIEQLFQQPHDGVT-GVNTGYDDLNKKTAGLQPSDLIIVAARPSMGKTTFAMNLVENAAMLQDKPVLIFSLEMPSEQIMMRSLASLSRVDQTKIRTGQLDDEDWARISGTMGILL-EKRNIYIDDSSGLTPTEVRSRARRIAREHGGIGLIMIDYLQLMRVPALSDNRTLEIAEISRSLKALAKELNVPVVALSQLNRSLEQRADKRPVNSDLRESGSIEQDADLIMFIYRDEVYHENSDLKGIAEIIIGKQRNGPIGTVRLTFNGQWSRFDN-----YAGPQYDD</Hsp_hseq>
+      <Hsp_midline>S+ AEQ++LGG++++       A  +  + FY   HR IF  +  +  +  PID+ITL + LE +G+ ++ GG AYL +L++NTPSA NIS Y  IV +R V R ++  +  I +      G T  + L  A    + V K A  R  K  G + + D++     R+        DGV  G+ TG   L+  T GL   +LI++AARPSMGKT  A N+    A+ Q K V   S EM + ++  R +A+   +    ++TG L   D+A     M I + + +    D +  L   +      +  +   G+ L+++D+L +M  P    +   E+  ISR LK LA ELN PVV ++QLNR   ++ADKRP  +D+R SG+IEQDA++I+  +R E Y++ ++   IAE+II K R+G +GTV   + GQ+ +F+      +  P++D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|25008379|sp|Q8K932.1|DNAB_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K932</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>7.29005e-64</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>446</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>446</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRET--KTFGQTVEDLIGGLDKRL----DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMP--IYVSQAKEWKFDVNCDLLNVDELCFLAKE-KKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR-ESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFEEEPDLAWQAPKHD</Hsp_qseq>
+      <Hsp_hseq>SLEAEQSVLGGLMLDNEQWDSVSEHVVADDFFSKPHRLIFQEMQQLLDLGHPIDLITLSESLEQKGKLESVGRFSYLAELSKNTPSTANIIAYADIIRERAIVREMILVANKIANAGYDTQGRKSEELLDYAESSVFKIAEKRFKKDSGPKNIEQILDETVTSIEKLFLSPNDGVT-GINTGYQDLNKKTSGLQPSELIIIAARPSMGKTTFAMNLCENAAMLYDKPVLIFSLEMPGEQIMMRMLASLSRVNQARIRTGQLNDEDWSRMSGTINVLLKKKNIYIDDSSALTPSEVRSRARRIYRENKGLTLIMVDYLQLMRVPSLSDNRTLEIAEISRTLKALAKELQVPVIALSQLNRSLEQRSDKRPVNSDLRESGSLEQDADLIMFIYRDEIYHENSDFKGVAEIIIGKQRNGPIGTICLTFNGHWSRFDN-----YCGPKYD</Hsp_hseq>
+      <Hsp_midline>S+ AEQ++LGG++++       +  +  + F+   HR+IF+ +  +     PID+ITL++ LE +G+ E+ G  +YL +L++NTPS  NI  Y  I+ +R + R ++  +  I        G    E L  A   +  + +   K+++  K   Q +++ +  ++K      DGV  G+ TG   L+  T GL    LI+IAARPSMGKT  A N+    A+   K V   S EM   ++  R +A+   +    ++TG L   D++ M   I V   K+  +  +   L   E+   A+   +   GL L++VD+L +M  P    +   E+  ISR LK LA EL  PV+ ++QLNR   +++DKRP  +D+R SG++EQDA++I+  +R E Y++ ++   +AE+II K R+G +GT+   + G + +F+      +  PK+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|11386750|sp|P57611.1|DNAB_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57611</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>8.33947e-64</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRET--KTFGQTVEDLIGGLDKRL----DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMP--IYVSQAKEWKFDVNCDLLNVDELCFLAKE-KKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNEN-PSIAELIIAKNRDGEMGTVVCGWKGQFMKFE</Hsp_qseq>
+      <Hsp_hseq>SLEAEQSVLGGLMLDNEQWDSVSEHVVADDFFSKPHRLIFQEMQKLLDLGYPIDLITLSESLEQKGKLESVGRFSYLAELSKNTPSTANITAYADIVRERAIVREMILVANKIANAGYDTQGRKSEELLDYAESSVFKIAEKRFKKDSGPKNVEQILDETVASIEKLFLSPHDGVT-GINTGYQDLNKKTSGLQRSELIIIAARPSMGKTTFAMNLCENAAMLYDKPVLIFSLEMPGEQIMMRMLASLSRVNQARIRTGQLNNEDWARISGTINILLKKKNIYIDDSSALTPSEVRSRARRIYRENNGLTLIMVDYLQLMRVPSLSENRTLEIAEISRTLKALAKELQVPVIALSQLNRSLEQRSDKRPVNSDLRESGSLEQDADLIMFIYRDEIYNENSDLKGIAEIIIGKQRNGPIGTVRLTFNGHWSRFD</Hsp_hseq>
+      <Hsp_midline>S+ AEQ++LGG++++       +  +  + F+   HR+IF+ +  +     PID+ITL++ LE +G+ E+ G  +YL +L++NTPS  NI+ Y  IV +R + R ++  +  I        G    E L  A   +  + +   K+++  K   Q +++ +  ++K      DGV  G+ TG   L+  T GL    LI+IAARPSMGKT  A N+    A+   K V   S EM   ++  R +A+   +    ++TG L   D+A +   I +   K+  +  +   L   E+   A+   +   GL L++VD+L +M  P    +   E+  ISR LK LA EL  PV+ ++QLNR   +++DKRP  +D+R SG++EQDA++I+  +R+  Y+ N +   IAE+II K R+G +GTV   + G + +F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|32129494|sp|Q89A52.1|DNAB_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89A52</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>7.58678e-61</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRET--KTFGQTVEDLIGGLDKRLD----GVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVS---QAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR-ESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFE</Hsp_qseq>
+      <Hsp_hseq>SLEAEQSILGGLMLDNEQWDYISEKISENDFFSLSHQLIFREMKYLLNKGYPIDLITLSESLEQKGKLEYIGRFAYLAELSKNVPSTANITTYADIVRERSMVRKIIKIANKIIQAGYDPRGKTSQELLNLAESKILSISEQNFQKNSGPKNIEELLDITLANIEKLFNTPYKGIT-GINTGYQDLNNKTSGLQPSDLIIIAARPSMGKTTFAMNICENIAMTYKKPVLIFSLEMSGEQIMMRMLSSLSRVNQEKLRTGQLNDEDWARISSTINILLKKKNMYIDDSSTLTPSEMRSRSRKIYRENNGLSLIMVDYLQLIKVPSLIGNRTLEIAEISRMLKSLAKELKIPIIALSQLNRSLEQRRDKRPINSDLRESGSLEQDADLIMFIYRDELYHEHTDLKGIAEIIIGKQRNGPIGTIKLTFNGHWSRFD</Hsp_hseq>
+      <Hsp_midline>S+ AEQ+ILGG++++       +  ++   F+   H++IFR +  +     PID+ITL++ LE +G+ E  G  AYL +L++N PS  NI+ Y  IV +R + R ++K +  I +      G T  E L+ A  ++ ++ +   ++ +  K   + ++  +  ++K  +    G+  G+ TG   L+  T GL   +LI+IAARPSMGKT  A NI    A+   K V   S EMS  ++  R +++   +  + L+TG L   D+A +   ++   + K    D +  L   +      K  +   GL L++VD+L ++  P    +   E+  ISR LK+LA EL  P++ ++QLNR   ++ DKRP  +D+R SG++EQDA++I+  +R E Y++  +   IAE+II K R+G +GT+   + G + +F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|6014984|sp|O83097.1|DNAB_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>O83097</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>1.10761e-56</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>436</Hsp_align-len>
+      <Hsp_qseq>AEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAI--EKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGLDKRLDGVR--FGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANM----------PIYVSQAKEWKFDVNCDLLNV-DELCFLAKEKKLTTGLDLLVVDHLHIM----PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>AERAVLGAVLLDDSALSTATEQLSASSFYSAAHQRIFQALVELSDLGQRPDILVLSEHLRSCEALDFVGGSAYVASLTDAVPSAANVEYYTRIVCDAAMRRSLLKVARIITAEAFNDTVSGNIVLETAQREIYDLTNARRVATFKLLKNL---IPDLVNTIETRYRNQSDLVGIATGLTALDNLTGGFQNSELIVIGARPSMGKTALAMTMASNIAIRQRIPTAFFSLEMSNLLLMQRLIAAESGVSATNLRKGLLQLSDFGRIQNAAGEMYDAPLYIVDVPNMKL---LDLRAVARRLC--VQEK-----IQIIFVDYLGLIVADNPFAPRYE--QFAAISQSLKSLARELDIPIVALSQVGRPAEGSA---PNLADIRGSGAIEQDADVVMFLHR----DRNETET--QLILAKQRNGPIGTVELEFQASFTRF</Hsp_hseq>
+      <Hsp_midline>AE+ +LG +L++ +A++     L+   FY A H+ IF+AL++++   +  DI+ L++ L +    +  GG AY+  L    PSA N+  Y  IV D  + R LLK +  I  E    +  G  V E   +   +L    + A  +  K     + DL+  ++ R        G+ TGL  LD +TGG  +  LIVI ARPSMGKT LA  +A   A++Q     F S EMS + L +R +AAE  +   NL+ G L  SD+  +          P+Y+      K     DL  V   LC   +EK     + ++ VD+L ++    P A R E  +   IS+ LK+LA EL+ P+V ++Q+ R     A   PN+ADIRGSGAIEQDA++++  HR    D NE  +  +LI+AK R+G +GTV   ++  F +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|38257379|sp|P59966.1|DNAB_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase; Contains: RecName: Full=Endonuclease PI-MboHIP; AltName: Full=Mbo dnaB intein [Mycobacterium bovis AF2122/97] &gt;gi|618730357|sp|P9WMR2.1|DNAB_MYCTO RecName: Full=Replicative DNA helicase; Contains: RecName: Full=Endonuclease PI-MtuHIP; AltName: Full=Mtu dnaB intein [Mycobacterium tuberculosis CDC1551]</Hit_def>
+  <Hit_accession>P59966</Hit_accession>
+  <Hit_len>874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>7.3121e-48</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>391</Hsp_align-len>
+      <Hsp_qseq>QSLASVGAEQNILGGILIEPTAIARC-AILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVS-KDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGLDKRLD------GVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKL--TTGLDLLVVDHLHIMPRAGRDEV--AELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANII</Hsp_qseq>
+      <Hsp_hseq>QPPQDLAAEQSVLGGMLLSKDAIADVLERLRPGDFYRPAHQNVYDAILDLYGRGEPADAVTVAAELDRRGLLRRIGGAPYLHTLISTVPTAANAGYYASIVAEKALLRRLVEAGTRVVQYGYAGAEGADVAEVVDRAQAEIYDV---ADRRLSEDF-VALEDLLQPTMDEIDAIASSGGLARGVATGFTELDEVTNGLHPGQMVIVAARPGVGKSTLGLDFMRSCSIRHRMASVIFSLEMSKSEIVMRLLSAEAKIKLSDMRSGRMSDDDWTRLARRMSEISEAPLFID-DSPNLTMMEIRAKARRLRQKANLKLIVVDYLQLMTSGKKYESRQVEVSEFSRHLKLLAKELEVPVVAISQLNRGPEQRTDKKPMLADLRESGCLTASTRIL</Hsp_hseq>
+      <Hsp_midline>Q    + AEQ++LGG+L+   AIA     L P  FY+  H+ ++ A+LD+    EP D +T+  +L+ RG     GG  YL  L    P+A N   Y  IV ++ + R L++A   + +   +  +G  VAE + +A  E+  V   A +R ++ F   +EDL+      +D      G+  G+ TG  +LD +T GL  G ++++AARP +GK+ L  +  R  +++   A    S EMS  E+  R ++AE  I + ++++G ++  D+  +   +S+  E    ++ D  N+  +   AK ++L     L L+VVD+L +M    + E    E+   SR LK LA EL  PVV ++QLNRG  ++ DK+P +AD+R SG +     I+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.460023</Hsp_evalue>
+      <Hsp_query-from>380</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>816</Hsp_hit-from>
+      <Hsp_hit-to>869</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AIEQDANIIIMPHRESYYDGNENP--SIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>SLEQDADVVILLHRPDAFD-RDDPRGGEADFILAKHRNGPTKTVTVAHQLHLSRF</Hsp_hseq>
+      <Hsp_midline>++EQDA+++I+ HR   +D  ++P    A+ I+AK+R+G   TV    +    +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|618730358|sp|P9WMR3.1|DNAB_MYCTU</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase; Contains: RecName: Full=Endonuclease PI-MtuHIP; AltName: Full=Mtu dnaB intein [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WMR3</Hit_accession>
+  <Hit_len>874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>8.54843e-48</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>391</Hsp_align-len>
+      <Hsp_qseq>QSLASVGAEQNILGGILIEPTAIARC-AILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVS-KDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGLDKRLD------GVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKL--TTGLDLLVVDHLHIMPRAGRDEV--AELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANII</Hsp_qseq>
+      <Hsp_hseq>QPPQDLAAEQSVLGGMLLSKDAIADVLERLRPGDFYRPAHQNVYDAILDLYGRGEPADAVTVAAELDRRGLLRRIGGAPYLHTLISTVPTAANAGYYASIVAEKALLRRLVEAGTRVVQYGYAGAEGADVAEVVDRAQAEIYDV---ADRRLSEDF-VALEDLLQPTMDEIDAIASSGGLARGVATGFTELDEVTNGLHPGQMVIVAARPGVGKSTLGLDFMRSCSIRHRMASVIFSLEMSKSEIVMRLLSAEAKIKLSDMRSGRMSDDDWTRLARRMSEISEAPLFID-DSPNLTMMEIRAKARRLRQKANLKLIVVDYLQLMTSGKKYESRQVEVSEFSRHLKLLAKELEVPVVAISQLNRGPEQRTDKKPMLADLRESGCLTASTRIL</Hsp_hseq>
+      <Hsp_midline>Q    + AEQ++LGG+L+   AIA     L P  FY+  H+ ++ A+LD+    EP D +T+  +L+ RG     GG  YL  L    P+A N   Y  IV ++ + R L++A   + +   +  +G  VAE + +A  E+  V   A +R ++ F   +EDL+      +D      G+  G+ TG  +LD +T GL  G ++++AARP +GK+ L  +  R  +++   A    S EMS  E+  R ++AE  I + ++++G ++  D+  +   +S+  E    ++ D  N+  +   AK ++L     L L+VVD+L +M    + E    E+   SR LK LA EL  PVV ++QLNRG  ++ DK+P +AD+R SG +     I+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.472045</Hsp_evalue>
+      <Hsp_query-from>380</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>816</Hsp_hit-from>
+      <Hsp_hit-to>869</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AIEQDANIIIMPHRESYYDGNENP--SIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>SLEQDADVVILLHRPDAFD-RDDPRGGEADFILAKHRNGPTKTVTVAHQLHLSRF</Hsp_hseq>
+      <Hsp_midline>++EQDA+++I+ HR   +D  ++P    A+ I+AK+R+G   TV    +    +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|18202006|sp|O30477.1|DNAB_RHOMR</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase; Contains: RecName: Full=Endonuclease PI-Rma43812IP; AltName: Full=Rma dnaB intein [Rhodothermus marinus]</Hit_def>
+  <Hit_accession>O30477</Hit_accession>
+  <Hit_len>941</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>3.91358e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>413</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARC-AILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGLDK---RLDGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFAL--KQGKAVHFQSYEMSAVELARRGMAAE-CNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHI-----MPR-AGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRG-NTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPSIAELIIAKN</Hsp_qseq>
+      <Hsp_hseq>AVELEQAVLGAMLIEPEAIPRALEILTPEAFYDGRHQRIFRAIVRLFEQNRGVDLLTVTEELRRTGELEQAGDTIYLSELTTRVASAANVEYHARIIAEKLLRRMIEVMTLLVGR--AYDPAADAFELLDEVEAEIFRLSDVHLRKAARSMNEVVKETLERLEAIHGRPGGIT-GVPSGFHQLDALTGGWQRGDLIIIAARPSMGKTAFALSCRNAALHPHYGTGVAIFSLEMGAEQLAQRLLTAEAASMPRRPAPDGCATRTG-VSWPARRPLSDAPIFIDDTPSLGVLELRAKCRRLKAEHDIGLVIVDYLQLMQASHMPRNANREQ--EIAQISRSLKALAKELNVPVVALSQLSRAVETRGGDKRPQLSDLRESGCLAGDTLITLA-------DGRRVP-IRELVSQQN</Hsp_hseq>
+      <Hsp_midline>+V  EQ +LG +LIEP AI R   ILTPE FY  +H+ IFRA++ +   N  +D++T+ ++L   GE E AG   YL +L     SA N+  +  I+ ++ + R +   +  + +           E L +   E+  +    +++  ++  + V++ +  L+    R  G+  G+P+G  +LD +TGG   G+LI+IAARPSMGKT  A +    AL    G  V   S EM A +LA+R + AE  ++P +    G  T++   + P     +    F  +   L V EL    +  K    + L++VD+L +     MPR A R++  E+  ISR LK LA ELN PVV ++QL+R   T+  DKRP ++D+R SG +  D  I +        DG   P I EL+  +N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>3.12939e-05</Hsp_evalue>
+      <Hsp_query-from>374</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>844</Hsp_hit-from>
+      <Hsp_hit-to>909</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>DIRGSGAIEQDANIIIMPHRESYY----DGNENPS--IAELIIAKNRDGEMGTVVCGWKGQFMKFE</Hsp_qseq>
+      <Hsp_hseq>DIIAHNSIEQDADVVLFIYRPERYGITVDENGNPTEGIAEIIIGKQRNGPTGTVRLAFINQYARFE</Hsp_hseq>
+      <Hsp_midline>DI    +IEQDA++++  +R   Y    D N NP+  IAE+II K R+G  GTV   +  Q+ +FE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|21759099|sp|Q8YZA1.1|DNAB_NOSS1</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase; Contains: RecName: Full=Endonuclease PI-AspHIP; AltName: Full=Asp dnaB intein [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>Q8YZA1</Hit_accession>
+  <Hit_len>879</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>6.42712e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGL--------------DKRLDGVRF-GLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLT----TGLDLLVVDHLHIMPRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMP</Hsp_qseq>
+      <Hsp_hseq>NIEAEEAILGGILLDPEAIGRVSEVLITEAFYISAHRDIYQAALRLHAQGKPTDLLSVTSWLTDNELLTRIGGRNKLATLVDRTVSAVNIDALAGLVMEKYLRRQLIKAGNEIVHL------GYETEK------ELPIVLDQA---EQKVFGVTQERPQSGLVHIADTLINNFQEIEERNQGIALPGIPCGFYDLDAMTSGFQRSDLIIVAGRPSMGKTAFCLNLANNIAATMKLPVAVFSLEMSKEQLVQRLLASEAQIESGYLRSGRLSQTQWEPLSRAISMLSEMPIFID-DTPNITVTQMRSQARRLQAEQGVELGLIVIDYLQLMEGGGDNRVQELSKITRSLKGLARELSVPVIALSQLSRGVEARTNKRPMLSDLRESGCLTGDSLVTLAP</Hsp_hseq>
+      <Hsp_midline>++ AE+ ILGGIL++P AI R + +L  E FY + HR I++A L + A  +P D++++   L         GG   L  L   T SA NI    G+V ++++ R L+KA   I  +      G   EK      EL  V   A   E K FG T E    GL              ++R  G+   G+P G   LD MT G    +LI++A RPSMGKT    N+A   A      V   S EMS  +L +R +A+E  I    L++G L+Q+ +  +   +S   E    ++ D  N+      ++ ++L       L L+V+D+L +M   G + V EL  I+R LK LA EL+ PV+ ++QL+RG   + +KRP ++D+R SG +  D+ + + P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>8.40438e-06</Hsp_evalue>
+      <Hsp_query-from>380</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>818</Hsp_hit-from>
+      <Hsp_hit-to>872</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AIEQDANIIIMPHRESYYDGNE-NPSIAELIIAKNRDGEMGTVVCGWKGQFMKFE</Hsp_qseq>
+      <Hsp_hseq>SIEQDADLVIMLYRDDYYNSDTPDRGLAEVIVAKHRNGPTGTVKLLFDPQFTKFK</Hsp_hseq>
+      <Hsp_midline>+IEQDA+++IM +R+ YY+ +  +  +AE+I+AK+R+G  GTV   +  QF KF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2833462|sp|Q55418.1|DNAB_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase; Contains: RecName: Full=Ssp dnaB intein [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55418</Hit_accession>
+  <Hit_len>872</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>4.5193e-46</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>SVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKT--------FGQTVEDLIGGLDKRLDGVRF-GLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIA-RFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDY----------ANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTT----GLDLLVVDHLHIMPRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANI</Hsp_qseq>
+      <Hsp_hseq>NIEAEECILGGILLDPEAMGRIIDLLVVDAFYVKAHRLIYEAMLSLHGQSQPTDLMSVSSWLQDHHHFEAIGGMVKLTQLLDRTISAVNIDRFAALIMDKYLRRQLIAAGHDIVDL-----GYETSKELETIFDE----SEQKIFRLTQSRPQAGLVPLSETLVNTFIELDKLHEKLSSPGVETQFYDLDAMTGGLQRADLIILAGRPSMGKTAFGLGIAANIAKNQNLPVAIFSLEMSKEQLALRLVASESLIDSNRLRTGHFSQAEFEPLTAAMGTLSSLPIYID-----------DTASISVTQMRSQVRRLQSEQKGPLGMVLIDYLQLMEGGSDNRVQELSKITRSLKGLAREINAPVIALSQLSRAVESRTNKRPMMSDLRESGCISGDSLI</Hsp_hseq>
+      <Hsp_midline>++ AE+ ILGGIL++P A+ R   +L  + FY   HR+I+ A+L +   ++P D+++++  L+     E  GG+  L  L   T SA NI R+  ++ D+++ R L+ A   I  +     G   +++L    DE     +  + R T++          +T+ +    LDK  + +   G+ T    LD MTGGL   +LI++A RPSMGKT     IA   A  Q   V   S EMS  +LA R +A+E  I    L+TG+ +Q+++          +++PIY+            D  ++      ++ ++L +     L ++++D+L +M     + V EL  I+R LK LA E+N PV+ ++QL+R    + +KRP M+D+R SG I  D+ I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>3.17948e-06</Hsp_evalue>
+      <Hsp_query-from>374</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>804</Hsp_hit-from>
+      <Hsp_hit-to>863</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>DIRGSGAIEQDANIIIMPHRESYYDGNE-NPSIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>DIIVHNSIEQDADLIMMIYRDEYYNPDTPDPGVAELLIVKHRNGPTGVVKLLFKPEFTQF</Hsp_hseq>
+      <Hsp_midline>DI    +IEQDA++I+M +R+ YY+ +  +P +AEL+I K+R+G  G V   +K +F +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1706463|sp|P51333.1|DNAB_PORPU</Hit_id>
+  <Hit_def>RecName: Full=Probable replicative DNA helicase; Contains: RecName: Full=Ppu dnaB intein (chloroplast) [Porphyra purpurea]</Hit_def>
+  <Hit_accession>P51333</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>2.36301e-45</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>LTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGT------VAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGLD-KRLDGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKA-VHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDY----------ANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMPRAGRDE--VAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANII</Hsp_qseq>
+      <Hsp_hseq>LSPDFFYFKSNSLVYRAILETVNPIDKIALVSLLTALNTNNLIRQLGRLETIMKLIENSPASNIIYEYSKVILDNYVKRLLLKSGDSLCLISCSKKQITQSVITSVASQLTIAYEILEDEG-------TYTLAEIFASLLVSLDTKKKISINSGIFSGFWQLDLITNGFQKSDLIIIAGRPSMGKTAFAINITRHIIKTSQYYVILFSLEMSTEQLLRRILAQECHLNSQKIQSGQLTNVEWQRIVEESKILANLNFYIDDSAE----ISCDIIKVKVKLLRLQGKKI----KLIIIDYLQLLQESKKSENRSQELSLITRSLKILARELNLPILVLSQLNRNLESRHNKRPLLSDLRESGCISKFSHIM</Hsp_hseq>
+      <Hsp_midline>L+P+ FY   + +++RA+L+     + I +++L   L         G L  ++ L +N+P++  I  Y  ++ D +V+R LLK+  ++  I+ SK   T      VA +L+ A + L   G       T T  +    L+  LD K+   +  G+ +G  +LD +T G    +LI+IA RPSMGKT  A NI R  +K  +  V   S EMS  +L RR +A EC++  Q +++G LT  ++          AN+  Y+  + E    ++CD++ V       + KK+     L+++D+L ++  + + E    EL  I+R LK LA ELN P+++++QLNR    + +KRP ++D+R SG I + ++I+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>6.93707e-05</Hsp_evalue>
+      <Hsp_query-from>366</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>496</Hsp_hit-from>
+      <Hsp_hit-to>565</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>ADKRPNMA--DIRGSGAIEQDANIIIMPHRESYYDGN-ENPSIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>ANPIPNFIANNIIVHNSIEQDADLVIMLYRESYYNKEMEMEDMTEIIVAKHRNGPLGTFQLKFDANLANF</Hsp_hseq>
+      <Hsp_midline>A+  PN    +I    +IEQDA+++IM +RESYY+   E   + E+I+AK+R+G +GT    +      F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|3121983|sp|O25916.1|DNAB_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25916</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>2.05934e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>436</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>488</Hsp_align-len>
+      <Hsp_qseq>MNRIEETEAVQSLASVGAEQNILGGILIEPTAIARC-AILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVK----------RETKTFGQTVEDLIGGLDKRLDGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPI---YVSQAKEWKFDVNCDLLNVDELCF-LAKEKKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR--------------------------ESYYDGNENPSI---------AELIIAKNRDGEMGTVVCGWKGQFMKFEEEP</Hsp_qseq>
+      <Hsp_hseq>MDHLKHLQQLQNI-----ERIVLSGIVLANHKIEEVHSVLEPSDFYYPPNGLFFEIALKLHEEDCPIDENFIRQKMPKDKQIKEED----LVAIFAASP-IDNIEAYVEEIKNASIKRKLFGLANTIREQAL--------ESAQKSSDILGAVEREVYALLNGSTIEGFRNIKEVLESAMDLITENQRKGSLEVTGIPTGFVQLDNYTSGFNKGSLVIIGARPSMGKTSLMMNMVLSALNDDRGVAVFSLEMSAEQLALRALSDLTSINMHDLESGRLDDDQWENLAKCFDHLSQKKLFFYDKSY--VRIEQIRLQLRKLKSQHKELGIAFIDYLQLMSGSKATKERHEQIAEISRELKTLARELEIPIIALVQLNRSLENRDDKRPILSDIKDSGGIEQDADIVLFLYRGYIYQMRAEDNKIDKLKKEGKIEEAQELYLKVNEERRIHKQNGSIEEAEIIVAKNRNGATGTVYTRFNAPFTRYEDMP</Hsp_hseq>
+      <Hsp_midline>M+ ++  + +Q++     E+ +L GI++    I    ++L P  FY   + + F   L +   + PID   +  K+    + +       L+ +   +P   NI  YV  + +  ++R L   +  I + A+        E   K++D L AV ++             R  K   ++  DLI    ++      G+PTG ++LD  T G   G+L++I ARPSMGKT L  N+   AL   + V   S EMSA +LA R ++   +I M +L++G L    + N+     ++SQ K + +D +   + ++++   L K K     L +  +D+L +M   +A ++   ++  ISR LK LA EL  P++ + QLNR    + DKRP ++DI+ SG IEQDA+I++  +R                          E Y   NE   I         AE+I+AKNR+G  GTV   +   F ++E+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|12230080|sp|Q46259.1|GP1D_CHLPS</Hit_id>
+  <Hit_def>RecName: Full=Probable plasmid replicative DNA helicase; AltName: Full=DnaB-like protein; AltName: Full=Virulence plasmid protein pGP1-D [Chlamydia psittaci]</Hit_def>
+  <Hit_accession>Q46259</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>2.12907e-43</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>LTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKA--SAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDL-----------IGGLDKRLD-----GVRF--GLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIA-RFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVD--ELCFLAKEKKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFEEEPDLAW</Hsp_qseq>
+      <Hsp_hseq>LSEHHFKSENHKNIFLLIRDILRDRDTISISLIWEEIKRRN-LDKSMDVSYLIHMSQNADIPIDLDHHIDFLHEKHVN-NLLKEFLDSSFQDFTRYPNRRSPYTLIDQFKERLDDIYEKTSYPRRKHIGKTVYDIFSSGENGKASVIAQIRHRYDYRSRHKIDYVDGLPTGYSSIDEHSIILSRGNFVVIAARPAMGKTAFAIDIALNLVLEQGKAVGFISLEMSPNQIVERIISNLSETSCEQLKRGNFSRDVLSKIESIGTKLKGTHFFI-CDNKSTDLNTLIDQARELRENQGIDALFIDYLQLIGSSKKAENRQNEIAEISRQLRKLAVELQIPVVCLSQLSRKVEDRGDKRPMLSDLRDSGQIEQDADVILFLHRKDYYSQEATKGLSEIIVGKNRHGSVFSTTLRFNSCTGKFTIQKE-AW</Hsp_hseq>
+      <Hsp_midline>L+   F    H+ IF  + D+    + I I  + ++++ R   + +  ++YLI ++QN     ++  ++  ++++ V   LLK    ++ +      +  +    + +  + L  + +       K  G+TV D+           I  +  R D      + +  GLPTG   +D  +  L  GN +VIAARP+MGKT  A +IA    L+QGKAV F S EMS  ++  R ++       + LK GN ++   + +    ++ K   F + CD  + D   L   A+E +   G+D L +D+L ++   +   +   E+  ISR+L+ LA EL  PVV ++QL+R    + DKRP ++D+R SG IEQDA++I+  HR+ YY       ++E+I+ KNR G + +    +     KF  + + AW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|137925|sp|P03006.1|VG12_BPP22</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase; AltName: Full=Replication protein gp12 [Enterobacteria phage P22]</Hit_def>
+  <Hit_accession>P03006</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>9.2918e-43</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>EQNILGGILI---EPTAIARCAILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADEL----AAVGKDAVKRETKTFGQTVEDLIGGLDKRLDGVRFG-----LPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIA-----RFALKQG--KAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSD----YANMPIYVSQAKEWKFDVNCDLLNVDELCFLA-KEKKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPS-IAELIIAKNRDGEMGTVVCGW-KGQFMKFEEE</Hsp_qseq>
+      <Hsp_hseq>EASVIGGLLIGGLTPTASDVLATLEPEAFSIPLYRKAFEVIRKQARNRNLIDGLMVAE------ECGDEYATAVMM-TARSCPSAANLKGYAGMVADSYQRRQVLQL---LDEMREPISNGTL-DASGRAMDELVKRLSSIRKPRNEVKPVRLGEIINDYTDTLDRRL---RNGEESDTLKTGIEELDAITGGMNAEDLVIIAARPGMGKTELALKIAEGVASRVIPGSGVRRGVLIFSMEMSAIQVVERGIAGAGMMSVSVLRNPSRMDDEGWARVASGMKLLAELDVWVVDAS--RLSVEEIRSISERHKQEHPNLSLIMADYLGLIEKPKAERNDLA-IAHISGSLKAMAKDLKTPVISLSQLSRDVEKRPNKRPTNADLRDSGSIEQDADSIIMLYREAVYDENSSAAPFAEIIVTKNRFGSLGTVYQRFCNGHFVACDQD</Hsp_hseq>
+      <Hsp_midline>E +++GG+LI    PTA    A L PE F    +R  F  +   A     ID + + +      E  +    A ++   ++ PSA N+  Y G+V D +  R +L+    ++++      GT+ +   +A DEL    +++ K   + +    G+ + D    LD+RL   R G     L TG+ +LD +TGG+   +L++IAARP MGKT LA  IA     R     G  + V   S EMSA+++  RG+A    + +  L+  +    +     A+    +++   W  D +   L+V+E+  ++ + K+    L L++ D+L ++  P+A R+++A + +IS  LK +A +L TPV+ ++QL+R   K+ +KRP  AD+R SG+IEQDA+ IIM +RE+ YD N + +  AE+I+ KNR G +GTV   +  G F+  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|10719989|sp|Q9ZJM5.1|DNAB_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZJM5</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>1.1067e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>436</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>488</Hsp_align-len>
+      <Hsp_qseq>MNRIEETEAVQSLASVGAEQNILGGILIEPTAIARC-AILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAAVGKDAVK----------RETKTFGQTVEDLIGGLDKRLDGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPI---YVSQAKEWKFDVNCDLLNVDELCF-LAKEKKLTTGLDLLVVDHLHIMP--RAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYD---------------------------------GNENPSI--AELIIAKNRDGEMGTVVCGWKGQFMKFEEEP</Hsp_qseq>
+      <Hsp_hseq>MDHLKHLQQLQNI-----ERIVLSGIVLANHKIEEIHSVLEPSDFYYPPHGLFFEIALKLHEVNCPIDENFIRQKMPKDKQISEDD----LVAIFAASP-IDNIEAYVEEIKNASIKRKLFTLANTIREQAL--------ESAQKSSDILNAVEREVYALLNGSTIEGFRGIKEVLESTMNLITENQRKGSLKVTGIPTGFVQLDNYTSGFNQGSLVILGARPSMGKTSLMMNMVLSALNDDRGVAVFSLEMSAEQLALRALSDLTSINMHDLESARLDDDQWENLAKCFDHLSQKKLFFYDKSY--VRMDQIRLQLRKLKSQHKELGIAFIDYLQLMSGNKATKERHEQIAEISRELKTLARELEIPIIALVQLNRSLENRDDKRPILSDIKDSGGIEQDADIVLFLYRGYIYQMRAEDNKIDKLKKEGKVEEAQELHLKVNEERRIHKQNGSIEEAEIIVAKNRNGATGTVYTRFNAPFTRYEDMP</Hsp_hseq>
+      <Hsp_midline>M+ ++  + +Q++     E+ +L GI++    I    ++L P  FY   H + F   L +   N PID   +  K+    +         L+ +   +P   NI  YV  + +  ++R L   +  I + A+        E   K++D L AV ++             R  K   ++  +LI    ++      G+PTG ++LD  T G   G+L+++ ARPSMGKT L  N+   AL   + V   S EMSA +LA R ++   +I M +L++  L    + N+     ++SQ K + +D +   + +D++   L K K     L +  +D+L +M   +A ++   ++  ISR LK LA EL  P++ + QLNR    + DKRP ++DI+ SG IEQDA+I++  +R   Y                                    +N SI  AE+I+AKNR+G  GTV   +   F ++E+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|81390050|sp|Q68WJ2.1|DNAB_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68WJ2</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>3.10518e-42</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>ASVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVA-EKLSKAADELAAVGKDAVKRETKT-FGQTVEDLIGGLDKRL---DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIA-----RFALK------QGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVN-CDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMPRAGRDE--VAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPS------------------IAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>SNIQAEQMLLGAIITNNELLSYVSEFLRNEHFFEPIHQKIYDAIEKIIEKGLIATPITLRSMLTQDALFQEIEGVEYLAKLITMSMMVINPIDYGKIIYDLAIKRNLINIGEEVVNNAYNASLAVAAKEQIEHAEAKLYDLAREGLNEKSFTQVGISIAESLASINKAMKNNDHV-IGISTGLLDLDNKLFGFHNSDLIILAGRPSMGKTAFAINLALNTCNNMRLKNIRDNQEIKSVGFFSLEMSSEQLTTRLLSLCAEIDSTSLRTGMLSEEKYNRLRKEANTLSELQFFIDDTPALSISAIRTRARRMKRKHNLGILFIDYLQLIRGVSKSENRVNEISEITQGLKAIAKELNIPVIALSQLSRAVELREDKKPMLSDLRESGTIEQDADIVMFIYREEYYLTRKEPAAGDAKHAEWLDKLNKVYNIADIIIAKHRNGPVGNISLYYDSQFSKF</Hsp_hseq>
+      <Hsp_midline>+++ AEQ +LG I+     ++  +  L  E F++  H+ I+ A+  +         ITL   L      +   G+ YL  L   +    N   Y  I+ D  ++R L+     +   A +      A E++  A  +L  + ++ +  ++ T  G ++ + +  ++K +   D V  G+ TGL+ LD    G  + +LI++A RPSMGKT  A N+A        LK      + K+V F S EMS+ +L  R ++    I   +L+TG L++  Y  +    +   E +F ++    L++  +   A+  K    L +L +D+L ++    + E  V E+  I++ LK +A ELN PV+ ++QL+R    + DK+P ++D+R SG IEQDA+I++  +RE YY   + P+                  IA++IIAK+R+G +G +   +  QF KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|7674004|sp|Q9ZD08.1|DNAB_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZD08</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>2.53475e-41</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>460</Hsp_align-len>
+      <Hsp_qseq>ASVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRAL---LDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVA-EKLSKAADELAAVGKDAVKRETKT-FGQTVEDLIGGLDKRL---DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIA-----RFALK------QGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVN-CDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMPRAGRDE--VAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENP------------------SIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>SNIQAEQMLLGAIITNNALLSYVSEFLRNEHFFEPIHQKIYDAIEKIIEKGLIATPITLRSMLTQDALFKEIEGEGYLAKLITMSM---MVINPIDYGKIIYDLAIKRNLINIGEEVVNNAYNSSLAVAAKEQIEYAEAKLYDLTKEGLNEKSFTKVGISISESLASINRAMKNNDHV-IGISTGLLDLDNKLFGFHNSDLIILAGRPSMGKTAFAINLALNTCNNMRLKNIRDNQEIKSVGFFSLEMSSEQLTTRLLSLCAEIDSTALRTGMLSEDKYNRLRKEANTLSELQFFIDDTPALSISAIRTRARRMKRKHNLGILFIDYLQLIRGVSKSENRVNEISEITQGLKAIAKELNIPVIALSQLSRAVELREDKKPMLSDLRESGTIEQDADIVMFIYREEYYLTRKEPVAGDAKHAEWLDKLNKVYNIADIIIAKHRNGPVGNVSLYYDSQFSKF</Hsp_hseq>
+      <Hsp_midline>+++ AEQ +LG I+     ++  +  L  E F++  H+ I+ A+   ++      PI + ++  +     E E  G LA LI ++       N   Y  I+ D  ++R L+     +   A +      A E++  A  +L  + K+ +  ++ T  G ++ + +  +++ +   D V  G+ TGL+ LD    G  + +LI++A RPSMGKT  A N+A        LK      + K+V F S EMS+ +L  R ++    I    L+TG L++  Y  +    +   E +F ++    L++  +   A+  K    L +L +D+L ++    + E  V E+  I++ LK +A ELN PV+ ++QL+R    + DK+P ++D+R SG IEQDA+I++  +RE YY   + P                  +IA++IIAK+R+G +G V   +  QF KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|20137862|sp|Q92HG8.1|DNAB_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92HG8</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>4.50275e-41</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>ASVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVA-EKLSKAADELAAVGKDAVKRETKT-FGQTVEDLIGGLDKRL---DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFAL-----------KQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVN-CDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMPRAGRDE--VAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPS------------------IAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>SNVQAEQMLLGAILTNNELLNYVSEFLRDEHFFEPIHQKIYKAIEKITEKGLTATPITLRSMLTQDELFQEVEGAEYLAKLITMSMMVINPLDYGKIIYDLAIKRNLINIGEEVVNNAYNSSLEVEAKEQIEHAEAKLYDLASEGLNEKSFTKIGISISESLASINRAMKNNDHI-IGISTGLIDLDNKLCGFHNSDLIILAGRPSMGKTAFAINLALNACNNMRLKNIRDNQEIQSVGFFSLEMSSEQLTTRLLSMCAEIDSTSLRTGILGEEKYNRLRKEANTLSELQFFIDDTPALSISAIRTRARRMKRKHNLGILFIDYLQLIRGVSKSENRVSEISEITQGLKAIAKELNIPVIALSQLSRAVELREDKKPMLSDLRESGTIEQDADIVMFIYREEYYLTRKEPAAGDAKHAAWLDKLNKVYNIADIIVAKHRNGPVGNVPLYYDSQFSKF</Hsp_hseq>
+      <Hsp_midline>++V AEQ +LG IL     +   +  L  E F++  H+ I++A+  +         ITL   L      +   G  YL  L   +    N   Y  I+ D  ++R L+     +   A +      A E++  A  +L  +  + +  ++ T  G ++ + +  +++ +   D +  G+ TGL+ LD    G  + +LI++A RPSMGKT  A N+A  A            ++ ++V F S EMS+ +L  R ++    I   +L+TG L +  Y  +    +   E +F ++    L++  +   A+  K    L +L +D+L ++    + E  V+E+  I++ LK +A ELN PV+ ++QL+R    + DK+P ++D+R SG IEQDA+I++  +RE YY   + P+                  IA++I+AK+R+G +G V   +  QF KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|75536316|sp|Q4UL62.1|DNAB_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UL62</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>7.58866e-41</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>460</Hsp_align-len>
+      <Hsp_qseq>ASVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIFRALLDMAAAN---EPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVA-EKLSKAADELAAVGKDAVKRETKT-FGQTVEDLIGGLDKRL---DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFAL-----------KQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVN-CDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMPRAGRDE--VAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPS------------------IAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>SNVQAEQMLLGAILTNNELLSYVSEFLRSEHFFEPIHQKIYNAIEKITEKGLIATPITLRSMLTQDELFQEIEGAEYLAKLITMSM---MVINPVDYGKIIYDLAIKRNLINIGEEVVNDAYNSSLEIEAREQIEHAEAKLYDLASESLNEKSFTRIGIPISESLASINRAMKNNDHV-IGISTGLLDLDNKLFGFHNSDLLILAGRPSMGKTAFAINLALNACNNMRLKNIRDNQEIQSVGFFSLEMSSEQLTTRLLSMCAEIDSTSLRTGILGEEKYNRLRKEANTLSELQFFIDDTPALSISAIRTRARRMKRKHNLGILFIDYLQLIRGVSKSENRVSEISEITQGLKAIAKELNIPVIALSQLSRAVELREDKKPMLSDLRESGTIEQDADIVMFIYREEYYLTRKEPAAGDAKHAEWLDKLNKVYNIADIIVAKHRNGPVGNVPLYYDSQFSKF</Hsp_hseq>
+      <Hsp_midline>++V AEQ +LG IL     ++  +  L  E F++  H+ I+ A+  +        PI + ++  + E   E E A  LA LI ++       N   Y  I+ D  ++R L+     +   A +      A E++  A  +L  +  +++  ++ T  G  + + +  +++ +   D V  G+ TGL+ LD    G  + +L+++A RPSMGKT  A N+A  A            ++ ++V F S EMS+ +L  R ++    I   +L+TG L +  Y  +    +   E +F ++    L++  +   A+  K    L +L +D+L ++    + E  V+E+  I++ LK +A ELN PV+ ++QL+R    + DK+P ++D+R SG IEQDA+I++  +RE YY   + P+                  IA++I+AK+R+G +G V   +  QF KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|122990905|sp|Q1RI04.1|DNAB_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RI04</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.34024e-37</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>445</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>ASVGAEQNILGGILIEPTAIARCA-ILTPEKFYQAQHRIIF---RALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVA-EKLSKAADELAAVGKDAVKRETKT-FGQTVEDLIGGLDKRL---DGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFAL-----------KQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVN-CDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMPRAGRDE--VAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPS----------------------IAELIIAKNRDGEMGTVVCGWKGQFMKFEEEPDLAWQAPKH</Hsp_qseq>
+      <Hsp_hseq>SNVQAEQMLLGAILTNNELLNYVSEFLRSEHFFEPIHQKIYNGIEVITEKGLIATPITLRSMLANDELFHEMEGAEYLAKLVTMSM---MVINPIDYGKIIYDLAIKRYLINIGEEVVNDAYNSSLEFEAKEQIERAESKLYDLASEGINEKSFTKIAIPISESIASINRAMKNNDHV-IGISTGLIDLDSKLFGFHNSDLVILAGRPAMGKTAFALNLALNACNNMLIKNKRDNEEVQSVGFFSLEMSSEQLTTRLLSMSAGIDSTTLRTGMINEANYNRLRKEAIALSELSFFIDDTPALTISAIRTRARRMKRKHNLGILFVDYLQLIRGVSKSDNRVNEVSEITQGLKAIAKELNIPVIALSQLSRAVELREDKRPMLSDLRESGSIEQDADIVMFIYREEYYLSRKEPAASDPKHAEKYAEWQDNMSKAHNITDIIIAKHRSGPVGNVQLFYDSQYSKF---VNLETKYPVH</Hsp_hseq>
+      <Hsp_midline>++V AEQ +LG IL     +   +  L  E F++  H+ I+     + +      PI + ++    E   E E A  LA L+ ++       N   Y  I+ D  ++R L+     +   A +      A E++ +A  +L  +  + +  ++ T     + + I  +++ +   D V  G+ TGL+ LD    G  + +L+++A RP+MGKT  A N+A  A            ++ ++V F S EMS+ +L  R ++    I    L+TG + +++Y  +        E  F ++    L +  +   A+  K    L +L VD+L ++    + +  V E+  I++ LK +A ELN PV+ ++QL+R    + DKRP ++D+R SG+IEQDA+I++  +RE YY   + P+                      I ++IIAK+R G +G V   +  Q+ KF    +L  + P H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|122244621|sp|Q1XDF3.1|DNAB_PYRYE</Hit_id>
+  <Hit_def>RecName: Full=Probable replicative DNA helicase; Contains: RecName: Full=Pye dnaB intein (chloroplast) [Pyropia yezoensis]</Hit_def>
+  <Hit_accession>Q1XDF3</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>2.13784e-36</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>LTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVSK------DGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGLDKRLD-GVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKA-VHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDY----------ANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM--PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQ</Hsp_qseq>
+      <Hsp_hseq>ISPDFFYFTSTSLLYRAALENVNHAKTKSVRNFFINLKNEKMIQDLNELNEVFSLIEQAPLSDTISEYSAVVIDNYIKRLLLACGDSLCLISCSKQLIEQKNITSIVSQLTKAYEILD-------EKDTQTLATILANLLVHLDTRKKISINSSILSGFTELDSITQGFKKSDLIILAGRPSMGKTAFAINITRYVINQKRSYVILFSLEMSTEQLLRRILAQECNLNGQKIQSGQLNNDEWQYVIQKSKTLANLNLYIDDSAK----ISTDTIKTKVKFFKLQGK----NIELIIIDYLQLLQESRQSDNRSQELSLITRSLKILAKDLSLPILALSQLNRNLETRSDKRPLLSDLRESGCISK</Hsp_hseq>
+      <Hsp_midline>++P+ FY     +++RA L+     +   +      L+     ++   L  +  L +  P +  IS Y  +V D +++R LL    ++  I+ SK      +  ++  +L+KA + L        +++T+T    + +L+  LD R    +   + +G  +LD +T G    +LI++A RPSMGKT  A NI R+ + Q ++ V   S EMS  +L RR +A ECN+  Q +++G L   ++          AN+ +Y+  + +    ++ D +      F  + K     ++L+++D+L ++   R   +   EL  I+R LK LA +L+ P++ ++QLNR    ++DKRP ++D+R SG I +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.78147e-05</Hsp_evalue>
+      <Hsp_query-from>379</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>509</Hsp_hit-from>
+      <Hsp_hit-to>565</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GAIEQDANIIIMPHRESYYDG-NENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFEE</Hsp_qseq>
+      <Hsp_hseq>NSIEQDADLVIMLYRESYYTQETRSRDFTEVIIAKHRNGPTGTFQLKFNAQIAKFSD</Hsp_hseq>
+      <Hsp_midline> +IEQDA+++IM +RESYY     +    E+IIAK+R+G  GT    +  Q  KF +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|290463240|sp|B0BCM3.1|GP1D_CHLT2</Hit_id>
+  <Hit_def>RecName: Full=Probable plasmid replicative DNA helicase; AltName: Full=DnaB-like protein; AltName: Full=Protein P-3; AltName: Full=Virulence plasmid protein pGP1-D [Chlamydia trachomatis 434/Bu] &gt;gi|290463241|sp|P0CE16.1|GP1D_CHLTH RecName: Full=Probable plasmid replicative DNA helicase; AltName: Full=DnaB-like protein; AltName: Full=Protein P-3; AltName: Full=Virulence plasmid protein pGP1-D [Chlamydia trachomatis]</Hit_def>
+  <Hit_accession>B0BCM3</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.61178e-31</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>GLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIA-RFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDL---LNV--DELCFLAKEKKLTTGLDLLVVDHLHIM-PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>AFPTGYKDIDDKGVILAKGNFVIIAARPSIGKTALAIDMAINLAVTQQRRVGFLSLEMSAGQIVERIIANLTGISGEKLQRGDLSKEELFRVEEAGETVRESHFYICSDSQYKLNLIANQIRLLRKEDRV----DVIFIDYLQLINSSVGENRQNEIADISRTLRGLASELNIPIVCLSQLSRKVEDRANKVPMLSDLRDSGQIEQDADVILFINRK------ESSSNCEITVGKNRHGSVFSSVLHFDPKISKF</Hsp_hseq>
+      <Hsp_midline>  PTG   +D     L  GN ++IAARPS+GKT LA ++A   A+ Q + V F S EMSA ++  R +A    I  + L+ G+L++ +   +       +E  F +  D    LN+  +++  L KE ++    D++ +D+L ++    G +   E+ +ISR L+ LA+ELN P+V ++QL+R    +A+K P ++D+R SG IEQDA++I+  +R+      E+ S  E+ + KNR G + + V  +  +  KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|2506499|sp|P47340.2|DNAB_MYCGE</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Mycoplasma genitalium G37]</Hit_def>
+  <Hit_accession>P47340</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>2.41083e-28</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>452</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>GLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQ----GKAVHFQSYEMSAVELARRGMAAECNIPM---QNLKTGNLTQ------SDYANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMP----RAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR-----ESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKFEEEPDLAWQAPKHDEYDPYS</Hsp_qseq>
+      <Hsp_hseq>GLSSGFLKLDQLTSGWKPGELIVIAARPGRGKTALLINFMASAAKQIDPKTDVVLFFSLEMRNREIYQRHLMHESQTSYTLTNRQRINNVFEELMEASSRIKNLPIKL-------FDYSS--LTLQEIRNQITEVSKTSNVRLVIIDYLQLVNALKNNYGLTRQQEVTMISQSLKAFAKEFNTPIIAAAQLSRRIEERKDSRPILSDLRESGSIEQDADMVLFIHRTNDDKKEQEEENTNLFEVELILEKNRNGPNGKVKLNFRSDTSSF-----ISQYSPSFD--DQYS</Hsp_hseq>
+      <Hsp_midline>GL +G +KLD +T G   G LIVIAARP  GKT L  N    A KQ       V F S EM   E+ +R +  E           +  N+ +      S   N+PI +       FD +   L + E+     E   T+ + L+++D+L ++       G     E+  IS+ LK  A E NTP++  AQL+R   ++ D RP ++D+R SG+IEQDA++++  HR     +   + N N    ELI+ KNR+G  G V   ++     F     ++  +P  D  D YS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|12230086|sp|Q46437.1|GP1D_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Probable plasmid replicative DNA helicase; AltName: Full=DnaB-like protein; AltName: Full=Virulence plasmid protein pGP1-D [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q46437</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.32501e-27</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>GLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFAL-KQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDY----------ANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM-PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>GLPTGYQDIDSKGVILANGNFVIIAARPSIGKTALAIDIAINIAIHQRRRVGFLSLEMSAGQIVERIISNLTGVSGEKLQRGSLSEEEIFCIEEAGNTIRDSHLYICSDNQYKLN-----LIANQIRLLKRDDRV----DVIFIDYLQLINSSVGENRQNEIADISRTLRGLAAELNIPIVCLSQLSRKVEDRANKVPMLSDLRDSGQIEQDADVILFINRK------ETSPNCEITVGKNRHGSVFSTVLQFDPKTSKF</Hsp_hseq>
+      <Hsp_midline>GLPTG   +D     L +GN ++IAARPS+GKT LA +IA      Q + V F S EMSA ++  R ++    +  + L+ G+L++ +            +  +Y+    ++K +     L  +++  L ++ ++    D++ +D+L ++    G +   E+ +ISR L+ LAAELN P+V ++QL+R    +A+K P ++D+R SG IEQDA++I+  +R+      E     E+ + KNR G + + V  +  +  KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|6014983|sp|O78411.1|DNAB_GUITH</Hit_id>
+  <Hit_def>RecName: Full=Probable replicative DNA helicase; Contains: RecName: Full=Gth dnaB intein (chloroplast) [Guillardia theta]</Hit_def>
+  <Hit_accession>O78411</Hit_accession>
+  <Hit_len>599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>3.43347e-27</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>VQSLASVGAEQNILGGILIEPTAIARCAI-LTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAK--NISRYVGIVNDRFVERGLLKASAAIEKIAVSKDGGTVAEKLSKAADELAA-VGKDAVKRETKTFGQTVEDLIGGLDKRLDGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIAR-FALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDY----------ANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMPRAGRDEV--AELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENPSIAEL</Hsp_qseq>
+      <Hsp_hseq>VTKFYNLKAEKHLIIQILVEKDFFLQIYTKIDTQVFYFQSHQILYRSINILHTKKVLINLPNLLSLLHSELVSETV--INYLITLFNDRDNFRILNINDSLKVLLDNFIRRELQNSCAKI--VSLTFNFNLSVETLLQKSNLLISNINTYNKKVSLKSISQLLLETILEIDKKTNRSTHVL-TGFFDLDHILVGLQKSDLIIIAGRPSMGKTAFMLSLVRNVADIQSFPIVIFSLEMSSKQLIYRLISNETNIATSRLREGNISISEWEILNRAMTILSNLNIYLDDEN------NLDVLDIQSK--LASLQQIYGDIGLIVIDYLQLLQYKEKSSQRHIELSYITRYLKLIAKDFNLPLVVLSQLSRNVEFRLNKRPILSDLKESGCLSYATN-------QPYFLKSDNVNFSKL</Hsp_hseq>
+      <Hsp_midline>V    ++ AE++++  IL+E     +    +  + FY   H+I++R++  +      I++  L   L +   +E    + YLI L  +  + +  NI+  + ++ D F+ R L  + A I  ++++ +     E L + ++ L + +     K   K+  Q + + I  +DK+ +     L TG   LD +  GL   +LI+IA RPSMGKT    ++ R  A  Q   +   S EMS+ +L  R ++ E NI    L+ GN++ S++          +N+ IY+          N D+L++     LA  +++   + L+V+D+L ++    +      EL  I+R LK +A + N P+V+++QL+R    + +KRP ++D++ SG +    N       + Y+  ++N + ++L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00185529</Hsp_evalue>
+      <Hsp_query-from>379</Hsp_query-from>
+      <Hsp_query-to>421</Hsp_query-to>
+      <Hsp_hit-from>536</Hsp_hit-from>
+      <Hsp_hit-to>581</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>GAIEQDANIIIMPHRESYYDGN---ENPSIAELIIAKNRDGEMGTV</Hsp_qseq>
+      <Hsp_hseq>NSIEQDADVVLFLYRDSYYQHNLKQSNIDMCEVIVAKHRHGTIGMV</Hsp_hseq>
+      <Hsp_midline> +IEQDA++++  +R+SYY  N    N  + E+I+AK+R G +G V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|2495147|sp|P75539.1|DNAB_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase [Mycoplasma pneumoniae M129]</Hit_def>
+  <Hit_accession>P75539</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.88582e-25</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>GLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFAL-------KQGKAVHFQSYEMSAVELARRGMAAECNI--------PMQNLKTGNLTQSD-YANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIMPRAGRDEV-----AELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYD-------GNENPSIAELIIAKNRDGEMGTVVCGWKGQFMKF---EEEPD</Hsp_qseq>
+      <Hsp_hseq>GLKSGFYPLDQLTSGWKEGELIVVAARPGRGKTALLINFLQGAVNDSEKFDKNKDVLLFFSLEMRNREIYQRHLMLESQVNYTLTSRQRLANVYDDLIKASEVLRDLPIKI-------FDYST--ITLDEIRAQITEVSKTNNVKLVVIDYLQLV-NAFKNSYNISRQQEVTMISKSLKSFAKEFNVPIIAAAQLSRRIEERKDSRPILSDLRESGSIEQDADMVLFIHRVKDEDSENQEAIGHNNIFQVELILEKNRSGPTGKVQFDFQSDVSTFRVREYNPD</Hsp_hseq>
+      <Hsp_midline>GL +G   LD +T G  +G LIV+AARP  GKT L  N  + A+       K    + F S EM   E+ +R +  E  +         + N+    +  S+   ++PI +       FD +   + +DE+     E   T  + L+V+D+L ++  A ++        E+  IS+ LK+ A E N P++  AQL+R   ++ D RP ++D+R SG+IEQDA++++  HR    D       G+ N    ELI+ KNR G  G V   ++     F   E  PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|18202890|sp|Q9F5P4.1|DNAB_MYCIT</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase; Contains: RecName: Full=Min DnaB intein, partial [Mycobacterium intracellulare]</Hit_def>
+  <Hit_accession>Q9F5P4</Hit_accession>
+  <Hit_len>576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>1.96528e-25</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>571</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>DGNLIVIAAR---PSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDL--LVVDHLHIMPRAGRDEVAEL--GNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNE-NPSIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>NGSHLYLASRAMVPTHNSTLGLDFLRSCSIKHRMASVIFSLEMSKSEIVMRLLSAEAKIKLADMRSGRMSDEDWTRLARRMSEISEAPLYID-DSPNLTMMEIRAKARRLRQKADLRLVVVDYLQLMSSGKKVESRQLEVSEFSRQLKLLAKELEVPVVAISQLNRGPEQRTDKKPMLSDLRESGSLEQDADMVILLNRPDAFERDDPRGGEADFILAKHRNGPTKTVTVAHQLHLSRF</Hsp_hseq>
+      <Hsp_midline>+G+ + +A+R   P+   T+  + +   ++K   A    S EMS  E+  R ++AE  I + ++++G ++  D+  +   +S+  E    ++ D  N+  +   AK ++L    DL  +VVD+L +M    + E  +L     SR+LK LA EL  PVV ++QLNRG  ++ DK+P ++D+R SG++EQDA+++I+ +R   ++ ++     A+ I+AK+R+G   TV    +    +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|13432150|sp|P46394.2|DNAB_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Replicative DNA helicase; Contains: RecName: Full=Mle dnaB intein [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>P46394</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>6.14541e-24</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>375</Hsp_hit-from>
+      <Hsp_hit-to>599</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>PSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKL--TTGLDLLVVDHLHIMPRAGRDEV--AELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHRESYYDGNENP--SIAELIIAKNRDGEMGTVVCGWKGQFMKF</Hsp_qseq>
+      <Hsp_hseq>PTHNSTLGLDFMRSCSIKHRLASVIFSLEMSKSEIVMRLLSAEAKIKLADMRSGRMTDDDWTRLARRMSEISEAPLYID-DSPNLTMMEIRAKARRLRQKTNLKLVVVDYLQLMTSGKRFESRQVEVSEFSRHLKLLAKELELPVVAISQLNRSPEQRTDKKPMLSDLRESGSLEQDADVVILLHRPDAFD-RDDPRGGEADLILAKHRNGPTKTVTVAHQLHLSRF</Hsp_hseq>
+      <Hsp_midline>P+   T+  + +   ++K   A    S EMS  E+  R ++AE  I + ++++G +T  D+  +   +S+  E    ++ D  N+  +   AK ++L   T L L+VVD+L +M    R E    E+   SR LK LA EL  PVV ++QLNR   ++ DK+P ++D+R SG++EQDA+++I+ HR   +D  ++P    A+LI+AK+R+G   TV    +    +F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.47416e-21</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QSLASVGAEQNILGGILIEPTAIARC-AILTPEKFYQAQHRIIFRALLDMAAANEPIDIITLNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRFVERGLLKASAAIEKIAVS-KDGGTVAEKLSKAADELAAVGKDAVKRETKTFGQTVEDLIGGLDKRLD------GVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTV</Hsp_qseq>
+      <Hsp_hseq>QPPQDLAAEQSVLGGMLLSKDAIADVLERLRSGDFYRPAHQNVYDAILDLYGRGEPADAVTVAAELDRRGLLRRIGGAPYLHTLISTVPTAANAGYYAGIVAEKALLRRLVEAGTRVVQYGYAGAEGADVAEVVDRAQAEIYDVAE---CRLSENY-VPLEDLLQPTMDDLDAIASNGGISRGAPTGFTELDEVTNGLHPGQMIIVAARPGVGKAL</Hsp_hseq>
+      <Hsp_midline>Q    + AEQ++LGG+L+   AIA     L    FY+  H+ ++ A+LD+    EP D +T+  +L+ RG     GG  YL  L    P+A N   Y GIV ++ + R L++A   + +   +  +G  VAE + +A  E+  V +    R ++ +   +EDL+      LD      G+  G PTG  +LD +T GL  G +I++AARP +GK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|130907|sp|P03692.1|PRIM_BPT7</Hit_id>
+  <Hit_def>RecName: Full=DNA primase/helicase; AltName: Full=Gene product 4; Short=Gp4 [Enterobacteria phage T7]</Hit_def>
+  <Hit_accession>P03692</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000110785</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIA-RFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELCF------------LAKEKKLTTGL--DLLVVDHLHIMPRAG--RDEVAELGNISRRLKNLAAELNTPVVLVAQL---NRGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR</Hsp_qseq>
+      <Hsp_hseq>LFSGCTGINDKTLGARGGEVIMVTSGSGMGKSTFVRQQALQWGTAMGKKVGLAMLEESVEE------TAEDLIGLHNRV--RLRQSDSLKREIIENGKFDQWFD---ELFGNDTFHLYDSFAEAETDRLLAKLAYMRSGLGCDVIILDHISIVVSASGESDERKMIDNLMTKLKGFAKSTGVVLVVICHLKNPDKGKAHEEGRPVSITDLRGSGALRQLSDTIIALER</Hsp_hseq>
+      <Hsp_midline>L +G   ++  T G   G +I++ +   MGK+      A ++    GK V     E S  E       AE  I + N     L QSD     I  +   +  FD   +L   D                LAK   + +GL  D++++DH+ I+  A    DE   + N+  +LK  A      +V++  L   ++G   +  +  ++ D+RGSGA+ Q ++ II   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|130906|sp|P20315.1|PRIM_BPT3</Hit_id>
+  <Hit_def>RecName: Full=DNA primase/helicase [Enterobacteria phage T3]</Hit_def>
+  <Hit_accession>P20315</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000189933</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>LPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIA-RFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELC-------------FLAKEKKLTTGL--DLLVVDHLHIMPRAGR--DEVAELGNISRRLKNLAAELNTPVVLVAQLN---RGNTKQADKRPNMADIRGSGAIEQDANIIIMPHR</Hsp_qseq>
+      <Hsp_hseq>LFDGCQGLNDRTLGARGGEVVMVTSGSGMGKSTFVRQQALAWGKRMGKRVGLAMLEESVEDTIQDMMGLNNKV--------RLRQSDEVKKAI----AEDGRFDEWYDELFGDDTFHLYDSFAEAEADRLLAKLAYMRTGLGCDVIVLDHISIVVSASEESDERKMIDRLMTKLKGFAKSTGVVLVVICHLKNPEKGKAHEEGRAVSITDLRGSGALRQLSDTIIALER</Hsp_hseq>
+      <Hsp_midline>L  G   L+  T G   G ++++ +   MGK+      A  +  + GK V     E S  +  +  M     +         L QSD     I    A++ +FD   D L  D+                LAK   + TGL  D++V+DH+ I+  A    DE   +  +  +LK  A      +V++  L    +G   +  +  ++ D+RGSGA+ Q ++ II   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|17433166|sp|Q9PN90.1|RADA_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=DNA repair protein RadA homolog; AltName: Full=DNA repair protein Sms homolog [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q9PN90</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.003738</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIP</Hsp_qseq>
+      <Hsp_hseq>LGGGLVEGSLVLIGGSPGVGKSTLLLKIASNLAKQGKKVLYVSGEESKAQIKLRADRLEANTP</Hsp_hseq>
+      <Hsp_midline>+ GGL +G+L++I   P +GK+ L   IA    KQGK V + S E S  ++  R    E N P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|166220674|sp|A5UXX8.1|RECA_ROSS1</Hit_id>
+  <Hit_def>RecName: Full=Protein RecA; AltName: Full=Recombinase A [Roseiflexus sp. RS-1]</Hit_def>
+  <Hit_accession>A5UXX8</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0363154</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LPTGLMKLDGM--TGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQA</Hsp_qseq>
+      <Hsp_hseq>IPTGSIALDIALGVGGVPRGRVVEIYGPESSGKTTLAQHIIAEAQKMGGIAAFIDAEHAFDPV----YAARCGVDVNNLL---VSQPDYGEQALEICEA</Hsp_hseq>
+      <Hsp_midline>+PTG + LD     GG+P G ++ I    S GKT LA++I   A K G    F   E +   +     AA C + + NL    ++Q DY    + + +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|22096049|sp|Q8RFY0.2|RECA_FUSNN</Hit_id>
+  <Hit_def>RecName: Full=Protein RecA; AltName: Full=Recombinase A [Fusobacterium nucleatum subsp. nucleatum ATCC 25586]</Hit_def>
+  <Hit_accession>Q8RFY0</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0395208</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>KDAVKRETKTFGQTVEDLIGGLDKRLDGVRFGLPTGLMKLD---GMTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHF</Hsp_qseq>
+      <Hsp_hseq>KDAMAAITKGFGSG---LIMKLGEKSSMNVESIPTGSINLDIALGI-GGVPKGRIIEIYGAESSGKTTLALHVIAEAQKQGGTVAF</Hsp_hseq>
+      <Hsp_midline>KDA+   TK FG     LI  L ++       +PTG + LD   G+ GG+P G +I I    S GKT LA ++   A KQG  V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|3023779|sp|Q58309.1|FLAH_METJA</Hit_id>
+  <Hit_def>RecName: Full=Putative flagella-related protein H [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58309</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0556954</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>GGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARR</Hsp_qseq>
+      <Hsp_hseq>GGIPHGSLIIIEGEESTGKSVLCQRLAYGFLQNRYSVTYVSTQLTTLEFIKQ</Hsp_hseq>
+      <Hsp_midline>GG+P G+LI+I    S GK+VL + +A   L+   +V + S +++ +E  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|6647742|sp|O66827.1|RADA_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=DNA repair protein RadA homolog; AltName: Full=DNA repair protein Sms homolog [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O66827</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0874681</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TGLMKLD-GMTGGLPDGNLIVIAARPSMGKTVLAENIA-RFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM----PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNR</Hsp_qseq>
+      <Hsp_hseq>TGFESLDNALGGGLVKGQVILIAGEPGIGKSTLLLQISDRVA--NGKKVLYVSGEESGTQIALRA---------KRLGINN------ENLLVYP--------EVNLEKI----LQTLEKEKP-----SLLVLDSVQTIFSERLESSAGSVSQVREVTYRITEFCKEKNVPAFIVGQITK</Hsp_hseq>
+      <Hsp_midline>TG   LD  + GGL  G +I+IA  P +GK+ L   I+ R A   GK V + S E S  ++A R          + L   N       N+ +Y         +VN + +    L  L KEK       LLV+D +  +      +    V+++  ++ R+     E N P  +V Q+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|74752111|sp|Q96RR1.1|PEO1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Twinkle protein, mitochondrial; AltName: Full=Progressive external ophthalmoplegia 1 protein; AltName: Full=T7 gp4-like protein with intramitochondrial nucleoid localization; AltName: Full=T7-like mitochondrial DNA helicase; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96RR1</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0874855</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>436</Hsp_query-to>
+      <Hsp_hit-from>362</Hsp_hit-from>
+      <Hsp_hit-to>632</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>AVKRETKTFGQTVEDLIGGLD--KRLDGVRFGLPTGLMKLDGMTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMA--AECNIPMQNLKTGNLTQSDYANMPIYV-----SQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM---PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDA-NIIIMPHRESYYDGNENPSIAELIIAKNR-DGEMGTVVCGWKGQFMKFEEEP</Hsp_qseq>
+      <Hsp_hseq>AWHKSIVSFRQLREEVLGELSNVEQAAGLRW---SRFPDLNRILKGHRKGELTVFTGPTGSGKTTFISEYALDLCSQGVNTLWGSFEISNVRLARVMLTQFAEGRLEDQ-LDKYDHWADRFEDLPLYFMTFHGQQSIRTVIDTMQHAVYVYDICH-------------VIIDNLQFMMGHEQLSTDRIAAQDYIIGVFRKFATDNNCHVTLVIHPRK---EDDDKELQTASIFGSAKASQEADNVLILQDRKLV----TGPGKRYLQVSKNRFDGDVGVFPLEFNKNSLTFSIPP</Hsp_hseq>
+      <Hsp_midline>A  +   +F Q  E+++G L   ++  G+R+   +    L+ +  G   G L V       GKT      A     QG    + S+E+S V LAR  +   AE  +  Q L   +     + ++P+Y       Q+     D     + V ++C              +++D+L  M    +   D +A    I    +  A + N  V LV    +   +  DK    A I GS    Q+A N++I+  R+        P    L ++KNR DG++G     +    + F   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|73921038|sp|Q5JDS9.1|Y1590_THEKO</Hit_id>
+  <Hit_def>RecName: Full=UPF0273 protein TK1590 [Thermococcus kodakarensis KOD1]</Hit_def>
+  <Hit_accession>Q5JDS9</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.172028</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TGLMKLDG-MTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNVDELCFLAKEKKLTTGLDLLVVDHLHIM----PRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRG</Hsp_qseq>
+      <Hsp_hseq>TGIPGMDEILHGGIPERNVVLLSGGPGTGKSIFSQQFLWNGLQMGEPGIYVALEEHPVQV-RQNMAQFGWDVRKYEEEGLFAMVDAFTAGI--GKSKEYEKYIVHDLTDIREFIDVLRTAVKDIGAKRLVVDSVTTLYINKPAMAR-------SIVMQLKRVLAGLGVTSIFVSQISVG</Hsp_hseq>
+      <Hsp_midline>TG+  +D  + GG+P+ N+++++  P  GK++ ++      L+ G+   + + E   V++ R+ MA       +  + G     D     I   ++KE++  +  DL ++ E   + +      G   LVVD +  +    P   R       +I  +LK + A L    + V+Q++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|189039603|sp|A7NN87.1|RECA_ROSCS</Hit_id>
+  <Hit_def>RecName: Full=Protein RecA; AltName: Full=Recombinase A [Roseiflexus castenholzii DSM 13941]</Hit_def>
+  <Hit_accession>A7NN87</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.300748</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LPTGLMKLDGM--TGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQ</Hsp_qseq>
+      <Hsp_hseq>IPTGSIALDIALGVGGVPRGRVVEIYGPESSGKTTLAQHIIAEAQKMGGVAAFIDAEHAFDPV----YAKRCGVDVDNLL---VSQPDYGEQALEICE</Hsp_hseq>
+      <Hsp_midline>+PTG + LD     GG+P G ++ I    S GKT LA++I   A K G    F   E +   +     A  C + + NL    ++Q DY    + + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|138031|sp|P04530.1|VG41_BPT4</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent helicase 41; AltName: Full=Primase-helicase; AltName: Full=Protein Gp41 [Enterobacteria phage T4]</Hit_def>
+  <Hit_accession>P04530</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.354513</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>LPTGLMKLDGMT-GGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDVNCDLLNV--------DELCF--LAKEKKLTTGL--DLLVVDHLHIMPRA-----GRDEVAELGNISRRLKNLAAELNTPVVLVAQLNRGNTKQADKRPNMADIRGSGAIEQDANIII</Hsp_qseq>
+      <Hsp_hseq>VPFKLRILNKITKGGAETGTLNVLMAGVNVGKSLGLCSLAADYLQLGHNVLYISMEMAEEVCAKRIDANMLDVSLDDIDDGHISYAEYK------GKMEKWREKSTLGRLIVKQYPTGGADANTFRSLLNELKLKKNFVPTIIIVDYLGICKSCRIRVYSENSYTTVKAIAEELRALAVETETVLWTAAQVGKQAWDSSD--VNMSDIAESAGLPATADFML</Hsp_hseq>
+      <Hsp_midline>+P  L  L+ +T GG   G L V+ A  ++GK++   ++A   L+ G  V + S EM+    A+R  A   ++ + ++  G+++ ++Y        + ++W+       L V        D   F  L  E KL       +++VD+L I           +    +  I+  L+ LA E  T +   AQ+ +     +D   NM+DI  S  +   A+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|254790425|sp|B9KEN1.1|RECA_CAMLR</Hit_id>
+  <Hit_def>RecName: Full=Protein RecA; AltName: Full=Recombinase A [Campylobacter lari RM2100]</Hit_def>
+  <Hit_accession>B9KEN1</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.403038</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>AVKRETKTFGQTVEDLIGGLDKRLDGVRFGLPTGLMKLD---GMTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDV----NCDLLNVDELCFLAKEKKLTTGL-DLLVVDHLHIMPRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQL</Hsp_qseq>
+      <Hsp_hseq>ALKSLDKTFGKGTILRLG--DKEVEKID-SIPTGSVGLDLALGI-GGVPKGRIIEIYGPESSGKTTLTLHIIAECQKKGGVCAFIDAE-HALDVK---YAKNLGVDTENL---------YISQPDFGEQALEIVETIARSGAIDLIVVDSVAALTPKAEIEGDMGDQHVGLQARLMSQA-----------LRKLTGIVHKMNTTVIFINQI</Hsp_hseq>
+      <Hsp_midline>A+K   KTFG+     +G  DK ++ +   +PTG + LD   G+ GG+P G +I I    S GKT L  +I     K+G    F   E  A+++     A    +  +NL         Y + P +  QA E    +      DL+ VD +  L  + ++   + D  V     +M +A            R+L  +  ++NT V+ + Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|20178053|sp|Q93R37.1|RECA_CAMLA</Hit_id>
+  <Hit_def>RecName: Full=Protein RecA; AltName: Full=Recombinase A [Campylobacter lari]</Hit_def>
+  <Hit_accession>Q93R37</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.428552</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>AVKRETKTFGQTVEDLIGGLDKRLDGVRFGLPTGLMKLD---GMTGGLPDGNLIVIAARPSMGKTVLAENIARFALKQGKAVHFQSYEMSAVELARRGMAAECNIPMQNLKTGNLTQSDYANMPIYVSQAKEWKFDV----NCDLLNVDELCFLAKEKKLTTGL-DLLVVDHLHIMPRAGRDEVAELGNISRRLKNLAAELNTPVVLVAQL</Hsp_qseq>
+      <Hsp_hseq>ALKSLDKTFGKGTILRLG--DKEVEKID-SIPTGSVGLDLALGI-GGVPKGRIIEIYGPESSGKTTLTLHIIAECQKKGGVCAFIDAE-HALDVK---YAKDLGVDTENL---------YISQPDFGEQALEIVETIARSGAIDLIVVDSVAALTPKAEIEGDMGDQHVGLQARLMSQA-----------LRELTGIVHKMNTTVIFINQI</Hsp_hseq>
+      <Hsp_midline>A+K   KTFG+     +G  DK ++ +   +PTG + LD   G+ GG+P G +I I    S GKT L  +I     K+G    F   E  A+++     A +  +  +NL         Y + P +  QA E    +      DL+ VD +  L  + ++   + D  V     +M +A            R L  +  ++NT V+ + Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|292495499|sp|C0JB08.1|A21_LOXAR</Hit_id>
+  <Hit_def>RecName: Full=Phospholipase D LarSicTox-alphaII1; Short=PLD; AltName: Full=Dermonecrotic toxin; AltName: Full=Sphingomyelin phosphodiesterase D; Short=SMD; Short=SMase D; Short=Sphingomyelinase D, partial [Loxosceles arizonica]</Hit_def>
+  <Hit_accession>C0JB08</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.428638</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LNDKLEARGEAENAGGLAYLIDLNQNTPSAKNISRYVGIVNDRF--------VERGLLKASAAIEKIAVSKDGGTVAEKL</Hsp_qseq>
+      <Hsp_hseq>FRETIKAKGHSELLNRVGYDFSANDNIPDVENAYKKVGIVNHVWQSDGITNCISRGLTRAKEAVSE----RDGGGVINKV</Hsp_hseq>
+      <Hsp_midline>  + ++A+G +E    + Y    N N P  +N  + VGIVN  +        + RGL +A  A+ +    +DGG V  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

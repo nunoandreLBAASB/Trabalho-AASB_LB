@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>55735</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7X5</BlastOutput_query-def>
+  <BlastOutput_query-len>242</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>55735</Iteration_query-ID>
+  <Iteration_query-def>Q5F7X5</Iteration_query-def>
+  <Iteration_query-len>242</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1175349|sp|P44090.1|Y997_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_0997 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44090</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>8.4885e-12</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>GVHYWDNKDFSEQSLRLS--FGHQNRSVTRSFGTVPFVGQNLLGGSRYNFAGGFNA--DFSRRLGERWRLTLNAGNMWK-----HYQEDRTAARYGSHMP----LAGATLMYSAPKDRLLYGGADWPHDMTKEAEQASVRKGLRVGAVKTFDGGLGLRANLRYTRRTFDAPGTIVYRFPRKDHEYQANLSLRHDKISWKGFTPQLNFRYLKIGSNMKSFYTRKNTQIFMSVEKDF</Hsp_qseq>
+      <Hsp_hseq>GKYYWDNKKYNEATVRIGGGLGYQTASVEVSL--FPFQEKRWYAGG----SSGTNTMKQYADKLGIRLENVDWLSKTWQISTALEYGESRYKIR--KHLDGNYYFVSSTLFYLPKSTQFWFVGMDFHRENTQALDNAYQQKTLRLGWGQDWFYGISSRLTFSYANRVYREKDLI--GIQQKNREYTTTITLWHRNIHFMGLTPKLSWDYQKSTSN-HAFYRYDKNRIYLEIGKIF</Hsp_hseq>
+      <Hsp_midline>G +YWDNK ++E ++R+    G+Q  SV  S    PF  +    G     + G N    ++ +LG R          W+      Y E R   R   H+        +TL Y     +  + G D+  + T+  + A  +K LR+G  + +  G+  R    Y  R +     I     +K+ EY   ++L H  I + G TP+L++ Y K  SN  +FY     +I++ + K F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81857619|sp|Q9K165.1|Y0313_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=TPR repeat-containing protein NMB0313; Flags: Precursor [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9K165</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00218201</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>GGISRGVHYWDNKDFSEQSLRLSFGHQNRSVTRSFGTVPFVGQNLLGGSRYNFAGGFNADFSRRLGERWRLTLNAGNMWKHYQEDRTAARYGSHMPLAGATLMYSAPKDRLLYGGADWPHDMTKEAEQASV-RKGLRVGAVKTFDGGLGLRANLRY--TRRTFDAPG--TIVYRFPRKDHEYQANLSLRHDKISWKGFTPQLNFRYLKIGSNMKSFYTRKNTQIFMSVEKDF</Hsp_qseq>
+      <Hsp_hseq>GGDVSGRVYPGNKKFNDMTAGVSGGIGFADRRKDAGLAVFHERRTYGNDAYSYTNGARLYFNRWQTPKWQ-TLSSAE-WGRLKNTRRARSDNTHLQISNSLVFYRNARQYWM-GGLDFYRERNPADRGDNFNRYGLRFAWGQEW-GGSGLSSLLRLGAAKRHYEKPGFFSGFKGERRRDKELNTSLSLWHRALHFKGITPRLTLSHRETRSN-DVFNEYEKNRAFVEFNKTF</Hsp_hseq>
+      <Hsp_midline>GG   G  Y  NK F++ +  +S G       +  G   F  +   G   Y++  G    F+R    +W+ TL++   W   +  R A    +H+ ++ + + Y   +   + GG D+  +        +  R GLR    + + GG GL + LR    +R ++ PG  +      R+D E   +LSL H  + +KG TP+L   + +  SN   F   +  + F+   K F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1175345|sp|P44087.1|Y974_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_0974 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44087</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.417345</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>GVHYWDNKDFSEQSLRLSFGHQNRSVTRSFGTVPFVGQNLLGG--------SRYNFAGGFNADFSRRLGERWRLTLNAGNMWKHYQEDRTAARYGSHMP----LAGATLMYSA</Hsp_qseq>
+      <Hsp_hseq>GKYYWDNKKYNEFNARAGVGLGYQTARFELSLMPFTEKRWYAGGSSGGNAMKQYSKNSGARLDLSNWLNEKWQISTAL-----EYGEQRYETR--KHLNGNNYLASATLLYLA</Hsp_hseq>
+      <Hsp_midline>G +YWDNK ++E + R   G   ++       +PF  +    G         +Y+   G   D S  L E+W+++         Y E R   R   H+     LA ATL+Y A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|401057|sp|P31214.1|S5A2_RAT</Hit_id>
+  <Hit_def>RecName: Full=3-oxo-5-alpha-steroid 4-dehydrogenase 2; AltName: Full=5 alpha-SR2; AltName: Full=SR type 2; AltName: Full=Steroid 5-alpha-reductase 2; Short=S5AR 2 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P31214</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.726588</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>VKTFDGGLGLRANLRYTRRTFDAPGTIVYRFPRKD-HEYQANLSLRHDKISWKGF------TPQLNFRYLKIG-SNMKSFY</Hsp_qseq>
+      <Hsp_hseq>VFLFILGMGINIHSDYTLRQLRKPGEVIYRIPRGGLFTYVSGANFLGEIIEWIGYALATWSVPAFAFAFFTLCFLGMQAFY</Hsp_hseq>
+      <Hsp_midline>V  F  G+G+  +  YT R    PG ++YR PR     Y +  +   + I W G+       P   F +  +    M++FY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|123613278|sp|Q3SRH5.1|RRF_NITWN</Hit_id>
+  <Hit_def>RecName: Full=Ribosome-recycling factor; Short=RRF; AltName: Full=Ribosome-releasing factor [Nitrobacter winogradskyi Nb-255]</Hit_def>
+  <Hit_accession>Q3SRH5</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>4.19166</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>YGSHMPLAGATLMYSAPKDRLLYGGADWPHDMTKEAEQASVRKGL</Hsp_qseq>
+      <Hsp_hseq>YGSHMPL-NQVATISVPEPRLLSVQV-WDKSMVKAVEKAIVDSNL</Hsp_hseq>
+      <Hsp_midline>YGSHMPL       S P+ RLL     W   M K  E+A V   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|254809524|sp|B6JH69.1|RRF_OLICO</Hit_id>
+  <Hit_def>RecName: Full=Ribosome-recycling factor; Short=RRF; AltName: Full=Ribosome-releasing factor [Oligotropha carboxidovorans OM5]</Hit_def>
+  <Hit_accession>B6JH69</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.82088</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>YGSHMPLAGATLMYSAPKDRLLYGGADWPHDMTKEAEQASVRKGL</Hsp_qseq>
+      <Hsp_hseq>YGSHMPL-NQVATVSVPEPRLLSVQV-WDKSMVKAVETAIVNSNL</Hsp_hseq>
+      <Hsp_midline>YGSHMPL       S P+ RLL     W   M K  E A V   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81999888|sp|Q5UPI2.1|YL102_MIMIV</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein L102 [Acanthamoeba polyphaga mimivirus]</Hit_def>
+  <Hit_accession>Q5UPI2</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.83667</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MTKEAEQASVRKGLRVGAVKTFDGGLGLRANLRYTRRTFDAPGTIVYRFPRKDHEYQANLSLRHDKISWKGFTPQLNFRYLKIGSNM</Hsp_qseq>
+      <Hsp_hseq>ITKEESTYPIYNSVKTPQIKS-EEAIKTKHNIKHLIKHLDNPKIFVQNGPKIHKYLKDNFYYRYDLSTINGHLVQFNFDEIIIKNNL</Hsp_hseq>
+      <Hsp_midline>+TKE     +   ++   +K+ +  +  + N+++  +  D P   V   P+     + N   R+D  +  G   Q NF  + I +N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|190360236|sp|A4YVG3.1|RRF_BRASO</Hit_id>
+  <Hit_def>RecName: Full=Ribosome-recycling factor; Short=RRF; AltName: Full=Ribosome-releasing factor [Bradyrhizobium sp. ORS 278]</Hit_def>
+  <Hit_accession>A4YVG3</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.85191</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>YGSHMPLAGATLMYSAPKDRLLYGGADWPHDMTKEAEQASVRKGL</Hsp_qseq>
+      <Hsp_hseq>YGSHMPL-NQLATVSVPEPRLLSVQV-WDRSMVKAVEKAIVDSNL</Hsp_hseq>
+      <Hsp_midline>YGSHMPL       S P+ RLL     W   M K  E+A V   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|190360235|sp|A5EK52.1|RRF_BRASB</Hit_id>
+  <Hit_def>RecName: Full=Ribosome-recycling factor; Short=RRF; AltName: Full=Ribosome-releasing factor [Bradyrhizobium sp. BTAi1]</Hit_def>
+  <Hit_accession>A5EK52</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>7.10591</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>YGSHMPLAGATLMYSAPKDRLLYGGADWPHDMTKEAEQASVRKGL</Hsp_qseq>
+      <Hsp_hseq>YGSHMPL-NQLATVSVPEPRLLSVQV-WDRTMVKAVEKAIVDSNL</Hsp_hseq>
+      <Hsp_midline>YGSHMPL       S P+ RLL     W   M K  E+A V   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|341940754|sp|Q61606.2|GLR_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Glucagon receptor; Short=GL-R; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q61606</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>8.1257</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>393</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>QNLLGGSRYNFAGGFNADFSRRLGERWRLTLNAGNMW---KHYQEDRTAARYGSHMPLAGATLMYSAPKDRLLYGGAD</Hsp_qseq>
+      <Hsp_hseq>QGLLVAVLYCF---LNKEVQAELMRRWR-------QWQEGKALQEERLASSHGSHMAPAGPCHGDPCEKLQLMSAGSS</Hsp_hseq>
+      <Hsp_midline>Q LL    Y F    N +    L  RWR        W   K  QE+R A+ +GSHM  AG        K +L+  G+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|122476317|sp|Q215E6.1|RRF_RHOPB</Hit_id>
+  <Hit_def>RecName: Full=Ribosome-recycling factor; Short=RRF; AltName: Full=Ribosome-releasing factor [Rhodopseudomonas palustris BisB18]</Hit_def>
+  <Hit_accession>Q215E6</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.37055</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>YGSHMPLAGATLMYSAPKDRLLYGGADWPHDMTKEAEQASVRKGL</Hsp_qseq>
+      <Hsp_hseq>YGSHMPL-NQLATVSVPEPRLLSVQV-WDRSMVKAVEKAIVDSNL</Hsp_hseq>
+      <Hsp_midline>YGSHMPL       S P+ RLL     W   M K  E+A V   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|166979690|sp|A4Y0F3.1|SSUD_PSEMY</Hit_id>
+  <Hit_def>RecName: Full=Alkanesulfonate monooxygenase; AltName: Full=FMNH2-dependent aliphatic sulfonate monooxygenase [Pseudomonas mendocina ymp]</Hit_def>
+  <Hit_accession>A4Y0F3</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>9.79451</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>GERWRLTLNAGNMWKHYQEDRTAARYGSHMPLAGATLMYSA---PKDRLLYGG-ADWPHDMTKE</Hsp_qseq>
+      <Hsp_hseq>AERYEASVEFTRIWRRVLEGETVDYDGKHIQVKGAKLLYPPIQQPRPPLYFGGSSDAAQDLAAE</Hsp_hseq>
+      <Hsp_midline> ER+  ++    +W+   E  T    G H+ + GA L+Y     P+  L +GG +D   D+  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

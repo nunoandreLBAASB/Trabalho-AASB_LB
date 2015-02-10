@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>39907</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7X2</BlastOutput_query-def>
+  <BlastOutput_query-len>114</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>39907</Iteration_query-ID>
+  <Iteration_query-def>Q5F7X2</Iteration_query-def>
+  <Iteration_query-len>114</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|515714254|ref|WP_017146854.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|535127663|gb|EQS73038.1| hypothetical protein NGEG_04776 [Neisseria gonorrhoeae FA19] &gt;gi|636860957|gb|KDM98156.1| hypothetical protein AW44_10055 [Neisseria gonorrhoeae] &gt;gi|636863395|gb|KDN00400.1| hypothetical protein BK61_10230 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_017146854</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.2368e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAAEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASA EEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489770778|ref|WP_003674689.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria cinerea] &gt;gi|269146290|gb|EEZ72708.1| hypothetical protein NEICINOT_03141 [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003674689</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>8.73346e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKEETKEAAQAVQSDVKDTAASVAESAASATQEAKDKIKDAAADAKESADQAVT-------ETKEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAK+E KEAAQAV+SDVKDTAAS AESAASA +EAK ++KDAAADAK SA++AVT       ETKEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|488177664|ref|WP_002248872.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|432240485|gb|ELK96020.1| hypothetical protein NM9757_1415 [Neisseria meningitidis 9757]</Hit_def>
+  <Hit_accession>WP_002248872</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>4.7419e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLITAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLI AMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QVKDAAADAKASAEEAVTEAK+A  E KEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|489810631|ref|WP_003714486.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Neisseria] &gt;gi|309378339|emb|CBX23036.1| unnamed protein product [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003714486</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.02289e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQETKEAAQAVESDVKDAAASASESAASAVEEAKDQVKDAAADAKASAGEAVTEAKDAAAETKEAVSEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQE KEAAQAVESDVKD AASA+ESAASAVEEAK QVKDAAADAKASA EAVTEAKDAAAETKEAVSEAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488188742|ref|WP_002259950.1|</Hit_id>
+  <Hit_def>putative lipoprotein [Neisseria meningitidis] &gt;gi|485399407|gb|EOC57429.1| putative lipoprotein [Neisseria meningitidis NM271]</Hit_def>
+  <Hit_accession>WP_002259950</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>3.86497e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEA----KGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQETKEAAQAVESDVKDAAASASESASESAASAVEEAKDQVKDAAADAKASAGEAVTEAKDAAAETKEAVSEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQE KEAAQAVESDVKD AASA+ESA+ +   A    K QVKDAAADAKASA EAVTEAKDAAAETKEAVSEAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|488147839|ref|WP_002219047.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|385328277|ref|YP_005882580.1| hypothetical protein NMBB_1077 [Neisseria meningitidis alpha710] &gt;gi|385340358|ref|YP_005894230.1| hypothetical protein NMBG2136_1361 [Neisseria meningitidis G2136] &gt;gi|49616838|gb|AAT67224.1| Ag473 [Neisseria meningitidis] &gt;gi|58397129|gb|AAW72851.1| Ag473 precursor [Neisseria meningitidis] &gt;gi|308389129|gb|ADO31449.1| hypothetical protein NMBB_1077 [Neisseria meningitidis alpha710] &gt;gi|325130546|gb|EGC53299.1| hypothetical protein NMBOX9930304_0681 [Neisseria meningitidis OX99.30304] &gt;gi|325136564|gb|EGC59166.1| lipoprotein, putative [Neisseria meningitidis M0579] &gt;gi|325142654|gb|EGC65043.1| hypothetical protein NMB9615945_0760 [Neisseria meningitidis 961-5945] &gt;gi|325198602|gb|ADY94058.1| hypothetical protein NMBG2136_1361 [Neisseria meningitidis G2136] &gt;gi|393291642|emb|CCI73097.1| Laminin subunit gamma-1 Laminin B2 chain [Neisseria meningitidis alpha704] &gt;gi|402317969|gb|EJU53495.1| putative lipoprotein [Neisseria meningitidis 93004] &gt;gi|402322353|gb|EJU57815.1| putative lipoprotein [Neisseria meningitidis NM183] &gt;gi|402322702|gb|EJU58153.1| putative lipoprotein [Neisseria meningitidis NM140] &gt;gi|402332387|gb|EJU67714.1| putative lipoprotein [Neisseria meningitidis NM576] &gt;gi|432202035|gb|ELK58103.1| putative lipoprotein [Neisseria meningitidis 87255] &gt;gi|432205866|gb|ELK61882.1| putative lipoprotein [Neisseria meningitidis 98080] &gt;gi|432271180|gb|ELL26306.1| putative lipoprotein [Neisseria meningitidis 77221] &gt;gi|485342667|gb|EOC04755.1| putative lipoprotein [Neisseria meningitidis NM313] &gt;gi|485352947|gb|EOC14331.1| putative lipoprotein [Neisseria meningitidis 81858] &gt;gi|485378423|gb|EOC37858.1| putative lipoprotein [Neisseria meningitidis 2004264] &gt;gi|485395074|gb|EOC53402.1| putative lipoprotein [Neisseria meningitidis 2003051] &gt;gi|485401476|gb|EOC59384.1| putative lipoprotein [Neisseria meningitidis NM90] &gt;gi|485419238|gb|EOC75868.1| putative lipoprotein [Neisseria meningitidis NM27] &gt;gi|485425960|gb|EOC82092.1| putative lipoprotein [Neisseria meningitidis NM3223] &gt;gi|530899575|gb|EQC98306.1| putative lipoprotein [Neisseria meningitidis 96037] &gt;gi|530906656|gb|EQD04940.1| putative lipoprotein [Neisseria meningitidis NM045] &gt;gi|530914731|gb|EQD12536.1| putative lipoprotein [Neisseria meningitidis NM0552] &gt;gi|530920780|gb|EQD18228.1| putative lipoprotein [Neisseria meningitidis NM3230] &gt;gi|530922287|gb|EQD19636.1| putative lipoprotein [Neisseria meningitidis NM3230] &gt;gi|530924885|gb|EQD22088.1| putative lipoprotein [Neisseria meningitidis NM3230] &gt;gi|663091524|gb|KER39783.1| putative lipoprotein [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002219047</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>2.42457e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QVKDAAADAKASAEEAVTEAK+A  E KEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488165334|ref|WP_002236542.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|402324516|gb|EJU59948.1| putative lipoprotein [Neisseria meningitidis NM2781]</Hit_def>
+  <Hit_accession>WP_002236542</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>5.23948e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEVKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQE KQEVKEA QAVESDVKDTAASAAESAASAVEEAK QVKDAAADAKASAEEAVTEAK+A  E KEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|488149409|ref|WP_002220617.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|161870337|ref|YP_001599507.1| hypothetical protein NMCC_1381 [Neisseria meningitidis 053442] &gt;gi|49616842|gb|AAT67226.1| Ag473, partial [Neisseria meningitidis] &gt;gi|161595890|gb|ABX73550.1| Ag473 [Neisseria meningitidis 053442] &gt;gi|325132630|gb|EGC55319.1| lipoprotein, putative [Neisseria meningitidis M6190] &gt;gi|325138145|gb|EGC60718.1| hypothetical protein NMBES14902_1338 [Neisseria meningitidis ES14902] &gt;gi|325144762|gb|EGC67055.1| lipoprotein, putative [Neisseria meningitidis M01-240013] &gt;gi|372201435|gb|EHP15366.1| lipoprotein, putative [Neisseria meningitidis NM233] &gt;gi|402335261|gb|EJU70527.1| putative lipoprotein [Neisseria meningitidis 92045] &gt;gi|402340151|gb|EJU75354.1| putative lipoprotein [Neisseria meningitidis NM2795] &gt;gi|402344894|gb|EJU80027.1| putative lipoprotein [Neisseria meningitidis NM3001] &gt;gi|432227161|gb|ELK82872.1| putative lipoprotein [Neisseria meningitidis NM586] &gt;gi|432229382|gb|ELK85070.1| putative lipoprotein [Neisseria meningitidis NM762] &gt;gi|432232875|gb|ELK88510.1| putative lipoprotein [Neisseria meningitidis M7089] &gt;gi|432233656|gb|ELK89282.1| putative lipoprotein [Neisseria meningitidis M7124] &gt;gi|432235000|gb|ELK90619.1| putative lipoprotein [Neisseria meningitidis NM174] &gt;gi|432242945|gb|ELK98460.1| putative lipoprotein [Neisseria meningitidis NM126] &gt;gi|485336321|gb|EOB98820.1| putative lipoprotein [Neisseria meningitidis NM82] &gt;gi|485336408|gb|EOB98898.1| putative lipoprotein [Neisseria meningitidis NM94] &gt;gi|485339180|gb|EOC01505.1| putative lipoprotein [Neisseria meningitidis NM95] &gt;gi|485343636|gb|EOC05650.1| putative lipoprotein [Neisseria meningitidis NM1482] &gt;gi|485345959|gb|EOC07824.1| putative lipoprotein [Neisseria meningitidis NM1495] &gt;gi|485349780|gb|EOC11371.1| putative lipoprotein [Neisseria meningitidis 73704] &gt;gi|485365592|gb|EOC25871.1| putative lipoprotein [Neisseria meningitidis 2001072] &gt;gi|485366990|gb|EOC27176.1| putative lipoprotein [Neisseria meningitidis 2001073] &gt;gi|485368932|gb|EOC29001.1| putative lipoprotein [Neisseria meningitidis 2000081] &gt;gi|485375277|gb|EOC34907.1| putative lipoprotein [Neisseria meningitidis 2001213] &gt;gi|485380881|gb|EOC40146.1| putative lipoprotein [Neisseria meningitidis 2000175] &gt;gi|485380976|gb|EOC40232.1| putative lipoprotein [Neisseria meningitidis 2005079] &gt;gi|485385143|gb|EOC44138.1| putative lipoprotein [Neisseria meningitidis 2001068] &gt;gi|485387455|gb|EOC46293.1| putative lipoprotein [Neisseria meningitidis 2005040] &gt;gi|485387749|gb|EOC46563.1| putative lipoprotein [Neisseria meningitidis 2002004] &gt;gi|485392327|gb|EOC50829.1| putative lipoprotein [Neisseria meningitidis 2005172] &gt;gi|485392669|gb|EOC51140.1| putative lipoprotein [Neisseria meningitidis 2008223] &gt;gi|485392717|gb|EOC51185.1| putative lipoprotein [Neisseria meningitidis 2008223] &gt;gi|485405983|gb|EOC63545.1| putative lipoprotein [Neisseria meningitidis NM3042] &gt;gi|485419516|gb|EOC76106.1| putative lipoprotein [Neisseria meningitidis NM51] &gt;gi|485422666|gb|EOC79064.1| putative lipoprotein [Neisseria meningitidis NM80] &gt;gi|485425875|gb|EOC82017.1| putative lipoprotein [Neisseria meningitidis NM165] &gt;gi|485430158|gb|EOC85915.1| putative lipoprotein [Neisseria meningitidis NM23] &gt;gi|485430807|gb|EOC86501.1| putative lipoprotein [Neisseria meningitidis NM32] &gt;gi|485433972|gb|EOC89373.1| putative lipoprotein [Neisseria meningitidis NM35] &gt;gi|485434490|gb|EOC89838.1| putative lipoprotein [Neisseria meningitidis NM35] &gt;gi|485435145|gb|EOC90418.1| putative lipoprotein [Neisseria meningitidis NM35] &gt;gi|485436607|gb|EOC91752.1| putative lipoprotein [Neisseria meningitidis NM36] &gt;gi|514069523|gb|EPF54430.1| putative lipoprotein [Neisseria meningitidis NM134] &gt;gi|530923460|gb|EQD20739.1| putative lipoprotein [Neisseria meningitidis NM2866] &gt;gi|694192778|gb|KGI98026.1| hypothetical protein JH16_07385 [Neisseria meningitidis] &gt;gi|723270238|gb|KHC97430.1| lipoprotein [Neisseria meningitidis] &gt;gi|723273837|gb|KHD01021.1| lipoprotein [Neisseria meningitidis] &gt;gi|730571130|gb|AIZ18932.1| lipoprotein [Neisseria meningitidis] &gt;gi|730573424|gb|AIZ20826.1| lipoprotein [Neisseria meningitidis M7124] &gt;gi|730575761|gb|AIZ22710.1| lipoprotein [Neisseria meningitidis] &gt;gi|730578230|gb|AIZ24677.1| lipoprotein [Neisseria meningitidis] &gt;gi|730579536|gb|AIZ25517.1| lipoprotein [Neisseria meningitidis] &gt;gi|743394040|gb|KID53578.1| hypothetical protein N872_05380 [Neisseria meningitidis LNP27256]</Hit_def>
+  <Hit_accession>WP_002220617</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.32e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKAS-------AEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEAVTEAKEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QVKDAAADAKAS       A+EAVTEAK+A  E KEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488183622|ref|WP_002254830.1|</Hit_id>
+  <Hit_def>putative lipoprotein [Neisseria meningitidis] &gt;gi|49616844|gb|AAT67227.1| Ag473, partial [Neisseria meningitidis] &gt;gi|485335740|gb|EOB98287.1| putative lipoprotein [Neisseria meningitidis NM43] &gt;gi|726975674|gb|KHF23094.1| lipoprotein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002254830</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>2.76282e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDA--------------AADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEAVTEAKEAVTEAKEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QVKDA              A +A   A+EAVTEAK+A  E KEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|488151057|ref|WP_002222265.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|325134554|gb|EGC57198.1| hypothetical protein NMBM13399_0750 [Neisseria meningitidis M13399]</Hit_def>
+  <Hit_accession>WP_002222265</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>2.82123e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQV------------------KDAAADAK---ASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEAVTEAKEAVTEAKEAVTEAKEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QV                  K+A  +AK     A+EAVTEAK+A  E KEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|498044226|ref|WP_010358382.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|59801415|ref|YP_208127.1| hypothetical protein NGO1043 [Neisseria gonorrhoeae FA 1090] &gt;gi|194098311|ref|YP_002001369.1| hypothetical protein NGK_0744 [Neisseria gonorrhoeae NCCP11945] &gt;gi|538321697|ref|YP_008502757.1| hypothetical protein NGFG_02339 [Neisseria gonorrhoeae MS11] &gt;gi|49616846|gb|AAT67228.1| Ag473, partial [Neisseria gonorrhoeae] &gt;gi|59718310|gb|AAW89715.1| hypothetical protein NGO1043 [Neisseria gonorrhoeae FA 1090] &gt;gi|193933601|gb|ACF29425.1| Ag473 [Neisseria gonorrhoeae NCCP11945] &gt;gi|537637481|gb|AGU85058.1| hypothetical protein NGFG_02339 [Neisseria gonorrhoeae MS11]</Hit_def>
+  <Hit_accession>WP_010358382</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>4.84381e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|498046185|ref|WP_010360341.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|654606534|gb|KEC87076.1| hypothetical protein DT75_08670 [Neisseria gonorrhoeae] &gt;gi|693765041|gb|KGI95925.1| hypothetical protein IX30_08570 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_010360341</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>4.84381e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAAEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASA EEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488166901|ref|WP_002238109.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|389605383|emb|CCA44301.1| laminin subunit beta-1 Laminin B1 chain, precursor [Neisseria meningitidis alpha522] &gt;gi|402331399|gb|EJU66736.1| putative lipoprotein [Neisseria meningitidis 98008]</Hit_def>
+  <Hit_accession>WP_002238109</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>3.56906e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQV------------------KDAAADAK----------ASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEAVTEAKEAVTEAKEAVTEAKEAVTEAKEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QV                  K+A  +AK            A+EAVTEAK+A  E KEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|485328772|gb|EOB91782.1|</Hit_id>
+  <Hit_def>putative lipoprotein [Neisseria meningitidis NM133]</Hit_def>
+  <Hit_accession>EOB91782</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>6.7699e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKAS-------AEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAA</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEAVTEAKEAVTEAAKDTLNKAADATQEAADKMKYAP</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QVKDAAADAKAS       A+EAVTEAK+A  E KEAV+EAAKDTLNKAADA QEAADKMK A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|489802500|ref|WP_003706381.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|291610687|gb|EFF39797.1| conserved hypothetical protein [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>WP_003706381</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.27101e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAAEE---AKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAA     AKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|728044994|ref|WP_033910852.1|</Hit_id>
+  <Hit_def>lipoprotein, partial [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_033910852</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>1.71745e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKAS-------AEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEAVTEAKEAVTEAAKDTLNKAADATQEAADKMK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QVKDAAADAKAS       A+EAVTEAK+A  E KEAV+EAAKDTLNKAADA QEAADKMK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|504394310|ref|WP_014581412.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|385850950|ref|YP_005897465.1| putative lipoprotein [Neisseria meningitidis M04-240196] &gt;gi|325205773|gb|ADZ01226.1| putative lipoprotein [Neisseria meningitidis M04-240196]</Hit_def>
+  <Hit_accession>WP_014581412</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>4.04068e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQV------------------KDAAADAK-----------------ASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEAVTEAKEAVTEAKEAVTEAKEAVTEAKEAVTEAKEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QV                  K+A  +AK                   A+EAVTEAK+A  E KEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488153891|ref|WP_002225099.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|15677322|ref|NP_274477.1| hypothetical protein NMB1468 [Neisseria meningitidis MC58] &gt;gi|254805245|ref|YP_003083466.1| hypothetical protein NMO_1299 [Neisseria meningitidis alpha14] &gt;gi|385323888|ref|YP_005878327.1| hypothetical protein NMV_0916 [Neisseria meningitidis 8013] &gt;gi|385338297|ref|YP_005892170.1| hypothetical protein NMAA_1175 [Neisseria meningitidis WUE 2594] &gt;gi|385341631|ref|YP_005895502.1| putative lipoprotein [Neisseria meningitidis M01-240149] &gt;gi|385852916|ref|YP_005899430.1| putative lipoprotein [Neisseria meningitidis H44/76] &gt;gi|385855514|ref|YP_005902027.1| putative lipoprotein [Neisseria meningitidis M01-240355] &gt;gi|385857522|ref|YP_005904034.1| putative lipoprotein [Neisseria meningitidis NZ-05/33] &gt;gi|7226708|gb|AAF41825.1| hypothetical protein NMB1468 [Neisseria meningitidis MC58] &gt;gi|49616840|gb|AAT67225.1| Ag473, partial [Neisseria meningitidis] &gt;gi|58397125|gb|AAW72849.1| Ag473 precursor [Neisseria meningitidis] &gt;gi|58397127|gb|AAW72850.1| Ag473 precursor, partial [Neisseria meningitidis] &gt;gi|254668787|emb|CBA06723.1| hypothetical protein NMO_1299 [Neisseria meningitidis alpha14] &gt;gi|254669876|emb|CBA04348.1| conserved hypothetical protein [Neisseria meningitidis alpha153] &gt;gi|261392275|emb|CAX49795.1| conserved hypothetical lipoprotein [Neisseria meningitidis 8013] &gt;gi|316984613|gb|EFV63578.1| conserved hypothetical protein [Neisseria meningitidis H44/76] &gt;gi|319410711|emb|CBY91093.1| conserved hypothetical lipoprotein [Neisseria meningitidis WUE 2594] &gt;gi|325140591|gb|EGC63111.1| lipoprotein, putative [Neisseria meningitidis CU385] &gt;gi|325199920|gb|ADY95375.1| putative lipoprotein [Neisseria meningitidis H44/76] &gt;gi|325201837|gb|ADY97291.1| putative lipoprotein [Neisseria meningitidis M01-240149] &gt;gi|325204455|gb|ADY99908.1| putative lipoprotein [Neisseria meningitidis M01-240355] &gt;gi|325208411|gb|ADZ03863.1| putative lipoprotein [Neisseria meningitidis NZ-05/33] &gt;gi|402316456|gb|EJU52001.1| putative lipoprotein [Neisseria meningitidis 93003] &gt;gi|402316562|gb|EJU52105.1| putative lipoprotein [Neisseria meningitidis NM255] &gt;gi|402336102|gb|EJU71364.1| putative lipoprotein [Neisseria meningitidis 80179] &gt;gi|402339798|gb|EJU75007.1| putative lipoprotein [Neisseria meningitidis NM2657] &gt;gi|402345527|gb|EJU80643.1| putative lipoprotein [Neisseria meningitidis NM3081] &gt;gi|432202497|gb|ELK58559.1| putative lipoprotein [Neisseria meningitidis NM422] &gt;gi|432208786|gb|ELK64758.1| putative lipoprotein [Neisseria meningitidis 97021] &gt;gi|432208996|gb|ELK64967.1| putative lipoprotein [Neisseria meningitidis 88050] &gt;gi|432214994|gb|ELK70885.1| putative lipoprotein [Neisseria meningitidis 63041] &gt;gi|432215087|gb|ELK70977.1| putative lipoprotein [Neisseria meningitidis 2006087] &gt;gi|432220098|gb|ELK75924.1| putative lipoprotein [Neisseria meningitidis 2002038] &gt;gi|432221194|gb|ELK77007.1| putative lipoprotein [Neisseria meningitidis 97014] &gt;gi|432222614|gb|ELK78405.1| putative lipoprotein [Neisseria meningitidis M13255] &gt;gi|432226580|gb|ELK82306.1| putative lipoprotein [Neisseria meningitidis NM418] &gt;gi|432240570|gb|ELK96104.1| putative lipoprotein [Neisseria meningitidis 9506] &gt;gi|432246074|gb|ELL01535.1| putative lipoprotein [Neisseria meningitidis 12888] &gt;gi|432246324|gb|ELL01775.1| putative lipoprotein [Neisseria meningitidis 4119] &gt;gi|432246433|gb|ELL01880.1| putative lipoprotein [Neisseria meningitidis 63049] &gt;gi|432252342|gb|ELL07698.1| putative lipoprotein [Neisseria meningitidis 2004090] &gt;gi|432252605|gb|ELL07957.1| putative lipoprotein [Neisseria meningitidis 96023] &gt;gi|432256107|gb|ELL11431.1| putative lipoprotein [Neisseria meningitidis 65014] &gt;gi|432258850|gb|ELL14131.1| putative lipoprotein [Neisseria meningitidis 97020] &gt;gi|432265338|gb|ELL20534.1| putative lipoprotein [Neisseria meningitidis NM3652] &gt;gi|432265555|gb|ELL20747.1| putative lipoprotein [Neisseria meningitidis NM3642] &gt;gi|432265975|gb|ELL21164.1| putative lipoprotein [Neisseria meningitidis 2007056] &gt;gi|432270817|gb|ELL25951.1| putative lipoprotein [Neisseria meningitidis 2001212] &gt;gi|432276865|gb|ELL31919.1| putative lipoprotein [Neisseria meningitidis 63006] &gt;gi|485274313|gb|EOB40903.1| putative lipoprotein [Neisseria meningitidis 69176] &gt;gi|485274392|gb|EOB40975.1| putative lipoprotein [Neisseria meningitidis 69155] &gt;gi|485281325|gb|EOB47452.1| putative lipoprotein [Neisseria meningitidis 2000080] &gt;gi|485281616|gb|EOB47728.1| putative lipoprotein [Neisseria meningitidis 94018] &gt;gi|485287618|gb|EOB53348.1| putative lipoprotein [Neisseria meningitidis 75689] &gt;gi|485287794|gb|EOB53511.1| putative lipoprotein [Neisseria meningitidis 75643] &gt;gi|485294011|gb|EOB59320.1| putative lipoprotein [Neisseria meningitidis 97018] &gt;gi|485301341|gb|EOB66160.1| putative lipoprotein [Neisseria meningitidis 65012] &gt;gi|485302060|gb|EOB66834.1| putative lipoprotein [Neisseria meningitidis 64182] &gt;gi|485307232|gb|EOB71659.1| putative lipoprotein [Neisseria meningitidis 97027] &gt;gi|485308554|gb|EOB72887.1| putative lipoprotein [Neisseria meningitidis 96024] &gt;gi|485309285|gb|EOB73579.1| putative lipoprotein [Neisseria meningitidis 97008] &gt;gi|485311869|gb|EOB76018.1| putative lipoprotein [Neisseria meningitidis 98005] &gt;gi|485313614|gb|EOB77633.1| putative lipoprotein [Neisseria meningitidis 98005] &gt;gi|485315510|gb|EOB79402.1| putative lipoprotein [Neisseria meningitidis 2004085] &gt;gi|485315695|gb|EOB79574.1| putative lipoprotein [Neisseria meningitidis 2003022] &gt;gi|485320283|gb|EOB83867.1| putative lipoprotein [Neisseria meningitidis 2000063] &gt;gi|485321973|gb|EOB85434.1| putative lipoprotein [Neisseria meningitidis NM604] &gt;gi|485326912|gb|EOB90056.1| putative lipoprotein [Neisseria meningitidis NM606] &gt;gi|485357544|gb|EOC18554.1| putative lipoprotein [Neisseria meningitidis NM477] &gt;gi|485358345|gb|EOC19287.1| putative lipoprotein [Neisseria meningitidis 2002020] &gt;gi|485359975|gb|EOC20772.1| putative lipoprotein [Neisseria meningitidis M13265] &gt;gi|485373902|gb|EOC33619.1| putative lipoprotein [Neisseria meningitidis 2004032] &gt;gi|514069868|gb|EPF54746.1| putative lipoprotein [Neisseria meningitidis 98002] &gt;gi|514070494|gb|EPF55334.1| putative lipoprotein [Neisseria meningitidis 2007461] &gt;gi|530899437|gb|EQC98182.1| putative lipoprotein [Neisseria meningitidis 2002030] &gt;gi|530900146|gb|EQC98844.1| putative lipoprotein [Neisseria meningitidis NM3141] &gt;gi|530905529|gb|EQD03887.1| putative lipoprotein [Neisseria meningitidis NM3139] &gt;gi|530907980|gb|EQD06188.1| putative lipoprotein [Neisseria meningitidis NM151] &gt;gi|530911306|gb|EQD09323.1| putative lipoprotein [Neisseria meningitidis NM003] &gt;gi|530919004|gb|EQD16575.1| putative lipoprotein [Neisseria meningitidis NM1476] &gt;gi|530925718|gb|EQD22881.1| putative lipoprotein [Neisseria meningitidis NM3173] &gt;gi|610427286|gb|AHW76162.1| hypothetical protein NMA510612_1879 [Neisseria meningitidis] &gt;gi|744799176|gb|AJC63964.1| hypothetical protein N875_10585 [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>WP_002225099</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.39652e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEA-------KEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QVKDAAADAKASAEEAVTEA       KEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|488141749|ref|WP_002212957.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|304338788|gb|EFM04895.1| hypothetical protein HMPREF0602_0618 [Neisseria meningitidis ATCC 13091] &gt;gi|372200804|gb|EHP14822.1| lipoprotein, putative [Neisseria meningitidis NM220] &gt;gi|402328617|gb|EJU63984.1| putative lipoprotein [Neisseria meningitidis 69166] &gt;gi|432207758|gb|ELK63746.1| putative lipoprotein [Neisseria meningitidis 68094] &gt;gi|432214728|gb|ELK70624.1| putative lipoprotein [Neisseria meningitidis 70012] &gt;gi|432258569|gb|ELL13851.1| putative lipoprotein [Neisseria meningitidis 61103] &gt;gi|432260859|gb|ELL16116.1| hypothetical protein NM69096_1372 [Neisseria meningitidis 69096] &gt;gi|432272967|gb|ELL28069.1| putative lipoprotein [Neisseria meningitidis 70030] &gt;gi|485274338|gb|EOB40927.1| putative lipoprotein [Neisseria meningitidis 70021] &gt;gi|485280752|gb|EOB46910.1| putative lipoprotein [Neisseria meningitidis 96060] &gt;gi|485288767|gb|EOB54431.1| putative lipoprotein [Neisseria meningitidis 69100] &gt;gi|485294743|gb|EOB60006.1| putative lipoprotein [Neisseria meningitidis 63023] &gt;gi|485295046|gb|EOB60292.1| putative lipoprotein [Neisseria meningitidis 61106] &gt;gi|485301003|gb|EOB65846.1| putative lipoprotein [Neisseria meningitidis 70082] &gt;gi|485399847|gb|EOC57834.1| putative lipoprotein [Neisseria meningitidis NM115] &gt;gi|485406414|gb|EOC63936.1| putative lipoprotein [Neisseria meningitidis NM3222] &gt;gi|485408236|gb|EOC65646.1| putative lipoprotein [Neisseria meningitidis NM3131] &gt;gi|485412654|gb|EOC69731.1| putative lipoprotein [Neisseria meningitidis NM3144] &gt;gi|485413015|gb|EOC70057.1| putative lipoprotein [Neisseria meningitidis NM3158] &gt;gi|485415442|gb|EOC72345.1| putative lipoprotein [Neisseria meningitidis NM3164] &gt;gi|530917235|gb|EQD14908.1| putative lipoprotein [Neisseria meningitidis NM518]</Hit_def>
+  <Hit_accession>WP_002212957</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.39652e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEVKDQVKDAAADAKASAEEAVTEA-------KEAVTEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEE K QVKDAAADAKASAEEAVTEA       KEAV+EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|489852206|ref|WP_003755882.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Neisseria] &gt;gi|255050273|gb|EET45737.1| hypothetical protein NEISICOT_00445 [Neisseria sicca ATCC 29256] &gt;gi|339885790|gb|EGQ75483.1| lipoprotein [Neisseria macacae ATCC 33926] &gt;gi|348609740|gb|EGY59467.1| hypothetical protein HMPREF1028_01881 [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>WP_003755882</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>2.35312e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKD----AAAETKEA------------------VSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQETKQETKEAAQAVASDVKNTAASAADSAASAAQEAKDKVKDAAADAKETADKAMTETKEAADKAATDVKEAADKAVTETKEAAGKAKEAATDAAKDSLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQE KQE KEAAQAV SDVK+TAASAA+SAASA +EAK +VKDAAADAK +A++A+TE K+    AA + KEA                   ++AAKD+LNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|488145675|ref|WP_002216883.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|325128570|gb|EGC51443.1| protein tolA [Neisseria meningitidis N1568]</Hit_def>
+  <Hit_accession>WP_002216883</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>3.13684e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEA-------KEAVTEAAKDTLNKAADTTQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QVKDAAADAKASAEEAVTEA       KEAV+EAAKDTLNKAAD  QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|503214097|ref|WP_013448758.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Neisseria] &gt;gi|313668139|ref|YP_004048423.1| hypothetical protein NLA_8030 [Neisseria lactamica 020-06] &gt;gi|313005601|emb|CBN87038.1| hypothetical protein NLA_8030 [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448758</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.35706e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQETKEAAQAVESDVKDAAASASESAASAVEEAKDQVKDAAADAKASADEAVTEAKDAAAETKEAATEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQE KEAAQAVESDVKD AASA+ESAASAVEEAK QVKDAAADAKASA+EAVTEAKDAAAETKEA +EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|489845616|ref|WP_003749309.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria mucosa] &gt;gi|317399152|gb|EFV79826.1| outer membrane protein [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003749309</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.51142e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVK-------DTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAE----TKEAVSEAAKD------------------TLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMVAGLAACSQEAKQETQEAASAVASDVNAAAEHAASAADAAASEAKGAAEQAVSDAKEAGADAKETAEKAISDAKETTGKAIDGAKEASDKALDDAKAAVGEAKDAAKDAAKDALGKAADATQEAADKLKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMM A LAACSQEAKQE +EAA AV SDV          A +AA  A  A E+A    K+A ADAK +AE+A+++AK+   +     KEA  +A  D                   L KAADA QEAADK+KDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|738545335|ref|WP_036493571.1|</Hit_id>
+  <Hit_def>lipoprotein [Neisseria mucosa] &gt;gi|694239944|gb|KGJ30866.1| lipoprotein [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_036493571</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>7.60613e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDV-----------------------------KDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMVAGLAACSQEAKQETQEAASAVASDVNAAAEHAASAADAAASEAKGAAAQAVSDAKEAGADAKETAEKAISDAKETTGKAIDGAKEASDKALDDAKAAVGEAKDAAKDAAKDALGKAADATQEAADKLKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMM A LAACSQEAKQE +EAA AV SDV                             K+  A A E+A  A+ +AK     A   AK ++++A+ +AK A  E K+A  +AAKD L KAADA QEAADK+KDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|224952338|gb|EEG33547.1|</Hit_id>
+  <Hit_def>hypothetical protein NEIFLAOT_01397 [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>EEG33547</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.38785e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDV-------KDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAA----AETKEAVS-------EAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMVAGLAACTQEAKKETQEAASAVASDVNAAAENAASAVDAAASEAKGAAEQAVSDVKDAAADAKATADKAVSDAKDAAGKAVGEAKEAVSDAKDAAKDAAKDAMGKAADATQEAADKLKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMM A LAAC+QEAK+E +EAA AV SDV            +AA  A  A E+A   VKDAAADAKA+A++AV++AKDAA     E KEAVS       +AAKD + KAADA QEAADK+KDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|490655218|ref|WP_004520208.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria subflava] &gt;gi|284796566|gb|EFC51913.1| hypothetical protein NEISUBOT_04621 [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>WP_004520208</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>2.39727e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAA--------SAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAA----ETKEAVS-------EAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIATMMVAGLAACTQEAKKETQEAASAVASDV-NTAAENAASAVDAAASEAKGAAEQAVSDVKDAAADAKATADKAVSDAKDAAGKAVEEAKEAVSDAKDAAKDAAKDAMGKAADATQEAADKLKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIA MM A LAAC+QEAK+E +EAA AV SDV +TAA        +AA  A  A E+A   VKDAAADAKA+A++AV++AKDAA     E KEAVS       +AAKD + KAADA QEAADK+KDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|748605774|ref|WP_039863953.1|</Hit_id>
+  <Hit_def>lipoprotein [Neisseria flavescens]</Hit_def>
+  <Hit_accession>WP_039863953</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>3.10016e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDV-------KDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAA----AETKEAVS-------EAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMVAGLAACTQEAKKETQEAASAVASDVNAAAENAASAVDAAASEAKGAAEQAVSDVKDAAADAKATADKAVSDAKDAAGKAVGEAKEAVSDAKDAAKDAAKDAMGKAADATQEAADKLKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMM A LAAC+QEAK+E +EAA AV SDV            +AA  A  A E+A   VKDAAADAKA+A++AV++AKDAA     E KEAVS       +AAKD + KAADA QEAADK+KDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|515029580|ref|WP_016686834.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016686834</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>7.99752e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAA---SAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAA------------------AETKEAVSEAAKDTLNKAADAAQEAADKMKDAA</Hsp_qseq>
+      <Hsp_hseq>MKKLLLAAMITTGLTACSQETKQQSREAASAVASDIKAAASEVKGMAERAASSAKGAASDTKEASDGAKANADQAVSDTRKSADKALSNATEATGKAVAKMEEAAEHAKNAAKNALDKAADATHKAADKMKDAA</Hsp_hseq>
+      <Hsp_midline>MKKLL+AAM+   L ACSQE KQ+ +EAA AV SD+K  A+     AE AAS+ + A    K+A+  AKA+A++AV++ + +A                   E  E    AAK+ L+KAADA  +AADKMKDAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|489780833|ref|WP_003684724.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria flavescens] &gt;gi|241319986|gb|EER56367.1| hypothetical protein NEIFL0001_0381 [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003684724</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>8.3051e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDV-------KDTAASAAESAASAVEEAKGQV-----------KDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMVAGLAACTQEAKKETQEAASAVASDVNAAAENAASAVDAAASEAKGAAEQAVSDVKDAAADAKATADKAVSDAKDAAGKAVEEAKDAVSDAKDAAKDAAKDAMGKAADATQEAADKLKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMM A LAAC+QEAK+E +EAA AV SDV            +AA  A  A E+A   V             A +DAK +A +AV EAKDA ++ K+A  +AAKD + KAADA QEAADK+KDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|750385472|ref|WP_040667383.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Neisseria wadsworthii]</Hit_def>
+  <Hit_accession>WP_040667383</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>2.25648e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKFLAIAMAVTALGACSQETKQETKEAAQAVKEDVKD----AKDQAASAVDSAVHNAKETGAEASAAAKEAVTEAKDMAKEAAQATKEAAHDAAQATKEAAHDATQATKEAAH</Hsp_hseq>
+      <Hsp_midline>MKK L  AM   AL ACSQE KQE KEAAQAV+ DVKD    A + AASAV+ A    K+  A+A A+A+EAVTEAKD A E  +A  EAA D      +AA +A    K+AA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|349796197|gb|EGZ49987.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF9370_0632 [Neisseria wadsworthii 9715]</Hit_def>
+  <Hit_accession>EGZ49987</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>2.93061e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAA</Hsp_qseq>
+      <Hsp_hseq>MKKFLAIAMAVTALGACSQETKQETKEAAQAVKEDVKD----AKDQAASAVDSAVHNAKETGAEASAAAKEAVTEAKDMAKEAAQATKEAAHDAAQATKEAAHDATQATKEAA</Hsp_hseq>
+      <Hsp_midline>MKK L  AM   AL ACSQE KQE KEAAQAV+ DVKD    A + AASAV+ A    K+  A+A A+A+EAVTEAKD A E  +A  EAA D      +AA +A    K+AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|298281896|gb|EFI23385.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF9016_01774 [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>EFI23385</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>5.29191e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDV---KDTAASAAESAAS-AVEEAKGQVKDA------------------AADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAA</Hsp_qseq>
+      <Hsp_hseq>MKKILLAALMTAALAACSQETKQETQEAAHAVASDVSAAQTDAASAVDSATSAAKDAADKAVSDAKETADKATADAKASADKAMADAKESAHKAMADAKETADKAKSAAKEAMKDSLDKAADATQKAADKMKDAA</Hsp_hseq>
+      <Hsp_midline>MKK+L+AA+M AALAACSQE KQE +EAA AV SDV   +  AASA +SA S A + A   V DA                   ADAK SA +A+ +AK+ A + K A  EA KD+L+KAADA Q+AADKMKDAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|748593124|ref|WP_039851304.1|</Hit_id>
+  <Hit_def>lipoprotein [Neisseria sp. oral taxon 014]</Hit_def>
+  <Hit_accession>WP_039851304</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.13606e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDV---KDTAASAAESAAS-AVEEAKGQVKDA------------------AADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAA</Hsp_qseq>
+      <Hsp_hseq>MKKILLAALMTAALAACSQETKQETQEAAHAVASDVSAAQTDAASAVDSATSAAKDAADKAVSDAKETADKATADAKASADKAMADAKESAHKAMADAKETADKAKSAAKEAMKDSLDKAADATQKAADKMKDAA</Hsp_hseq>
+      <Hsp_midline>MKK+L+AA+M AALAACSQE KQE +EAA AV SDV   +  AASA +SA S A + A   V DA                   ADAK SA +A+ +AK+ A + K A  EA KD+L+KAADA Q+AADKMKDAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|489806690|ref|WP_003710561.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria lactamica] &gt;gi|269208499|gb|EEZ74954.1| hypothetical protein NEILACOT_05019 [Neisseria lactamica ATCC 23970] &gt;gi|673469654|gb|KFJ36284.1| putative lipoprotein [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003710561</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.32249e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQETKEAVQAVGFDVKDTAASAAETAASAAEEAKDQVKDAAADAKASADEAVTEAKEAAAETKEAAAEAAKDTLNKAADATQEAADKMKDAAK</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQE KEA QAV  DVKDTAASAAE+AASA EEAK QVKDAAADAKASA+EAVTEAK+AAAETKEA +EAAKDTLNKAADA QEAADKMKDAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|516225183|ref|WP_017629146.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_017629146</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>6.00733e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEA</Hsp_qseq>
+      <Hsp_hseq>MKKLLIAAMMAAALAACSQEAKQEVKEAVQAVESDVKDTAASAAESAASAVEEAKDQVKDAAADAKASAEEAVTEAKEAVTEAKEA</Hsp_hseq>
+      <Hsp_midline>MKKLLIAAMMAAALAACSQEAKQEVKEA QAVESDVKDTAASAAESAASAVEEAK QVKDAAADAKASAEEAVTEAK+A  E KEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|489777706|ref|WP_003681597.1|</Hit_id>
+  <Hit_def>cytochrome C [Neisseria flavescens] &gt;gi|224951739|gb|EEG32948.1| cytochrome C [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>WP_003681597</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>7.8708e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKD</Hsp_qseq>
+      <Hsp_hseq>MNKLLIAVMMMAGLTACSQEAKQETQEAAQAVASEVKN</Hsp_hseq>
+      <Hsp_midline>M KLLIA MM A L ACSQEAKQE +EAAQAV S+VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|489780333|ref|WP_003684224.1|</Hit_id>
+  <Hit_def>cytochrome C [Neisseria flavescens] &gt;gi|241320605|gb|EER56882.1| cytochrome C [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003684224</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>8.41983e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKD</Hsp_qseq>
+      <Hsp_hseq>MNKLLIAVMMMAGLTACSQEAKQETQEAAQAVASEVKN</Hsp_hseq>
+      <Hsp_midline>M KLLIA MM A L ACSQEAKQE +EAAQAV S+VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|489845368|ref|WP_003749061.1|</Hit_id>
+  <Hit_def>cytochrome C [Neisseria mucosa] &gt;gi|317399338|gb|EFV80009.1| cytochrome c5 [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003749061</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.77007e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKD</Hsp_qseq>
+      <Hsp_hseq>MNKLLIAVMMMAGLTACSQEAKQETQETAQAVASEVKN</Hsp_hseq>
+      <Hsp_midline>M KLLIA MM A L ACSQEAKQE +E AQAV S+VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|746359615|ref|WP_039404231.1|</Hit_id>
+  <Hit_def>cytochrome C [Morococcus cerebrosus] &gt;gi|742700989|gb|KIC13182.1| cytochrome C [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_039404231</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>2.31614e-07</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>CSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAA</Hsp_qseq>
+      <Hsp_hseq>CSQEAKQETKEAATAVASDVKDAAASAVDTVAPAVQEAASKVEDTAA-------KAASEVKDAAP</Hsp_hseq>
+      <Hsp_midline>CSQEAKQE KEAA AV SDVKD AASA ++ A AV+EA  +V+D AA       +A +E KDAA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|738544464|ref|WP_036492706.1|</Hit_id>
+  <Hit_def>cytochrome C [Neisseria mucosa] &gt;gi|694240362|gb|KGJ31254.1| cytochrome C [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_036492706</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.3543e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVK</Hsp_qseq>
+      <Hsp_hseq>MNKLLIAVMMMAGLTACSQEAKQETQETAQAVASEVK</Hsp_hseq>
+      <Hsp_midline>M KLLIA MM A L ACSQEAKQE +E AQAV S+VK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|490655922|ref|WP_004520912.1|</Hit_id>
+  <Hit_def>cytochrome C [Neisseria subflava] &gt;gi|284795874|gb|EFC51221.1| cytochrome C [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>WP_004520912</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.3543e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVK</Hsp_qseq>
+      <Hsp_hseq>MNKLLIAVMMMAGLTACSQEAKQETQETAQAVASEVK</Hsp_hseq>
+      <Hsp_midline>M KLLIA MM A L ACSQEAKQE +E AQAV S+VK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|494155420|ref|WP_007095161.1|</Hit_id>
+  <Hit_def>hypothetical protein [Kordia algicida] &gt;gi|161326823|gb|EDP98148.1| hypothetical protein KAOT1_13062 [Kordia algicida OT-1]</Hit_def>
+  <Hit_accession>WP_007095161</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.24043e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALA----AC-------------SQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADA----KASAEEAVTEAKDAAAETKEAVSEAAKDTL---NKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLIFRAALVAALAFGMTSCEEVKKESEKAADKTEEVVKDVKDAANDVANDVKD----ATNNAVDATKDAANEVKDAANDAVDATKKAANDAVDGAKDMANDVKEGAEKAANDVKNAANKAAEDTKKAANDLKEKAK</Hsp_hseq>
+      <Hsp_midline>MKKL+  A + AALA    +C             ++E  ++VK+AA  V +DVKD    A  +A  A ++A  +VKDAA DA    K +A +AV  AKD A + KE   +AA D     NKAA+  ++AA+ +K+ AK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|518100624|ref|WP_019270832.1|</Hit_id>
+  <Hit_def>cytochrome C [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_019270832</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>2.62955e-05</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>CSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAA</Hsp_qseq>
+      <Hsp_hseq>CSQEAKQESKEAATAVASDVKDAAASAVDTVASAAQEAASKVEEAA</Hsp_hseq>
+      <Hsp_midline>CSQEAKQE KEAA AV SDVKD AASA ++ ASA +EA  +V++AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|496466278|ref|WP_009175123.1|</Hit_id>
+  <Hit_def>cytochrome C [Neisseria sp. oral taxon 014] &gt;gi|298281922|gb|EFI23411.1| cytochrome C [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009175123</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>2.85598e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKD</Hsp_qseq>
+      <Hsp_hseq>MNKLLITLMMAASLAACSQETKQEAQEPAQTVASEAQN</Hsp_hseq>
+      <Hsp_midline>M KLLI  MMAA+LAACSQE KQE +E AQ V S+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|489838195|ref|WP_003741906.1|</Hit_id>
+  <Hit_def>cytochrome C [Neisseria mucosa] &gt;gi|288567584|gb|EFC89144.1| cytochrome C [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003741906</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.99687e-05</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>CSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAA</Hsp_qseq>
+      <Hsp_hseq>CSQEAKQETKEAATAVASDVKDATASAVDTVASAAQEAASKVEEAA</Hsp_hseq>
+      <Hsp_midline>CSQEAKQE KEAA AV SDVKD  ASA ++ ASA +EA  +V++AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|490412555|ref|WP_004285201.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria weaveri] &gt;gi|343966915|gb|EGV35167.1| hypothetical protein l11_21730 [Neisseria weaveri LMG 5135] &gt;gi|343967925|gb|EGV36163.1| hypothetical protein l13_09210 [Neisseria weaveri ATCC 51223]</Hit_def>
+  <Hit_accession>WP_004285201</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000290551</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKFLFAAVAVAGLAACSNEVKQEAKEAAQAVASDVRDAKAEAASAVSAAVDATK---------------EATQNAADTAKEKVEAVKE-------NAGDAAKEAVDNTKQAAQ</Hsp_hseq>
+      <Hsp_midline>MKK L AA+  A LAACS E KQE KEAAQAV SDV+D  A AA + ++AV+  K               EA   A D A E  EAV E        A DAA+EA D  K AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|736928060|ref|WP_034925443.1|</Hit_id>
+  <Hit_def>hypothetical protein [Candidatus Accumulibacter sp. SK-01]</Hit_def>
+  <Hit_accession>WP_034925443</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000872578</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDA</Hsp_qseq>
+      <Hsp_hseq>MRLFVLSAVLTVAVAACGQKEDAAKTEAARLA----KESAQKAGAAVGAAADATKEAVKDAGAAAKEKVVSAGTEVKDKTKEAVEATKEAGKEMVVKAADATKEAADKAKEA</Hsp_hseq>
+      <Hsp_midline>M+  +++A++  A+AAC Q+      EAA+      K++A  A  +  +A +  K  VKDA A AK     A TE KD   E  EA  EA K+ + KAADA +EAADK K+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|291308983|gb|EFE50226.1|</Hit_id>
+  <Hit_def>hypothetical protein NEIELOOT_00905 [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>EFE50226</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00236961</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>CSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAV-TEAKDA</Hsp_qseq>
+      <Hsp_hseq>CSQEAKQETKEAAQAIASDVKNNTASAVDAAASSVQEAASKVADTAEKAASEVKEAVAPEAKPA</Hsp_hseq>
+      <Hsp_midline>CSQEAKQE KEAAQA+ SDVK+  ASA ++AAS+V+EA  +V D A  A +  +EAV  EAK A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|668673231|gb|KFB68557.1|</Hit_id>
+  <Hit_def>hypothetical protein CAPSK01_001953 [Candidatus Accumulibacter sp. SK-01]</Hit_def>
+  <Hit_accession>KFB68557</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00397274</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALAACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKDA</Hsp_qseq>
+      <Hsp_hseq>IRLFVLSAVLTVAVAACGQKEDAAKTEAARLA----KESAQKAGAAVGAAADATKEAVKDAGAAAKEKVVSAGTEVKDKTKEAVEATKEAGKEMVVKAADATKEAADKAKEA</Hsp_hseq>
+      <Hsp_midline>++  +++A++  A+AAC Q+      EAA+      K++A  A  +  +A +  K  VKDA A AK     A TE KD   E  EA  EA K+ + KAADA +EAADK K+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|747148716|gb|AJE19099.1|</Hit_id>
+  <Hit_def>cytochrome C [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>AJE19099</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00503455</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>CSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAV-TEAKDA</Hsp_qseq>
+      <Hsp_hseq>CSQEAKQETKEAAQAIASDVKNNTASAVDAAASSVQEAASKVADTAEKAASEVKEAVAPEAKPA</Hsp_hseq>
+      <Hsp_midline>CSQEAKQE KEAAQA+ SDVK+  ASA ++AAS+V+EA  +V D A  A +  +EAV  EAK A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

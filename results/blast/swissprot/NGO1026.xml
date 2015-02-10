@@ -1,0 +1,1461 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>59589</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7Y5</BlastOutput_query-def>
+  <BlastOutput_query-len>498</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>59589</Iteration_query-ID>
+  <Iteration_query-def>Q5F7Y5</Iteration_query-def>
+  <Iteration_query-len>498</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|34978395|sp|P54932.2|RDXB_RHOS4</Hit_id>
+  <Hit_def>RecName: Full=Protein RdxB [Rhodobacter sphaeroides 2.4.1]</Hit_def>
+  <Hit_accession>P54932</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>2.51584e-86</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>PRASVIQIHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWS-----GRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRY---TTESALEHEYAEKDIKKRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALT--GLPEGGIKVAPRETITLPVQV</Hsp_qseq>
+      <Hsp_hseq>PDTQTSSLYAKREPVFPKRVSGKFRSLKWWIMGVTLGIYYIAPWLRWDRGPNLPDQAILVDLANRRFFFFMIEIWPHEFYFVAGLLIMAGLGLFLFTSAAGRVWCGYACPQTVWTDLFILVERWVEGDRNARIRLLRQRWDLEKTRKYLTKWTLWLLIGLATGGAWVFYFTDAPTLLVDLLTGNAHPVAYITMATLTATTFAFGGFAREQICIYACPWPRIQAAMMDEETITVAYREWRGEPRGKLKKG-EPLSPDQGDCIDCMACVNVCPMGIDIRDGQQLACITCALCIDACDEVMDKIGKPRGLIGYLALTDERAEREGRSPRSAWRHVFRLRTLIYTALWSGVGLALIVALFLRSPIDINVTPLRNPLYVTLSDGSIRNTYDVRLRNKQGEARDYQISVTSEADLALSLEGHPATVVTVPANETMTQRVYI</Hsp_hseq>
+      <Hsp_midline>P      ++ + E + PK+  G+F  L+   +  T  ++Y+ PW  W        QA++ ++  R FF F + +   +  ++A LL++   GLF +T+ AGR+WCGY+CPQTV+T++ + ++  VEGDRN R++L +  W+  K R   TK+ L  L+   TG  +  +F      + DL TG A   A    A     TF F    RE++C++ CP+ R Q+AM D++T+ V+Y   RGEPRG  KK         GDCI+C  CV VCP+GIDIR+G Q  CI CA CIDACDE+MDK+G P GLI Y   T E A     + +   + + R R   Y A+ + V  A +V L  R  +++++   R  +    + G + N Y +R+ N   + +    SV    ++AL+  G P   + V   ET+T  V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|120197|sp|P18396.1|FIXG_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen fixation protein FixG [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>P18396</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>1.28481e-84</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>442</Hsp_align-len>
+      <Hsp_qseq>IHPEGERIHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNW-----SGRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAE---------------------KDIKKRL-----LRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRET</Hsp_qseq>
+      <Hsp_hseq>LYEKRRKIFPKRAEGRFRRFKWLVMLVTLGIYYLTPWIRWDRGAHAPDQAVLIDLASRRFYFFFIEIWPQEFFFVAGLLVMAGFGLFLVTSAVGRAWCGYACPQTVWVDLFLVVERFIEGDRNARMRLDAGPWSLDKIRKRVAKHAIWVAIGVATGGAWIFYFADAPSLMSSLVALDAPPVAYTTIGILTATTYVFGGLMREQVCTYMCPWPRIQAAMLDENSLVVTYNDWRGEPRSRHAKKAAAAGEVVGDCVDCNACVAVCPMGIDIRDGQQLECITCALCIDACDGVMDKLGRERGLISYATLSDYAANMALATSGGTAAIDPSRVRNAHGAFRDKVRHLNWRIVFRPRVLVYFGVWATVGFGLLFGLLARDRLELNVLHDRNPQFVVESDGSVRNGYMVKLLNMIPEQRTISLTIE--------GMPAATMRVAGQAT</Hsp_hseq>
+      <Hsp_midline>++ +  +I PK+AEGRF + +   +L T  ++Y+ PW  W     +  QAV+ ++  R F+ F + +   +  ++A LL++  FGLF  T+  GR WCGY+CPQTV+ ++ L ++  +EGDRN R++L+  PW+  KIR +  K+ +   +   TG  +  +F      +  L    A   A          T+ F  +MRE+VC +MCP+ R Q+AM D+++L+V+Y+  RGEPR    K        +GDC++C  CV VCP+GIDIR+G Q +CI CA CIDACD +MDK+G   GLI Y T S      A                      +D  + L      RPRV  Y  V A V    L GL  R  +E+++L DR       + G + N Y ++++N   +++ I+ +++        G+P   ++VA + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|548712|sp|Q01854.1|RDXA_RHOS4</Hit_id>
+  <Hit_def>RecName: Full=Protein RdxA [Rhodobacter sphaeroides 2.4.1]</Hit_def>
+  <Hit_accession>Q01854</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>4.32859e-78</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>487</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>452</Hsp_align-len>
+      <Hsp_qseq>IHPKKAEGRFAKLRIAAVLATQFVFYVIPWFNWS-----GRQAVVFNIPERHFFIFGLSLGVGDLIYLALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDIK---KRLLRPRVAGYGAVLAVVVAAFLVGLSTRKMVEVDILKDRGVMVRENAKGWLENAYSLRIINNSEKEQLITASVKGFDEIALTGLPEGGIKVAPRETITLPVQVS-TIPEYADKGSHPI-EFIFQYRESGASDGKPV</Hsp_qseq>
+      <Hsp_hseq>IFPRQISGAFRTAKWWILAVSLGIYLLTPWLRWDRGPNLPDQAVLIDIAGRRFFLFGIQIWPHEFYFVAGLLIMAGLGLFLFTSAAGRVWCGYACPQTVWTDLFLLVERRIEGDRNAQIRLHRQAWTAEKVWKRLLKWSVWAAISLLTGGAWVFYFADAPTLLNGLVTLTAHPVAWITIFVLTATTFVFAGFMREQICIYACPWPRIQAALMDEETITVAYRDWRGEPRGKRSET------GRGDCIDCMACVNVCPMGIDIREGQQMACITCGLCIDACDDTMDRIGRPRGLIGYLALSDEHLERAGDTPKPAWRRLFRLRTSLYAVLWAGVGVTLIAALLLRPAVDLAVTPVRNPLFVTLSDGSIRNAYELRLRNMSGEDRRFRLAVDGSAGLRPSIEGSAGLDVPVAANATGLVRLYLTAPQGSDPATGALTDLRIRLDDAGGPEGGPV</Hsp_hseq>
+      <Hsp_midline>I P++  G F   +   +  +  ++ + PW  W        QAV+ +I  R FF+FG+ +   +  ++A LL++   GLF +T+ AGR+WCGY+CPQTV+T++ L ++  +EGDRN +++L +  W   K+  +  K+ +   +   TG  +  +F      +  L T  A   A          TF FA  MRE++C++ CP+ R Q+A+ D++T+ V+Y   RGEPRG R +T      G GDCI+C  CV VCP+GIDIR G Q  CI C  CIDACD+ MD++G P GLI Y   S    E A    K   +RL R R + Y  + A V    +  L  R  V++ +   R  +    + G + NAY LR+ N S +++    +V G   +  +     G+ V      T  V++  T P+ +D  +  + +   +  ++G  +G PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2494442|sp|Q49131.1|MAUN_METEA</Hit_id>
+  <Hit_def>RecName: Full=Methylamine utilization ferredoxin-type protein MauN [Methylobacterium extorquens AM1]</Hit_def>
+  <Hit_accession>Q49131</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>3.77114e-06</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>LMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFL--VCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCP---------VGIDIRNGLQYQCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>LLGAALIVLFYLVVGGRAYCGWICPVNIVTDTAYWLREKLGITRDRKLDRR------TRLWVLAGALLASFLSGAIAWEFVN------PVSLLQRGLIFGLGVGWTVIAAVF-----LLDLLVTRRGWCGHLCPVGAFYGIV--GKTSLVRVAAARRE-----------------GCTNCGACFQICTEPHVITPALKGTGSTLILSGDCVNCGSCIDAC</Hsp_hseq>
+      <Hsp_midline>L+  A  + ++  + GR +CG+ CP  + T+   W+   +   R+++L         T++ + A   L  FL    AW  +       P+      L  G   G  + AA F          + R   C H+CP   F   +    T +V   A R E                  C NC  C Q+C           G      L   C+ C +CIDAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|115502417|sp|Q50428.3|MAUN_METFK</Hit_id>
+  <Hit_def>RecName: Full=Methylamine utilization ferredoxin-type protein MauN [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q50428</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.00020238</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>AGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGW--FVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCP--------VGIDIRNGLQYQCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>GGRIYCSWVCPINMVTDLAYWL--------RQKLNLKGNMTMSRELRMAVLGMSLILTVLSGT----LAWENFNPITLFQRELMWTSVAGSMVLLSL-----FLFDLLITRRGWCGHLCPVGAFYAVL-----------GRYGRLR------VTAEQS--GSCAGCGSCIRVCPEPHVLAPVVSLKANTVTHGDCTRCGACLDQC</Hsp_hseq>
+      <Hsp_midline> GR++C + CP  + T++  W+         ++L L+ +     ++R+      LI  V + T      W  F PI  F  +L   +  G  +  +        F   I R   C H+CP   F + +              G  R      V  E++  G C  C  C++VCP        V +         C  C AC+D C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1171650|sp|P44653.1|NAPH_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin-type protein NapH homolog [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44653</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000303839</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>ALLLMICAFGLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKY---LLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQ-----------CIGCAACIDACDE</Hsp_qseq>
+      <Hsp_hseq>ALTLIGAAIIVLFYAVLGSKVFCGWVCPLNVVTDCAAWL--------RRKLGIRQT----AKIS-RGLRYGILVLILLGSSVSGMLLWEWVNPVAALGRAFVFGFGATGWLLLVIF-----LFDLLIAEHGWCGHLCPIGAAYGVIGAKSLI--------------RIKVIDRAK-----CDNCMDCYNVCPEAQVLRSPLHGKKDESLLVLSKDCISCGRCIDVCAE</Hsp_hseq>
+      <Hsp_midline>AL L+  A  + ++  +  +++CG+ CP  V T+   W+         ++L + ++     KI  +  +Y   +LI L  + +G+    W  P+         G    G +    F      F   I     C H+CP       +  K  +              R K +++ +     C NC  C  VCP    +R+ L  +           CI C  CID C E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|119944|sp|P00211.1|FER2_DESNO</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin-2; AltName: Full=Ferredoxin II [Desulfomicrobium norvegicum]</Hit_def>
+  <Hit_accession>P00211</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000955885</Hsp_evalue>
+      <Hsp_query-from>286</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CINCAMCVQVCPVGI-DIRNGL-----QYQCIGCAACIDACDE</Hsp_qseq>
+      <Hsp_hseq>CIGCGECVDVCPVEVYELQNGKAVPVNEEECLGCESCIEVCPQ</Hsp_hseq>
+      <Hsp_midline>CI C  CV VCPV + +++NG      + +C+GC +CI+ C +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123767479|sp|Q2SKU5.1|ETCB_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Electron transport complex subunit B [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SKU5</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00130888</Hsp_evalue>
+      <Hsp_query-from>255</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>DTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQY------QCIGCAACIDACD-EIMDKMGYPSGL</Hsp_qseq>
+      <Hsp_hseq>DVEAVPLDSEHGESKGKQVAYIREDE-----CIGCTKCIQACPVDAILGAAKQMHTVIVSECTGCDLCVEPCPVDCIDMIPAPSGI</Hsp_hseq>
+      <Hsp_midline>D   V  D+E GE +G +   + ++E     CI C  C+Q CPV   +    Q       +C GC  C++ C  + +D +  PSG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|120000|sp|P11425.1|FER_ENTHI</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin [Entamoeba histolytica]</Hit_def>
+  <Hit_accession>P11425</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00292666</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>LGDCINCAMCVQVCPVGI-DIRNGLQYQ----CIGCAACIDACDE</Hsp_qseq>
+      <Hsp_hseq>IDDCVACGACSGTCPQSVLEVNDHVEIKNPDDCIGCGACVDACPQ</Hsp_hseq>
+      <Hsp_midline>+ DC+ C  C   CP  + ++ + ++ +    CIGC AC+DAC +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81680061|sp|Q5YWD4.1|NUOHI_NOCFA</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunits H/I; AltName: Full=NADH dehydrogenase I subunits H/I; AltName: Full=NDH-1 subunit H/I [Nocardia farcinica IFM 10152]</Hit_def>
+  <Hit_accession>Q5YWD4</Hit_accession>
+  <Hit_len>597</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00356014</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>447</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDI--KKRLLRPRVAG</Hsp_qseq>
+      <Hsp_hseq>PRYHGRHQLNRHPDGLEKCIGCELCAWACPADAIYVEGADNTEDERYSPGERYGRVYQINYLRCIGCGLCIEAC---------PTRALTMTNDYELTDDNRADLIYEKDRLLAPLAPG</Hsp_hseq>
+      <Hsp_midline>PR   +  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC         P+  +  T +  L  +     I  K RLL P   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|2494446|sp|Q51660.1|MAUN_PARDP</Hit_id>
+  <Hit_def>RecName: Full=Methylamine utilization ferredoxin-type protein MauN [Paracoccus denitrificans PD1222]</Hit_def>
+  <Hit_accession>Q51660</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00545361</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>GLFWWTTIAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCP---VGIDIRNG------LQYQCIGCAACIDACDE</Hsp_qseq>
+      <Hsp_hseq>GLFY-LLVGGRVYCSFVCPVNIVTDTAHWLREKTGLTRDRKLDRRTRLWLLLGTLLAAALTGTI----AWEYVN------PVSMMQRGLIFGAGLGWSIVLLV-----FLLDLFVSRRAWCSHLCPVGAFY-GLVGRFSLV-------------RVSARNRDA-----CDNCGACFSTCPEPHVIVPALKGEGSPLILSGDCINCGGCIDSCPN</Hsp_hseq>
+      <Hsp_midline>GLF+   + GR++C + CP  + T+   W+       R+++L      W      + A     I    AW  +       P+      L  GA  G ++               + R   C H+CP   F   +  + +L+             R    N++      C NC  C   CP   V +    G      L   CI C  CID+C  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|38605559|sp|Q58159.1|Y749_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ0749 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58159</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00794851</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>IAGRLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKY---LLIFLVCAW-TGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGL-QYQCIGCAACIDACDE</Hsp_qseq>
+      <Hsp_hseq>IAGRVFCGWMCPFG-------FLFNLVYELRVKLFKLKKLPTVDEKIHNKLIYFKYVVLILVVLAYLSGVKISGY------------TLAYLLLALFLVLGFIYPMFF---------CRYVCPVGSLLSIF--------------------ARFSIFKLKLDENKCVGCRLCERKCPMQIKITEKIDQMECIRCFECMSVCKK</Hsp_hseq>
+      <Hsp_midline>IAGR++CG+ CP         ++ NLV   R K  KL+K P    KI  K   +   +LI +V A+ +G+  +G+            T A    A+F    + +  FF         C ++CP     S                       + ++ K +     C+ C +C + CP+ I I   + Q +CI C  C+  C +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|156633540|sp|A4FPT3.1|NUOI_SACEN</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Saccharopolyspora erythraea NRRL 2338]</Hit_def>
+  <Hit_accession>A4FPT3</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.010662</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCPV-------GIDI---------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>PRFHGKHQLNRHPDGLEKCVGCELCAWACPADAIFVEGGTNTEDERYSPGERYGMDYQINYLRCIGCGLCIEAC</Hsp_hseq>
+      <Hsp_midline>PR   K  +N+   GL  C+ C +C   CP        G +          R G+ YQ     CIGC  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2833496|sp|Q57619.1|FER8_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized ferredoxin MJ0155 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57619</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.030526</Hsp_evalue>
+      <Hsp_query-from>286</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>CINCAMCVQVCPVG-IDIRNGLQYQCIGC-------AACIDACDE</Hsp_qseq>
+      <Hsp_hseq>CIACGMCAIACPIGAIFIKNRVAHKCTLCLDVDRITPACVEACKD</Hsp_hseq>
+      <Hsp_midline>CI C MC   CP+G I I+N + ++C  C        AC++AC +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|41018397|sp|Q50849.1|VHCB_METVO</Hit_id>
+  <Hit_def>RecName: Full=Polyferredoxin protein VhcB [Methanococcus voltae]</Hit_def>
+  <Hit_accession>Q50849</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0348113</Hsp_evalue>
+      <Hsp_query-from>286</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>CINCAMCVQVCPVGIDIRNGLQYQ----CIGCAACIDACDE</Hsp_qseq>
+      <Hsp_hseq>CDSCGACVEICPQNV-LKLNEEYKLKGFCVMCLKCIDACDK</Hsp_hseq>
+      <Hsp_midline>C +C  CV++CP  + ++   +Y+    C+ C  CIDACD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|156633530|sp|A5U7G9.1|NUOI_MYCTA</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium tuberculosis H37Ra] &gt;gi|614100924|sp|P9WJG8.1|NUOI_MYCTO RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium tuberculosis CDC1551] &gt;gi|614100929|sp|P9WJG9.1|NUOI_MYCTU RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>A5U7G9</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.05209</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>AMFDKDTLIVSYDAERGEPRGAR---KKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>SMFKK-TVTEEY-PERPGPVAARYHGRHQLNRYPDGLEKCIGCELCAWACPADAIYVEGADNTEEERFSPGERYGRVYQINYLRCIGCGLCIEAC</Hsp_hseq>
+      <Hsp_midline>+MF K T+   Y  ER  P  AR   +  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81712063|sp|Q7TX57.1|NUOI_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium bovis AF2122/97] &gt;gi|156633526|sp|A1KNE9.1|NUOI_MYCBP RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium bovis BCG str. Pasteur 1173P2] &gt;gi|254772595|sp|C1AGS0.1|NUOI_MYCBT RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium bovis BCG str. Tokyo 172]</Hit_def>
+  <Hit_accession>Q7TX57</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0565068</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>AMFDKDTLIVSYDAERGEPRGAR---KKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>SMFKK-TVTEEY-PERPGPVAARYHGRHQLNRYPDGLEKCIGCELCAWACPADAIYVEGADNTEEERFSPGERYGRVYQINYLRCIGCGLCIEAC</Hsp_hseq>
+      <Hsp_midline>+MF K T+   Y  ER  P  AR   +  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|156633531|sp|A0PR46.1|NUOI_MYCUA</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium ulcerans Agy99] &gt;gi|226737404|sp|B2HGE0.1|NUOI_MYCMM RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium marinum M]</Hit_def>
+  <Hit_accession>A0PR46</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0572149</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>AMFDKDTLIVSYDAERGE--PRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>SMFKK-TVTEEYPEKPGPVAPRYHGRHQLNRYPDGLEKCIGCELCAWACPADAIYVEGADNTDEQRFSPGERYGRVYQINYLRCIGCGLCIEAC</Hsp_hseq>
+      <Hsp_midline>+MF K T+   Y  + G   PR   +  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81700407|sp|Q73V07.1|NUOI2_MYCPA</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I 2; AltName: Full=NADH dehydrogenase I subunit I 2; AltName: Full=NDH-1 subunit I 2 [Mycobacterium avium subsp. paratuberculosis K-10] &gt;gi|156633525|sp|A0QJV5.1|NUOI_MYCA1 RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium avium 104]</Hit_def>
+  <Hit_accession>Q73V07</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.060504</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDIRNGLQY---------------QCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>PRYHGRHQLNRYPDGLEKCIGCELCAWACPADAIYVEGADNTEELRYSPGERYGRVYQINYLRCIGCGLCVEAC</Hsp_hseq>
+      <Hsp_midline>PR   +  +N+   GL  CI C +C   CP       G D    L+Y               +CIGC  C++AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|2506398|sp|P52636.2|YCCM_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putative electron transport protein YccM [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P52636</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0743187</Hsp_evalue>
+      <Hsp_query-from>233</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQ---YQCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>IRHAWCRYLCPYG----ALMGVVSLLSPFKIRR-----------NAE-----SCIDCGKCAKNCPSRIPVDKLIQVRTVECTGCMTCVESC</Hsp_hseq>
+      <Hsp_midline>+R   C ++CPY     A+    +L+  +   R           N E      CI+C  C + CP  I +   +Q    +C GC  C+++C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|254772596|sp|C1AZF5.1|NUOI_RHOOB</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Rhodococcus opacus B4]</Hit_def>
+  <Hit_accession>C1AZF5</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0763633</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>SAMFDK-DTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDI--KKRLLRPRVAG</Hsp_qseq>
+      <Hsp_hseq>STMFKKANTEFYPEEKTPTAPRYHGRHQLNRYADGLEKCIGCELCAWACPADAIFVEGADNTDEERYSPGERYGRVYQINYLRCIGCGLCIEAC---------PTRALTMTNEYEMADDNRAGLIYEKDRLLAPLESG</Hsp_hseq>
+      <Hsp_midline>S MF K +T     +     PR   +  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC         P+  +  T E  +  +     I  K RLL P  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|156633527|sp|A0QU28.1|NUOI_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium smegmatis str. MC2 155]</Hit_def>
+  <Hit_accession>A0QU28</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0945015</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>365</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDI--KKRLLRPRVAGYGA</Hsp_qseq>
+      <Hsp_hseq>PRYHGRHQLNRYPDGLEKCIGCELCAWACPADAIYVEGADNTADERYSPGERYGRVYQINYLRCIGCGLCIEAC---------PTRALTMTTEYEMADDNRADLIWGKDKLLAPLQEGMQA</Hsp_hseq>
+      <Hsp_midline>PR   +  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC         P+  +  TTE  +  +     I  K +LL P   G  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|123045604|sp|Q0S442.1|NUOI_RHOSR</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Rhodococcus jostii RHA1]</Hit_def>
+  <Hit_accession>Q0S442</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.12439</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>PRYHGRHQLNRYADGLEKCIGCELCAWACPADAIYVEGADNTDEERFSPGERYGQVYQINYLRCIGCGLCIEAC</Hsp_hseq>
+      <Hsp_midline>PR   +  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|254771924|sp|A8LC93.1|NUOI_FRASN</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Frankia sp. EAN1pec]</Hit_def>
+  <Hit_accession>A8LC93</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.130794</Hsp_evalue>
+      <Hsp_query-from>243</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>PYARFQ---SAMFDKDTLIVSYDAERGE--PRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>PYKGFGVTFSTMFKKPT-TEQYPEQKKETAPRFHGRHQLNRHPDGLEKCVGCELCAWACPADAIYVEGADNTDEQRFSPGERYGRVYQINYLRCILCGLCIEAC</Hsp_hseq>
+      <Hsp_midline>PY  F    S MF K T    Y  ++ E  PR   +  +N+   GL  C+ C +C   CP       G D           R G  YQ     CI C  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81700783|sp|Q744Z4.1|NUOI1_MYCPA</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I 1; AltName: Full=NADH dehydrogenase I subunit I 1; AltName: Full=NDH-1 subunit I 1 [Mycobacterium avium subsp. paratuberculosis K-10]</Hit_def>
+  <Hit_accession>Q744Z4</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.132861</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SAMFDKDTLIVSYDAERGE--PRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDI----------------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>SAMFKK-PVTEGYPEKPGPVAPRYHGRHQLNRWPDGLEKCIGCELCAWACPADAIFVESADNTEAERFSPGERYGRVYQINYLRCIGCGFCIEAC</Hsp_hseq>
+      <Hsp_midline>SAMF K  +   Y  + G   PR   +  +N+   GL  CI C +C   CP                     R G  YQ     CIGC  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|110287761|sp|Q2JFL2.1|NUOI_FRASC</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Frankia sp. CcI3]</Hit_def>
+  <Hit_accession>Q2JFL2</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.18292</Hsp_evalue>
+      <Hsp_query-from>251</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MFDKDTLIVSYDAERGE--PRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>MFKKPT-TEQYPEEKKETAPRFHGRHQLNRHPDGLEKCVGCELCAWACPADAIYVEGADNTEAERYSPGERYGRVYQINYLRCILCGLCIEAC</Hsp_hseq>
+      <Hsp_midline>MF K T    Y  E+ E  PR   +  +N+   GL  C+ C +C   CP       G D           R G  YQ     CI C  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|118613|sp|P08066.3|SDHB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Succinate dehydrogenase iron-sulfur subunit [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P08066</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.189409</Hsp_evalue>
+      <Hsp_query-from>227</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>FFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKE----EAGLGDCINCAMCVQVCPVGIDI</Hsp_qseq>
+      <Hsp_hseq>YELSKCMTCGVCLEACPNVNSKSK-FMGPAPMSQVRLFNAHPTGAMNKSERLEALMDEGGLADCGNSQNCVQSCPKGIPL</Hsp_hseq>
+      <Hsp_midline>+  +  M   VCL  CP    +S  F     +         P GA  K+   E    E GL DC N   CVQ CP GI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|123179140|sp|Q1BBQ1.1|NUOI_MYCSS</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium sp. MCS] &gt;gi|156633529|sp|A1UD96.1|NUOI_MYCSK RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium sp. KMS]</Hit_def>
+  <Hit_accession>Q1BBQ1</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.198188</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>PRYHGRHQLNRYPDGLEKCIGCELCAWACPADAIYVEGDDNTADERYSPGERYGRVYQINYLRCIGCGLCIEAC</Hsp_hseq>
+      <Hsp_midline>PR   +  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|156633528|sp|A3PWR3.1|NUOI_MYCSJ</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium sp. JLS]</Hit_def>
+  <Hit_accession>A3PWR3</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.200042</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>PRYHGRHQLNRYPDGLEKCIGCELCAWACPADAIYVEGDDNTADERYSPGERYGRVYQINYLRCIGCGLCIEAC</Hsp_hseq>
+      <Hsp_midline>PR   +  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|465629|sp|P33934.1|NAPH_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin-type protein NapH [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P33934</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.362983</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>RLWCGYSCPQTVYTEIMLWIDNLVEGDRNKRLKLEKSPWNFTKIRIKATKYLLIFLVCAWTGITFAGWFVPIRQFVPDLFTGAAGGGAMFAAAFYGFMTFFFAHIMREKVCLHMCPYARFQSAMFDKDTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPVG-------IDIRNGLQY---QCIGCAACIDACDE</Hsp_qseq>
+      <Hsp_hseq>RLFCSWVCPLNPITDLANWL--------RRRFDLNQSA--TIPRHIRYVLLVVILVGSALTGTLIWEWINPVSLMGRSLVMGFGSGALLILAL-----FLFDLLVVEHGWCGHICPVGALYGVLGSKGVITVAATD--------RQK-----------CNRCMDCFHVCPEPHVLRAPVLDEQSPVQVTSRDCMTCGRCVDVCSE</Hsp_hseq>
+      <Hsp_midline>RL+C + CP    T++  W+         +R  L +S        I+    ++I +  A TG     W  P+      L  G   G  +  A        F   ++    C H+CP       +  K  + V+           R+K           C  C  C  VCP         +D ++ +Q     C+ C  C+D C E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|313104161|sp|P80903.2|PORD_METTM</Hit_id>
+  <Hit_def>RecName: Full=Pyruvate synthase subunit PorD; AltName: Full=Pyruvate oxidoreductase delta chain; Short=POR; AltName: Full=Pyruvic-ferredoxin oxidoreductase subunit delta [Methanothermobacter marburgensis str. Marburg]</Hit_def>
+  <Hit_accession>P80903</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.424058</Hsp_evalue>
+      <Hsp_query-from>286</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>CINCAMCVQVCPVG-IDIRNGLQYQ-CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>CIDCDNCILFCPEGCIDKEHEIDYDYCKGCGICAEEC</Hsp_hseq>
+      <Hsp_midline>CI+C  C+  CP G ID  + + Y  C GC  C + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|119957|sp|P08812.1|FER3_DESAF</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin-3; AltName: Full=Ferredoxin III [Desulfovibrio africanus]</Hit_def>
+  <Hit_accession>P08812</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.451272</Hsp_evalue>
+      <Hsp_query-from>286</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CINCAMCVQVCPVGI-DIRNGL-----QYQCIGCAACIDACDE</Hsp_qseq>
+      <Hsp_hseq>CTGDGECVDVCPVEVYELQDGKAVAVNEDECLGCESCVEVCEQ</Hsp_hseq>
+      <Hsp_midline>C     CV VCPV + ++++G      + +C+GC +C++ C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|123044863|sp|Q0RRW0.1|NUOI_FRAAA</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Frankia alni ACN14a]</Hit_def>
+  <Hit_accession>Q0RRW0</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.466271</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>365</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>SAMFDKDTL--IVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDI---KKRLLRPRVAGYGA</Hsp_qseq>
+      <Hsp_hseq>STMFKKPTTEQYPEYKKETA-PRFHGRHQLNRHPDGLEKCVGCELCAWACPADAIYVEGADNTETERYSPGERYGSVYQINYLRCILCGLCIEAC---------PTRALTMSNDYELADD-SRRDLIFTKEQLLAPLAAGMEA</Hsp_hseq>
+      <Hsp_midline>S MF K T      Y  E   PR   +  +N+   GL  C+ C +C   CP       G D           R G  YQ     CI C  CI+AC         P+  +  + +  L  + + +D+   K++LL P  AG  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|226737403|sp|A4TDB3.1|NUOI_MYCGI</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium gilvum PYR-GCK]</Hit_def>
+  <Hit_accession>A4TDB3</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.48723</Hsp_evalue>
+      <Hsp_query-from>273</Hsp_query-from>
+      <Hsp_query-to>365</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>KKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDI--KKRLLRPRVAGYGA</Hsp_qseq>
+      <Hsp_hseq>RHQLNRYADGLEKCIGCELCAWACPADAIFVEGADNTEAERYSPGERYGRVYQINYLRCIGCGLCIEAC---------PTRALTMTNDYEMADDNRADLIYGKDKLLAPLEPGMGA</Hsp_hseq>
+      <Hsp_midline>+  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC         P+  +  T +  +  +     I  K +LL P   G GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|120010|sp|P00202.1|FER_METBA</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin [Methanosarcina barkeri]</Hit_def>
+  <Hit_accession>P00202</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.562676</Hsp_evalue>
+      <Hsp_query-from>275</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>TVNKEEAGLGDCINCAMCVQVCP---VGIDIRNGLQY----QCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>TVNADE-----CSGCGTCVDECPNDAITLDEEKGIAVVDNDECVECGACEEAC</Hsp_hseq>
+      <Hsp_midline>TVN +E     C  C  CV  CP   + +D   G+      +C+ C AC +AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|62288089|sp|P03942.3|FER_THET8</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>P03942</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.565782</Hsp_evalue>
+      <Hsp_query-from>292</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>CVQVCPVGIDIRNGLQY-----QCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>CVEVCPVECIYDGGDQFYIHPEECIDCGACVPAC</Hsp_hseq>
+      <Hsp_midline>CV+VCPV      G Q+     +CI C AC+ AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|156632698|sp|A0LRI9.1|NUOI_ACIC1</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Acidothermus cellulolyticus 11B]</Hit_def>
+  <Hit_accession>A0LRI9</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.650435</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>PRYHGRHVLNRHPDGLEKCIGCELCAWACPADAIYVEGADNTEEERYSPGERYGRVYQINYLRCIFCGYCIEAC</Hsp_hseq>
+      <Hsp_midline>PR   +  +N+   GL  CI C +C   CP       G D           R G  YQ     CI C  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|156633532|sp|A1T698.1|NUOI_MYCVP</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Mycobacterium vanbaalenii PYR-1]</Hit_def>
+  <Hit_accession>A1T698</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.673483</Hsp_evalue>
+      <Hsp_query-from>273</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>KKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>RHQLNRYPDGLEKCIGCELCAWACPADAIFVEGADNTESERYSPGERYGRVYQINYLRCIGCGLCIEAC</Hsp_hseq>
+      <Hsp_midline>+  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  CI+AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|2496134|sp|Q58280.1|Y870_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ0870 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58280</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.695042</Hsp_evalue>
+      <Hsp_query-from>270</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>534</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GARKKTVNKEEAGLGDCINCAMCVQVCPV-GIDIRNGLQYQ----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>GVKYPKVNEEK-----CNGCGRCAEVCKVEAIDIRGETSYTNYNVCVGCGKCIKNC</Hsp_hseq>
+      <Hsp_midline>G +   VN+E+     C  C  C +VC V  IDIR    Y     C+GC  CI  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|81619360|sp|Q6N1Z5.1|NUOI2_RHOPA</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I 2; AltName: Full=NADH dehydrogenase I subunit I 2; AltName: Full=NDH-1 subunit I 2 [Rhodopseudomonas palustris CGA009]</Hit_def>
+  <Hit_accession>Q6N1Z5</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.795774</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCPVG-IDI-----RNGLQY---------QCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>PRARGRIVLTRDPDGQERCVACNLCATVCPVGCIDLAKAVADDGRWYPEYFRVNFARCIFCGFCEDAC</Hsp_hseq>
+      <Hsp_midline>PR   +  + ++  G   C+ C +C  VCPVG ID+      +G  Y         +CI C  C DAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|259514779|sp|C0ZYJ2.1|NUOI_RHOE4</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Rhodococcus erythropolis PR4]</Hit_def>
+  <Hit_accession>C0ZYJ2</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.812294</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>SAMFDK-DTLIVSYDAERGEPRGARKKTVNKEEAGLGDCINCAMCVQVCPV------GIDI----------RNGLQYQ-----CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>STMFKKPETEFYPEEKRPTAPGYHGRHQLNRYADGLEKCIGCELCAWACPADAIYVEGADNTEEERFSPGERYGQVYQINYLRCIGCGLCVEAC</Hsp_hseq>
+      <Hsp_midline>S MF K +T     +     P    +  +N+   GL  CI C +C   CP       G D           R G  YQ     CIGC  C++AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|2494449|sp|Q57712.1|Y264_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ0264 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57712</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.979263</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCPVGIDIRNGLQYQCIGC-AACIDACDEIMDKMGYPSGLIRYTTE</Hsp_qseq>
+      <Hsp_hseq>PENAIERINNKVVVIKDKCVGCGLCALACPFGAIRIDGVAIKCNGCYKRDVEICKEVC-----PTGAINNLEE</Hsp_hseq>
+      <Hsp_midline>P  A ++  NK       C+ C +C   CP G    +G+  +C GC    ++ C E+      P+G I    E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.3935</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LGDCINCAMCVQVCPVGIDIRNGLQYQCIGC--AACIDACDE</Hsp_qseq>
+      <Hsp_hseq>VGSCIGCRRCERSCPINGITFNEFPIKCMHCDRNPCLYACPE</Hsp_hseq>
+      <Hsp_midline>+G CI C  C + CP+     N    +C+ C    C+ AC E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|226693524|sp|P08813.2|FER1_DESVM</Hit_id>
+  <Hit_def>RecName: Full=Ferredoxin-1; AltName: Full=Ferredoxin I; Short=Fd I [Desulfovibrio vulgaris str. &apos;Miyazaki F&apos;]</Hit_def>
+  <Hit_accession>P08813</Hit_accession>
+  <Hit_len>62</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.07102</Hsp_evalue>
+      <Hsp_query-from>286</Hsp_query-from>
+      <Hsp_query-to>321</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>CINCAMCVQVCPVGI-DIRNGL-----QYQCIGCAACIDACD</Hsp_qseq>
+      <Hsp_hseq>CTGDGECVDVCPVEVYELQDGKAVPVNEEECLGCESCVEVCE</Hsp_hseq>
+      <Hsp_midline>C     CV VCPV + ++++G      + +C+GC +C++ C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|123127335|sp|Q0AAG8.1|ETCB_ALKEH</Hit_id>
+  <Hit_def>RecName: Full=Electron transport complex subunit B [Alkalilimnicola ehrlichii MLHE-1]</Hit_def>
+  <Hit_accession>Q0AAG8</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.09771</Hsp_evalue>
+      <Hsp_query-from>259</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>VSYDAERGE-PRGARKKTVNKEEAGLGDCINCAMCVQVCPVGI------DIRNGLQYQCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>LPLDEERGEAPHTPQVAWVDEAV-----CIGCTRCIQACPVDAILGAAKQMHTVLKGECTGCGLCVDPC</Hsp_hseq>
+      <Hsp_midline>+  D ERGE P   +   V++       CI C  C+Q CPV         +   L+ +C GC  C+D C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|81744759|sp|Q8EE80.1|ETCB_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Electron transport complex subunit B [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8EE80</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.25077</Hsp_evalue>
+      <Hsp_query-from>267</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>EPRGARKKTVNKEEAGL--GDCINCAMCVQVCPVGIDIRNG------LQYQCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>EPLNAEAQSQVKKVAYIREDECIGCTKCIQACPVDAIIGAGKLMHTVLTADCTGCDLCVEPC</Hsp_hseq>
+      <Hsp_midline>EP  A  ++  K+ A +   +CI C  C+Q CPV   I  G      L   C GC  C++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|123324999|sp|Q0HIH9.1|ETCB_SHESM</Hit_id>
+  <Hit_def>RecName: Full=Electron transport complex subunit B [Shewanella sp. MR-4]</Hit_def>
+  <Hit_accession>Q0HIH9</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.33234</Hsp_evalue>
+      <Hsp_query-from>267</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>EPRGARKKTVNKEEAGL--GDCINCAMCVQVCPVGIDIRNG------LQYQCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>EPLNAEAQSQVKKVAYIREDECIGCTKCIQACPVDAIIGAGKLMHTVLTADCTGCDLCVEPC</Hsp_hseq>
+      <Hsp_midline>EP  A  ++  K+ A +   +CI C  C+Q CPV   I  G      L   C GC  C++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|123030634|sp|Q0HVF6.1|ETCB_SHESR</Hit_id>
+  <Hit_def>RecName: Full=Electron transport complex subunit B [Shewanella sp. MR-7]</Hit_def>
+  <Hit_accession>Q0HVF6</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.39384</Hsp_evalue>
+      <Hsp_query-from>267</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>EPRGARKKTVNKEEAGL--GDCINCAMCVQVCPVGIDIRNG------LQYQCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>EPLNAEAQSQVKKVAYIREDECIGCTKCIQACPVDAIIGAGKLMHTVLTADCTGCDLCVEPC</Hsp_hseq>
+      <Hsp_midline>EP  A  ++  K+ A +   +CI C  C+Q CPV   I  G      L   C GC  C++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|166225087|sp|A0KX80.1|ETCB_SHESA</Hit_id>
+  <Hit_def>RecName: Full=Electron transport complex subunit B [Shewanella sp. ANA-3]</Hit_def>
+  <Hit_accession>A0KX80</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.47137</Hsp_evalue>
+      <Hsp_query-from>267</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>EPRGARKKTVNKEEAGL--GDCINCAMCVQVCPVGIDIRNG------LQYQCIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>EPLNAEAQSQVKKVAYIREDECIGCTKCIQACPVDAIIGAGKLMHTVLTADCTGCDLCVEPC</Hsp_hseq>
+      <Hsp_midline>EP  A  ++  K+ A +   +CI C  C+Q CPV   I  G      L   C GC  C++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|110287776|sp|Q47LF2.1|NUOI_THEFY</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit I; AltName: Full=NADH dehydrogenase I subunit I; AltName: Full=NDH-1 subunit I [Thermobifida fusca YX]</Hit_def>
+  <Hit_accession>Q47LF2</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.87524</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>365</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>PRGARKKTVNKEEAGLGDCINCAMCVQVCP-------VGIDI---------RNGLQYQ-----CIGCAACIDACDEIMDKMGYPSGLIRYTTESALEHEYAEKDI--KKRLLRPRVAGYGA</Hsp_qseq>
+      <Hsp_hseq>PRFHGRHQLNRWPDGLEKCIGCELCAWACPADAIYVEAGDNTEEERYSPGERYGRVYQINYLRCILCGLCVEAC---------PTRALTMTNEYELADDSRESLIYTKEQLLAPLQQGMEA</Hsp_hseq>
+      <Hsp_midline>PR   +  +N+   GL  CI C +C   CP        G +          R G  YQ     CI C  C++AC         P+  +  T E  L  +  E  I  K++LL P   G  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|166225086|sp|A3QEN5.1|ETCB_SHELP</Hit_id>
+  <Hit_def>RecName: Full=Electron transport complex subunit B [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QEN5</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.12374</Hsp_evalue>
+      <Hsp_query-from>267</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>EPRGARKKTVNKEEAGL--GDCINCAMCVQVCPVGIDIRNGLQYQ------CIGCAACIDAC</Hsp_qseq>
+      <Hsp_hseq>EPLTANAETQVKKVAFIREAECIGCTKCIQACPVDAILGTGKQMHTVITDYCTGCDLCVEPC</Hsp_hseq>
+      <Hsp_midline>EP  A  +T  K+ A +   +CI C  C+Q CPV   +  G Q        C GC  C++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

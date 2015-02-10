@@ -1,0 +1,770 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>43155</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F809</BlastOutput_query-def>
+  <BlastOutput_query-len>183</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>43155</Iteration_query-ID>
+  <Iteration_query-def>Q5F809</Iteration_query-def>
+  <Iteration_query-len>183</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|122116|sp|P07211.1|H81_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein H.8; Flags: Precursor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P07211</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>8.58546e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>MKAYLALISAAVIGLAACSQEPAAPAAEATPAGEAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGDYKFACTFPGHGALMNGKVTLVD</Hsp_qseq>
+      <Hsp_hseq>MKAYLALISAAVIGLAACSQEPAAPAAEATPAGEAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGDYKFACTFPGHGALMNGKVTLVD</Hsp_hseq>
+      <Hsp_midline>MKAYLALISAAVIGLAACSQEPAAPAAEATPAGEAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGDYKFACTFPGHGALMNGKVTLVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|122118|sp|P07212.1|H8_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein H.8; Flags: Precursor [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>P07212</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.385</Hsp_bit-score>
+      <Hsp_score>934</Hsp_score>
+      <Hsp_evalue>5.50696e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>MKAYLALISAAVIGLAACSQEPAAPAAEATPAGEAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGDYKFACTFPGHGALMNGKVTLVD</Hsp_qseq>
+      <Hsp_hseq>MKAYLALISAAVIGLAACSQEPAAPAAEATPAAEAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGDYKFACTFPGHGALMNGKVTLVD</Hsp_hseq>
+      <Hsp_midline>MKAYLALISAAVIGLAACSQEPAAPAAEATPA EAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGDYKFACTFPGHGALMNGKVTLVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|9910705|sp|P57026.1|H8_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein H.8; Flags: Precursor [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>P57026</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.303</Hsp_bit-score>
+      <Hsp_score>926</Hsp_score>
+      <Hsp_evalue>7.34702e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>MKAYLALISAAVIGLAACSQEPAAPAAEATPAGEAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGDYKFACTFPGHGALMNGKVTLVD</Hsp_qseq>
+      <Hsp_hseq>MKAYLALISAAVIGLAACSQEPAAPAAEATPAAEAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADTDYVKPDDARVVAHTKLIGGGEEASLTLDPAKLADGEYKFACTFPGHGALMNGKVTLVD</Hsp_hseq>
+      <Hsp_midline>MKAYLALISAAVIGLAACSQEPAAPAAEATPA EAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADTDYVKPDDARVVAHTKLIGGGEE+SLTLDPAKLADG+YKFACTFPGHGALMNGKVTLVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|9910704|sp|P57025.1|H8_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein H.8; Flags: Precursor [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>P57025</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.115</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>6.12576e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>MKAYLALISAAVIGLAACSQEPAAPAAEATPAGEAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGDYKFACTFPGHGALMNGKVTLVD</Hsp_qseq>
+      <Hsp_hseq>MKAYLALISAAVIGLAACSQEPAAPAAEATPAAEAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKTSMGHNIVIGKTEDMDGIFKDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGEYKFACTFPGHGALMNGKVTLVD</Hsp_hseq>
+      <Hsp_midline>MKAYLALISAAVIGLAACSQEPAAPAAEATPA EAPASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPK SMGHN+VI K EDMDG+FKDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADG+YKFACTFPGHGALMNGKVTLVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|51338721|sp|P12334.2|AZUR1_METJ</Hit_id>
+  <Hit_def>RecName: Full=Azurin iso-1; Flags: Precursor [Methylomonas sp. J]</Hit_def>
+  <Hit_accession>P12334</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>8.02175e-46</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>PASEAPAAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAADT-DYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGD-YKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>KSSKIVAILLASLFSGSVLAAG-CSVDVEANDAMQYNTKNIDVEKSCKEFTVNLKHTGSLPKNVMGHNLVITKTADFKAVMNDGVAAGEAGNFVKAGDARVVAHTKLVGGGEKDSVKVDVSKLAAGEKYTFFCSFPGHATMMRGTVTV</Hsp_hseq>
+      <Hsp_midline> +S+  A   A   +    AAG C+  VE+ND MQ+NTK+I V K+CKEFT+ LKHTG+ PK  MGHNLVI K  D   V  DGV A +  ++VK  DARVVAHTKL+GGGE+ S+ +D +KLA G+ Y F C+FPGH  +M G VT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|61219629|sp|P0A320.1|AZUR_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Azurin; Flags: Precursor [Bordetella pertussis Tohama I] &gt;gi|61219632|sp|P0A321.1|AZUR_BORBR RecName: Full=Azurin; Flags: Precursor [Bordetella bronchiseptica RB50] &gt;gi|61219633|sp|P0A322.1|AZUR_BORPA RecName: Full=Azurin; Flags: Precursor [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>P0A320</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.38548e-45</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>AAEAAPADAAEAPAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADG-DYKFACTFPGHGALMNGKVTLVD</Hsp_qseq>
+      <Hsp_hseq>AAFSAPVLAAE------CSVDIAGTDQMQFDKKAIEVSKSCKQFTVNLKHTGKLPRNVMGHNWVLTKTADMQAVEKDGIAAGLDNQYLKAGDTRVLAHTKVLGGGESDSVTFDVAKLAAGDDYTFFCSFPGHGALMKGTLKLVD</Hsp_hseq>
+      <Hsp_midline>AA +AP  AAE      C+  +   D MQF+ K I+VSK+CK+FT+ LKHTG  P+  MGHN V+ K  DM  V KDG+ A  D  Y+K  D RV+AHTK++GGGE  S+T D AKLA G DY F C+FPGHGALM G + LVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|114746|sp|P00282.2|AZUR_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Azurin; Flags: Precursor [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P00282</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.90574e-45</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGD-YKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>CSVDIQGNDQMQFNTNAITVDKSCKQFTVNLSHPGNLPKNVMGHNWVLSTAADMQGVVTDGMASGLDKDYLKPDDSRVIAHTKLIGSGEKDSVTFDVSKLKEGEQYMFFCTFPGHSALMKGTLTL</Hsp_hseq>
+      <Hsp_midline>C+  ++ ND MQFNT  I V K+CK+FT+ L H G  PK  MGHN V++ A DM GV  DG+ +  D DY+KPDD+RV+AHTKLIG GE+ S+T D +KL +G+ Y F CTFPGH ALM G +TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|408387573|sp|B3EWN9.1|AZUR_PSEAI</Hit_id>
+  <Hit_def>RecName: Full=Azurin [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>B3EWN9</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>3.30869e-44</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGD-YKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>CSVDIQGNDQMQFNTNAITVDKSCKQFTVNLSHPGNLPKNVMGHNWVLSTAADMQGVVTDGMASGLDKDYLKPDDSRVIAHTKLIGSGEKDSVTFDVSKLKEGEQYMSFCTFPGHSALMKGTLTL</Hsp_hseq>
+      <Hsp_midline>C+  ++ ND MQFNT  I V K+CK+FT+ L H G  PK  MGHN V++ A DM GV  DG+ +  D DY+KPDD+RV+AHTKLIG GE+ S+T D +KL +G+ Y   CTFPGH ALM G +TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|114743|sp|P00281.1|AZUR_ALCFA</Hit_id>
+  <Hit_def>RecName: Full=Azurin [Alcaligenes faecalis]</Hit_def>
+  <Hit_accession>P00281</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>5.37447e-44</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADG-DYKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>CDVSIEGNDSMQFNTKSIVVDKTCKEFTINLKHTGKLPKAAMGHNVVVSKKSDESAVATDGMKAGLNNDYVKAGDERVIAHTSVIGGGETDSVTFDVSKLKEGEDYAFFCSFPGHWSIMKGTIEL</Hsp_hseq>
+      <Hsp_midline>C  ++E ND+MQFNTK I V K CKEFTI LKHTG  PKA+MGHN+V++K  D   V  DG+ A  + DYVK  D RV+AHT +IGGGE  S+T D +KL +G DY F C+FPGH ++M G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|114744|sp|P00279.1|AZUR_ALCSP</Hit_id>
+  <Hit_def>RecName: Full=Azurin [Alcaligenes sp.]</Hit_def>
+  <Hit_accession>P00279</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>1.69736e-43</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADG-DYKFACTFPGHGALMNGKVTLVD</Hsp_qseq>
+      <Hsp_hseq>CSVDIAGNDQMQFDKKEITVSKSCKQFTVNLKHPGKLAKNVMGHNWVLTKQADMQGAVNDGMAAGLDNNYVKKDDARVIAHTKVIGGGETDSVTFDVSKLAAGEDYAYFCSFPGHFALMKGVLKLVD</Hsp_hseq>
+      <Hsp_midline>C+  +  ND MQF+ K+I VSK+CK+FT+ LKH G   K  MGHN V+ K  DM G   DG+ A  D +YVK DDARV+AHTK+IGGGE  S+T D +KLA G DY + C+FPGH ALM G + LVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|3219777|sp|P56547.1|AZUR1_ALCXX</Hit_id>
+  <Hit_def>RecName: Full=Azurin-1; AltName: Full=AZN-1; AltName: Full=Azurin-I [Achromobacter xylosoxidans]</Hit_def>
+  <Hit_accession>P56547</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>2.84701e-43</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADG-DYKFACTFPGHGALMNGKVTLVD</Hsp_qseq>
+      <Hsp_hseq>CSVDIAGNDGMQFDKKEITVSKSCKQFTVNLKHPGKLAKNVMGHNWVLTKQADMQGAVNDGMAAGLDNNYVKKDDARVIAHTKVIGGGETDSVTFDVSKLAAGEDYAYFCSFPGHFALMKGVLKLVD</Hsp_hseq>
+      <Hsp_midline>C+  +  ND MQF+ K+I VSK+CK+FT+ LKH G   K  MGHN V+ K  DM G   DG+ A  D +YVK DDARV+AHTK+IGGGE  S+T D +KLA G DY + C+FPGH ALM G + LVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|114749|sp|P00286.1|AZUR_PSECL</Hit_id>
+  <Hit_def>RecName: Full=Azurin [Pseudomonas chlororaphis subsp. chlororaphis]</Hit_def>
+  <Hit_accession>P00286</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>2.57112e-42</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGD-YKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>CKVDVDSTDQMSFNTKEITIDKSCKTFTVNLTHSGSLPKNVMGHNWVLSKSADMAGIATDGMAAGIDKDYLKPGDSRVIAHTKIIGSGEKDSVTFDVSKLTAGESYEFFCSFPGHNSMMKGAVVL</Hsp_hseq>
+      <Hsp_midline>C   V+S D M FNTK+I + K+CK FT+ L H+G+ PK  MGHN V++K+ DM G+  DG+ A  D DY+KP D+RV+AHTK+IG GE+ S+T D +KL  G+ Y+F C+FPGH ++M G V L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|3023365|sp|P56275.1|AZUR2_ALCXX</Hit_id>
+  <Hit_def>RecName: Full=Azurin-2; AltName: Full=AZN-2; AltName: Full=Azurin-II [Achromobacter xylosoxidans]</Hit_def>
+  <Hit_accession>P56275</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>7.60122e-42</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>NCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADG-DYKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>QCEATVESNDAMQYNVKEIVVDKSCKQFTMHLKHVGKMAKVAMGHNLVLTKDADKQAVATDGMGAGLAQDYVKAGDTRVIAHTKVIGGGESDSVTFDVSKIAAGENYAYFCSFPGHWAMMKGTLKL</Hsp_hseq>
+      <Hsp_midline> C ATVESND MQ+N K+I V K+CK+FT+ LKH G   K +MGHNLV+ K  D   V  DG+GA    DYVK  D RV+AHTK+IGGGE  S+T D +K+A G +Y + C+FPGH A+M G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|461600|sp|P34097.1|AZUR_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Azurin [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P34097</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>7.96312e-42</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGD-YKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>CKVTVDSTDQMSFNTKDIAIDKSCKTFTVELTHSGSLPKNVMGHNLVISKEADMQPIATDGLSAGIDKQYLKDGDARVIAHTKVIGAGEKDSVTFDVSKLAAGEKYGFFCSFPGHISMMKGTVTL</Hsp_hseq>
+      <Hsp_midline>C  TV+S D M FNTKDI + K+CK FT+ L H+G+ PK  MGHNLVI+K  DM  +  DG+ A  D  Y+K  DARV+AHTK+IG GE+ S+T D +KLA G+ Y F C+FPGH ++M G VTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|114742|sp|P00280.2|AZUR_ACHDE</Hit_id>
+  <Hit_def>RecName: Full=Azurin; Flags: Precursor [Achromobacter denitrificans]</Hit_def>
+  <Hit_accession>P00280</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>9.8784e-42</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>APAAEAAPADAAEAPA-AGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGD-YKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>AKATLAIVLSAASLPVLAAQCEATIESNDAMQYNLKEMVVDKSCKQFTVHLKHVGKMAKVAMGHNWVLTKEADKQGVATDGMNAGLAQDYVKAGDTRVIAHTKVIGGGESDSVTFDVSKLTPGEAYAYFCSFPGHWAMMKGTLKL</Hsp_hseq>
+      <Hsp_midline>A A  A    AA  P  A  C AT+ESND MQ+N K++ V K+CK+FT+ LKH G   K +MGHN V+ K  D  GV  DG+ A    DYVK  D RV+AHTK+IGGGE  S+T D +KL  G+ Y + C+FPGH A+M G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81324499|sp|Q9F646.1|AZUR5_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Azurin; Flags: Precursor [Pseudomonas putida]</Hit_def>
+  <Hit_accession>Q9F646</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>2.08162e-41</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>AGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKL-ADGDYKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>AADCKVTVDSTDQMSFNTKAIEIDKSCKTFTVELTHSGNLPKNVMGHNLVISKEADMQPIATDGLSAGIDKDYLKEGDDRVIAHTKVIGAGEKDSVTFDVSKLKADEKYGFFCSFPGHISMMKGTVTL</Hsp_hseq>
+      <Hsp_midline>A +C  TV+S D M FNTK I++ K+CK FT+ L H+G  PK  MGHNLVI+K  DM  +  DG+ A  D DY+K  D RV+AHTK+IG GE+ S+T D +KL AD  Y F C+FPGH ++M G VTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1352059|sp|P80546.1|AZUR_PSEFA</Hit_id>
+  <Hit_def>RecName: Full=Azurin [Pseudomonas fluorescens bv. A]</Hit_def>
+  <Hit_accession>P80546</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>4.26786e-41</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADG-DYKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>CKVTVDSTDQMSFNTKAIEIDKSCKTFTVELTHSGSLPKNVMGHNWVLSSAADMPGIASDGMAAGIDKNYLKEGDIRVIAHTKIIGAGEKDSVTFDVSKLAAGTDYAFFCSFPGHISMMKGTVTV</Hsp_hseq>
+      <Hsp_midline>C  TV+S D M FNTK I++ K+CK FT+ L H+G+ PK  MGHN V++ A DM G+  DG+ A  D +Y+K  D RV+AHTK+IG GE+ S+T D +KLA G DY F C+FPGH ++M G VT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|114750|sp|P00283.1|AZUR_PSEDE</Hit_id>
+  <Hit_def>RecName: Full=Azurin [Pseudomonas denitrificans]</Hit_def>
+  <Hit_accession>P00283</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>6.56306e-41</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGD-YKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>CSVDIQGNDQMQFSTNAITVDKACKTFTVNLSHPGSLPKNVMGHNWVLTTAADMQGVVTDGMAAGLDKNYVKDGDTRVIAHTKIIGSGEKDSVTFDVSKLKAGDAYAFFCSFPGHSAMMKGTLTL</Hsp_hseq>
+      <Hsp_midline>C+  ++ ND MQF+T  I V KACK FT+ L H G+ PK  MGHN V+  A DM GV  DG+ A  D +YVK  D RV+AHTK+IG GE+ S+T D +KL  GD Y F C+FPGH A+M G +TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|114747|sp|P00284.1|AZUR_PSEFB</Hit_id>
+  <Hit_def>RecName: Full=Azurin [Pseudomonas fluorescens bv. B]</Hit_def>
+  <Hit_accession>P00284</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>2.89538e-40</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKL-ADGDYKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>CKTTIDSTDQMSFNTKAIEIDKACKTFTVELTHSGSLPKNVMGHNLVISKQADMQPIATDGLSAGIDKNYLKEGDTRVIAHTKVIGAGEKDSLTIDVSKLNAAEKYGFFCSFPGHISMMKGTVTL</Hsp_hseq>
+      <Hsp_midline>C  T++S D M FNTK I++ KACK FT+ L H+G+ PK  MGHNLVI+K  DM  +  DG+ A  D +Y+K  D RV+AHTK+IG GE+ SLT+D +KL A   Y F C+FPGH ++M G VTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|114748|sp|P00285.1|AZUR_PSEFC</Hit_id>
+  <Hit_def>RecName: Full=Azurin [Pseudomonas fluorescens bv. C]</Hit_def>
+  <Hit_accession>P00285</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.24929e-39</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>CAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKL-ADGDYKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>CKVTVDSTDQMSFDTKAIEIDKSCKTFTVDLKHSGNLPKNVMGHNWVLTTQADMQPVATDGMAAGIDKNYLKEGDTRIIAHTKIIGAGETDSVTFDVSKLKADGKYMFFCSFPGHIAMMKGTVTL</Hsp_hseq>
+      <Hsp_midline>C  TV+S D M F+TK I++ K+CK FT+ LKH+G  PK  MGHN V+    DM  V  DG+ A  D +Y+K  D R++AHTK+IG GE  S+T D +KL ADG Y F C+FPGH A+M G VTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2493317|sp|Q50400.1|AZUR_METFK</Hit_id>
+  <Hit_def>RecName: Full=Azurin; Flags: Precursor [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q50400</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>8.32181e-39</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APAAGNCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAA-DTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGD-YKFACTFPGHGALMNGKVTLVD</Hsp_qseq>
+      <Hsp_hseq>AAAASNCEVNVSAGDSMAFNTRSIDIPKSCKEFTVNFAHTGTASKAGMGHNWVLARSADVNDLAKAGVEAGIDKNFIPPNDPRVLAYTPLVGGGEKTSVTFKPSILKDGESYSFYCSFAFHSFMMRGTVKLVD</Hsp_hseq>
+      <Hsp_midline>A AA NC   V + D+M FNT+ I + K+CKEFT+   HTGT  KA MGHN V+A++ D++ + K GV A  D +++ P+D RV+A+T L+GGGE++S+T  P+ L DG+ Y F C+F  H  +M G V LVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|114738|sp|P12335.1|AZUR2_METJ</Hit_id>
+  <Hit_def>RecName: Full=Azurin iso-2 [Methylomonas sp. J]</Hit_def>
+  <Hit_accession>P12335</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.73745e-30</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>NCAATVESNDNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGA-ADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLA-DGDYKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>SCETTVTSGDTMTYSTRSISVPASCAEFTVNFEHKGHMPKTGMGHNWVLAKSADVGDVAKEGAHAGADNNFVTPGDKRVIAFTPIIGGGEKTSVKFKVSALSKDEAYTYFCSYPGHFSMMRGTLKL</Hsp_hseq>
+      <Hsp_midline>+C  TV S D M ++T+ I V  +C EFT+  +H G  PK  MGHN V+AK+ D+  V K+G  A AD ++V P D RV+A T +IGGGE++S+    + L+ D  Y + C++PGH ++M G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|81323251|sp|Q8RMH6.1|AURA_CHLAA</Hit_id>
+  <Hit_def>RecName: Full=Auracyanin-A; Flags: Precursor [Chloroflexus aurantiacus J-10-fl]</Hit_def>
+  <Hit_accession>Q8RMH6</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000565463</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>DNMQFNTKDIQVSKACKEFTITLKHTGTQPKASMGHNLVIAKAEDMDGVFKDGVGAAD---TDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGDYKFACTFPGHGALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>EELAFDKTELTVS-AGQTVTIRFKNN----SAVQQHNWILVKGGEAEAANIANAGLSAGPAANYLPADKSNIIAESPLANGNETVEVTFTAP--AAGTYLYICTVPGHYPLMQGKLVV</Hsp_hseq>
+      <Hsp_midline>+ + F+  ++ VS A +  TI  K+      A   HN ++ K  + +       G +     +Y+  D + ++A + L  G E   +T      A G Y + CT PGH  LM GK+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2506223|sp|P27197.2|AURB_CHLAA</Hit_id>
+  <Hit_def>RecName: Full=Auracyanin-B; Short=Ac-B; Contains: RecName: Full=Auracyanin-B-1; Contains: RecName: Full=Auracyanin-B-2; Flags: Precursor [Chloroflexus aurantiacus J-10-fl]</Hit_def>
+  <Hit_accession>P27197</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0185009</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>ADTDYVKPDDA-RVVAHTKLIGGGEESSLTLDPAKLADGDYKFACTFPGHG-ALMNGKVTL</Hsp_qseq>
+      <Hsp_hseq>ADALFVPPPDTPNALAWTAMLNAGESGSVTFR--TPAPGTYLYICTFPGHYLAGMKGTLTV</Hsp_hseq>
+      <Hsp_midline>AD  +V P D    +A T ++  GE  S+T      A G Y + CTFPGH  A M G +T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|74634722|sp|Q6C9R9.1|SFH5_YARLI</Hit_id>
+  <Hit_def>RecName: Full=Phosphatidylinositol transfer protein SFH5; Short=PITP SFH5 [Yarrowia lipolytica CLIB122]</Hit_def>
+  <Hit_accession>Q6C9R9</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.295505</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>PAAPAAEATPAGEAPASEAPAAEAAPADAAEAPAAGNCAATVE</Hsp_qseq>
+      <Hsp_hseq>PTEPAAETVPTTE-PAPTEPAAETAPTESSTAPSAEPAAETAE</Hsp_hseq>
+      <Hsp_midline>P  PAAE  P  E PA   PAAE AP +++ AP+A   A T E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|74747785|sp|Q5VZB9.1|DMRTA_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Doublesex- and mab-3-related transcription factor A1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q5VZB9</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.89046</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>HTGTQPKASMGHNLVIAKAEDMDGVF-KDGVGAADTDYVKPDDARVVAHTKLIGGGEESSLTLDPAKLADGD</Hsp_qseq>
+      <Hsp_hseq>QNGQEELISKSHQLYLGSSSRSNGVIGKQSIGSSISEYSNKPDSILSPHPGEQSGGEESPRSLSSSDLESGN</Hsp_hseq>
+      <Hsp_midline>  G +   S  H L +  +   +GV  K  +G++ ++Y    D+ +  H     GGEES  +L  + L  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

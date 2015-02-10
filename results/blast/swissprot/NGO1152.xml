@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>35525</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7L8</BlastOutput_query-def>
+  <BlastOutput_query-len>268</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>35525</Iteration_query-ID>
+  <Iteration_query-def>Q5F7L8</Iteration_query-def>
+  <Iteration_query-len>268</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|584826|sp|Q06758.1|HISJ_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Probable histidine-binding protein; Short=HBP; Flags: Precursor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q06758</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.428</Hsp_bit-score>
+      <Hsp_score>1404</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_qseq>
+      <Hsp_hseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADIVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSDDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_hseq>
+      <Hsp_midline>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDAD+VMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSS+DLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEGGQAAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2507362|sp|P30859.3|ARTI_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putative ABC transporter arginine-binding protein 2; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P30859</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>3.13989e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIA-----RFENVPLIIKELENGGLDSVVSDSAVIANYVKNNP--AKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>MKKVLIAAL-IAGFSLSATAAE-------------TIRFATEASYPPFESIDANNQIVGFDVDLAQALCKEIDATCTFSNQAFDSLIPSLKFRRVEAVMAGMDITPEREKQVLFTTPYYDNSALFVGQQGK--YTSVDQLKGKKVGVQNGTTH----QKFIMDKHPEITTVPYDSYQNAKL---DLQNGRIDGVFGDTAVVTEWLKDNPKLAAVGDKVTDKDYFGTGLGIAVRQGNTELQQKLNTALEKVKKDGTYETIYNKWFQK</Hsp_hseq>
+      <Hsp_midline>MKK + AAL  +  +LSA   +               R A+ A + PFES+D+   + GFDVDL  A+ K  +    F +Q +DSL P+L     + VM+G+ IT +R++ + F+ PY++ + + +  +GK   +S D  K  KVGV  G T      K + + +P+I       ++N  L   +L+NG +D V  D+AV+  ++K+NP  A   D VT  D+     GIAVR+G+    + LN ALEKV++ G Y+ IY K+F K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81555988|sp|O34563.1|GLNH_BACSU</Hit_id>
+  <Hit_def>RecName: Full=ABC transporter glutamine-binding protein GlnH; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34563</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>3.98147e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MKKWIAAALAC--SALALSACGGQGKDA-----------AAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAK---AGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPK--IARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>MKKIFSLALISLFAVILLAACGSKGSNGEASKESKKDTLAAIKDNDKIVFGVKTDTRLFGLKN-PSSGEIEGFDIDIAKQIAKDILGDEKKAQFKEVTSKTRIPMLQNGDIDAIVATMTITEERKKEVDFSDVYFEAGQSLLVKKGSKIKSVENLGKGSKVLAVKGSTS----SQNIREKAPEASVLEFENYAEAFTALKSGQGDALTTDNAILYGMADEN--KNYQLTGKP-FTDEPYGIAVKKGQSALAKEINASLKKMKSDGRYDEIYKKWI</Hsp_hseq>
+      <Hsp_midline>MKK  + AL    + + L+ACG +G +            AA   N   V+ V ++      ++  S G +EGFD+D+   +AK       K +FK     +  P L NGD D +++ +TIT++RK+ +DFSD YFE  Q +LV KG K+ S E+L K +KV  V G T     S+ +    P+  +  FEN       L++G  D++ +D+A++      N  K       P FT E YGIAV+KG  A  K +N +L+K++  G YD+IY K+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|3183509|sp|P09551.3|ARGT_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Lysine/arginine/ornithine-binding periplasmic protein; Short=LAO-binding protein; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P09551</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>1.52939e-30</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>SALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDF------VTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>SILALSLLVGLSTAASSYAALPETV-RIGTDTTYAPFSSKDAKGDFVGFDIDLGNEMCKRMQVKCTWVASDFDALIPSLKAKKIDAIISSLSITDKRQQEIAFSDKLYAADSRLIAAKGSPIQPTLDSLKGKHVGVLQGSTQEAYANETWRSKGVDVVAYANQDLVYSDLAAGRLDAALQDEVAASEGFLKQPA-GKDFAFAGSSVKDKKYFGDGTGVGLRKDDAELTAAFNKALGELRQDGTYDKMAKKYF</Hsp_hseq>
+      <Hsp_midline>S LALS   G    A++ AA P  V R+ ++  +APF S D+KG+  GFD+DL N M K    K  +    +D+L P+L     D ++S ++ITD R+Q + FSD  +     ++  KG  +  + D  K   VGV+ G T +   ++   +    +  + N  L+  +L  G LD+ + D    +      PA G DF      V    +  +  G+ +RK D       N AL ++R+ G YDK+  KYF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|20141196|sp|P02911.2|ARGT_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Lysine/arginine/ornithine-binding periplasmic protein; Short=LAO-binding protein; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P02911</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.59998e-29</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>SALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPK-----IARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHY-----GIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>TVLALSLLIGLGATAASYAALPQTV-RIGTDTTYAPFSSKDAKGEFIGFDIDLGNEMCKRMQVKCTWVASDFDALIPSLKAKKIDAIISSLSITDKRQQEIAFSDKLYAADSRLIAAKGSPIQPTLESLKGKHVGVLQGST-----QEAYANDNWRTKGVDVVAYANQDLIYSDLTAGRLDAALQDEVAASEGFLKQPAGKEYAFAGPSVKDKKYFGDGTGVGLRKDDTELKAAFDKALTELRQDGTYDKMAKKYF</Hsp_hseq>
+      <Hsp_midline>+ LALS   G G  AA+ AA P  V R+ ++  +APF S D+KG   GFD+DL N M K    K  +    +D+L P+L     D ++S ++ITD R+Q + FSD  +     ++  KG  +  + +  K   VGV+ G T      +   NDN +     +  + N  LI  +L  G LD+ + D    +      PA        P    + Y     G+ +RK D       + AL ++R+ G YDK+  KYF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1346418|sp|P49618.1|LAPT_PASHA</Hit_id>
+  <Hit_def>RecName: Full=Arginine-binding periplasmic protein; Flags: Precursor [Mannheimia haemolytica]</Hit_def>
+  <Hit_accession>P49618</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.43749e-28</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>FAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPK-IARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFV----TLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKY</Hsp_qseq>
+      <Hsp_hseq>YPPFEMTEEKGEIIGFDVDIANAICKEMNANCTFHSQPFDSLIQSLKQKQFDAAISGMGITEPRKKQVLFSEPYFPSSAAFIAKK------DTDFAKVKTIGVQNGTTYQHYLAKEKKEYNVKSYASYQNAIL---DVQNGRIDAIFGDVPVLAEMARKH--EGLDFVGEKINNPNYFGDGLGIATHLKNQVLVDQFNAALKTIKENGEYQKIYDKW</Hsp_hseq>
+      <Hsp_midline>+ PFE  + KG + GFDVD+ NA+ K  N    F  QP+DSL  +L     D  +SG+ IT+ RK+ + FS+PYF  +   +  K        D  K+  +GV  G T    ++K     N K  A ++N  L   +++NG +D++  D  V+A   + +  +G+DFV      P++  +  GIA    ++  V   N AL+ ++E+GEY KIY K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2507363|sp|P30860.2|ARTJ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=ABC transporter arginine-binding protein 1; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P30860</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.88367e-28</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>NAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNP--KIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGM--DFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>SATYPPFESIGANNEIVGFDIDLAKALCKQMQAECTFTNHAFDSLIPSLKFRKYDAVISGMDITPERSKQVSFTTPYYENSAVV-IAKKDTYKTFADLKG-KRIGMENGTTH----QKYIQDQHPEVKTVSYDSYQNAFIDLKNGRIDGVFGDTAVVNEWLKTNPQLGVATEKVTDPQYFGTGLGIAVRPDNKALLEKLNNALAAIKADGTYQKISDQWFPQ</Hsp_hseq>
+      <Hsp_midline>+A + PFES+ +   + GFD+DL  A+ K    +  F +  +DSL P+L     D V+SG+ IT +R + + F+ PY+E + VV + K     +  DLK   ++G+  G T      K + + +P  K   +++      +L+NG +D V  D+AV+  ++K NP  G+  + VT P +     GIAVR  ++A ++ LN+AL  ++  G Y KI  ++F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1731062|sp|P54535.1|ARTP_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Arginine-binding extracellular protein ArtP; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54535</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.24225e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MKKWIAAALA-CSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYG--IAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE</Hsp_qseq>
+      <Hsp_hseq>MKKWLLLLVAACITFALTACGS----SNSGSESGKKKLIMGTSADYKPFEYKEG-DNIVGFDVELAKALAKKAGYEIEVQDMDFNSLITALKSKQVDLVLSGMTPTPERKKQVDFSDVYYTANHMIVSKKDSGIQSLKDLKGKT-VGVQLGSIQEEKGKELSPEYGFKTEDRNRISDLVQEIKSDRFDAAIIEDIVAEGYFKSND--DLQGFVIPDAKAEEAGSAIAFRKDSELTDK-FNKALKEMEDNGELEKLKKKWFTGE</Hsp_hseq>
+      <Hsp_midline>MKKW+   +A C   AL+ACG     + + + +  K   + ++A++ PFE  +   N+ GFDV+L  A+AK   ++IE +   ++SL  AL +   D+V+SG+T T +RK+ +DFSD Y+    +++  K   + S +DLK    VGV  G   +    +L      K      +  +++E+++   D+ + +  V   Y K+N    +    +PD   E  G  IA RK  E T K  N AL+++ ++GE +K+  K+F  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|728750|sp|P39906.1|AABA_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Amino-acid-binding protein AabA; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P39906</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>2.50401e-25</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>ALALSACGGQGKDAAAPAANPGKVYRVASN-AEFAPFESLDSKGNVEGFDVDLMNAMAKAG--NFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIAN----YVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>ALCSIACGASLFCAA-------DVYRIIRNYPELMPVSYMDEKGSPTGFETELIRKIAEQAQLDLKEEFVANFGDTL-TALENGKADLAMATISVTPARQQIFDFTTPYFRVNPFAFITKDDSIKTIQDLAN-KKVSVWTGSNHEQKIKEIQKEGTGSVIPAKSIFLAVKAVIQGEADVAVGDDAYMLNFADRYKQHNLKAVIDRSTEP----ESYAIAVRKGDQALKKKIDDALLQLKRDGTIDALTKKWY</Hsp_hseq>
+      <Hsp_midline>AL   ACG     AA        VYR+  N  E  P   +D KG+  GF+ +L+  +A+    + K EF     D+L  AL NG AD+ M+ +++T  R+Q  DF+ PYF +     + K   + + +DL    KV V TG   +  + ++       +   +++ L +K +  G  D  V D A + N    Y ++N    +D  T P    E Y IAVRKGD+A  K ++DAL +++  G  D +  K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|84028666|sp|P0AEQ5.1|GLNH_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Glutamine-binding periplasmic protein; Short=GlnBP; Flags: Precursor [Escherichia coli O157:H7] &gt;gi|84028667|sp|P0AEQ4.1|GLNH_ECOL6 RecName: Full=Glutamine-binding periplasmic protein; Short=GlnBP; Flags: Precursor [Escherichia coli CFT073] &gt;gi|84028668|sp|P0AEQ3.1|GLNH_ECOLI RecName: Full=Glutamine-binding periplasmic protein; Short=GlnBP; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AEQ5</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>4.58982e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLV-PKGKKVSSSEDLKKMNKVGVVTGHTG--DFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPD-FTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE</Hsp_qseq>
+      <Hsp_hseq>MKSVLKVSLAALTLAFAV--------SSHAADKKLV--VATDTAFVPFEFKQGDKYV-GFDVDLWAAIAKELKLDYELKPMDFSGIIPALQTKNVDLALAGITITDERKKAIDFSDGYYKSGLLVMVKANNNDVKSVKDLD--GKVVAVKSGTGSVDYAKANIKTKD---LRQFPNIDNAYMELGTNRADAVLHDTPNILYFIKT--AGNGQFKAVGDSLEAQQYGIAFPKGSDELRDKVNGALKTLRENGTYNEIYKKWFGTE</Hsp_hseq>
+      <Hsp_midline>MK  +  +LA   LA +         ++ AA+   V  VA++  F PFE       V GFDVDL  A+AK      E K   +  + PAL   + D+ ++G+TITD+RK+++DFSD Y++   +V+V      V S +DL    KV  V   TG  D++ + +   D   + +F N+     EL     D+V+ D+  I  ++K   A    F  + D    + YGIA  KG +     +N AL+ +RE+G Y++IY K+F  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1168523|sp|P45091.1|ARTI_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=ABC transporter arginine-binding protein; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45091</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>1.44527e-23</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>APAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHT-GDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGM--DFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>ASVAASAQELTFAMQPSYPPFETTNAKGEIIGFDVDVTNAICQEIQATCKFKSETFDALIPNLKAKRFDAAISAIDITDARAKQVLFSDAYYDSSASYVALKGKAT-----LESAKNIGVQNGTTFQQYTVAETKQYSPKSYASLQNAIL---DLKSGRIDIIFGDTAVLADMISKEPEIQFIGEKVTNKKYFGNGLGIAMHKSNKDLAAQLNKGLAAIKANGEYQKIYDKWITK</Hsp_hseq>
+      <Hsp_midline>A  A   +    A    + PFE+ ++KG + GFDVD+ NA+ +      +FK + +D+L P L     D  +S + ITD R + + FSD Y++ +   +  KGK       L+    +GV  G T   ++V++         A  +N  L   +L++G +D +  D+AV+A+ +   P      + VT   +     GIA+ K ++     LN  L  ++ +GEY KIY K+  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|84028918|sp|P0AEU2.1|HISJ_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Histidine-binding periplasmic protein; Short=HBP; Flags: Precursor [Escherichia coli O157:H7] &gt;gi|84028919|sp|P0AEU1.1|HISJ_ECOL6 RecName: Full=Histidine-binding periplasmic protein; Short=HBP; Flags: Precursor [Escherichia coli CFT073] &gt;gi|84028920|sp|P0AEU0.1|HISJ_ECOLI RecName: Full=Histidine-binding periplasmic protein; Short=HBP; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AEU2</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>6.28405e-23</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>RVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDN--PK---IARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDF-VTLPDFTTEHY-----GIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>RIGTDPTYAPFESKNSQGELVGFDIDLAKELCKRINTQCTFVENPLDALIPSLKAKKIDAIMSSLSITEKRQQEIAFTDKLYAADSRLVVAKNSDIQPTVESLKGKRVGVLQGTT-----QETFGNEHWAPKGIEIVSYQGQDNIYSDLTAGRIDAAFQDEVAASEGFLKQPV-GKDYKFGGPSVKDEKLFGVGTGMGLRKEDNELREALNKAFAEMRADGTYEKLAKKYF</Hsp_hseq>
+      <Hsp_midline>R+ ++  +APFES +S+G + GFD+DL   + K  N +  F   P D+L P+L     D +MS ++IT+ R+Q + F+D  +     ++V K   +  + +  K  +VGV+ G T      +  GN++  PK   I  ++    I  +L  G +D+   D    +      P  G D+    P    E       G+ +RK D    + LN A  ++R  G Y+K+  KYF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|123170|sp|P02910.1|HISJ_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Histidine-binding periplasmic protein; Short=HBP; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P02910</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>4.29957e-22</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>PGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDN--PK---IARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDF-VTLPDFTTEHY-----GIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>PQKI-RIGTDPTYAPFESKNAQGELVGFDIDLAKELCKRINTQCTFVENPLDALIPSLKAKKIDAIMSSLSITEKRQQEIAFTDKLYAADSRLVVAKNSDIQPTVASLKGKRVGVLQGTT-----QETFGNEHWAPKGIEIVSYQGQDNIYSDLTAGRIDAAFQDEVAASEGFLKQPV-GKDYKFGGPAVKDEKLFGVGTGMGLRKEDNELREALNKAFAEMRADGTYEKLAKKYF</Hsp_hseq>
+      <Hsp_midline>P K+ R+ ++  +APFES +++G + GFD+DL   + K  N +  F   P D+L P+L     D +MS ++IT+ R+Q + F+D  +     ++V K   +  +    K  +VGV+ G T      +  GN++  PK   I  ++    I  +L  G +D+   D    +      P  G D+    P    E       G+ +RK D    + LN A  ++R  G Y+K+  KYF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|121393|sp|P27676.1|GLNH_GEOSE</Hit_id>
+  <Hit_def>RecName: Full=Glutamine-binding protein; Short=GlnBP; Flags: Precursor [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>P27676</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>5.53782e-21</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>GNVEGFDVDLMNAMAK---AGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPD-FTTEHYGIAVRKGDEATVKMLNDA</Hsp_qseq>
+      <Hsp_hseq>GKVEGFDIDIAKGLAKKILGDENKIELKEVTSKTRIPMLNNGEIDAIIGTMTITEERKKEVDFSDVYFMAGQSLLVKKDSKINSVKDLKKGMTVLTAKGSTSAQNIRKVAPEVN--VLEFENYAEAFTALKAGQGDALTTDNALLWGMAKQDP----NYRVLDETFSKEPYGIGSAKETKNYCKSLTNT</Hsp_hseq>
+      <Hsp_midline>G VEGFD+D+   +AK       KIE K     +  P LNNG+ D ++  +TIT++RK+ +DFSD YF   Q +LV K  K++S +DLKK   V    G T   ++ K+    N  +  FEN       L+ G  D++ +D+A++    K +P    ++  L + F+ E YGI   K  +   K L + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|239938837|sp|P42199.3|TCYA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=L-cystine-binding protein TcyA; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P42199</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>6.64143e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>MKK-WIAAALACSALALSACGG----QGKDAA------APAANPGKVYRVASNAEFAPFESLDSKGN-VEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPK-GKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE</Hsp_qseq>
+      <Hsp_hseq>MKKALLALFMVVSIAALAACGAGNDNQSKDNAKDGDLWASIKKKG-VLTVGTEGTYEPFTYHDKDTDKLTGYDVEVITEVAKRLGLKVDFKETQWDSMFAGLNSKRFDVVANQVGKT-DREDKYDFSDKYTTSRAVVVTKKDNNDIKSEADVK-----GKTSAQSLTSNYNKLATNAGAKVEGVEGMAQALQMIQQGRVDMTYNDKLAVLNYLKTSGNKNVKIAFETGEPQSTY-FTFRKGSGEVVDQVNKALKEMKEDGTLSKISKKWFGED</Hsp_hseq>
+      <Hsp_midline>MKK  +A  +  S  AL+ACG     Q KD A      A     G V  V +   + PF   D   + + G+DV+++  +AK    K++FK   WDS+F  LN+   DVV + V  T DR+   DFSD Y     VV+  K    + S  D+K     G  +  +   + +KL  N   K+   E +   ++ ++ G +D   +D   + NY+K +  K +            Y    RKG    V  +N AL++++E G   KI  K+F ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2500690|sp|Q46125.1|HISJ_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=Probable histidine-binding protein; Short=HBP; AltName: Full=p29; Flags: Precursor [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q46125</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>6.35331e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKKWIAAAL-ACSALALSAC-GGQGKDAAAPAANPGKVYRVASNAEFAPFE-SLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTT--EHYGIAVRKGDEA-TVKMLNDALEKVRESGEYDKIYAKY</Hsp_qseq>
+      <Hsp_hseq>MKKFLTAFLVAFTGLFLVACQNTKTENNASNEANTTLTLKVGTAPNYKPFNFKQDSK--LTGFDTDLIEEIAKKNGIEIVWVETNFDGLIPALKSGKIDMIASAMSATDERRQSVDFTKPYYMSKNLYLKLKNNDSLQTKNDLEGKKIGVQLGTLQENTAKAI---KNAQVQSNKDLNIAVLALKNNKIDAIVADQDTAKGFLAENP----ELVSFYQETDGGEGFSFAFDKNKQKDIIEIFNKGIDEAKTDGFYDTLIKKY</Hsp_hseq>
+      <Hsp_midline>MKK++ A L A + L L AC   + ++ A+  AN     +V +   + PF    DSK  + GFD DL+  +AK    +I +    +D L PAL +G  D++ S ++ TD+R+QS+DF+ PY+    + L  K      +++  +  K+GV  G   + +   +    N ++   +++ + +  L+N  +D++V+D      ++  NP    + V+    T   E +  A  K  +   +++ N  +++ +  G YD +  KY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|84028139|sp|P0AEN0.1|FLIY_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Cystine-binding periplasmic protein; Short=CBP; AltName: Full=Protein FliY; AltName: Full=Sulfate starvation-induced protein 7; Short=SSI7; Flags: Precursor [Escherichia coli CFT073] &gt;gi|84028140|sp|P0AEM9.1|FLIY_ECOLI RecName: Full=Cystine-binding periplasmic protein; Short=CBP; AltName: Full=Protein FliY; AltName: Full=Sulfate starvation-induced protein 7; Short=SSI7; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AEN0</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.93474e-19</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>VASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK--VSSSEDLKKMNKVGVVTG-HTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>VGLEGTYPPFSFQGDDGKLTGFEVEFAQQLAKHLGVEASLKPTKWDGMLASLDSKRIDVVINQVTISDERKKKYDFSTPYTISGIQALVKKGNEGTIKTADDLKG-KKVGVGLGTNYEEWLRQNVQGVD---VRTYDDDPTKYQDLRVGRIDAILVDRLAALDLVKKT--NDTLAVTGEAFSRQESGVALRKGNEDLLKAVNDAIAEMQKDGTLQALSEKWF</Hsp_hseq>
+      <Hsp_midline>V     + PF      G + GF+V+    +AK    +   K   WD +  +L++   DVV++ VTI+D+RK+  DFS PY       LV KG +  + +++DLK   KVGV  G +  ++    + G D   +  +++ P   ++L  G +D+++ D     + VK         VT   F+ +  G+A+RKG+E  +K +NDA+ ++++ G    +  K+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|81556585|sp|O84385.1|ARTJ_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Probable ABC transporter arginine-binding protein ArtJ; Flags: Precursor [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84385</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>5.28572e-17</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>KKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYF--EITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLP-DFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKY</Hsp_qseq>
+      <Hsp_hseq>KTWIAFLAVVCSFCLTGCLKEGGDS-----NSEK-FIVGTNATYPPFEFVDKRGEVVGFDIDLAREISNKLGKTLDVREFSFDALILNLKQHRIDAVITGMSITPSRLKEI-LMIPYYGEEIKHLVLVFKGEN-KHPLPLTQYRSVAV---QTGTYQEAYLQSLSEVHIRSFDSTLEVLMEVMHGKSPVAVLEPSIAQVVLKDFPALSTATIDLPEDQWVLGYGIGVASDRPALALKIEAAVQEIRKEGVLAELEQKW</Hsp_hseq>
+      <Hsp_midline>K WIA      +  L+ C  +G D+     N  K + V +NA + PFE +D +G V GFD+DL   ++      ++ +   +D+L   L     D V++G++IT  R + +    PY+  EI  +VLV KG+       L +   V V    TG +  + L       I  F++   ++ E+ +G     V + ++    +K+ PA     + LP D     YGI V     A    +  A++++R+ G   ++  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1723181|sp|P45024.1|Y1080_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Probable amino-acid ABC transporter-binding protein HI_1080; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45024</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.02331e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MKKWI-AAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGK--KVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>MKKLLFTTALLTGAIAFSTFSHAGE--IADRVEKTKTLLVGTEGTYAPFTFHDKSGKLTGFDVEVIRKVAEKLGLKVEFKETQWDAMYAGLNAKRFDVIANQTNPSPERLKKYSFTTPY-NYSGGVIVTKSSDNSIKSFEDLKGRKSAQSATSNWG--KDAKAAG---AQILVVDGLAQSLELIKQGRAEATINDKLAVLDYFKQHPNSGLK-IAYDRGDKTPTAFAFLQGEDALITKFNQVLEALRQDGTLKQISIEWF</Hsp_hseq>
+      <Hsp_midline>MKK +   AL   A+A S     G+   A      K   V +   +APF   D  G + GFDV+++  +A+    K+EFK   WD+++  LN    DV+ +    + +R +   F+ PY   +  V+V K     + S EDLK        T + G    +K  G    +I   + +   ++ ++ G  ++ ++D   + +Y K +P  G+  +            A  +G++A +   N  LE +R+ G   +I  ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1731313|sp|P54952.1|YXEM_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable amino-acid-binding protein YxeM; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54952</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>2.35623e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPY-FEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPK---IARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPD-FTTEHYGIAVRKGD--EATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>MKMKKWTVLVVAALLAVLSACG----NGNSSSKEDDNVLHVGATGQSYPF-AYKENGKLTGFDVEVMEAVAKKIDMKLDWKLLEFSGLMGELQTGKLDTISNQVAVTDERKETYNFTKPYAYAGTQIVVKKDNTDIKSVDDLKGKTVAAVL----GSNHAKNLESKDPDKKINIKTYETQEGTLKDVAYGRVDAYVNSRTVLIAQIKKT---GLPLKLAGDPIVYEQVAFPFAKDDAHDKLRKKVNKALDELRKDGTLKKLSEKYF</Hsp_hseq>
+      <Hsp_midline>M MKKW    +A     LSACG    +  + +     V  V +  +  PF +    G + GFDV++M A+AK  + K+++K   +  L   L  G  D + + V +TD+RK++ +F+ PY +  TQ+V+      + S +DLK      V+    G      L   D  K   I  +E     +K++  G +D+ V+   V+   +K     G+      D    E       K D  +   K +N AL+++R+ G   K+  KYF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|215275620|sp|A8ZWR8.2|MLTF_DESOH</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Desulfococcus oleovorans Hxd3]</Hit_def>
+  <Hit_accession>A8ZWR8</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>1.00697e-15</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>GFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPK------------GKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFA</Hsp_qseq>
+      <Hsp_hseq>GFEYDLAKAFAGHLGVDLEVKTPGWDALFASLQRGDGDFIAASMTHTRKREQYADFSEPYLSVRQHLILHKSDHSIVTPAGLAGRTVHVREDTTYQQRLEALQADGIDLQL--VLHRNTP-------TEELIEQVAKRQIDITVADSAIALLNRRYYPDIRIAF---PIEKEQPLAWAVRKGDRGLRTEINRFFDEIKENGTFTRIYNRYYT</Hsp_hseq>
+      <Hsp_midline>GF+ DL  A A      +E K   WD+LF +L  GD D + + +T T  R+Q  DFS+PY  + Q +++ K            G+ V   ED     ++  +     D  +  +L  + P          +I+++    +D  V+DSA+     +  P   + F   P    +    AVRKGD      +N   ++++E+G + +IY +Y+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|123336799|sp|Q0P9X8.1|PEB1A_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=Major cell-binding factor; AltName: Full=CBF1; AltName: Full=PEB1; Flags: Precursor [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q0P9X8</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>2.41162e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>LACSALALSACGGQGKDAAAPAANPGKVYRVASNAEF-------APFESL--DSKGNVEGFDVDLMNAMAKA---GNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSV---SKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPD-FTTEHYGIAVRKGDEATVKMLND</Hsp_qseq>
+      <Hsp_hseq>LKLAVFALGACVAFSNANAAE----GKLESIKSKGQLIVGVKNDVPHYALLDQATGEIKGFEVDVAKLLAKSILGDDKKIKLVAVNAKTRGPLLDNGSVDAVIATFTITPERKRIYNFSEPYYQDAIGLLVLKEKKYKSLADMKGAN-IGVAQAATTKKAIGEAAKKIGID-VKFSEFPDYPSIKAALDAKRVDAFSVDKSILLGYVDDKSE------ILPDSFEPQSYGIVTKKDDPAFAKYVDD</Hsp_hseq>
+      <Hsp_midline>L  +  AL AC       AA     GK+  + S  +         P  +L   + G ++GF+VD+   +AK+    + KI+       +  P L+NG  D V++  TIT +RK+  +FS+PY++    +LV K KK  S  D+K  N +GV    T   ++   +K +G D  K + F + P I   L+   +D+   D +++  YV +          LPD F  + YGI  +K D A  K ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|146325049|sp|A1VZQ4.1|PEB1A_CAMJJ</Hit_id>
+  <Hit_def>RecName: Full=Major cell-binding factor; AltName: Full=CBF1; AltName: Full=PEB1; Flags: Precursor [Campylobacter jejuni subsp. jejuni 81-176]</Hit_def>
+  <Hit_accession>A1VZQ4</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.30966e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>LACSALALSACGGQGKDAAAPAANPGKVYRVASNAEF-------APFESL--DSKGNVEGFDVDLMNAMAKA---GNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSV---SKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPD-FTTEHYGIAVRKGDEATVKMLND</Hsp_qseq>
+      <Hsp_hseq>LKLAVFALGACVAFSNANAAE----GKLESIKSKGQLIVGVKNDVPHYALLDQATGEIKGFEVDVAKLLAKSILGDDKKIKLVAVNAKTRGPLLDNGSVDAVIATFTITPERKRIYNFSEPYYQDAIGLLVLKEKNYKSLADMKGAN-IGVAQAATTKKAIGEAAKKIGID-VKFSEFPDYPSIKAALDAKRVDAFSVDKSILLGYVDDKSE------ILPDSFEPQSYGIVTKKDDPAFAKYVDD</Hsp_hseq>
+      <Hsp_midline>L  +  AL AC       AA     GK+  + S  +         P  +L   + G ++GF+VD+   +AK+    + KI+       +  P L+NG  D V++  TIT +RK+  +FS+PY++    +LV K K   S  D+K  N +GV    T   ++   +K +G D  K + F + P I   L+   +D+   D +++  YV +          LPD F  + YGI  +K D A  K ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|81625711|sp|Q9Z869.1|ARTJ_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Probable ABC transporter arginine-binding protein ArtJ; Flags: Precursor [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z869</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.07391e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>NMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYF--EITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTL-PDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKY</Hsp_qseq>
+      <Hsp_hseq>QIGRFFRAFIFIMPLSLTSCESK--------IDRNRIWIVGTNATYPPFEYVDAQGEVVGFDIDLAKAISEKLGKQLEVREFAFDALILNLKKHRIDAILAGMSITPSRQKEIALL-PYYGDEVQELMVVSKRSLETPVLPLTQYSSVAV---QTGTFQEHYLLSQPGICVRSFDSTLEVIMEVRYGKSPVAVLEPSVGRVVLKDFPNLVATRLELPPECWVLGCGLGVAKDRPEEIQTIQQAITDLKSEGVIQSLTKKW</Hsp_hseq>
+      <Hsp_midline> + ++  A +    L+L++C  +         +  +++ V +NA + PFE +D++G V GFD+DL  A+++    ++E +   +D+L   L     D +++G++IT  R++ +    PY+  E+ ++++V K    +    L + + V V    TG F    LL      +  F++   +I E+  G     V + +V    +K+ P      + L P+      G+ V K     ++ +  A+  ++  G    +  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|61229375|sp|P0A4F8.1|OCCT_RHIRD</Hit_id>
+  <Hit_def>RecName: Full=Octopine-binding periplasmic protein; Flags: Precursor [Agrobacterium tumefaciens] &gt;gi|61229376|sp|P0A4F9.1|OCCT_AGRT4 RecName: Full=Octopine-binding periplasmic protein; Flags: Precursor [Agrobacterium tumefaciens (strain Ach5)]</Hit_def>
+  <Hit_accession>P0A4F8</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.28954e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>LACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKV-------------------GVVTGHTGDFSVSKLLG---NDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYG---IAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>ILCAALLLVA--GQ-------AAAQEKSITIATEGGYAPWNFSGPGGKLDGFEIDLANALCEKMKAKCQIVAQNWDGIMPSLTGKKYDAIMAAMSVTPKRQEVIGFSIPYAAGINGFAVMGDSKLAEMPGLGETYSLDSQADAAKKAIADISSFLNGTTVGVQGSTTASTFLDKYFKGSVDIKEYKSVEEHNLDLTSGRLDAVLANATVLAAAIEKPEMKGAKLVG-PLFSGGEFGVVAVGLRKEDTALKADFDAAIKAASEDGTIKTLSLKWF</Hsp_hseq>
+      <Hsp_midline>+ C+AL L A  GQ       AA   K   +A+   +AP+      G ++GF++DL NA+ +    K +   Q WD + P+L     D +M+ +++T  R++ + FS PY        V    K++    L +   +                   G   G  G  + S  L      +  I  +++V     +L +G LD+V++++ V+A  ++    KG   V  P F+   +G   + +RK D A     + A++   E G    +  K+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1346149|sp|P48242.1|GLUB_CORGL</Hit_id>
+  <Hit_def>RecName: Full=Glutamate-binding protein; Flags: Precursor [Corynebacterium glutamicum ATCC 13032]</Hit_def>
+  <Hit_accession>P48242</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>3.20463e-13</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>IAAALACSALA---LSACG-GQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDL----MNAMAKAGNF---KIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGK-KVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLP------DFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE</Hsp_qseq>
+      <Hsp_hseq>IGAILGATALAGVTLTACGDSSGGDGFLAAIENGSV-NVGTKYDQPGLGLRNPDNSMSGLDVDVAEYVVNSIADDKGWDHPTIEWRESPSAQRETLIQNGEVDMIAATYSINAGRSESVNFGGPYLLTHQALLVRQDDDRIETLEDLDNGLILCSVSGSTPAQKVKDVL--PGVQLQEYDTYSSCVEALSQGNVDALTTDATILFGYSQQYEG---DFRVVEMEKDGEPFTDEYYGIGLKKDDQEGTDAINAALERMYADGTFQRLLTENLGED</Hsp_hseq>
+      <Hsp_midline>I A L  +ALA   L+ACG   G D    A   G V  V +  +       +   ++ G DVD+    +N++A    +    IE++  P       + NG+ D++ +  +I   R +S++F  PY    Q +LV +   ++ + EDL     +  V+G T    V  +L     ++  ++     ++ L  G +D++ +D+ ++  Y +       DF  +        FT E+YGI ++K D+     +N ALE++   G + ++  +   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|20141544|sp|P35120.2|NOCT_AGRT5</Hit_id>
+  <Hit_def>RecName: Full=Nopaline-binding periplasmic protein; Flags: Precursor [Agrobacterium fabrum str. C58]</Hit_def>
+  <Hit_accession>P35120</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>3.63361e-12</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>AAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSE-----------------DLKKMNKV--GVVTGHTGDFSVSKLLGNDNP--KIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHY----GIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>ALAAVVTGVLLAAGPTQAKDY--------KSITIATEGSYAPYNFKDAGGKLIGFDIDLGNDLCKRMNIECKFVEQAWDGIIPSLTAGRYDAIMAAMGIQPAREKVIAFSRPYLLTPMTFLTTADSPLLKTQVAIENLPLDNITPEQKAELDKFTKIFEGVKFGVQAGTSHEAFMKQMMPSVQISTYDTIDNVVMDLKAGRIDASLASVSFLKPLTDKPDNKDLKMFG-PRMTGGLFGKGVGVGIRKEDADLKALFDKAIDAAIADGTVQKLSQQWF</Hsp_hseq>
+      <Hsp_midline>A A   + + L+A   Q KD         K   +A+   +AP+   D+ G + GFD+DL N + K  N + +F  Q WD + P+L  G  D +M+ + I   R++ + FS PY       L      +  ++                 +L K  K+  GV  G     S    +    P  +I+ ++ +  ++ +L+ G +D+ ++  + +         K +     P  T   +    G+ +RK D     + + A++     G   K+  ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|24636878|sp|Q8RQL6.1|GLUB_COREF</Hit_id>
+  <Hit_def>RecName: Full=Glutamate-binding protein; Flags: Precursor [Corynebacterium efficiens YS-314]</Hit_def>
+  <Hit_accession>Q8RQL6</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>3.72624e-12</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>ALALSACG-GQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDL----MNAMAKAGNF---KIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGK-KVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPD---FTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKE</Hsp_qseq>
+      <Hsp_hseq>GITLTACGDSEGGDGLLAAIENGNV-TIGTKYDQPGLGLRNPDNSMSGLDVDVAQYVVNSIADDNGWDHPTVEWRETPSAQRETLIQNGEVDMIAATYSINPGRSESVNFGGPYLLTHQALLVREDDDRIQTLEDLDDGLILCSVTGSTPAQKVKDVL--PGVQLQEYDTYSSCVEALSQGNVDAMTTDATILFGYAQQREGEFRVVEMEQDGEPFTNEYYGIGITKDDTEATDAINAALERMYADGSFQRFLTENLGED</Hsp_hseq>
+      <Hsp_midline> + L+ACG  +G D    A   G V  + +  +       +   ++ G DVD+    +N++A    +    +E++  P       + NG+ D++ +  +I   R +S++F  PY    Q +LV +   ++ + EDL     +  VTG T    V  +L     ++  ++     ++ L  G +D++ +D+ ++  Y +    +        D   FT E+YGI + K D      +N ALE++   G + +   +   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|20141451|sp|Q9ZF60.3|GLTI_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Glutamate/aspartate periplasmic-binding protein; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q9ZF60</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.47032e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANP------GKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKI-----EFKHQPWDS--LFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPK----IARFENVPLIIKELENGGLDSVVSDSAVIA-NYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>MQLRKLTTAMLV---MGLSAGLAHAEDGAPAAGSTLDKIAKNGVIVVGHRESSVPFSYYDNQQKVVGYSQDYSNAIVEAVKKKLNKPDLQVKLIPITSQNRIPLLQNGTFDFECGSTTNNLERQKQAAFSDTIFVVGTRLLTKKGGDIKDFPDLKG-KAVVVTSGTTSEILLHKL--NEEQKMGMRIISAKDHGDSFRTLESGRAVAFMMDDALLAGERAKAKKPDNWEIVGKPQ-SQEAYGCMLRKNDPEFKKLMDDTIAQAQTSGEAEKWFDKWF</Hsp_hseq>
+      <Hsp_midline>M ++K   A L    + LSA     +D A  A +         V  V       PF   D++  V G+  D  NA+ +A   K+     + K  P  S    P L NG  D      T   +R++   FSD  F +   +L  KG  +    DLK    V V +G T +  + KL  N+  K    I   ++     + LE+G   + + D A++A    K       + V  P  + E YG  +RK D    K+++D + + + SGE +K + K+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|7676174|sp|P42400.2|YCKB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable ABC transporter extracellular-binding protein YckB; AltName: Full=ORF2; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P42400</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.61309e-09</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>LALSACGGQ----GKDAA-APAANPGKVYRVASNAEFAP--FESLDSKGN-VEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKG--KKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVP--LIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPD--FTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAK</Hsp_qseq>
+      <Hsp_hseq>LILAACSGKNEADSKDTGWEQIKDKGKIV-VATSGTLYPTSYHDTDSGSDKLTGYEVEVVREAAKRLGLKVEFKEMGIDGMLTAVNSGQVDAAANDIDVTKDREEKFAFSTPYKYSYGTAIVRKDDLSGIKTLKDLKGKKAAGAAT--TVYMEVARKYG---AKEVIYDNATNEQYLKDVANGRTDVILNDYYLQTLALAAFP--DLNITIHPDIKYMPNKQALVMKKSNAALQKKMNEALKEMSKDGSLTKLSKQFFNK</Hsp_hseq>
+      <Hsp_midline>L L+AC G+     KD       + GK+  VA++    P  +   DS  + + G++V+++   AK    K+EFK    D +  A+N+G  D   + + +T DR++   FS PY       +V K     + + +DLK     G  T  T    V++  G    K   ++N      +K++ NG  D +++D  +    +   P   ++    PD  +      + ++K + A  K +N+AL+++ + G   K+  ++F K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|2507365|sp|P37902.2|GLTI_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Glutamate/aspartate periplasmic-binding protein; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P37902</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.92277e-09</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>PFESLDSKGNVEGFDVDLMNAMAKAGNFKI-----EFKHQPWDS--LFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVPLI--------IKELENGGLDSVVSDSAVIA-NYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>PFSYYDNQQKVVGYSQDYSNAIVEAVKKKLNKPDLQVKLIPITSQNRIPLLQNGTFDFECGSTTNNVERQKQAAFSDTIFVVGTRLLTKKGGDIKDFANLKD-KAVVVTSGTTSEVLLNKL--NEEQKM----NMRIISAKDHGDSFRTLESGRAVAFMMDDALLAGERAKAKKPDNWEIVGKPQ-SQEAYGCMLRKDDPQFKKLMDDTIAQVQTSGEAEKWFDKWF</Hsp_hseq>
+      <Hsp_midline>PF   D++  V G+  D  NA+ +A   K+     + K  P  S    P L NG  D      T   +R++   FSD  F +   +L  KG  +    +LK    V V +G T +  ++KL  N+  K+    N+ +I         + LE+G   + + D A++A    K       + V  P  + E YG  +RK D    K+++D + +V+ SGE +K + K+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|6685721|sp|P72298.1|OCCT_RHIML</Hit_id>
+  <Hit_def>RecName: Full=Octopine-binding periplasmic protein; Flags: Precursor [Sinorhizobium meliloti]</Hit_def>
+  <Hit_accession>P72298</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>8.27452e-09</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>ALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPY</Hsp_qseq>
+      <Hsp_hseq>SIMCAALFVVA--GQ-------AAAQEKSITIATEGAYAPWNFSGPNGKLDGFEIDLAKVLCERMKVKCQIVAQNWDGIIPSLVAKKYDVIMAAMSVTPKRQEVISFSTPY</Hsp_hseq>
+      <Hsp_midline>++ C+AL + A  GQ       AA   K   +A+   +AP+      G ++GF++DL   + +    K +   Q WD + P+L     DV+M+ +++T  R++ + FS PY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81362773|sp|Q5QWY4.1|MLTF_IDILO</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Idiomarina loihiensis L2TR]</Hit_def>
+  <Hit_accession>Q5QWY4</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>5.24428e-08</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>IAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPW---DSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMN--KVGVVTGHTGDFSVSKLLGNDNPKI----ARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKG-DEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>LFAILLLAASVITACSPQTRPDAMSVVQERQVLRVGTLIN--PTSYYFDHDREQGFEYDL--AKRFADRLGVELEMVPRFDVNDLFTMLRRGEVDIVAAGLDRTSTRAQLFRFSPPYDIISQKVVFKQGSR-QRPRDLQQITDGEIVVVEG-SSHHEFLKSLGDSIPTLKWRATRDHDAVELLQMVISGEVDYTITDSTALDIQRRFHPDLSVAFTVKHD---QDIAWALPQGKDDSLFAAVIEYFGEIRSSGRLAHIKEQHF</Hsp_hseq>
+      <Hsp_midline>+ A L  +A  ++AC  Q +  A       +V RV +     P          +GF+ DL  A   A    +E +  P    + LF  L  G+ D+V +G+  T  R Q   FS PY  I+Q V+  +G +     DL+++   ++ VV G +      K LG+  P +     R  +   +++ + +G +D  ++DS  +    + +P   + F    D   +    A+ +G D++    + +   ++R SG    I  ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1709588|sp|P52626.1|PATH_VIBHA</Hit_id>
+  <Hit_def>RecName: Full=Putative amino-acid ABC transporter-binding protein PatH; Flags: Precursor [Vibrio harveyi]</Hit_def>
+  <Hit_accession>P52626</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.43497e-07</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>RVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGK-KVSSSEDL</Hsp_qseq>
+      <Hsp_hseq>KVGMSGRYFPF-TFVKQDKLQGFEVDMWDEIGKRNDYKIEYVTANFSGLFGLLETGRIDTISNQITMTDARKAKYLFADPYVVDGAQITVRKGNDSIQGVEDL</Hsp_hseq>
+      <Hsp_midline>+V  +  + PF +   +  ++GF+VD+ + + K  ++KIE+    +  LF  L  G  D + + +T+TD RK    F+DPY      + V KG   +   EDL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|3182887|sp|Q52812.1|AAPJ_RHIL3</Hit_id>
+  <Hit_def>RecName: Full=General L-amino acid-binding periplasmic protein AapJ; Flags: Precursor [Rhizobium leguminosarum bv. viciae 3841]</Hit_def>
+  <Hit_accession>Q52812</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.92993e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>KWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKA---GNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFS---DPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKI--ARFENVPLIIKELENGGLDSVVSDSAVIAN--YVKNNPAKGMDFVTLPDFTT-EHYGIAVRKGDE</Hsp_qseq>
+      <Hsp_hseq>KLLSAAIGAAVLAVGASAASATTLSDVKAK--GFVQCGVNTGLTGFAAPDASGNWAGFDVDFCKAVASAVFGDPTKVKYTPTNAKERFTALQSGEIDVLSRNTTWTINRDTALGFNFRPVTYYD-GQGFMVRKGLNVKSALELSGA-AICVQSGTTTELNLADYFKTNNLQYNPVVFENLPEVNAAYDAGRCDVYTTDQSGLYSLRLTLKNPD---EHIILPEIISKEPLGPAVRQGDD</Hsp_hseq>
+      <Hsp_midline>K ++AA+  + LA+ A        +   A      +   N     F + D+ GN  GFDVD   A+A A      K+++        F AL +G+ DV+    T T +R  ++ F+     Y++  Q  +V KG  V S+ +L     + V +G T + +++     +N +     FEN+P +    + G  D   +D + + +      NP    + + LP+  + E  G AVR+GD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|12231027|sp|Q01269.2|PHEC_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Cyclohexadienyl dehydratase; Includes: RecName: Full=Prephenate dehydratase; Includes: RecName: Full=Arogenate dehydratase; Flags: Precursor [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q01269</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>5.12218e-07</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>VYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFE--ITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENVP---LIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLP-DFTTEHYGIAVRKGDEATVKMLNDALEKVRESG</Hsp_qseq>
+      <Hsp_hseq>VLRVATTGDYKPFSYRTEEGGYAGFDVDMAQRLAESLGAKLVVVPTSWPNLMRDFADDRFDIAMSGISINLERQRQAYFSIPYLRDGKTPITLCSEEARFQT---LEQIDQPG-VTAIVNPGGTNEKFARANLKKARILVHPDNVTIFQQIVDGKADLMMTDAIEARLQSRLHPELCAVHPQQPFDFAEKAYLLP---RDEAFKRYVDQWLHIAEQSG</Hsp_hseq>
+      <Hsp_midline>V RVA+  ++ PF     +G   GFDVD+   +A++   K+      W +L     +   D+ MSG++I  +R++   FS PY     T + L  +  +  +   L+++++ G VT        ++     N K AR    P    I +++ +G  D +++D+       + +P         P DF  + Y +     DEA  + ++  L    +SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|341940774|sp|Q61627.2|GRID1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Glutamate receptor ionotropic, delta-1; Short=GluD1; Short=GluR delta-1 subunit; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q61627</Hit_accession>
+  <Hit_len>1009</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>7.936e-06</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>464</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>EGFDVDLMNAMAKAGNFKIEFKHQP------------WDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPK</Hsp_qseq>
+      <Hsp_hseq>KGFSIDVLDALAKALGFKYEIYQAPDGRYGHQLHNTSWNGMIGELISKRADLAISAITITPERESVVDFSKRYMDYSVGILIKK</Hsp_hseq>
+      <Hsp_midline>+GF +D+++A+AKA  FK E    P            W+ +   L +  AD+ +S +TIT +R+  +DFS  Y + +  +L+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|38372260|sp|Q62640.1|GRID1_RAT</Hit_id>
+  <Hit_def>RecName: Full=Glutamate receptor ionotropic, delta-1; Short=GluD1; Short=GluR delta-1 subunit; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q62640</Hit_accession>
+  <Hit_len>1009</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>8.15318e-06</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>464</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>EGFDVDLMNAMAKAGNFKIEFKHQP------------WDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPK</Hsp_qseq>
+      <Hsp_hseq>KGFSIDVLDALAKALGFKYEIYQAPDGRYGHQLHNTSWNGMIGELISKRADLAISAITITPERESVVDFSKRYMDYSVGILIKK</Hsp_hseq>
+      <Hsp_midline>+GF +D+++A+AKA  FK E    P            W+ +   L +  AD+ +S +TIT +R+  +DFS  Y + +  +L+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|38372397|sp|Q9ULK0.2|GRID1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Glutamate receptor ionotropic, delta-1; Short=GluD1; Short=GluR delta-1 subunit; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9ULK0</Hit_accession>
+  <Hit_len>1009</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>8.45198e-06</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>464</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>EGFDVDLMNAMAKAGNFKIEFKHQP------------WDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPK</Hsp_qseq>
+      <Hsp_hseq>KGFSIDVLDALAKALGFKYEIYQAPDGRYGHQLHNTSWNGMIGELISKRADLAISAITITPERESVVDFSKRYMDYSVGILIKK</Hsp_hseq>
+      <Hsp_midline>+GF +D+++A+AKA  FK E    P            W+ +   L +  AD+ +S +TIT +R+  +DFS  Y + +  +L+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|215275619|sp|Q47XX8.2|MLTF_COLP3</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Colwellia psychrerythraea 34H]</Hit_def>
+  <Hit_accession>Q47XX8</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.21993e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MKKWIAAALAC-SALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQP---WDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNKVGVVTGHTGDFSVSKL--LGNDNPKIARFENVPL----IIKELENGGLDSVVSDSAVIANYVKNNPAKGMDF</Hsp_qseq>
+      <Hsp_hseq>MTKFTSLLLVIFTTVLLSACDKEN-DSSSLSRILARGY-INVGTIFGPTNYYTTANGFAGFEYELAKQYADSLN--VELRIVPTYSLDELFIKLNTGEVDLLASGLSITDKRLQRFRFAPSYETISQKLVFKQG----NVRPRKVADLTGTLMVTSGSSYVENLEKLKQTNSELAWQESTEFDSEELLRKVLSGEIDYTIIDSNNLAINRRYYPEISIGF</Hsp_hseq>
+      <Hsp_midline>M K+ +  L   + + LSAC  +  D+++ +    + Y +     F P     +     GF+ +L    A + N  +E +  P    D LF  LN G+ D++ SG++ITD R Q   F+  Y  I+Q ++  +G    +    K  +  G +   +G   V  L  L   N ++A  E+       +++++ +G +D  + DS  +A   +  P   + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|215275764|sp|Q5E750.2|MLTF_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E750</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>2.29988e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGK---VYRVAS-NAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFK-HQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGK-KVSSSEDLKKMNK-VGVVTGHTGDFSVSKL---LGNDNPKIARFENVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>IRHHRFIQSCLVISTLLITLTGCQVESEPKTKLEQIRERGILRVSTLNNQLSYY--IGSNGPT-GLDYDLAKAFAEKLEVKLEITPAYTYSGLFPALERNEVDIIAANMTITPERLQKFRPGPVYYYVSQQVVYKKGSWRPRNIKNLTQLDENLTIVKDSSFEGTLIKLKEKYPNLDWNTAADTDVSELLKKVATGEIHYTLADSVELSLTQRIHPDLAVAFEVTEDQPVAWF--LQQTEDDSLQALLIEFFGELKESGKLALLEEKYF</Hsp_hseq>
+      <Hsp_midline>+   ++I + L  S L ++  G Q +          +   + RV++ N + + +  + S G   G D DL  A A+    K+E      +  LFPAL   + D++ + +TIT +R Q       Y+ ++Q V+  KG  +  + ++L ++++ + +V   + + ++ KL     N +   A   +V  ++K++  G +   ++DS  ++   + +P   + F    D     +    +  D++   +L +   +++ESG+   +  KYF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|68067727|sp|Q03445.2|GLR1_DROME</Hit_id>
+  <Hit_def>RecName: Full=Glutamate receptor 1; AltName: Full=Glutamate receptor I; Short=dGLUR-I; AltName: Full=Kainate-selective glutamate receptor; Flags: Precursor [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q03445</Hit_accession>
+  <Hit_len>991</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000111795</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>500</Hsp_hit-from>
+      <Hsp_hit-to>597</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ESLDSKGNVEGFDVDLMNAMA------------KAGNFKIEFKHQP--WDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKK</Hsp_qseq>
+      <Hsp_hseq>ESLVGNDRFEGYCKDLADMLAAQLGIKYEIRLVQDGNYGAENQYAPGGWDGMVGELIRKEADIAISAMTITAERERVIDFSKPFMTLGISIMIKKPVK</Hsp_hseq>
+      <Hsp_midline>ESL      EG+  DL + +A            + GN+  E ++ P  WD +   L   +AD+ +S +TIT +R++ +DFS P+  +   +++ K  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|123776970|sp|Q74SQ6.1|MLTF_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Yersinia pestis] &gt;gi|215275678|sp|A7FFU9.1|MLTF_YERP3 RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Yersinia pseudotuberculosis IP 31758] &gt;gi|215275679|sp|A9R413.1|MLTF_YERPG RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Yersinia pestis Angola] &gt;gi|215275756|sp|Q1CKD3.2|MLTF_YERPN RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Yersinia pestis Nepal516] &gt;gi|215275757|sp|A4TMX8.2|MLTF_YERPP RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Yersinia pestis Pestoides F] &gt;gi|215275759|sp|B1JRW4.2|MLTF_YERPY RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Yersinia pseudotuberculosis YPIII] &gt;gi|215275760|sp|Q1C5E6.2|MLTF_YERPA RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Yersinia pestis Antiqua]</Hit_def>
+  <Hit_accession>Q74SQ6</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000115652</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>APFESLDSKGNVEGFDVDLMNAMAKAGNFK-IEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGK-KVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENV----PLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDF-VTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>SPLIYSTEKDTPSGFDYELAKRFADYLGVKLVIIPHHNIDDLFDALDNDDTDLLAAGLIYNRERLNRARTGPAYYSVSQQLVYRLGSPRPKSFSDLK--GQVVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKELLEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDVTDEEPVTWYFK---QSDDDSLYAAMLDFYSEMVEDGSLARLEEKYLGHVG</Hsp_hseq>
+      <Hsp_midline>+P      K    GFD +L    A     K +   H   D LF AL+N D D++ +G+    +R         Y+ ++Q ++   G  +  S  DLK   +V V +G     ++ +L     P++    +V      +++++  G LD  + DSA IA   + +P   + F VT  +  T ++    +  D++    + D   ++ E G   ++  KY    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|215275676|sp|A7MSG2.1|MLTF_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7MSG2</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000117761</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>AAALACSALALSACGGQGKDAAA-PAANPGKVYRVAS-NAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDS-LFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGK----------KVSSSEDLKKMNK---VGVVTGHTGDFS--VSKL--LGNDNPKIARFE-----NVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>SALLFASVLLLSACQIESEPKSEFEQIQERGVLRVGTLNNQLSYYIGPDGPA---GLDYELARKFAEQLGVKLEIRPAFRQAELFPALKKGDIDIIATGLNQTSQAVQRFRPGPAYYYVSQQVVYKKGQLRPRDVDQLIKYQESKDEKAGNEDSNAGAETLQIVEQSQFVPTLTALQKEHPEL-QFEIIGDADTRDLLKHVSTGELRFTVTDSVELSLAQRLYPDLALAFELTEDQPVSWF--TRRSEDESLYAMLIEFFGNIKQSGELATLEEKYI</Hsp_hseq>
+      <Hsp_midline>+A L  S L LSAC  + +  +         V RV + N + + +   D      G D +L    A+    K+E +     + LFPAL  GD D++ +G+  T    Q       Y+ ++Q V+  KG+          K   S+D K  N+    G  T    + S  V  L  L  ++P++ +FE     +   ++K +  G L   V+DS  ++   +  P   + F    D     +    R  DE+   ML +    +++SGE   +  KY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|215275758|sp|Q667W0.2|MLTF_YERPS</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Yersinia pseudotuberculosis IP 32953] &gt;gi|215275761|sp|B2KA37.2|MLTF_YERPB RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Yersinia pseudotuberculosis PB1/+]</Hit_def>
+  <Hit_accession>Q667W0</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000124228</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>APFESLDSKGNVEGFDVDLMNAMAKAGNFK-IEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGK-KVSSSEDLKKMNKVGVVTGHTGDFSVSKLLGNDNPKIARFENV----PLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDF-VTLPDFTTEHYGIAVRKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>SPLIYSTEKDTPSGFDYELAKRFADYLGVKLVIIPHHNIDDLFDALDNDDTDLLAAGLIYNRERLNRARTGPAYYSVSQQLVYRLGSPRPKSFSDLK--GQVVVASGSAHMTTLKRLKQTKYPELNWSSSVDKSGKELLEQVAEGKLDYTLGDSATIALLQRIHPQLAVAFDVTDEEPVTWYFK---QSDDDSLYAAMLDFYSEMVEDGSLARLEEKYLGHVG</Hsp_hseq>
+      <Hsp_midline>+P      K    GFD +L    A     K +   H   D LF AL+N D D++ +G+    +R         Y+ ++Q ++   G  +  S  DLK   +V V +G     ++ +L     P++    +V      +++++  G LD  + DSA IA   + +P   + F VT  +  T ++    +  D++    + D   ++ E G   ++  KY    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|81615472|sp|Q6LU25.1|MLTF_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Photobacterium profundum]</Hit_def>
+  <Hit_accession>Q6LU25</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000128116</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>GFDVDLMNAMAKAGNFKIEFKHQP---WDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSSEDLKKMNK--VGVVTGHTGDFSVSKLLGNDNPKIARFENVP-----LIIKELENGGLDSVVSDSAVIANYVKNNP--AKGMDFVTLPDFTTEHYGIAV---RKGDEATVKMLNDALEKVRESGEYDKIYAKYFAKEG</Hsp_qseq>
+      <Hsp_hseq>GLDYELAQRFAQKLGVKLEM--QPMFTLSGLFPTLERGGIDVVAAGLTISKDRIENYHAAPAYYYASQIVVYKNGQWRPRKPADLALNKGTLSVVKGSSHEKHLIK-LKEIHPDLT-WESIEETDSDELLRLVAKGELDFTIADSVDVALSQRIHPDVAIAMEL-------TEDEPIAWFVNKSTDDSLYALLIEFFGEIKQSGELAQLEEKYFGHVG</Hsp_hseq>
+      <Hsp_midline>G D +L    A+    K+E   QP      LFP L  G  DVV +G+TI+ DR ++   +  Y+  +Q+V+   G+          +NK  + VV G + +  + K L   +P +  +E++       +++ +  G LD  ++DS  +A   + +P  A  M+        TE   IA    +  D++   +L +   ++++SGE  ++  KYF   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|215275657|sp|A4XXV1.1|MLTF_PSEMY</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Pseudomonas mendocina ymp]</Hit_def>
+  <Hit_accession>A4XXV1</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000154207</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>SALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQP---WDSLFPALNNGDADVVMS-GVTITDDRKQSMDFSDPYFEITQVVLVPKGK-KVSSSEDLKKMNKVGVVTG--HTGDFSVSKLLGNDNPKIARFE-----NVPLIIKELENGGLDSVVSDSAVIANYVKNNPAKGMDFVTLPDFTTEHYGIAVRKGDEATVKMLNDA-LEKVRESGEYDKIYAKYF</Hsp_qseq>
+      <Hsp_hseq>TLLMLAGCGEEPKPSVLEQVKAEGELRVVTRN--SPATYFQDRNGATGFEYELAKRFAT--DLGLELKIETADNLDSLFASLGHVDGPVLAAAGLVETPQRQRQARFSVPYLEVTPQIIYRQGETRPTKAEDLLG-KRILVLAGSSHAEQLEALKL---ELPELT-FEVSDAVEVVDLLRMVDEGQIDLTLVDSNELAMNQVYFPNVRVAF-DLGDTNTMRWAVA--PGEDDSLLLEIDAFLERSQANGTLQRLKERYY</Hsp_hseq>
+      <Hsp_midline>+ L L+ CG + K +           RV +    +P      +    GF+ +L    A   +  +E K +     DSLF +L + D  V+ + G+  T  R++   FS PY E+T  ++  +G+ + + +EDL    ++ V+ G  H       KL   + P++  FE      V  +++ ++ G +D  + DS  +A      P   + F  L D  T  + +A   G++ ++ +  DA LE+ + +G   ++  +Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|215275773|sp|A1S850.2|MLTF_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1S850</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000310401</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>LACSALALSACGGQGK--DAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKAGNFKIEFKHQPWDS---LFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKGKKVSSS</Hsp_qseq>
+      <Hsp_hseq>LLTSVLVLTACQPPGLVVDAPQPKAE-AETLRVGT--LYGAQIYMSSGQGLSGFDYELAQKFADYLGKPLEM--QPYSNRSELYDALAKGEIDLIAAGITESPNRRNRFRMGPPLYRVDQVVVYRQGNRAPES</Hsp_hseq>
+      <Hsp_midline>L  S L L+AC   G   DA  P A   +  RV +   +     + S   + GFD +L    A      +E   QP+ +   L+ AL  G+ D++ +G+T + +R+       P + + QVV+  +G +   S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|7674449|sp|O34852.1|TCYK_BACSU</Hit_id>
+  <Hit_def>RecName: Full=L-cystine-binding protein TcyK; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34852</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00034729</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MNMKKWIAAALACSALALSACGGQGKDAAAPAANPGKVYRVASNAEFAPFESLDSKGNVEGFDVDLMNAMAKA-GNFKIEFKHQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSD---PYFEITQVVLVPKGKKVSSSEDLK</Hsp_qseq>
+      <Hsp_hseq>MKTKTAFMAILFSLITVLSACGA-GSQTTGAGQKKVQTITVGTGTQFPNICFIDEKGDLTGYDVELIKELDKRLPHYKFTFKTMEFSNLLVSLGQHKVDIVAHQMEKSKEREKKFLFNKVAYNHFPL-KITVLQNNDTIRGIEDLK</Hsp_hseq>
+      <Hsp_midline>M  K    A L      LSACG  G           +   V +  +F     +D KG++ G+DV+L+  + K   ++K  FK   + +L  +L     D+V   +  + +R++   F+     +F + ++ ++     +   EDLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|81545272|sp|Q9KTN5.1|MLTF_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Vibrio cholerae O1 biovar El Tor str. N16961] &gt;gi|215275675|sp|A5F353.1|MLTF_VIBC3 RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Vibrio cholerae O395]</Hit_def>
+  <Hit_accession>Q9KTN5</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000367895</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GFDVDLMNAMAKAGNFKIEFK-HQPWDSLFPALNNGDADVVMSGVTITDDRKQSMDFSDPYFEITQVVLVPKG</Hsp_qseq>
+      <Hsp_hseq>GLDYELAREFAKELGVKLEMKPAYRLSSLFPALKNGEVDIIAAGLSQSEERLKDFRAGPAYYYVSQQVVYKKG</Hsp_hseq>
+      <Hsp_midline>G D +L    AK    K+E K      SLFPAL NG+ D++ +G++ +++R +       Y+ ++Q V+  KG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

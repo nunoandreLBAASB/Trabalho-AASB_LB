@@ -1,0 +1,714 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>57263</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7Z7</BlastOutput_query-def>
+  <BlastOutput_query-len>69</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>57263</Iteration_query-ID>
+  <Iteration_query-def>Q5F7Z7</Iteration_query-def>
+  <Iteration_query-len>69</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|729196|sp|P41059.1|CP80_BP186</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized 8.5 kDa protein in gpA 5&apos;region [Enterobacteria phage 186]</Hit_def>
+  <Hit_accession>P41059</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.03009e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>MTDFADRASEREAEFLVEALAKHQPPSENTAGFSHCEDCGDPIPEAKRKAVRGCTRCVVCHEYIQLKTK</Hsp_qseq>
+      <Hsp_hseq>MADAMDLAQLREQEDRERHISNARSRRHEVSAFI-CEECDAPIPEARRRAIPGVQCCVTCQEILELKSK</Hsp_hseq>
+      <Hsp_midline>M D  D A  RE E     ++  +      + F  CE+C  PIPEA+R+A+ G   CV C E ++LK+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|730987|sp|P41065.1|TRAR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Protein TraR [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P41065</Hit_accession>
+  <Hit_len>73</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>2.88253e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MTDFADRASEREAEFLVEALAK-HQPPSENTAGFSHCEDCGDPIPEAKRKAVRGCTRCVVCHEYIQLKTK</Hsp_qseq>
+      <Hsp_hseq>MSDEADEAYSVTEQLTMTGINRIRQKINAHGIPVYLCEACGNPIPEARRKIFPGVTLCVECQAYQERQRK</Hsp_hseq>
+      <Hsp_midline>M+D AD A     +  +  + +  Q  + +      CE CG+PIPEA+RK   G T CV C  Y + + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|731334|sp|P41039.1|YBII_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YbiI [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P41039</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.000716932</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>DRASEREAEFLVEALAKHQPPSENTAGFSHCEDCGDPIPEAKRKAVRGCTRCVVCHEYIQLK</Hsp_qseq>
+      <Hsp_hseq>DAVNEQINSTIEDAIARARGEIPRGESLDECEECGAPIPQARREAIPGVRLCIHCQQEKDLQ</Hsp_hseq>
+      <Hsp_midline>D  +E+    + +A+A+ +           CE+CG PIP+A+R+A+ G   C+ C +   L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1175829|sp|P44221.1|Y1497_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1497 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44221</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.0355453</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MTDFADRASEREAEFLVEALAKH--------QPPSENTAGFSHCEDCGDPIPEAKRKAVRGCTRCVVCHE</Hsp_qseq>
+      <Hsp_hseq>MADVLDQLNEREEALLQNILAPHLDTELSDDEVDAIAEAG-RQCSECGLPIPTTRLRANPFAHRCVSCQQ</Hsp_hseq>
+      <Hsp_midline>M D  D+ +ERE   L   LA H        +  +   AG   C +CG PIP  + +A     RCV C +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|51701351|sp|Q9DBG3.1|AP2B1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=AP-2 complex subunit beta; AltName: Full=AP105B; AltName: Full=Adaptor protein complex AP-2 subunit beta; AltName: Full=Adaptor-related protein complex 2 subunit beta; AltName: Full=Beta-2-adaptin; AltName: Full=Beta-adaptin; AltName: Full=Clathrin assembly protein complex 2 beta large chain; AltName: Full=Plasma membrane adaptor HA2/AP2 adaptin beta subunit [Mus musculus]</Hit_def>
+  <Hit_accession>Q9DBG3</Hit_accession>
+  <Hit_len>937</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.50511</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>AKHQPPSENTAGFSHCEDCGDPIPEAKRKAVR--GCTRCVVCHEYI</Hsp_qseq>
+      <Hsp_hseq>AKSQPDMAIMAVNSFVKDCEDPNPLIRALAVRTMGCIRVDKITEYL</Hsp_hseq>
+      <Hsp_midline>AK QP     A  S  +DC DP P  +  AVR  GC R     EY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|124028640|sp|P63009.2|AP2B1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=AP-2 complex subunit beta; AltName: Full=AP105B; AltName: Full=Adaptor protein complex AP-2 subunit beta; AltName: Full=Adaptor-related protein complex 2 subunit beta; AltName: Full=Beta-2-adaptin; AltName: Full=Beta-adaptin; AltName: Full=Clathrin assembly protein complex 2 beta large chain; AltName: Full=Plasma membrane adaptor HA2/AP2 adaptin beta subunit [Bos taurus]</Hit_def>
+  <Hit_accession>P63009</Hit_accession>
+  <Hit_len>937</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.54592</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>AKHQPPSENTAGFSHCEDCGDPIPEAKRKAVR--GCTRCVVCHEYI</Hsp_qseq>
+      <Hsp_hseq>AKSQPDMAIMAVNSFVKDCEDPNPLIRALAVRTMGCIRVDKITEYL</Hsp_hseq>
+      <Hsp_midline>AK QP     A  S  +DC DP P  +  AVR  GC R     EY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|51702208|sp|P62944.1|AP2B1_RAT</Hit_id>
+  <Hit_def>RecName: Full=AP-2 complex subunit beta; AltName: Full=AP105B; AltName: Full=Adaptor protein complex AP-2 subunit beta; AltName: Full=Adaptor-related protein complex 2 subunit beta; AltName: Full=Beta-2-adaptin; AltName: Full=Beta-adaptin; AltName: Full=Clathrin assembly protein complex 2 beta large chain; AltName: Full=Plasma membrane adaptor HA2/AP2 adaptin beta subunit [Rattus norvegicus] &gt;gi|51702211|sp|P63010.1|AP2B1_HUMAN RecName: Full=AP-2 complex subunit beta; AltName: Full=AP105B; AltName: Full=Adaptor protein complex AP-2 subunit beta; AltName: Full=Adaptor-related protein complex 2 subunit beta; AltName: Full=Beta-2-adaptin; AltName: Full=Beta-adaptin; AltName: Full=Clathrin assembly protein complex 2 beta large chain; AltName: Full=Plasma membrane adaptor HA2/AP2 adaptin beta subunit [Homo sapiens]</Hit_def>
+  <Hit_accession>P62944</Hit_accession>
+  <Hit_len>937</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.55977</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>AKHQPPSENTAGFSHCEDCGDPIPEAKRKAVR--GCTRCVVCHEYI</Hsp_qseq>
+      <Hsp_hseq>AKSQPDMAIMAVNSFVKDCEDPNPLIRALAVRTMGCIRVDKITEYL</Hsp_hseq>
+      <Hsp_midline>AK QP     A  S  +DC DP P  +  AVR  GC R     EY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|122132354|sp|Q08DS7.1|AP1B1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=AP-1 complex subunit beta-1; AltName: Full=Adaptor protein complex AP-1 subunit beta-1; AltName: Full=Adaptor-related protein complex 1 subunit beta-1; AltName: Full=Beta-1-adaptin; AltName: Full=Beta-adaptin 1; AltName: Full=Clathrin assembly protein complex 1 beta large chain; AltName: Full=Golgi adaptor HA1/AP1 adaptin beta subunit [Bos taurus]</Hit_def>
+  <Hit_accession>Q08DS7</Hit_accession>
+  <Hit_len>951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.69188</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>AKHQPPSENTAGFSHCEDCGDPIPEAKRKAVR--GCTRCVVCHEYI</Hsp_qseq>
+      <Hsp_hseq>AKSQPDMAIMAVNSFVKDCEDPNPLIRALAVRTMGCIRVDKITEYL</Hsp_hseq>
+      <Hsp_midline>AK QP     A  S  +DC DP P  +  AVR  GC R     EY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|114149321|sp|Q1WIM3.1|CADM3_RAT</Hit_id>
+  <Hit_def>RecName: Full=Cell adhesion molecule 3; AltName: Full=Immunoglobulin superfamily member 4B; Short=IgSF4B; AltName: Full=Nectin-like protein 1; Short=NECL-1; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q1WIM3</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.51744</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>ADRASEREAEFLVEALAKHQP----PSENTAGFSHCEDCGDPIPE</Hsp_qseq>
+      <Hsp_hseq>ADRSTSQRIEVLYTPTAMIRPEPAHPREGQKLLLHCEGRGNPVPQ</Hsp_hseq>
+      <Hsp_midline>ADR++ +  E L    A  +P    P E      HCE  G+P+P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81916660|sp|Q99N28.1|CADM3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Cell adhesion molecule 3; AltName: Full=Immunoglobulin superfamily member 4B; Short=IgSF4B; AltName: Full=Nectin-like protein 1; Short=NECL-1; AltName: Full=Synaptic cell adhesion molecule 3; AltName: Full=TSLC1-like protein 1; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q99N28</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.61161</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>ADRASEREAEFLVEALAKHQP----PSENTAGFSHCEDCGDPIPE</Hsp_qseq>
+      <Hsp_hseq>ADRSTSQRIEVLYTPTAMIRPEPAHPREGQKLLLHCEGRGNPVPQ</Hsp_hseq>
+      <Hsp_midline>ADR++ +  E L    A  +P    P E      HCE  G+P+P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|74759761|sp|Q8N126.1|CADM3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Cell adhesion molecule 3; AltName: Full=Brain immunoglobulin receptor; AltName: Full=Immunoglobulin superfamily member 4B; Short=IgSF4B; AltName: Full=Nectin-like protein 1; Short=NECL-1; AltName: Full=Synaptic cell adhesion molecule 3; Short=SynCAM3; AltName: Full=TSLC1-like protein 1; Short=TSLL1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8N126</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.91832</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>ADRASEREAEFLVEALAKHQP----PSENTAGFSHCEDCGDPIPE</Hsp_qseq>
+      <Hsp_hseq>ADRSTSQRIEVLYTPTAMIRPDPPHPREGQKLLLHCEGRGNPVPQ</Hsp_hseq>
+      <Hsp_midline>ADR++ +  E L    A  +P    P E      HCE  G+P+P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|341940229|sp|O35643.2|AP1B1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=AP-1 complex subunit beta-1; AltName: Full=Adaptor protein complex AP-1 subunit beta-1; AltName: Full=Adaptor-related protein complex 1 subunit beta-1; AltName: Full=Beta-1-adaptin; AltName: Full=Beta-adaptin 1; AltName: Full=Clathrin assembly protein complex 1 beta large chain; AltName: Full=Golgi adaptor HA1/AP1 adaptin beta subunit [Mus musculus]</Hit_def>
+  <Hit_accession>O35643</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.66112</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>AKHQPPSENTAGFSHCEDCGDPIPEAKRKAVR--GCTRCVVCHEYI</Hsp_qseq>
+      <Hsp_hseq>AKSQPDMAIMAVNTFVKDCEDPNPLIRALAVRTMGCIRVDKITEYL</Hsp_hseq>
+      <Hsp_midline>AK QP     A  +  +DC DP P  +  AVR  GC R     EY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|257096649|sp|A9V7A1.1|NUBP2_MONBE</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic Fe-S cluster assembly factor NUBP2 homolog [Monosiga brevicollis]</Hit_def>
+  <Hit_accession>A9V7A1</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.73757</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>176</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>REAEFLVEALAKHQPPSENTAGFS--HCEDC</Hsp_qseq>
+      <Hsp_hseq>REAEFCRKARLKVLGVVENMSGFACPHCKDC</Hsp_hseq>
+      <Hsp_midline>REAEF  +A  K     EN +GF+  HC+DC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1703168|sp|P52303.1|AP1B1_RAT</Hit_id>
+  <Hit_def>RecName: Full=AP-1 complex subunit beta-1; AltName: Full=Adaptor protein complex AP-1 subunit beta-1; AltName: Full=Adaptor-related protein complex 1 subunit beta-1; AltName: Full=Beta-1-adaptin; AltName: Full=Beta-adaptin 1; AltName: Full=Clathrin assembly protein complex 1 beta large chain; AltName: Full=Golgi adaptor HA1/AP1 adaptin beta subunit [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P52303</Hit_accession>
+  <Hit_len>949</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.76315</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>AKHQPPSENTAGFSHCEDCGDPIPEAKRKAVR--GCTRCVVCHEYI</Hsp_qseq>
+      <Hsp_hseq>AKSQPDMAIMAVNTFVKDCEDPNPLIRALAVRTMGCIRVDKITEYL</Hsp_hseq>
+      <Hsp_midline>AK QP     A  +  +DC DP P  +  AVR  GC R     EY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|290457628|sp|Q10567.2|AP1B1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=AP-1 complex subunit beta-1; AltName: Full=Adaptor protein complex AP-1 subunit beta-1; AltName: Full=Adaptor-related protein complex 1 subunit beta-1; AltName: Full=Beta-1-adaptin; AltName: Full=Beta-adaptin 1; AltName: Full=Clathrin assembly protein complex 1 beta large chain; AltName: Full=Golgi adaptor HA1/AP1 adaptin beta subunit [Homo sapiens]</Hit_def>
+  <Hit_accession>Q10567</Hit_accession>
+  <Hit_len>949</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.23345</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>AKHQPPSENTAGFSHCEDCGDPIPEAKRKAVR--GCTRCVVCHEYI</Hsp_qseq>
+      <Hsp_hseq>AKSQPDMAIMAVNTFVKDCEDPNPLIRALAVRTMGCIRVDKITEYL</Hsp_hseq>
+      <Hsp_midline>AK QP     A  +  +DC DP P  +  AVR  GC R     EY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2494383|sp|Q64176.1|EST1E_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Carboxylesterase 1E; AltName: Full=Egasyn; AltName: Full=Liver carboxylesterase 22; Short=Es-22; Short=Esterase-22; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q64176</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.30763</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>532</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>TDFADRASEREAEFLVEALAKHQPPSENT</Hsp_qseq>
+      <Hsp_hseq>TQQAQKLKEKEVAFWTELLAKKQLPTEHT</Hsp_hseq>
+      <Hsp_midline>T  A +  E+E  F  E LAK Q P+E+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|123741582|sp|Q31G89.1|DNLJ_THICR</Hit_id>
+  <Hit_def>RecName: Full=DNA ligase; AltName: Full=Polydeoxyribonucleotide synthase [Thiomicrospira crunogena XCL-2]</Hit_def>
+  <Hit_accession>Q31G89</Hit_accession>
+  <Hit_len>672</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.79128</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>432</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>ENTAGF---SHCEDCGDPIPEAKRKAVRGCTRCVVC</Hsp_qseq>
+      <Hsp_hseq>ENTQLFEMPQHCPECGSDVVKELDKAVFRCTGGLVC</Hsp_hseq>
+      <Hsp_midline>ENT  F    HC +CG  + +   KAV  CT  +VC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|122003631|sp|Q2VQM5.1|VIT3_SOLIN</Hit_id>
+  <Hit_def>RecName: Full=Vitellogenin-3; Flags: Precursor [Solenopsis invicta]</Hit_def>
+  <Hit_accession>Q2VQM5</Hit_accession>
+  <Hit_len>1761</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.92257</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>1559</Hsp_hit-from>
+      <Hsp_hit-to>1601</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>SEREAEFLVEALAKHQPPSENTAGFSHC-EDCGDPIPEAKRKA</Hsp_qseq>
+      <Hsp_hseq>SRRDNDFLTPKNCLLTKPEEFAATYAMTNENCQGPAPENKRKA</Hsp_hseq>
+      <Hsp_midline>S R+ +FL         P E  A ++   E+C  P PE KRKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81598655|sp|Q5P1J6.1|LEU3_AROAE</Hit_id>
+  <Hit_def>RecName: Full=3-isopropylmalate dehydrogenase; AltName: Full=3-IPM-DH; AltName: Full=Beta-IPM dehydrogenase; Short=IMDH [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5P1J6</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.12905</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>EAEFLVEALAKHQPPSENTAGFSHCEDCGDPIPEAKRKAVR</Hsp_qseq>
+      <Hsp_hseq>EAVRVIEALDLKFEMEEALLGGAAVDATGDPYPEATRKLAR</Hsp_hseq>
+      <Hsp_midline>EA  ++EAL       E   G +  +  GDP PEA RK  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81349987|sp|Q5LST6.1|DNLJ_RUEPO</Hit_id>
+  <Hit_def>RecName: Full=DNA ligase; AltName: Full=Polydeoxyribonucleotide synthase [Ruegeria pomeroyi DSS-3]</Hit_def>
+  <Hit_accession>Q5LST6</Hit_accession>
+  <Hit_len>739</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.58644</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>QPPSENTAGF-SHCEDCGDPIPEAKRKAVRGCTRCVVC</Hsp_qseq>
+      <Hsp_hseq>RPEGANPFEFPEQCPECGSPAIREEGDAVRRCTGGVIC</Hsp_hseq>
+      <Hsp_midline>+P   N   F   C +CG P    +  AVR CT  V+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|26397719|sp|Q93V93.1|PER44_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peroxidase 44; Short=Atperox P44; AltName: Full=ATP35; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q93V93</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.37114</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>PSENTAGFSHCEDCGDPIPEAKRKAVRGCTRCVVCHEYIQLKTK</Hsp_qseq>
+      <Hsp_hseq>PSEKSTGPNASVRGYEIIDEAKRQLEAACPRTVSCADIVTLATR</Hsp_hseq>
+      <Hsp_midline>PSE + G +      + I EAKR+    C R V C + + L T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|68067380|sp|Q01714.2|SP1_RAT</Hit_id>
+  <Hit_def>RecName: Full=Transcription factor Sp1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q01714</Hit_accession>
+  <Hit_len>786</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.12893</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>578</Hsp_hit-from>
+      <Hsp_hit-to>612</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ENTAGFSHCEDCGDPIPEAKRKAVRGCTRCVVCHE</Hsp_qseq>
+      <Hsp_hseq>DETAGGEEGENSPDPQPQAGRRTRREACTCPYCKD</Hsp_hseq>
+      <Hsp_midline>+ TAG    E+  DP P+A R+  R    C  C +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|205690878|sp|B2GUZ5.1|CAZA1_RAT</Hit_id>
+  <Hit_def>RecName: Full=F-actin-capping protein subunit alpha-1; AltName: Full=CapZ alpha-1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>B2GUZ5</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.8094</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>28</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>MTDFADRASEREAEFLVEALAKHQPPSE</Hsp_qseq>
+      <Hsp_hseq>MADFEDRVSDEEKVRIAAKFITHAPPGE</Hsp_hseq>
+      <Hsp_midline>M DF DR S+ E   +      H PP E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|34223730|sp|P47753.4|CAZA1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=F-actin-capping protein subunit alpha-1; AltName: Full=CapZ alpha-1 [Mus musculus]</Hit_def>
+  <Hit_accession>P47753</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.90328</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>28</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>MTDFADRASEREAEFLVEALAKHQPPSE</Hsp_qseq>
+      <Hsp_hseq>MADFEDRVSDEEKVRIAAKFITHAPPGE</Hsp_hseq>
+      <Hsp_midline>M DF DR S+ E   +      H PP E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

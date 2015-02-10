@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>46749</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7H4</BlastOutput_query-def>
+  <BlastOutput_query-len>196</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>46749</Iteration_query-ID>
+  <Iteration_query-def>Q5F7H4</Iteration_query-def>
+  <Iteration_query-len>196</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|136360|sp|P00901.2|TRPG_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P00901</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>3.23129e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWT--EDG---EIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>LLMMIDNYDSFTYNVVQYLGELGAEVKVIRNDEMTIAQIEALNPERIVVSPGPCTPSEAGVSIEAILHFAGKLPILGVCLGHQSIGQAFGGDVVRARQVMHGKTSPVHHRDLGVFTGLNNPLTVTRYHSLVVKRETLPDCLEVTAWTAHEDGSVDEIMGLRHKTLNIEGVQFHPESILTEQGHELFANFL</Hsp_hseq>
+      <Hsp_midline>+L+ IDNYDSFTYN+VQY  ELG EV V RND++T+ +IEALNP+ +V+ PGPC+P EAG+S+EA+ HFAG+LPI+GVCLGHQ+IG+AFGGDVVRA+ +MHGK SPV H   G+F GL NP+T TRYHSLV++R TLPDCLE+TAWT  EDG   EIMG+RHK   +EGVQFHPE++LTE+GH++  NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|129524|sp|P06193.1|PABA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Aminodeoxychorismate synthase component 2; Short=ADC synthase; Short=ADCS; AltName: Full=4-amino-4-deoxychorismate synthase component 2; AltName: Full=Aminodeoxychorismate synthase, glutamine amidotransferase component [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P06193</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>5.53241e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MILLIDNYDSFTWNLYQYFCELGAEVQVRRNDALTLAHIDALNPQKIVISPGPCTPNDAGISLAVIRHYAGRIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGVFRGLPSPLTVTRYHSLIVDPATLPECFEITAWSETQEIMGIRHREWDLEGVQFHPESILSEQGHALLKNFL</Hsp_hseq>
+      <Hsp_midline>M+L IDNYDSFT+N+ QYF ELG EV VRRND +TL  I+ALNPQ +VI PGPC+P +AGIS+  +RH+AGR+P++GVCLGHQ + +AFG  VVRA  +MHGK SPV+H+G+G+F+GLP+P+T TRYHSL+++  TLP+C EITAW+E  EIMG+RH+E+ +EGVQFHPE++L+E+GH +L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|129525|sp|P06195.1|PABA_SERMA</Hit_id>
+  <Hit_def>RecName: Full=Aminodeoxychorismate synthase component 2; Short=ADC synthase; Short=ADCS; AltName: Full=4-amino-4-deoxychorismate synthase component 2; AltName: Full=Aminodeoxychorismate synthase, glutamine amidotransferase component [Serratia marcescens]</Hit_def>
+  <Hit_accession>P06195</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>2.08829e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTE-DG---EIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MLLLIDNYDSFTYNLYQYFCELGAEVVVKRNDELQLTDIERLAPQHLVISPGPCTPNEAGISVAAIRHFAGKLPILGVCLGHQALGQAFGAEVVRARAVMHGKTSAIRHLGVGVFRGLSDPLTVTRYHSLVLKADTLPDCFEVTAWSERDGVRDEIMGIRHRALALEGVQFHPESVLSEQGHQLLDNFL</Hsp_hseq>
+      <Hsp_midline>MLL IDNYDSFTYN+ QYF ELG EV V+RND++ L +IE L PQ+LVI PGPC+P EAGISV A+RHFAG+LPI+GVCLGHQ +G+AFG +VVRA+ +MHGK S + H G G+F+GL +P+T TRYHSLV++  TLPDC E+TAW+E DG   EIMG+RH+  A+EGVQFHPE++L+E+GH +L+NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|129522|sp|P00903.1|PABA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Aminodeoxychorismate synthase component 2; Short=ADC synthase; Short=ADCS; AltName: Full=4-amino-4-deoxychorismate synthase component 2; AltName: Full=Aminodeoxychorismate synthase, glutamine amidotransferase component [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P00903</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.478</Hsp_bit-score>
+      <Hsp_score>698</Hsp_score>
+      <Hsp_evalue>7.45437e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MILLIDNYDSFTWNLYQYFCELGADVLVKRNDALTLADIDALKPQKIVISPGPCTPDEAGISLDVIRHYAGRLPILGVCLGHQAMAQAFGGKVVRAAKVMHGKTSPITHNGEGVFRGLANPLTVTRYHSLVVEPDSLPACFDVTAWSETREIMGIRHRQWDLEGVQFHPESILSEQGHQLLANFL</Hsp_hseq>
+      <Hsp_midline>M+L IDNYDSFT+N+ QYF ELG +V V+RND +TL +I+AL PQ +VI PGPC+P EAGIS++ +RH+AGRLPI+GVCLGHQ + +AFGG VVRA  +MHGK SP++H+G+G+F+GL NP+T TRYHSLV+E  +LP C ++TAW+E  EIMG+RH+++ +EGVQFHPE++L+E+GH +L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|136349|sp|P00902.1|TRPG_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>P00902</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>7.36927e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWT--EDG---EIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MLLMIDNYDSFTYNIVQYFGELNQDVKVVRNDQVTLEDIERWQPKYLVVGPGPCSPTEAGISIPAIHHFAGRIPLLGVCLGHQAIGQAFGGNIIRAKTVMHGRLSDMYHTDKGIFSNLPSPFSATRYHSLVIEQESLPECLEVTCWTNQNDGSIEEIMGVKHKTLPVEGVQFHPESILSQHGHQIFKNFL</Hsp_hseq>
+      <Hsp_midline>MLL IDNYDSFTYNIVQYF EL Q+V V RND +TLE+IE   P+YLV+GPGPCSP EAGIS+ A+ HFAGR+P++GVCLGHQ IG+AFGG+++RAKT+MHG++S + H+ KG+F  LP+P + TRYHSLVIE+ +LP+CLE+T WT   DG   EIMGV+HK   VEGVQFHPE++L++ GH +  NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|12230949|sp|P20576.2|TRPG_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P20576</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>6.74076e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTE--DG---EIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MLLMIDNYDSFTYNLVQYFGELKAEVKVVRNDELSVEQIEALAPERIVLSPGPCTPNEAGVSLAVIERFAGKLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGVFAGLANPLTVTRYHSLVVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHPESILTEQGHELLANFL</Hsp_hseq>
+      <Hsp_midline>MLL IDNYDSFTYN+VQYF EL  EV V RND++++E+IEAL P+ +V+ PGPC+P EAG+S+  +  FAG+LP++GVCLGHQ+IG+AFGG+VVRA+ +MHGK SP+ H   G+F GL NP+T TRYHSLV++R +LP+CLE+TAWT+  DG   EIMGVRHK   VEGVQFHPE++LTE+GH++L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|129521|sp|P28819.1|PABA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Aminodeoxychorismate/anthranilate synthase component 2; Short=ADC synthase; Short=ADCS; AltName: Full=4-amino-4-deoxychorismate synthase component 2; AltName: Full=Aminodeoxychorismate synthase, glutamine amidotransferase component [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P28819</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.003</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>1.49742e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFLVEFQN</Hsp_qseq>
+      <Hsp_hseq>MILMIDNYDSFTYNLVQYLGELGEELVVKRNDSITIDEIEELSPDFLMISPGPCSPDEAGISLEAIKHFAGKIPIFGVCLGHQSIAQVFGGDVVRAERLMHGKTSDIEHDGKTIFEGLKNPLVATRYHSLIVKPETLPSCFTVTAQTKEGEIMAIRHNDLPIEGVQFHPESIMTSFGKEMLRNFIETYRK</Hsp_hseq>
+      <Hsp_midline>M+L IDNYDSFTYN+VQY  ELG+E+ V+RND IT++EIE L+P +L+I PGPCSP EAGIS+EA++HFAG++PI GVCLGHQ+I + FGGDVVRA+ LMHGK S + H GK +F+GL NP+  TRYHSL+++  TLP C  +TA T++GEIM +RH +  +EGVQFHPE+++T  G +ML NF+  ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|129523|sp|P06194.1|PABA_ENTAE</Hit_id>
+  <Hit_def>RecName: Full=Aminodeoxychorismate synthase component 2; Short=ADC synthase; Short=ADCS; AltName: Full=4-amino-4-deoxychorismate synthase component 2; AltName: Full=Aminodeoxychorismate synthase, glutamine amidotransferase component [Enterobacter aerogenes]</Hit_def>
+  <Hit_accession>P06194</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>1.86823e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MILLIDNYDSFTWNLYQYFCELGAEVLVRRNDELTLADIISLAPAKIVISPGPCTPDESGISLAAIRHFSGQTPILGVCLGHQAIAQVFGAAIVRAAKVMHGKTSPVSHTGQGVFLGLNNPLTVTRYHSLLIDPRTLPECFEVTARSEEGEIMGIRHRVFDLEGVQFHPESILSEQGHQLLANFL</Hsp_hseq>
+      <Hsp_midline>M+L IDNYDSFT+N+ QYF ELG EV VRRND++TL +I +L P  +VI PGPC+P E+GIS+ A+RHF+G+ PI+GVCLGHQ I + FG  +VRA  +MHGK SPVSH+G+G+F GL NP+T TRYHSL+I+  TLP+C E+TA +E+GEIMG+RH+ + +EGVQFHPE++L+E+GH +L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1351304|sp|P48261.1|TRPG_CYAPA</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Cyanophora paradoxa]</Hit_def>
+  <Hit_accession>P48261</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>1.34117e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYA-VEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MILLIDNYDSFTYNLAQYLSELNIKVLVKRNDKITLDEIKNLNIQGIIISPCPGGPEDSGISQGIIKYLGNQIPILGVCLGHQTIGHVFGGKIIKAPKLIHGKPSIIFHDGKGVFQNLKNPITATRYHSLIIEKESCPDELEITAWTEDGLIMGIQHKKYKQLQGIQFHPESILTESGKQILQNFI</Hsp_hseq>
+      <Hsp_midline>M+L IDNYDSFTYN+ QY +EL  +V V+RND ITL+EI+ LN Q ++I P P  P+++GIS   +++   ++PI+GVCLGHQTIG  FGG +++A  L+HGK S + H GKG+F+ L NP+T TRYHSL+IE+ + PD LEITAWTEDG IMG++HK+Y  ++G+QFHPE++LTE G  +L NF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|6226721|sp|Q08654.2|TRPGD_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional protein TrpGD; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Anthranilate phosphoribosyltransferase [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q08654</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>7.14939e-76</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQ--EVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFLVEFQNFKPQKI</Hsp_qseq>
+      <Hsp_hseq>VIVIDNYDSFVYNIVQYIGEVEPDCEIEVFRNDEITIEEIERKNPTHIVISPGPGRPEEAGISVDVVRHFSGKVPILGVCLGHQVIGYAFGGKIVHAKRILHGKTSKIVHNGKGVFSGVKNPLVATRYHSLVVEEASLPEVLEITAKSDDGEIMGLQHKEHPTFGVQFHPESVLTEEGKRIIKNFL-NIQDIQVKKV</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSF YNIVQY  E+    E+ V RND+IT+EEIE  NP ++VI PGP  P+EAGISV+ +RHF+G++PI+GVCLGHQ IG AFGG +V AK ++HGK S + H+GKG+F G+ NP+  TRYHSLV+E  +LP+ LEITA ++DGEIMG++HKE+   GVQFHPE++LTE G  ++ NFL   Q+ + +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|136350|sp|P26922.1|TRPG_AZOBR</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Azospirillum brasilense]</Hit_def>
+  <Hit_accession>P26922</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>3.36642e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFA-GRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MLLLIDNYDSFTYNLVHYLGELGAELDVRRNDSLTVEEAMALRPEGIVLSPGPCDPDKAGICLPLIDAAAKAAVPLMGVCLGHQAIGQPFGGTVVRAPVPMHGKVDRMFHQGRGVLKDLPSPFRATRYHSLIVERATLPACLEVTGETEDGLIMALSHRELPIHGVQFHPESIESEHGHKILENFL</Hsp_hseq>
+      <Hsp_midline>MLL IDNYDSFTYN+V Y  ELG E+ VRRND +T+EE  AL P+ +V+ PGPC P +AGI +  +   A   +P+MGVCLGHQ IG+ FGG VVRA   MHGKV  + H G+G+ K LP+P   TRYHSL++ER TLP CLE+T  TEDG IM + H+E  + GVQFHPE++ +E GH +L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|136364|sp|P05379.1|TRPG_THET8</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>P05379</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>8.92015e-71</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDG---EIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VLVVDNYDSFTYNLVQYLGELGAEPIVWRNDRFRLEEVEALDPDRILISPGPCTPFEAGLSVPLVQRYAPRYPILGVCLGHQAIGAAFGGKVVPAPVLMHGKVSPIHHDGTGVFRGLDSPFPATRYHSLAVVE--VPEALVVNAWAEEAGGRTVMGFRHRDYPTHGVQFHPESYLTEAGKLILKNFL</Hsp_hseq>
+      <Hsp_midline>+L +DNYDSFTYN+VQY  ELG E  V RND   LEE+EAL+P  ++I PGPC+P EAG+SV  ++ +A R PI+GVCLGHQ IG AFGG VV A  LMHGKVSP+ H G G+F+GL +P   TRYHSL +    +P+ L + AW E+     +MG RH++Y   GVQFHPE+ LTE G  +L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|136354|sp|P09575.1|TRPG_PICAN</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; AltName: Full=PRAI, partial [Ogataea angusta]</Hit_def>
+  <Hit_accession>P09575</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>2.82975e-68</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VVMIDNYDSFTWNLYEYLCQEGANVEVFRNDQITIPEIEQLKPDVVVISPGPGHPRTDSGISRDVISHFKGKIPVFGVCMGQQCIFEEFGGDVEYAGEIVHGKTSTVKHDNKGMFKNVPQDVAVTRYHSLAGTLKSLPDCLEITARTDNGIIMGVRHKKYTIEGVQFHPESILTEEGHLMIQNIL</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFT+N+ +Y  + G  V V RND IT+ EIE L P  +VI PGP  P+ ++GIS + + HF G++P+ GVC+G Q I E FGGDV  A  ++HGK S V H  KGMFK +P  V  TRYHSL     +LPDCLEITA T++G IMGVRHK+Y +EGVQFHPE++LTE GH M+ N L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|549127|sp|P00937.2|TRPG_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; AltName: Full=PRAI [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P00937</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>9.33859e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VVLIDNYDSFTWNVYEYLCQEGAKVSVYRNDAITVPEIAALNPDTLLISPGPGHPKTDSGISRDCIRYFTGKIPVFGICMGQQCMFDVFGGEVAYAGEIVHGKTSPISHDNCGIFKNVPQGIAVTRYHSLAGTESSLPSCLKVTASTENGIIMGVRHKKYTVEGVQFHPESILTEEGHLMIRNIL</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFT+N+ +Y  + G +V+V RND IT+ EI ALNP  L+I PGP  PK ++GIS + +R+F G++P+ G+C+G Q + + FGG+V  A  ++HGK SP+SH   G+FK +P  +  TRYHSL     +LP CL++TA TE+G IMGVRHK+Y VEGVQFHPE++LTE GH M+ N L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|75233149|sp|Q7XUS2.1|ASB1_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase beta subunit 1, chloroplastic; Short=OsASB1; AltName: Full=Anthranilate synthase, glutamine amidotransferase component 2-1; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q7XUS2</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>1.2095e-65</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKT-LMHGKVSPVSHS---GKGMFKGLPNPVTCTRYHSLVIERGTLP-DCLEITAWTEDGEIMGVRHKEYA-VEGVQFHPEALLTERGHDMLNNFLVEFQNFKPQK</Hsp_qseq>
+      <Hsp_hseq>IIVIDNYDSFTYNLCQYMGELGLNFEVYRNDELTIEDVKRKNPRGILISPGPGEPQDSGISLQTVLELGPTIPIFGVCMGLQCIGEAFGGKIIRAPSGVMHGKSSPVRYDEELGKALFNGLPNPFTAARYHSLVIEQETFPHDALEATAWTEDGLIMAARHKKYRHIQGVQFHPESIITPEGKRIILNFVRFIEELEKQR</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFTYN+ QY  ELG    V RND++T+E+++  NP+ ++I PGP  P+++GIS++ +      +PI GVC+G Q IGEAFGG ++RA + +MHGK SPV +    GK +F GLPNP T  RYHSLVIE+ T P D LE TAWTEDG IM  RHK+Y  ++GVQFHPE+++T  G  ++ NF+   +  + Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122232136|sp|Q1XDC5.1|TRPG_PYRYE</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component (chloroplast) [Pyropia yezoensis]</Hit_def>
+  <Hit_accession>Q1XDC5</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>3.72178e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKE-YAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MILIIDNYDSFTYNLAQCVGELGYDVLVCRNDEIDIPTIKQLNPNKIIISPGPGKPSDSGISLDVISSFSDSIPILGVCLGHQSIGYLNGGRIIKVSEIMHGKTSKIYHNNEDLFKTLPNPFIATRYHSLIIDNLNFPSSLAITAWTENNIIMACRHKDNQMLRGIQFHPESLWTFYGQQLLRNFL</Hsp_hseq>
+      <Hsp_midline>M+L IDNYDSFTYN+ Q   ELG +V V RND+I +  I+ LNP  ++I PGP  P ++GIS++ +  F+  +PI+GVCLGHQ+IG   GG +++   +MHGK S + H+ + +FK LPNP   TRYHSL+I+    P  L ITAWTE+  IM  RHK+   + G+QFHPE+L T  G  +L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1717769|sp|P51362.1|TRPG_PORPU</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component (chloroplast) [Porphyra purpurea]</Hit_def>
+  <Hit_accession>P51362</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>6.68111e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYA-VEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MILIIDNYDSFTYNLAQCVGELGHDVLVCRNDEIDVVKIKKLNPEKIIISPGPGKPTESGISLDVISSLAEYIPILGVCLGHQSIGYINGGSIIKVPKIMHGKTSQIYHDREDLFINLPNPFIATRYHSLIIDRANFPTNLAVTAWTDNNIIMACRHKHYKMLRGIQFHPESLWTVCGQQLLKNFL</Hsp_hseq>
+      <Hsp_midline>M+L IDNYDSFTYN+ Q   ELG +V V RND+I + +I+ LNP+ ++I PGP  P E+GIS++ +   A  +PI+GVCLGHQ+IG   GG +++   +MHGK S + H  + +F  LPNP   TRYHSL+I+R   P  L +TAWT++  IM  RHK Y  + G+QFHPE+L T  G  +L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|136358|sp|P20409.1|TRPG_PHYBL</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Phycomyces blakesleeanus]</Hit_def>
+  <Hit_accession>P20409</Hit_accession>
+  <Hit_len>765</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>1.02565e-64</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>LLIDNYDSFTYNVYQYLCSQGADVVVYRNDKITVDEIVKLNPVNIVISPGPGHPSHDAGVSRDVISYFAGKLPILGICMGEQCIFEVFGGTVSYAGDILHGKTSTIKHDNRGLFKNVPQDNQVTRYHSLAGMPSTLPEVLEVTATTDDGVIMGVRHKKYTVEGVQFHPESILCEHGHTMISNFL</Hsp_hseq>
+      <Hsp_midline>L IDNYDSFTYN+ QY    G +V V RND IT++EI  LNP  +VI PGP  P  +AG+S + + +FAG+LPI+G+C+G Q I E FGG V  A  ++HGK S + H  +G+FK +P     TRYHSL     TLP+ LE+TA T+DG IMGVRHK+Y VEGVQFHPE++L E GH M++NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|13432284|sp|Q92370.2|TRPG_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q92370</Hit_accession>
+  <Hit_len>759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>2.22626e-64</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQE--VAVRRNDDITLEEIEALNPQYLVIGPGPCSP-KEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>IVMIDNYDSFTWNVVQYLSNLEKRYPIMVFRNDEITVDELEKLNPLKLVLSPGPGHPARDGGICNEAISRFAGKIPILGVCMGLQCIFETMGGKVDSAGEIIHGKVSKINHDGLGFYQGIPQNISVTRYHSLAGKISSLPDCLDVTSWTENGVIMGARHKKYAIEGVQYHPESILSEYGKEYIQNFL</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFT+N+VQY + L +   + V RND+IT++E+E LNP  LV+ PGP  P ++ GI  EA+  FAG++PI+GVC+G Q I E  GG V  A  ++HGKVS ++H G G ++G+P  ++ TRYHSL  +  +LPDCL++T+WTE+G IMG RHK+YA+EGVQ+HPE++L+E G + + NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|51704247|sp|P00908.2|TRPG_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>P00908</Hit_accession>
+  <Hit_len>762</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>7.11651e-64</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSP-KEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAW--TEDGE---IMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>LILIDNYDSFTWNVYQYLVLEGAKVTVFRNDQITIDELIAKNPTQLVISPGPGHPGTDSGISRDAIRHFAGKIPIFGVCMGQQCIFDVYGGDVCFAGEILHGKTSPLRHDGKGAYAGLSQDLPVTRYHSLAGTHVTLPECLEVTSWIAKEDGSKGVIMGVRHKEYTIEGVQFHPESILSAEGRGMFRNFL</Hsp_hseq>
+      <Hsp_midline>L+ IDNYDSFT+N+ QY    G +V V RND IT++E+ A NP  LVI PGP  P  ++GIS +A+RHFAG++PI GVC+G Q I + +GGDV  A  ++HGK SP+ H GKG + GL   +  TRYHSL     TLP+CLE+T+W   EDG    IMGVRHKEY +EGVQFHPE++L+  G  M  NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|597500947|sp|Q764B9.1|ASB2_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase beta subunit 2, chloroplastic; Short=OsASB2; AltName: Full=Anthranilate synthase, glutamine amidotransferase component 2-2; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q764B9</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>4.76661e-62</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAK-TLMHGKVSPVSHSGK---GMFKGLPNPVTCTRYHSLVIERGTLP-DCLEITAWTEDGEIMGVRHKEYA-VEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>IIVIDNYDSFTYNLCQYMGEVGANFEVYRNDDITVEEIKKISPRGILISPGPGTPQDSGISLQTVQDLGPSTPLFGVCMGLQCIGEAFGGKVVRSPYGVVHGKGSLVHYEEKLDGTLFSGLPNPFQAGRYHSLVIEKDSFPHDALEITAWTDDGLIMAARHRKYKHIQGVQFHPESIITTEGRLMVKNFI</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFTYN+ QY  E+G    V RNDDIT+EEI+ ++P+ ++I PGP +P+++GIS++ ++      P+ GVC+G Q IGEAFGG VVR+   ++HGK S V +  K    +F GLPNP    RYHSLVIE+ + P D LEITAWT+DG IM  RH++Y  ++GVQFHPE+++T  G  M+ NF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|75102739|sp|Q42565.1|ASB1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase beta subunit 1, chloroplastic; AltName: Full=Anthranilate synthase component 2-1; AltName: Full=Anthranilate synthase, glutamine amidotransferase component 2-1; AltName: Full=Protein TRYPTOPHAN BIOSYNTHESIS 4; AltName: Full=Protein WEAK ETHYLENE INSENSITIVE 7; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q42565</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>7.49445e-61</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAK-TLMHGKVSPVSHSGK---GMFKGLPNPVTCTRYHSLVIERGTLP-DCLEITAWTEDGEIMGVRHKEYA-VEGVQFHPEALLTERGHDMLNNFLVEFQNFKPQKI</Hsp_qseq>
+      <Hsp_hseq>IIVIDNYDSFTYNLCQYMGELGCHFEVYRNDELTVEELKKKNPRGVLISPGPGTPQDSGISLQTVLELGPLVPLFGVCMGLQCIGEAFGGKIVRSPFGVMHGKSSMVHYDEKGEEGLFSGLSNPFIVGRYHSLVIEKDTFPSDELEVTAWTEDGLVMAARHRKYKHIQGVQFHPESIITTEGKTIVRNFIKIVEKKESEKL</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFTYN+ QY  ELG    V RND++T+EE++  NP+ ++I PGP +P+++GIS++ +      +P+ GVC+G Q IGEAFGG +VR+   +MHGK S V +  K   G+F GL NP    RYHSLVIE+ T P D LE+TAWTEDG +M  RH++Y  ++GVQFHPE+++T  G  ++ NF+   +  + +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|353526308|sp|P06531.3|TRPG_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>P06531</Hit_accession>
+  <Hit_len>768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>4.37683e-60</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGE------IMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VILIDNYDSFTWNVYQYLVLEGATVTVIRNDEISLEELIAKKPTQLVVSPGPGHPKSDAGISNAAIQYFAGKIPIFGVCMGQQCIIHSFGGKVDVTGEILHGKTSVLKHDGRGAYEGLPPSVIITRYHSLAGTHSTIPECLEVSSFAQLGEDADKTVIMGVRHKQFAVEGVQFHPESILTEHGQTMFRNFL</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFT+N+ QY    G  V V RND+I+LEE+ A  P  LV+ PGP  PK +AGIS  A+++FAG++PI GVC+G Q I  +FGG V     ++HGK S + H G+G ++GLP  V  TRYHSL     T+P+CLE++++ + GE      IMGVRHK++AVEGVQFHPE++LTE G  M  NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|75171068|sp|Q9FJM5.1|ASB2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase beta subunit 2, chloroplastic; AltName: Full=Anthranilate synthase component 2-2; AltName: Full=Anthranilate synthase, glutamine amidotransferase component 2-2; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FJM5</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.0152e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAK-TLMHGKVSPVSHSGK---GMFKGLPNPVTCTRYHSLVIERGTLP-DCLEITAWTEDGEIMGVRHKEYA-VEGVQFHPEALLTERGHDMLNNFLVEFQNFKPQKI</Hsp_qseq>
+      <Hsp_hseq>IIVIDNYDSFTYNLCQYMGELGCHFEVYRNDELTVEELKRKKPRGLLISPGPGTPQDSGISLQTVLELGPLVPLFGVCMGLQCIGEAFGGKIVRSPFGVMHGKSSMVHYDEKGEEGLFSGLSNPFLVGRYHSLVIEKDSFPSDELEVTAWTEDGLVMAARHRKYKHIQGVQFHPESIITTEGKTIVRNFIKLVEKKESEKL</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFTYN+ QY  ELG    V RND++T+EE++   P+ L+I PGP +P+++GIS++ +      +P+ GVC+G Q IGEAFGG +VR+   +MHGK S V +  K   G+F GL NP    RYHSLVIE+ + P D LE+TAWTEDG +M  RH++Y  ++GVQFHPE+++T  G  ++ NF+   +  + +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|136296|sp|P24773.1|TRPG_PENCH</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Penicillium chrysogenum]</Hit_def>
+  <Hit_accession>P24773</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>2.91305e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGE------IMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VILIDNYDSFTWNIYQYLVLEGATVTVYRNDEVTVEDLVAKKPTQLVISPGPGHPDTDAGISNAVIKHFSGKVPIFGVCMGQQCMITSFGGKVDVTGEILHGKTSELKHDSKGVYQGLPTSLEVTRYHSLAGTHSTIPDCLEVTSRVELGDASGKNIIMGVRHKEFAVEGVQFHPESILTQYGRKMFRNFL</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFT+NI QY    G  V V RND++T+E++ A  P  LVI PGP  P  +AGIS   ++HF+G++PI GVC+G Q +  +FGG V     ++HGK S + H  KG+++GLP  +  TRYHSL     T+PDCLE+T+  E G+      IMGVRHKE+AVEGVQFHPE++LT+ G  M  NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|136286|sp|P05328.1|TRPG_ASPNG</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Aspergillus niger]</Hit_def>
+  <Hit_accession>P05328</Hit_accession>
+  <Hit_len>770</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>9.47876e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGE------IMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VILIDNYDSFTWNVYQYLVLEGATVNVFRNDQITLEELIAKKPTQLVISPGPGHPETDAGISSAAIQYFSGKIPIFGVCMGQQCIITCFGGKVDVTGEILHGKTSPLKHDGKGAYEGLPGSLAVTRYHSLAGTHATIPDCLEVSSSVQLADDSNKDVIMGVRHKKLAVEGVQFHPESILTEYGRIMFRNFL</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFT+N+ QY    G  V V RND ITLEE+ A  P  LVI PGP  P+ +AGIS  A+++F+G++PI GVC+G Q I   FGG V     ++HGK SP+ H GKG ++GLP  +  TRYHSL     T+PDCLE+++  +  +      IMGVRHK+ AVEGVQFHPE++LTE G  M  NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|615880765|sp|P9WN34.1|TRPG_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Mycobacterium tuberculosis CDC1551] &gt;gi|615880775|sp|P9WN35.1|TRPG_MYCTU RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WN34</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>2.20882e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQY--LVIGPGPCSPKEAGISVEAMRH-FAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>ILVVDNYDSFVFNLVQYLGQLGIEAEVWRNDDHRLSDEAAVAGQFDGVLLSPGPGTPERAGASVSIVHACAAAHTPLLGVCLGHQAIGVAFGATVDRAPELLHGKTSSVFHTNVGVLQGLPDPFTATRYHSLTILPKSLPAVLRVTARTSSGVIMAVQHTGLPIHGVQFHPESILTEGGHRILANWL</Hsp_hseq>
+      <Hsp_midline>+L +DNYDSF +N+VQY  +LG E  V RNDD  L +  A+  Q+  +++ PGP +P+ AG SV  +    A   P++GVCLGHQ IG AFG  V RA  L+HGK S V H+  G+ +GLP+P T TRYHSL I   +LP  L +TA T  G IM V+H    + GVQFHPE++LTE GH +L N+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|136285|sp|P18483.1|TRPG_ASPAW</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Aspergillus awamori]</Hit_def>
+  <Hit_accession>P18483</Hit_accession>
+  <Hit_len>768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>2.3686e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITA---WTEDGE---IMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VILIDNYDSFTWNV--YLVLEGATVNVFRNDQITLEELIAKKPTQLVISPGPGHPETDAGISSAAIQYFSGKIPIFGVCMGQQCIITCFGGKVDVTGEILHGKTSALKHDGKGAYEGLPDSLALTRYHSLAGTHATIPDCLEVSSSVQLTDDSNKDVIMGVRHKKLAVEGVQFHPESILTEYGRTMFRNFL</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFT+N+  Y    G  V V RND ITLEE+ A  P  LVI PGP  P+ +AGIS  A+++F+G++PI GVC+G Q I   FGG V     ++HGK S + H GKG ++GLP+ +  TRYHSL     T+PDCLE+++    T+D     IMGVRHK+ AVEGVQFHPE++LTE G  M  NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2494754|sp|Q57690.1|TRPG_METJA</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57690</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>2.58476e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWT-EDGEIMGVRHKEYAVEGVQFHPEALLTER--------GHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VLVIDNIDSFVWNLVQYVGTLGYKVKLVDNK-ITLDEIKKINPDRIIISPGPKTPKEAGNCIKIIQEVD--IPILGVCLGHQCIVEAFGGEVGRAKRVMHGKASLINHDGEGIFKDIPNPFYGGRYHSLIAKE--VPKELKITAKSLDDNYIMGVRHKKLPIEGVQFHPESILTESDNLKFPDLGLKLIKNFV</Hsp_hseq>
+      <Hsp_midline>+L IDN DSF +N+VQY   LG +V +  N  ITL+EI+ +NP  ++I PGP +PKEAG  ++ ++     +PI+GVCLGHQ I EAFGG+V RAK +MHGK S ++H G+G+FK +PNP    RYHSL+ +   +P  L+ITA + +D  IMGVRHK+  +EGVQFHPE++LTE         G  ++ NF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|136297|sp|P25170.1|TRPG_PHACH</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Phanerochaete chrysosporium]</Hit_def>
+  <Hit_accession>P25170</Hit_accession>
+  <Hit_len>788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>1.63574e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTE-DGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>ILMIDNFDSFTWNLYQSLCLLGADVTVIRNDAIPRSAIPQLRIKRLIVSPGPGHPQTDSGISREAIKYFAGKVPIMGVCMGLECVVDVFGGQIAYAGEIMHGKVSGIRHDARGCFKDLPQGIQSTRYHSLSAGVKTLPDELAVTAVTEHERVIMGIRHRKYTVEAVQYHPESILSESGDDLLRHFM</Hsp_hseq>
+      <Hsp_midline>+L IDN+DSFT+N+ Q    LG +V V RND I    I  L  + L++ PGP  P+ ++GIS EA+++FAG++PIMGVC+G + + + FGG +  A  +MHGKVS + H  +G FK LP  +  TRYHSL     TLPD L +TA TE +  IMG+RH++Y VE VQ+HPE++L+E G D+L +F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|68053281|sp|Q5V632.1|TRPG2_HALMA</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component II [Haloarcula marismortui ATCC 43049]</Hit_def>
+  <Hit_accession>Q5V632</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>7.64489e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTED--GEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNF</Hsp_qseq>
+      <Hsp_hseq>MILIIDNYDSFAYNLVQYVGEF-DDVTVRRNDAIDVEGIHELDPDGIVVSPGPGTPAEAGVSIDVFAET--EYPALGVCLGHQALCAAHGTPVGHAPSVVHGKPSEVRHDGTRLYDGVDDPFEVGRYHSLAVKASELPDTLSETAHTNDEQGIVMGVQHAEKPHIGVQFHPESILTDAGKQIVENF</Hsp_hseq>
+      <Hsp_midline>M+L IDNYDSF YN+VQY  E   +V VRRND I +E I  L+P  +V+ PGP +P EAG+S++         P +GVCLGHQ +  A G  V  A +++HGK S V H G  ++ G+ +P    RYHSL ++   LPD L  TA T D  G +MGV+H E    GVQFHPE++LT+ G  ++ NF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|14286183|sp|Q06129.2|TRPG_SULSO</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Sulfolobus solfataricus P2]</Hit_def>
+  <Hit_accession>Q06129</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>9.32786e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSP---KEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSP---VSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>LTLIIDNYDSFVYNIAQIVGELGSYPIVIRNDEISIKGIERIDPDRIIISPGPGTPEKREDIGVSLDVIKYLGKRTPILGVCLGHQAIGYAFGAKIRRARKVFHGKISNIILVNNSPLSLYYGIAKEFKATRYHSLVVDEVHRPLIVDAIS-AEDNEIMAIHHEEYPIYGVQFHPESVGTSLGYKILYNFL</Hsp_hseq>
+      <Hsp_midline>+ L IDNYDSF YNI Q   ELG    V RND+I+++ IE ++P  ++I PGP +P   ++ G+S++ +++   R PI+GVCLGHQ IG AFG  + RA+ + HGK+S    V++S   ++ G+      TRYHSLV++    P  ++  +  ED EIM + H+EY + GVQFHPE++ T  G+ +L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1351305|sp|P20441.2|TRPG_LEPBI</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Leptospira biflexa]</Hit_def>
+  <Hit_accession>P20441</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>1.4053e-50</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQE------VAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEA---GISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTE----DGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VLILDNYDSFTFNLYQIVGEILEEREKPFQLDVIRNDEKPFEWIKSANYDKIIISPGPGHPADPAYFGVSADILKELGKTPPVLGICLGMQGMATVFGGEVVRANIAMHGKLSPIEHDGKGVFSGLTQGIEIMRYHSLVAKEISLPNDLEITARVSAGEGKGEIMGLRHKSLKIEGVQFHPESFGSEEGKCLLRNFI</Hsp_hseq>
+      <Hsp_midline>+L +DNYDSFT+N+ Q   E+ +E      + V RND+   E I++ N   ++I PGP  P +    G+S + ++      P++G+CLG Q +   FGG+VVRA   MHGK+SP+ H GKG+F GL   +   RYHSLV +  +LP+ LEITA        GEIMG+RHK   +EGVQFHPE+  +E G  +L NF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|136356|sp|P26923.1|TRPG_METTM</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Methanothermobacter marburgensis str. Marburg]</Hit_def>
+  <Hit_accession>P26923</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>1.06877e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQE-----VAVRRNDDITLEEIEALNPQYLVIGPGPCSP---KEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>LILIIDNYDSFTHNLYQMAGEIMMEMDSADIMVVRNDEVDIDYVRGLDPERIIISPGPGNPIKREDFGICSEVIGEFTDR-PILGVCLGHQGIFHYFGG-VVGYGEPVHGKISEVFHDGSELFRGVPNPFRATRYHSLRCECSGVPEDILVSASAPDGTIMAIRHRQYPVYGLQFHPESAGTPHGRDILENFL</Hsp_hseq>
+      <Hsp_midline>++L IDNYDSFT+N+ Q   E+  E     + V RND++ ++ +  L+P+ ++I PGP +P   ++ GI  E +  F  R PI+GVCLGHQ I   FGG VV     +HGK+S V H G  +F+G+PNP   TRYHSL  E   +P+ + ++A   DG IM +RH++Y V G+QFHPE+  T  G D+L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|68053277|sp|Q5V214.1|TRPG1_HALMA</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component II [Haloarcula marismortui ATCC 43049]</Hit_def>
+  <Hit_accession>Q5V214</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>1.49158e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPK---EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGE--IMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VLFVDNFDSFTYNLVEYVSEHAETEVVRNT--ASLDDVEAFDPDAIILSPGPGHPKNERDVGVTLDVLREVSPDVPTLGVCLGLESAVYAYGGTIGRAPEPIHGKAFPIDHDGKGVFAGLEQGFQGGRYHSLIADDVPEEFVVSATTETEDGTELVMGVRHREHPIEAVQFHPESVLTAVGHDVIRNFL</Hsp_hseq>
+      <Hsp_midline>+LF+DN+DSFTYN+V+Y +E  +   VR     +L+++EA +P  +++ PGP  PK   + G++++ +R  +  +P +GVCLG ++   A+GG + RA   +HGK  P+ H GKG+F GL       RYHSL+ +       +  T  TEDG   +MGVRH+E+ +E VQFHPE++LT  GHD++ NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|2494752|sp|Q92411.1|TRPG_COCHE</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Bipolaris maydis]</Hit_def>
+  <Hit_accession>Q92411</Hit_accession>
+  <Hit_len>768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>1.67225e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKE-AGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITA---WTEDGE----IMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VILIDNYDSFTWNVYQYLVFEGAFVTVYRNDEITLDELIAKKPTQLVISQVPDTRKEDVALAIEPLRTSVAKSP-FSACAWESCIFYSYGGTVDVTGQILHGKTCPLKHDGKGVFAGVPQDVPVTRYHSLAGTHGTLPDCLEISATIPANADAEIKEVIMGVRHKEYVIEGVQFHPESILTEHGRLMMRNFL</Hsp_hseq>
+      <Hsp_midline>++ IDNYDSFT+N+ QY    G  V V RND+ITL+E+ A  P  LVI   P + KE   +++E +R    + P    C     I  ++GG V     ++HGK  P+ H GKG+F G+P  V  TRYHSL    GTLPDCLEI+A      D E    IMGVRHKEY +EGVQFHPE++LTE G  M+ NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|347595749|sp|P33974.2|TRPG_HALVD</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Haloferax volcanii DS2]</Hit_def>
+  <Hit_accession>P33974</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>2.1754e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQE-----VAVRRNDDITLEEIEALNPQYLVIGPGPCSPK---EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTE-DGE--IMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFLVEFQNFK</Hsp_qseq>
+      <Hsp_hseq>LVVVDNFDSFTYNLVEYFSEQTVEGEPLDIEVRKNT-ASLDEIRDLDPDAIVISPGPGHPKNDRDVGVTNDVLTELSTEIPTLGVCLGLEAAVYAYGGTIGHAPEPIHGKAFPVDHDGAGVFAGLEDGFPAGRYHSLVATD--VPDCFDVSATTDHDGEALVMGVRHRDYPIECVQFHPESVLTGSGHGVVRNFLTAVAGFD</Hsp_hseq>
+      <Hsp_midline>L+ +DN+DSFTYN+V+YF+E   E     + VR+N   +L+EI  L+P  +VI PGP  PK   + G++ + +   +  +P +GVCLG +    A+GG +  A   +HGK  PV H G G+F GL +     RYHSLV     +PDC +++A T+ DGE  +MGVRH++Y +E VQFHPE++LT  GH ++ NFL     F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|14195257|sp|O19914.1|TRPG_CYACA</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component (chloroplast) [Cyanidium caldarium]</Hit_def>
+  <Hit_accession>O19914</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>3.96969e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIE---RGT-LPDCLEITAWTEDGEIMGVRHKEYAVE-GVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MILIIDNYDSFSYNLVQSVGEINSDLIVLRSDEIDVSKLQNLNIKHIIISPGPGHPDEYTICKQVVKFFAPYTPILGICLGHQIIATCYNASIKKSSPVFHGRASKIYCLKDKLFLGIHAPFTAARYHSLVVDQDKRGLDLTTCLKTIAITREGVIMACKHRYYHFTYGIQFHPESMLTIQGTKLLKNFL</Hsp_hseq>
+      <Hsp_midline>M+L IDNYDSF+YN+VQ   E+  ++ V R+D+I + +++ LN ++++I PGP  P E  I  + ++ FA   PI+G+CLGHQ I   +   + ++  + HG+ S +      +F G+  P T  RYHSLV++   RG  L  CL+  A T +G IM  +H+ Y    G+QFHPE++LT +G  +L NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|3334392|sp|O27693.1|TRPG_METTH</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>O27693</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>7.45109e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAE------LGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPK---EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VILIIDNYDSFTHNLYQLAGEILRDEGMDEEIMVLRNDEARISDLRALDPEKIIISPGPGNPSRRSDFGVCMDVIGEFTDR-PLLGVCLGHQGIFHAFGGRVDQGEPV-HGKIVEVFHDGSELFRDVPNPFRATRYHSLVCRPEDTPADIEVTAVTSDEIIMAIKHREYPVYGLQFHPESAGTPSGRTVIRNFL</Hsp_hseq>
+      <Hsp_midline>++L IDNYDSFT+N+ Q   E      + +E+ V RND+  + ++ AL+P+ ++I PGP +P    + G+ ++ +  F  R P++GVCLGHQ I  AFGG V + + + HGK+  V H G  +F+ +PNP   TRYHSLV      P  +E+TA T D  IM ++H+EY V G+QFHPE+  T  G  ++ NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|30316263|sp|Q8ZEG6.1|TRPG_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q8ZEG6</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>9.96135e-46</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRND---DITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGE-IMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFLV</Hsp_qseq>
+      <Hsp_hseq>ILLLDNIDSFTYNLVDQLRSSGHRVVIYRNHIAADNIIERLQQLEQPVLMLSPGPGTPAQAGCMPELLQRLQGQLPMIGICLGHQAIIEAYGGHVGQAGEILHGKASAIEHDGQGMFAGMPNPLPVARYHSLV--GSNLPA--ELTVNARFGEMVMAVRHDAHRVCGYQFHPESILTTHGARLLEQTLA</Hsp_hseq>
+      <Hsp_midline>+L +DN DSFTYN+V      G  V + RN    D  +E ++ L    L++ PGP +P +AG   E ++   G+LP++G+CLGHQ I EA+GG V +A  ++HGK S + H G+GMF G+PNP+   RYHSLV     LP   E+T     GE +M VRH  + V G QFHPE++LT  G  +L   L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|68053236|sp|Q9HPG6.1|TRPG_HALSA</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Halobacterium sp. NRC-1]</Hit_def>
+  <Hit_accession>Q9HPG6</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>1.3839e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFA-----ELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPC---SPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEI-MGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>VVVVDNYDSFTYNLVEYLSAQPRDDHAPDVTVLKNT-ASLAAVRAADPDAVVISPGPGHPDTPRDVGVTTDVLRAVSPRVPTLGVCLGMEAAVHEYGGTVGRAAEPMHGKTTPVSHDETGIFADIQQDFPAARYHSLVCT--SIPSCFAVTATTRDGSLPMAIRHRDHPLACVQFHPESVLTGVGHDVIGNFL</Hsp_hseq>
+      <Hsp_midline>++ +DNYDSFTYN+V+Y +     +   +V V +N   +L  + A +P  +VI PGP    +P++ G++ + +R  + R+P +GVCLG +     +GG V RA   MHGK +PVSH   G+F  +       RYHSLV    ++P C  +TA T DG + M +RH+++ +  VQFHPE++LT  GHD++ NFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|6175098|sp|P71381.1|TRPG_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P71381</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>2.19483e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEI--EALNP--QYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDML</Hsp_qseq>
+      <Hsp_hseq>ILFLDNFDSFTYNLVDQFRVLGHNVTIYRND-CDLEKLVETALNTPDTILALSPGPGTPSEAGILLPLIERLKNQVPIIGVCLGHQALIQAFGGKVVHAGEVLHGKVSRISHDNEAMFKDLANPMPVARYHSLMGQ--DLPKEFIVNA-EYNGIIMAIRHRDLPICAFQFHPESILTVQGSQLL</Hsp_hseq>
+      <Hsp_midline>+LF+DN+DSFTYN+V  F  LG  V + RND   LE++   ALN     L + PGP +P EAGI +  +     ++PI+GVCLGHQ + +AFGG VV A  ++HGKVS +SH  + MFK L NP+   RYHSL+ +   LP    + A   +G IM +RH++  +   QFHPE++LT +G  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|338819709|sp|P0CN87.1|TRPG_CRYNB</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Cryptococcus neoformans var. neoformans B-3501A]</Hit_def>
+  <Hit_accession>P0CN87</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>3.84995e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>LFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEAL----NPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWT-EDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>LLIDNYDSFTWNIYADLASVGGNPYVVRNDKITLKEIEGMFSDGELERIVISPGPGHPRTDSGVSRDVIAWGMGKLPILGVCMGLECIVDLLGGEIAYAGEIKHGKTSLVQHDSIGVFHNLPQFLSSTRYHSLSAQIQSLPSVLQVTSTTKESGVIMGVRHRTYTVEAVQYHPESCMSEGGRGLMANFI</Hsp_hseq>
+      <Hsp_midline>L IDNYDSFT+NI    A +G    V RND ITL+EIE +      + +VI PGP  P+ ++G+S + +    G+LPI+GVC+G + I +  GG++  A  + HGK S V H   G+F  LP  ++ TRYHSL  +  +LP  L++T+ T E G IMGVRH+ Y VE VQ+HPE+ ++E G  ++ NF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|338819710|sp|P0CN86.1|TRPG_CRYNJ</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Cryptococcus neoformans var. neoformans JEC21]</Hit_def>
+  <Hit_accession>P0CN86</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>4.21557e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>LFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEAL----NPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWT-EDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>LLIDNYDSFTWNIYADLASVGGNPYVVRNDKITLKEIEGMFSDGELERIVISPGPGHPRTDSGVSRDVIAWGMGKLPILGVCMGLECIVDLLGGEIAYAGEIKHGKTSLVQHDSIGVFHNLPQFLSSTRYHSLSAQIQSLPSVLQVTSTTKESGVIMGVRHRTYTVEAVQYHPESCMSEGGRGLMANFI</Hsp_hseq>
+      <Hsp_midline>L IDNYDSFT+NI    A +G    V RND ITL+EIE +      + +VI PGP  P+ ++G+S + +    G+LPI+GVC+G + I +  GG++  A  + HGK S V H   G+F  LP  ++ TRYHSL  +  +LP  L++T+ T E G IMGVRH+ Y VE VQ+HPE+ ++E G  ++ NF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|136365|sp|P22101.1|TRPG_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>P22101</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>8.10515e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRND---DITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>IVFIDNFDSFTYNLVDQFRSLGHSVKIYRNHIPAETIEQAINELENPVVLLSPGPGAPSEAGSMPELIQRMKGKVPMIGICLGHQAIVEAYGGTVAGAGEIIHGKVSMMEHQDHAIYQNLPSPLAIARYHSLVATK--VPDSLTITAEV-DNLVMSVVHEQDKVCGFQFHPESIMTTYGATLLGNAI</Hsp_hseq>
+      <Hsp_midline>++FIDN+DSFTYN+V  F  LG  V + RN    +   + I  L    +++ PGP +P EAG   E ++   G++P++G+CLGHQ I EA+GG V  A  ++HGKVS + H    +++ LP+P+   RYHSLV  +  +PD L ITA   D  +M V H++  V G QFHPE+++T  G  +L N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|68067603|sp|P27710.2|TRPG_CRYNH</Hit_id>
+  <Hit_def>RecName: Full=Multifunctional tryptophan biosynthesis protein; Includes: RecName: Full=Anthranilate synthase component 2; Short=AS; AltName: Full=Anthranilate synthase, glutamine amidotransferase component; Includes: RecName: Full=Indole-3-glycerol phosphate synthase; Short=IGPS; Includes: RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Cryptococcus neoformans var. grubii H99]</Hit_def>
+  <Hit_accession>P27710</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.73037e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>LFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEAL----NPQYLVIGPGPCSPK-EAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWT-EDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>LLIDNYDSFTWNIYADLASVGGNPFVVRNDKITLKEIEGMFADGELERIVISPGPGHPRTDSGVSRDVIAWGMGKLPILGVCMGLECIVDLLGGEIAYAGEIKHGKTSLVQHDSIGVFHNLPQFLSSTRYHSLSAQIQSLPSVLQVTSTTKESGVIMGVRHRTFTVEAVQYHPESCMSEGGRGLMANFI</Hsp_hseq>
+      <Hsp_midline>L IDNYDSFT+NI    A +G    V RND ITL+EIE +      + +VI PGP  P+ ++G+S + +    G+LPI+GVC+G + I +  GG++  A  + HGK S V H   G+F  LP  ++ TRYHSL  +  +LP  L++T+ T E G IMGVRH+ + VE VQ+HPE+ ++E G  ++ NF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|14548287|sp|Q9KST3.2|TRPG_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KST3</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>1.9288e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRND---DITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNN</Hsp_qseq>
+      <Hsp_hseq>ILFIDNFDSFTYNLVDQFRSLGHVVTIYRNNLSADAIEQALLQLDNPVVVLSPGPGAPSETGCMPELLQRLKGKVPMIGICLGHQAIVEAYGGVVAGAGEIIHGKVSMMEHQNHAIYRGLPSPLAIARYHSLVATQ--VPSALTVTAEV-NGLVMSVVNEADKVCGFQFHPESIMTTHGATLLAN</Hsp_hseq>
+      <Hsp_midline>+LFIDN+DSFTYN+V  F  LG  V + RN+   D   + +  L+   +V+ PGP +P E G   E ++   G++P++G+CLGHQ I EA+GG V  A  ++HGKVS + H    +++GLP+P+   RYHSLV  +  +P  L +TA   +G +M V ++   V G QFHPE+++T  G  +L N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|136362|sp|P00900.2|TRPG_SERMA</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Serratia marcescens]</Hit_def>
+  <Hit_accession>P00900</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>2.45162e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LLFIDNYDSFTYNIVQYFAELGQEVAVRRND---DITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGE-IMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>ILLLDNVDSFTYNLVDQLRASGHQVVIYRNQIGAEVIIERLQHMEQPVLMLSPGPGTPSEAGCMPELLQRLRGQLPIIGICLGHQAIVEAYGGQVGQAGEILHGKASAIAHDGEGMFAGMANPLPVARYHSLV--GSNIPADLTVNA--RSGEMVMAVRDDRRRVCGFQFHPESILTTHGARLLEQTL</Hsp_hseq>
+      <Hsp_midline>+L +DN DSFTYN+V      G +V + RN    ++ +E ++ +    L++ PGP +P EAG   E ++   G+LPI+G+CLGHQ I EA+GG V +A  ++HGK S ++H G+GMF G+ NP+   RYHSLV     +P  L + A    GE +M VR     V G QFHPE++LT  G  +L   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|267174|sp|Q02003.1|TRPG_LACLA</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate synthase component 2; Short=AS; Short=ASII; AltName: Full=Anthranilate synthase, GATase component; AltName: Full=Anthranilate synthase, glutamine amidotransferase component [Lactococcus lactis subsp. lactis Il1403]</Hit_def>
+  <Hit_accession>Q02003</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>4.05272e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MLLFIDNYDSFTYNIVQYFAELGQEVAVRRNDDITLEEIEALNPQYLVIGPGPCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSH-SGKGMFKGLPNPVTCTRYHSLVIERG-TLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNFL</Hsp_qseq>
+      <Hsp_hseq>MILIIDNYDSFTYNLVQYVGVL-TDVAVVKNDDDSLGNM-AEKADALIFSPGPGWPADAGKMETLIQQFAGQKPILGICLGFQAIVEVFGGKLRLAHQVMHGKNSQVRQTSGNLIFNHLPSKFLVMRYHSIVMDEAVALPDFAITAVATDDGEIMAIENEKEQIYGLQFHPESIGTLDGMTMIENFV</Hsp_hseq>
+      <Hsp_midline>M+L IDNYDSFTYN+VQY   L  +VAV +NDD +L  + A     L+  PGP  P +AG     ++ FAG+ PI+G+CLG Q I E FGG +  A  +MHGK S V   SG  +F  LP+     RYHS+V++    LPD       T+DGEIM + +++  + G+QFHPE++ T  G  M+ NF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|417442|sp|P32483.1|PABS_STRGR</Hit_id>
+  <Hit_def>RecName: Full=Para-aminobenzoate synthase; AltName: Full=P-aminobenzoic acid synthase; Short=PABA synthase [Streptomyces griseus]</Hit_def>
+  <Hit_accession>P32483</Hit_accession>
+  <Hit_len>723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>5.08795e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>LFIDNYDSFTYNIVQYFAEL-GQEVAVRRNDDITLEE--IEALNPQYLVIGPG-PCSPKEAGISVEAMRHFAGRLPIMGVCLGHQTIGEAFGGDVVRAKTLMHGKVSPVSHSGKGMFKGLPNPVTCTRYHSLVIERGTLPDCLEITAWTEDGEIMGVRHKEYAVEGVQFHPEALLTERGHDMLNNF</Hsp_qseq>
+      <Hsp_hseq>LLVDNYDSFTYNLFHYLSRANGREPEVIRNDDPAWRPGLLDAFDNVVLSPGPGTPHRPADFGLCARIAEE--GRLPVLGVCLGHQGMALAHGARVGRAPEPRHGRTSAVRHDGTGLFEGLPQPLEVVRYHSLAVTE--LPPELEATAWSEDGVLMALRHRTLPLWGVQFHPESIGTQDGHRLLANF</Hsp_hseq>
+      <Hsp_midline>L +DNYDSFTYN+  Y +   G+E  V RNDD       ++A +   L  GPG P  P + G+         GRLP++GVCLGHQ +  A G  V RA    HG+ S V H G G+F+GLP P+   RYHSL +    LP  LE TAW+EDG +M +RH+   + GVQFHPE++ T+ GH +L NF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>63939</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7P1</BlastOutput_query-def>
+  <BlastOutput_query-len>71</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>63939</Iteration_query-ID>
+  <Iteration_query-def>Q5F7P1</Iteration_query-def>
+  <Iteration_query-len>71</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|115502452|sp|P10870.3|SNF3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=High-affinity glucose transporter SNF3 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P10870</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.17049</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>285</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>PESLEGYIDEIRDKADEADTSLEFLKDVINYGISDLKNVIEV</Hsp_qseq>
+      <Hsp_hseq>PESPRYYV--LKDKLDEAAKSLSFLRGVPVHDSGLLEELVEI</Hsp_hseq>
+      <Hsp_midline>PES   Y+  ++DK DEA  SL FL+ V  +    L+ ++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|584796|sp|P38482.1|ATPBM_CHLRE</Hit_id>
+  <Hit_def>RecName: Full=ATP synthase subunit beta, mitochondrial; Flags: Precursor [Chlamydomonas reinhardtii]</Hit_def>
+  <Hit_accession>P38482</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.55338</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>520</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>EALKEPESLEGYIDEIRDKADEADTSLE</Hsp_qseq>
+      <Hsp_hseq>EALKDVPSLEKMAGEIKDEVIDADDSLE</Hsp_hseq>
+      <Hsp_midline>EALK+  SLE    EI+D+  +AD SLE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|269849753|sp|Q6ZQY3.4|GADL1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Acidic amino acid decarboxylase GADL1; AltName: Full=Aspartate 1-decarboxylase; Short=ADC; Short=HuADC; AltName: Full=Cysteine sulfinic acid decarboxylase; Short=CSADC; Short=HuCSADC; AltName: Full=Glutamate decarboxylase-like protein 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q6ZQY3</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.59992</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EDVKNALRVIDNLCKEALKEPESLEGYID-EIRDKADEADTSLEFLKDVINYGI</Hsp_qseq>
+      <Hsp_hseq>EVVLKATDVNEKVCE--WRPPEQLKQLLDLEMRDSGEPPHKLLELCRDVIHYSV</Hsp_hseq>
+      <Hsp_midline>E V  A  V + +C+   + PE L+  +D E+RD  +     LE  +DVI+Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|12585413|sp|O51118.1|VATI_BORBU</Hit_id>
+  <Hit_def>RecName: Full=V-type ATP synthase subunit I; AltName: Full=V-ATPase subunit I [Borrelia burgdorferi B31]</Hit_def>
+  <Hit_accession>O51118</Hit_accession>
+  <Hit_len>608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.61981</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>LEDVKNALRVIDNLCKEALKEPESLEGYIDEIRDKADEADTSLEF</Hsp_qseq>
+      <Hsp_hseq>LDYINNKLKVVDEILDQKLTQISLFNKYIDILRDEIKNYDQIVEF</Hsp_hseq>
+      <Hsp_midline>L+ + N L+V+D +  + L +      YID +RD+    D  +EF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|73621946|sp|Q03868.1|SPO71_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Sporulation-specific protein 71 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q03868</Hit_accession>
+  <Hit_len>1245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.27078</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>46</Hsp_query-to>
+      <Hsp_hit-from>739</Hsp_hit-from>
+      <Hsp_hit-to>778</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>VKNALRVIDNLCKEALKEPESLEGYIDEIRDKADEADTSL</Hsp_qseq>
+      <Hsp_hseq>IANRLRETKSLEGKCLKEPTPIEGFLIRLTDKYGSARTNF</Hsp_hseq>
+      <Hsp_midline>+ N LR   +L  + LKEP  +EG++  + DK   A T+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|166232807|sp|A6UP37.1|SYR_METVS</Hit_id>
+  <Hit_def>RecName: Full=Arginine--tRNA ligase; AltName: Full=Arginyl-tRNA synthetase; Short=ArgRS [Methanococcus vannielii SB]</Hit_def>
+  <Hit_accession>A6UP37</Hit_accession>
+  <Hit_len>569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>6.35315</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>EDVKNALRVIDNLCKEALKEP-----ESLEGYIDEIRD-KADEADTSLEFLKDVINYGISDLKN</Hsp_qseq>
+      <Hsp_hseq>KELKKAPKIIAEEITSSLSIPGIEKIESLNGYINFFMDYSVFSKETTLEINSKQENFGKSDLKN</Hsp_hseq>
+      <Hsp_midline>+++K A ++I      +L  P     ESL GYI+   D      +T+LE      N+G SDLKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|221222529|sp|Q80WP8.3|GADL1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Acidic amino acid decarboxylase GADL1; AltName: Full=Aspartate 1-decarboxylase; Short=ADC; AltName: Full=Cysteine sulfinic acid decarboxylase; Short=CSADC; AltName: Full=Glutamate decarboxylase-like protein 1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q80WP8</Hit_accession>
+  <Hit_len>550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.69942</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EDVKNALRVIDNLCKEALKEPESLEGYID-EIRDKADEADTSLEFLKDVINYGI</Hsp_qseq>
+      <Hsp_hseq>EVVLKATDVNEKVCE--WQPPEQLRQLLDLEMRDTGESQDKLLKLCQDVIHFSV</Hsp_hseq>
+      <Hsp_midline>E V  A  V + +C+   + PE L   +D E+RD  +  D  L+  +DVI++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|341940511|sp|O08788.3|DCTN1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Dynactin subunit 1; AltName: Full=150 kDa dynein-associated polypeptide; AltName: Full=DAP-150; Short=DP-150; AltName: Full=p150-glued [Mus musculus]</Hit_def>
+  <Hit_accession>O08788</Hit_accession>
+  <Hit_len>1281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.69043</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>YLEDVKNALRVID--NLCKEALKE-PESLEGYIDEIRDKADEADTSLEFLKDVINYGISD</Hsp_qseq>
+      <Hsp_hseq>YMEEMADTADAIEMATLDKEMAEERAESLQQEVEALKERVDELTTDLEILKAEIEEKGSD</Hsp_hseq>
+      <Hsp_midline>Y+E++ +    I+   L KE  +E  ESL+  ++ ++++ DE  T LE LK  I    SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|17375490|sp|Q14203.3|DCTN1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Dynactin subunit 1; AltName: Full=150 kDa dynein-associated polypeptide; AltName: Full=DAP-150; Short=DP-150; AltName: Full=p135; AltName: Full=p150-glued [Homo sapiens]</Hit_def>
+  <Hit_accession>Q14203</Hit_accession>
+  <Hit_len>1278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.97933</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>YLEDVKNALRVID--NLCKEALKE-PESLEGYIDEIRDKADEADTSLEFLKDVINYGISD</Hsp_qseq>
+      <Hsp_hseq>YMEEMADTADAIEMATLDKEMAEERAESLQQEVEALKERVDELTTDLEILKAEIEEKGSD</Hsp_hseq>
+      <Hsp_midline>Y+E++ +    I+   L KE  +E  ESL+  ++ ++++ DE  T LE LK  I    SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|263415415|sp|A8FDY3.1|CYSI_BACP2</Hit_id>
+  <Hit_def>RecName: Full=Sulfite reductase [NADPH] hemoprotein beta-component; Short=SiR-HP; Short=SiRHP [Bacillus pumilus SAFR-032]</Hit_def>
+  <Hit_accession>A8FDY3</Hit_accession>
+  <Hit_len>572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.17467</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>LCKEALKEPESLEGYIDEIRDKADEADTSL-EFLKDVINYGISDLKN</Hsp_qseq>
+      <Hsp_hseq>MVKTALTAPEGPPSDVEEIKEKSDYLRGTLKEVMLDPISAGIPDDDN</Hsp_hseq>
+      <Hsp_midline>+ K AL  PE     ++EI++K+D    +L E + D I+ GI D  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|254782868|sp|B8D274.1|SYM_HALOH</Hit_id>
+  <Hit_def>RecName: Full=Methionine--tRNA ligase; AltName: Full=Methionyl-tRNA synthetase; Short=MetRS [Halothermothrix orenii H 168]</Hit_def>
+  <Hit_accession>B8D274</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.44895</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>44</Hsp_query-to>
+      <Hsp_hit-from>429</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>DVKNALRVIDNLCKEALKEPESLEGYIDEIRDKADEADT</Hsp_qseq>
+      <Hsp_hseq>NLKNALEVIFNFVREANKYFDSEEPWITVKEDKGTCKDT</Hsp_hseq>
+      <Hsp_midline>++KNAL VI N  +EA K  +S E +I    DK    DT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|46397168|sp|Q87LD5.1|Y2677_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=UPF0307 protein VP2677 [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87LD5</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.496</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>PESLEGYIDEIRDKADEADTS---LEFLKD-VINYGISDLKNVIEVFEDC</Hsp_qseq>
+      <Hsp_hseq>PEPIQAALDKVRNKHSQATAALHKLEMLRDRVVEEGDKAIDDVMELYPEA</Hsp_hseq>
+      <Hsp_midline>PE ++  +D++R+K  +A  +   LE L+D V+  G   + +V+E++ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2506256|sp|P28023.2|DCTN1_RAT</Hit_id>
+  <Hit_def>RecName: Full=Dynactin subunit 1; AltName: Full=150 kDa dynein-associated polypeptide; AltName: Full=DAP-150; Short=DP-150; AltName: Full=p150-glued [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P28023</Hit_accession>
+  <Hit_len>1280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.59277</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>YLEDVKNALRVID--NLCKEALKE-PESLEGYIDEIRDKADEADTSLEFLKDVINYGISD</Hsp_qseq>
+      <Hsp_hseq>YMEEMADTADAIEMATLDKEMAEERAESLQQEVEALKERVDELTTDLEILKAEIEEKGSD</Hsp_hseq>
+      <Hsp_midline>Y+E++ +    I+   L KE  +E  ESL+  ++ ++++ DE  T LE LK  I    SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|61212620|sp|Q6PCJ1.1|DCTN1_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Dynactin subunit 1 [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q6PCJ1</Hit_accession>
+  <Hit_len>1232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.59273</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>YLEDVKNALRVID--NLCKEALKE-PESLEGYIDEIRDKADEADTSLEFLKDVINYGISD</Hsp_qseq>
+      <Hsp_hseq>YMEEMADTADAIEMATLDKEMAEERAESLQQEVDTLKDKVEEHKIDLEILKHEIEEKGSD</Hsp_hseq>
+      <Hsp_midline>Y+E++ +    I+   L KE  +E  ESL+  +D ++DK +E    LE LK  I    SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

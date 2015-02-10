@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>47897</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7Y0 Single-stranded DNA-binding protein</BlastOutput_query-def>
+  <BlastOutput_query-len>174</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>47897</Iteration_query-ID>
+  <Iteration_query-def>Q5F7Y0 Single-stranded DNA-binding protein</Iteration_query-def>
+  <Iteration_query-len>174</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|54039620|sp|P66849.1|SSB_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Neisseria meningitidis MC58] &gt;gi|54042010|sp|P66848.1|SSB_NEIMA RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>P66849</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.91</Hsp_bit-score>
+      <Hsp_score>912</Hsp_score>
+      <Hsp_evalue>5.65324e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MSLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>MSLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYEEGYGQSQEAYQRPAQQSRQPASDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_hseq>
+      <Hsp_midline>MSLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPY+EGYGQSQEAYQRPAQQSRQPA DAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|37999371|sp|Q82S98.1|SSB_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82S98</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>3.28654e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>SLNKVMLIGNLGRDPEIRYMPSGDAMANLNIATTDTWKDKGGEKQERTEWHRVVMFGKQAEIAGEYLKKGSQIYIEGRLQTRKWTDKSNVERYTTEIVADRMQMLGGR---SGGGSYD--------------------PPADRDHDYQSQSTP---PAKSNTGFDDMEDDIPF</Hsp_hseq>
+      <Hsp_midline>SLNKV+LIG LGRDPE+RYMP+G+A+ N ++AT++TW D+ G++ ERTEWH + M+ K AEIAG+YLKKG  +Y+EGR+Q+RK+  K  +ER   +IVA+ M+MLGGR   SGG  YD                     P    H  ++ + P   P  +    +D++DDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1174443|sp|P44409.1|SSB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44409</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>1.24007e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRN-GQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>INKVIIVGHLGNDPEIRTMPNGDAVANISVATSESWNDRNTGERREVTEWHRIVFYRRQAEICGEYLRKGSQVYVEGRLKTRKWQDQNGQDRYTTEIQGDVMQMLGGRNQNAGGYGNDMG-GAPQSSY-----QARQ--TNNGNSYQSSRPAPQQAAPQAEPPMDGFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVI++G LG DPE+R MPNG+AV N SVATSE+WNDRN G+R E TEWH I  YR+ AEI G+YL+KG  VY+EGR+++RK+Q ++G +R   +I  + M+MLGGRN+N+GG   D G G  Q +Y     Q+RQ   +  +  Q +  AP++    A  P++  DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|37999362|sp|P59930.1|SSB_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>P59930</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>9.03141e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRN-GQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQS---RQPAPDAPSHPQEAPAAPR-RQPVPAAAPVED-IDDDIPF</Hsp_qseq>
+      <Hsp_hseq>INKVIIVGNLGNDPEMRTMPNGEAVANISVATSESWTDKNTGERREVTEWHRIVFYRRQAEVAGQYLRKGSQVYVEGRLKTRKWQDQNGQDRYTTEIQGDVLQMLGGRNQAGDVATH-----QNQAGWNAPASTQNNYNQGASNYNPNQTQAYSAPQTNRTKPAAESVMDNFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVI++G LG DPE+R MPNGEAV N SVATSE+W D+N G+R E TEWH I  YR+ AE+AGQYL+KG  VY+EGR+++RK+Q ++G +R   +I  + ++MLGGRN+    A +     Q+Q  +  PA       Q A +   +  +A +AP+  +  PAA  V D  DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|37999359|sp|P59927.1|SSB_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>P59927</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>7.80827e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPV-PAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>SVNKVILVGNLGADPEVRYMPSGDAVANLRIATTDRYKDKQSGEMKEATEWHRVSMFGKLAEIAGQYLRKGSSVYIEGRIRTRKWQDQSGQDKYSTEIVADQMQMLGGRGGASDG---DSDSGTDRSASQQSPASAQRSAPTGQRQP---PA--RRQPAQPPSNGFGDFNEDIPF</Hsp_hseq>
+      <Hsp_midline>S+NKVIL+G LG DPEVRYMP+G+AV N  +AT++ + D+ +G+  E TEWH ++M+ KLAEIAGQYL+KG  VY+EGRI++RK+Q + G ++ + +IVA++M+MLGGR   S G   D   G  + A Q+    +++ AP     P   PA  RRQP  P +    D ++DIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|37999465|sp|Q9KUW2.1|SSB_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KUW2</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>1.39878e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANE----MKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSR--QPAPDAPSHPQEAPAAPRRQPVPA-AAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILIGNLGQDPEVRYMPSGGAVANITIATSETWRDKATGEQKEKTEWHRVTLYGKLAEVAGEYLRKGSQVYIEGQLQTRKWQDQSGQDRYSTEVVVQGYNGIMQMLGGRAQQ-GGMP-------AQGGMNVPAQQGSWGQPQQPAKQHQPMQQSAPQQYSQPQYNEPPMDFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVILIG LG+DPEVRYMP+G AV N ++ATSETW D+  G++ E+TEWH +T+Y KLAE+AG+YL+KG  VY+EG++Q+RK+Q + G +R + ++V       M+MLGGR +  GG P       +Q     PAQQ    QP   A  H     +AP++   P    P  D DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|11387134|sp|P57610.1|SSB_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57610</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>2.45231e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRN-GQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILIGHLGQDPEVRYMPNGNAVVNMTLATSENWKDKNTGENKEKTEWHRIVLFGKLAEIAGEYLRKGSQVYIEGSLQTRKWQDQNGLERYTTEIIVNIGGTMQMLGNRNSNL----------QAMTVNDKNSTGIKIKKTDAVEFDKKIETHESNKDLTHSPSEIDFDDEIPF</Hsp_hseq>
+      <Hsp_midline>+NKVILIG LG+DPEVRYMPNG AV N ++ATSE W D+N G+  E+TEWH I ++ KLAEIAG+YL+KG  VY+EG +Q+RK+Q ++G+ER   +I+ N    M+MLG RN N           Q+     + +   +    DA    ++       + +  +    D DD+IPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|25091285|sp|Q8K933.1|SSB_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K933</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>9.53324e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRN-GQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILIGHLGQDPEVRYMPNGNAVVNMTLATSENWKDKNTGENKEKTEWHRIVLFGKLAEIAGEYLRKGSQVYIEGSLQTRKWQDQNGLERYTTEVIVNIGGTMQMLGNRNSNSHNVTLNENNNI------------------VKTKKIEINNSPKKIEKIDSSEI-DFDDEIPF</Hsp_hseq>
+      <Hsp_midline>+NKVILIG LG+DPEVRYMPNG AV N ++ATSE W D+N G+  E+TEWH I ++ KLAEIAG+YL+KG  VY+EG +Q+RK+Q ++G+ER   +++ N    M+MLG RN NS     +E                        +   E   +P++     ++ + D DD+IPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|37999807|sp|Q9RHF4.1|SSB2_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein 2; Short=SSB 2 [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q9RHF4</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>2.56606e-43</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANE---MKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGNLGQDPEVRYMPNGGAVVNLSLATSDTWTDKQTGDKKERTEWHRVVLYGKLAEIASEYLRKGSQVYIEGALRTRKWTDQSGVEKYTTEVVVSQSGTMQMLGGRN--------------SAGSGQQQGGWGQPQQPAAPSHSGMPP-----QQHPANEPPMDFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG+DPEVRYMPNG AV N S+ATS+TW D+  G + ERTEWH + +Y KLAEIA +YL+KG  VY+EG +++RK+  + G+E+   ++V ++   M+MLGGRN              S  + Q+     +   P APSH    P     Q  PA  P  D DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|37999366|sp|P77953.1|SSB_SHEHA</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Shewanella hanedai]</Hit_def>
+  <Hit_accession>P77953</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.60217e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGK-DGIERTAYDIVANEMKMLGGR</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGNLGKDPEVRYMPNGNAVANFTVATSESWKDQQGQPQERTEWHNIVMYRRLAEIAGEYLKKGSKIYIEGKLQTSKWQDQATGQDRYKTEINASEMQMLDSR</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG+DPEVRYMPNG AV NF+VATSE+W D+ GQ  ERTEWHNI MYR+LAEIAG+YLKKG  +Y+EG++Q+ K+Q +  G +R   +I A+EM+ML  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|37999432|sp|Q8EA81.1|SSB_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8EA81</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>2.87492e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANE---MKMLGGRNENSGGAP</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGNLGQDPEVRYMPNGNAVANITVATSESWKDQQGQQQERTEWHRVVLFGKLAEITGEYLRKGSQVYLEGKLQTRKWKDQSGQDRYSTEVVIDQSGSMQMLGSRNQGGQGAP</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG+DPEVRYMPNG AV N +VATSE+W D+ GQ+ ERTEWH + ++ KLAEI G+YL+KG  VYLEG++Q+RK++ + G +R + ++V ++   M+MLG RN+   GAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|37999375|sp|Q83EP4.1|SSB_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83EP4</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>1.90304e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILIGNLGQDPEVRYTPNGNAVANVTLATSTTWRDKQTGELQERTEWHRIAFFNRLAEIVGEYLRKGSKIYIEGSLRTRKWQDKNGVDRYTTEIIANEMHMLDNRGGGNSGNYGNHSEG-------------------GASNKQSAPTSSQTPTAGDDSSVADFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVILIG LG+DPEVRY PNG AV N ++ATS TW D+  G+  ERTEWH I  + +LAEI G+YL+KG  +Y+EG +++RK+Q K+G++R   +I+ANEM ML  R   + G   +   G                     S+ Q AP + +       + V D DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|134916|sp|P25762.2|SSB_SERMA</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Serratia marcescens]</Hit_def>
+  <Hit_accession>P25762</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>2.40532e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRNENSGGAP-----------YDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGNLGQDPEVRYMPNGGAVANITLATSESWRDKATGEQKEKTEWHRVVLFGKLAEVAGEYLRKGSQVYIEGSLQTRKWQDQSGQDRYTTEIVVNVGGTMQMLGGR--QGGGAPAGQSAGGQGGWGQPQQPQGGNQFSGGQQQSRPAQNSAPATSNEPPM--------------DFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG+DPEVRYMPNG AV N ++ATSE+W D+  G++ E+TEWH + ++ KLAE+AG+YL+KG  VY+EG +Q+RK+Q + G +R   +IV N    M+MLGGR    GGAP                 Q    +    QQSR     AP+   E P               D DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|37999726|sp|Q8VMM4.1|SSB2_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Pseudomonas putida]</Hit_def>
+  <Hit_accession>Q8VMM4</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>1.23136e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGR--NENSGGAPYDEG</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGTCGQDPEVRYLPNGNAVTNLSLATSEQWTDKQTGQKVERTEWHRVSLFGKVAEIAGEYLRKGSQCYIEGKLQTREWE-KDGIKRYTTEIIVDMQGTMQLLGGRPQNQQQGGDPYNQG</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G  G+DPEVRY+PNG AV N S+ATSE W D+  GQ+VERTEWH ++++ K+AEIAG+YL+KG   Y+EG++Q+R+++ KDGI+R   +I+ +    M++LGGR  N+  GG PY++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|32699636|sp|Q89A53.1|SSB_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89A53</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>2.10659e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRN-GQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDD-DIPF</Hsp_qseq>
+      <Hsp_hseq>INKVILIGYLGQDPDVRYMQNGSAVTNITLATSETWKDKNNGEIKEKTEWHRIVFFNKLAEIAGEYLKKGSQVYIEGSLQTRKWKDQNGIERYITEIIVSVGGTMQMLGSRNSSSLTASSGLSKNNDNLSKQLLSEKKQESFNDSKLQNNNL----------------DFDDEDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVILIG LG+DP+VRYM NG AV N ++ATSETW D+N G+  E+TEWH I  + KLAEIAG+YLKKG  VY+EG +Q+RK++ ++GIER   +I+ +    M+MLG RN +S  A           + Q  +++ ++   D+                       D DD DIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|37999461|sp|Q9CJP4.1|SSB_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CJP4</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>2.50123e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRN-GQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEA-PAAPRRQPVPAAAPVEDI---DDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVIIVGNLGNDPEIRTMPNGEAVANISVATSESWIDKNTNERREVTEWHRIVFYRRQAEVAGEYLRKGSKVYVEGRLKTRKWQDQNGQDRYTTEIQGDVLQMLDSRNERQQTGGY--------------APQTAAPQYNAPTGSYGAQPSRPATKPAPQNEPPMDMGFEEDNIPF</Hsp_hseq>
+      <Hsp_midline>+NKVI++G LG DPE+R MPNGEAV N SVATSE+W D+N  +R E TEWH I  YR+ AE+AG+YL+KG  VY+EGR+++RK+Q ++G +R   +I  + ++ML  RNE      Y              A Q+  P  +AP+    A P+ P  +P P   P  D+   +D+IPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|37999360|sp|P59928.1|SSB_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>P59928</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>4.79568e-40</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKD-GIERTAYDIVANEMKML</Hsp_qseq>
+      <Hsp_hseq>SVNKVILVGNLGRDPEVRYSPDGAAICNVSIATTSQWKDKASGERREETEWHRVVMYNRLAEIAGEYLKKGRSVYIEGRLKTRKWQDKDTGADRYSTEIVADQMQML</Hsp_hseq>
+      <Hsp_midline>S+NKVIL+G LGRDPEVRY P+G A+CN S+AT+  W D+ +G+R E TEWH + MY +LAEIAG+YLKKG  VY+EGR+++RK+Q KD G +R + +IVA++M+ML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|54039619|sp|P66847.1|SSB_BORBR</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Bordetella bronchiseptica RB50] &gt;gi|54042009|sp|P66846.1|SSB_BORPE RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>P66847</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>5.35826e-40</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKD-GIERTAYDIVANEMKML</Hsp_qseq>
+      <Hsp_hseq>SVNKVILVGNLGRDPEVRYSPDGAAICNVSIATTSQWKDKASGERREETEWHRVVMYNRLAEIAGEYLKKGRSVYIEGRLKTRKWQDKDTGADRYSTEIVADQMQML</Hsp_hseq>
+      <Hsp_midline>S+NKVIL+G LGRDPEVRY P+G A+CN S+AT+  W D+ +G+R E TEWH + MY +LAEIAG+YLKKG  VY+EGR+++RK+Q KD G +R + +IVA++M+ML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|84028790|sp|P0AGE2.2|SSB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Escherichia coli O157:H7] &gt;gi|84028791|sp|P0AGE1.2|SSB_ECOL6 RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Escherichia coli CFT073] &gt;gi|84028792|sp|P0AGE0.2|SSB_ECOLI RecName: Full=Single-stranded DNA-binding protein; Short=SSB; AltName: Full=Helix-destabilizing protein [Escherichia coli K-12] &gt;gi|84028793|sp|P0AGE3.2|SSB_SHIFL RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AGE2</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>7.28964e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQP----APDAPSHPQE-APAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGNLGQDPEVRYMPNGGAVANITLATSESWRDKATGEMKEQTEWHRVVLFGKLAEVASEYLRKGSQVYIEGQLRTRKWTDQSGQDRYTTEVVVNVGGTMQMLGGR--QGGGAPAGGNIGGGQPQGGWGQPQQPQGGNQFSGGAQSRPQQSAPAAPSNEP-----PM-DFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG+DPEVRYMPNG AV N ++ATSE+W D+  G+  E+TEWH + ++ KLAE+A +YL+KG  VY+EG++++RK+  + G +R   ++V N    M+MLGGR    GGAP     G  Q        Q  Q     +  A S PQ+ APAAP  +P     P+ D DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|37999428|sp|Q8D254.2|SSB_WIGBR</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Wigglesworthia glossinidia endosymbiont of Glossina brevipalpis]</Hit_def>
+  <Hit_accession>Q8D254</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>4.03732e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRN-GQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVA---NEMKMLGGRNENSGGAPYDEGYGQSQEAYQRP-AQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>INKVILIGNLGQDPEVRYIPNGNAITNLSLATSENWRDKNTGESKEKTEWHRVILFGKLAEVAGEYLKKGSQVYIEGNLQTRKWQDQNGQDRYITEIVVGINGCMQMLGNR------ASYD---------YTKPEAKEWNKKNKNIINEKQDIKESKKNKIEEEI----NFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVILIG LG+DPEVRY+PNG A+ N S+ATSE W D+N G+  E+TEWH + ++ KLAE+AG+YLKKG  VY+EG +Q+RK+Q ++G +R   +IV      M+MLG R      A YD         Y +P A++  +   +  +  Q+   + + +         + DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|60415932|sp|Q9XJG4.1|SSB_BPP1</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; AltName: Full=SSB-P1 [Enterobacteria phage P1]</Hit_def>
+  <Hit_accession>Q9XJG4</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>4.41926e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANE---MKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILIGTLGQDPEIRYIPNGGAVGRLSIATNESWRDKQTGQQKEQTEWHKVVLFGKLAEIASEYLRKGSQVYIEGKLKTRKWTDDAGVERYTTEIIVSQGGTMQMIGARRDDSQSS---NGWGQSNQ----------------PQNHQQYSGGGKPQSNANNEPPMDFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVILIG LG+DPE+RY+PNG AV   S+AT+E+W D+  GQ+ E+TEWH + ++ KLAEIA +YL+KG  VY+EG++++RK+    G+ER   +I+ ++   M+M+G R ++S  +    G+GQS +                P + Q+     + Q      P  D DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|37999394|sp|Q889U1.1|SSB_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q889U1</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>1.13626e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGR</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGTCGQDPEVRYLPNGNAVTNLSLATSEQWTDKQSGQKVEKTEWHRVSMFGKVAEIAGEYLRKGSQVYIEGKLQTREWE-KDGIKRYTTEIVVDMQGTMQLLGGR</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G  G+DPEVRY+PNG AV N S+ATSE W D+ +GQ+VE+TEWH ++M+ K+AEIAG+YL+KG  VY+EG++Q+R+++ KDGI+R   +IV +    M++LGGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|37999441|sp|Q8L2A6.1|SSB_PROVU</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Proteus vulgaris]</Hit_def>
+  <Hit_accession>Q8L2A6</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>1.35936e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGR----NENSGGAPYDEGYG----QSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGNVGQDPEVRYMPNGGAVANLTLATSETWRDKQTGESKEKTEWHRVVLFGKLAEITGEFVKKGSQIYIEGALQTRKWTDQAGVEKYTTEVVVNVGGTMQMLGGRQGGNDNQNNNAGSNQGWGQPQQPQPNNNQTPAQQLNQRS-QGQNQPQ--GHGNSSQPI-------DFNDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G +G+DPEVRYMPNG AV N ++ATSETW D+  G+  E+TEWH + ++ KLAEI G+++KKG  +Y+EG +Q+RK+  + G+E+   ++V N    M+MLGGR    +  +  A  ++G+G          Q PAQQ  Q +    + PQ        QP+       D +DDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|37999429|sp|Q8DCJ0.1|SSB_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8DCJ0</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>1.70781e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANE----MKMLGGRNENSGGAP</Hsp_qseq>
+      <Hsp_hseq>INKVILVGNLGNDPEIRYMPSGGAVANITVATSETWRDKATGEPREKTEWHRVTLYGKLAEVAGEYLRKGSQVYIEGQLQTRKWQDQNGQDRYSTEVVVQGYNGIMQMLGGRQQQ-GGAP</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG DPE+RYMP+G AV N +VATSETW D+  G+  E+TEWH +T+Y KLAE+AG+YL+KG  VY+EG++Q+RK+Q ++G +R + ++V       M+MLGGR +  GGAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|37999377|sp|Q87LA3.1|SSB_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87LA3</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.80648e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVA----NEMKMLGGRNENSGGAP</Hsp_qseq>
+      <Hsp_hseq>INKVILVGNLGNDPEIRYMPNGGAVANITIATSESWRDKATGEQREKTEWHRVVLFGKLAEVAGEYLRKGSQVYVEGQLQTRKWQDQSGQDRYSTEVVVQGFNGVMQMLGGRAQ--GGAP</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG DPE+RYMPNG AV N ++ATSE+W D+  G++ E+TEWH + ++ KLAE+AG+YL+KG  VY+EG++Q+RK+Q + G +R + ++V       M+MLGGR +  GGAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|134914|sp|P28046.2|SSB_PROMI</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Proteus mirabilis]</Hit_def>
+  <Hit_accession>P28046</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>2.77102e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILIGNLGQDPEIRYMPSGGAVANLTLATSESWRDKQTGEMKEKTEWHRVVIFGKLAEIAGEYLRKGSQVYIEGQLQTRKWQDQSGQDRYSTEVVVNIGGTMQMLGGR----GGQDNAPSQGQGGWGQPQQPQASQQFSGGAPSRPAQQPAAAPAP---SNEPPMDFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVILIG LG+DPE+RYMP+G AV N ++ATSE+W D+  G+  E+TEWH + ++ KLAEIAG+YL+KG  VY+EG++Q+RK+Q + G +R + ++V N    M+MLGGR    GG       GQ      +  Q S+Q +  APS P + PAA       +  P  D DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|730833|sp|P40947.3|SSB_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P40947</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>4.31538e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGR</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGNVGGDPETRYMPNGNAVTNITLATSESWKDKQTGQQQERTEWHRVVFFGRLAEIAGEYLRKGSQVYVEGSLRTRKWQGQDGQDRYTTEIVVDINGNMQLLGGR</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G +G DPE RYMPNG AV N ++ATSE+W D+  GQ+ ERTEWH +  + +LAEIAG+YL+KG  VY+EG +++RK+QG+DG +R   +IV +    M++LGGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|134904|sp|P28044.2|SSB7_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Plasmid-derived single-stranded DNA-binding protein; Short=SSB; AltName: Full=Helix-destabilizing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>P28044</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>5.4051e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPA--------APRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>INKVILVGRLGKDPEVRYIPNGGAVANLQVATSESWRDKQTGEIREQTEWHRVVLFGKLAEVAGEYLRKGAQVYIEGQLRTRSWE-DNGITRYVTEILVKTTGTMQMLG----RAAG---------TQTQPEEAQQFSGQPQPESQPEPKKGGAKTKGRERKAAQPEPRQPSEPAYDFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+GRLG+DPEVRY+PNG AV N  VATSE+W D+  G+  E+TEWH + ++ KLAE+AG+YL+KG  VY+EG++++R ++  +GI R   +I+      M+MLG     + G         +Q   +   Q S QP P++   P++  A        A + +P   + P  D DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|37999542|sp|Q847G1.1|SSB1_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Pseudomonas putida]</Hit_def>
+  <Hit_accession>Q847G1</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>5.9422e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRNENSGGA</Hsp_qseq>
+      <Hsp_hseq>VNKVILIGTCGQDPEVRYLPNGNAVTNLSLATSEQWTDKQTGQKVEKTERHRVSLFGKVAEIAGEYLRKGSQVYIEGKLQTREWE-KDGIKRYTTEIVVDMQGTMQLLGGRPQNQDGT</Hsp_hseq>
+      <Hsp_midline>+NKVILIG  G+DPEVRY+PNG AV N S+ATSE W D+  GQ+VE+TE H ++++ K+AEIAG+YL+KG  VY+EG++Q+R+++ KDGI+R   +IV +    M++LGGR +N  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|61247660|sp|P0A2F6.2|SSB1_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein 1; Short=SSB 1 [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|61247661|sp|P0A2F7.2|SSB1_SALTI RecName: Full=Single-stranded DNA-binding protein 1; Short=SSB 1 [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P0A2F6</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>9.07473e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDI----VANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGNLGQDPEVRYMPSGGAVANLTLATSESWRDKQTGEMKEQTEWHRVVMFGKLAEVAGEYLRKGSQVYIEGQLRTRKWTDQSGQERYTTEINVPQIGGVMQMLGGRQGGGAPAGGQQQGGWGQPQQPQQPQGGNQFSGGAQSRPQQSA------PAPSNEPPMDFDDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG+DPEVRYMP+G AV N ++ATSE+W D+  G+  E+TEWH + M+ KLAE+AG+YL+KG  VY+EG++++RK+  + G ER   +I    +   M+MLGGR      A   +  G  Q    +  Q   Q +  A S PQ++       P P+  P  D DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|37999707|sp|Q8KB47.1|SSB1_CHLTE</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein 1; Short=SSB 1 [Chlorobium tepidum TLS]</Hit_def>
+  <Hit_accession>Q8KB47</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.07655e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKY-QGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDID-DDIPF</Hsp_qseq>
+      <Hsp_hseq>LNKVMLIGHLGNDPERRETASGQSVVNFTLATSEGFKDSSGNLQERTEWHRIVAWGKLADICSQYLKKGRQVYIEGRLQTRSWDDNKTGDKKYATEIVCTDMQMLGAK--DSGGGTSDASYSQNRPSYSR------------PSRPE--PSSGNYGASPSSGGAQEFEKDDLPF</Hsp_hseq>
+      <Hsp_midline>LNKV+LIG LG DPE R   +G++V NF++ATSE + D +G   ERTEWH I  + KLA+I  QYLKKG  VY+EGR+Q+R +   K G ++ A +IV  +M+MLG +  +SGG   D  Y Q++ +Y R            PS P+  P++      P++   ++ + DD+PF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|134903|sp|P28043.2|SSB2_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Plasmid-derived single-stranded DNA-binding protein; Short=SSB; AltName: Full=Helix-destabilizing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>P28043</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.47438e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPR----RQPVPAAAPVEDID----DDIPF</Hsp_qseq>
+      <Hsp_hseq>INKVILVGRLGKDPEVRYIPNGGAVANLQVATSETWRDKQTGKMREQTEWHRVVLFGKLAEVAGEYLRKGAQVYIEGQLRTRSWE-DNGITRYVTEILVKTTGTMQMLG----RAAGAQT-----QPEEGQQFSAQPQPEPQSEAGTKKGGAKTKGRGRKVAQPEPQLQPPEGDDYGFSDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+GRLG+DPEVRY+PNG AV N  VATSETW D+  G+  E+TEWH + ++ KLAE+AG+YL+KG  VY+EG++++R ++  +GI R   +I+      M+MLG     + GA       Q +E  Q  AQ   +P  +A +    A    R     QP P   P E  D    DDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|37999452|sp|Q8ZJ06.1|SSB_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q8ZJ06</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.3329e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKML</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGNLGQDPEVRYMPNGGAVANITLATSESWRDKQTGEQKEKTEWHRVVLFGKLAEVAGEYLRKGSQVYIEGALQTRKWQDQSGQERYTTEVVVNVGGTMQML</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG+DPEVRYMPNG AV N ++ATSE+W D+  G++ E+TEWH + ++ KLAE+AG+YL+KG  VY+EG +Q+RK+Q + G ER   ++V N    M+ML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|37999418|sp|Q88QK5.1|SSB_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88QK5</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>6.70729e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGTCGQDPEVRYLPNGNAVTNLSLATSEQWTDKQSGQKVERTEWHRVSLFGKVAEIAGEYLRKGSQCYIEGKLQTREWE-KDGIKRYTTEIIVD</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G  G+DPEVRY+PNG AV N S+ATSE W D+ +GQ+VERTEWH ++++ K+AEIAG+YL+KG   Y+EG++Q+R+++ KDGI+R   +I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|134906|sp|P18022.3|SSBP_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Plasmid-derived single-stranded DNA-binding protein; Short=SSB; AltName: Full=Helix-destabilizing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>P18022</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>3.63104e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGG---RNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>INKVILVGRLGNDPEVRYIPNGGAVANLQVATSESWRDKQTGEMREQTEWHRVVLFGKLAEVAGEYLRKGAQVYIEGQLRTRSWD-DNGITRYITEILVKTTGTMQMLGSAPQQNAQAQPKPQQNGQPQSADATKKGGAKTKGRGRKA--------AQPEPQPQTPEGEDYGFSDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+GRLG DPEVRY+PNG AV N  VATSE+W D+  G+  E+TEWH + ++ KLAE+AG+YL+KG  VY+EG++++R +   +GI R   +I+      M+MLG    +N  +   P   G  QS +A ++   +++     A        A P  QP           DDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|134910|sp|P28045.2|SSBR_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Plasmid-derived single-stranded DNA-binding protein; Short=SSB; AltName: Full=Helix-destabilizing protein [Escherichia coli]</Hit_def>
+  <Hit_accession>P28045</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>5.7406e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGG---RNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>INKVILVGRLGNDPEVRYIPNGGAVANLQVATSESWRDKQTGEMREQTEWHRVVLFGKLAEVAGEYLRKGAQVYIEGQLRTRSWD-DNGITRYITEILVKTTGTMQMLGSAPQQNAQAQPKPQQNGQPQSADATKKGGAKTK--------GRERKAAQPEPQPQTPEGEDYGFSDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+GRLG DPEVRY+PNG AV N  VATSE+W D+  G+  E+TEWH + ++ KLAE+AG+YL+KG  VY+EG++++R +   +GI R   +I+      M+MLG    +N  +   P   G  QS +A ++   +++          +   A P  QP           DDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|37999450|sp|Q8Y2B4.1|SSB_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y2B4</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>3.29508e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGR</Hsp_qseq>
+      <Hsp_hseq>SVNKVIIVGNLGADPETRYMPSGDAVTNIRVATTDRYKDKASGEMREATEWHRIAFFGRLAEIAGEYLKKGSQVYVEGRLKTRQWE-KDGQKQYSTEIVAEQMQMLGSR</Hsp_hseq>
+      <Hsp_midline>S+NKVI++G LG DPE RYMP+G+AV N  VAT++ + D+ +G+  E TEWH I  + +LAEIAG+YLKKG  VY+EGR+++R+++ KDG ++ + +IVA +M+MLG R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|37999445|sp|Q8PIJ2.1|SSB_XANAC</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Xanthomonas axonopodis pv. citri str. 306]</Hit_def>
+  <Hit_accession>Q8PIJ2</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.21461e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKML</Hsp_qseq>
+      <Hsp_hseq>INKVILVGNLGNDPDTKYTQAGMAITRVSLATTSMRKDRDGNNQERTEWHRVVFFGKLGEIAGEYLRKGSQVYVEGELRYDKYTGQDGVEKYSTDIVANEMQML</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG DP+ +Y   G A+   S+AT+    DR+G   ERTEWH +  + KL EIAG+YL+KG  VY+EG ++  KY G+DG+E+ + DIVANEM+ML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|37999751|sp|Q93GP7.1|SSB2_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein 2; Short=SSB 2 [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q93GP7</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>1.7259e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRN</Hsp_qseq>
+      <Hsp_hseq>VNKVILVGHIGQDPEVRYMPNGGAVANLTLATSETWRVRQDGEMREHTEWHRVVVFGKLAEIASEYLRKGAQVYIEGQLRTRKWTDQSGQDKYTTEVIVNVGGTMQMLGRHN</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G +G+DPEVRYMPNG AV N ++ATSETW  R +G+  E TEWH + ++ KLAEIA +YL+KG  VY+EG++++RK+  + G ++   +++ N    M+MLG  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|37999444|sp|Q8P778.1|SSB_XANCP</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Xanthomonas campestris pv. campestris str. ATCC 33913]</Hit_def>
+  <Hit_accession>Q8P778</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>2.13483e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKML</Hsp_qseq>
+      <Hsp_hseq>INKVILVGNLGNDPDTKYTQAGMAITRVSLATTSMRKDREGNNQERTEWHRVVFFGKLGEIAGEYLRKGSQVYVEGELRYDKYTGQDGVEKYSTDIVANEMQML</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG DP+ +Y   G A+   S+AT+    DR G   ERTEWH +  + KL EIAG+YL+KG  VY+EG ++  KY G+DG+E+ + DIVANEM+ML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|37999451|sp|Q8YHC2.1|SSB_BRUME</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Brucella melitensis bv. 1 str. 16M]</Hit_def>
+  <Hit_accession>Q8YHC2</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>8.10215e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRK-LAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN----EMKMLGGRNENSGGAPYDEGYGQSQ</Hsp_qseq>
+      <Hsp_hseq>SVNKVILVGNLGADPEIRRLNSGDMVANLRIATSESWRDRQTGERKDRTEWHSVVIFNENLAKVAEQYLKKGAKVYIEGALQTRKWQDQNGNDRYSTEIVLQKFRGELQMLDSRSEGSEGRSFGGGGNRNQ</Hsp_hseq>
+      <Hsp_midline>S+NKVIL+G LG DPE+R + +G+ V N  +ATSE+W DR  G+R +RTEWH++ ++ + LA++A QYLKKG  VY+EG +Q+RK+Q ++G +R + +IV      E++ML  R+E S G  +  G  ++Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|37999459|sp|Q9A894.1|SSB_CAUCR</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Caulobacter crescentus CB15]</Hit_def>
+  <Hit_accession>Q9A894</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.01948e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYR-KLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVA----NEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>SVNKVILVGNLGADPEIRSLGSGDRVANLRIATSETWRDRSSGERKEKTEWHRVVIFNDNLVKVAEQYLRKGSTVYIEGALQTRKWTDNTGQEKYSTEIVLQKFRGELTMLGGRGGDAGMSSGGGDEYGGGYSGGGSSFGGGQRSQ--PSGPRESFSA-------------DLDDEIPF</Hsp_hseq>
+      <Hsp_midline>S+NKVIL+G LG DPE+R + +G+ V N  +ATSETW DR +G+R E+TEWH + ++   L ++A QYL+KG  VY+EG +Q+RK+    G E+ + +IV      E+ MLGGR  ++G +           +    +    Q +   PS P+E+ +A             D+DD+IPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|37999802|sp|Q9PHE7.1|SSB1_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein 1; Short=SSB 1 [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PHE7</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.05633e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRN-GQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENS</Hsp_qseq>
+      <Hsp_hseq>SLNKMQLIGNLGADPDIRYMQDGTPTVTVSVATTDTWKDKDTGNKEEKTEWHRVVFFGGLAEIVGEFLKKGSQIYVEGALRSRNWTDKEGNKRYTTEIMAKEMQMLGKKQDNN</Hsp_hseq>
+      <Hsp_midline>SLNK+ LIG LG DP++RYM +G      SVAT++TW D++ G + E+TEWH +  +  LAEI G++LKKG  +Y+EG ++SR +  K+G +R   +I+A EM+MLG + +N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|134905|sp|P18310.3|SSBF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Plasmid-derived single-stranded DNA-binding protein; Short=SSB; AltName: Full=Helix-destabilizing protein [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P18310</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>2.8002e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN---EMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVED----------IDDDIPF</Hsp_qseq>
+      <Hsp_hseq>INKVILVGRLGKDPEVRYIPNGGAVANLQVATSESWRDKQTGEMREQTEWHRVVLFGKLAEVAGECLRKGAQVYIEGQLRTRSWE-DNGITRYVTEILVKTTGTMQML----VRAAGAQT-----QPEEGQQFSGQP--QPEPQAEAGTKKGGAKTKGRGRKAAQPEPQPQPPEGDDYGFSDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+GRLG+DPEVRY+PNG AV N  VATSE+W D+  G+  E+TEWH + ++ KLAE+AG+ L+KG  VY+EG++++R ++  +GI R   +I+      M+ML      + GA       Q +E  Q   Q   QP P A +  ++  A  + +   AA P               DDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|37999436|sp|Q8G0J1.1|SSB_BRUSU</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Brucella suis 1330]</Hit_def>
+  <Hit_accession>Q8G0J1</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.37946e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRK-LAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN----EMKMLGGRNE</Hsp_qseq>
+      <Hsp_hseq>SVNKVILVGNLGADPEIRRLNSGDMVANLRIATSESWRDRQTGERKDRTEWHSVVIFNENLAKVAEQYLKKGAKVYIEGALQTRKWQDQNGNDRYSTEIVLQKFRGELQMLDSRSE</Hsp_hseq>
+      <Hsp_midline>S+NKVIL+G LG DPE+R + +G+ V N  +ATSE+W DR  G+R +RTEWH++ ++ + LA++A QYLKKG  VY+EG +Q+RK+Q ++G +R + +IV      E++ML  R+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|37999376|sp|Q87DQ5.1|SSB_XYLFT</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Xylella fastidiosa Temecula1]</Hit_def>
+  <Hit_accession>Q87DQ5</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.47936e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQP-------VPAAAPVEDI-DDDIPF</Hsp_qseq>
+      <Hsp_hseq>INKVILVGNLGNDPDIKYTQGGMTITTISLATTSVRKDKDGNTQERTEWHRVKFFGKLGEIAGEYLRKGSQCYIEGSIRYDKFTGQDGQERYVTEIVADEMQMLGGRSDGGGMGGGGE----------RPQRQT----------SQRQDYAPRRQTRQPSQSPQSSPPPMDDFADDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG DP+++Y   G  +   S+AT+    D++G   ERTEWH +  + KL EIAG+YL+KG   Y+EG I+  K+ G+DG ER   +IVA+EM+MLGGR++  G     E          RP +Q+           Q    APRRQ          +  P++D  DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|88941989|sp|Q2YPX7.1|SSB_BRUA2</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Brucella abortus 2308] &gt;gi|88941990|sp|P0C118.1|SSB_BRUAB RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Brucella abortus bv. 1 str. 9-941]</Hit_def>
+  <Hit_accession>Q2YPX7</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.51762e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDR-NGQRVERTEWHNITMYRK-LAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN----EMKMLGGRNE</Hsp_qseq>
+      <Hsp_hseq>SVNKVILVGNLGADPEIRRLNSGDMVANLRIATSESWRDRQTGERKDRTEWHSVVIFNENLAKVAEQYLKKGAKVYIEGALQTRKWQDQNGNDRYSKEIVLQKFRGELQMLDSRSE</Hsp_hseq>
+      <Hsp_midline>S+NKVIL+G LG DPE+R + +G+ V N  +ATSE+W DR  G+R +RTEWH++ ++ + LA++A QYLKKG  VY+EG +Q+RK+Q ++G +R + +IV      E++ML  R+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|37999455|sp|Q98M41.1|SSB_RHILO</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Mesorhizobium loti MAFF303099]</Hit_def>
+  <Hit_accession>Q98M41</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.72955e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRN-GQRVERTEWHNITMYRK-LAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVAN----EMKMLGGR</Hsp_qseq>
+      <Hsp_hseq>SVNKVILVGNLGADPEIRRLNSGEPVVNIRIATSESWRDKNSGERKEKTEWHNVVIFNEGIAKVAEQYLKKGMKVYVEGQLQTRKWQDQTGADKYTTEVVLQRFRGELQMLDGR</Hsp_hseq>
+      <Hsp_midline>S+NKVIL+G LG DPE+R + +GE V N  +ATSE+W D+N G+R E+TEWHN+ ++ + +A++A QYLKKG  VY+EG++Q+RK+Q + G ++   ++V      E++ML GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|37999801|sp|Q9PDI7.1|SSB2_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein 2; Short=SSB 2 [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PDI7</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>2.85583e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRNGQRVERTEWHNITMYRKLAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQP-------VPAAAPVEDI-DDDIPF</Hsp_qseq>
+      <Hsp_hseq>INKVILVGNLGNDPDIKYTQGGMTITTISLATTSVRKDKEGNTQERTEWHRVKFFGKLGEIAGEYLRKGSQCYIEGSIRYDKFTGQDGQERYVTEIVADEMQMLGGRSDGGGMGGGGE----------RPQRQT----------SQRQDYAPRRQARQPSQSPQSSPPPMDDFADDDIPF</Hsp_hseq>
+      <Hsp_midline>+NKVIL+G LG DP+++Y   G  +   S+AT+    D+ G   ERTEWH +  + KL EIAG+YL+KG   Y+EG I+  K+ G+DG ER   +IVA+EM+MLGGR++  G     E          RP +Q+           Q    APRRQ          +  P++D  DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|37999424|sp|Q89L50.1|SSB_BRADU</Hit_id>
+  <Hit_def>RecName: Full=Single-stranded DNA-binding protein; Short=SSB [Bradyrhizobium diazoefficiens USDA 110]</Hit_def>
+  <Hit_accession>Q89L50</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>8.60163e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>SLNKVILIGRLGRDPEVRYMPNGEAVCNFSVATSETWNDRN-GQRVERTEWHNITMYRK-LAEIAGQYLKKGGLVYLEGRIQSRKYQGKDGIERTAYDIVANEMKMLGGRNENSGGAPYDEGYGQSQEAYQRPAQQSRQPAPDAPSHPQEAPAAPRRQPVPAAAPVEDIDDDIPF</Hsp_qseq>
+      <Hsp_hseq>SVNKVILVGNLGKDPEIRRTQDGRPIANLSIATSETWRDKNSGERKEKTEWHRVVIFNEGLCKVAEQYLKKGAKVYIEGALQTRKWTDQSGVEKYSTEVVLQGF--------NSTLTMLDGRGGGGGGSFGEEPGGDFGSSGPVSSAPRRAVAA------GGGGRNSDMDDDIPF</Hsp_hseq>
+      <Hsp_midline>S+NKVIL+G LG+DPE+R   +G  + N S+ATSETW D+N G+R E+TEWH + ++ + L ++A QYLKKG  VY+EG +Q+RK+  + G+E+ + ++V            NS     D   G    ++          +    S P+ A AA             D+DDDIPF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>54985</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F821</BlastOutput_query-def>
+  <BlastOutput_query-len>275</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>54985</Iteration_query-ID>
+  <Iteration_query-def>Q5F821</Iteration_query-def>
+  <Iteration_query-len>275</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2496576|sp|P55351.1|Y4AD_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein y4aD [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55351</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.06495e-28</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>ENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQK-GRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKG-RIGLELRMIVLGAQLILQKL</Hsp_qseq>
+      <Hsp_hseq>KNFPVASWIIHPRHRALILAFYRFVRMADDIADHATLAPDEKLLYLDLLEAEL--LGKGETRAEAVHLR---TALDRRGMPPRHALDLLTAFRMDVTKQRYENWDEVIDYCRYSAMPVGRFVLDVHGESAATWPA-SDVLCAGLQVCNHLQDCGKDFLNLNRVYIPRDALSASGASIEELGAAKSSLQMLQCLRSLAAKAEVLLNGGGALVSQVKDFRLRFEVSVILSFADKIVSML</Hsp_hseq>
+      <Hsp_midline>+NFPV S I+  R R  + A Y F R ADD+AD  ++  + +L  L+ L  EL  L  G   A  +  R    A+   G+  +   DLL+AF  DV K RY ++ ++ DYCR SA PVGR +L ++G++ A   A SD +C  LQ+ N  QD   D+    RVYIP+D L   G S E++ A ++     + +     +A  +L  G  L  ++K  R+  E+ +I+  A  I+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|3913360|sp|O07333.1|CRTY_ARTPT</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase [Arthrospira platensis]</Hit_def>
+  <Hit_accession>O07333</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>3.24986e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MSVGHYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFG---LDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTD-----------AVCVAQSDGIC--TALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQL----ILQKLDACRYDVFAQR</Hsp_qseq>
+      <Hsp_hseq>ITAQYAKTFYLGTQLMPLAKRQAIWAIYVWCRRTDELVD-GPMASSTTLETLDHWEEQLESIFAG----HP-IEPVDVALVDTLGRFPLDIQPFRDMIAGQRMDLSRNRYNTFDELNLYCYRVAGTVGLMSLAVMGTAEPDLSVPWNRDQSIYYPKEEAIALGIANQLTNILRDVGEDARRGRIYLPLDDLALFNYTEADLLNGKVDERWRELMRFQIQRARKFYT----LAEEGIAALHPDIRWPVWTALMLYRQILDEIERNEYDVFNQR</Hsp_hseq>
+      <Hsp_midline>++  + + F +G+ ++P   R+ + A+Y + R  D++ D G M S   L  L+    +L+ + +G    HP I  +D   V   G   LD+QPF D+++    D+ + RY  F +L  YC R A  VG + LA+ G  +           ++   + + I    A QL N  +DV  D ++GR+Y+P DDL  F  +E  +  G+ D  ++ LM ++ +RA +       LA E    +  ++R  V  A +    IL +++   YDVF QR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|585010|sp|P37294.1|CRTB_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=All-trans-phytoene synthase; Short=PSase [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P37294</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>2.23847e-25</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MSVGHYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYG----------KTDAVCVAQSDGIC--TALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQR</Hsp_qseq>
+      <Hsp_hseq>VTAQYAKTFYLGTLLMPPAKRRAIWAIYLWCRRTDELVD-GPQAATTTPETLDHWERRLEGIFAGQPQDDADVALVDTLETFP--LDIQPFRDMIAGQRMDLYRSRYQTFEELDLYCYRVAGTVGLMSSAVLGVDTGNGQAPWQPDAVYIPQEEAIALGVANQLTNILRDVGEDVERGRIYLPLEDLERFNYSEQDLLNGVNDDRWRSLMKFEIDRARHYFEDAERGIRALNRDARWPVWTALMLYKGILDVIEANNYNVFNRR</Hsp_hseq>
+      <Hsp_midline>++  + + F +G+L++P   R+ + A+Y + R  D++ D G   +      L+   R L+ + +G       +A +D     P  LD+QPF D+++    D+ ++RY  F +L  YC R A  VG +  A+ G          + DAV + Q + I    A QL N  +DV  D ++GR+Y+P +DL +F  SE+ +  G  D  ++ LM +E  RA    +      R L       +   ++  + IL  ++A  Y+VF +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|93141248|sp|P37269.2|CRTB_SYNE7</Hit_id>
+  <Hit_def>RecName: Full=All-trans-phytoene synthase; Short=PSase [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>P37269</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>3.04068e-24</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MSVGHYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVA------------QSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQR</Hsp_qseq>
+      <Hsp_hseq>ITARYAKTFYLGTLLMPEAKRQAIWAIYVWCRRTDELVD-GPQAAQTNFATLDAWERRLERLFAGEPEDDCDVALVDTLARYP--LDIQPFRDMIEGQRMDLLQNRYSTFEDLYTYCYRVAGTVGLMSQPVMGIESTNSRAPWDPTTPPDPTQEALALGIANQLTNILRDVGEDARRGRIYLPQEELAQFNYSEQDLFNGVIDDRWRAFMQFQLDRARDYFEQAERGIRQLSHDARWPVWASLMLYREILDVIEQNNYDVFRKR</Hsp_hseq>
+      <Hsp_midline>++  + + F +G+L++P   R+ + A+Y + R  D++ D G   ++   + L+   R L+ L +G       +A +D  A  P  LD+QPF D++     D+++ RY+ F DL  YC R A  VG +   + G       A            ++  +  A QL N  +DV  D ++GR+Y+PQ++L +F  SE+ +  G  D  ++  M ++  RA    +      R+L       +   ++  + IL  ++   YDVF +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|75282669|sp|Q52QW5.1|PSY_ONCHC</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase, chloroplastic; Short=OgPSY; Flags: Precursor [Oncidium hybrid cultivar]</Hit_def>
+  <Hit_accession>Q52QW5</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>3.54521e-24</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYG---KTDAVC-----VAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDK</Hsp_qseq>
+      <Hsp_hseq>YAKTFYLGTLLMTPERRRAIWAIYVWCRRTDELVD-GPNASHITPSALDRWEARLEDLFAG-RPYDMLDASL-SDTVVNFPVDIQPFKDMIEGMRMDLKKSRYKNFDELYLYCYYVAGTVGLMSVPVMGIDPESDATTESVYNAALSLGI--ANQLTNILRDVGEDTRRGRVYLPQDELAEAGLSDEDIFNGKVTDRWRNFMKNQIKRARTFFQEAEKGIAELNQASRWPVLASLLLYRQILDEIEANDYNNFTKRAYVSK</Hsp_hseq>
+      <Hsp_midline>+ + F +G+L++    R+ + A+Y + R  D++ D G   S    S L+     L+ L +G R    L A L ++ VV F +D+QPF D++     D+ K+RY +F +L  YC   A  VG + + + G   ++DA        A S GI  A QL N  +DV  D ++GRVY+PQD+L + G+S+E I  G+    ++  M  + +RA    +       EL       +   +L  + IL +++A  Y+ F +R  + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|585749|sp|P37272.1|PSY_CAPAN</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase, chloroplastic; Flags: Precursor [Capsicum annuum]</Hit_def>
+  <Hit_accession>P37272</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>3.82961e-24</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYG-------KTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDKKDWLIMLKRALWK</Hsp_qseq>
+      <Hsp_hseq>YAKTFYLGTMLMTPERRKAIWAIYVWCRRTDELVD-GPNASHITPAALDRWEDRLEDVFSG-RPFDMLDAAL-SDTVSKFPVDIQPFRDMIEGMRMDLRKSRYRNFDELYLYCYYVAGTVGLMSVPIMGIAPESKATTESVYNA-ALALGIANQLTNILRDVGEDARRGRVYLPQDELAQAGLSDEDIFAGRVTDKWRIFMKKQIQRARKFFDEAEKGVTELSAASRWPVLASLLLYRRILDEIEANDYNNFTKRAYVSKPKKLIALPIAYAK</Hsp_hseq>
+      <Hsp_midline>+ + F +G++++    RK + A+Y + R  D++ D G   S    + L+     L+ + SG R    L A L ++ V  F +D+QPF D++     D+ K+RY +F +L  YC   A  VG + + + G        T++V  A +  +  A QL N  +DV  D ++GRVY+PQD+L + G+S+E I AGR    ++  M  + +RA +          EL       +   +L  + IL +++A  Y+ F +R  + K   LI L  A  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|585746|sp|P08196.2|PSY1_SOLLC</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase 1, chloroplastic; AltName: Full=Fruit-ripening-specific protein pTOM5; Flags: Precursor [Solanum lycopersicum]</Hit_def>
+  <Hit_accession>P08196</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.5528e-23</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMAD--EGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYG-------KTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDKKDWLIMLKRALWK</Hsp_qseq>
+      <Hsp_hseq>YAKTFNLGTMLMTPERRRAIWAIYVWCRRTDELVDGPNASYITPAALDRWEN--RLEDVF--NGRPFDMLDGAL-SDTVSNFPVDIQPFRDMIEGMRMDLRKSRYKNFDELYLYCYYVAGTVGLMSVPIMGIAPESKATTESVYNA-ALALGIANQLTNILRDVGEDARRGRVYLPQDELAQAGLSDEDIFAGRVTDKWRIFMKKQIHRARKFFDEAEKGVTELSSASRFPVWASLVLYRKILDEIEANDYNNFTKRAYVSKSKKLIALPIAYAK</Hsp_hseq>
+      <Hsp_midline>+ + F +G++++    R+ + A+Y + R  D++ D    S  + A L   E   R  DV    GR    L   L ++ V  F +D+QPF D++     D+ K+RY +F +L  YC   A  VG + + + G        T++V  A +  +  A QL N  +DV  D ++GRVY+PQD+L + G+S+E I AGR    ++  M  +  RA +          EL       +   ++  + IL +++A  Y+ F +R  + K   LI L  A  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|27735222|sp|P37271.2|PSY_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase, chloroplastic; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P37271</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>4.83876e-23</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTAL-------QLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDK</Hsp_qseq>
+      <Hsp_hseq>YAKTFYLGTLLMTPERRKAIWAIYVWCRRTDELVD-GPNASHITPMALDRWEARLEDLFRG-RPFDMLDAAL-ADTVARYPVDIQPFRDMIEGMRMDLKKSRYQNFDDLYLYCYYVAGTVGLMSVPVMG-IDPKSKATTESVYNAALALGIANQLTNILRDVGEDARRGRVYLPQDELAQAGLSDEDIFAGKVTDKWRNFMKMQLKRARMFFDEAEKGVTELSAASRWPVWASLLLYRRILDEIEANDYNNFTKRAYVGK</Hsp_hseq>
+      <Hsp_midline>+ + F +G+L++    RK + A+Y + R  D++ D G   S      L+     L+ L  G R    L A L A+ V  + +D+QPF D++     D+ K+RY +F DL  YC   A  VG + + + G  D    A ++ +  A        QL N  +DV  D ++GRVY+PQD+L + G+S+E I AG+    ++  M  + +RA            EL       +   +L  + IL +++A  Y+ F +R  + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|585747|sp|P37273.1|PSY2_SOLLC</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase 2, chloroplastic; Flags: Precursor, partial [Solanum lycopersicum]</Hit_def>
+  <Hit_accession>P37273</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>2.58102e-22</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYG-------KTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDKKDWLIML</Hsp_qseq>
+      <Hsp_hseq>YAKTFYLGTMLMTPDRRRAIWAIYVWCRRTDELVD-GPNASHITPQALDRWEARLEDIFNG-RPFDMLDAAL-SDTVSRFPVDIQPFRDMVEGMRMDLWKSRYNNFDELYLYCYYVAGTVGLMSVPIMGIAPESKATTESVYNA-ALALGIANQLTNILRDVGEDARRGRVYLPQDELAQAGLSDEDIFAGKVTDKWRIFMKKQIQRARKFFDEAEKGVTELSSASRWPVLASLLLYRKILDEIEANDYNNFTRRAYVSKPKKLLTL</Hsp_hseq>
+      <Hsp_midline>+ + F +G++++    R+ + A+Y + R  D++ D G   S      L+     L+ + +G R    L A L ++ V  F +D+QPF D++     D+ K+RY +F +L  YC   A  VG + + + G        T++V  A +  +  A QL N  +DV  D ++GRVY+PQD+L + G+S+E I AG+    ++  M  + +RA +          EL       +   +L  + IL +++A  Y+ F +R  + K   L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1346883|sp|P49085.1|PSY_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase, chloroplastic; Flags: Precursor [Zea mays]</Hit_def>
+  <Hit_accession>P49085</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>3.13708e-22</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYG-KTDAVCVAQSD-----GICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDKKDWLIMLKRALWK</Hsp_qseq>
+      <Hsp_hseq>YAKTFYLGTMLMTEERRRAIWAIYVWCRRTDELVD-GPNANYITPTALDRWEKRLEDLFTG-RPYDMLDAAL-SDTISRFPIDIQPFRDMIEGMRSDLRKTRYNNFDELYMYCYYVAGTVGLMSVPVMGIATESKATTESVYSAALALGIANQLTNILRDVGEDARRGRIYLPQDELAQAGLSDEDIFKGVVTNRWRNFMKRQIKRARMFFEEAERGVNELSQASRWPVWASLLLYRQILDEIEANDYNNFTKRAYVGKGKKLLALPVAYGK</Hsp_hseq>
+      <Hsp_midline>+ + F +G++++    R+ + A+Y + R  D++ D G   +    + L+   + L+ L +G R    L A L ++ +  F +D+QPF D++     D+ KTRY +F +L  YC   A  VG + + + G  T++    +S       +  A QL N  +DV  D ++GR+Y+PQD+L + G+S+E I  G     ++  M  + +RA    +       EL       +   +L  + IL +++A  Y+ F +R  + K   L+ L  A  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1346882|sp|P49293.1|PSY_CUCME</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase, chloroplastic; AltName: Full=MEL5; Flags: Precursor [Cucumis melo]</Hit_def>
+  <Hit_accession>P49293</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>3.73673e-22</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQL-------VNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDKKDWLIMLKRA</Hsp_qseq>
+      <Hsp_hseq>YAKTFYLGTMLMTPERQKAIWAIYVWCRRTDELVD-GPNASHITPTALDRWEARLEELFQG-RPFDMLDAAL-ADTVTKFPVDIQPFKDMIEGMRMDLRKSRYKNFDELYLYCYYVAGTVGLMSVPVMGIAPESQASTESVYNAALALGIANQAPPNILRDVGEDARRGRIYLPQDELAQAGLSDEDIFAGRVTDKWRNFMKNQIKRARMFFDEAEKGVLELNKASRWPVWASLLLYRQILDEIEANDYDNFTKRAYVSKAKKILALPMA</Hsp_hseq>
+      <Hsp_midline>+ + F +G++++    +K + A+Y + R  D++ D G   S    + L+     L+ L  G R    L A L A+ V  F +D+QPF D++     D+ K+RY +F +L  YC   A  VG + + + G       +       AL L        N  +DV  D ++GR+Y+PQD+L + G+S+E I AGR    ++  M  + +RA            EL       +   +L  + IL +++A  YD F +R  + K   ++ L  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1709885|sp|P53797.1|PSY_NARPS</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase, chloroplastic; Flags: Precursor [Narcissus pseudonarcissus]</Hit_def>
+  <Hit_accession>P53797</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>1.39732e-21</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYG-KTDAVCVAQSD-----GICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDK</Hsp_qseq>
+      <Hsp_hseq>YAKTFYLGTLLMTPERRRAIWAIYVWCRRTDELVD-GHNASHITPSALDRWEARLEDLFAG-RPYDMFDAAL-SDTVSRFPVDIQPFMDMVEGMRMDLKKSRYKNFDELYLYCYYVAGTVGLMSVPVMGIAPESLAEAESVYNAALALGIANQLTNILRDVGEDARRGRIYLPQDELAEAGLSDEDVFTGKVTDKWRSFMKRQIKRARTFFEQAEKGVTELSQASRWPVWASLLLYRQILDEIEANDYNNFTKRAYVSK</Hsp_hseq>
+      <Hsp_midline>+ + F +G+L++    R+ + A+Y + R  D++ D G   S    S L+     L+ L +G R      A L ++ V  F +D+QPF D++     D+ K+RY +F +L  YC   A  VG + + + G   +++  A+S       +  A QL N  +DV  D ++GR+Y+PQD+L + G+S+E +  G+    ++  M  + +RA    +       EL       +   +L  + IL +++A  Y+ F +R  + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|54036898|sp|P65861.1|CRTB_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase; Short=PSase [Mycobacterium bovis AF2122/97] &gt;gi|613782617|sp|P9WHP2.1|CRTB_MYCTO RecName: Full=Phytoene synthase; Short=PSase [Mycobacterium tuberculosis CDC1551] &gt;gi|613782623|sp|P9WHP3.1|CRTB_MYCTU RecName: Full=Phytoene synthase; Short=PSase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P65861</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>3.97049e-21</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>EGMSVGHYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGV</Hsp_qseq>
+      <Hsp_hseq>ESITRTAARNFYYGIRLLPREKRAALSAVYALGRRIDDVAD-GELAPETKITELDAIRKSLDNIDD---SSDPVLVAL-ADAARRFPVPIAMFAELIDGARMEIDWTGCRDFDELIVYCRRGAGTIGKLCLSIFGPVSTATSRYAEQLGIALQQTNILRDVREDFLNGRIYLPRDELDRLGV</Hsp_hseq>
+      <Hsp_midline>E ++     NF  G  +LPR  R  + AVYA  R  DD+AD G +  E +++ L+ +R+ LD +     S+ P++  L A+A   F + +  F +L+     ++  T    F +L  YCRR A  +G++ L+++G         ++ +  ALQ  N  +DV  D+  GR+Y+P+D+L + GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|8928282|sp|Q9SSU8.1|PSY_DAUCA</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase, chloroplastic; Flags: Precursor [Daucus carota]</Hit_def>
+  <Hit_accession>Q9SSU8</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.70692e-20</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYG------KTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDKKDWLIML</Hsp_qseq>
+      <Hsp_hseq>YAKTFYLGTLLMTPERRRAVWAIYVWCRRTDELVD-GPNASHITPKALDRWEKRLNDLFDG--QPYDMYDAALADTVSTYPVDIQPFKDMIDGMRMDLKKSRYQTFDELYLYCYYVAGTVGLMSVPVMGIAPESKATTESVYSAALALGIANQLTNILRDVGEDARRGRIYLPQEELKLAGITPEYIFKGKVTDKWRSFMKGQIKRARMFFDEAEKGVAELSSASRWPVWASLLLYKQILDAIEANDYDNFTKRAYVGKAKKLVSL</Hsp_hseq>
+      <Hsp_midline>+ + F +G+L++    R+ V A+Y + R  D++ D G   S      L+   + L+ L  G    + +     A+ V  + +D+QPF D++     D+ K+RY  F +L  YC   A  VG + + + G       T     + +  +  A QL N  +DV  D ++GR+Y+PQ++L   G++ E I  G+    ++  M  + +RA            EL       +   +L  + IL  ++A  YD F +R  + K   L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1706139|sp|P54977.1|CRTB_STRGR</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase; Short=PSase [Streptomyces griseus]</Hit_def>
+  <Hit_accession>P54977</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>9.82336e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>GMSVGHYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEA--RLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDA--VCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQI</Hsp_qseq>
+      <Hsp_hseq>GLNARHGKTYFLATRLLPVDRRPAVHALYGFARWADDIVDDLDTPATPGERARALLGLEAQLEAGLRGARAAEPVI-RALADTAARYTIDHRHFTDFLSSMRSDLTVGGYASYEELGRYMHGSAAVIGLQMLPVLGTVVAREEAAPHAAALGVAFQLTNFLRDVGEDLDRGRLYLPTELLAAHGADRDRF</Hsp_hseq>
+      <Hsp_midline>G++  H + + + + +LP   R  VHA+Y FAR ADD+ D+   P+    R   L GL  +L+    G R+A P+I R  A+    + +D + F D LS+   D+    YA + +L  Y   SA  +G  ML + G   A       +  +  A QL NF +DV  D  +GR+Y+P + L   G   ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|585011|sp|P37270.1|CRTB_THET2</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase; Short=PSase [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>P37270</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.9433e-18</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMAD-EGSMPS--EARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELK-GRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDKKDWLIMLKRAL</Hsp_qseq>
+      <Hsp_hseq>HSATFYLGSLLFPKEARKGAWAVYAACRLGDEAVDGEGGGPEALEAWWAGVERAYRG-RPLAEWEKGLAWALERWD----IPF----EAFLHMREGFLTDLGPVRLGTEAELLRYCYQVAGTVGRMMAPIAGGGKE-AEARAVKLGQAMQLTNILRDVGEDLERDRVYLPLDLLRAHGVEVEDLRAGRVTPGYRALMAHLEGKARALYREGLAGLGHLKVGRAAIAL--AALQYRGILDKLRLSGYDNLGRRAHLKAWERALLLPKAF</Hsp_hseq>
+      <Hsp_midline>H   F +GSL+ P+  RK   AVYA  R  D+  D EG  P   EA  +G+E   R    LA   +     + R D    +PF    + F  +   F  D+   R     +L  YC + A  VGR+M  + G       A++  +  A+QL N  +DV  D ++ RVY+P D L   GV  E + AGR    ++ LMA+   +A  + + G      LK GR  + L    L  + IL KL    YD   +R  L   +  ++L +A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|85683252|sp|P54905.2|CRTB_RHOS4</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase; Short=PSase [Rhodobacter sphaeroides 2.4.1]</Hit_def>
+  <Hit_accession>P54905</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>4.20083e-17</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>EGMSVGHYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEG------SMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAA</Hsp_qseq>
+      <Hsp_hseq>EMIRTGSY-SFHAASRLLPERVRAPSLALYAFCRVADDAVDEAVNDGQREEDAEVKRRAVLSLRDRLD-LVYGGRPRNAPADRAFAAVVEEFEMPRALPEALLEGLAWDAVGRSYDSFSGVLDYSARVAAAVGAMMCVLMRVRDPDVLARACDLGLAMQLTNIARDVGTDARSGRIYLPRDWMEEEGLPVEEFLA</Hsp_hseq>
+      <Hsp_midline>E +  G Y +F   S +LP R+R P  A+YAF R ADD  DE          +E +   +  LR  LD L  GGR  +    R  A  V  F +       LL   + D V   Y  F  + DY  R A  VG +M  L    D   +A++  +  A+QL N  +DV  D + GR+Y+P+D + + G+  E+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2499978|sp|P55350.1|Y4AC_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Putative phytoene synthase [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55350</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>4.99417e-16</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>ENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVK-TRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAF</Hsp_qseq>
+      <Hsp_hseq>SSFYLGMRTLPPVQREAIFQIYSFCRQVDDIADSDE-PREHRLAALQQWRDHIDALY---QCVPPPRLKDYLASVTTFGLKREDFLAVVDGMEMDVLQDIRAPKMATLDLYCDRVASAVGRMSVRVFGLSEEDGIALAHHLGRALQLTNILRDIDEDAGLGRLYIPRESLDHAGITSSDPHKVIADKALPKACAPLAQRAM</Hsp_hseq>
+      <Hsp_midline> +F +G   LP   R+ +  +Y+F R  DD+AD    P E RL+ L+  R  +D L    +   P   +    +V  FGL  + F  ++     DV++  R      L  YC R A+ VGR+ + ++G ++   +A +  +  ALQL N  +D+  D   GR+YIP++ L   G++        AD A  +  A   +RA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|30923192|sp|P21683.2|CRTB_PANAN</Hit_id>
+  <Hit_def>RecName: Full=All-trans-phytoene synthase/15-cis-phytoene synthase; Short=PSase [Pantoea ananatis]</Hit_def>
+  <Hit_accession>P21683</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.03025e-14</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>EGMSVGHYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAH-------PLIARLDAEAVVPFGLDLQPFY--DLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSP-LARELKGRIGLELR</Hsp_qseq>
+      <Hsp_hseq>ETMAVGS-KSFATASKLFDAKTRRSVLMLYAWCRHCDDVIDDQTLGFQARQPALQTPEQRLMQLEMKTRQAYAGSQMHEPAFAAFQE---VAMAHDIAPAYAFDHLEGFAMDVREAQYSQLDDTLRYCYHVAGVVGLMMAQIMGVRDNATLDRACDLGLAFQLTNIARDIVDDAHAGRCYLPASWLEHEGLNKENYAAPENRQALSRI-------ARRLVQEAEPYYLSATAGLAGLPLR</Hsp_hseq>
+      <Hsp_midline>E M+VG  ++F   S +   + R+ V  +YA+ R  DD+ D+ ++  +AR   L+   + L  L    R A+       P  A       V    D+ P Y  D L  F+ DV + +Y+   D   YC   A  VG +M  + G  D   + ++  +  A QL N  +D+  D   GR Y+P   L   G+++E  AA     A  R+       A R+++   P       G  GL LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|527525055|sp|D5KXJ0.1|CRTB_ENTAG</Hit_id>
+  <Hit_def>RecName: Full=All-trans-phytoene synthase; AltName: Full=Phytoene synthase; Short=PSase [Pantoea agglomerans]</Hit_def>
+  <Hit_accession>D5KXJ0</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.11494e-14</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MSVGHYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPF-----GLDLQPFY--DLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELK-GRIGLELRM--IVLGAQLILQKL</Hsp_qseq>
+      <Hsp_hseq>MEVGS-KSFATASKLFDAKTRRSVLMLYAWCRHCDDVIDDQVLGFSNDTPSLQSAEQRLAQLEMKTR--QPMRIQMHEPAFAAFQEVAMAHDILPAYAFDHLAGFAMDVHETRYQTLDDTLRYCYHVAGVVGLMMAQIMGVRDNATLDRACDLGLAFQLTNIARDIVEDAEAGRCYLPAAWLAEEGLTRENLADPQNRKALSRV-------ARRLVETAEPYYRSASAGLPGLPLRSAWAIATAQQVYRKI</Hsp_hseq>
+      <Hsp_midline>M VG  ++F   S +   + R+ V  +YA+ R  DD+ D+  +        L+   + L  L    R   P+  ++   A   F       D+ P Y  D L+ F+ DV +TRY    D   YC   A  VG +M  + G  D   + ++  +  A QL N  +D+  D + GR Y+P   L + G++ E +A  +   A  R+       A R+++   P  R    G  GL LR    +  AQ + +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|117497|sp|P17056.1|CRTB_RHOCB</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase; Short=PSase [Rhodobacter capsulatus SB 1003]</Hit_def>
+  <Hit_accession>P17056</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>2.88827e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>EGMSVGHYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAA</Hsp_qseq>
+      <Hsp_hseq>ELIRTGSY-SFHAASRVLPARVRDPALALYAFCRVADDEVDEVGAPRDKAAAVLKLGDRLEDIYA--GRPRNAPSDRAFAAVVEEFEMPRELPEALLEGFAWDAEGRWYHTLSDVQAYSARVAAAVGAMMCVLMRVRNPDALARACDLGLAMQMSNIARDVGEDARAGRLFLPTDWMVEEGIDPQAFLA</Hsp_hseq>
+      <Hsp_midline>E +  G Y +F   S +LP R+R P  A+YAF R ADD  DE   P +   + L+   R  D+ A  GR  +    R  A  V  F +  +    LL  F+ D     Y    D+  Y  R A  VG +M  L    +   +A++  +  A+Q+ N  +DV  D + GR+++P D +++ G+  +   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|334350986|sp|E3Q717.1|LCPS_COLGM</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Colletotrichum graminicola M1.001]</Hit_def>
+  <Hit_accession>E3Q717</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>3.10033e-11</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>NFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVL-ASGGRSAHPLIARLDAEAVVPFGLDL-----------QPFYDLLSAFSQDVVKTRYAH----FGDLTDYCRRSANPVGRIMLAL-----------YGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQI</Hsp_qseq>
+      <Hsp_hseq>SFHLASSVFPGRLRIDLTLLYSYCRLADDLVDDAATPEEAAV-WISKLDRHLSLLYKDPDATSTPLASKYAAENFPPSALSALDMLPTSLLPREPLAELLKGFEMDLSFSNSAFPIADPEDLELYAARVASTVGQACLELVFCHCQHGLPDYMKAYLRNTARQMGL--ALQFVNISRDIAVDAKIGRVYLPTTWLKEEGLTPEDV</Hsp_hseq>
+      <Hsp_midline>+F + S + P RLR  +  +Y++ R ADD+ D+ + P EA +  +  L R L +L      ++ PL ++  AE   P  L             +P  +LL  F  D+  +  A       DL  Y  R A+ VG+  L L           Y K      A+  G+  ALQ VN  +D+AVD + GRVY+P   L + G++ E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|334350989|sp|B2WAQ3.1|LCPS_PYRTR</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Pyrenophora tritici-repentis Pt-1C-BFP]</Hit_def>
+  <Hit_accession>B2WAQ3</Hit_accession>
+  <Hit_len>583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.05447e-10</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>NFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGG---------------RSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQD-------VVKTRYAHFGDLTDYCRRSANPVGRIMLAL----YGKT-----DAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDKKDWLIMLKRAL</Hsp_qseq>
+      <Hsp_hseq>SFYLASATFPGPLRADLLLLYSFCRVADDLVDNASDADEAR-AWIAKMRKFLNNVYSDKLPQSVVHSQICDDFPPSTQSALLQLPATKLSP-----QPLEDLLHGFEMDLAFQQGPIIRT----MEDLRVYSERVAGTVAQMCIQLIFYWYPSTLDTEEKNVIVAAGNSMGVALQYVNIARDIEVDAQIGRVYLPLNWLSEAGLSYDDVLKKPNQAQIQTLRKHLLNHAFSVYEKAKDSIERLPIEARGPIRVAVESYMEIGRILRSEQYQVKAGRATVPKSRRIMVAWRTL</Hsp_hseq>
+      <Hsp_midline>+F + S   P  LR  +  +Y+F R ADD+ D  S   EAR + +  +R+ L+ + S                  S    + +L A  + P     QP  DLL  F  D       +++T      DL  Y  R A  V ++ + L    Y  T       V VA  + +  ALQ VN  +D+ VD Q GRVY+P + L + G+S + +      A  Q L  +    AF + +        L       +R+ V     I + L + +Y V A R  + K   +++  R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|121921264|sp|Q0V6M5.1|LCPS_PHANO</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Phaeosphaeria nodorum SN15]</Hit_def>
+  <Hit_accession>Q0V6M5</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>5.63765e-10</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>NFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRS---------AH-PLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTD---YCRRSANPVGRIMLALYGK---------TDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRM</Hsp_qseq>
+      <Hsp_hseq>SFYLASATFPGPLRSDLLLLYSFCRVADDLVDNAATAEEAK-EWISKLHQYLDLVYSDAKSSTVSEDFVQAHFPSDARSALLQLPAHKLPRQPLQDLLHGFEMDLAFNTSSPIKTETDLRLYSERVAGTVAQMCIELIFRLYPSNMTSGEERKVVDAGNQMGMALQYVNIARDISVDAHIGRVYLPLDWLQESGLTYDEVLISPEGARMESLRMRLLEKAFSI</Hsp_hseq>
+      <Hsp_midline>+F + S   P  LR  +  +Y+F R ADD+ D  +   EA+   +  L + LD++ S  +S         AH P  AR     +    L  QP  DLL  F  D+     +     TD   Y  R A  V ++ + L  +          +   V   + +  ALQ VN  +D++VD   GRVY+P D L + G++ +++      A  + L      +AF +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|117495|sp|P22872.1|CRTB_ESCVU</Hit_id>
+  <Hit_def>RecName: Full=Phytoene synthase; Short=PSase [Escherichia vulneris]</Hit_def>
+  <Hit_accession>P22872</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>8.36444e-09</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>ENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGS----------MPSEARLSGLEGLRRELDVLA-SGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSP</Hsp_qseq>
+      <Hsp_hseq>KSFATAAKLFDPATRRSVLMLYTWCRHCDDVIDDQTHGFASEAAAEEEATQRLARL----RTLTLAAFEGAEMQDPAFAAFQ-EVALTHGITPRMALDHLDGFAMDVAQTRYVTFEDTLRYCYHVAGVVGLMMARVMGVRDERVLDRACDLGLAFQLTNIARDIIDDAAIDRCYLPAEWLQDAGLTPENYAARENRAALARV-------AERLIDAAEP</Hsp_hseq>
+      <Hsp_midline>++F   + +     R+ V  +Y + R  DD+ D+ +            +  RL+ L    R L + A  G     P  A    E  +  G+  +   D L  F+ DV +TRY  F D   YC   A  VG +M  + G  D   + ++  +  A QL N  +D+  D    R Y+P + L   G++ E  AA    AA  R+       A R++ A  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|123661220|sp|Q4L976.1|CRTM_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L976</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.13211e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARL---DAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLAL-----------YGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVS</Hsp_qseq>
+      <Hsp_hseq>KSFSYAFDMLPEQQRRAIWAIYAVCRIVDD-----SIDVHQDVEYLHKINRDVKAIEHQTTTTFESDDRIMTAFADAATHFQMNFQALYDLIDTVEADQHFEMFETDRGLLDYCYGVAGTVGVLLIPILATPPSDEAYEYGKQ----------LGEALQLTNILRDVGEDYRNGRIYFSKARLNEFNVS</Hsp_hseq>
+      <Hsp_midline>++F     +LP + R+ + A+YA  R  DD     S+     +  L  + R++  +     +      R+    A+A   F ++ Q  YDL+     D     +     L DYC   A  VG +++ +           YGK           +  ALQL N  +DV  D++ GR+Y  +  L +F VS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|85700407|sp|P54975.2|CRTB_PARSN</Hit_id>
+  <Hit_def>RecName: Full=15-cis-phytoene synthase; Short=PSase [Paracoccus sp. N81106]</Hit_def>
+  <Hit_accession>P54975</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.19252e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>ENFPVGSLILPRRLRKPVHAVYAFARTADDMADE---GSMPS-----EARLSGLEGLRRELDVLAS--GGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFG</Hsp_qseq>
+      <Hsp_hseq>QSFATAAKLMPPGIRDDTVMLYAWCRHADDVIDGQALGSRPEAVNDPQARLDGLRA-----DTLAALQGDGPVTPPFAALRAVARRHDFPQAWPM-DLIEGFAMDVEARDYRTLDDVLEYSYHVAGIVGVMMARVMGVRDDPVLDRACDLGLAFQLTNIARDVIDDARIGRCYLPGDWLDQAG</Hsp_hseq>
+      <Hsp_midline>++F   + ++P  +R     +YA+ R ADD+ D    GS P      +ARL GL       D LA+  G     P  A L A A         P  DL+  F+ DV    Y    D+ +Y    A  VG +M  + G  D   + ++  +  A QL N  +DV  D + GR Y+P D L + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|74658843|sp|Q67GH9.1|LCPS_BLATR</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Blakeslea trispora]</Hit_def>
+  <Hit_accession>Q67GH9</Hit_accession>
+  <Hit_len>608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.1233e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>502</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>ENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLI------ARLDAEAVVPFG--------LDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVG----RIMLALYGK-TDAVCVAQSDGICTALQLVNFWQDVAVDWQK-GRVYIPQDDLLKFGVSEEQIAAGRA</Hsp_qseq>
+      <Hsp_hseq>KSFYTASAVFPSYVRQDLGVLYAFCRATDDLCDDESKSVQERRDQLDLTRQFVRDLFSQKTSAPIVIDWELYQNQLPASCISAFRAFTRLRHVLEVDPVEELLDGYKWDLERRPILDEQDLEAYSACVASSVGEMCTRVILAQDQKENDAWIIDRAREMGLVLQYVNIARDIVTDSETLGRCYLPQQWLRK--EETEQIQQGNA</Hsp_hseq>
+      <Hsp_midline>++F   S + P  +R+ +  +YAF R  DD+ D+ S   + R   L+  R+ +  L S   SA  +I       +L A  +  F         L++ P  +LL  +  D+ +       DL  Y    A+ VG    R++LA   K  DA  + ++  +   LQ VN  +D+  D +  GR Y+PQ  L K     EQI  G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|74630454|sp|Q8X0Z1.1|LCPS_GIBFU</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Carotene cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Fusarium fujikuroi]</Hit_def>
+  <Hit_accession>Q8X0Z1</Hit_accession>
+  <Hit_len>612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.62172e-07</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>324</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>NFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDV------------LASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYA------HFGDLTDYCRRSANPVGRI--MLALYGKTDAV-------CVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFR</Hsp_qseq>
+      <Hsp_hseq>SFYLASGTFEGRLRIDLIRLYAFCRAADDLVDEAPSVDDSRAS-IEKLRKFLDLAYEENQEEPSQRLREYVTSSIPEMFHMALLQLPTYYLPKQPLDDLLKGFDTDLLFDRKSGAFPIETTEDLDIYGSRVAGTVAELCNHLILYHTPEAVPEDIQREVVASGQEMGIALQYVNIARDIKTDAEIDRVYLPLSWLKEAQLTPEDVIQQPHGPTIEALRHKLLDRAFE</Hsp_hseq>
+      <Hsp_midline>+F + S     RLR  +  +YAF R ADD+ DE     ++R S +E LR+ LD+            L     S+ P +  +    +  + L  QP  DLL  F  D++  R +         DL  Y  R A  V  +   L LY   +AV        VA    +  ALQ VN  +D+  D +  RVY+P   L +  ++ E +         + L      RAF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|334350987|sp|E4ZUB5.1|LCPS_LEPMJ</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Leptosphaeria maculans JN3]</Hit_def>
+  <Hit_accession>E4ZUB5</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>7.28987e-07</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>LRKPVHAVYAFARTADDMADEGSMPSEARL------SGLEGLRRELDVLASGG----RSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDV---VKTRYAHFGDLTDYCRRSANPVGRIML---------ALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRL</Hsp_qseq>
+      <Hsp_hseq>LRMDLLLLYSFCRVADDLVDNAATTEEARQWIAKLHKFLDNVYRK-DVVCSSVTDQVRKEFPLDTHSALLQLPCCKLSAEPLRDLLRGFEMDLEFNSTSPIQSTEDLVLYSERVAGTVAQMCIQLIFHLYPSSLTAEKRHKVVAAGNSMGVALQYVNIARDIGVDAKIGRVYLPTDWLSEVGLNCDTVLKDPKDPRIEAL</Hsp_hseq>
+      <Hsp_midline>LR  +  +Y+F R ADD+ D  +   EAR         L+ + R+ DV+ S      R   PL        +    L  +P  DLL  F  D+     +      DL  Y  R A  V ++ +         +L  +     VA  + +  ALQ VN  +D+ VD + GRVY+P D L + G++ + +     D   + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|264664574|sp|O06728.2|YISP_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative phytoene/squalene synthase YisP [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O06728</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>7.78945e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>GMSVGHYENFPVGSL-ILPRRLRKPVHAVYAFARTADDMADEGSMPS-EARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSD-GICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQ---RLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVF</Hsp_qseq>
+      <Hsp_hseq>GQIVGEYAPACFKALSYLPLKQRQASWAVLSFCHTAAS-ADEKVLPAFEAKAD---------HVYQRTNNGKQHLWKAFD-HAYRTFTLESEPFREFIAAQKEDA--KPYDDLDELLMYAYRTGGAAGLMLLPILTRRKQDQLKQAAVSLGLAIQLVRFLSDLGTDQQKNR--IPRQVMQQFGYTEADLQKGTVNKAFTMTWEYIAFEAEAYLEECQDALPLFPQYSQKT---VKAALHLHRAVLEKIRAKQHDVF</Hsp_hseq>
+      <Hsp_midline>G  VG Y      +L  LP + R+   AV +F  TA   ADE  +P+ EA+            V          L    D  A   F L+ +PF + ++A  +D     Y    +L  Y  R+    G ++L +  +     + Q+   +  A+QLV F  D+  D QK R  IP+  + +FG +E  +  G  + AF      +A+E        +   PL  +   +    ++  +   + +L+K+ A ++DVF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|334350988|sp|B2ATB0.1|LCPS_PODAN</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Podospora anserina S mat+]</Hit_def>
+  <Hit_accession>B2ATB0</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.23626e-06</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>534</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>NFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSE-----ARLSGLEGLRRELDVLASGGR------SAHPLIARLDAEAVVPFGLDLQPFYDLLSAF----------SQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALY---------GKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSP</Hsp_qseq>
+      <Hsp_hseq>SFYLANSLFTGRLRIDLILLYSFCRLADDLVDDSTSRTEVKSWTTKLYKFLDLHYKSDVKANKARINDYIDEAFPPEAKSALKYLPATILPSQPLYQLIEGFELDSQFSFHDSSESAKYPIVDEDKLNYYGQCVAGTVGELCVALIIEHCEPEMPDERKKMLMSVSRTMGVALQYVNIARDIVVDAEMGRVYLPTTWLKEEGLTPEDVVAHPRGKHVENLRRRLLSEAFKLYDEARP</Hsp_hseq>
+      <Hsp_midline>+F + + +   RLR  +  +Y+F R ADD+ D+ +  +E      +L     L  + DV A+  R       A P  A+   + +    L  QP Y L+  F          S +  K        L  Y +  A  VG + +AL           +   + ++ S  +  ALQ VN  +D+ VD + GRVY+P   L + G++ E + A       + L       AF++     P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|334350990|sp|D1Z4K7.1|LCPS_SORMK</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Sordaria macrospora k-hell]</Hit_def>
+  <Hit_accession>D1Z4K7</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>2.92036e-06</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>NFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVL---ASGGRSAHPLIARLDA---EAVVPFG-----------LDLQPFYDLLSAFSQDV------------VKTRYAHFGDLTDYCRRSANPVGRIMLALY------GKTDAVCVAQSDGIC---TALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQI</Hsp_qseq>
+      <Hsp_hseq>SFYLANSLFSGRLRIDLILLYSFCRLADDLVDDAKSRLEV-LSWTAKLNHFLDQHYGDSDATEDPKQKAERIDAYIKEAFPPFAYQALHLLPTHILPPKPLYELIKGFEMDSQFTFHGSSDSTNLKFPIAHDKDLKTYAIRVAGTVGELCIALIIHHCLPDMSDSQKRRLESAACRMGIALQYVNIARDILVDAQIGRVYLPTSWLKEEGLTHKAV</Hsp_hseq>
+      <Hsp_midline>+F + + +   RLR  +  +Y+F R ADD+ D+     E  LS    L   LD     +           R+DA   EA  PF            L  +P Y+L+  F  D             +K   AH  DL  Y  R A  VG + +AL         +D+         C    ALQ VN  +D+ VD Q GRVY+P   L + G++ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|205693628|sp|A9JQL9.1|CRTM_STAAU</Hit_id>
+  <Hit_def>RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>A9JQL9</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>9.70336e-06</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPL-----IARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIM---LALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAY-------ECRRAFRMLKAGSPLAR---ELKGRIGLEL</Hsp_qseq>
+      <Hsp_hseq>HSKSFSYAFDLLPEDQRKAVWAIYAVCRKIDD-----SIDVYGDIQFLNQIKEDIQSIEKYPYEYHHFQSDRRIMMALQHVAQHKNIAFQSFYNLIDTVYKDQHFTMFETDAELFGYCYGVAGTVGEVLTPILSDHETHQTYDVARRLG--ESLQLINILRDVGEDFENERIYFSKQRLKQYEVDIAEVYQNGVNNHYIDLWEYYAAIAEKDFRDVMDQIKVFSIEAQPIIELAARIYIEI</Hsp_hseq>
+      <Hsp_midline>H ++F     +LP   RK V A+YA  R  DD     S+     +  L  ++ ++  +       H       I            +  Q FY+L+    +D   T +    +L  YC   A  VG ++   L+ +       VA+  G   +LQL+N  +DV  D++  R+Y  +  L ++ V   ++     +  +  L  Y       + R     +K  S  A+   EL  RI +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|123548746|sp|Q2YWE7.1|CRTM_STAAB</Hit_id>
+  <Hit_def>RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus aureus RF122]</Hit_def>
+  <Hit_accession>Q2YWE7</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.01518e-05</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPL-----IARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIM---LALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAY-------ECRRAFRMLKAGSPLAR---ELKGRIGLEL</Hsp_qseq>
+      <Hsp_hseq>HSKSFSYAFDLLPEDQRKAVWAIYAVCRKIDD-----SIDVYGDIQFLNQIKEDIQSIEKYPYEHHHFQSDRRIMMALQHVAQHKNIAFQSFYNLIDTVYKDQHFTMFETDAELFGYCYGVAGTVGEVLTPILSDHETHQTYDVARRLG--ESLQLINILRDVGEDFENERIYFSKQRLKQYEVDIAEVYQNGVNNHYIDLWEYYAAIAEKDFRDVMDQIKVFSIEAQPIIELAARIYIEI</Hsp_hseq>
+      <Hsp_midline>H ++F     +LP   RK V A+YA  R  DD     S+     +  L  ++ ++  +       H       I            +  Q FY+L+    +D   T +    +L  YC   A  VG ++   L+ +       VA+  G   +LQL+N  +DV  D++  R+Y  +  L ++ V   ++     +  +  L  Y       + R     +K  S  A+   EL  RI +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|81705010|sp|Q7A3E1.1|CRTM_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus aureus subsp. aureus N315] &gt;gi|81780867|sp|Q99R75.1|CRTM_STAAM RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>Q7A3E1</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>4.53114e-05</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPL-----IARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIM---LALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAY-------ECRRAFRMLKAGSPLAR---ELKGRIGLEL</Hsp_qseq>
+      <Hsp_hseq>HSKSFSYAFDLLPEDQRKAVWAIYAVCRKIDD-----SIDVYGDIQFLNQIKEDIQSIEKYPYEHHHFQSDRRIMMALQHVAQHKNIAFQSFYNLIDTVYKDQHFTMFETDAELFGYCYGVAGTVGEVLTPILSDHETHQTYDVARRLG--ESLQLINILRDVGEDFDNERVYFSKQRLKQYEVDIAEVYQNGVNNHYIDLWEYYAAIAEKDFQDVMDQIKVFSIEAQPIIELAARIYIEI</Hsp_hseq>
+      <Hsp_midline>H ++F     +LP   RK V A+YA  R  DD     S+     +  L  ++ ++  +       H       I            +  Q FY+L+    +D   T +    +L  YC   A  VG ++   L+ +       VA+  G   +LQL+N  +DV  D+   RVY  +  L ++ V   ++     +  +  L  Y       + +     +K  S  A+   EL  RI +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|81648595|sp|Q6G6B2.1|CRTM_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81693678|sp|Q5HCY8.1|CRTM_STAAC RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus aureus subsp. aureus COL] &gt;gi|81761958|sp|Q8NUQ5.1|CRTM_STAAW RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus aureus subsp. aureus MW2] &gt;gi|122538623|sp|Q2FV59.1|CRTM_STAA8 RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|123484383|sp|Q2FDU5.1|CRTM_STAA3 RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus aureus subsp. aureus USA300] &gt;gi|166898078|sp|O07854.3|CRTM_STAAE RecName: Full=Dehydrosqualene synthase; AltName: Full=4,4&apos;-diapophytoene synthase; Short=DAP synthase; AltName: Full=Diapophytoene synthase [Staphylococcus aureus subsp. aureus str. Newman]</Hit_def>
+  <Hit_accession>Q6G6B2</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.98721e-05</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>HYENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPL-----IARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIM---LALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAY-------ECRRAFRMLKAGSPLAR---ELKGRIGLEL</Hsp_qseq>
+      <Hsp_hseq>HSKSFSYAFDLLPEDQRKAVWAIYAVCRKIDD-----SIDVYGDIQFLNQIKEDIQSIEKYPYEHHHFQSDRRIMMALQHVAQHKNIAFQSFYNLIDTVYKDQHFTMFETDAELFGYCYGVAGTVGEVLTPILSDHETHQTYDVARRLG--ESLQLINILRDVGEDFDNERIYFSKQRLKQYEVDIAEVYQNGVNNHYIDLWEYYAAIAEKDFQDVMDQIKVFSIEAQPIIELAARIYIEI</Hsp_hseq>
+      <Hsp_midline>H ++F     +LP   RK V A+YA  R  DD     S+     +  L  ++ ++  +       H       I            +  Q FY+L+    +D   T +    +L  YC   A  VG ++   L+ +       VA+  G   +LQL+N  +DV  D+   R+Y  +  L ++ V   ++     +  +  L  Y       + +     +K  S  A+   EL  RI +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|585750|sp|P37295.1|LCPS_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; AltName: Full=Protein albino-2; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Carotene cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>P37295</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000109668</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>NFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVL---ASGGRSAHPLIARLDAEAVVPFG--------------LDLQPFYDLLSAFSQDVVKTRY------------AHFGDLTDYCRRSANPVGRIMLALY-----------GKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAG-RADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGA</Hsp_qseq>
+      <Hsp_hseq>SFYLANSLFSGRLRIDLILLYSFCRLADDLVDDAKSRREV-LSWTAKLNHFLDLHYKDADATEDPKKKAERIDAYIKTAFPPCAYQALHLLPTHILPPKPLYDLIKGFEMDSQFTFHGTSDSTDLQYPIADDKDLENYAIYVAGTVGELCIALIIYHCLPDMSDTQKRELETAACRMGI--ALQYVNIARDIVVDARIGRVYLPTTWLKKEGLTHKMVLENPEGPEVIERMRRRLLENAFELYGGARP---EMQ-RIPSEARGPMIGA</Hsp_hseq>
+      <Hsp_midline>+F + + +   RLR  +  +Y+F R ADD+ D+     E  LS    L   LD+    A           R+DA     F               L  +P YDL+  F  D   T +            A   DL +Y    A  VG + +AL             K +    A   GI  ALQ VN  +D+ VD + GRVY+P   L K G++ + +          +R+       AF +     P   E++ RI  E R  ++GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|334350992|sp|D4D802.1|LCPS_TRIVH</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Trichophyton verrucosum HKI 0517]</Hit_def>
+  <Hit_accession>D4D802</Hit_accession>
+  <Hit_len>595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00438063</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>VGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARL------SGLEGLRRELDVLASGGRSAHPLIARL------DAEAVVPFG-LDLQPFYDLLSAFSQD--------VVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSD---------GICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIA</Hsp_qseq>
+      <Hsp_hseq>LGSAMFEGQLRLDLVALYSFCRKADDLIDDAPNRATAQYWIKQCEKALE-LRFKLKGAALDNTAAYQQLTKSIPPQLHAAVHLLPASRLPKGPLSDLLKGFEIDMKFDSERGIFPIATEH--DLEVYAYHVAGTIATLLLELVFRHHPVSISDSERLRVISAGEGMGRALQYTNIARDIVRDAEIGRVYIPSVWLAEQGLTPSMVV</Hsp_hseq>
+      <Hsp_midline>+GS +   +LR  + A+Y+F R ADD+ D+    + A+         LE LR +L   A    +A+  + +        A  ++P   L   P  DLL  F  D        +      H  DL  Y    A  +  ++L L  +   V ++ S+         G+  ALQ  N  +D+  D + GRVYIP   L + G++   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|334350984|sp|E4UPP6.1|LCPS_ARTGP</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Microsporum gypseum CBS 118893]</Hit_def>
+  <Hit_accession>E4UPP6</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00504496</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>309</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>VGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARL------SGLEGLRRELDVLASGGRSAHPLIAR-----LDAEA-VVPFG-LDLQPFYDLLSAFSQDV----------VKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICT---------ALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAA</Hsp_qseq>
+      <Hsp_hseq>LGSAMFEGQLRLDLIALYSFCRKADDLIDDAPDRETAKYWIEQCEKALE-LRFKLKETALDDTEAYQLLTKSIPQPLHAAAHLLPASRLPKEPLSCLLQGFEIDLKFDFEKGSFPIATEH----DLEVYAYHVAGTVASLLLELVFRHHPVSISEAERLRVISAGEVMGRALQYTNIARDITRDAEIGRVYIPSSWLAEEGLTPSMVIS</Hsp_hseq>
+      <Hsp_midline>+GS +   +LR  + A+Y+F R ADD+ D+      A+         LE LR +L   A     A+ L+ +     L A A ++P   L  +P   LL  F  D+          + T +    DL  Y    A  V  ++L L  +   V +++++ +           ALQ  N  +D+  D + GRVYIP   L + G++   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|74698856|sp|Q4P0S6.1|LCPS_USTMA</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Ustilago maydis 521]</Hit_def>
+  <Hit_accession>Q4P0S6</Hit_accession>
+  <Hit_len>690</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0171206</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>325</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>ENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGG---RSAH---PLIARL-------------------DAEAVVPFG--LDLQPFYDLLSAFSQDV--------VKTRYAHFGDLTDYCRRSANPVG----RIMLALYGKT</Hsp_qseq>
+      <Hsp_hseq>KSFNAASLLLPWDLRTDLGCLYAFCRVADDLVDDHAQELQAKAKNLDVVRDIVDAVYADSIVDRKQHLSTPIGERLRILLASAALSDKIKQDTRAAATSIAPLTQYIPKRLWYEMLQGYSADLRFQHQDARQRTRLQSMDDLVEYSQCVAGVVGEMCIRVILGRCGST</Hsp_hseq>
+      <Hsp_midline>++F   SL+LP  LR  +  +YAF R ADD+ D+ +   +A+   L+ +R  +D + +     R  H   P+  RL                    A ++ P    +  + +Y++L  +S D+         +TR     DL +Y +  A  VG    R++L   G T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|34922667|sp|Q9UUQ6.1|LCPS_MUCCL</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; Includes: RecName: Full=Phytoene synthase [Mucor circinelloides f. lusitanicus]</Hit_def>
+  <Hit_accession>Q9UUQ6</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0266142</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>499</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>ENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLI------ARLDAEAVVPFG--------LDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVG----RIMLALYGKTDA-----VCVAQSDGICTALQLVNFWQDVAVDWQK-GRVYIPQDDLLKFGVSEEQIA</Hsp_qseq>
+      <Hsp_hseq>KSFYTASAVFPGDVRQELGVLYAFCRATDDLCDNEQVPVQTRKEQLILTHQFVSDLFGQKTSAPTAIDWDFYNDQLPASCISAFKSFTRLRHVLEAGAIKELLDGYKWDLERRSIRDQEDLRYYSACVASSVGEMCTRIILAHADKPASRQQTQWIIQRAREMGLVLQYTNIARDIVTDSEELGRCYLPQDWL-----TEKEVA</Hsp_hseq>
+      <Hsp_midline>++F   S + P  +R+ +  +YAF R  DD+ D   +P + R   L    + +  L     SA   I       +L A  +  F         L+     +LL  +  D+ +       DL  Y    A+ VG    RI+LA   K  +       + ++  +   LQ  N  +D+  D ++ GR Y+PQD L     +E+++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|74638755|sp|Q9P854.1|LCPS_PHYB8</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Phycomyces blakesleeanus NRRL 1555(-)]</Hit_def>
+  <Hit_accession>Q9P854</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0333274</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>499</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>NFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLR-------------RELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVG----RIMLALYGKTDAV----CVAQSDGICTALQLVNFWQDVAVDW-QKGRVYIPQDDLLKFGVSEEQ--IAAGRA</Hsp_qseq>
+      <Hsp_hseq>SFYTASSVFSFEARQDLGVLYGFCRATDDLADNNDVSVPDRKKQLELVRGFVRQMFDSKHGHPDIDWTQYSGSIPDSFIAAFRSFTRLRDVLEIKAVEELLDGYTFDLEQREVKNEDDLVYYSACVASSVGEMCTRVLMASEPGGNRTMLKWTVERARDMGLALQLTNIARDIVTDSKQLGRSYVPRDWL----TSQESALLKAGKA</Hsp_hseq>
+      <Hsp_midline>+F   S +     R+ +  +Y F R  DD+AD   +    R   LE +R              ++D     G      IA   +   +   L+++   +LL  ++ D+ +    +  DL  Y    A+ VG    R+++A     +       V ++  +  ALQL N  +D+  D  Q GR Y+P+D L     S+E   + AG+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|121799440|sp|Q2U4X9.1|LCPS_ASPOR</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Aspergillus oryzae RIB40]</Hit_def>
+  <Hit_accession>Q2U4X9</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.193906</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARL------SGLEG--LRRELDVLASGGRSA-HP----LIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTR------YAHFGDLTDYCRRSANPVGRIMLALY-----GKTDAVCVAQSDGICTA-------LQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADA</Hsp_qseq>
+      <Hsp_hseq>MGSAMFQGPFRIDLILLYSFFRVADDLVDESQDTESARMIIEQCDQLLEAKFSHPELFPFSPGYQEAKHPAPPELIAAIDSLPVS--RLRLEHLKGLIEGFRTDLTFSAKPGSFPFVTESDLDTYAYHVASSVAASMLGLVVHHFPDHQFAINVFLRRRVVDAGERMGQTLQYINVARDIARDAAINRVYLPTTWLKQQGLGPEDVLASPTDS</Hsp_hseq>
+      <Hsp_midline>+GS +     R  +  +Y+F R ADD+ DE      AR+        LE      EL   + G + A HP    LIA +D+  V    L L+    L+  F  D+  +       +    DL  Y    A+ V   ML L          A+ V     +  A       LQ +N  +D+A D    RVY+P   L + G+  E + A   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|408360181|sp|O14354.2|MG101_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Mitochondrial genome maintenance protein mgm101; Flags: Precursor [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O14354</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.249636</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>HFGDLTDYCRRSANPVGRIMLALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGR-VYIPQDDLLKFGVSE</Hsp_qseq>
+      <Hsp_hseq>YFGKLSRYLYKNGEPIN---IWVYSRNSSFSVIPKNGLLSPKITQRFYQNSSIQYQKDKNIYEPKENLEEKELSE</Hsp_hseq>
+      <Hsp_midline>+FG L+ Y  ++  P+    + +Y +  +  V   +G+ +      F+Q+ ++ +QK + +Y P+++L +  +SE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|182627640|sp|A7YVD7.1|NDUF6_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=NADH dehydrogenase (ubiquinone) complex I, assembly factor 6; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>A7YVD7</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.315953</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>YENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTD------AVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDKKDWLIML</Hsp_qseq>
+      <Hsp_hseq>YEGY-LCSLLLPAESRSSAFALRAFNVELAQIKDSVSEKTIG-LMRMQFWKKTVDDIYSDNPPHQPVAIEL-WKAVRRHNLTKRWLMKIIDEREKNLDDKAYRNIQELENYAENTQSSLLYLTLEILGIKDLHADHAASHIGKAQGIVTCLRATPY------HGSRRRVFLPMDICMLHGVSQEDFLRKSQDRNVRDVVYDVASQAHLHLKHARSFHRSIPVK-AFPAFLQTVALEDYLKKIQQVDFDLF--HPSLQRKNTLLPL</Hsp_hseq>
+      <Hsp_midline>YE + + SL+LP   R    A+ AF      + D  S  +   L  ++  ++ +D + S      P+   L  +AV    L  +    ++    +++    Y +  +L +Y   + + +  + L + G  D      A  + ++ GI T L+   +         + RV++P D  +  GVS+E       D   + ++     +A   LK      R +  +      +  +  +  L+K+    +D+F   P L +K+ L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|74629221|sp|Q7Z859.1|LCPS_PHARH</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Xanthophyllomyces dendrorhous]</Hit_def>
+  <Hit_accession>Q7Z859</Hit_accession>
+  <Hit_len>673</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.710434</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>449</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>DLLSAFSQDVV---KTRYAHFGDLTDYCRRSANPVGRIML------------ALYGKTDAVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRAD</Hsp_qseq>
+      <Hsp_hseq>DLIFPLSTEAVQARKTPIETTADLLDYGLCVAGSVAELLVYVSWASAPSQVPATIEEREAVLVASRE-MGTALQLVNIARDIKGDATEGRFYLP---LSFFGLRDESKLAIPTD</Hsp_hseq>
+      <Hsp_midline>DL+   S + V   KT      DL DY    A  V  +++            A   + +AV VA  + + TALQLVN  +D+  D  +GR Y+P   L  FG+ +E   A   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|46397078|sp|Q9Z1A6.1|VIGLN_RAT</Hit_id>
+  <Hit_def>RecName: Full=Vigilin; AltName: Full=High density lipoprotein-binding protein; Short=HDL-binding protein [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q9Z1A6</Hit_accession>
+  <Hit_len>1268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.11608</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>909</Hsp_hit-from>
+      <Hsp_hit-to>983</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>LPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDL</Hsp_qseq>
+      <Hsp_hseq>FPDREENPVHSVEPSIQENGDEAGEGREAKETD----PGSPRRCDIIVISGRKEKCEAAKEALEALVPVTIEVEVPFDL</Hsp_hseq>
+      <Hsp_midline> P R   PVH+V    +   D A EG    E       G  R  D++   GR      A+   EA+VP  ++++  +DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|46396970|sp|Q8VDJ3.1|VIGLN_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Vigilin; AltName: Full=High density lipoprotein-binding protein; Short=HDL-binding protein [Mus musculus]</Hit_def>
+  <Hit_accession>Q8VDJ3</Hit_accession>
+  <Hit_len>1268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>3.05582</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>909</Hsp_hit-from>
+      <Hsp_hit-to>983</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>LPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDL</Hsp_qseq>
+      <Hsp_hseq>FPDREENPVHSVEPSIQENGDEAGEGREAKETD----PGSPRRCDIIIISGRKEKCEAAKEALEALVPVTIEVEVPFDL</Hsp_hseq>
+      <Hsp_midline> P R   PVH+V    +   D A EG    E       G  R  D++   GR      A+   EA+VP  ++++  +DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|182676420|sp|Q330K2.2|NDUF6_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=NADH dehydrogenase (ubiquinone) complex I, assembly factor 6; AltName: Full=Putative phytoene synthase; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q330K2</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.73113</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>YENFPVGSLILPRRLRKPVHAVYAFARTADDMADEGSMPSEARLSGLEGLRRELDVLASGGRSAHPLIARLDAEAVVPFGLDLQPFYDLLSAFSQDVVKTRYAHFGDLTDYCRRSANPVGRIMLALYGKTD------AVCVAQSDGICTALQLVNFWQDVAVDWQKGRVYIPQDDLLKFGVSEEQIAAGRADAAFQRLMAYECRRAFRMLKAGSPLARELKGRIGLELRMIVLGAQLILQKLDACRYDVFAQRPVLDKKDWLIML</Hsp_qseq>
+      <Hsp_hseq>YEGY-LCSLLLPAESRSSVFALRAFNVELAQVKDSVSEKTIG-LMRMQFWKKTVEDIYCDNPPHQPVAIEL-WKAVKRHNLTKRWLMKIVDEREKNLDDKAYRNIKELENYAENTQSSLLYLTLEILGIKDLHADHAASHIGKAQGIVTCLRATPY------HGSRRKVFLPMDICMLHGVSQEDFLRRNQDKNVRDVIYDIASQAHLHLKHARSFHKTVPVK-AFPAFLQTVSLEDFLKKIQRVDFDIF--HPSLQQKNTLLPL</Hsp_hseq>
+      <Hsp_midline>YE + + SL+LP   R  V A+ AF      + D  S  +   L  ++  ++ ++ +        P+   L  +AV    L  +    ++    +++    Y +  +L +Y   + + +  + L + G  D      A  + ++ GI T L+   +         + +V++P D  +  GVS+E       D   + ++     +A   LK      + +  +      +  +  +  L+K+    +D+F   P L +K+ L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

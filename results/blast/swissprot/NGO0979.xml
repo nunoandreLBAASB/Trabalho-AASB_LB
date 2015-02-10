@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>15023</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F822</BlastOutput_query-def>
+  <BlastOutput_query-len>156</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>15023</Iteration_query-ID>
+  <Iteration_query-def>Q5F822</Iteration_query-def>
+  <Iteration_query-len>156</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|257096837|sp|B2FRW0.1|Y1108_STRMK</Hit_id>
+  <Hit_def>RecName: Full=UPF0042 nucleotide-binding protein Smlt1108 [Stenotrophomonas maltophilia K279a]</Hit_def>
+  <Hit_accession>B2FRW0</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.20915</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>VEAHPEYHRYLERIEDHLDTDWLPENGESN</Hsp_qseq>
+      <Hsp_hseq>LEAQPDVQRYLAQLMDFLDT-WLPKLGDGT</Hsp_hseq>
+      <Hsp_midline>+EA P+  RYL ++ D LDT WLP+ G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|166226199|sp|A5IDN6.1|IDI2_LEGPC</Hit_id>
+  <Hit_def>RecName: Full=Isopentenyl-diphosphate delta-isomerase; Short=IPP isomerase; AltName: Full=Isopentenyl diphosphate:dimethylallyl diphosphate isomerase; AltName: Full=Isopentenyl pyrophosphate isomerase; AltName: Full=Type 2 isopentenyl diphosphate isomerase; Short=IDI-2 [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>A5IDN6</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.28696</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>EYHRYLERIEDHLDTDWLPENGES--NPFLHMSL-----------HLSVQE---QAGIDQPHGIRAIHDTLCAKRGWPEAEHEMMEALAETLW</Hsp_qseq>
+      <Hsp_hseq>EYSQFEQRKRDHIELALMPANQSSELNPFDHFSLVHEALPDLDFKDISIQSIRLKKKVEKPFIISSMT---AGHSNALEINYRLMEACSKTKW</Hsp_hseq>
+      <Hsp_midline>EY ++ +R  DH++   +P N  S  NPF H SL            +S+Q    +  +++P  I ++           E  + +MEA ++T W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81377135|sp|Q5ZTV7.1|IDI2_LEGPH</Hit_id>
+  <Hit_def>RecName: Full=Isopentenyl-diphosphate delta-isomerase; Short=IPP isomerase; AltName: Full=Isopentenyl diphosphate:dimethylallyl diphosphate isomerase; AltName: Full=Isopentenyl pyrophosphate isomerase; AltName: Full=Type 2 isopentenyl diphosphate isomerase; Short=IDI-2 [Legionella pneumophila subsp. pneumophila str. Philadelphia 1]</Hit_def>
+  <Hit_accession>Q5ZTV7</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.10414</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>EYHRYLERIEDHLDTDWLPENGES--NPFLHMSL-----------HLSVQE---QAGIDQPHGIRAIHDTLCAKRGWPEAEHEMMEALAETLW</Hsp_qseq>
+      <Hsp_hseq>EYSQFEQRKRDHIELALMPANQSSELNPFDHFSLVHEALPDLDFKDISIQSIRFKKPVEKPFIISSMT---AGHSNALEINYRLMEACSKTKW</Hsp_hseq>
+      <Hsp_midline>EY ++ +R  DH++   +P N  S  NPF H SL            +S+Q    +  +++P  I ++           E  + +MEA ++T W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81891317|sp|Q6AXP4.1|CB081_RAT</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein C2orf81 homolog [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q6AXP4</Hit_accession>
+  <Hit_len>597</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.34213</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>515</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>PHGIRAIHDTLCAKRGWPEAEHEMMEALAETLW</Hsp_qseq>
+      <Hsp_hseq>PQGQEPVEDSVSEDSGWPLAVPQVLEATSQVLW</Hsp_hseq>
+      <Hsp_midline>P G   + D++    GWP A  +++EA ++ LW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|6647883|sp|P56737.1|TRPD_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate phosphoribosyltransferase [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>P56737</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.46684</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>DVNTHDVRRFFARVWQQRLNPLQLGAL</Hsp_qseq>
+      <Hsp_hseq>DLNDEEVKKLFTLIIHEKVSPVQLGAI</Hsp_hseq>
+      <Hsp_midline>D+N  +V++ F  +  ++++P+QLGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81822355|sp|Q5WUY8.1|IDI2_LEGPL</Hit_id>
+  <Hit_def>RecName: Full=Isopentenyl-diphosphate delta-isomerase; Short=IPP isomerase; AltName: Full=Isopentenyl diphosphate:dimethylallyl diphosphate isomerase; AltName: Full=Isopentenyl pyrophosphate isomerase; AltName: Full=Type 2 isopentenyl diphosphate isomerase; Short=IDI-2 [Legionella pneumophila str. Lens]</Hit_def>
+  <Hit_accession>Q5WUY8</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.20442</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>EYHRYLERIEDHLDTDWLPENGES--NPFLHMSL-----------HLSVQE---QAGIDQPHGIRAIHDTLCAKRGWPEAEHEMMEALAETLW</Hsp_qseq>
+      <Hsp_hseq>EYSQFEQRKRDHIELALMPANQSSELNPFDHFSLVHEALPDLDFKDISIQSIRFNKPVEKPFIISSM---TAGHSNAIEINYRLMEACSKTKW</Hsp_hseq>
+      <Hsp_midline>EY ++ +R  DH++   +P N  S  NPF H SL            +S+Q       +++P  I ++           E  + +MEA ++T W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|254765541|sp|B9L8B2.1|EFTS_NAUPA</Hit_id>
+  <Hit_def>RecName: Full=Elongation factor Ts; Short=EF-Ts [Nautilia profundicola AmH]</Hit_def>
+  <Hit_accession>B9L8B2</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.42039</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>HLDTDWLPENGESNPFLHMSLHLSVQEQAGIDQPHGIRAIHDTL</Hsp_qseq>
+      <Hsp_hseq>RIGTIKAPENGIVNGYIHAGGKVGVLVAAACDSEKTCEAIKDTL</Hsp_hseq>
+      <Hsp_midline> + T   PENG  N ++H    + V   A  D      AI DTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81881583|sp|Q9D845.1|TEX9_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Testis-expressed sequence 9 protein; AltName: Full=Testis-specifically expressed protein 1; Short=Tsec-1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9D845</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.80582</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>RYLERIEDHLDTDWLPENGESNPFLHMSLHLSVQEQ</Hsp_qseq>
+      <Hsp_hseq>KTISRIEGQLDEDGLPECAEDDSFCGVSKDIGTEAQ</Hsp_hseq>
+      <Hsp_midline>+ + RIE  LD D LPE  E + F  +S  +  + Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81822548|sp|Q5X3K0.1|IDI2_LEGPA</Hit_id>
+  <Hit_def>RecName: Full=Isopentenyl-diphosphate delta-isomerase; Short=IPP isomerase; AltName: Full=Isopentenyl diphosphate:dimethylallyl diphosphate isomerase; AltName: Full=Isopentenyl pyrophosphate isomerase; AltName: Full=Type 2 isopentenyl diphosphate isomerase; Short=IDI-2 [Legionella pneumophila str. Paris]</Hit_def>
+  <Hit_accession>Q5X3K0</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.0506</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>EYHRYLERIEDHLDTDWLPEN--GESNPFLHMSL-----------HLSVQE---QAGIDQPHGIRAIHDTLCAKRGWPEAEHEMMEALAETLW</Hsp_qseq>
+      <Hsp_hseq>EYSQFEQRKRDHIELALMPANQSNELNPFDHFSLVHEALPDLDFKDISIQSIRFKKPVEKPFIISSMT---AGHSNALEINSRLMEACSKTKW</Hsp_hseq>
+      <Hsp_midline>EY ++ +R  DH++   +P N   E NPF H SL            +S+Q    +  +++P  I ++           E    +MEA ++T W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|238057714|sp|B5Z8S5.1|TRPD_HELPG</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate phosphoribosyltransferase [Helicobacter pylori G27]</Hit_def>
+  <Hit_accession>B5Z8S5</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.27604</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>DVNTHDVRRFFARVWQQRLNPLQLGAL</Hsp_qseq>
+      <Hsp_hseq>DLNDGEVKKLFTLIIHEKVSPVQLGAI</Hsp_hseq>
+      <Hsp_midline>D+N  +V++ F  +  ++++P+QLGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|75192181|sp|Q9MAH3.1|DJ1B_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Protein DJ-1 homolog B; Short=AtDJ1B; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9MAH3</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.3564</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>SVQEQAGIDQPHGIRAIHDTL</Hsp_qseq>
+      <Hsp_hseq>SVENQVGVDACHGIKMVADTL</Hsp_hseq>
+      <Hsp_midline>SV+ Q G+D  HGI+ + DTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|123173642|sp|Q17ZP2.1|TRPD_HELAH</Hit_id>
+  <Hit_def>RecName: Full=Anthranilate phosphoribosyltransferase [Helicobacter acinonychis str. Sheeba]</Hit_def>
+  <Hit_accession>Q17ZP2</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>9.49598</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>DVNTHDVRRFFARVWQQRLNPLQLGAL</Hsp_qseq>
+      <Hsp_hseq>DLNDEEVKRLFTFIINEEVSPTQLGAI</Hsp_hseq>
+      <Hsp_midline>D+N  +V+R F  +  + ++P QLGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

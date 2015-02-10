@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>2507</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F830 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase</BlastOutput_query-def>
+  <BlastOutput_query-len>160</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>2507</Iteration_query-ID>
+  <Iteration_query-def>Q5F830 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase</Iteration_query-def>
+  <Iteration_query-len>160</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499253615|ref|WP_010951155.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae] &gt;gi|59801357|ref|YP_208069.1| 2-C-methyl-D-erythritol 2,4-cyclo diphosphate synthase [Neisseria gonorrhoeae FA 1090] &gt;gi|75432479|sp|Q5F830.1|ISPF_NEIG1 RecName: Full=2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase; Short=MECDP-synthase; Short=MECPP-synthase; Short=MECPS [Neisseria gonorrhoeae FA 1090] &gt;gi|59718252|gb|AAW89657.1| conserved hypothetical protein [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>WP_010951155</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.709</Hsp_bit-score>
+      <Hsp_score>831</Hsp_score>
+      <Hsp_evalue>5.00364e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|268587598|gb|EEZ52274.1|</Hit_id>
+  <Hit_def>YgbB/YacN family protein [Neisseria gonorrhoeae PID1]</Hit_def>
+  <Hit_accession>EEZ52274</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.324</Hsp_bit-score>
+      <Hsp_score>830</Hsp_score>
+      <Hsp_evalue>1.06081e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|304338832|gb|EFM04935.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis ATCC 13091] &gt;gi|316986030|gb|EFV64967.1| 2C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis H44/76]</Hit_def>
+  <Hit_accession>EFM04935</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.324</Hsp_bit-score>
+      <Hsp_score>830</Hsp_score>
+      <Hsp_evalue>1.29138e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|291610632|gb|EFF39742.1|</Hit_id>
+  <Hit_def>2C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>EFF39742</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>1.48848e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488147178|ref|WP_002218386.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria] &gt;gi|15677365|ref|NP_274520.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis MC58] &gt;gi|121635183|ref|YP_975428.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis FAM18] &gt;gi|161870373|ref|YP_001599543.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 053442] &gt;gi|385323854|ref|YP_005878293.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECPS; MECDP-synthase) [Neisseria meningitidis 8013] &gt;gi|385328805|ref|YP_005883108.1| 2-C-methyl-D-erythritol 2,4-cyclo diphosphate synthase [Neisseria meningitidis alpha710] &gt;gi|385340390|ref|YP_005894262.1| 2-C-methyl-D-erythritol 2,4-cyclo diphosphate synthase [Neisseria meningitidis G2136] &gt;gi|385341590|ref|YP_005895461.1| 2-C-methyl-D-erythritol 2,4-cyclo diphosphate synthase [Neisseria meningitidis M01-240149] &gt;gi|385852881|ref|YP_005899395.1| 2-C-methyl-D-erythritol 2,4-cyclo diphosphate synthase [Neisseria meningitidis H44/76] &gt;gi|385855548|ref|YP_005902061.1| 2-C-methyl-D-erythritol 2,4-cyclo diphosphate synthase [Neisseria meningitidis M01-240355] &gt;gi|385857562|ref|YP_005904074.1| 2-C-methyl-D-erythritol 2,4-cyclo diphosphate synthase [Neisseria meningitidis NZ-05/33] &gt;gi|12230271|sp|Q9JYM5.1|ISPF_NEIMB RecName: Full=2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase; Short=MECDP-synthase; Short=MECPP-synthase; Short=MECPS [Neisseria meningitidis MC58] &gt;gi|166216842|sp|A1KUU9.1|ISPF_NEIMF RecName: Full=2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase; Short=MECDP-synthase; Short=MECPP-synthase; Short=MECPS [Neisseria meningitidis FAM18] &gt;gi|189045571|sp|A9M0U6.1|ISPF_NEIM0 RecName: Full=2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase; Short=MECDP-synthase; Short=MECPP-synthase; Short=MECPS [Neisseria meningitidis 053442] &gt;gi|7226756|gb|AAF41868.1| YgbB/YacN family protein [Neisseria meningitidis MC58] &gt;gi|120866889|emb|CAM10648.1| conserved hypothetical protein [Neisseria meningitidis FAM18] &gt;gi|161595926|gb|ABX73586.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 053442] &gt;gi|254670685|emb|CBA06803.1| 2C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis alpha153] &gt;gi|254673237|emb|CBA08230.1| 2C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis alpha275] &gt;gi|261392241|emb|CAX49761.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECPS; MECDP-synthase) [Neisseria meningitidis 8013] &gt;gi|308389657|gb|ADO31977.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis alpha710] &gt;gi|325127151|gb|EGC50101.1| 2C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis N1568] &gt;gi|325130588|gb|EGC53335.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis OX99.30304] &gt;gi|325134671|gb|EGC57311.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M13399] &gt;gi|325136594|gb|EGC59195.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M0579] &gt;gi|325140660|gb|EGC63177.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis CU385] &gt;gi|325142707|gb|EGC65087.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 961-5945] &gt;gi|325144798|gb|EGC67089.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M01-240013] &gt;gi|325198634|gb|ADY94090.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis G2136] &gt;gi|325199885|gb|ADY95340.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis H44/76] &gt;gi|325201796|gb|ADY97250.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M01-240149] &gt;gi|325204489|gb|ADY99942.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M01-240355] &gt;gi|325208451|gb|ADZ03903.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NZ-05/33] &gt;gi|389605330|emb|CCA44250.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis alpha522] &gt;gi|402316598|gb|EJU52141.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis NM255] &gt;gi|402317798|gb|EJU53327.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis 93004] &gt;gi|402322389|gb|EJU57851.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis NM183] &gt;gi|402322621|gb|EJU58073.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis NM140] &gt;gi|402324553|gb|EJU59985.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis NM2781] &gt;gi|402328654|gb|EJU64021.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis 69166] &gt;gi|402329003|gb|EJU64366.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis NM576] &gt;gi|402335378|gb|EJU70644.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis 92045] &gt;gi|402336135|gb|EJU71397.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis 80179] &gt;gi|402337255|gb|EJU72504.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM2657] &gt;gi|402342622|gb|EJU77781.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis NM3081] &gt;gi|402344859|gb|EJU79992.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis NM3001] &gt;gi|432202119|gb|ELK58184.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM422] &gt;gi|432204662|gb|ELK60701.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 87255] &gt;gi|432207771|gb|ELK63759.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 68094] &gt;gi|432208821|gb|ELK64793.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 97021] &gt;gi|432214369|gb|ELK70270.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 70012] &gt;gi|432215122|gb|ELK71012.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2006087] &gt;gi|432219152|gb|ELK75000.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2002038] &gt;gi|432221229|gb|ELK77042.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 97014] &gt;gi|432224926|gb|ELK80688.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M13255] &gt;gi|432226617|gb|ELK82343.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM418] &gt;gi|432229415|gb|ELK85103.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM762] &gt;gi|432232909|gb|ELK88544.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M7089] &gt;gi|432233690|gb|ELK89316.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M7124] &gt;gi|432235034|gb|ELK90653.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM174] &gt;gi|432240523|gb|ELK96058.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 9757] &gt;gi|432240678|gb|ELK96212.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 9506] &gt;gi|432246361|gb|ELL01812.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 4119] &gt;gi|432247341|gb|ELL02779.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 12888] &gt;gi|432258420|gb|ELL13704.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 61103] &gt;gi|432260240|gb|ELL15500.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 69096] &gt;gi|432272774|gb|ELL27880.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 70030] &gt;gi|485274158|gb|EOB40764.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 70021] &gt;gi|485274185|gb|EOB40787.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 69176] &gt;gi|485274216|gb|EOB40817.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 69155] &gt;gi|485280591|gb|EOB46761.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 96060] &gt;gi|485284760|gb|EOB50701.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 96060] &gt;gi|485284900|gb|EOB50836.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 96060] &gt;gi|485288344|gb|EOB54028.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 69100] &gt;gi|485294392|gb|EOB59674.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 63023] &gt;gi|485294767|gb|EOB60028.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 61106] &gt;gi|485300865|gb|EOB65724.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 70082] &gt;gi|485332886|gb|EOB95625.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM43] &gt;gi|485336233|gb|EOB98742.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM82] &gt;gi|485342592|gb|EOC04685.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM313] &gt;gi|485343473|gb|EOC05484.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM1482] &gt;gi|485345805|gb|EOC07676.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM1495] &gt;gi|485349588|gb|EOC11200.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 73696] &gt;gi|485349632|gb|EOC11241.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 73704] &gt;gi|485352837|gb|EOC14232.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 81858] &gt;gi|485355286|gb|EOC16514.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2002020] &gt;gi|485357386|gb|EOC18417.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM477] &gt;gi|485359774|gb|EOC20592.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M13265] &gt;gi|485362007|gb|EOC22619.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3147] &gt;gi|485365500|gb|EOC25787.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2001072] &gt;gi|485366863|gb|EOC27056.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2001073] &gt;gi|485368685|gb|EOC28769.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2000081] &gt;gi|485373458|gb|EOC33195.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2004032] &gt;gi|485375111|gb|EOC34754.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2001213] &gt;gi|485378275|gb|EOC37723.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2004264] &gt;gi|485380765|gb|EOC40040.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2000175] &gt;gi|485380931|gb|EOC40194.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2005079] &gt;gi|485383690|gb|EOC42790.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2000175] &gt;gi|485384968|gb|EOC43981.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2001068] &gt;gi|485387302|gb|EOC46150.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2005040] &gt;gi|485387636|gb|EOC46462.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2002004] &gt;gi|485392235|gb|EOC50747.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2005172] &gt;gi|485393721|gb|EOC52126.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2008223] &gt;gi|485394814|gb|EOC53158.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2003051] &gt;gi|485430082|gb|EOC85852.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM23] &gt;gi|485430626|gb|EOC86331.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM32] &gt;gi|485435072|gb|EOC90354.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM35] &gt;gi|485436460|gb|EOC91619.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM36] &gt;gi|514069455|gb|EPF54370.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM134] &gt;gi|514069811|gb|EPF54693.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 98002] &gt;gi|514070271|gb|EPF55121.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2007461] &gt;gi|530899276|gb|EQC98029.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2002030] &gt;gi|530899479|gb|EQC98219.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 96037] &gt;gi|530900052|gb|EQC98756.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3141] &gt;gi|530905381|gb|EQD03751.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3139] &gt;gi|530906516|gb|EQD04810.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM045] &gt;gi|530907815|gb|EQD06037.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM151] &gt;gi|530911144|gb|EQD09171.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM003] &gt;gi|530914452|gb|EQD12278.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM1476] &gt;gi|530917072|gb|EQD14753.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM518] &gt;gi|530920813|gb|EQD18257.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3173] &gt;gi|530922185|gb|EQD19543.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3230] &gt;gi|530923181|gb|EQD20478.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM2866] &gt;gi|535127636|gb|EEZ45839.2| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae FA19] &gt;gi|636862134|gb|KDM99256.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria gonorrhoeae] &gt;gi|654607243|gb|KEC87726.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria gonorrhoeae] &gt;gi|663090497|gb|KER38793.1| 2C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 992008] &gt;gi|693765156|gb|KGI96035.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria gonorrhoeae] &gt;gi|723270278|gb|KHC97470.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|723273878|gb|KHD01062.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|726975707|gb|KHF23127.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|730571090|gb|AIZ18892.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|730573465|gb|AIZ20867.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis M7124] &gt;gi|730575801|gb|AIZ22750.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|730578270|gb|AIZ24717.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|730579572|gb|AIZ25553.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|744799138|gb|AJC63926.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis LNP21362] &gt;gi|747185395|gb|KIF89462.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|747185576|gb|KIF89590.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|747188104|gb|KIF91664.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|747189171|gb|KIF92515.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002218386</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.168</Hsp_bit-score>
+      <Hsp_score>827</Hsp_score>
+      <Hsp_evalue>2.04914e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|488180378|ref|WP_002251586.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis] &gt;gi|432271217|gb|ELL26343.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 77221]</Hit_def>
+  <Hit_accession>WP_002251586</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.398</Hsp_bit-score>
+      <Hsp_score>825</Hsp_score>
+      <Hsp_evalue>4.07932e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488173914|ref|WP_002245122.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis] &gt;gi|218768494|ref|YP_002343006.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis Z2491] &gt;gi|385338328|ref|YP_005892201.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECPS; MECDP-synthase) [Neisseria meningitidis WUE 2594] &gt;gi|12230264|sp|Q9JTM4.1|ISPF_NEIMA RecName: Full=2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase; Short=MECDP-synthase; Short=MECPP-synthase; Short=MECPS [Neisseria meningitidis Z2491] &gt;gi|121052502|emb|CAM08841.1| conserved hypothetical protein [Neisseria meningitidis Z2491] &gt;gi|319410742|emb|CBY91125.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECPS; MECDP-synthase) [Neisseria meningitidis WUE 2594] &gt;gi|432202460|gb|ELK58523.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 98080] &gt;gi|432209028|gb|ELK64999.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 88050] &gt;gi|432214999|gb|ELK70890.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 63041] &gt;gi|432246467|gb|ELL01914.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 63049] &gt;gi|432252386|gb|ELL07742.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2004090] &gt;gi|432252637|gb|ELL07989.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 96023] &gt;gi|432256140|gb|ELL11464.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 65014] &gt;gi|432258767|gb|ELL14048.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 97020] &gt;gi|432264249|gb|ELL19453.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3652] &gt;gi|432265587|gb|ELL20779.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3642] &gt;gi|432265786|gb|ELL20977.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2007056] &gt;gi|432270717|gb|ELL25853.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2001212] &gt;gi|432276898|gb|ELL31952.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 63006] &gt;gi|485281114|gb|EOB47250.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2000080] &gt;gi|485281367|gb|EOB47491.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 94018] &gt;gi|485287312|gb|EOB53058.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 75689] &gt;gi|485287697|gb|EOB53422.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 75643] &gt;gi|485293912|gb|EOB59228.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 97018] &gt;gi|485301191|gb|EOB66022.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 65012] &gt;gi|485301904|gb|EOB66690.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 64182] &gt;gi|485307127|gb|EOB71565.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 97027] &gt;gi|485308359|gb|EOB72704.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 96024] &gt;gi|485308961|gb|EOB73274.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 97008] &gt;gi|485313499|gb|EOB77529.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 98005] &gt;gi|485315177|gb|EOB79086.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2004085] &gt;gi|485315604|gb|EOB79488.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2003022] &gt;gi|485320211|gb|EOB83801.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2000063] &gt;gi|485321929|gb|EOB85393.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM604] &gt;gi|485322524|gb|EOB85954.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2002007] &gt;gi|485326865|gb|EOB90018.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM606] &gt;gi|485329085|gb|EOB92078.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM607]</Hit_def>
+  <Hit_accession>WP_002245122</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>5.13166e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIESQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIE+QAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|610427332|gb|AHW76208.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AHW76208</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>5.22941e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIESQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIE+QAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488161538|ref|WP_002232746.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis] &gt;gi|402316491|gb|EJU52036.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 93003] &gt;gi|485371803|gb|EOC31660.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis 2001001]</Hit_def>
+  <Hit_accession>WP_002232746</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.627</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>9.4633e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAANVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ  NVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|503214069|ref|WP_013448730.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria lactamica] &gt;gi|313668104|ref|YP_004048388.1| 2-c-methyl-d-erythritol 2,4-cyclodiphosphate synthase [Neisseria lactamica 020-06] &gt;gi|313005566|emb|CBN87002.1| 2-c-methyl-d-erythritol 2,4-cyclodiphosphate synthase (ec 4.6.1.12) (mecps) (mecdp-synthase) [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448730</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.627</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>9.4633e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRALLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSR LLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|645192910|ref|WP_025456728.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025456728</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.627</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>9.88614e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLSEGRKLILGGVEIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVANVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQL+EGRKLILGGVEIPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQV NVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|489784434|ref|WP_003688325.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae] &gt;gi|194098392|ref|YP_002001450.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae NCCP11945] &gt;gi|193933682|gb|ACF29506.1| YgbB/YacN family protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|226512623|gb|EEH61968.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae 1291] &gt;gi|268548031|gb|EEZ43449.1| YgbB/YacN family protein [Neisseria gonorrhoeae 35/02] &gt;gi|268585280|gb|EEZ49956.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae PID18] &gt;gi|268622231|gb|EEZ54631.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae PID332] &gt;gi|268626699|gb|EEZ59099.1| YgbB/YacN family protein [Neisseria gonorrhoeae SK-93-1035] &gt;gi|291012489|gb|EFE04478.1| YgbB/YacN family protein [Neisseria gonorrhoeae DGI2]</Hit_def>
+  <Hit_accession>WP_003688325</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>1.02956e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLIEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQL EGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|296839298|gb|EFH23236.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>EFH23236</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>1.02956e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLSEGRKLILGGVEIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVANVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQL+EGRKLILGGVEIPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQV NVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|488158482|ref|WP_002229690.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis] &gt;gi|372201311|gb|EHP15253.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM233] &gt;gi|485405882|gb|EOC63455.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3042] &gt;gi|485419398|gb|EOC75998.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM51] &gt;gi|485422578|gb|EOC78981.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM80] &gt;gi|485425696|gb|EOC81853.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM165] &gt;gi|485425885|gb|EOC82026.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3223]</Hit_def>
+  <Hit_accession>WP_002229690</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.242</Hsp_bit-score>
+      <Hsp_score>822</Hsp_score>
+      <Hsp_evalue>1.20353e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDEDSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKD DSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|488166922|ref|WP_002238130.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis] &gt;gi|402331437|gb|EJU66774.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis 98008]</Hit_def>
+  <Hit_accession>WP_002238130</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.242</Hsp_bit-score>
+      <Hsp_score>822</Hsp_score>
+      <Hsp_evalue>1.37217e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MANIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>M NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|504394299|ref|WP_014581401.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria] &gt;gi|385850918|ref|YP_005897433.1| 2-C-methyl-D-erythritol 2,4-cyclo diphosphate synthase [Neisseria meningitidis M04-240196] &gt;gi|325205741|gb|ADZ01194.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M04-240196] &gt;gi|636863981|gb|KDN00943.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria gonorrhoeae] &gt;gi|636866212|gb|KDN03024.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_014581401</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.857</Hsp_bit-score>
+      <Hsp_score>821</Hsp_score>
+      <Hsp_evalue>1.96802e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLIEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQL EGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|738521127|ref|WP_036469604.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria lactamica] &gt;gi|673469735|gb|KFJ36365.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_036469604</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.701</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>4.51566e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAANVDTTMIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ  NVDTT+IAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|269209494|gb|EEZ75949.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>EEZ75949</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.472</Hsp_bit-score>
+      <Hsp_score>820</Hsp_score>
+      <Hsp_evalue>4.65008e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAANVDTTMIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ  NVDTT+IAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|268624445|gb|EEZ56845.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae SK-92-679]</Hit_def>
+  <Hit_accession>EEZ56845</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.087</Hsp_bit-score>
+      <Hsp_score>819</Hsp_score>
+      <Hsp_evalue>5.07481e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLIEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIVQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQL EGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVI QKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|498044153|ref|WP_010358309.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae] &gt;gi|538321637|ref|YP_008502697.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae MS11] &gt;gi|537637458|gb|EEZ47597.2| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria gonorrhoeae MS11]</Hit_def>
+  <Hit_accession>WP_010358309</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.931</Hsp_bit-score>
+      <Hsp_score>816</Hsp_score>
+      <Hsp_evalue>1.00269e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLIEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQAVNVDTTVIVQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQL EGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQ VNVDTTVI QKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|518103386|ref|WP_019273594.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273594</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.005</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>5.95264e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRALLRAAYQSVQAQGWRVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDVSCVNIKGKTNEKLGYLGRMEGIEAQAAVLLAHI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSR LLRAAYQSVQAQGW+VVNVDTTVIAQKPKLAPHIPQMRANIAADLGID+SCVNIKGKTNEKLGYLGRMEGIEAQAAVLL  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|488149376|ref|WP_002220584.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis] &gt;gi|325132671|gb|EGC55356.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis M6190] &gt;gi|325138559|gb|EGC61122.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis ES14902] &gt;gi|393291601|emb|CCI73131.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis alpha704] &gt;gi|402340188|gb|EJU75391.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase 2 [Neisseria meningitidis NM2795] &gt;gi|432227197|gb|ELK82908.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM586] &gt;gi|432242873|gb|ELK98388.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM126] &gt;gi|485329430|gb|EOB92393.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM133] &gt;gi|485336360|gb|EOB98854.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM94] &gt;gi|485336391|gb|EOB98883.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM94] &gt;gi|485339090|gb|EOC01421.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM95] &gt;gi|485339755|gb|EOC02040.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM94] &gt;gi|694193192|gb|KGI98418.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria meningitidis] &gt;gi|743394621|gb|KID54159.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis LNP27256]</Hit_def>
+  <Hit_accession>WP_002220584</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>3.03233e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRALLRDAYRSVQAKGWHVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSR LLR AY+SVQA+GW VVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|488159502|ref|WP_002230710.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis] &gt;gi|254805278|ref|YP_003083499.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis alpha14] &gt;gi|254668820|emb|CBA06825.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis alpha14] &gt;gi|372200733|gb|EHP14764.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM220] &gt;gi|485399277|gb|EOC57309.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM271] &gt;gi|485399761|gb|EOC57755.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM115] &gt;gi|485401294|gb|EOC59196.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM90] &gt;gi|485406342|gb|EOC63873.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3222] &gt;gi|485408069|gb|EOC65492.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3131] &gt;gi|485412488|gb|EOC69577.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3144] &gt;gi|485412926|gb|EOC69976.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3158] &gt;gi|485415207|gb|EOC72123.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM3164] &gt;gi|485419097|gb|EOC75723.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM27] &gt;gi|530914642|gb|EQD12456.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria meningitidis NM0552]</Hit_def>
+  <Hit_accession>WP_002230710</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.309</Hsp_bit-score>
+      <Hsp_score>804</Hsp_score>
+      <Hsp_evalue>6.37462e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTASEFKDADSRALLRDAYRSVQAKGWHVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTA+EFKDADSR LLR AY+SVQA+GW VVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|645196943|ref|WP_025457797.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025457797</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>9.55048e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTASEFKDADSRALLREAYRSVQVKGWRVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTA+EFKDADSR LLR AY+SVQ +GW+VVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|489810018|ref|WP_003713875.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria lactamica] &gt;gi|309378710|emb|CBX22660.1| unnamed protein product [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003713875</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>1.66734e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTASEFKDADSRALLREAYRSVQVKGWRVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTA+EFKDADSR LLR AY+SVQ +GW+VVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|489770868|ref|WP_003674778.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria cinerea] &gt;gi|269146338|gb|EEZ72756.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003674778</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>9.23345e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>MTNIRIGQGYDVHQLTEGRDLILGGVKIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSYFPDTASEFKDADSRALLREAYRSVQAKGWHVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDVSCVNIKGKTNEKLGYLGRMEGIEAQAAVLLAHI</Hsp_hseq>
+      <Hsp_midline>MTNIRIGQGYDVHQLTEGR LILGGV+IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGS+FPDTA+EFKDADSR LLR AY+SVQA+GW VVNVDTTVIAQKPKLAPHIPQMRANIAADLGID+SCVNIKGKTNEKLGYLGRMEGIEAQAAVLL  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|489869327|ref|WP_003772889.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria elongata] &gt;gi|291308148|gb|EFE49391.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria elongata subsp. glycolytica ATCC 29315] &gt;gi|747148963|gb|AJE19346.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>WP_003772889</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>2.39971e-98</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVHIPFEKGLLGHSDADALLHALTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQALGWRVVNVDTTVIAQKPKLAPHIPAMRANIAADLGIQTACVNIKGKTNEKLGYLGRMEAIEAQAAVLLMR</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQA GW+VVNVDTTVIAQKPKLAPHIP MRANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|339887195|gb|EGQ76781.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria macacae ATCC 33926]</Hit_def>
+  <Hit_accession>EGQ76781</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.197</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>1.16332e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVKIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQALGWCVVNVDTTIIAQKPKLAPHIPSMRANIAADLGIQTTCVNIKGKTNEKLGYLGRMEAIEAQAAVLLEK</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV+IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQA GW VVNVDTT+IAQKPKLAPHIP MRANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|748604822|ref|WP_039863002.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria macacae]</Hit_def>
+  <Hit_accession>WP_039863002</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>1.26306e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVKIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQALGWCVVNVDTTIIAQKPKLAPHIPSMRANIAADLGIQTTCVNIKGKTNEKLGYLGRMEAIEAQAAVLLEK</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV+IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQA GW VVNVDTT+IAQKPKLAPHIP MRANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|489775176|ref|WP_003679071.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria] &gt;gi|224953420|gb|EEG34629.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria flavescens NRL30031/H210] &gt;gi|694242043|gb|KGJ32897.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_003679071</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>1.85091e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRVGQGYDVHQLVEGRDLILGGVNIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQALGWKVVNVDTTVIAQKPKLAPHIPAMRANIAADLGLPENCVNIKGKTNEKLGYLGRMEAIEAQAAVLLIK</Hsp_hseq>
+      <Hsp_midline>NIR+GQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQA GW+VVNVDTTVIAQKPKLAPHIP MRANIAADLG+  +CVNIKGKTNEKLGYLGRME IEAQAAVLL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|489779533|ref|WP_003683424.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria flavescens] &gt;gi|241320971|gb|EER57184.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003683424</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>2.65377e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRVGQGYDVHQLVEGRDLILGGVNIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQELGWKVVNVDTTVIAQKPKLAPHIPAMRANIAADLGLPESCVNIKGKTNEKLGYLGRMEAIEAQAAVLLIK</Hsp_hseq>
+      <Hsp_midline>NIR+GQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQ  GW+VVNVDTTVIAQKPKLAPHIP MRANIAADLG+  SCVNIKGKTNEKLGYLGRME IEAQAAVLL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|489853210|ref|WP_003756883.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sicca] &gt;gi|255049867|gb|EET45331.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>WP_003756883</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>4.06245e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLL</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVNIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQTLGWRVVNVDTTIIAQKPKLAPHIPAMRANIAADLGIQTTCVNIKGKTNEKLGYLGRMEAIEAQAAVLL</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQ  GW+VVNVDTT+IAQKPKLAPHIP MRANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|746365944|ref|WP_039410380.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Morococcus cerebrosus] &gt;gi|742693350|gb|KIC05954.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_039410380</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>4.58085e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVKIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQALGWCIVNVDTTIIAQKPKLAPHIPAMRANIAADLGIQTACVNIKGKTNEKLGYLGRMEAIEAQAAVLLEK</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV+IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQA GW +VNVDTT+IAQKPKLAPHIP MRANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|748597839|ref|WP_039856019.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_039856019</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>5.16539e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVNIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYKSVQALGWHVVNVDTTIIAQKPKLAPHIPAMRANIAADLGIQTTCVNIKGKTNEKLGYLGRMEAIEAQAAVLLEK</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AY+SVQA GW VVNVDTT+IAQKPKLAPHIP MRANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|496669254|ref|WP_009311744.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sp. GT4A_CT1] &gt;gi|348611253|gb|EGY60914.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>WP_009311744</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>5.2221e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLL</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVNIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYKSVQALGWRVVNVDTTIIAQKPKLAPHIPAMRANIAADLGIQTACVNIKGKTNEKLGYLGRMEAIEAQAAVLL</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AY+SVQA GW+VVNVDTT+IAQKPKLAPHIP MRANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|288566605|gb|EFC88165.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>EFC88165</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>5.63513e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVNIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYKSVQALGWHVVNVDTTIIAQKPKLAPHIPAMRANIAADLGIQTTCVNIKGKTNEKLGYLGRMEAIEAQAAVLLEK</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AY+SVQA GW VVNVDTT+IAQKPKLAPHIP MRANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|515030697|ref|WP_016687951.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016687951</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.5</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>7.90722e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLL</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVKIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDTDSRVLLREAYKSVQALGWRVVNVDTTIIAQKPKLAPHIPAMRANIAADLGIQTTCVNIKGKTNEKLGYLGRMEAIEAQAAVLL</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV+IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKD DSRVLLR AY+SVQA GW+VVNVDTT+IAQKPKLAPHIP MRANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|518101018|ref|WP_019271226.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_019271226</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.115</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>1.19729e-96</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLL</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVNIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYKSVQALGWRVVNVDTTIIAQKPKLAPHIPAMRANIATDLGIQTTCVNIKGKTNEKLGYLGRMEAIEAQAAVLL</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AY+SVQA GW+VVNVDTT+IAQKPKLAPHIP MRANIA DLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|385694998|gb|EIG25574.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>EIG25574</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.115</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>1.63323e-96</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVKIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQALGWRVVNVDTTIIAQKPKLAPHIPAMCANIAADLGIQTACVNIKGKTNEKLGYLGRMEAIEAQAAVLLEK</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV+IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQA GW+VVNVDTT+IAQKPKLAPHIP M ANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|738544639|ref|WP_036492881.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_036492881</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>1.67951e-96</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVKIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQALGWRVVNVDTTIIAQKPKLAPHIPAMCANIAADLGIQTACVNIKGKTNEKLGYLGRMEAIEAQAAVLLEK</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV+IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQA GW+VVNVDTT+IAQKPKLAPHIP M ANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQAAVLL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|496465204|ref|WP_009174049.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sp. oral taxon 014] &gt;gi|298283358|gb|EFI24845.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009174049</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>1.91914e-96</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLL</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRDLILGGVHIPFEKGLLGHSDADALLHALTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQALGWRVVNVDTTIIAQKPKLAPHIPAMRANIAADLGIQTACVNIKGKTNEKLGYLGRMEAIEAQVAVLL</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQA GW+VVNVDTT+IAQKPKLAPHIP MRANIAADLGI  +CVNIKGKTNEKLGYLGRME IEAQ AVLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|490654750|ref|WP_004519740.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria subflava] &gt;gi|284796995|gb|EFC52342.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>WP_004519740</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>3.52851e-96</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRVGQGYDVHQLVEGRDLILGGVNIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQVLGWKVVNVDTTVIAQKPKLAPHIPAMRANIAVDLGLPENCVNIKGKTNEKLGYLGRMEAIEAQAAVLLIK</Hsp_hseq>
+      <Hsp_midline>NIR+GQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQ  GW+VVNVDTTVIAQKPKLAPHIP MRANIA DLG+  +CVNIKGKTNEKLGYLGRME IEAQAAVLL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|489843247|ref|WP_003746945.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria mucosa] &gt;gi|317400116|gb|EFV80775.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003746945</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>3.93554e-96</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRVGQGYDVHQLVEGRDLILGGVNIPFEKGLLGHSDADALLHAITDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLREAYQSVQALGWKVVNVDTTVIAQKPKLAPHIPAMCANIAADLGLPENCVNIKGKTNEKLGYLGRMEAIEAQAAVLLIK</Hsp_hseq>
+      <Hsp_midline>NIR+GQGYDVHQL EGR LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AYQSVQA GW+VVNVDTTVIAQKPKLAPHIP M ANIAADLG+  +CVNIKGKTNEKLGYLGRME IEAQAAVLL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|496408339|ref|WP_009117203.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria wadsworthii] &gt;gi|349790747|gb|EGZ44649.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria wadsworthii 9715]</Hit_def>
+  <Hit_accession>WP_009117203</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>1.91755e-94</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVRI</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVEGRPLILGGITIPFEKGLLGHSDADALLHAVTDAILGAAGLGDIGSHFPDTAAEFKDADSRVLLRKAYEAVRAKGWRIVNVDTTIIAQKPKLAPHIAAMRANLAADLGIGQDCVNIKGKTNEKLGYLGRMEGIEAQAAVLLMAV</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL EGR LILGG+ IPFEKGLLGHSDADALLHAVTDA+LGAAGLGDIGSHFPDTAAEFKDADSRVLLR AY++V+A+GW++VNVDTT+IAQKPKLAPHI  MRAN+AADLGI   CVNIKGKTNEKLGYLGRMEGIEAQAAVLL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|490413283|ref|WP_004285878.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria weaveri] &gt;gi|343967595|gb|EGV35838.1| hypothetical protein l13_11760 [Neisseria weaveri ATCC 51223]</Hit_def>
+  <Hit_accession>WP_004285878</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>7.11221e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLL</Hsp_qseq>
+      <Hsp_hseq>MMKIRVGQGYDVHQLVENRSLILGGVTIPFEKGLLGHSDADALLHALTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRKAYESVQAEGWRVVNVDTTVVAQKPKLAPHIPAMRANIAADLGLPESSVNIKGKTNEGLGYLGRQEGIEAQAVVLL</Hsp_hseq>
+      <Hsp_midline>M  IR+GQGYDVHQL E R LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AY+SVQA+GW+VVNVDTTV+AQKPKLAPHIP MRANIAADLG+  S VNIKGKTNE LGYLGR EGIEAQA VLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|490409917|ref|WP_004282891.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria weaveri] &gt;gi|343970417|gb|EGV38594.1| hypothetical protein l11_03960 [Neisseria weaveri LMG 5135]</Hit_def>
+  <Hit_accession>WP_004282891</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>1.66607e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MTNIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLL</Hsp_qseq>
+      <Hsp_hseq>MMKIRVGQGYDVHQLVENRPLILGGVTIPFEKGLLGHSDADALLHALTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRKAYESVQAEGWRVVNVDTTVVAQKPKLAPHIPAMRANIAADLGLPESSVNIKGKTNEGLGYLGRQEGIEAQAVVLL</Hsp_hseq>
+      <Hsp_midline>M  IR+GQGYDVHQL E R LILGGV IPFEKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLR AY+SVQA+GW+VVNVDTTV+AQKPKLAPHIP MRANIAADLG+  S VNIKGKTNE LGYLGR EGIEAQA VLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|496985227|ref|WP_009427312.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sp. oral taxon 020] &gt;gi|429161235|gb|EKY03659.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria sp. oral taxon 020 str. F0370]</Hit_def>
+  <Hit_accession>WP_009427312</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>5.95219e-92</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLL</Hsp_qseq>
+      <Hsp_hseq>NLRIGQGYDVHQLVPGRPLILGGVAIPFDKGLLGHSDADALLHALTDALLGAAGLGDIGSHFPDTAAEFKNADSRVLLRAAYQSVREAGWRVVNADTTVIAQQPKLAPHIPAMRANIAADLGLPESCVNIKGKTNEKLGYLGRTEAIEAQAAVLL</Hsp_hseq>
+      <Hsp_midline>N+RIGQGYDVHQL  GR LILGGV IPF+KGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFK+ADSRVLLRAAYQSV+  GW+VVN DTTVIAQ+PKLAPHIP MRANIAADLG+  SCVNIKGKTNEKLGYLGR E IEAQAAVLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|736179385|ref|WP_034295729.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Alysiella crassa]</Hit_def>
+  <Hit_accession>WP_034295729</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>8.64136e-89</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>NIRIGQGYDVHQLVENRPLILGGVTIPFDKGLLGHSDADALLHAITDALLGAAGLGDIGTHFPDTAAEFKDADSRVLLRNAYAEVQKLGWKIINLDSTIIAQQPKLKPHIPAMRQNLAADLGLPENCINIKGKTNEKLGYLGRMEGIEAQAVVLLIQ</Hsp_hseq>
+      <Hsp_midline>NIRIGQGYDVHQL E R LILGGV IPF+KGLLGHSDADALLHA+TDALLGAAGLGDIG+HFPDTAAEFKDADSRVLLR AY  VQ  GW+++N+D+T+IAQ+PKL PHIP MR N+AADLG+  +C+NIKGKTNEKLGYLGRMEGIEAQA VLL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|565109803|ref|WP_023886544.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Eikenella corrodens] &gt;gi|564138007|gb|ETA84116.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Eikenella corrodens CC92I]</Hit_def>
+  <Hit_accession>WP_023886544</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>4.44202e-88</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLL</Hsp_qseq>
+      <Hsp_hseq>TIRIGQGYDVHQLVPGRPLILGGVTIPFEKGLLGHSDADALLHAVTDALLGAAALGDIGTHFPDTAAEHKDADSRALLRQAYAAVQAQGWRVVNVDSTIIAQQPKLRPHIAAMRANIAADLGLAENCVNIKGKTNEKLGYLGRMEGIEAQAVVLL</Hsp_hseq>
+      <Hsp_midline> IRIGQGYDVHQL  GR LILGGV IPFEKGLLGHSDADALLHAVTDALLGAA LGDIG+HFPDTAAE KDADSR LLR AY +VQAQGW+VVNVD+T+IAQ+PKL PHI  MRANIAADLG+  +CVNIKGKTNEKLGYLGRMEGIEAQA VLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|494580297|ref|WP_007343456.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria bacilliformis] &gt;gi|327462693|gb|EGF09016.1| 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [Neisseria bacilliformis ATCC BAA-1200]</Hit_def>
+  <Hit_accession>WP_007343456</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>7.05578e-88</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>NIRIGQGYDVHQLTEGRKLILGGVEIPFEKGLLGHSDADALLHAVTDALLGAAGLGDIGSHFPDTAAEFKDADSRVLLRAAYQSVQAQGWQVVNVDTTVIAQKPKLAPHIPQMRANIAADLGIDISCVNIKGKTNEKLGYLGRMEGIEAQAAVLLVR</Hsp_qseq>
+      <Hsp_hseq>TLRIGQGYDVHQLTAGRPLILGGVHIPHEKGLLGHSDADALLHALTDALLGAAGLGDIGSHFPDTAAEFKDADSRALLRAACQSVRDAGWRVVNADTTLIAQQPKLAPHIPAMRANIAADLGLAESCVSIKGKTNEKLGYLGRCEAIEAQAVILLAR</Hsp_hseq>
+      <Hsp_midline> +RIGQGYDVHQLT GR LILGGV IP EKGLLGHSDADALLHA+TDALLGAAGLGDIGSHFPDTAAEFKDADSR LLRAA QSV+  GW+VVN DTT+IAQ+PKLAPHIP MRANIAADLG+  SCV+IKGKTNEKLGYLGR E IEAQA +LL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

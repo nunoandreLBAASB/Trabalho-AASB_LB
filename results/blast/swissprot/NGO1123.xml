@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>51423</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7P7</BlastOutput_query-def>
+  <BlastOutput_query-len>110</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>51423</Iteration_query-ID>
+  <Iteration_query-def>Q5F7P7</Iteration_query-def>
+  <Iteration_query-len>110</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|57013122|sp|Q8W4M7.1|ERCC2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=DNA repair helicase UVH6; AltName: Full=ERCC2 homolog; AltName: Full=RAD3 homolog; Short=AtUVH6; Short=AtXPD; AltName: Full=UV hypersensitive protein 6; AltName: Full=XPD homolog [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8W4M7</Hit_accession>
+  <Hit_len>758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.15109</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>673</Hsp_hit-from>
+      <Hsp_hit-to>746</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>DWGM----ERYYAREDMRQALDGWEAEN-RILHESGLIEIAKKSAREFVRDADGEPY------------TQEDWE</Hsp_qseq>
+      <Hsp_hseq>DYGMMIFADKRYSRHDKRSKLPGWILSHLRDAHLNLSTDMAIHIAREFLRKM-AQPYDKAGTMGRKTLLTQEDLE</Hsp_hseq>
+      <Hsp_midline>D+GM    ++ Y+R D R  L GW   + R  H +   ++A   AREF+R    +PY            TQED E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|254764959|sp|B9MS46.1|UXAC_CALBD</Hit_id>
+  <Hit_def>RecName: Full=Uronate isomerase; AltName: Full=Glucuronate isomerase; AltName: Full=Uronic isomerase [Caldicellulosiruptor bescii DSM 6725]</Hit_def>
+  <Hit_accession>B9MS46</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.69319</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>GTAAYGSPDWGMERYYAREDM---RQALDGWEAENRILHESGLIEIAKKSAREFVRDADGEPYTQEDWETYLTED</Hsp_qseq>
+      <Hsp_hseq>GNPIYHWTHLELKRYFGIDDVLNERSAPIIWEKTNKVLKELGARDIILKSNVEIICTTD-DPIDTLEYHLKLKED</Hsp_hseq>
+      <Hsp_midline>G   Y      ++RY+  +D+   R A   WE  N++L E G  +I  KS  E +   D +P    ++   L ED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|119367663|sp|Q1MQH2.1|UVRC_LAWIP</Hit_id>
+  <Hit_def>RecName: Full=UvrABC system protein C; Short=Protein UvrC; AltName: Full=Excinuclease ABC subunit C [Lawsonia intracellularis PHE/MN1-00]</Hit_def>
+  <Hit_accession>Q1MQH2</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.13943</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>YAREDMRQALDGWEAENRILHESGLIEIAKKSAREFVRDADGEPYTQEDWETYLTE</Hsp_qseq>
+      <Hsp_hseq>YVLEDIRNSTVRIEVPKNII-ESNLVDIAVTNAREAVQTKLGEPMSAKLAKVFHTD</Hsp_hseq>
+      <Hsp_midline>Y  ED+R +    E    I+ ES L++IA  +ARE V+   GEP + +  + + T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|75116614|sp|Q67YT8.1|RUS4_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Protein root UVB sensitive 4 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q67YT8</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.27666</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>453</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>AKKSAREFVRDADGEPYTQEDWETYLTEDASRIGKDTEAAMNYAIDEREW</Hsp_qseq>
+      <Hsp_hseq>ANRTKRSYLSFSD---LTLQDW-TLLTRESKRAARDDNIALNKQMQEQGW</Hsp_hseq>
+      <Hsp_midline>A ++ R ++  +D    T +DW T LT ++ R  +D   A+N  + E+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|76364099|sp|Q4J8E8.1|CARB_SULAC</Hit_id>
+  <Hit_def>RecName: Full=Carbamoyl-phosphate synthase large chain; AltName: Full=Carbamoyl-phosphate synthetase ammonia chain [Sulfolobus acidocaldarius DSM 639]</Hit_def>
+  <Hit_accession>Q4J8E8</Hit_accession>
+  <Hit_len>1052</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.51771</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>MKYYGTAAYGSPDWGMERYYAREDMRQAL</Hsp_qseq>
+      <Hsp_hseq>LKKYGVKVLGTPIEGIERALSREKFRETM</Hsp_hseq>
+      <Hsp_midline>+K YG    G+P  G+ER  +RE  R+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123748643|sp|Q4L709.1|HEM3_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Porphobilinogen deaminase; Short=PBG; AltName: Full=Hydroxymethylbilane synthase; Short=HMBS; AltName: Full=Pre-uroporphyrinogen synthase [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L709</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>8.1425</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>TAAYGSPDWGMERYYAREDMRQALDGWEAENRILHESGLIEIAKK</Hsp_qseq>
+      <Hsp_hseq>TGLIMTPD-GTKRYEHTEVGKNPVDLGEAVSRVLKEQGAYEIIKK</Hsp_hseq>
+      <Hsp_midline>T    +PD G +RY   E  +  +D  EA +R+L E G  EI KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

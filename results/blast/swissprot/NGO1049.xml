@@ -1,0 +1,658 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>37535</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7W6</BlastOutput_query-def>
+  <BlastOutput_query-len>268</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>37535</Iteration_query-ID>
+  <Iteration_query-def>Q5F7W6</Iteration_query-def>
+  <Iteration_query-len>268</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1175799|sp|P44196.1|Y1427_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1427; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44196</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>2.16871e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MKKTL--TLLAVSALFATSAHPHRVWVET-AHTHGGEYLKADLGYGEFPELEPIAKDRLHIFSKPMQLVTEKG-KENMIQRGTYNYQYRSNRPVKDGSYLVTAEYQPTFRSKNKAGWKQAGIKEMPDASYCEQTRMFGKNIVNVGHESADTAIITKPVGQNLEIVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFDGFDTSD-RSKTHKTEAQAFSDTTDGKGEVDIIPLRQGFWKASVEYKADFPDQSLCQKQANYTTLTFQIG</Hsp_qseq>
+      <Hsp_hseq>MKKTLITSLLVLSGI----AQAHEVWVQAPTKLASGSVLKAELAYGDYPYVEKIPEARLKIFA-PMEIIHQNGEKQTLIQKGE-NYQYQSEKALSDGSYWVTATYKPTFWSQNAEGWKMDNLKGLENPTYCEQTQMFGKSLVTVGKKPLNAEMAMTRVGLPLEIVPLRDPSKAKSGEPFPVQIFYQDQPLAGETVIATADTIIVKDLEASTGHREPQGFSGKTDSQGRVNIIPLIDGIWKIKVIHKTPFADQQICQQSASYSTLILPVG</Hsp_hseq>
+      <Hsp_midline>MKKTL  +LL +S +    A  H VWV+       G  LKA+L YG++P +E I + RL IF+ PM+++ + G K+ +IQ+G  NYQY+S + + DGSY VTA Y+PTF S+N  GWK   +K + + +YCEQT+MFGK++V VG +  +  +    VG  LEIVPL +P+    GE F V++ ++ +PL   TV AT D     D  + T   E Q FS  TD +G V+IIPL  G WK  V +K  F DQ +CQ+ A+Y+TL   +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|60389362|sp|Q5WED5.1|ACKA_BACSK</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus clausii KSM-K16]</Hit_def>
+  <Hit_accession>Q5WED5</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0291348</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>CEQTRMFGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>LEEIEGIGHRVVHGGEKFNDSVVITDEVLQGIEEVSELAPLHNPANITGIKAFK-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> E+    G  +V+ G +  D+ +IT  V Q +E    + PL NPANI   + FK       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20137500|sp|Q9K815.1|ACKA_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K815</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.160443</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>CEQTRMFGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGER-FKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>LDEIEGIGHRVVHGGEKFNDSVLITDEVIQGIEECNELAPLHNPANI-VGIRAFK-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> ++    G  +V+ G +  D+ +IT  V Q +E    + PL NPANI VG R FK       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|74966653|sp|Q23229.1|XOL1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=XO lethal protein 1 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q23229</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.214698</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DTSDRSKTHKTEAQAFSDTTDGKGEVDIIPLRQGFWKASVEYKADFPDQSLCQKQANYTTLTFQI</Hsp_qseq>
+      <Hsp_hseq>DFIDQLKLHNVYEINFYDPLDSSGKLAVIPMLIALWKCMLASETDICDQEVLKSIMNSVIAKFEL</Hsp_hseq>
+      <Hsp_midline>D  D+ K H      F D  D  G++ +IP+    WK  +  + D  DQ + +   N     F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|677988391|sp|F4IZC5.1|CAN1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Staphylococcal-like nuclease CAN1; AltName: Full=Calcium-dependent nuclease 1; Short=AtCAN1; Short=Ca(2+)-dependent nuclease 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>F4IZC5</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.223796</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>GKENMIQRGTYNYQYRSNRPVKDGSYLVTAE-YQPTFRSKNKAGWKQAGIK-EMPDASYCEQTRMFGKNIVNVGHESADTAIITK----PVGQNLEIVPLDNPANIHVGERFKVRVL</Hsp_qseq>
+      <Hsp_hseq>GGVSALSRDLLNFETTSQVPEKLGSYVVSSQKAQANWYRKILEAWKQAKPRPKTPE----EASRLVIAALKN--HQKADVEGLLSFYGLPSPHNLVEVPTEAPVSLPKGVRFELNTL</Hsp_hseq>
+      <Hsp_midline>G  + + R   N++  S  P K GSY+V+++  Q  +  K    WKQA  + + P+    E +R+    + N  H+ AD   +      P   NL  VP + P ++  G RF++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|189027299|sp|A7GTR9.1|ACKA_BACCN</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus cytotoxicus NVH 391-98]</Hit_def>
+  <Hit_accession>A7GTR9</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.334796</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>CEQTRMFGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>LDEISGIGHRVVHGGEKFADSVLITDQVLADIEDLSELAPLHNPANIVGIKAFQ-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> ++    G  +V+ G + AD+ +IT  V  ++E    + PL NPANI   + F+       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|33300930|sp|Q817C0.1|ACKA_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q817C0</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.508494</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>IGHRVVHGGEKFADSVLITDEVLADIEELSDLAPLHNPANVVGIKAFQ-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> G  +V+ G + AD+ +IT  V  ++E    + PL NPAN+   + F+       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|60389383|sp|Q6HCP0.1|ACKA_BACHK</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus thuringiensis serovar konkukian str. 97-27]</Hit_def>
+  <Hit_accession>Q6HCP0</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.531607</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>IGHRVVHGGEKFADSVLITDEVLADIEELSDLAPLHNPANVVGIKAFQ-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> G  +V+ G + AD+ +IT  V  ++E    + PL NPAN+   + F+       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|33300933|sp|Q81KV0.1|ACKA_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus anthracis]</Hit_def>
+  <Hit_accession>Q81KV0</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.545975</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>IGHRVVHGGEKFADSVLITDEVLADIEELSDLAPLHNPANVVGIKAFQ-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> G  +V+ G + AD+ +IT  V  ++E    + PL NPAN+   + F+       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|60389365|sp|Q633F8.1|ACKA_BACCZ</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus cereus E33L] &gt;gi|60389388|sp|Q72Z96.1|ACKA_BACC1 RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus cereus ATCC 10987]</Hit_def>
+  <Hit_accession>Q633F8</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.570789</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>IGHRVVHGGEKFADSVLITDEVLADIEELSDLAPLHNPANVVGIKAFQ-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> G  +V+ G + AD+ +IT  V  ++E    + PL NPAN+   + F+       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|259709984|sp|C5D683.1|ACKA_GEOSW</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Geobacillus sp. WCH70]</Hit_def>
+  <Hit_accession>C5D683</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.6758</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>IGHRVVHGGEKFSDSVLITDEVLKQIEEVSELAPLHNPANIVGIKAFQ-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> G  +V+ G + +D+ +IT  V + +E    + PL NPANI   + F+       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|166198120|sp|A7Z7M2.1|ACKA_BACA2</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus amyloliquefaciens subsp. plantarum str. FZB42]</Hit_def>
+  <Hit_accession>A7Z7M2</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.6694</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FGKNIVNVGHESADTAIIT----KPVGQNLEIVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>IGHRVVHGGEKFSDSVLLTDETIREIEEISELAPLHNPANIVGIKAFK-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> G  +V+ G + +D+ ++T    + + +  E+ PL NPANI   + FK       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|584719|sp|P37877.1|ACKA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P37877</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.84066</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FGKNIVNVGHESADTAIIT----KPVGQNLEIVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>IGHRVVHGGEKFSDSVLLTDETIKEIEDISELAPLHNPANIVGIKAFK-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> G  +V+ G + +D+ ++T    K +    E+ PL NPANI   + FK       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|60389367|sp|Q65G65.1|ACKA_BACLD</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>Q65G65</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.27768</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>FGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>IGHRVVHGGEKFSDSVLLTDEMIHEIEEISELAPLHNPANIVGIKAFK-------EVLPNVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> G  +V+ G + +D+ ++T  +   +E    + PL NPANI   + FK       E LPN    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|119361296|sp|Q1QHE6.1|ASSY_NITHX</Hit_id>
+  <Hit_def>RecName: Full=Argininosuccinate synthase; AltName: Full=Citrulline--aspartate ligase [Nitrobacter hamburgensis X14]</Hit_def>
+  <Hit_accession>Q1QHE6</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.90097</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>WVETAHTHGGEYLK--ADLGYGEFPELEPIAKDRLHIFSKPMQLVTEKGKENMIQRGTYNYQYRSNRPVKDGSYLV</Hsp_qseq>
+      <Hsp_hseq>WLQT--TYGAEVVTFTADLGQGE--ELEPARQKALLLGIKPENIFIEDLREEFVRDYVFP-MFRAN-AVYEGQYLL</Hsp_hseq>
+      <Hsp_midline>W++T  T+G E +   ADLG GE  ELEP  +  L +  KP  +  E  +E  ++   +   +R+N  V +G YL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|60389359|sp|Q5KW66.1|ACKA_GEOKA</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Geobacillus kaustophilus HTA426]</Hit_def>
+  <Hit_accession>Q5KW66</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.00136</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>FGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGER-FKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>IGHRVVHGGEKFSDSVLITEDVIKQIEEVSELAPLHNPANL-VGIRAFQ-------EVLPDVPAVAVFD</Hsp_hseq>
+      <Hsp_midline> G  +V+ G + +D+ +IT+ V + +E    + PL NPAN+ VG R F+       E LP+    A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|25008055|sp|Q8XJN2.1|ACKA2_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase 2; AltName: Full=Acetokinase 2 [Clostridium perfringens str. 13]</Hit_def>
+  <Hit_accession>Q8XJN2</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.3439</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>EQTRMFGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>DEINAIGHRVVHGGEKYAESALVTEEVMKDLEECAKLAPLHNPANI-------IGINACKALMPNVPMVVVFD</Hsp_hseq>
+      <Hsp_midline>++    G  +V+ G + A++A++T+ V ++LE    + PL NPANI       + +      +PN  +   FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|25008064|sp|Q92CN9.1|ACKA2_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase 2; AltName: Full=Acetokinase 2 [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q92CN9</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.95441</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>IVNVGHESA-------DTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>ITGVGHRVAHGGEAFVSSCIVTDDVVKGIEDVTSLAPLHNPANIIGIKTFR-------ELLPNAVSVAVFD</Hsp_hseq>
+      <Hsp_midline>I  VGH  A        + I+T  V + +E    + PL NPANI   + F+       E LPNA   A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|33301026|sp|Q8EPB9.1|ACKA_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase; AltName: Full=Acetokinase [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8EPB9</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.28292</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>EQTRMFGKNIVNVGHESADTAIITKPVGQNLE----IVPLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>DEIDAVGHRVVHGGEYFSDSVLITDEIIQQIEEISELAPLHNPANLTGIHAFK-------EILPEIPMVAVFD</Hsp_hseq>
+      <Hsp_midline>++    G  +V+ G   +D+ +IT  + Q +E    + PL NPAN+     FK       E LP   + A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|25008059|sp|Q8Y7V1.1|ACKA2_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase 2; AltName: Full=Acetokinase 2 [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q8Y7V1</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.43754</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GKNIVNVGHESADTAIITKPVGQNLEIV----PLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>GHRVAHGGEDFVTSCVVTDEVVKGIEAVTNLAPLHNPANIIGIKTFR-------ELLPNAVSVAVFD</Hsp_hseq>
+      <Hsp_midline>G  + + G +   + ++T  V + +E V    PL NPANI   + F+       E LPNA   A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|60389427|sp|Q720R2.1|ACKA1_LISMF</Hit_id>
+  <Hit_def>RecName: Full=Acetate kinase 1; AltName: Full=Acetokinase 1 [Listeria monocytogenes serotype 4b str. F2365]</Hit_def>
+  <Hit_accession>Q720R2</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.51693</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GKNIVNVGHESADTAIITKPVGQNLEIV----PLDNPANIHVGERFKVRVLFRGEPLPNATVTATFD</Hsp_qseq>
+      <Hsp_hseq>GHRVAHGGEDFVTSCVVTDEVVKGIEAVTNLAPLHNPANIIGIKTFR-------ELLPNAVSVAVFD</Hsp_hseq>
+      <Hsp_midline>G  + + G +   + ++T  V + +E V    PL NPANI   + F+       E LPNA   A FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|82081403|sp|Q5ZJ08.1|SYYC_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine--tRNA ligase, cytoplasmic; AltName: Full=Tyrosyl-tRNA synthetase; Short=TyrRS [Gallus gallus]</Hit_def>
+  <Hit_accession>Q5ZJ08</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.63334</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>432</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GHESADTAIITKPVGQNLEIVPLDNPANIHVGERFKVRVLFRGEP</Hsp_qseq>
+      <Hsp_hseq>GVESQGMVLCASSVGEPRQVEPLDPPAECCAGERVYVEGYEDGEP</Hsp_hseq>
+      <Hsp_midline>G ES    +    VG+  ++ PLD PA    GER  V     GEP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

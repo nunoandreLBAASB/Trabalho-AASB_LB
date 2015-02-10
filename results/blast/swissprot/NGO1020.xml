@@ -1,0 +1,1330 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>64223</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7Y8</BlastOutput_query-def>
+  <BlastOutput_query-len>598</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>64223</Iteration_query-ID>
+  <Iteration_query-def>Q5F7Y8</Iteration_query-def>
+  <Iteration_query-len>598</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|117949816|sp|P03362.3|POL_HTL1A</Hit_id>
+  <Hit_def>RecName: Full=Gag-Pro-Pol polyprotein; AltName: Full=Pr160Gag-Pro-Pol; Contains: RecName: Full=Matrix protein p19; Short=MA; Contains: RecName: Full=Capsid protein p24; Short=CA; Contains: RecName: Full=Nucleocapsid protein p15-pro; Short=NC&apos;; Short=NC-pro; Contains: RecName: Full=Protease; Short=PR; Contains: RecName: Full=p1; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Human T-cell lymphotrophic virus type 1 (strain ATK)]</Hit_def>
+  <Hit_accession>P03362</Hit_accession>
+  <Hit_len>1462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00207408</Hsp_evalue>
+      <Hsp_query-from>236</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>1271</Hsp_hit-from>
+      <Hsp_hit-to>1350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MMQAKKDIGKDPFRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGLRFTEVHDIDQLNALS</Hsp_qseq>
+      <Hsp_hseq>LLQAIAHLGK------PSYINTDNGPAYISQDFLNMCTSLAIRHTTHVPYNPTSSGLVERSNGILKTLLYK--YFTDKPDLPMDNALS</Hsp_hseq>
+      <Hsp_midline>++QA   +GK      P  +  D G A  S  F N+C  L +    + P NP + G VE++N I++T       FT+  D+   NALS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|117949817|sp|P14078.3|POL_HTL1C</Hit_id>
+  <Hit_def>RecName: Full=Gag-Pro-Pol polyprotein; AltName: Full=Pr160Gag-Pro-Pol; Contains: RecName: Full=Matrix protein p19; Short=MA; Contains: RecName: Full=Capsid protein p24; Short=CA; Contains: RecName: Full=Nucleocapsid protein p15-pro; Short=NC&apos;; Short=NC-pro; Contains: RecName: Full=Protease; Short=PR; Contains: RecName: Full=p1; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Human T-cell lymphotrophic virus type 1 (Caribbean isolate)]</Hit_def>
+  <Hit_accession>P14078</Hit_accession>
+  <Hit_len>1462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00379914</Hsp_evalue>
+      <Hsp_query-from>236</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>1271</Hsp_hit-from>
+      <Hsp_hit-to>1350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MMQAKKDIGKDPFRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGLRFTEVHDIDQLNALS</Hsp_qseq>
+      <Hsp_hseq>LLQAIAYLGK------PSYINTDNGPAYISQDFLNMCTSLAIRHTTHVPYNPTSSGLVERSNGILKTLLYK--YFTDKPDLPMDNALS</Hsp_hseq>
+      <Hsp_midline>++QA   +GK      P  +  D G A  S  F N+C  L +    + P NP + G VE++N I++T       FT+  D+   NALS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|117940151|sp|P0C211.2|POL_HTL1L</Hit_id>
+  <Hit_def>RecName: Full=Gag-Pro-Pol polyprotein; AltName: Full=Pr160Gag-Pro-Pol; Contains: RecName: Full=Matrix protein p19; Short=MA; Contains: RecName: Full=Capsid protein p24; Short=CA; Contains: RecName: Full=Nucleocapsid protein p15-pro; Short=NC&apos;; Short=NC-pro; Contains: RecName: Full=Protease; Short=PR; Contains: RecName: Full=p1; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [HTLV-1 isolate Mel 15]</Hit_def>
+  <Hit_accession>P0C211</Hit_accession>
+  <Hit_len>1462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00978465</Hsp_evalue>
+      <Hsp_query-from>236</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>1271</Hsp_hit-from>
+      <Hsp_hit-to>1350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MMQAKKDIGKDPFRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGLRFTEVHDIDQLNALS</Hsp_qseq>
+      <Hsp_hseq>LLQAIAQLGK------PSYINTDNGPAYISQDFLSMCTSLAIRHTTHVPYNPTSSGLVERSNGILKTLLYK--YFTDRPDLPMDNALS</Hsp_hseq>
+      <Hsp_midline>++QA   +GK      P  +  D G A  S  F ++C  L +    + P NP + G VE++N I++T       FT+  D+   NALS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|124246|sp|P03975.1|IGEB_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=IgE-binding protein [Mus musculus]</Hit_def>
+  <Hit_accession>P03975</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0260092</Hsp_evalue>
+      <Hsp_query-from>252</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>435</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>PRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKAN</Hsp_qseq>
+      <Hsp_hseq>PRLLKTDNGPAYTSQKFQQFCRQMDVTHLTGLPYNPQGQGIVERAH</Hsp_hseq>
+      <Hsp_midline>PR++  D G A TS  F+  C+ +DV      P NP+ +G VE+A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2497388|sp|P55379.1|Y4BL_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Putative transposase y4bL/y4kJ/y4tB [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55379</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0363137</Hsp_evalue>
+      <Hsp_query-from>209</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>DHASGTISVRYYFGGETSANLCDFFIYMMQAKKDIGKDPFRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGLRFTEVHDIDQLN-ALSERWMRYYNGTQKHSRHGMTRYQAWNKI-KPEQLILPP-PAEYCRELAVSAPKEAKVSADLEIRFGGRVYSV</Hsp_qseq>
+      <Hsp_hseq>DWIDGQVRALTFYGGVTKAIVCD------NLKSGVAK--------ALWFEP---TLTATFAAMAEHYDTTILPTRSRKPRDKGRVEGAVLIVERWILARLRNRTFFSLAALNTAIAELLEDLNNRTMRHV--GKSRRELFEEIERPALKPLPAIPFEYAEW------KSAKVHPDYHVEVDKTFYSV</Hsp_hseq>
+      <Hsp_midline>D   G +    ++GG T A +CD        K  + K         +  +P     +A F  + +  D  +   +   PR KG+VE A  IVE    + LR      +  LN A++E      N T +H   G +R + + +I +P    LP  P EY         K AKV  D  +      YSV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|130635|sp|P11368.1|POL_IPMA</Hit_id>
+  <Hit_def>RecName: Full=Putative Pol polyprotein; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Mouse intracisternal A-particle MIA14]</Hit_def>
+  <Hit_accession>P11368</Hit_accession>
+  <Hit_len>867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0409049</Hsp_evalue>
+      <Hsp_query-from>252</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>705</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>PRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVET</Hsp_qseq>
+      <Hsp_hseq>PRLLKTDNGPAYTSQKFQQFCRQMDVTHLTGLPYNPQGQGIVERAHRTLKT</Hsp_hseq>
+      <Hsp_midline>PR++  D G A TS  F+  C+ +DV      P NP+ +G VE+A+  ++T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|110815948|sp|Q9Q720.3|POL_HV1V9</Hit_id>
+  <Hit_def>RecName: Full=Gag-Pol polyprotein; AltName: Full=Pr160Gag-Pol; Contains: RecName: Full=Matrix protein p17; Short=MA; Contains: RecName: Full=Capsid protein p24; Short=CA; Contains: RecName: Full=Spacer peptide p2; Contains: RecName: Full=Nucleocapsid protein p7; Short=NC; Contains: RecName: Full=Transframe peptide; Short=TF; Contains: RecName: Full=p6-pol; Short=p6*; Contains: RecName: Full=Protease; AltName: Full=PR; AltName: Full=Retropepsin; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; AltName: Full=Exoribonuclease H; AltName: Full=p66 RT; Contains: RecName: Full=p51 RT; Contains: RecName: Full=p15; Contains: RecName: Full=Integrase; Short=IN [HIV-1 M:H_VI991]</Hit_def>
+  <Hit_accession>Q9Q720</Hit_accession>
+  <Hit_len>1436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0652856</Hsp_evalue>
+      <Hsp_query-from>253</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1259</Hsp_hit-from>
+      <Hsp_hit-to>1303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>RMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKAN</Hsp_qseq>
+      <Hsp_hseq>KMIHTDNGSNFTSAAVKAACWWADIHQEFGIPYNPQSQGVVESMN</Hsp_hseq>
+      <Hsp_midline>+M+  D GS  TSAA K  C   D+H +   P NP+++G VE  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|130636|sp|P12894.1|POL_IPMAI</Hit_id>
+  <Hit_def>RecName: Full=Probable Pol polyprotein; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Mouse intracisternal A-particle MIAIL3]</Hit_def>
+  <Hit_accession>P12894</Hit_accession>
+  <Hit_len>814</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.120738</Hsp_evalue>
+      <Hsp_query-from>252</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>623</Hsp_hit-from>
+      <Hsp_hit-to>668</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>PRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKAN</Hsp_qseq>
+      <Hsp_hseq>PRLLKTDNGPAYTSQKFQQFCRQMDVTHLTGLPYNPQGQGIVERAH</Hsp_hseq>
+      <Hsp_midline>PR++  D G A TS  F+  C+ +DV      P NP+ +G VE+A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|118573114|sp|Q4U0X6.4|POL_HTL3P</Hit_id>
+  <Hit_def>RecName: Full=Gag-Pro-Pol polyprotein; AltName: Full=Pr160Gag-Pro-Pol; Contains: RecName: Full=Matrix protein p19; Short=MA; Contains: RecName: Full=Capsid protein p24; Short=CA; Contains: RecName: Full=Nucleocapsid protein p15-pro; Short=NC&apos;; Short=NC-pro; Contains: RecName: Full=Protease; Short=PR; Contains: RecName: Full=p1; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Human T-cell leukemia virus 3 (strain Pyl43)]</Hit_def>
+  <Hit_accession>Q4U0X6</Hit_accession>
+  <Hit_len>1440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.145433</Hsp_evalue>
+      <Hsp_query-from>231</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1244</Hsp_hit-from>
+      <Hsp_hit-to>1315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DFFIYMMQAKKDIGKDPFRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGL</Hsp_qseq>
+      <Hsp_hseq>DCVVSLLAAISILGK------PHSINTDNGTAYLSQEFQQFCSSLSIKHSTHVPYNPTSSGLVERTNGILKTLISKYL</Hsp_hseq>
+      <Hsp_midline>D  + ++ A   +GK      P  +  D G+A  S  F+  C  L +    + P NP + G VE+ N I++T     L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|75651203|sp|Q87040.1|POL_SFVCP</Hit_id>
+  <Hit_def>RecName: Full=Pro-Pol polyprotein; AltName: Full=Pr125Pol; Contains: RecName: Full=Protease/Reverse transcriptase/ribonuclease H; AltName: Full=p87Pro-RT-RNaseH; Contains: RecName: Full=Protease/Reverse transcriptase; AltName: Full=p65Pro-RT; Contains: RecName: Full=Ribonuclease H; Short=RNase H; Contains: RecName: Full=Integrase; Short=IN; AltName: Full=p42In [Pan troglodytes foamy virus]</Hit_def>
+  <Hit_accession>Q87040</Hit_accession>
+  <Hit_len>1146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.211346</Hsp_evalue>
+      <Hsp_query-from>251</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>929</Hsp_hit-from>
+      <Hsp_hit-to>996</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>VPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGL--RFTEVHDI</Hsp_qseq>
+      <Hsp_hseq>IPKVIHSDQGAAFTSSTFAEWAKERGIHLEFSTPYHPQSSGKVERKNSDIKRLLTKLLVGRPTKWYDL</Hsp_hseq>
+      <Hsp_midline>+P+++  D G+A TS+ F    K   +H++ + P +P++ G+VE+ N  ++      L  R T+ +D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|400823|sp|P31623.1|POL_JSRV</Hit_id>
+  <Hit_def>RecName: Full=Pol polyprotein; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Jaagsiekte sheep retrovirus]</Hit_def>
+  <Hit_accession>P31623</Hit_accession>
+  <Hit_len>870</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.297548</Hsp_evalue>
+      <Hsp_query-from>251</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>705</Hsp_hit-from>
+      <Hsp_hit-to>778</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>VPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGLRFTEVHDIDQLNALSE</Hsp_qseq>
+      <Hsp_hseq>IPQTLKTDNGPGYTSRSFQRFCLSFQIHHKTGIPYNPQGQGIVERAHQRIKHQLLKQKKGNELYSPSPHNALNH</Hsp_hseq>
+      <Hsp_midline>+P+ +  D G   TS +F+  C    +H +   P NP+ +G VE+A+  ++       +  E++     NAL+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|135986|sp|P26185.1|TONB_SERMA</Hit_id>
+  <Hit_def>RecName: Full=Protein TonB [Serratia marcescens]</Hit_def>
+  <Hit_accession>P26185</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.380206</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDPVSRMKSEHPN--HCWQIDPSLCVLYCLPRQGKDTGLRVMKEEEFYKNKPKNVVKIEND---RVWRYTGTDHASGTISVRYYFGGETSAN</Hsp_qseq>
+      <Hsp_hseq>PRPISRANPLYPPRAQALQIEGNVRVQFDIDSDGRVSNVRILSAE------PRNMFEREVKQAMRKWRYEAKEAKDRTVTIRFKLNGTTELN</Hsp_hseq>
+      <Hsp_midline>P P+SR    +P      QI+ ++ V + +   G+ + +R++  E      P+N+ + E     R WRY   +    T+++R+   G T  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|39931096|sp|Q83JX8.1|CYSN_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Shigella flexneri]</Hit_def>
+  <Hit_accession>Q83JX8</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.397663</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGMLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEVFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G+L   +V VG++V V  +  E+N AR+ T+D +  EV+   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|122957258|sp|Q0T1I2.1|CYSN_SHIF8</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q0T1I2</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.408095</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGMLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEVFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G+L   +V VG++V V  +  E+N AR+ T+D +  EV+   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|110282986|sp|P27401.2|POL_SFV3L</Hit_id>
+  <Hit_def>RecName: Full=Pro-Pol polyprotein; AltName: Full=Pr125Pol; Contains: RecName: Full=Protease/Reverse transcriptase/ribonuclease H; AltName: Full=p87Pro-RT-RNaseH; Contains: RecName: Full=Protease/Reverse transcriptase; AltName: Full=p65Pro-RT; Contains: RecName: Full=Ribonuclease H; Short=RNase H; Contains: RecName: Full=Integrase; Short=IN; AltName: Full=p42In [Simian foamy virus (TYPE 3 / STRAIN LK3)]</Hit_def>
+  <Hit_accession>P27401</Hit_accession>
+  <Hit_len>1143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.428775</Hsp_evalue>
+      <Hsp_query-from>251</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>928</Hsp_hit-from>
+      <Hsp_hit-to>974</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKAN</Hsp_qseq>
+      <Hsp_hseq>VPKVIHSDQGAAFTSATFADWAKNKGIQLEFSTPYHPQSSGKVERKN</Hsp_hseq>
+      <Hsp_midline>VP+++  D G+A TSA F +  K   + ++ + P +P++ G+VE+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|130667|sp|P03364.2|POL_SMRVH</Hit_id>
+  <Hit_def>RecName: Full=Pol polyprotein; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Squirrel monkey retrovirus]</Hit_def>
+  <Hit_accession>P03364</Hit_accession>
+  <Hit_len>888</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.846914</Hsp_evalue>
+      <Hsp_query-from>223</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>693</Hsp_hit-from>
+      <Hsp_hit-to>794</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>GETSANLCDFFIYMMQAKKDIGKDPFRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFE----SGLRFTE-------VHDIDQLNAL</Hsp_qseq>
+      <Hsp_hseq>GEASKNVISHVIHCLAT---IGK------PHTIKTDNGPGYTGKNFQDFCQKLQIKHVTGIPYNPQGQGVVERAHQTLKNALNRLARSPLGFSMQQPRNLLSHALFQLNFL</Hsp_hseq>
+      <Hsp_midline>GE S N+    I+ +     IGK      P  +  D G   T   F++ C+ L +      P NP+ +G VE+A+  ++ A      S L F+         H + QLN L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|117940174|sp|Q0R5R2.3|POL_HTL32</Hit_id>
+  <Hit_def>RecName: Full=Gag-Pro-Pol polyprotein; AltName: Full=Pr160Gag-Pro-Pol; Contains: RecName: Full=Matrix protein p19; Short=MA; Contains: RecName: Full=Capsid protein p24; Short=CA; Contains: RecName: Full=Nucleocapsid protein p15-pro; Short=NC&apos;; Short=NC-pro; Contains: RecName: Full=Protease; Short=PR; Contains: RecName: Full=p1; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [HTLV-3 strain 2026ND]</Hit_def>
+  <Hit_accession>Q0R5R2</Hit_accession>
+  <Hit_len>1440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.996265</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1223</Hsp_hit-from>
+      <Hsp_hit-to>1315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>VWRYTGTDHASGTISV---RYYFGGETSANLCDFFIYMMQAKKDIGKDPFRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGL</Hsp_qseq>
+      <Hsp_hseq>VW----VDTYSGAVSVSCRRKETGSDCVASL-------LVAISILGK------PQNINTDNGAAYLSQEFQQFCNSLAIKHSTHIPYNPTSSGLVERTNGILKTLISKYL</Hsp_hseq>
+      <Hsp_midline>VW     D  SG +SV   R   G +  A+L       + A   +GK      P+ +  D G+A  S  F+  C  L +    + P NP + G VE+ N I++T     L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|82281205|sp|O93209.1|POL_FFV</Hit_id>
+  <Hit_def>RecName: Full=Pro-Pol polyprotein; AltName: Full=Pr125Pol; Contains: RecName: Full=Protease/Reverse transcriptase/ribonuclease H; AltName: Full=p87Pro-RT-RNaseH; Contains: RecName: Full=Protease/Reverse transcriptase; AltName: Full=p65Pro-RT; Contains: RecName: Full=Ribonuclease H; Short=RNase H; Contains: RecName: Full=Integrase; Short=IN; AltName: Full=p42In [Feline foamy virus]</Hit_def>
+  <Hit_accession>O93209</Hit_accession>
+  <Hit_len>1156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.08744</Hsp_evalue>
+      <Hsp_query-from>251</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>930</Hsp_hit-from>
+      <Hsp_hit-to>976</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKAN</Hsp_qseq>
+      <Hsp_hseq>IPKVLHSDQGSAFTSEEFAQWAKERNIQLEFSTPYHPQSSGKVERKN</Hsp_hseq>
+      <Hsp_midline>+P+++  D GSA TS  F    K  ++ ++ + P +P++ G+VE+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|110282985|sp|P23074.3|POL_SFV1</Hit_id>
+  <Hit_def>RecName: Full=Pro-Pol polyprotein; AltName: Full=Pr125Pol; Contains: RecName: Full=Protease/Reverse transcriptase/ribonuclease H; AltName: Full=p87Pro-RT-RNaseH; Contains: RecName: Full=Protease/Reverse transcriptase; AltName: Full=p65Pro-RT; Contains: RecName: Full=Ribonuclease H; Short=RNase H; Contains: RecName: Full=Integrase; Short=IN; AltName: Full=p42In [Macaque simian foamy virus]</Hit_def>
+  <Hit_accession>P23074</Hit_accession>
+  <Hit_len>1149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.79681</Hsp_evalue>
+      <Hsp_query-from>251</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>928</Hsp_hit-from>
+      <Hsp_hit-to>974</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKAN</Hsp_qseq>
+      <Hsp_hseq>IPKVLHSDQGAAFTSSTFADWAKEKGIQLEFSTPYHPQSSGKVERKN</Hsp_hseq>
+      <Hsp_midline>+P+++  D G+A TS+ F +  K   + ++ + P +P++ G+VE+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|110282984|sp|P14350.2|POL_FOAMV</Hit_id>
+  <Hit_def>RecName: Full=Pro-Pol polyprotein; AltName: Full=Pr125Pol; Contains: RecName: Full=Protease/Reverse transcriptase/ribonuclease H; AltName: Full=p87Pro-RT-RNaseH; Contains: RecName: Full=Protease/Reverse transcriptase; AltName: Full=p65Pro-RT; Contains: RecName: Full=Ribonuclease H; Short=RNase H; Contains: RecName: Full=Integrase; Short=IN; AltName: Full=p42In [Human spumaretrovirus]</Hit_def>
+  <Hit_accession>P14350</Hit_accession>
+  <Hit_len>1143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.84223</Hsp_evalue>
+      <Hsp_query-from>251</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>929</Hsp_hit-from>
+      <Hsp_hit-to>996</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>VPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGL--RFTEVHDI</Hsp_qseq>
+      <Hsp_hseq>IPKVIHSDQGAAFTSSTFAEWAKERGIHLEFSTPYHPQSGSKVERKNSDIKRLLTKLLVGRPTKWYDL</Hsp_hseq>
+      <Hsp_midline>+P+++  D G+A TS+ F    K   +H++ + P +P++  +VE+ N  ++      L  R T+ +D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|229487939|sp|B6I6E1.1|CYSN_ECOSE</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli SE11]</Hit_def>
+  <Hit_accession>B6I6E1</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.8633</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDHEEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|130670|sp|P04025.1|POL_SRV1</Hit_id>
+  <Hit_def>RecName: Full=Pol polyprotein; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Simian retrovirus 1]</Hit_def>
+  <Hit_accession>P04025</Hit_accession>
+  <Hit_len>867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.88344</Hsp_evalue>
+      <Hsp_query-from>223</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>688</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>GETSANLCDFFIYMMQAKKDIGKDPFRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFE</Hsp_qseq>
+      <Hsp_hseq>GETTKHV---ITHLLHCFSIIG------LPKQIKTDNGPGYTSKNFQEFCSTLQIKHVTGIPYNPQGQGIVERAHLSLKTTIE</Hsp_hseq>
+      <Hsp_midline>GET+ ++     +++     IG      +P+ +  D G   TS  F+  C  L +      P NP+ +G VE+A+  ++T  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|130648|sp|P07572.1|POL_MPMV</Hit_id>
+  <Hit_def>RecName: Full=Pol polyprotein; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Mason-Pfizer monkey virus]</Hit_def>
+  <Hit_accession>P07572</Hit_accession>
+  <Hit_len>867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.8996</Hsp_evalue>
+      <Hsp_query-from>223</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>688</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>GETSANLCDFFIYMMQAKKDIGKDPFRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFE</Hsp_qseq>
+      <Hsp_hseq>GETTKHV---ITHLLHCFSIIG------LPKQIKTDNGPGYTSKNFQEFCSTLQIKHITGIPYNPQGQGIVERAHLSLKTTIE</Hsp_hseq>
+      <Hsp_midline>GET+ ++     +++     IG      +P+ +  D G   TS  F+  C  L +      P NP+ +G VE+A+  ++T  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|82281206|sp|O93215.4|POL_HV190</Hit_id>
+  <Hit_def>RecName: Full=Gag-Pol polyprotein; AltName: Full=Pr160Gag-Pol; Contains: RecName: Full=Matrix protein p17; Short=MA; Contains: RecName: Full=Capsid protein p24; Short=CA; Contains: RecName: Full=Spacer peptide p2; Contains: RecName: Full=Nucleocapsid protein p7; Short=NC; Contains: RecName: Full=Transframe peptide; Short=TF; Contains: RecName: Full=p6-pol; Short=p6*; Contains: RecName: Full=Protease; AltName: Full=PR; AltName: Full=Retropepsin; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; AltName: Full=Exoribonuclease H; AltName: Full=p66 RT; Contains: RecName: Full=p51 RT; Contains: RecName: Full=p15; Contains: RecName: Full=Integrase; Short=IN [HIV-1 M:H_90CF056]</Hit_def>
+  <Hit_accession>O93215</Hit_accession>
+  <Hit_len>1435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.91816</Hsp_evalue>
+      <Hsp_query-from>253</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1258</Hsp_hit-from>
+      <Hsp_hit-to>1302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>RMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKAN</Hsp_qseq>
+      <Hsp_hseq>KVIHTDNGSNFTSAAVKAACWWADIQQEFGIPYNPQSQGVVESMN</Hsp_hseq>
+      <Hsp_midline>+++  D GS  TSAA K  C   D+  +   P NP+++G VE  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|254766579|sp|B7UHH0.1|CYSN_ECO27</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli O127:H6 str. E2348/69]</Hit_def>
+  <Hit_accession>B7UHH0</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.41351</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADETLPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|167011356|sp|A7ZQJ5.1|CYSN_ECO24</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli O139:H28 str. E24377A]</Hit_def>
+  <Hit_accession>A7ZQJ5</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.49822</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|226722344|sp|B7LXG3.1|CYSN_ECO8A</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli IAI1] &gt;gi|254766580|sp|B7LEG9.1|CYSN_ECO55 RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli 55989]</Hit_def>
+  <Hit_accession>B7LXG3</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.51986</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|74688556|sp|Q6BJF4.1|NMT_DEBHA</Hit_id>
+  <Hit_def>RecName: Full=Glycylpeptide N-tetradecanoyltransferase; AltName: Full=Myristoyl-CoA:protein N-myristoyltransferase; Short=NMT; AltName: Full=Peptide N-myristoyltransferase [Debaryomyces hansenii CBS767]</Hit_def>
+  <Hit_accession>Q6BJF4</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.60833</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>EEAKLISAVLAEAMRRNGKRLMPVRQAVEM--LRANGKIEAARIDGETGEVIPLSENTITRALREYK----LHSDQLLQPDPVSRMKSEHPNHCW--------------QIDPSLCVLYCLPRQGKDTGLRVMKEEEF---------YKNKPKNVVKIENDRV--WRYTGTDHASGTISVRYYFGGETSANLCDFFIYMM</Hsp_qseq>
+      <Hsp_hseq>ETGKLVAFIAAIPITLKLNKSQKVIPSVEINFLCVHKKLRSKRL-------APVMIKEITRRVNKYDIWQALYTGGVVLPSPVATCRYTHRPINWSKLYDVGFSHLPANQTKSGMLANYALPNTTKTQGLRSMKIEDLDQVYDLLHKFQEKFDIVQVFEKDELAHWLLGGKSTDTSSNVIKSYVVENSEGSLTDFFSYYL</Hsp_hseq>
+      <Hsp_midline>E  KL++ + A  +     +   V  +VE+  L  + K+ + R+        P+    ITR + +Y     L++  ++ P PV+  +  H    W              Q    +   Y LP   K  GLR MK E+          ++ K   V   E D +  W   G    + +  ++ Y    +  +L DFF Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|29336831|sp|Q8X7X7.1|CYSN_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli O157:H7] &gt;gi|229487937|sp|B5Z3B3.1|CYSN_ECO5E RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli O157:H7 str. EC4115]</Hit_def>
+  <Hit_accession>Q8X7X7</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.63088</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|229487955|sp|B2TZI0.1|CYSN_SHIB3</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Shigella boydii CDC 3083-94]</Hit_def>
+  <Hit_accession>B2TZI0</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.63088</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|29336700|sp|Q8FEJ1.1|CYSN_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli CFT073] &gt;gi|123387840|sp|Q1R7U0.1|CYSN_ECOUT RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli UTI89] &gt;gi|166221134|sp|A1AEU5.1|CYSN_ECOK1 RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli APEC O1] &gt;gi|226722342|sp|B7MKM5.1|CYSN_ECO45 RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli S88]</Hit_def>
+  <Hit_accession>Q8FEJ1</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.65367</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|123728517|sp|Q32CH9.1|CYSN_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32CH9</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.67665</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|189082758|sp|B1IUS8.1|CYSN_ECOLC</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli ATCC 8739]</Hit_def>
+  <Hit_accession>B1IUS8</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.67665</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|130634|sp|P04026.1|POL_IPHA</Hit_id>
+  <Hit_def>RecName: Full=Putative Pol polyprotein; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Golden hamster intracisternal A-particle H18]</Hit_def>
+  <Hit_accession>P04026</Hit_accession>
+  <Hit_len>863</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.69445</Hsp_evalue>
+      <Hsp_query-from>258</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>663</Hsp_hit-from>
+      <Hsp_hit-to>702</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>DPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKAN</Hsp_qseq>
+      <Hsp_hseq>DNGPAYTSQKFRQFCRQMDVTHLTGLPYNPQGQGIVERAH</Hsp_hseq>
+      <Hsp_midline>D G A TS  F+  C+ +DV      P NP+ +G VE+A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|118147|sp|P23845.1|CYSN_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli K-12] &gt;gi|122958087|sp|Q0TEA7.1|CYSN_ECOL5 RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli 536] &gt;gi|123745946|sp|Q3YYB1.1|CYSN_SHISS RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Shigella sonnei Ss046] &gt;gi|226722343|sp|B7NT95.1|CYSN_ECO7I RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli IAI39] &gt;gi|226722346|sp|B1LQ72.1|CYSN_ECOSM RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli SMS-3-5] &gt;gi|229487938|sp|B1XCS7.1|CYSN_ECODH RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli str. K-12 substr. DH10B] &gt;gi|254766581|sp|B7MZ52.1|CYSN_ECO81 RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli ED1a] &gt;gi|259586104|sp|C4ZZQ5.1|CYSN_ECOBW RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P23845</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.69984</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|167011357|sp|A8A3N0.1|CYSN_ECOHS</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli HS]</Hit_def>
+  <Hit_accession>A8A3N0</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.8432</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|117949818|sp|P03363.4|POL_HTLV2</Hit_id>
+  <Hit_def>RecName: Full=Gag-Pro-Pol polyprotein; AltName: Full=Pr160Gag-Pro-Pol; Contains: RecName: Full=Matrix protein p19; Short=MA; Contains: RecName: Full=Capsid protein p24; Short=CA; Contains: RecName: Full=Nucleocapsid protein p15-pro; Short=NC&apos;; Short=NC-pro; Contains: RecName: Full=Protease; Short=PR; Contains: RecName: Full=p1; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Human T-lymphotropic virus 2]</Hit_def>
+  <Hit_accession>P03363</Hit_accession>
+  <Hit_len>1461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.86611</Hsp_evalue>
+      <Hsp_query-from>201</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>1243</Hsp_hit-from>
+      <Hsp_hit-to>1336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>RVWRYTGTDHASGTISVRYYFGGETSANLCDFFIYMMQAKKDIGKDPFRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGL</Hsp_qseq>
+      <Hsp_hseq>HVW----VDTFSGAVSVSCK-KKETS---CETISAVLQAISLLGK------PLHINTDNGPAFLSQEFQEFCTSYRIKHSTHIPYNPTSSGLVERTNGVIKNLLNKYL</Hsp_hseq>
+      <Hsp_midline> VW     D  SG +SV      ETS   C+    ++QA   +GK      P  +  D G A  S  F+  C    +    + P NP + G VE+ N +++      L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|226722345|sp|B7N6Y1.1|CYSN_ECOLU</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia coli UMN026]</Hit_def>
+  <Hit_accession>B7N6Y1</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.91771</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|226722347|sp|B7LWK4.1|CYSN_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LWK4</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.94298</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWV--SVPEVVFDEMGFKADAAVIGAEYKAPA</Hsp_qseq>
+      <Hsp_hseq>RGYAGTLASGRVQVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEVLPA</Hsp_hseq>
+      <Hsp_midline>+G  G L   +V VG++V V  +  E+N AR+ T+D +  E +   ++  V+ DE+       ++ A+   PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|224487905|sp|A9A3K1.1|DNLI_NITMS</Hit_id>
+  <Hit_def>RecName: Full=DNA ligase; AltName: Full=Polydeoxyribonucleotide synthase [Nitrosopumilus maritimus SCM1]</Hit_def>
+  <Hit_accession>A9A3K1</Hit_accession>
+  <Hit_len>588</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>3.15013</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>EAARIDGETGEVIPLSENTITRALREYKLHSDQLLQPDPVSRMKSEHPN--HCWQIDPSLCVLYCLPRQGKDTGLRVMKEEEFYKNKPKNVVKIEND</Hsp_qseq>
+      <Hsp_hseq>EAVAINENTGEFLPFQELMHRR--RKYKIEKAVTQYPITVNLFDILYCNGKSCLELDY---------KERREKMEKVVKEDDFVKHIPMAIVKNEND</Hsp_hseq>
+      <Hsp_midline>EA  I+  TGE +P  E    R  R+YK+       P  V+     + N   C ++D          ++ ++   +V+KE++F K+ P  +VK END</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|140832|sp|P25438.1|YI61_XANEU</Hit_id>
+  <Hit_def>RecName: Full=Insertion element IS476 uncharacterized 39.2 kDa protein [Xanthomonas euvesicatoria]</Hit_def>
+  <Hit_accession>P25438</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>3.3095</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>229</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>FRTVPRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVETAFESGLRFTEVHDIDQLNALSERWMRYYNGTQKHSRHGMTRYQAWNKIKPEQL</Hsp_qseq>
+      <Hsp_hseq>FRGYPRAVRTDNGPEFTSRAFIAWTQQHGIEHILIEPGAPTQNAYIESFNGKFRDECLNEHWFT---SLAQARDVIADWRRHYNQIRPHSSCG--------RIPPAQF</Hsp_hseq>
+      <Hsp_midline>FR  PR V  D G   TS AF    +   +   + +PG P     +E  N        +   FT    + Q   +   W R+YN  + HS  G        +I P Q </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|172044689|sp|Q9QBZ9.2|POL_HV197</Hit_id>
+  <Hit_def>RecName: Full=Gag-Pol polyprotein; AltName: Full=Pr160Gag-Pol; Contains: RecName: Full=Matrix protein p17; Short=MA; Contains: RecName: Full=Capsid protein p24; Short=CA; Contains: RecName: Full=Spacer peptide p2; Contains: RecName: Full=Nucleocapsid protein p7; Short=NC; Contains: RecName: Full=Transframe peptide; Short=TF; Contains: RecName: Full=p6-pol; Short=p6*; Contains: RecName: Full=Protease; AltName: Full=PR; AltName: Full=Retropepsin; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; AltName: Full=Exoribonuclease H; AltName: Full=p66 RT; Contains: RecName: Full=p51 RT; Contains: RecName: Full=p15; Contains: RecName: Full=Integrase; Short=IN [HIV-1 M:K_97ZR-EQTB11]</Hit_def>
+  <Hit_accession>Q9QBZ9</Hit_accession>
+  <Hit_len>1429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>3.33413</Hsp_evalue>
+      <Hsp_query-from>253</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1253</Hsp_hit-from>
+      <Hsp_hit-to>1297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>RMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKAN</Hsp_qseq>
+      <Hsp_hseq>RVIHTDNGSNFTSAVVKAACWWADIKQEFGIPYNPQSQGVVESMN</Hsp_hseq>
+      <Hsp_midline>R++  D GS  TSA  K  C   D+  +   P NP+++G VE  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|77416891|sp|P24740.3|POL_HV1U4</Hit_id>
+  <Hit_def>RecName: Full=Gag-Pol polyprotein; AltName: Full=Pr160Gag-Pol; Contains: RecName: Full=Matrix protein p17; Short=MA; Contains: RecName: Full=Capsid protein p24; Short=CA; Contains: RecName: Full=Spacer peptide p2; Contains: RecName: Full=Nucleocapsid protein p7; Short=NC; Contains: RecName: Full=Transframe peptide; Short=TF; Contains: RecName: Full=p6-pol; Short=p6*; Contains: RecName: Full=Protease; AltName: Full=PR; AltName: Full=Retropepsin; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; AltName: Full=Exoribonuclease H; AltName: Full=p66 RT; Contains: RecName: Full=p51 RT; Contains: RecName: Full=p15; Contains: RecName: Full=Integrase; Short=IN [Human immunodeficiency virus type 1 (STRAIN UGANDAN / ISOLATE U455)]</Hit_def>
+  <Hit_accession>P24740</Hit_accession>
+  <Hit_len>1428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>3.75578</Hsp_evalue>
+      <Hsp_query-from>253</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1251</Hsp_hit-from>
+      <Hsp_hit-to>1295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>RMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKAN</Hsp_qseq>
+      <Hsp_hseq>KVIHTDNGSNFTSAAVKAVCWWANIQQEFGIPYNPQSQGVVESMN</Hsp_hseq>
+      <Hsp_midline>+++  D GS  TSAA K +C   ++  +   P NP+++G VE  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|166979717|sp|A7MF59.1|SUFS_CROS8</Hit_id>
+  <Hit_def>RecName: Full=Cysteine desulfurase; AltName: Full=Selenocysteine beta-lyase; Short=SCL; AltName: Full=Selenocysteine lyase; AltName: Full=Selenocysteine reductase [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MF59</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>7.2141</Hsp_evalue>
+      <Hsp_query-from>377</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>VSADLEIRFGGRVYSVKGIKGILVGKKVLVGKKVLVGKNPWEANGARVATYDAEGNEVWVSVP</Hsp_qseq>
+      <Hsp_hseq>LDCDFYLFSGHKLYGPTGI-GILYAKE-----EILQAMPPWEGGGAMIATVSLTEGTTWAAAP</Hsp_hseq>
+      <Hsp_midline>+  D  +  G ++Y   GI GIL  K+     ++L    PWE  GA +AT        W + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|12585228|sp|Q9K896.1|SYFB_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Phenylalanine--tRNA ligase beta subunit; AltName: Full=Phenylalanyl-tRNA synthetase beta subunit; Short=PheRS [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K896</Hit_accession>
+  <Hit_len>808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>7.49946</Hsp_evalue>
+      <Hsp_query-from>486</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>661</Hsp_hit-from>
+      <Hsp_hit-to>774</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>AAAAKRKGKAVPFGGKIDPYKHQEDTLAASNTL------FMPKQGQQMDYNKM--------EVAEQVLSKVEIAKRLKPRVEADGGDWKQAVSVILKHYPEGVTEGRLEEAFERT</Hsp_qseq>
+      <Hsp_hseq>TANVKVNGRAVGFAGQIHPERQSELDLKETYVFQLDVESLLTEEGTEVAYEPLPRFPAISRDIALVVDENV-TAAQLQQVIEANGGEWLKHVYLFDLYEGEHMEAGKKSIAFSLT</Hsp_hseq>
+      <Hsp_midline> A  K  G+AV F G+I P +  E  L  +          + ++G ++ Y  +        ++A  V   V  A +L+  +EA+GG+W + V +   +  E +  G+   AF  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|130588|sp|P25059.1|POL_BLVAU</Hit_id>
+  <Hit_def>RecName: Full=Pol polyprotein; Contains: RecName: Full=Reverse transcriptase/ribonuclease H; Short=RT; Contains: RecName: Full=Integrase; Short=IN [Bovine leukemia virus (AUSTRALIAN ISOLATE)]</Hit_def>
+  <Hit_accession>P25059</Hit_accession>
+  <Hit_len>852</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>9.93656</Hsp_evalue>
+      <Hsp_query-from>252</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>677</Hsp_hit-from>
+      <Hsp_hit-to>726</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>PRMVMLDPGSANTSAAFKNLCKPLDVHVQINKPGNPRAKGQVEKANDIVE</Hsp_qseq>
+      <Hsp_hseq>PKKLNTDQGANYTSKTFVRFCQQFGISLSHHVPYNPTSSGLVERTNGLLK</Hsp_hseq>
+      <Hsp_midline>P+ +  D G+  TS  F   C+   + +  + P NP + G VE+ N +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

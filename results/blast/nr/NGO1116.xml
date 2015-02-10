@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>54173</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7Q4</BlastOutput_query-def>
+  <BlastOutput_query-len>215</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>54173</Iteration_query-ID>
+  <Iteration_query-def>Q5F7Q4</Iteration_query-def>
+  <Iteration_query-len>215</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|59801483|ref|YP_208195.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Neisseria gonorrhoeae FA 1090] &gt;gi|59718378|gb|AAW89783.1| putative phage repressor protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>YP_208195</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.588</Hsp_bit-score>
+      <Hsp_score>1150</Hsp_score>
+      <Hsp_evalue>9.17709e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|645182507|ref|WP_025455899.1|</Hit_id>
+  <Hit_def>repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025455899</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.654</Hsp_bit-score>
+      <Hsp_score>1132</Hsp_score>
+      <Hsp_evalue>1.31792e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRNTPVLINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETASLDSLTVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+AKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSR  P LINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETA LDSLTVIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|226513092|gb|EEH62437.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Neisseria gonorrhoeae 1291]</Hit_def>
+  <Hit_accession>EEH62437</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.654</Hsp_bit-score>
+      <Hsp_score>1132</Hsp_score>
+      <Hsp_evalue>1.48346e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRNTPVLINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETASLDSLTVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+AKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSR  P LINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETA LDSLTVIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|645180652|ref|WP_025455806.1|</Hit_id>
+  <Hit_def>repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025455806</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>2.69652e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRNTPVLINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETASLDSLTVIGRVFWRSVLD</Hsp_hseq>
+      <Hsp_midline>+AKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSR  P LINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETA LDSLTVIGRVFW SVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|268548499|gb|EEZ43917.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Neisseria gonorrhoeae 35/02]</Hit_def>
+  <Hit_accession>EEZ43917</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.417</Hsp_bit-score>
+      <Hsp_score>1121</Hsp_score>
+      <Hsp_evalue>3.87671e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRNTPVLINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETASLDSLTVIGRVFWRSVLD</Hsp_hseq>
+      <Hsp_midline>+AKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSR  P LINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETA LDSLTVIGRVFW SVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|489792108|ref|WP_003695999.1|</Hit_id>
+  <Hit_def>repressor [Neisseria gonorrhoeae] &gt;gi|538321768|ref|YP_008502828.1| phage repressor protein [Neisseria gonorrhoeae MS11] &gt;gi|268583839|gb|EEZ48515.1| phage repressor protein [Neisseria gonorrhoeae MS11] &gt;gi|268586181|gb|EEZ50857.1| transcriptional regulator [Neisseria gonorrhoeae PID18] &gt;gi|268587447|gb|EEZ52123.1| transcriptional regulator [Neisseria gonorrhoeae PID1] &gt;gi|268622076|gb|EEZ54476.1| transcriptional regulator [Neisseria gonorrhoeae PID332] &gt;gi|291013025|gb|EFE05001.1| transcriptional regulator [Neisseria gonorrhoeae DGI2] &gt;gi|636861760|gb|KDM98902.1| repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003695999</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.119</Hsp_bit-score>
+      <Hsp_score>1006</Hsp_score>
+      <Hsp_evalue>2.07174e-135</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>AKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>ARLLNISQQTLKNWES-RGISAKALPEVAQVLGVSETWLRTGEGSRTAPVLINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLSVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>A+L  +SQ T+   ES R   A  + ++A++L VS  WL TGEGSRTAP LINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSL+VIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488148221|ref|WP_002219429.1|</Hit_id>
+  <Hit_def>repressor [Neisseria meningitidis] &gt;gi|385339867|ref|YP_005893739.1| peptidase, S24 family [Neisseria meningitidis G2136] &gt;gi|385851434|ref|YP_005897949.1| peptidase, S24 family [Neisseria meningitidis M04-240196] &gt;gi|385853400|ref|YP_005899914.1| peptidase, S24 family [Neisseria meningitidis H44/76] &gt;gi|385857057|ref|YP_005903569.1| peptidase, S24 family [Neisseria meningitidis NZ-05/33] &gt;gi|316985836|gb|EFV64778.1| peptidase S24-like family protein [Neisseria meningitidis H44/76] &gt;gi|325128010|gb|EGC50908.1| peptidase, S24 family [Neisseria meningitidis N1568] &gt;gi|325130061|gb|EGC52850.1| peptidase, S24 family [Neisseria meningitidis OX99.30304] &gt;gi|325133952|gb|EGC56607.1| peptidase, S24 family [Neisseria meningitidis M13399] &gt;gi|325136816|gb|EGC59414.1| peptidase, S24 family [Neisseria meningitidis M0579] &gt;gi|325138493|gb|EGC61059.1| peptidase, S24 family [Neisseria meningitidis ES14902] &gt;gi|325139936|gb|EGC62465.1| peptidase, S24 family [Neisseria meningitidis CU385] &gt;gi|325142187|gb|EGC64610.1| peptidase, S24 family [Neisseria meningitidis 961-5945] &gt;gi|325198111|gb|ADY93567.1| peptidase, S24 family [Neisseria meningitidis G2136] &gt;gi|325200404|gb|ADY95859.1| peptidase, S24 family [Neisseria meningitidis H44/76] &gt;gi|325206257|gb|ADZ01710.1| peptidase, S24 family [Neisseria meningitidis M04-240196] &gt;gi|325207946|gb|ADZ03398.1| peptidase, S24 family [Neisseria meningitidis NZ-05/33] &gt;gi|432204379|gb|ELK60424.1| repressor protein CI [Neisseria meningitidis NM422] &gt;gi|432224601|gb|ELK80366.1| repressor protein CI [Neisseria meningitidis M13255] &gt;gi|432228169|gb|ELK83870.1| repressor protein CI [Neisseria meningitidis NM418] &gt;gi|432242030|gb|ELK97554.1| repressor protein CI [Neisseria meningitidis 9506] &gt;gi|432242718|gb|ELK98236.1| repressor protein CI [Neisseria meningitidis 9757] &gt;gi|432244723|gb|ELL00208.1| repressor protein CI [Neisseria meningitidis 4119] &gt;gi|432247382|gb|ELL02820.1| repressor protein CI [Neisseria meningitidis 12888] &gt;gi|432274071|gb|ELL29165.1| repressor protein CI [Neisseria meningitidis 77221] &gt;gi|485357005|gb|EOC18081.1| repressor protein CI [Neisseria meningitidis 2002020] &gt;gi|485359416|gb|EOC20265.1| repressor protein CI [Neisseria meningitidis NM477] &gt;gi|485361672|gb|EOC22307.1| repressor protein CI [Neisseria meningitidis M13265] &gt;gi|530900901|gb|EQC99564.1| repressor protein CI [Neisseria meningitidis NM3141] &gt;gi|530902368|gb|EQD00945.1| repressor protein CI [Neisseria meningitidis 2002030] &gt;gi|530906734|gb|EQD05013.1| repressor protein CI [Neisseria meningitidis NM3139] &gt;gi|530916071|gb|EQD13807.1| repressor protein CI [Neisseria meningitidis NM0552] &gt;gi|530916463|gb|EQD14174.1| repressor protein CI [Neisseria meningitidis NM1476] &gt;gi|530922547|gb|EQD19871.1| repressor protein CI [Neisseria meningitidis NM3173] &gt;gi|530924210|gb|EQD21449.1| repressor protein CI [Neisseria meningitidis NM3230] &gt;gi|530924562|gb|EQD21784.1| repressor protein CI [Neisseria meningitidis NM2866]</Hit_def>
+  <Hit_accession>WP_002219429</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>1.17663e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>IAERLNISQQALKNWES-RGIAAKALPEVAKAFGVSETWLRTGEGSRTAPVLIDPDLPHEVKDIHRPMTWSSNDPLPDDDYVFVPYLKESCFKGGVGTYEIPDYNGYRLPFGKSTLKRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYGDENAPLDSLTVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+A+   +SQ  +   ES R   A  + ++AK   VS  WL TGEGSRTAP LI+PDLPHEVKDIHRPM WSSNDPLPDDDYVFVPYLKESCFKGG G YEIPDYNGYRLPFGKSTL+RKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFY DE APLDSLTVIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|488149488|ref|WP_002220696.1|</Hit_id>
+  <Hit_def>repressor [Neisseria meningitidis] &gt;gi|15676805|ref|NP_273950.1| transcriptional regulator [Neisseria meningitidis MC58] &gt;gi|121634684|ref|YP_974929.1| transcriptional regulator [Neisseria meningitidis FAM18] &gt;gi|254804773|ref|YP_003082994.1| putative phage repressor protein [Neisseria meningitidis alpha14] &gt;gi|385328227|ref|YP_005882530.1| transcriptional regulator [Neisseria meningitidis alpha710] &gt;gi|385342095|ref|YP_005895966.1| peptidase, S24 family [Neisseria meningitidis M01-240149] &gt;gi|7226147|gb|AAF41318.1| transcriptional regulator [Neisseria meningitidis MC58] &gt;gi|120866390|emb|CAM10133.1| Transcriptional regulator [Neisseria meningitidis FAM18] &gt;gi|254668315|emb|CBA05285.1| putative phage repressor protein [Neisseria meningitidis alpha14] &gt;gi|308389079|gb|ADO31399.1| Transcriptional regulator [Neisseria meningitidis alpha710] &gt;gi|325132324|gb|EGC55017.1| peptidase, S24 family [Neisseria meningitidis M6190] &gt;gi|325144297|gb|EGC66602.1| peptidase, S24 family [Neisseria meningitidis M01-240013] &gt;gi|325202301|gb|ADY97755.1| peptidase, S24 family [Neisseria meningitidis M01-240149] &gt;gi|389605994|emb|CCA44908.1| repressor protein CI [Neisseria meningitidis alpha522] &gt;gi|393292184|emb|CCI72529.1| Repressor protein CI [Neisseria meningitidis alpha704] &gt;gi|402341830|gb|EJU77003.1| repressor protein CI [Neisseria meningitidis NM2795] &gt;gi|402345220|gb|EJU80342.1| repressor protein CI [Neisseria meningitidis NM3081] &gt;gi|432203616|gb|ELK59667.1| repressor protein CI [Neisseria meningitidis 87255] &gt;gi|432204887|gb|ELK60920.1| repressor protein CI [Neisseria meningitidis 98080] &gt;gi|432210418|gb|ELK66377.1| repressor protein CI [Neisseria meningitidis 97021] &gt;gi|432216972|gb|ELK72843.1| repressor protein CI [Neisseria meningitidis 2006087] &gt;gi|432221546|gb|ELK77356.1| repressor protein CI [Neisseria meningitidis 2002038] &gt;gi|432223090|gb|ELK78872.1| repressor protein CI [Neisseria meningitidis 97014] &gt;gi|432229182|gb|ELK84875.1| repressor protein CI [Neisseria meningitidis NM586] &gt;gi|432231140|gb|ELK86810.1| repressor protein CI [Neisseria meningitidis NM762] &gt;gi|432234548|gb|ELK90168.1| repressor protein CI [Neisseria meningitidis M7124] &gt;gi|432235354|gb|ELK90970.1| repressor protein CI [Neisseria meningitidis M7089] &gt;gi|432235973|gb|ELK91582.1| repressor protein CI [Neisseria meningitidis NM174] &gt;gi|432240952|gb|ELK96483.1| repressor protein CI [Neisseria meningitidis NM126] &gt;gi|485331225|gb|EOB94068.1| repressor protein CI [Neisseria meningitidis NM133] &gt;gi|485334238|gb|EOB96881.1| repressor protein CI [Neisseria meningitidis NM43] &gt;gi|485337873|gb|EOC00273.1| repressor protein CI [Neisseria meningitidis NM94] &gt;gi|485338208|gb|EOC00590.1| repressor protein CI [Neisseria meningitidis NM82] &gt;gi|485340822|gb|EOC03040.1| repressor protein CI [Neisseria meningitidis NM95] &gt;gi|485343937|gb|EOC05925.1| repressor protein CI [Neisseria meningitidis NM313] &gt;gi|485345042|gb|EOC06965.1| repressor protein CI [Neisseria meningitidis NM1482] &gt;gi|485347408|gb|EOC09175.1| repressor protein CI [Neisseria meningitidis NM1495] &gt;gi|485351013|gb|EOC12523.1| repressor protein CI [Neisseria meningitidis 73704] &gt;gi|485363712|gb|EOC24155.1| repressor protein CI [Neisseria meningitidis NM3147] &gt;gi|485366709|gb|EOC26911.1| repressor protein CI [Neisseria meningitidis 2001072] &gt;gi|485368569|gb|EOC28663.1| repressor protein CI [Neisseria meningitidis 2001073] &gt;gi|485370555|gb|EOC30503.1| repressor protein CI [Neisseria meningitidis 2000081] &gt;gi|485378197|gb|EOC37649.1| repressor protein CI [Neisseria meningitidis 2001213] &gt;gi|485379546|gb|EOC38897.1| repressor protein CI [Neisseria meningitidis 2004264] &gt;gi|485381609|gb|EOC40824.1| repressor protein CI [Neisseria meningitidis 2005079] &gt;gi|485381889|gb|EOC41096.1| repressor protein CI [Neisseria meningitidis 2000175] &gt;gi|485386688|gb|EOC45572.1| repressor protein CI [Neisseria meningitidis 2001068] &gt;gi|485388660|gb|EOC47422.1| repressor protein CI [Neisseria meningitidis 2005040] &gt;gi|485389754|gb|EOC48453.1| repressor protein CI [Neisseria meningitidis 2002004] &gt;gi|485393810|gb|EOC52207.1| repressor protein CI [Neisseria meningitidis 2005172] &gt;gi|485395226|gb|EOC53539.1| repressor protein CI [Neisseria meningitidis 2008223] &gt;gi|485431006|gb|EOC86688.1| repressor protein CI [Neisseria meningitidis NM23] &gt;gi|485431688|gb|EOC87319.1| repressor protein CI [Neisseria meningitidis NM32] &gt;gi|485435975|gb|EOC91164.1| repressor protein CI [Neisseria meningitidis NM35] &gt;gi|485438305|gb|EOC93312.1| repressor protein CI [Neisseria meningitidis NM36] &gt;gi|514071216|gb|EPF56017.1| repressor protein CI [Neisseria meningitidis 98002] &gt;gi|530901460|gb|EQD00095.1| repressor protein CI [Neisseria meningitidis 96037] &gt;gi|530908216|gb|EQD06411.1| repressor protein CI [Neisseria meningitidis NM045] &gt;gi|530909583|gb|EQD07700.1| repressor protein CI [Neisseria meningitidis NM151] &gt;gi|530912391|gb|EQD10340.1| repressor protein CI [Neisseria meningitidis NM003] &gt;gi|530917213|gb|EQD14886.1| repressor protein CI [Neisseria meningitidis NM518] &gt;gi|663091708|gb|KER39956.1| peptidase S24-like family protein [Neisseria meningitidis 992008] &gt;gi|694192003|gb|KGI97329.1| repressor [Neisseria meningitidis] &gt;gi|694193060|gb|KGI98292.1| repressor [Neisseria meningitidis] &gt;gi|723271790|gb|KHC98981.1| repressor [Neisseria meningitidis] &gt;gi|723273307|gb|KHD00491.1| repressor [Neisseria meningitidis] &gt;gi|726974925|gb|KHF22359.1| repressor [Neisseria meningitidis] &gt;gi|730569573|gb|AIZ17375.1| repressor [Neisseria meningitidis] &gt;gi|730572911|gb|AIZ20313.1| repressor [Neisseria meningitidis M7124] &gt;gi|730575235|gb|AIZ22184.1| repressor [Neisseria meningitidis] &gt;gi|730577689|gb|AIZ24136.1| repressor [Neisseria meningitidis] &gt;gi|743394294|gb|KID53832.1| repressor [Neisseria meningitidis LNP27256] &gt;gi|744797783|gb|AJC62571.1| repressor [Neisseria meningitidis LNP21362] &gt;gi|747186141|gb|KIF90059.1| repressor [Neisseria meningitidis] &gt;gi|747186522|gb|KIF90377.1| repressor [Neisseria meningitidis] &gt;gi|747188826|gb|KIF92232.1| repressor [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002220696</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>1.30334e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>IAERLNISQQALKNWES-RGIAAKALPEVAKAFGVSETWLRTGEGSRTAPVLIDPDLPHEVKDIHRPMTWSSNDPLPDDDYVFVPYLKESCFKGGVGTYEIPDYNGYRLPFGKSTLKRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYGDENAPLDSLTVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+A+   +SQ  +   ES R   A  + ++AK   VS  WL TGEGSRTAP LI+PDLPHEVKDIHRPM WSSNDPLPDDDYVFVPYLKESCFKGG G YEIPDYNGYRLPFGKSTL+RKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFY DE APLDSLTVIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|730581037|gb|AIZ27018.1|</Hit_id>
+  <Hit_def>repressor [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AIZ27018</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>1.19606e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>IAERLNISQQALKNWES-RGIAAKALPEVAKAFGVSETWLRTGEGSRTAPVLIDPDLPHEVKDIHRPMTWSSNDPLPDDDYVFVPYLKESCFKGGVSTYEIPDYNGYRLPFGKSTLKRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYGDENAPLDSLTVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+A+   +SQ  +   ES R   A  + ++AK   VS  WL TGEGSRTAP LI+PDLPHEVKDIHRPM WSSNDPLPDDDYVFVPYLKESCFKGG   YEIPDYNGYRLPFGKSTL+RKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFY DE APLDSLTVIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|489781154|ref|WP_003685045.1|</Hit_id>
+  <Hit_def>repressor [Neisseria flavescens] &gt;gi|241319786|gb|EER56182.1| peptidase S24-like protein [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003685045</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>2.40574e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>IAERLNISQQALKNWES-RGIAAKALPEVARVFGVSETWLRTGEGSRTVPVLIDPGLPHEVKDIHSPMMWSSNDPLPEDDYTFVPYLKESCFKGGTGAYEIPDYNGYRLPFGKSTLKRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGGNVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+A+   +SQ  +   ES R   A  + ++A++  VS  WL TGEGSRT P LI+P LPHEVKDIH PMMWSSNDPLP+DDY FVPYLKESCFKGG GAYEIPDYNGYRLPFGKSTL+RKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPG +VLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|268548886|gb|EEZ44304.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Neisseria gonorrhoeae 35/02] &gt;gi|291610760|gb|EFF39870.1| phage repressor protein, phage associated protein [Neisseria gonorrhoeae F62] &gt;gi|654606021|gb|KEC86643.1| repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>EEZ44304</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.681</Hsp_bit-score>
+      <Hsp_score>914</Hsp_score>
+      <Hsp_evalue>1.10752e-121</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>KLAEVSQSTIAALESGRNKKATNIAK-LAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>KLPVKDKSLLSQLMSGKASFGEKVSRRLEEEYGMGSLYLDSVP-SEPTPVLINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLSVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>KL    +S ++ L SG+      +++ L +   + + +L++   S   P LINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSL+VIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|489798562|ref|WP_003702453.1|</Hit_id>
+  <Hit_def>repressor [Neisseria gonorrhoeae] &gt;gi|194099447|ref|YP_002002559.1| Putative phage repressor protein phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|193934737|gb|ACF30561.1| Putative phage repressor protein, putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|268626549|gb|EEZ58949.1| transcriptional regulator [Neisseria gonorrhoeae SK-93-1035] &gt;gi|693764631|gb|KGI95545.1| repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003702453</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.066</Hsp_bit-score>
+      <Hsp_score>915</Hsp_score>
+      <Hsp_evalue>1.11757e-121</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>KLAEVSQSTIAALESGRNKKATNIAK-LAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>KLPVKDKSLLSQLMSGKASFGEKVSRRLEEEYGMGSLYLDSVP-SEPTPVLINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLSVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>KL    +S ++ L SG+      +++ L +   + + +L++   S   P LINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSL+VIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|489808131|ref|WP_003711994.1|</Hit_id>
+  <Hit_def>repressor [Neisseria lactamica] &gt;gi|309379937|emb|CBX21348.1| unnamed protein product [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003711994</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>2.06094e-116</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>QSTIAALESGRNKKATNIAK-LAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>KSLLSQLMSGKASFGEKVSRRLEEEYGMGSLYLDSVP-SEPTPVLIDPNLPHEAKDIHRPMTWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLKRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETTIRDGKIYAFAQDGMFRVKYLIRQPGNNVLIRSHNSSFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+S ++ L SG+      +++ L +   + + +L++   S   P LI+P+LPHE KDIHRPM WSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTL+RKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGET IRDGKIYAFAQDGMFRVKYLIRQPGN+VLIRSHNS FYPDETAPLDSLTVIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|750270202|ref|WP_040558383.1|</Hit_id>
+  <Hit_def>repressor [Kingella oralis]</Hit_def>
+  <Hit_accession>WP_040558383</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>1.28918e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LGKAINKSQSAIAALETGRNQGSTNIAKIAEVLGVSAIWLETGQGE-MYPQSTTPRI-NEITDIHRPILWSSNTPLPEDDYVFVPFLKETELRGGAGSFEIPDYNGFRLPFGKSTLHRKGIMPDNVICCTLTGDSMEPRIPEYATIAVDKGIERIRDGKIYAFQHDDLFRVKYLYRLPGNKVRIRSDNEN-YEDEIVSGEEIRVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+ K    SQS IAALE+GRN+ +TNIAK+A++L VSA WLETG+G    P    P + +E+ DIHRP++WSSN PLP+DDYVFVP+LKE+  +GGAG++EIPDYNG+RLPFGKSTL RKGI PDNV CCTLTGDSME +I E A IAVD G   IRDGKIYAF  D +FRVKYL R PGN V IRS N   Y DE    + + VIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|237868070|gb|EEP69076.1|</Hit_id>
+  <Hit_def>DNA-binding helix-turn-helix protein [Kingella oralis ATCC 51147]</Hit_def>
+  <Hit_accession>EEP69076</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>4.96269e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LGKAINKSQSAIAALETGRNQGSTNIAKIAEVLGVSAIWLETGQGE-MYPQSTTPRI-NEITDIHRPILWSSNTPLPEDDYVFVPFLKETELRGGAGSFEIPDYNGFRLPFGKSTLHRKGIMPDNVICCTLTGDSMEPRIPEYATIAVDKGIERIRDGKIYAFQHDDLFRVKYLYRLPGNKVRIRSDNEN-YEDEIVSGEEIRVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+ K    SQS IAALE+GRN+ +TNIAK+A++L VSA WLETG+G    P    P + +E+ DIHRP++WSSN PLP+DDYVFVP+LKE+  +GGAG++EIPDYNG+RLPFGKSTL RKGI PDNV CCTLTGDSME +I E A IAVD G   IRDGKIYAF  D +FRVKYL R PGN V IRS N   Y DE    + + VIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|490655702|ref|WP_004520692.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Neisseria subflava] &gt;gi|284796072|gb|EFC51419.1| DNA-binding helix-turn-helix protein [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>WP_004520692</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>3.92588e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAG-AYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LSKLLGVSQASIAAIEAGRNKRPTNLVSIAKALDVSPYWLETGKEDKEIISNATP--------LGKIEEWDNDTPLSEDD-CEAPLYKDVKLSAGNGFADDIEDYNGYKLRFSRNTLRKHGISPENVVCVMADGDSMEPVFPSGATLGIDTGSKNIRDGQIYAINHGGLLRTKILHKLPENKVRIRSYNQSEYPDEEASLDDLSVIGRVFWWSVM</Hsp_hseq>
+      <Hsp_midline>++KL  VSQ++IAA+E+GRNK+ TN+  +AK LDVS +WLETG+  +   +   P        + +   W ++ PL +DD    P  K+     G G A +I DYNGY+L F ++TLR+ GI+P+NV C    GDSME      A + +DTG   IRDG+IYA    G+ R K L + P N V IRS+N   YPDE A LD L+VIGRVFWWSV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|739064833|ref|WP_036936243.1|</Hit_id>
+  <Hit_def>repressor [Proteus vulgaris] &gt;gi|685172516|gb|KGA60173.1| repressor protein CI [Proteus vulgaris]</Hit_def>
+  <Hit_accession>WP_036936243</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>4.39122e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEV--KDIHRPMM-WSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LATLASTTQQSIEQLESGKTKRPRFLPELAKALNCDLTWLLEGEE--------QPDIASEIPPENEWQPVSEWDSNTPL-DADEVEIPYFKSIELAAGDGCCTNEDHNGYKLRFSKSTLRRYGASSQNVICFSVYGDSMSPVIPNGSTVTVDTGNTRIVDGGIYAIEQDALFRIKLLYRQPGGKLIIRSYNKDEFPDETAETDSVKIMGRIIHWSVM</Hsp_hseq>
+      <Hsp_midline>+A LA  +Q +I  LESG+ K+   + +LAK L+    WL  GE          PD+  E+  ++  +P+  W SN PL D D V +PY K      G G     D+NGY+L F KSTLRR G +  NV C ++ GDSM   I   + + VDTG T I DG IYA  QD +FR+K L RQPG  ++IRS+N   +PDETA  DS+ ++GR+  WSV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|559229861|ref|WP_023581932.1|</Hit_id>
+  <Hit_def>regulatory protein [Proteus hauseri] &gt;gi|558648107|gb|EST58571.1| regulatory protein [Proteus hauseri ZMd44]</Hit_def>
+  <Hit_accession>WP_023581932</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>5.26896e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LATLANTTQQSIEQLESGKTKRPRFLPELAKALNCDLAWLLEGEEQPNATSEIPPE--NEWQPVSE---WDSNTPLGADE-VEIPYFKSIELAAGDGCCTNEDHNGYKLRFSKSTLRRYGASSQNVICFSVYGDSMSPVIPNGSTVTVDTGNTRIVDGGIYAIEQDALFRIKLLYRQPGGKLIIRSYNKDEFPDETAETDSVKIMGRIIHWSVM</Hsp_hseq>
+      <Hsp_midline>+A LA  +Q +I  LESG+ K+   + +LAK L+    WL  GE    A + I P+  +E + +     W SN PL  D+ V +PY K      G G     D+NGY+L F KSTLRR G +  NV C ++ GDSM   I   + + VDTG T I DG IYA  QD +FR+K L RQPG  ++IRS+N   +PDETA  DS+ ++GR+  WSV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|490363590|ref|WP_004243309.1|</Hit_id>
+  <Hit_def>repressor [Proteus mirabilis] &gt;gi|197285395|ref|YP_002151267.1| regulatory protein [Proteus mirabilis HI4320] &gt;gi|529237267|ref|YP_008398126.1| regulatory protein [Proteus mirabilis BB2000] &gt;gi|194682882|emb|CAR43223.1| regulatory protein [Proteus mirabilis HI4320] &gt;gi|227164148|gb|EEI49045.1| peptidase S24-like protein [Proteus mirabilis ATCC 29906] &gt;gi|404597469|gb|EKA97966.1| hypothetical protein HMPREF1310_01685 [Proteus mirabilis WGLW4] &gt;gi|404600334|gb|EKB00780.1| hypothetical protein HMPREF1311_01517 [Proteus mirabilis WGLW6] &gt;gi|529188305|gb|AGS60065.1| regulatory protein [Proteus mirabilis BB2000] &gt;gi|702063461|gb|KGQ15239.1| repressor [Proteus mirabilis] &gt;gi|721495022|gb|KGY38544.1| repressor [Proteus mirabilis] &gt;gi|721503395|gb|KGY46887.1| repressor [Proteus mirabilis]</Hit_def>
+  <Hit_accession>WP_004243309</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>8.54113e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LATLAGTTQQSIEQLESGKTKRPRFLPELAKALNCELSWLLEGDNKQTHASEIPPQ-----DEWHSVSEWDNDTPLNADE-VEIRYFKSIELAAGDGCCTNEDHNGYKLRFSKSTLRRYGASPQNVICFSVYGDSMSPVIPNGSTVTVDTGNTRIVDGGIYAIEQDSLFRIKLLYRQPGGKLIIRSYNKDEFPDEFAEIDSVKIMGRVIHWSVM</Hsp_hseq>
+      <Hsp_midline>+A LA  +Q +I  LESG+ K+   + +LAK L+    WL  G+  +T  + I P       + H    W ++ PL  D+ V + Y K      G G     D+NGY+L F KSTLRR G +P NV C ++ GDSM   I   + + VDTG T I DG IYA  QD +FR+K L RQPG  ++IRS+N   +PDE A +DS+ ++GRV  WSV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|739024404|ref|WP_036905601.1|</Hit_id>
+  <Hit_def>repressor [Proteus mirabilis] &gt;gi|721498157|gb|KGY41678.1| repressor [Proteus mirabilis] &gt;gi|721559330|gb|KGZ02654.1| repressor [Proteus mirabilis]</Hit_def>
+  <Hit_accession>WP_036905601</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>1.03569e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LATLAGTTQQSIEQLESGKTKRPRFLPELAKALNCELSWLLEGDNKQTPASEIPPQ-----DEWHSVSEWDNDTPLNADE-VEIRYFKSIELAAGDGCCTNEDHNGYKLRFSKSTLRRYGASPQNVICFSVYGDSMSPVIPNGSTVTVDTGNTRIVDGGIYAIEQDSLFRIKLLYRQPGGKLIIRSYNKDEFPDEFAEIDSVKIMGRVIHWSVM</Hsp_hseq>
+      <Hsp_midline>+A LA  +Q +I  LESG+ K+   + +LAK L+    WL  G+  +T  + I P       + H    W ++ PL  D+ V + Y K      G G     D+NGY+L F KSTLRR G +P NV C ++ GDSM   I   + + VDTG T I DG IYA  QD +FR+K L RQPG  ++IRS+N   +PDE A +DS+ ++GRV  WSV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|739026701|ref|WP_036907891.1|</Hit_id>
+  <Hit_def>repressor [Proteus mirabilis] &gt;gi|685234683|gb|KGA91297.1| repressor protein CI [Proteus mirabilis] &gt;gi|721595405|gb|KGZ38673.1| repressor [Proteus mirabilis]</Hit_def>
+  <Hit_accession>WP_036907891</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>6.3232e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LATLAGTTQQSIEQLESGKTKRPRFLPELAKALNCELSWLLEGDNKQTHASEIPPQ-----DEWHSVSEWDNDTPLNADE-VEIRYFKSIELAAGDGCCTNEDHNGYKLRFSKSTLRRYGASPQNVICFSVYGDSMSPVIPNGSTVTVDIGNTRIVDGGIYAIEQDSLFRIKLLYRQPGGKLIIRSYNKDEFPDEFAEIDSVKIMGRVIHWSVM</Hsp_hseq>
+      <Hsp_midline>+A LA  +Q +I  LESG+ K+   + +LAK L+    WL  G+  +T  + I P       + H    W ++ PL  D+ V + Y K      G G     D+NGY+L F KSTLRR G +P NV C ++ GDSM   I   + + VD G T I DG IYA  QD +FR+K L RQPG  ++IRS+N   +PDE A +DS+ ++GRV  WSV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|740409560|ref|WP_038243035.1|</Hit_id>
+  <Hit_def>repressor [Yersinia ruckeri]</Hit_def>
+  <Hit_accession>WP_038243035</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>2.64262e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEG---SRTAPALINPD--LP--HEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LAEKAGVSQAAIQKITSGKSQSTTKLLEISRALQVRPEWL--GEGVPPMKESNVLIGKESNIPPEHEWGNI---APWDSKCPIPEDE-VEVPYLRDIELAAGDGSFCDQDYNGFKLRFSKSTLRRVGAQKENVLCFPAHGNSMEPILPNGTTVAVDCANKKIVDGKIYAINQDGLKRLKLLYRMPGNKLSIRSFNKGEHPDEDADGETVEIIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+ I  + SG+++  T + ++++ L V   WL  GEG    + +  LI  +  +P  HE  +I     W S  P+P+D+ V VPYL++     G G++   DYNG++L F KSTLRR G   +NV C    G+SME  +     +AVD     I DGKIYA  QDG+ R+K L R PGN + IRS N G +PDE A  +++ +IGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|669789540|gb|KFE38868.1|</Hit_id>
+  <Hit_def>repressor [Yersinia ruckeri]</Hit_def>
+  <Hit_accession>KFE38868</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>3.48874e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEG---SRTAPALINPD--LP--HEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LAEKAGVSQAAIQKITSGKSQSTTKLLEISRALQVRPEWL--GEGVPPMKESNVLIGKESNIPPEHEWGNI---APWDSKCPIPEDE-VEVPYLRDIELAAGDGSFCDQDYNGFKLRFSKSTLRRVGAQKENVLCFPAHGNSMEPILPNGTTVAVDCANKKIVDGKIYAINQDGLKRLKLLYRMPGNKLSIRSFNKGEHPDEDADGETVEIIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+ I  + SG+++  T + ++++ L V   WL  GEG    + +  LI  +  +P  HE  +I     W S  P+P+D+ V VPYL++     G G++   DYNG++L F KSTLRR G   +NV C    G+SME  +     +AVD     I DGKIYA  QDG+ R+K L R PGN + IRS N G +PDE A  +++ +IGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|502357228|ref|WP_012771333.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Aggregatibacter aphrophilus] &gt;gi|251792258|ref|YP_003006980.1| HTH-type transcriptional regulator PrtR [Aggregatibacter aphrophilus NJ8700] &gt;gi|157921532|gb|ABW02839.1| putative repressor CI [Aggregatibacter aphrophilus NJ8700] &gt;gi|247533647|gb|ACS96893.1| HTH-type transcriptional regulator PrtR (Pyocin repressor protein) [Aggregatibacter aphrophilus NJ8700]</Hit_def>
+  <Hit_accession>WP_012771333</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>5.28786e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAG-AYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAALAGTSQVTISNILNGVTKSPRNGLQIAKALKISPEWLLNGTGE-----MVQPKIESNVAETGSFDLWDRNTPLNDDE-VEVPLFQEIRLAAGNGFADDIMDYNNFKLRFSRATLRRQGVQYENAVCVVADGNSMEPVIPNGATVGIDTGNKTIRDGSIYAINHGGLLRIKLLYNMPNNQIKIRSYNTDEYDDEIASLDDVSVIGKVFWYSVL</Hsp_hseq>
+      <Hsp_midline>+A LA  SQ TI+ + +G  K   N  ++AK L +S  WL  G G      ++ P +   V +     +W  N PL DD+ V VP  +E     G G A +I DYN ++L F ++TLRR+G+  +N  C    G+SME  I   A + +DTG   IRDG IYA    G+ R+K L   P N + IRS+N+  Y DE A LD ++VIG+VFW+SVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|500952925|ref|WP_012030610.1|</Hit_id>
+  <Hit_def>regulatory protein [Dichelobacter nodosus] &gt;gi|146328782|ref|YP_001209185.1| regulatory protein RegA1 [Dichelobacter nodosus VCS1703A] &gt;gi|1628367|emb|CAA67160.1| regulatory protein [Dichelobacter nodosus] &gt;gi|146232252|gb|ABQ13230.1| regulatory protein RegA1 [Dichelobacter nodosus VCS1703A]</Hit_def>
+  <Hit_accession>WP_012030610</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>5.91755e-45</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>SQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>SQAAIQKIEAGLTLRPRFLQDLANALGVSSIDLEYKDFEK---ELKKQAIESDIGTMGKFRLWSSNDPLPEDEYAYLPFFKDVEFQGGTGCCEMQDYNGFRLPFAKSTLHRYGVPLDQAFCVTLTGNSMEPVIPKGSTLGINKADTVLKEGDIYAIRQDDLFRVKRLYHAPNGMIRISSFNQEEYKDELVRPENIEIIGRVFTYQVM</Hsp_hseq>
+      <Hsp_midline>SQ+ I  +E+G   +   +  LA  L VS+  LE  +  +    L    +  ++  + +  +WSSNDPLP+D+Y ++P+ K+  F+GG G  E+ DYNG+RLPF KSTL R G+  D  FC TLTG+SME  I + + + ++  +T +++G IYA  QD +FRVK L   P   + I S N   Y DE    +++ +IGRVF + V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|554498665|ref|WP_023160411.1|</Hit_id>
+  <Hit_def>regulator of pectin lyase production [Yersinia enterocolitica] &gt;gi|545725494|emb|CCV45134.1| regulator of pectin lyase production [Yersinia enterocolitica (type O:5,27) str. YE149/02]</Hit_def>
+  <Hit_accession>WP_023160411</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>2.68484e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEG---SRTAPALINPD--LPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LAEKAGVSQAAIQKITSGKSQSTTKLLEISRALHVRPEWL--GEGVLPMRESTKTINQESNIPPE-NEWGNITPWDSNCPIHESE-VEVPFLRDIELAAGDGSFSDQDYNGFKLRFSKSTLRRVGAQKDNVICFPAYGNSMEPILPSGTTVAVDCANKKIVDGKIYAINQDGLKRLKLLYRMPGNKLSIRSFNKAEHPDEDADGDTVEIIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+ I  + SG+++  T + ++++ L V   WL  GEG    R +   IN +  +P E  +      W SN P+ + + V VP+L++     G G++   DYNG++L F KSTLRR G   DNV C    G+SME  +     +AVD     I DGKIYA  QDG+ R+K L R PGN + IRS N   +PDE A  D++ +IGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|742413554|ref|WP_038892672.1|</Hit_id>
+  <Hit_def>repressor [Yersinia enterocolitica]</Hit_def>
+  <Hit_accession>WP_038892672</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>3.2877e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEG---SRTAPALINPD--LPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LAEKAGVSQAAIQKITSGKSQSTTKLLEISRALHVRPEWL--GEGVLPMRESTKTINQESNIPPE-NEWGNITPWDSNCPIHESE-VEVPFLRDIELAAGDGSFSDQDYNGFKLRFSKSTLRRVGAQKDNVICFPAYGNSMEPILPSGTTVAVDCANKKIVDGKIYAINQDGLKRLKLLYRMPGNKLSIRSFNKAEHPDEDADGDTVEIIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+ I  + SG+++  T + ++++ L V   WL  GEG    R +   IN +  +P E  +      W SN P+ + + V VP+L++     G G++   DYNG++L F KSTLRR G   DNV C    G+SME  +     +AVD     I DGKIYA  QDG+ R+K L R PGN + IRS N   +PDE A  D++ +IGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|500953973|ref|WP_012031101.1|</Hit_id>
+  <Hit_def>regulatory protein [Dichelobacter nodosus] &gt;gi|146329855|ref|YP_001209677.1| regulatory protein RegA2 [Dichelobacter nodosus VCS1703A] &gt;gi|146233325|gb|ABQ14303.1| regulatory protein RegA2 [Dichelobacter nodosus VCS1703A]</Hit_def>
+  <Hit_accession>WP_012031101</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>5.30965e-44</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>SQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>SQAAIQKIEAGLTLRPRFLQDLANALGVSSIDLEYKDFEK---ELKKQAIESDIGTMGKFRLWSSNDPLPEDEYAYLPFFKDVEFQGGTGCCEMQDYNGFRLPFAKSTLHRYGVPLDQAFCVTLTGNSMEPVIPKGSTLGINKADTVLKEGDIYAIRQDDLFRVKRLYHAPNGMIRISSFNQEEYKDELVRPENIEIIGRVFTYQVM</Hsp_hseq>
+      <Hsp_midline>SQ+ I  +E+G   +   +  LA  L VS+  LE  +  +    L    +  ++  + +  +WSSNDPLP+D+Y ++P+ K+  F+GG G  E+ DYNG+RLPF KSTL R G+  D  FC TLTG+SME  I + + + ++  +T +++G IYA  QD +FRVK L   P   + I S N   Y DE    +++ +IGRVF + V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|491918192|ref|WP_005671279.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Haemophilus influenzae] &gt;gi|145273615|gb|EDK13484.1| predicted transcriptional regulator [Haemophilus influenzae 22.4-21]</Hit_def>
+  <Hit_accession>WP_005671279</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>1.22381e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAG-AYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAALAGTSQVTISNILNGVTKSPRNGLQIAKALKISPEWLLNGTGE-----MAQTQIESNVAETGSFDLWDRNTPLNDDE-VEVPFYKDIRLAAGNGFADDIADYNNFKLRFSKSTLRKQGVQYENAVCVTADGNSMEPVIPDGTTVGIDLGNKTIRDGKIYAINHGGLLRIKLLYNMPNEQVKIRSYNSEEHPDETADLKDISVLGKVFWYSVL</Hsp_hseq>
+      <Hsp_midline>+A LA  SQ TI+ + +G  K   N  ++AK L +S  WL  G G      +    +   V +     +W  N PL DD+ V VP+ K+     G G A +I DYN ++L F KSTLR++G+  +N  C T  G+SME  I +   + +D G   IRDGKIYA    G+ R+K L   P   V IRS+NS  +PDETA L  ++V+G+VFW+SVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|648237052|ref|WP_026018201.1|</Hit_id>
+  <Hit_def>repressor [Yersinia enterocolitica]</Hit_def>
+  <Hit_accession>WP_026018201</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>1.4967e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETG-----EGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>LAEKAGVSQAAIQKITSGKSQSTTKLLEISRALQVRPEWLGEGVLPMKESTKTISHESSIPTENEWGSI---IPWDSNCPIHEDE-VEVPFLRDIELAAGDGSFCDQDYNGFKLRFSKSTLRRVGAQKDNVICFPAHGNSMEPILPNGTTVAVDCANKKIIDGKIYAINQDGLKRLKLLYRMPGNKLSIRSFNKAEHPDEDADGETVEIIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+ I  + SG+++  T + ++++ L V   WL  G     E ++T     +    +E   I   + W SN P+ +D+ V VP+L++     G G++   DYNG++L F KSTLRR G   DNV C    G+SME  +     +AVD     I DGKIYA  QDG+ R+K L R PGN + IRS N   +PDE A  +++ +IGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|488184507|ref|WP_002255715.1|</Hit_id>
+  <Hit_def>MULTISPECIES: chromophore lyase [Neisseria] &gt;gi|385338717|ref|YP_005892590.1| Repressor protein CI [Neisseria meningitidis WUE 2594] &gt;gi|226513086|gb|EEH62431.1| conserved hypothetical protein [Neisseria gonorrhoeae 1291] &gt;gi|319411131|emb|CBY91536.1| Repressor protein CI [Neisseria meningitidis WUE 2594] &gt;gi|485353470|gb|EOC14817.1| repressor protein CI [Neisseria meningitidis 73696] &gt;gi|535127459|gb|EQS72939.1| hypothetical protein NGEG_04672 [Neisseria gonorrhoeae FA19] &gt;gi|636860326|gb|KDM97603.1| chromophore lyase [Neisseria gonorrhoeae] &gt;gi|654605973|gb|KEC86610.1| chromophore lyase [Neisseria gonorrhoeae] &gt;gi|693764558|gb|KGI95485.1| chromophore lyase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_002255715</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>2.46274e-43</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>WSSNDPLPDDDYVFVPYLKESCFKGGAG-AYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>WDSKTPLSDDD-CEVPFYKDVCLSAGNGFSDEIEDYNGYKLRFSKSTLRRHGINPDDVVCVSADGDSMEPVFPDGATLGINTADKMIKDGKIYAINHSGLLRTKILQKLPDNQVRIKSYNPE-YKDETASLDSLTVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>W S  PL DDD   VP+ K+ C   G G + EI DYNGY+L F KSTLRR GINPD+V C +  GDSME    + A + ++T +  I+DGKIYA    G+ R K L + P N V I+S+N   Y DETA LDSLTVIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|488141193|ref|WP_002212401.1|</Hit_id>
+  <Hit_def>MULTISPECIES: chromophore lyase [Neisseria] &gt;gi|194099008|ref|YP_002002081.1| putative CI protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|193934298|gb|ACF30122.1| putative CI protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|304339406|gb|EFM05478.1| peptidase S24-like protein [Neisseria meningitidis ATCC 13091] &gt;gi|402319361|gb|EJU54871.1| repressor protein CI [Neisseria meningitidis 93003] &gt;gi|636865307|gb|KDN02173.1| chromophore lyase [Neisseria gonorrhoeae] &gt;gi|663090193|gb|KER38507.1| helix-turn-helix family protein [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002212401</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>1.31543e-42</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>WSSNDPLPDDDYVFVPYLKESCFKGGAG-AYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVLD</Hsp_qseq>
+      <Hsp_hseq>WDSKTPLSDDD-CEVPFYKDVCLSAGNGFSDEIEDYNGYKLRFSKSTLRRHGISPDDVVCVSADGDSMEPVFPDGATLGINTADKMIKDGKIYAINHSGLLRTKILQKLPDNQVRIKSYNPE-YKDETASLDSLTVIGRVFWWSVLD</Hsp_hseq>
+      <Hsp_midline>W S  PL DDD   VP+ K+ C   G G + EI DYNGY+L F KSTLRR GI+PD+V C +  GDSME    + A + ++T +  I+DGKIYA    G+ R K L + P N V I+S+N   Y DETA LDSLTVIGRVFWWSVLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|492129019|ref|WP_005756642.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pasteurella multocida] &gt;gi|404383851|gb|EJZ80296.1| Transcriptional regulator [Pasteurella multocida subsp. gallicida P1059]</Hit_def>
+  <Hit_accession>WP_005756642</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>1.82273e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>AKLAE---VSQSTIAALESG-RNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAG-AYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>AKLADRIGFTQSRIGNYEAGTREMDDYILRKIADGLGVTLEWLKYGEQGK---------IESNVKDIGSFDLWDRNTPLHDDE-VEVPFLKDIRFAAGNGFSDDIMDYNNFKLRFSKATLRKQGVQYDNAVCITADGDSMEPVIPDGATVGIDRGNTTIKDGKIYAINHGGLLRIKILHKMPNEQVRIRSYNPDSAPEEVVNLSEITILGKVFWWSVL</Hsp_hseq>
+      <Hsp_midline>AKLA+    +QS I   E+G R      + K+A  L V+  WL+ GE  +         +   VKDI    +W  N PL DD+ V VP+LK+  F  G G + +I DYN ++L F K+TLR++G+  DN  C T  GDSME  I + A + +D G T I+DGKIYA    G+ R+K L + P   V IRS+N    P+E   L  +T++G+VFWWSVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|730363170|ref|WP_033999493.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033999493</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>2.68951e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTA--PALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALSVSPVWLQTGEGAPAARSPVPVADGSPLVLEPLHP---WDSETPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A  P  +    P  ++ +H    W S  PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|489243967|ref|WP_003152159.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|150964400|gb|ABR86425.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PA7] &gt;gi|671389356|gb|KFF36246.1| transcriptional regulator [Pseudomonas aeruginosa VRFPA01]</Hit_def>
+  <Hit_accession>WP_003152159</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>3.98644e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTA--PALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGAPAARSPVPVADGSPLVLEPLHP---WDSETPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A  P  +    P  ++ +H    W S  PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|327198606|ref|YP_004327350.1|</Hit_id>
+  <Hit_def>phage repressor protein [Erwinia phage phiEt88] &gt;gi|311875300|emb|CBX44558.1| phage repressor protein [Erwinia phage phiEt88]</Hit_def>
+  <Hit_accession>YP_004327350</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>4.77122e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSR---TAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINP--DNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LGDLVGVSQANIQKLENGKSQSTGYAAQIAEALGVSAIWLATGNGAKDSLQASSSIPPE--HEWGSVSS---WDNETPL-DDDEVEVHFLKDIEFACGDGTFSSEDHNGFMLRFSKATLRRVGANSSGEGVLCFPATGNSMEPIIPDGTTVAVDTNNKKIVDGKLYAIDHGGLKRIKQLFRMPNNMISVRSFNKDEFPDQDVRINEITVIGRLFWYSVI</Hsp_hseq>
+      <Hsp_midline>+  L  VSQ+ I  LE+G+++     A++A+ L VSA WL TG G++    A + I P+  HE   +     W +  PL DDD V V +LK+  F  G G +   D+NG+ L F K+TLRR G N   + V C   TG+SME  I +   +AVDT    I DGK+YA    G+ R+K L R P N + +RS N   +PD+   ++ +TVIGR+FW+SV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|648661916|ref|WP_026353663.1|</Hit_id>
+  <Hit_def>hypothetical protein [Vitreoscilla stercoraria]</Hit_def>
+  <Hit_accession>WP_026353663</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>7.78417e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKD--IHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAG-AYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEKLELTKAAVSAYETGRN--APSVALVNKISKIT----------NTTPPL-NQIKKNESNATLIGGIEVWDKNTPLNEDE-VEVPFYKEVYLSAGNGFTSDIEDHNGYKLRFSKSTLKKYGICYENVVCVSADGDSMKPVFPDGATLGIDTGNKSIKDGQIYAINHDGLLRTKILKKRPGNKILIQSYNSEEYPDDEVSLDEINVIGRVFWWSVM</Hsp_hseq>
+      <Hsp_midline>+A+  E++++ ++A E+GRN  A ++A + KI  ++           T P L N    +E     I    +W  N PL +D+ V VP+ KE     G G   +I D+NGY+L F KSTL++ GI  +NV C +  GDSM+    + A + +DTG  +I+DG+IYA   DG+ R K L ++PGN +LI+S+NS  YPD+   LD + VIGRVFWWSV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|504204362|ref|WP_014391464.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pasteurella multocida] &gt;gi|383310995|ref|YP_005363805.1| putative transcriptional regulator [Pasteurella multocida subsp. multocida str. HN06] &gt;gi|383311654|ref|YP_005364464.1| transcriptional regulator [Pasteurella multocida subsp. multocida str. HN06] &gt;gi|386833675|ref|YP_006238989.1| repressor protein CI [Pasteurella multocida subsp. multocida str. 3480] &gt;gi|380872267|gb|AFF24634.1| putative transcriptional regulator [Pasteurella multocida subsp. multocida str. HN06] &gt;gi|380872926|gb|AFF25293.1| transcriptional regulator [Pasteurella multocida subsp. multocida str. HN06] &gt;gi|385200375|gb|AFI45230.1| repressor protein CI [Pasteurella multocida subsp. multocida str. 3480] &gt;gi|512750435|gb|EPE63908.1| repressor protein CI [Pasteurella multocida P1933]</Hit_def>
+  <Hit_accession>WP_014391464</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>9.37393e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>AKLAEV---SQSTIAALESG-RNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAG-AYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>AKLGERIGWNQSRIGNYEAGTREMDDYILGKIAEGLGVTLDWLKYGDQGK---------VESNVKDIGSFDLWDRNTPLHDED-IEVPFLQDIRLAAGNGFADDIMDYNNFKLRFSKATLRRQGVQYENAVCVVAEGDSMEPAIPDGATVGVDMGNKVIRDNNIYAINHGGLLRIKILNKMPNEQVLIRSFNSTSYPDEIVNLDEIVVIGKVFWYSVL</Hsp_hseq>
+      <Hsp_midline>AKL E    +QS I   E+G R      + K+A+ L V+  WL+ G+  +         +   VKDI    +W  N PL D+D + VP+L++     G G A +I DYN ++L F K+TLRR+G+  +N  C    GDSME  I + A + VD G   IRD  IYA    G+ R+K L + P   VLIRS NS  YPDE   LD + VIG+VFW+SVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|492019977|ref|WP_005720261.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pasteurella multocida] &gt;gi|338216898|gb|EGP02840.1| transcriptional regulator [Pasteurella multocida subsp. gallicida str. Anand1_poultry]</Hit_def>
+  <Hit_accession>WP_005720261</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>9.93652e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>AKLAEV---SQSTIAALESG-RNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINPDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAG-AYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDETAPLDSLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>AKLGERIGWNQSRIGNYEAGTREMDDYILGKIAEGLGVTLDWLKYGDQGK---------VESNVKDIGSFDLWDRNTPLHDDE-VEVPFLKDIRFAAGNGFVDDIMDYNNFKLRFSKATLRKQGVQYDNAVCITADGDSMEPVIPDGATVGIDRGNTTIKDGKIYAINHGGLLRIKILHKMPNEQVRIRSYNPDSAPEEVVDLSEITILGKVFWWSVL</Hsp_hseq>
+      <Hsp_midline>AKL E    +QS I   E+G R      + K+A+ L V+  WL+ G+  +         +   VKDI    +W  N PL DD+ V VP+LK+  F  G G   +I DYN ++L F K+TLR++G+  DN  C T  GDSME  I + A + +D G T I+DGKIYA    G+ R+K L + P   V IRS+N    P+E   L  +T++G+VFWWSVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|489229026|ref|WP_003137380.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Pseudomonas] &gt;gi|115589560|gb|ABJ15575.1| transcriptional regulator PrtR [Pseudomonas aeruginosa UCBPP-PA14] &gt;gi|404537972|gb|EKA47535.1| transcriptional regulator PrtR [Pseudomonas aeruginosa CI27] &gt;gi|508133511|gb|EOT10394.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa PA14] &gt;gi|552265430|gb|ERV25644.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL16] &gt;gi|552318941|gb|ERV78520.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA027] &gt;gi|552471399|gb|ERX28876.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 19660] &gt;gi|574043683|gb|ETV20345.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA044] &gt;gi|574047814|gb|ETV24451.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA043] &gt;gi|611886537|gb|EZO62737.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH058] &gt;gi|611914017|gb|EZO90089.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH054] &gt;gi|653264111|gb|KEA43284.1| transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|725656224|gb|KHE33630.1| transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_003137380</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.13009e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALIN--PDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGTPAARSAVSVADGSPLVLEPLHP---WDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|489175603|ref|WP_003085129.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|478476816|ref|YP_007707467.1| transcriptional regulator [Pseudomonas aeruginosa B136-33] &gt;gi|310884038|gb|EFQ42632.1| transcriptional regulator PrtR [Pseudomonas aeruginosa 39016] &gt;gi|348037027|dbj|BAK92387.1| transcriptional regulator [Pseudomonas aeruginosa NCGM2.S1] &gt;gi|453045993|gb|EME93711.1| transcriptional regulator [Pseudomonas aeruginosa PA21_ST175] &gt;gi|477548902|gb|AGI79543.1| transcriptional regulator [Pseudomonas aeruginosa B136-33] &gt;gi|537448565|gb|ERF06081.1| transcriptional regulator [Pseudomonas aeruginosa HB13] &gt;gi|552261074|gb|ERV21351.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL17] &gt;gi|552266178|gb|ERV26390.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL14] &gt;gi|552307780|gb|ERV67483.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL08] &gt;gi|552325246|gb|ERV84696.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA026] &gt;gi|552423924|gb|ERW82054.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA006] &gt;gi|552473338|gb|ERX30875.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 6077] &gt;gi|552487982|gb|ERX45207.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa U2504] &gt;gi|552702999|gb|ERZ16458.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa JJ692] &gt;gi|560116876|emb|CDH74994.1| HTH-type transcriptional regulator PrtR [Pseudomonas aeruginosa MH27] &gt;gi|563409450|gb|AHB53872.1| transcriptional regulator [Pseudomonas aeruginosa MTB-1] &gt;gi|564835008|gb|ETD46753.1| transcriptional regulator [Pseudomonas aeruginosa VRFPA08] &gt;gi|574003386|gb|ETU80230.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa PS50] &gt;gi|574080033|gb|ETV56506.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA038] &gt;gi|611800407|gb|EZN77514.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH030] &gt;gi|611869468|gb|EZO45732.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa PS75] &gt;gi|660537522|gb|AID86842.1| transcriptional regulator [Pseudomonas aeruginosa VRFPA04] &gt;gi|670351956|dbj|BAP19760.1| transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|685838018|dbj|BAP48628.1| transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|686660620|gb|KGB89186.1| transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|698161873|emb|CDM49697.1| transcriptional regulator PrtR [Pseudomonas aeruginosa WS394]</Hit_def>
+  <Hit_accession>WP_003085129</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.14217e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALIN--PDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGTPAARSAVSVADGSPLVLEPLHP---WDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|730534903|ref|WP_034039147.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034039147</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.16671e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALINP--DLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGAPAARSAVSEADGSPLVLEPLHP---WDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|553759780|ref|WP_023092359.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa] &gt;gi|552576755|gb|ERX93481.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL25] &gt;gi|564843749|gb|ETD55145.1| transcriptional regulator [Pseudomonas aeruginosa VRFPA07] &gt;gi|611938080|gb|EZP14052.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH050] &gt;gi|656992972|gb|KEF89637.1| transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_023092359</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.16671e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALIN--PDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGTPAARSAVSVADGSPLVLEPLHP---WDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|553767948|ref|WP_023100181.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa] &gt;gi|552266092|gb|ERV26305.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL15]</Hit_def>
+  <Hit_accession>WP_023100181</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.21739e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALIN--PDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGAPAARSAVSVADGSPLVLEPLHP---WDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|489210058|ref|WP_003118906.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|346059409|dbj|GAA19292.1| transcriptional regulator PrtR [Pseudomonas aeruginosa NCMG1179] &gt;gi|403250047|gb|EJY63508.1| transcriptional regulator PrtR [Pseudomonas aeruginosa CIG1] &gt;gi|404550374|gb|EKA59127.1| transcriptional regulator PrtR [Pseudomonas aeruginosa ATCC 25324] &gt;gi|476648073|gb|EMZ54418.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa str. Stone 130] &gt;gi|552586226|gb|ERY02912.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL23] &gt;gi|552617272|gb|ERY33779.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL12]</Hit_def>
+  <Hit_accession>WP_003118906</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.28384e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALIN--PDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGAPAARSAVSVADGSPLVLEPLH---PWDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|489199803|ref|WP_003109047.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Pseudomonas] &gt;gi|126169106|gb|EAZ54617.1| transcriptional regulator PrtR [Pseudomonas aeruginosa C3719] &gt;gi|354828170|gb|EHF12297.1| HTH-type transcriptional regulator prtR [Pseudomonas sp. 2_1_26] &gt;gi|384397755|gb|EIE44166.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PADK2_CF510] &gt;gi|392317529|gb|AFM62909.1| transcriptional regulator PrtR [Pseudomonas aeruginosa DK2] &gt;gi|532137363|gb|EQL44683.1| transcriptional regulator [Pseudomonas aeruginosa VRFPA03] &gt;gi|552232164|gb|ERU92303.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa M8A.1] &gt;gi|552245373|gb|ERV05249.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL18] &gt;gi|552370347|gb|ERW29157.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA019] &gt;gi|552571395|gb|ERX88171.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa M8A.4] &gt;gi|552590708|gb|ERY07364.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL22] &gt;gi|552621358|gb|ERY37844.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL13] &gt;gi|552650763|gb|ERY65230.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL03] &gt;gi|552672767|gb|ERY86386.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA010] &gt;gi|552678334|gb|ERY91933.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA008] &gt;gi|557218480|gb|ESQ66335.1| transcriptional regulator [Pseudomonas aeruginosa HB15] &gt;gi|557560475|gb|ESR70316.1| transcriptional regulator [Pseudomonas aeruginosa VRFPA05] &gt;gi|567363811|gb|AHC74756.1| transcriptional regulator PrtR [Pseudomonas aeruginosa SCV20265] &gt;gi|574020865|gb|ETU97612.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA047] &gt;gi|582067777|gb|EVT84191.1| transcriptional regulator [Pseudomonas aeruginosa VRFPA09] &gt;gi|602747604|gb|EYU08107.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PA103] &gt;gi|611866369|gb|EZO42648.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH060] &gt;gi|611914809|gb|EZO90879.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH053] &gt;gi|618772241|gb|KAJ09386.1| transcriptional regulator [Pseudomonas aeruginosa ID4365] &gt;gi|725804832|gb|KHE59086.1| transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_003109047</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.36838e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALIN--PDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGAPAARSAVSVADGSPLVLEPLHP---WDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|498492720|ref|WP_010793490.1|</Hit_id>
+  <Hit_def>MULTISPECIES: HTH-type transcriptional regulator prtR [Pseudomonas] &gt;gi|476647559|gb|EMZ53908.1| HTH-type transcriptional regulator prtR [Pseudomonas sp. P179] &gt;gi|574000631|gb|ETU77485.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa Z61]</Hit_def>
+  <Hit_accession>WP_010793490</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>1.48982e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALIN--PDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGAPAARSAVSVADGSPLVLEPLHP---WDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNCEEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|730493855|ref|WP_034028751.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034028751</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>1.53809e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALIN--PDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGAPAARSAVSVADGSPLVLEPLHP---WDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|489204123|ref|WP_003113202.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|15595808|ref|NP_249302.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PAO1] &gt;gi|558670024|ref|YP_008806734.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PA1R] &gt;gi|558676375|ref|YP_008813083.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PA1] &gt;gi|651854740|ref|YP_008550816.1| repressor protein CI [Pseudomonas aeruginosa c7447m] &gt;gi|651864423|ref|YP_008556477.1| repressor protein CI [Pseudomonas aeruginosa PAO581] &gt;gi|651869921|ref|YP_008692447.1| repressor protein CI [Pseudomonas aeruginosa PAO1-VE2] &gt;gi|651876698|ref|YP_008704728.1| repressor protein CI [Pseudomonas aeruginosa PAO1-VE13] &gt;gi|2498811|sp|Q06553.1|PRTR_PSEAE RecName: Full=HTH-type transcriptional regulator PrtR; AltName: Full=Pyocin repressor protein [Pseudomonas aeruginosa PAO1] &gt;gi|9946485|gb|AAG04000.1|AE004497_7 transcriptional regulator PrtR [Pseudomonas aeruginosa PAO1] &gt;gi|286176|dbj|BAA02198.1| negative regulator of pyocin genes [Pseudomonas aeruginosa] &gt;gi|5725148|dbj|BAA83146.1| prtR [Pseudomonas aeruginosa] &gt;gi|5725181|dbj|BAA83132.1| PRF4 [Pseudomonas aeruginosa] &gt;gi|126197083|gb|EAZ61146.1| transcriptional regulator PrtR [Pseudomonas aeruginosa 2192] &gt;gi|218769575|emb|CAW25335.1| transcriptional regulator PrtR [Pseudomonas aeruginosa LESB58] &gt;gi|347302987|gb|AEO73101.1| transcriptional regulator PrtR [Pseudomonas aeruginosa M18] &gt;gi|375045149|gb|EHS37735.1| transcriptional regulator PrtR [Pseudomonas aeruginosa MPAO1/P1] &gt;gi|375050316|gb|EHS42798.1| transcriptional regulator PrtR [Pseudomonas aeruginosa MPAO1/P2] &gt;gi|404348959|gb|EJZ75296.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PAO579] &gt;gi|404526897|gb|EKA37084.1| transcriptional regulator PrtR [Pseudomonas aeruginosa ATCC 14886] &gt;gi|404541702|gb|EKA51053.1| transcriptional regulator PrtR [Pseudomonas aeruginosa ATCC 700888] &gt;gi|404548372|gb|EKA57327.1| transcriptional regulator PrtR [Pseudomonas aeruginosa E2] &gt;gi|451758770|emb|CCQ84333.1| transcriptional regulator PrtR [Pseudomonas aeruginosa 18A] &gt;gi|477556207|gb|ENH89726.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PA45] &gt;gi|500727267|gb|EOQ77129.1| transcriptional regulator PrtR [Pseudomonas aeruginosa VRFPA02] &gt;gi|508131140|gb|EOT08028.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa MSH-10] &gt;gi|508147052|gb|EOT23869.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa PAK] &gt;gi|514246170|gb|AGO38551.1| transcriptional regulator [Pseudomonas aeruginosa RP73] &gt;gi|534386676|gb|EQM88499.1| transcriptional regulator [Pseudomonas aeruginosa WC55] &gt;gi|543874818|gb|AGV63977.1| repressor protein CI [Pseudomonas aeruginosa c7447m] &gt;gi|543884258|gb|AGV62259.1| repressor protein CI [Pseudomonas aeruginosa PAO581] &gt;gi|552175424|gb|ERU36919.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa CF77] &gt;gi|552175899|gb|ERU37048.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa C52] &gt;gi|552180288|gb|ERU40083.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa CF614] &gt;gi|552190131|gb|ERU51000.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa C51] &gt;gi|552199505|gb|ERU60275.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa C41] &gt;gi|552200780|gb|ERU61547.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa C40] &gt;gi|552208948|gb|ERU69531.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa C48] &gt;gi|552223754|gb|ERU84068.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa M9A.1] &gt;gi|552227371|gb|ERU86979.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa C23] &gt;gi|552228612|gb|ERU88844.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa C20] &gt;gi|552230643|gb|ERU90853.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa M8A.2] &gt;gi|552244707|gb|ERV05886.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL19] &gt;gi|552287529|gb|ERV47499.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL10] &gt;gi|552297348|gb|ERV57181.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL11] &gt;gi|552299657|gb|ERV59457.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL09] &gt;gi|552309005|gb|ERV68698.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL07] &gt;gi|552313052|gb|ERV72730.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL04] &gt;gi|552320657|gb|ERV80157.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA028] &gt;gi|552337977|gb|ERV97071.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA024] &gt;gi|552344093|gb|ERW03156.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA025] &gt;gi|552353754|gb|ERW12680.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA021] &gt;gi|552354603|gb|ERW13506.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA023] &gt;gi|552356882|gb|ERW15757.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA022] &gt;gi|552380901|gb|ERW39518.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA020] &gt;gi|552381701|gb|ERW40312.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA017] &gt;gi|552388763|gb|ERW47336.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA018] &gt;gi|552391834|gb|ERW50390.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA014] &gt;gi|552410258|gb|ERW68580.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA011] &gt;gi|552411072|gb|ERW69388.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA012] &gt;gi|552416702|gb|ERW74932.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA013] &gt;gi|552429113|gb|ERW87198.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA004] &gt;gi|552432116|gb|ERW90122.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA005] &gt;gi|552435592|gb|ERW93557.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA003] &gt;gi|552440289|gb|ERW98212.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA002] &gt;gi|552459422|gb|ERX17104.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa S35004] &gt;gi|552460544|gb|ERX18225.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa X13273] &gt;gi|552467023|gb|ERX24609.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA001] &gt;gi|552491151|gb|ERX48291.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa CF18] &gt;gi|552494887|gb|ERX51998.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa UDL] &gt;gi|552496182|gb|ERX53276.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa X24509] &gt;gi|552507464|gb|ERX64437.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa MSH3] &gt;gi|552510657|gb|ERX67598.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 62] &gt;gi|552512297|gb|ERX69209.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa E2] &gt;gi|552573037|gb|ERX89791.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa M8A.3] &gt;gi|552582550|gb|ERX99245.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL24] &gt;gi|552605625|gb|ERY22208.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL21] &gt;gi|552614685|gb|ERY31206.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL20] &gt;gi|552623464|gb|ERY39922.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL05] &gt;gi|552630791|gb|ERY45324.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL06] &gt;gi|552642713|gb|ERY57216.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL02] &gt;gi|552659183|gb|ERY72897.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BL01] &gt;gi|552660255|gb|ERY73956.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA016] &gt;gi|552667326|gb|ERY80983.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA015] &gt;gi|552688247|gb|ERZ01790.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA007] &gt;gi|552689954|gb|ERZ03484.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA009] &gt;gi|552705795|gb|ERZ19247.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa S54485] &gt;gi|552717115|gb|ERZ30532.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa CF27] &gt;gi|552718523|gb|ERZ31934.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa MSH10] &gt;gi|552720005|gb|ERZ33414.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa CF127] &gt;gi|553887422|gb|AGY64116.1| repressor protein CI [Pseudomonas aeruginosa PAO1-VE2] &gt;gi|553897110|gb|AGY70642.1| repressor protein CI [Pseudomonas aeruginosa PAO1-VE13] &gt;gi|557592323|gb|ESR99953.1| transcriptional regulator [Pseudomonas aeruginosa DHS01] &gt;gi|557708013|gb|AHA20040.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PA1] &gt;gi|557713813|gb|AHA25839.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PA1R] &gt;gi|563280132|gb|ESZ84764.1| transcriptional regulator [Pseudomonas aeruginosa DHS29] &gt;gi|564894296|gb|ETD95300.1| transcriptional regulator [Pseudomonas aeruginosa VRFPA06] &gt;gi|566561773|gb|AHC63294.1| transcriptional regulator [Pseudomonas aeruginosa LES431] &gt;gi|571156024|emb|CDH68946.1| HTH-type transcriptional regulator PrtR [Pseudomonas aeruginosa MH38] &gt;gi|574007739|gb|ETU84547.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa PS42] &gt;gi|574015001|gb|ETU91781.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA048] &gt;gi|574021643|gb|ETU98389.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA046] &gt;gi|574026798|gb|ETV03527.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA045] &gt;gi|574045540|gb|ETV22193.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA042] &gt;gi|574053986|gb|ETV30606.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA041] &gt;gi|574063166|gb|ETV39743.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA039] &gt;gi|574068807|gb|ETV45372.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA040] &gt;gi|574083210|gb|ETV59674.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWHPSA037] &gt;gi|575871611|emb|CDI88790.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PA38182] &gt;gi|576902926|gb|AHH47416.1| transcriptional regulator [Pseudomonas aeruginosa YL84] &gt;gi|584586372|gb|EWH25718.1| transcriptional regulator [Pseudomonas aeruginosa SG17M] &gt;gi|589308994|gb|AHK81535.1| transcriptional regulator [Pseudomonas aeruginosa LESlike5] &gt;gi|589314950|gb|AHK87490.1| transcriptional regulator [Pseudomonas aeruginosa LESlike7] &gt;gi|589320823|gb|AHK93362.1| transcriptional regulator [Pseudomonas aeruginosa LES400] &gt;gi|589326841|gb|AHK99379.1| transcriptional regulator [Pseudomonas aeruginosa LESB65] &gt;gi|589332792|gb|AHL05330.1| transcriptional regulator [Pseudomonas aeruginosa LESlike1] &gt;gi|589338721|gb|AHL11258.1| transcriptional regulator [Pseudomonas aeruginosa LESlike4] &gt;gi|602740671|gb|EYU01429.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PA99] &gt;gi|610413918|gb|AHW69109.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PA96] &gt;gi|611772722|gb|EZN50097.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH036] &gt;gi|611774277|gb|EZN51645.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH035] &gt;gi|611775092|gb|EZN52456.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH033] &gt;gi|611788283|gb|EZN65488.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH032] &gt;gi|611793845|gb|EZN70987.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH031] &gt;gi|611804649|gb|EZN81681.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH029] &gt;gi|611815733|gb|EZN92626.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 3580] &gt;gi|611816105|gb|EZN92997.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 3581] &gt;gi|611826421|gb|EZO03142.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 3579] &gt;gi|611833627|gb|EZO10277.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 3577] &gt;gi|611835383|gb|EZO12004.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 3578] &gt;gi|611845775|gb|EZO22229.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 3576] &gt;gi|611850017|gb|EZO26405.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 3575] &gt;gi|611853016|gb|EZO29370.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa PAO1-GFP] &gt;gi|611859665|gb|EZO35975.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 3574] &gt;gi|611863466|gb|EZO39761.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa 3573] &gt;gi|611885633|gb|EZO61835.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH059] &gt;gi|611890590|gb|EZO66783.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH057] &gt;gi|611898983|gb|EZO75137.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH055] &gt;gi|611900359|gb|EZO76503.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH056] &gt;gi|611918772|gb|EZO94827.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH052] &gt;gi|611934826|gb|EZP10809.1| HTH-type transcriptional regulator prtR [Pseudomonas aeruginosa BWH051] &gt;gi|618771110|gb|KAJ08309.1| transcriptional regulator [Pseudomonas aeruginosa IGB83] &gt;gi|618782830|gb|KAJ19381.1| transcriptional regulator [Pseudomonas aeruginosa 148] &gt;gi|618789577|gb|KAJ25920.1| transcriptional regulator [Pseudomonas aeruginosa M10] &gt;gi|619445690|gb|KAJ88217.1| transcriptional regulator [Pseudomonas aeruginosa PAK] &gt;gi|619867218|dbj|GAJ54196.1| transcriptional regulator PrtR [Pseudomonas aeruginosa RB] &gt;gi|647090493|gb|KDR49651.1| transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|653191909|gb|KEA13049.1| transcriptional regulator [Pseudomonas aeruginosa C1913C] &gt;gi|653193629|gb|KEA14964.1| transcriptional regulator [Pseudomonas aeruginosa C2773C] &gt;gi|653197495|gb|KEA18576.1| transcriptional regulator [Pseudomonas aeruginosa C2159M] &gt;gi|653212935|gb|KEA32066.1| transcriptional regulator [Pseudomonas aeruginosa C0324C] &gt;gi|658110852|gb|KEI25570.1| transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|660505247|gb|AID71856.1| transcriptional regulator PrtR [Pseudomonas aeruginosa PAO1H2O] &gt;gi|667997745|gb|KFB17259.1| transcriptional regulator [Pseudomonas aeruginosa PGPR2] &gt;gi|674742456|gb|KFL09417.1| repressor protein CI [Pseudomonas aeruginosa] &gt;gi|675293012|emb|CDO85393.1| transcriptional regulator PrtR [Pseudomonas aeruginosa] &gt;gi|687283072|gb|KGD88348.1| transcriptional regulator [Pseudomonas sp. YS-1p] &gt;gi|725802968|gb|KHE57250.1| transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|727034475|emb|CEI78613.1| Transcriptional regulator PrtR [Pseudomonas aeruginosa] &gt;gi|734482259|emb|CEI00650.1| HTH-type transcriptional regulator PrtR [Pseudomonas aeruginosa] &gt;gi|745841678|gb|AJD61922.1| transcriptional regulator [Pseudomonas aeruginosa] &gt;gi|747648746|emb|CDM43674.1| transcriptional regulator PrtR [Pseudomonas aeruginosa WS136] &gt;gi|751376869|gb|AJF52697.1| transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_003113202</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>1.53809e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALIN--PDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGAPAARSAVSVADGSPLVLEPLHP---WDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTATTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|730622053|ref|WP_034055248.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034055248</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>1.57113e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MAKLAEVSQSTIAALESGRNKKATNIAKLAKILDVSAFWLETGEGSRTAPALIN--PDLPHEVKDIHRPMMWSSNDPLPDDDYVFVPYLKESCFKGGAGAYEIPDYNGYRLPFGKSTLRRKGINPDNVFCCTLTGDSMEEKIAEDAAIAVDTGETAIRDGKIYAFAQDGMFRVKYLIRQPGNSVLIRSHNSGFYPDET-APLD----SLTVIGRVFWWSVL</Hsp_qseq>
+      <Hsp_hseq>LAEAAGVSQNTIHKLTSGKAQSTRKLIEIAAALGVSPVWLQTGEGAPAARSAVSVADGSPLVLEPLHP---WDSDTPL-DEDEVELPLYKEVEMSAGAGRTAVREIEGRKLRFSYATLRASGVDPSAAICAQLTGNSMEPLIMDGSTIGVDTSTTHITDGEIYALEHDGMLRVKFVYRLPGGGIRLRSFNREEYPDEEYSPEDMRSRQISMIGWVFWWSTV</Hsp_hseq>
+      <Hsp_midline>+A+ A VSQ+TI  L SG+ +    + ++A  L VS  WL+TGEG+  A + ++     P  ++ +H    W S+ PL D+D V +P  KE     GAG   + +  G +L F  +TLR  G++P    C  LTG+SME  I + + I VDT  T I DG+IYA   DGM RVK++ R PG  + +RS N   YPDE  +P D     +++IG VFWWS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

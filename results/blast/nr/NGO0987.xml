@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>7289</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F815</BlastOutput_query-def>
+  <BlastOutput_query-len>336</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>7289</Iteration_query-ID>
+  <Iteration_query-def>Q5F815</Iteration_query-def>
+  <Iteration_query-len>336</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489802470|ref|WP_003706351.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae] &gt;gi|59801372|ref|YP_208084.1| ADP-heptose--LPS heptosyltransferase II [Neisseria gonorrhoeae FA 1090] &gt;gi|59718267|gb|AAW89672.1| ADP-heptose--LPS heptosyltransferase II [Neisseria gonorrhoeae FA 1090] &gt;gi|291610647|gb|EFF39757.1| lipopolysaccharide heptosyltransferase II [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>WP_003706351</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>695.271</Hsp_bit-score>
+      <Hsp_score>1793</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489787143|ref|WP_003691034.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae] &gt;gi|538321652|ref|YP_008502712.1| lipopolysaccharide heptosyltransferase II [Neisseria gonorrhoeae MS11] &gt;gi|599920|emb|CAA85504.1| ADP-heptose:LPS heptosyltransferase II [Neisseria gonorrhoeae] &gt;gi|268548013|gb|EEZ43431.1| ADP-heptose:LPS heptosyltransferase II [Neisseria gonorrhoeae 35/02] &gt;gi|268582903|gb|EEZ47579.1| lipopolysaccharide heptosyltransferase II [Neisseria gonorrhoeae MS11]</Hit_def>
+  <Hit_accession>WP_003691034</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>694.886</Hsp_bit-score>
+      <Hsp_score>1792</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISIETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREIS+ETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489784391|ref|WP_003688282.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae] &gt;gi|226512605|gb|EEH61950.1| ADP-heptose:LPS heptosyltransferase II [Neisseria gonorrhoeae 1291] &gt;gi|268585262|gb|EEZ49938.1| ADP-heptose:LPS heptosyltransferase II [Neisseria gonorrhoeae PID18] &gt;gi|268624428|gb|EEZ56828.1| ADP-heptose:LPS heptosyltransferase II [Neisseria gonorrhoeae SK-92-679] &gt;gi|291012510|gb|EFE04499.1| ADP-heptose:LPS heptosyltransferase II [Neisseria gonorrhoeae DGI2]</Hit_def>
+  <Hit_accession>WP_003688282</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>692.96</Hsp_bit-score>
+      <Hsp_score>1787</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>334</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISIETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREIS+ETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|489789464|ref|WP_003693355.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae] &gt;gi|194098369|ref|YP_002001427.1| ADP-heptose--LPS heptosyltransferase II [Neisseria gonorrhoeae NCCP11945] &gt;gi|193933659|gb|ACF29483.1| ADP-heptose--LPS heptosyltransferase II [Neisseria gonorrhoeae NCCP11945] &gt;gi|268550837|gb|EEZ45856.1| lipopolysaccharide heptosyltransferase II [Neisseria gonorrhoeae FA19] &gt;gi|268626681|gb|EEZ59081.1| ADP-heptose:LPS heptosyltransferase II [Neisseria gonorrhoeae SK-93-1035] &gt;gi|636866227|gb|KDN03039.1| ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003693355</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>692.575</Hsp_bit-score>
+      <Hsp_score>1786</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSRFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHS FPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|489795934|ref|WP_003699825.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae] &gt;gi|268622213|gb|EEZ54613.1| ADP-heptose:LPS heptosyltransferase II [Neisseria gonorrhoeae PID332] &gt;gi|636862117|gb|KDM99239.1| ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae] &gt;gi|636863997|gb|KDN00959.1| ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae] &gt;gi|654607259|gb|KEC87742.1| ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae] &gt;gi|693765065|gb|KGI95948.1| ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003699825</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>691.419</Hsp_bit-score>
+      <Hsp_score>1783</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISIETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREIS+ETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|489794419|ref|WP_003698310.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria gonorrhoeae] &gt;gi|268587580|gb|EEZ52256.1| ADP-heptose:LPS heptosyltransferase II [Neisseria gonorrhoeae PID1]</Hit_def>
+  <Hit_accession>WP_003698310</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>690.649</Hsp_bit-score>
+      <Hsp_score>1781</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>334</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSRFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHS FPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|639073615|ref|WP_024464970.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|743394636|gb|KID54174.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis LNP27256]</Hit_def>
+  <Hit_accession>WP_024464970</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>685.256</Hsp_bit-score>
+      <Hsp_score>1767</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISIETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKRYSEAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREIS+ETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGK YSEAGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|488170581|ref|WP_002241789.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|393291616|emb|CCI73146.1| ADP-heptose-LPS heptosyltransferase II [Neisseria meningitidis alpha704] &gt;gi|402340204|gb|EJU75407.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM2795]</Hit_def>
+  <Hit_accession>WP_002241789</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>680.248</Hsp_bit-score>
+      <Hsp_score>1754</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|545067854|ref|WP_021439374.1|</Hit_id>
+  <Hit_def>lipopolysaccharide heptosyltransferase II [Neisseria meningitidis] &gt;gi|530917086|gb|EQD14767.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM518]</Hit_def>
+  <Hit_accession>WP_021439374</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>679.863</Hsp_bit-score>
+      <Hsp_score>1753</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYSAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP RHFAELGKHYS AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|488141657|ref|WP_002212865.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|304338864|gb|EFM04966.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis ATCC 13091]</Hit_def>
+  <Hit_accession>WP_002212865</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>679.863</Hsp_bit-score>
+      <Hsp_score>1753</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>328</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|488171671|ref|WP_002242879.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|385338343|ref|YP_005892216.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis WUE 2594] &gt;gi|319410757|emb|CBY91140.1| ADP-heptose:LPS heptosyltransferase II [Neisseria meningitidis WUE 2594] &gt;gi|402342634|gb|EJU77793.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3081] &gt;gi|432209043|gb|ELK65014.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 88050] &gt;gi|432252366|gb|ELL07722.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2004090] &gt;gi|432252652|gb|ELL08004.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 96023] &gt;gi|432258737|gb|ELL14018.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 97020] &gt;gi|432264264|gb|ELL19468.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3652] &gt;gi|432265602|gb|ELL20794.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3642] &gt;gi|432265801|gb|ELL20992.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2007056] &gt;gi|432270623|gb|ELL25759.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2001212] &gt;gi|485281129|gb|EOB47265.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2000080] &gt;gi|485281382|gb|EOB47506.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 94018] &gt;gi|485287327|gb|EOB53073.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 75689] &gt;gi|485287657|gb|EOB53384.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 75643] &gt;gi|485293927|gb|EOB59243.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 97018] &gt;gi|485308369|gb|EOB72714.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 96024] &gt;gi|485308976|gb|EOB73289.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 97008] &gt;gi|485313489|gb|EOB77519.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 98005] &gt;gi|485315164|gb|EOB79073.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2004085] &gt;gi|485315619|gb|EOB79503.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2003022] &gt;gi|485320226|gb|EOB83816.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2000063] &gt;gi|485321944|gb|EOB85408.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM604] &gt;gi|485322544|gb|EOB85974.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2002007] &gt;gi|485326849|gb|EOB90002.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM606] &gt;gi|485329100|gb|EOB92093.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM607] &gt;gi|610427351|gb|AHW76227.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002242879</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>678.322</Hsp_bit-score>
+      <Hsp_score>1749</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488167724|ref|WP_002238932.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|385323840|ref|YP_005878279.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis 8013] &gt;gi|261392227|emb|CAX49745.1| ADP-heptose:LPS heptosyltransferase II [Neisseria meningitidis 8013] &gt;gi|402336151|gb|EJU71413.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 80179] &gt;gi|485281271|gb|EOB47400.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 96060]</Hit_def>
+  <Hit_accession>WP_002238932</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.937</Hsp_bit-score>
+      <Hsp_score>1748</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488158491|ref|WP_002229699.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|372200697|gb|EHP14732.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM220] &gt;gi|372201324|gb|EHP15266.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM233] &gt;gi|402337270|gb|EJU72519.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM2657] &gt;gi|402344844|gb|EJU79977.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3001] &gt;gi|485399236|gb|EOC57271.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM271] &gt;gi|485399713|gb|EOC57710.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM115] &gt;gi|485401265|gb|EOC59169.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM90] &gt;gi|485405898|gb|EOC63471.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3042] &gt;gi|485406312|gb|EOC63845.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3222] &gt;gi|485408046|gb|EOC65471.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3131] &gt;gi|485412472|gb|EOC69562.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3144] &gt;gi|485412870|gb|EOC69925.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3158] &gt;gi|485415108|gb|EOC72027.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3164] &gt;gi|485419059|gb|EOC75689.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM27] &gt;gi|485419414|gb|EOC76014.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM51] &gt;gi|485422594|gb|EOC78997.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM80] &gt;gi|485425712|gb|EOC81869.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM165] &gt;gi|485425859|gb|EOC82003.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3223]</Hit_def>
+  <Hit_accession>WP_002229699</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.552</Hsp_bit-score>
+      <Hsp_score>1747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIAKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGI KRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|488149366|ref|WP_002220574.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|121635198|ref|YP_975443.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis FAM18] &gt;gi|218768509|ref|YP_002343021.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis Z2491] &gt;gi|385340404|ref|YP_005894276.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis G2136] &gt;gi|120866904|emb|CAM10663.1| ADP-heptose:LPS heptosyltransferase II [Neisseria meningitidis FAM18] &gt;gi|121052517|emb|CAM08856.1| ADP-heptose:LPS heptosyltransferase II [Neisseria meningitidis Z2491] &gt;gi|325132657|gb|EGC55342.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M6190] &gt;gi|325134657|gb|EGC57297.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M13399] &gt;gi|325138545|gb|EGC61108.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis ES14902] &gt;gi|325198648|gb|ADY94104.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis G2136] &gt;gi|402316506|gb|EJU52051.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 93003] &gt;gi|402328669|gb|EJU64036.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 69166] &gt;gi|432202477|gb|ELK58540.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 98080] &gt;gi|432204677|gb|ELK60716.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 87255] &gt;gi|432207742|gb|ELK63730.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 68094] &gt;gi|432214384|gb|ELK70285.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 70012] &gt;gi|432215031|gb|ELK70922.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 63041] &gt;gi|432227212|gb|ELK82923.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM586] &gt;gi|432229430|gb|ELK85118.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM762] &gt;gi|432232924|gb|ELK88559.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M7089] &gt;gi|432233705|gb|ELK89331.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M7124] &gt;gi|432235049|gb|ELK90668.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM174] &gt;gi|432242976|gb|ELK98491.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM126] &gt;gi|432246376|gb|ELL01827.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 4119] &gt;gi|432246483|gb|ELL01930.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 63049] &gt;gi|432247273|gb|ELL02711.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 12888] &gt;gi|432256155|gb|ELL11479.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 65014] &gt;gi|432260225|gb|ELL15485.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 69096] &gt;gi|432271232|gb|ELL26358.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 77221] &gt;gi|432272789|gb|ELL27895.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 70030] &gt;gi|432276913|gb|ELL31967.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 63006] &gt;gi|485274140|gb|EOB40746.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 70021] &gt;gi|485274200|gb|EOB40802.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 69176] &gt;gi|485274231|gb|EOB40832.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 69155] &gt;gi|485288359|gb|EOB54043.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 69100] &gt;gi|485294407|gb|EOB59689.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 63023] &gt;gi|485294783|gb|EOB60044.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 61106] &gt;gi|485300880|gb|EOB65739.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 70082] &gt;gi|485301206|gb|EOB66037.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 65012] &gt;gi|485301913|gb|EOB66699.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 64182] &gt;gi|485307142|gb|EOB71580.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 97027] &gt;gi|485329445|gb|EOB92408.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM133] &gt;gi|485332818|gb|EOB95564.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM43] &gt;gi|485336238|gb|EOB98747.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM82] &gt;gi|485336363|gb|EOB98857.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM94] &gt;gi|485339105|gb|EOC01436.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM95] &gt;gi|485342607|gb|EOC04700.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM313] &gt;gi|485343488|gb|EOC05499.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM1482] &gt;gi|485345820|gb|EOC07691.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM1495] &gt;gi|485349647|gb|EOC11256.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 73704] &gt;gi|485362022|gb|EOC22634.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3147] &gt;gi|485365515|gb|EOC25802.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2001072] &gt;gi|485366878|gb|EOC27071.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2001073] &gt;gi|485368700|gb|EOC28784.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2000081] &gt;gi|485375126|gb|EOC34769.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2001213] &gt;gi|485378290|gb|EOC37738.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2004264] &gt;gi|485380780|gb|EOC40055.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2000175] &gt;gi|485380929|gb|EOC40192.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2005079] &gt;gi|485384907|gb|EOC43924.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2001068] &gt;gi|485387317|gb|EOC46165.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2005040] &gt;gi|485387578|gb|EOC46407.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2002004] &gt;gi|485430097|gb|EOC85867.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM23] &gt;gi|485430641|gb|EOC86346.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM32] &gt;gi|485435054|gb|EOC90338.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM35] &gt;gi|485435087|gb|EOC90369.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM35] &gt;gi|485435845|gb|EOC91051.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM35] &gt;gi|485436475|gb|EOC91634.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM36] &gt;gi|530914632|gb|EQD12446.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM0552] &gt;gi|723270293|gb|KHC97485.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|723273893|gb|KHD01077.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|726975717|gb|KHF23137.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|730571075|gb|AIZ18877.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|730573480|gb|AIZ20882.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis M7124] &gt;gi|730579587|gb|AIZ25568.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|747185376|gb|KIF89446.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|747185583|gb|KIF89597.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|747188102|gb|KIF91662.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|747189170|gb|KIF92514.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002220574</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.167</Hsp_bit-score>
+      <Hsp_score>1746</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|506295958|ref|WP_015815733.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|254805293|ref|YP_003083514.1| ADP-heptose--LPS heptosyltransferase II [Neisseria meningitidis alpha14] &gt;gi|254668835|emb|CBA06870.1| ADP-heptose--LPS heptosyltransferase II [Neisseria meningitidis alpha14]</Hit_def>
+  <Hit_accession>WP_015815733</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.167</Hsp_bit-score>
+      <Hsp_score>1746</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMEVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSM VFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|545065759|ref|WP_021438092.1|</Hit_id>
+  <Hit_def>lipopolysaccharide heptosyltransferase II [Neisseria meningitidis] &gt;gi|530905395|gb|EQD03765.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3139] &gt;gi|530911159|gb|EQD09186.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM003]</Hit_def>
+  <Hit_accession>WP_021438092</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>676.396</Hsp_bit-score>
+      <Hsp_score>1744</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGCSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDG SGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP RHFAELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|488168673|ref|WP_002239881.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|402335272|gb|EJU70538.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 92045] &gt;gi|514069401|gb|EPF54319.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM134] &gt;gi|663091026|gb|KER39303.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002239881</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>676.011</Hsp_bit-score>
+      <Hsp_score>1743</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIAKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGI KRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488155944|ref|WP_002227152.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|325144783|gb|EGC67074.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M01-240013]</Hit_def>
+  <Hit_accession>WP_002227152</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>675.241</Hsp_bit-score>
+      <Hsp_score>1741</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENSFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILEN FGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|488185562|ref|WP_002256770.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|385341577|ref|YP_005895448.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M01-240149] &gt;gi|385855563|ref|YP_005902076.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M01-240355] &gt;gi|385857576|ref|YP_005904088.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NZ-05/33] &gt;gi|325201783|gb|ADY97237.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M01-240149] &gt;gi|325204504|gb|ADY99957.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M01-240355] &gt;gi|325208465|gb|ADZ03917.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NZ-05/33] &gt;gi|485352767|gb|EOC14167.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 81858] &gt;gi|530907830|gb|EQD06052.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM151] &gt;gi|530922151|gb|EQD19512.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3230] &gt;gi|530922198|gb|EQD19556.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3230]</Hit_def>
+  <Hit_accession>WP_002256770</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>675.241</Hsp_bit-score>
+      <Hsp_score>1741</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIAKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDKAKIVSLHLECSPCFKRECPLGHTDCLNKLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGI KRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSD+AKIVSLHLECSPCFKRECPLGHTDCLN+LYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|694193177|gb|KGI98403.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>KGI98403</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.855</Hsp_bit-score>
+      <Hsp_score>1740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|503214055|ref|WP_013448716.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria lactamica] &gt;gi|313668088|ref|YP_004048372.1| ADP-heptose--LPS heptosyltransferase [Neisseria lactamica 020-06] &gt;gi|313005550|emb|CBN86986.1| ADP-heptose:LPS heptosyltransferase II [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448716</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.47</Hsp_bit-score>
+      <Hsp_score>1739</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPCCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPAKHFAELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGICVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDKAKIVSLHLECSPCFKRECPLGHTDCLNKLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHP CTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPA+HFAELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDG+CVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSD+AKIVSLHLECSPCFKRECPLGHTDCLN+LYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|488166931|ref|WP_002238139.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|402331451|gb|EJU66788.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 98008]</Hit_def>
+  <Hit_accession>WP_002238139</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.47</Hsp_bit-score>
+      <Hsp_score>1739</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENSFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILEN FGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|730575816|gb|AIZ22765.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|730578285|gb|AIZ24732.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AIZ22765</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.47</Hsp_bit-score>
+      <Hsp_score>1739</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVGRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMV RYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|488179066|ref|WP_002250274.1|</Hit_id>
+  <Hit_def>lipopolysaccharide heptosyltransferase II [Neisseria meningitidis] &gt;gi|432258434|gb|ELL13718.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 61103]</Hit_def>
+  <Hit_accession>WP_002250274</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.47</Hsp_bit-score>
+      <Hsp_score>1739</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKGDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQK +EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|504394295|ref|WP_014581397.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|385850902|ref|YP_005897417.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M04-240196] &gt;gi|325205725|gb|ADZ01178.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M04-240196]</Hit_def>
+  <Hit_accession>WP_014581397</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.085</Hsp_bit-score>
+      <Hsp_score>1738</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMEVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTKHFAELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSM VFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP +HFAELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|488163838|ref|WP_002235046.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|402316613|gb|EJU52156.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM255] &gt;gi|485371818|gb|EOC31675.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2001001] &gt;gi|485373473|gb|EOC33210.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2004032] &gt;gi|485394829|gb|EOC53173.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2003051] &gt;gi|514070286|gb|EPF55136.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2007461]</Hit_def>
+  <Hit_accession>WP_002235046</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>673.7</Hsp_bit-score>
+      <Hsp_score>1737</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGCSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDG SGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|504388372|ref|WP_014575474.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|385328819|ref|YP_005883122.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis alpha710] &gt;gi|308389671|gb|ADO31991.1| ADP-heptose:LPS heptosyltransferase II [Neisseria meningitidis alpha710] &gt;gi|530899494|gb|EQC98234.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 96037] &gt;gi|530906531|gb|EQD04825.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM045] &gt;gi|530923196|gb|EQD20493.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM2866]</Hit_def>
+  <Hit_accession>WP_014575474</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>672.929</Hsp_bit-score>
+      <Hsp_score>1735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|488145625|ref|WP_002216833.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|325128598|gb|EGC51468.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis N1568] &gt;gi|402322404|gb|EJU57866.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM183] &gt;gi|402322636|gb|EJU58088.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM140] &gt;gi|402324568|gb|EJU60000.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM2781] &gt;gi|402329018|gb|EJU64381.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM576] &gt;gi|432208836|gb|ELK64808.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 97021] &gt;gi|432215137|gb|ELK71027.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2006087] &gt;gi|432219167|gb|ELK75015.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2002038] &gt;gi|432221244|gb|ELK77057.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 97014] &gt;gi|485349566|gb|EOC11181.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 73696] &gt;gi|485392230|gb|EOC50742.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2005172] &gt;gi|485393736|gb|EOC52141.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2008223] &gt;gi|514069825|gb|EPF54707.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 98002]</Hit_def>
+  <Hit_accession>WP_002216833</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>672.544</Hsp_bit-score>
+      <Hsp_score>1734</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTKHFAELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGICVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP +HFAELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDG+CVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|488155000|ref|WP_002226208.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|325142693|gb|EGC65073.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 961-5945]</Hit_def>
+  <Hit_accession>WP_002226208</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>671.003</Hsp_bit-score>
+      <Hsp_score>1730</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNKLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLN+LYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|488152362|ref|WP_002223570.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|325136580|gb|EGC59181.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M0579]</Hit_def>
+  <Hit_accession>WP_002223570</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>670.233</Hsp_bit-score>
+      <Hsp_score>1728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>330</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENSFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINRLSDGICVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILEN FGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEIN LSDG+CVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|488153853|ref|WP_002225061.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|15677379|ref|NP_274534.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis MC58] &gt;gi|385852867|ref|YP_005899381.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis H44/76] &gt;gi|7226771|gb|AAF41882.1| ADP-heptose--LPS heptosyltransferase II [Neisseria meningitidis MC58] &gt;gi|316986009|gb|EFV64946.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis H44/76] &gt;gi|325140684|gb|EGC63200.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis CU385] &gt;gi|325199871|gb|ADY95326.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis H44/76] &gt;gi|389605312|emb|CCA44232.1| heptosyltransferase II [Neisseria meningitidis alpha522] &gt;gi|432202134|gb|ELK58199.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM422] &gt;gi|432224911|gb|ELK80673.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M13255] &gt;gi|432226632|gb|ELK82358.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM418] &gt;gi|432240538|gb|ELK96073.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 9757] &gt;gi|432240623|gb|ELK96157.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 9506] &gt;gi|485355301|gb|EOC16529.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2002020] &gt;gi|485357401|gb|EOC18432.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM477] &gt;gi|485359765|gb|EOC20583.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis M13265] &gt;gi|530899291|gb|EQC98044.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 2002030] &gt;gi|530900067|gb|EQC98771.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3141] &gt;gi|530914466|gb|EQD12292.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM1476] &gt;gi|530920828|gb|EQD18272.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis NM3173] &gt;gi|744799122|gb|AJC63910.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>WP_002225061</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>669.463</Hsp_bit-score>
+      <Hsp_score>1726</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>330</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENSFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILEN FGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|488162871|ref|WP_002234079.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|402317813|gb|EJU53342.1| lipopolysaccharide heptosyltransferase II [Neisseria meningitidis 93004]</Hit_def>
+  <Hit_accession>WP_002234079</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.307</Hsp_bit-score>
+      <Hsp_score>1723</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDEWRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGICVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDE RREISVETFGL++GKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDG+CVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|518102991|ref|WP_019273199.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273199</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>667.922</Hsp_bit-score>
+      <Hsp_score>1722</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYNQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPKFSINERHRKISVETFGLDIGKPVLAFCPGAEFGPAKRWPAKHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLNLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEETV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGY++VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFP+FSI+ER R+ISVETFGL++GKPVLAFCPGAEFGPAKRWPA+HFAELGKHY  AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSL+LECSPCFKRECPLGHTDCLNRLYPEKIVQAVEE V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|489847547|ref|WP_003751234.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria polysaccharea] &gt;gi|296839276|gb|EFH23214.1| lipopolysaccharide heptosyltransferase II [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>WP_003751234</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>666.381</Hsp_bit-score>
+      <Hsp_score>1718</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>320</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQKDFDGCSGFPKFSIDERQRKISVETFGLDIGKPVLAFCPGAEFGPAKRWPAKHFAELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGICVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQ+DFDG SGFP+FSIDER+R+ISVETFGL++GKPVLAFCPGAEFGPAKRWPA+HFAELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDG+CVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|489770907|ref|WP_003674817.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria cinerea] &gt;gi|269146356|gb|EEZ72774.1| lipopolysaccharide heptosyltransferase II [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003674817</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.07</Hsp_bit-score>
+      <Hsp_score>1712</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>315</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRKLDKEHLPLMVDRYTALAHQSQKDFDGRSGFPKFSIDERRRKISVETFGLDIGKPVLAFCPGAEFGPAKRWPAKHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDKAKIVSLHLECSPCFKRECPLGHTDCLNKLYPDRIVQAVEETV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIR+LDKE LPLMVDRYTALAHQSQ+DFDG SGFP+FSIDERRR+ISVETFGL++GKPVLAFCPGAEFGPAKRWPA+HFAELGKHY  AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSD+AKIVSLHLECSPCFKRECPLGHTDCLN+LYP++IVQAVEE V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|738526656|ref|WP_036475120.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria lactamica] &gt;gi|673469154|gb|KFJ35784.1| lipopolysaccharide heptosyltransferase II [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_036475120</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>660.988</Hsp_bit-score>
+      <Hsp_score>1704</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>315</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSQKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDVRRLDKERLPLMVDRYTALAHQSQKDFDGCSGFPKFSIDERQRKISVETFGLDIGKPVLAFCPGAEFGPAKRWPAKHFSELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGICVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDKAKIVSLHLECSPCFKRECPLGHTDCLNKLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MS KILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLND+RRLDKERLPLMVDRYTALAHQSQ+DFDG SGFP+FSIDER+R+ISVETFGL++GKPVLAFCPGAEFGPAKRWPA+HF+ELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDG+CVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSD+AKIVSLHLECSPCFKRECPLGHTDCLN+LYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|645196925|ref|WP_025457783.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025457783</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.062</Hsp_bit-score>
+      <Hsp_score>1699</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>330</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSIKILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGLRGYDQVIVLPGSLKSAIIALATGIAKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGCSGFPKFSIDERQRKISIETFGLDIGKPVLAFCPGAEFGPAKRWPAKHFAELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGICVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDKAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MSIKILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LG RGYD+VIVLPGSLKSA+IALATGI KRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDG SGFP+FSIDER+R+IS+ETFGL++GKPVLAFCPGAEFGPAKRWPA+HFAELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDG+CVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSD+AKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|738521140|ref|WP_036469617.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_036469617</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.522</Hsp_bit-score>
+      <Hsp_score>1695</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>313</Hsp_identity>
+      <Hsp_positive>330</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>KILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>KILIISPSWIGDCVMTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDVRRLDKERLPLMVDRYTALAHQSQKDFDGCSGFPKFSIDERQRKISVETFGLDIGKPVLAFCPGAEFGPAKRWPAKHFSELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGICVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDKAKIVSLHLECSPCFKRECPLGHTDCLNKLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>KILIISPSWIGDCVMTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLND+RRLDKERLPLMVDRYTALAHQSQ+DFDG SGFP+FSIDER+R+ISVETFGL++GKPVLAFCPGAEFGPAKRWPA+HF+ELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDG+CVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSD+AKIVSLHLECSPCFKRECPLGHTDCLN+LYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|501178672|ref|WP_012221852.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis] &gt;gi|161870387|ref|YP_001599559.1| ADP-heptose--LPS heptosyltransferase [Neisseria meningitidis 053442] &gt;gi|161595940|gb|ABX73600.1| ADP-heptose:LPS heptosyltransferase II [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>WP_012221852</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.499</Hsp_bit-score>
+      <Hsp_score>1656</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>MTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|254672338|emb|CBA05514.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase II [Neisseria meningitidis alpha275]</Hit_def>
+  <Hit_accession>CBA05514</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.114</Hsp_bit-score>
+      <Hsp_score>1655</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>MTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAVIALATGIAKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRYFAELGKHYSAAGWQVWLFGSQKDDEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSAVIALATGI KRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP R+FAELGKHYS AGWQVWLFGSQKD+EIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|269209470|gb|EEZ75925.1|</Hit_id>
+  <Hit_def>lipopolysaccharide heptosyltransferase II [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>EEZ75925</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>628.246</Hsp_bit-score>
+      <Hsp_score>1619</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>MTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MTQPLFRRLKELHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRDLGRRGYDQVIVLPGSLKSAIIALATGIGKRTGYVGESRYFLLNDVRRLDKERLPLMVDRYTALAHQSQKDFDGCSGFPKFSIDERQRKISVETFGLDIGKPVLAFCPGAEFGPAKRWPAKHFSELGKHYSAAGWQVWLFGSQKDDEIAEEINRLSDGICVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDKAKIVSLHLECSPCFKRECPLGHTDCLNKLYPEKIVQAVEEAV</Hsp_hseq>
+      <Hsp_midline>MTQPLFRRLK+LHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGR+LGRRGYD+VIVLPGSLKSA+IALATGIGKRTGYVGESRYFLLND+RRLDKERLPLMVDRYTALAHQSQ+DFDG SGFP+FSIDER+R+ISVETFGL++GKPVLAFCPGAEFGPAKRWPA+HF+ELGKHYS AGWQVWLFGSQKD+EIAEEIN LSDG+CVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSD+AKIVSLHLECSPCFKRECPLGHTDCLN+LYPEKIVQAVEEAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|397968|gb|AAA72092.1|</Hit_id>
+  <Hit_def>lsi [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>AAA72092</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.994</Hsp_bit-score>
+      <Hsp_score>1582</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>MTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLG----HTDCLNR</Hsp_qseq>
+      <Hsp_hseq>MTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSRFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGIPTASTGCIPR</Hsp_hseq>
+      <Hsp_midline>MTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHS FPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLG     T C+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|496978635|ref|WP_009425991.1|</Hit_id>
+  <Hit_def>lipopolysaccharide heptosyltransferase II [Neisseria sp. oral taxon 020] &gt;gi|429164009|gb|EKY06178.1| lipopolysaccharide heptosyltransferase II [Neisseria sp. oral taxon 020 str. F0370]</Hit_def>
+  <Hit_accession>WP_009425991</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>570.466</Hsp_bit-score>
+      <Hsp_score>1469</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>297</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEE</Hsp_qseq>
+      <Hsp_hseq>MSKKILIISPSWIGDCVMTQPLYRRLHQLHPGCTIDVFAPKWSMAVFERMPEINEIIENPFGHGALQLKKRWRLGRELGRRGYDQVIVLPGSLKSAVIALATGIRQRTGYVGESRYFLLNDIRKLDKAALPLMVDRYTALAHPTQADFNGHSDNPRFAIDPASRQAALAAHGLNTGKPVIAFCPGAEYGPAKRWPARHFAELGRRYLAQGWQVWLFGSQKDFPIAEEINALSDGLCTNLCGKTSLSEAIDLLSCADTVICNDSGLMHLAAALDRKLVAAYGSSSPDHTPPLSPKAKIVSLNLDCSPCFKRECPLGHTDCLNKLTPDMVRNAAEE</Hsp_hseq>
+      <Hsp_midline>MS KILIISPSWIGDCVMTQPL+RRL +LHPGCTIDVFAPKWSMAVFERMPE+NEI+ENPFGHGAL+LK+RWR+GRELGRRGYD+VIVLPGSLKSAVIALATGI +RTGYVGESRYFLLNDIR+LDK  LPLMVDRYTALAH +Q DF+GHS  P F+ID   R+ ++   GLN GKPV+AFCPGAE+GPAKRWPARHFAELG+ Y   GWQVWLFGSQKD  IAEEIN LSDG+C NLCGKT LS+A+DLLS ADTV+CNDSGLMHLAAAL RK+VA YGSSSP HTPPLS +AKIVSL+L+CSPCFKRECPLGHTDCLN+L P+ +  A EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|496669637|ref|WP_009312127.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria sp. GT4A_CT1] &gt;gi|348610822|gb|EGY60504.1| lipopolysaccharide heptosyltransferase II [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>WP_009312127</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>560.836</Hsp_bit-score>
+      <Hsp_score>1444</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEE</Hsp_qseq>
+      <Hsp_hseq>MSKKILIITPSWIGDCVMTQPLYRRLHELHPGCTIDAFAPKWSMAVFERMPEISRVIENPFGHGALELKKRWRIGRELGKQGYDQVIVLPGSLKSALIAFATGIKQRTGYVGESRYFLLNDIRKLDKAALPLMVDRYTALAHPTQADFNGHSDNPRFTISPESRAAALAKYGLNTDKPVLAFCPGAEYGPAKRWPARHFAELGRRYLAEGWQVWLFGSQKDFDIAEEINRLSDDLCTNLCGKTNLSEAIDLLSCADTVVCNDSGLMHLAAALDRKLVAAYGSSSPDHTPPLSQKAKIVSLHLECSPCFKRECPLGHTDCLNKLTPDMVQKAAEE</Hsp_hseq>
+      <Hsp_midline>MS KILII+PSWIGDCVMTQPL+RRL +LHPGCTID FAPKWSMAVFERMPE++ ++ENPFGHGALELK+RWR+GRELG++GYD+VIVLPGSLKSA+IA ATGI +RTGYVGESRYFLLNDIR+LDK  LPLMVDRYTALAH +Q DF+GHS  P F+I    R  ++  +GLN  KPVLAFCPGAE+GPAKRWPARHFAELG+ Y   GWQVWLFGSQKD +IAEEIN LSD +C NLCGKT+LS+A+DLLS ADTVVCNDSGLMHLAAAL RK+VA YGSSSP HTPPLS +AKIVSLHLECSPCFKRECPLGHTDCLN+L P+ + +A EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|973171|gb|AAC44079.1|</Hit_id>
+  <Hit_def>LPS-heptosyl-2-transferase [Neisseria meningitidis] &gt;gi|1589656|prf||2211390A heptosyl-2-transferase</Hit_def>
+  <Hit_accession>AAC44079</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>559.681</Hsp_bit-score>
+      <Hsp_score>1441</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>320</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>MTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKREC----PLGHTDCL</Hsp_qseq>
+      <Hsp_hseq>MTQPLFRRLKELHPGCTIDVFAPKWSMAVFERRPEVNEILENSFGHGALELKRRWRVGRELGRRGYDQVIVLPGSLKSAIIALATGSVKGRVMSVKARYFLLNDIRRLDKERLPLMVDRYTALAHPSQEDFDGHSGFPEFSIDERRREISVETFGLDIGKPVLAFCPGAEFGPAKRWPTRHFAELGKHYLAAGWQVWLFGSQKDDEIAEEINRLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECRWGIPTASTGCI</Hsp_hseq>
+      <Hsp_midline>MTQPLFRRLK+LHPGCTIDVFAPKWSMAVFER PEVNEILEN FGHGALELKRRWRVGRELGRRGYD+VIVLPGSLKSA+IALATG  K      ++RYFLLNDIRRLDKERLPLMVDRYTALAH SQEDFDGHSGFPEFSIDERRREISVETFGL++GKPVLAFCPGAEFGPAKRWP RHFAELGKHY  AGWQVWLFGSQKD+EIAEEIN LSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKREC    P   T C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|742695081|gb|KIC07448.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>KIC07448</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>561.222</Hsp_bit-score>
+      <Hsp_score>1445</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEE</Hsp_qseq>
+      <Hsp_hseq>MSKKILIITPSWIGDCVMTQPLYRRLHELHPGCTIDAFAPKWSMAVFERMPEISRVIENPFGHGALELKKRWRIGRELGKQGYDQVIVLPGSLKSALIAFATGIKQRTGYVGESRYFLLNDIRKLDKAALPLMVDRYTALAHPTQADFNGHSDNPRFTISPESRAAALAKYGLNTNKPVLAFCPGAEYGPAKRWPARHFAELGRRYLAEGWQVWLFGSQKDFDIAEKINRLSDDHCTNLCGKTNLSEAIDLLSCADTVVCNDSGLMHLAAALDRKLVAAYGSSSPDHTPPLSQKAKIVSLHLECSPCFKRECPLGHTDCLNKLTPDMVQKAAEE</Hsp_hseq>
+      <Hsp_midline>MS KILII+PSWIGDCVMTQPL+RRL +LHPGCTID FAPKWSMAVFERMPE++ ++ENPFGHGALELK+RWR+GRELG++GYD+VIVLPGSLKSA+IA ATGI +RTGYVGESRYFLLNDIR+LDK  LPLMVDRYTALAH +Q DF+GHS  P F+I    R  ++  +GLN  KPVLAFCPGAE+GPAKRWPARHFAELG+ Y   GWQVWLFGSQKD +IAE+IN LSD  C NLCGKT+LS+A+DLLS ADTVVCNDSGLMHLAAAL RK+VA YGSSSP HTPPLS +AKIVSLHLECSPCFKRECPLGHTDCLN+L P+ + +A EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|489836967|ref|WP_003740680.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria mucosa] &gt;gi|288568178|gb|EFC89738.1| lipopolysaccharide heptosyltransferase II [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003740680</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>559.296</Hsp_bit-score>
+      <Hsp_score>1440</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEE</Hsp_qseq>
+      <Hsp_hseq>MSKKILIITPSWIGDCVMTQPLYRRLHELHPGCTIDAFAPKWSMAVFERMPEISRVIENPFGHGALELKKRWRIGRELGKQGYDQVIVLPGSLKSALIAFATGIKQRTGYVGESRYLLLNDIRKLDKAALPLMVDRYTALAHPTQADFNGHSDNPRFTISPESRAAALAKYGLDTDKPVLAFCPGAEYGPAKRWPARHFAELGSRYLAQGWQVWLFGSQKDFDIAEEINRLSDGLCTNLCGKTNLSEAIDLLSCADTVVCNDSGLMHLAAALDRKLVAAYGSSSPDHTPPLSQKAKIVSLHLECSPCFKRECPLGHTDCLNKLTPDMVQKAAEE</Hsp_hseq>
+      <Hsp_midline>MS KILII+PSWIGDCVMTQPL+RRL +LHPGCTID FAPKWSMAVFERMPE++ ++ENPFGHGALELK+RWR+GRELG++GYD+VIVLPGSLKSA+IA ATGI +RTGYVGESRY LLNDIR+LDK  LPLMVDRYTALAH +Q DF+GHS  P F+I    R  ++  +GL+  KPVLAFCPGAE+GPAKRWPARHFAELG  Y   GWQVWLFGSQKD +IAEEIN LSDG+C NLCGKT+LS+A+DLLS ADTVVCNDSGLMHLAAAL RK+VA YGSSSP HTPPLS +AKIVSLHLECSPCFKRECPLGHTDCLN+L P+ + +A EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|746363047|ref|WP_039407590.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_039407590</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.14</Hsp_bit-score>
+      <Hsp_score>1437</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEE</Hsp_qseq>
+      <Hsp_hseq>MSKKILIITPSWIGDCVMTQPLYRRLHELHPGCTIDAFAPKWSMAVFERMPEISRVIENPFGHGALELKKRWRIGRELGKQGYDQVIVLPGSLKSALIAFATGIKQRTGYVGESRYFLLNDIRKLDKAALPLMVDRYTALAHPTQADFNGHSDNPRFTISPESRAAALAKYGLNTNKPVLAFCPGAEYGPAKRWPARHFAELGRRYLAEGWQVWLFGSQKDFDIAEKINRLSDDHCTNLCGKTNLSEAIDLLSCADTVVCNDSGLMHLAAALDRKLVAAYGSSSPDHTPPLSQKAKIVSLHLECSPCFKRECPLGHTDCLNKLTPDMVQKAAEE</Hsp_hseq>
+      <Hsp_midline>MS KILII+PSWIGDCVMTQPL+RRL +LHPGCTID FAPKWSMAVFERMPE++ ++ENPFGHGALELK+RWR+GRELG++GYD+VIVLPGSLKSA+IA ATGI +RTGYVGESRYFLLNDIR+LDK  LPLMVDRYTALAH +Q DF+GHS  P F+I    R  ++  +GLN  KPVLAFCPGAE+GPAKRWPARHFAELG+ Y   GWQVWLFGSQKD +IAE+IN LSD  C NLCGKT+LS+A+DLLS ADTVVCNDSGLMHLAAAL RK+VA YGSSSP HTPPLS +AKIVSLHLECSPCFKRECPLGHTDCLN+L P+ + +A EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|489861190|ref|WP_003764821.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria sicca] &gt;gi|385699110|gb|EIG29428.1| lipopolysaccharide heptosyltransferase II [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003764821</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.14</Hsp_bit-score>
+      <Hsp_score>1437</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEE</Hsp_qseq>
+      <Hsp_hseq>MSKKILIITPSWIGDCVMTQPLYRRLHELHPGCTIDAFAPKWSMAVFERMPEISRVIENPFGHGALELKKRWRIGRELGKQGYDQVIVLPGSLKSALIAFATGIKQRTGYVGESRYLLLNDIRKLDKTALPLMVDRYTALAHPTQADFNGHSDNPRFTISPESRAAALAKYGLNTDKPVLAFCPGAEYGPAKRWPARHFAELGRRYLAEGWQIWLFGSQKDFDIAEEINRLSDDLCTNLCGKTNLSEAIDLLSCADTVVCNDSGLMHLAAALDRKLVAAYGSSSPDHTPPLSQKAKIVSLHLECSPCFKRECPLGHTDCLNKLTPDMVQKAAEE</Hsp_hseq>
+      <Hsp_midline>MS KILII+PSWIGDCVMTQPL+RRL +LHPGCTID FAPKWSMAVFERMPE++ ++ENPFGHGALELK+RWR+GRELG++GYD+VIVLPGSLKSA+IA ATGI +RTGYVGESRY LLNDIR+LDK  LPLMVDRYTALAH +Q DF+GHS  P F+I    R  ++  +GLN  KPVLAFCPGAE+GPAKRWPARHFAELG+ Y   GWQ+WLFGSQKD +IAEEIN LSD +C NLCGKT+LS+A+DLLS ADTVVCNDSGLMHLAAAL RK+VA YGSSSP HTPPLS +AKIVSLHLECSPCFKRECPLGHTDCLN+L P+ + +A EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|496465168|ref|WP_009174013.1|</Hit_id>
+  <Hit_def>ADP-heptose--LPS heptosyltransferase [Neisseria sp. oral taxon 014] &gt;gi|298283322|gb|EFI24809.1| lipopolysaccharide heptosyltransferase II [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009174013</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>557.755</Hsp_bit-score>
+      <Hsp_score>1436</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MSIKILIISPSWIGDCVMTQPLFRRLKKLHPGCTIDVFAPKWSMAVFERMPEVNEILENPFGHGALELKRRWRVGRELGRRGYDRVIVLPGSLKSAVIALATGIGKRTGYVGESRYFLLNDIRRLDKERLPLMVDRYTALAHQSQEDFDGHSGFPEFSIDERRREISVETFGLNLGKPVLAFCPGAEFGPAKRWPARHFAELGKHYSEAGWQVWLFGSQKDNEIAEEINCLSDGMCVNLCGKTDLSQAMDLLSLADTVVCNDSGLMHLAAALGRKVVAVYGSSSPTHTPPLSDRAKIVSLHLECSPCFKRECPLGHTDCLNRLYPEKIVQAVEEAV</Hsp_qseq>
+      <Hsp_hseq>MSKKILIITPSWIGDCVMTQPLYRRLHELHPGCTIDAFAPKWSMAVFERMPEISRIIENPFGHGALELKKRWRIGRELGKQGYDQVIVLPGSLKSALIAFATGIKQRTGYVGESRYLLLNDIRKLDKAALPLMVDRYTALAHPTQADFNGHSDNPRFTISPESRAAALAKYGLNTDKPVLAFCPGAEYGPAKRWPARHFAELGRRYLAQGWQVWLFGSQKDFDIAEEINRLSDDLCTNLCGKTNLSEAIDLLSCADTVVCNDSGLMHLAAALDRKLVAAYGSSSPDHTPPLSPKAKIVSLHLKCSPCFKRECPLGHTDCLNKLTPDMVQKAAEELV</Hsp_hseq>
+      <Hsp_midline>MS KILII+PSWIGDCVMTQPL+RRL +LHPGCTID FAPKWSMAVFERMPE++ I+ENPFGHGALELK+RWR+GRELG++GYD+VIVLPGSLKSA+IA ATGI +RTGYVGESRY LLNDIR+LDK  LPLMVDRYTALAH +Q DF+GHS  P F+I    R  ++  +GLN  KPVLAFCPGAE+GPAKRWPARHFAELG+ Y   GWQVWLFGSQKD +IAEEIN LSD +C NLCGKT+LS+A+DLLS ADTVVCNDSGLMHLAAAL RK+VA YGSSSP HTPPLS +AKIVSLHL+CSPCFKRECPLGHTDCLN+L P+ + +A EE V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

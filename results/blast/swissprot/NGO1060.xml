@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>6979</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7V7</BlastOutput_query-def>
+  <BlastOutput_query-len>261</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>6979</Iteration_query-ID>
+  <Iteration_query-def>Q5F7V7</Iteration_query-def>
+  <Iteration_query-len>261</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|120400|sp|P17834.1|FIMBI_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial assembly protein, serogroup I</Hit_def>
+  <Hit_accession>P17834</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>1.90067e-58</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>RWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKV----LADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGF</Hsp_qseq>
+      <Hsp_hseq>RFLFAAKISGIHFLLSLTVAALLAGLIFFVWYPFPYQKIMGSFKLFFLIFGIDVCCGPLLTFILSNPQKRLKECIIDFSLIIFIQLSAFIYGMYNIYLARPVAVVFELDRIRVLSKGDILLDELPQALPEFRQFPYFGHHLLAVRDWKNAEERKEGVEKAFQGFDIAQQPTLWVAYSS-ELEKIRKAAKPLAQSFLKLNAKQQQDVKTALQKAHL-NLEEAFFLPLVSNRSMEWMVILDKNMNITTAVEIDAF</Hsp_hseq>
+      <Hsp_midline>R+ FA K +G H L+SL VA L A L+F VWYP+PY ++ G   L+ L+  +D+ CGPLLT IL++P+K+ K  ++DFS++  IQL+A  YG++++ LARPV   FE DR+ +++  ++++++L +A    +   +FG   +A+++ ++A+E+ + ++ + +G + + +P  W+ YS  E EKIRK  KPL      L   ++  V   L++A L   EE ++LP  S+R  EW+VI DK  N      ID F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|120401|sp|P27905.1|FIMBX_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial assembly protein, serogroup E1</Hit_def>
+  <Hit_accession>P27905</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>4.34604e-56</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>RWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPL----KVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGF</Hsp_qseq>
+      <Hsp_hseq>RFLFAAKISGIHFLLSFVVALALAGLIFFVWYPFPYQKIMGSFKLFFLISGIDVCCGPLLTFILSNPQKRLKECIIDFSLIIFIQLSAFIYGMYNIYLARPVAVVFELDSIRILSKGDILLDELPQALPEFRQFPYFGHHLLAVRGWKNAEERKEGVEKAFQGFDIAQRPTLWVAYSS-ELEKIRKAAKPLAQSFSKLNAKQQQDVKTALQKARL-NMEEAFFLPLVSNRSMEWMVILDKNMNITTAVEIDAF</Hsp_hseq>
+      <Hsp_midline>R+ FA K +G H L+S +VA   A L+F VWYP+PY ++ G   L+ L+  +D+ CGPLLT IL++P+K+ K  ++DFS++  IQL+A  YG++++ LARPV   FE D + I++  ++++++L +A    +   +FG   +A++  ++A+E+ + ++ + +G + + RP  W+ YS  E EKIRK  KPL      L   ++  V   L++A L   EE ++LP  S+R  EW+VI DK  N      ID F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|120396|sp|P17830.1|FIMBC_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial assembly protein, serogroups C1 and C2</Hit_def>
+  <Hit_accession>P17830</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.65743e-35</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>RWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKA</Hsp_qseq>
+      <Hsp_hseq>RFLFAAKISGIHFLLSLTVAALLAGLIFFVWYPFPYQKIMGNFKLFFLISGIDVCCGPLLTFILSNPQKRLKECIIDFSLIIFIQLSAFIYGMYNIYLARPVAVVFELDSIRILSKGDILLDELPQA</Hsp_hseq>
+      <Hsp_midline>R+ FA K +G H L+SL VA L A L+F VWYP+PY ++ G   L+ L+  +D+ CGPLLT IL++P+K+ K  ++DFS++  IQL+A  YG++++ LARPV   FE D + I++  ++++++L +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|120397|sp|P17831.1|FIMBE_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial assembly protein, serogroup E2</Hit_def>
+  <Hit_accession>P17831</Hit_accession>
+  <Hit_len>48</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>8.09675e-07</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>RWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGL</Hsp_qseq>
+      <Hsp_hseq>RFLFAAKISGIHFLLSLTVAALLAGLIFFVWYPFPYQKIMGSF</Hsp_hseq>
+      <Hsp_midline>R+ FA K +G H L+SL VA L A L+F VWYP+PY ++ G  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|120398|sp|P17832.1|FIMBF_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial assembly protein, serogroup F1</Hit_def>
+  <Hit_accession>P17832</Hit_accession>
+  <Hit_len>48</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>1.60109e-06</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>RWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTG</Hsp_qseq>
+      <Hsp_hseq>RFLFAAKISGIHFLLSLTVAVLLAGLIFFVWYPFPYQKIMG</Hsp_hseq>
+      <Hsp_midline>R+ FA K +G H L+SL VA L A L+F VWYP+PY ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|120394|sp|P17828.1|FIMBA_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial assembly protein, serogroup A1 &gt;gi|120399|sp|P17833.1|FIMBG_DICNO RecName: Full=Fimbrial assembly protein, serogroup G1</Hit_def>
+  <Hit_accession>P17828</Hit_accession>
+  <Hit_len>48</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0582889</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>RWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGL</Hsp_qseq>
+      <Hsp_hseq>RFLFAAKISGIHFLLSLVVALALAGLIFFVWYPFPYQKIMGSF</Hsp_hseq>
+      <Hsp_midline>R+ FA K +G H L+SL+VA   A L+F VWYP+PY ++ G  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|75206088|sp|Q9SIE1.2|PAT_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional aspartate aminotransferase and glutamate/aspartate-prephenate aminotransferase; Short=AtAAT; Short=AtPPA-AT; AltName: Full=Protein MATERNAL EFFECT EMBRYO ARREST 17; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SIE1</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.264522</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>RRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLA---EGEELYYLPFTSSRQKEWIVITDKEGNTKGYAP</Hsp_qseq>
+      <Hsp_hseq>RICAMAKPNDAETLSSSVDMSLSPRVQSLKPSKTMVITDLAATLVQSGVPVIRLAAGEPDFDTPKVVAEAGINAIREGFTRYTLNAGITELREAICRKLKEENGLSYAP</Hsp_hseq>
+      <Hsp_midline>R  A+ +P DA+  + ++D+SL     S++P + +  +D  A  ++  +  +++ A         ++ +AG+    EG   Y L    +  +E I    KE N   YAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|51316353|sp|Q7V7Y8.1|PCYA_PROMM</Hit_id>
+  <Hit_def>RecName: Full=Phycocyanobilin:ferredoxin oxidoreductase [Prochlorococcus marinus str. MIT 9313]</Hit_def>
+  <Hit_accession>Q7V7Y8</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>3.7468</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>HLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDR</Hsp_qseq>
+      <Hsp_hseq>HLEIARLGGGLQVLHC--VFFPDPRFDLP--------IFGADIVAGP----------AGISAAIVDLSPVGLTMPEALLHGLESLP-----IPAFQQVR</Hsp_hseq>
+      <Hsp_midline>HL I+ L  GL  L    V++P P  +L         +   DIV GP              A +VD S VG+    AL +GL S+      + AF+Q R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|62900232|sp|Q720J0.1|NTPA_LISMF</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase [Listeria monocytogenes serotype 4b str. F2365]</Hit_def>
+  <Hit_accession>Q720J0</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>4.05913</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRW</Hsp_qseq>
+      <Hsp_hseq>ATLADFPEIGEIEETGTTFAENAALKAETVASVLNQ--TVIADDSGLIVDALDGAP-GVYSARYAGIAH-------DDAKNNEKLLKNLEGVEPDKRTARF</Hsp_hseq>
+      <Hsp_midline>A + DF  +G I+     +  ++   A  V     Q    I   + ++V+ L  AP G+ S  + GI         D  + N+ L  +L+G+EP  R  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|22653763|sp|Q92CH0.1|NTPA_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q92CH0</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.93939</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRW</Hsp_qseq>
+      <Hsp_hseq>ATLADFPEIGEIEETGTTFAENAALKAETVASLLNQ--TVIADDSGLIVDVLNGAP-GVYSARYAGVAH-------DDAKNNEKLLKNLEGVEPAKRTARF</Hsp_hseq>
+      <Hsp_midline>A + DF  +G I+     +  ++   A  V     Q    I   + ++V+ L+ AP G+ S  + G+         D  + N+ L  +L+G+EP+ R  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|22653757|sp|Q8Y7N5.1|NTPA_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q8Y7N5</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.32839</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRW</Hsp_qseq>
+      <Hsp_hseq>ATLADFPEIGEIEETGTTFAENAALKAETVASVLNQ--TVIADDSGLIVDALDGAP-GVYSARYAGVAH-------DDAKNNEKLLKNLEGVEPDKRTARF</Hsp_hseq>
+      <Hsp_midline>A + DF  +G I+     +  ++   A  V     Q    I   + ++V+ L  AP G+ S  + G+         D  + N+ L  +L+G+EP  R  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|205829028|sp|A1TZU2.1|MNMC_MARAV</Hit_id>
+  <Hit_def>RecName: Full=tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC; Short=tRNA mnm(5)s(2)U biosynthesis bifunctional protein; Includes: RecName: Full=tRNA (mnm(5)s(2)U34)-methyltransferase; Includes: RecName: Full=FAD-dependent cmnm(5)s(2)U34 oxidoreductase [Marinobacter hydrocarbonoclasticus VT8]</Hit_def>
+  <Hit_accession>A1TZU2</Hit_accession>
+  <Hit_len>631</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.19517</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>LKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLP</Hsp_qseq>
+      <Hsp_hseq>LDGFAPSLNPDMWL---EKAIHQIRAHSQPGTTLA---TFTSVGRVRRALADEGFEMAKVP</Hsp_hseq>
+      <Hsp_midline>L G  PS+ PD WL   +K   +IR H +P   LA     T    +++A   EG E+  +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|730399|sp|P39134.1|PRKA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Protein PrkA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39134</Hit_accession>
+  <Hit_len>631</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>8.56409</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>GLHSVSLARPV---VEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDAD----EKNKTLD-LSLKGIEPSMRPDRWLPYSDK--------------EAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKE</Hsp_qseq>
+      <Hsp_hseq>ALHSRIIVMPVPYNLKVSEEERIYEKMIAESDVADVHIAPHTLKVAAMFSI-LTRLKEPKRSDIDLVKKMRLYDGESVEGYNSVDVEDMKKEYNDEGMSGIDPRYVINRISSTIIRKNMESINSL-DVLRSLKEGLDQHPSISSEDRERYLNFISAARKEYDDIAKKE</Hsp_hseq>
+      <Hsp_midline> LHS  +  PV   ++  E++R+     AE  V D+H AP  L+  + F I    LKEP+ +D    +K +  D  S++G       D    Y+D+               +  IRK+++ +  L D  ++    + +   ++  +   YL F S+ +KE+  I  KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>24145</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F828</BlastOutput_query-def>
+  <BlastOutput_query-len>244</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>24145</Iteration_query-ID>
+  <Iteration_query-def>Q5F828</Iteration_query-def>
+  <Iteration_query-len>244</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|118805|sp|P03007.1|DPO3E_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P03007</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>3.09843e-65</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MTRQIILDTETTGLYADG----GDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFR--RVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQ----FDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGL---GEACIWR</Hsp_qseq>
+      <Hsp_hseq>ITRQIVLDTETTGMNQIGAHYEGHKIIEIGAVEVVNRRLTGNNFHVYLKPDRLVDPEAFGVHGIADEFLLDK--PTFAEVADEFMDYIRGAELVIHNAAFDIGFMDYEFSLLKRDIPKTNTF-CKVTDSLAVARKMFPGKRNSLDALCARYEIDNSKRTLHGALLDAQILAEVYLAMTGGQTSMAFAMEGETQQQQGEA--TIQRIVRQASKLRVVFATDEEIAAHEARLDLVQKKGGSCLWR</Hsp_hseq>
+      <Hsp_midline>+TRQI+LDTETTG+   G    G +++E   +E+VNR++T  N H+Y+ P+R +  EA  VHG+  + L +K  P FAEV  +  D++RGAEL+IHNA FD+GF++ EF   +  +P      C VTD+LA+AR+MFPG++ SLDALC R+ +D SKR LHGAL+D ++L EVYLAMT  Q    F + GET++++  A       ++  +KL+V+ A + E+AAHE  LD +   G +C+WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|31563219|sp|Q9CPE0.1|DPO3E_PASMU</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CPE0</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>1.26592e-64</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>TRQIILDTETTGLYADG----GDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAE-----MKLGAKLKVIKADEAELAAHEEYLDGLGEA----CIWRK</Hsp_qseq>
+      <Hsp_hseq>TRQIVLDTETTGMNQFGAHYEGHCIIEIGAVEMINRRLTGNNFHIYIKPNRPVDPDAIKVHGITDEMLADK--PMFNEVAQQFIDYIQGAELLIHNAPFDVGFMDYEFKKLNLNINTDAICMVTDTLQMARQMYPGKRNSLDALCDRLGIDNSKRTLHGALLDAEILADVYLTMTGGQTSLF---DENEPEIAVVAVQEQIQSAVAFSQDLKRLQPNADELQAHLDYLLLLNKKSKGNCLWEK</Hsp_hseq>
+      <Hsp_midline>TRQI+LDTETTG+   G    G  ++E   +EM+NR++T  N H+Y+ P R +  +A +VHG+T ++L +K  P F EV +Q  D+++GAEL+IHNA FDVGF++ EF+++ L    +  C VTDTL MAR+M+PG++ SLDALC+R  +D SKR LHGAL+D E+L +VYL MT  Q  L    +E EP    VA  E     +     LK ++ +  EL AH +YL  L +     C+W K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|60392203|sp|P0A1G9.1|DPO3E_SALTY</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|60392204|sp|P0A1H0.1|DPO3E_SALTI RecName: Full=DNA polymerase III subunit epsilon [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P0A1G9</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.608</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>1.32791e-64</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MTRQIILDTETTGLYADG----GDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEF--RRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQ----FDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGL---GEACIWR</Hsp_qseq>
+      <Hsp_hseq>ITRQIVLDTETTGMNQIGAHYEGHKIIEIGAVEVINRRLTGNNFHVYLKPDRLVDPEAFGVHGIADEFLLDK--PVFADVVDEFLDYIRGAELVIHNASFDIGFMDYEFGLLKRDIPKTNTF-CKVTDSLALARKMFPGKRNSLDALCSRYEIDNSKRTLHGALLDAQILAEVYLAMTGGQTSMTFAMEGETQRQQGEA--TIQRIVRQASRLRVVFASEEELAAHESRLDLVQKKGGSCLWR</Hsp_hseq>
+      <Hsp_midline>+TRQI+LDTETTG+   G    G +++E   +E++NR++T  N H+Y+ P+R +  EA  VHG+  + L +K  P FA+V  +  D++RGAEL+IHNA FD+GF++ EF   +  +P      C VTD+LA+AR+MFPG++ SLDALC+R+ +D SKR LHGAL+D ++L EVYLAMT  Q    F + GET+ ++  A       ++  ++L+V+ A E ELAAHE  LD +   G +C+WR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1169396|sp|P43745.1|DPO3E_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P43745</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>1.794e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>TRQIILDTETTGLYADG----GDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEE---------EEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGL----GEACIWRK</Hsp_qseq>
+      <Hsp_hseq>NRQIVLDTETTGMNQLGAHYEGHCIIEIGAVELINRRYTGNNXHIYIKPDRPXDPDAIKVHGITDEMLADK--PEFKEVAQDFLDYINGAELLIHNAPFDVGFMDYEFRKLNLNVKTDDICLVTDTLQMARQMYPGKRNNLDALCDRLGIDNSKRTLHGALLDAEILADVYLMMTGGQTNLFDEEESVESGVIRVMQEKTAEEIKSA-VDFSHNLKLLQPTNDELQAHLEFLKMMNKKSGNNCLWDK</Hsp_hseq>
+      <Hsp_midline> RQI+LDTETTG+   G    G  ++E   +E++NR+ T  N H+Y+ P+R    +A +VHG+T ++L +K  P F EV +   D++ GAEL+IHNA FDVGF++ EFR++ L    +  C VTDTL MAR+M+PG++ +LDALC+R  +D SKR LHGAL+D E+L +VYL MT  Q +L  E E          +E TA+ + SA +     LK+++    EL AH E+L  +    G  C+W K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|6685391|sp|Q9ZCJ9.1|DPO3E_RICPR</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZCJ9</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>1.5206e-55</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVT-DTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMT---RRQFDLMGETEEEEPTA-KPVASAEMKLGAKLKVIKADEAELAAHEEYLDGL</Hsp_qseq>
+      <Hsp_hseq>REIILDTETTGLDPQQGHRIVEIGAIEMVNKVLTGKHFHFYINPERDMPFEAYKIHGISGEFLKDK--PLFKTIANDFLKFIADSTLIIHNAPFDIKFLNHELSLLKRTEIKFLELTNTIDTLVMARNMFPGARYSLDALCKRFKVDNSGRQLHGALKDAALLAEVYVALTGGRQSTFKMINKPDEINNLAVKCVDVQQIKRGI---VVKPTKEELQKHKEFIDKI</Hsp_hseq>
+      <Hsp_midline>R+IILDTETTGL    G R+VE   +EMVN+ +T K+ H Y++PERDMP EA ++HG++ + L++K  P F  +      F+  + LIIHNA FD+ FLN E   +    ++ L  T T DTL MAR MFPG + SLDALC RF VD S R LHGAL D  LL EVY+A+T   +  F ++ + +E    A K V   ++K G    V+K  + EL  H+E++D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81826284|sp|Q68W16.1|DPO3E_RICTY</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68W16</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>3.88623e-54</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVT-DTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMT-RRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGL</Hsp_qseq>
+      <Hsp_hseq>REIILDTETTGLDPQQGHRIIEIGAIEMVNKVLTGKHFHCYINPERDMPFEAYKIHGISGEFLKDK--PLFHTIANDFLKFIADSTLIIHNAPFDIKFLNHELSLLKRTEIKFLELTNTIDTLVMARSMFPGARYSLDALCKRFKVDNSGRQLHGALKDAALLAEVYVALTGGRQSTFKMIDKPNEINNLTVKCIEVQKIKRSIVVKPTKEELQKHKEFIDKI</Hsp_hseq>
+      <Hsp_midline>R+IILDTETTGL    G R++E   +EMVN+ +T K+ H Y++PERDMP EA ++HG++ + L++K  P F  +      F+  + LIIHNA FD+ FLN E   +    ++ L  T T DTL MAR MFPG + SLDALC RF VD S R LHGAL D  LL EVY+A+T  RQ       +  E     V   E++   +  V+K  + EL  H+E++D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|75536966|sp|Q4UN31.1|DPO3E_RICFE</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UN31</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>6.44999e-53</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCT-VTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMT---RRQFDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGL</Hsp_qseq>
+      <Hsp_hseq>REIILDTETTGLDPRQGHRIVEIGAIEMVNKVLTGRNFHFYINPERDMPFDAYRIHGISGEFLKDK--PLFHTIADDFLEFISDSKLIIHNAPFDIKFLNHELSLLKRAEIKLLELSNAIDTLVMARSMFPGSKYNLDALCKRFKVDNSGRQLHGALKDAALLAEVYVELTGGRQSAFKMVDKSVETNNLA--TNQVNNKTEQATIVIKPTKEELQKHKEFLSSI</Hsp_hseq>
+      <Hsp_midline>R+IILDTETTGL    G R+VE   +EMVN+ +T +N H Y++PERDMP +A R+HG++ + L++K  P F  +     +F+  ++LIIHNA FD+ FLN E   +    ++ L  +   DTL MAR MFPG K +LDALC RF VD S R LHGAL D  LL EVY+ +T   +  F ++ ++ E    A        K      VIK  + EL  H+E+L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2833216|sp|Q08880.2|DPO3E_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q08880</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>6.35314e-52</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>RQIILDTETTGLYADG----GDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELG--CTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLM-GETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGE</Hsp_qseq>
+      <Hsp_hseq>RIIVLDTETTGMNSVGPPYLNHRIIEIGAIEIINRRFTGKKFHTYIKPNRLIESDASKIHGITDDFLSDK--PSFKDIAKDFFNYIKNSELIIHNASFDVGFINQEFSMLT-KKIQDISNFCNIIDTLKIARKLFPGKKNTLDALCMRYKIKNSHRVLHGAILDAFLLGKLYLLMTSGQESIIFNKNIQNERNFRYIKKSITKKHRFLKIIKANKTELKLHNEYLKFLKE</Hsp_hseq>
+      <Hsp_midline>R I+LDTETTG+ + G      R++E   +E++NR+ T K  H Y+ P R +  +A+++HG+T   L +K  P F ++ +   ++++ +ELIIHNA FDVGF+N EF  +    ++++   C + DTL +AR++FPG+K +LDALC R+ +  S RVLHGA++D  LLG++YL MT  Q  ++  +  + E   + +  +  K    LK+IKA++ EL  H EYL  L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122425898|sp|Q1RJM1.1|DPO3E_RICBR</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RJM1</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>7.99791e-52</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGC-TVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMT---RRQFDLMGETEEEEPTAKPVASAEMKLGAK----LKVIKADEAELAAHEEYL</Hsp_qseq>
+      <Hsp_hseq>REIILDTETTGLDPKGGHRIVEIGAIEMVNKVLTGRHFHFYLNPERDMPFEAYRIHGISGEFLKDK--PLFHTIADDFLEFIADSKLVIHNAPFDVKFLNHELSLLKRAEIKLLELEHAIDTLVMARSMFPGSKYSLDALCKRFKVDNSGRQLHGALKDAALLAEVYVELTGGRQSAFKML------DKAAKINNLSYNRLDSQAHRNIPVIKPTKEELQKHKEFL</Hsp_hseq>
+      <Hsp_midline>R+IILDTETTGL   GG R+VE   +EMVN+ +T ++ H Y++PERDMP EA R+HG++ + L++K  P F  +     +F+  ++L+IHNA FDV FLN E   +    ++ L      DTL MAR MFPG K SLDALC RF VD S R LHGAL D  LL EVY+ +T   +  F ++      +  AK    +  +L ++    + VIK  + EL  H+E+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|20137858|sp|Q92GL1.1|DPO3E_RICCN</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92GL1</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>2.94109e-51</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVE--ELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETE------EEEPTAKPVASAEM--KLGAKLKVIKADEAELAAHEEYL</Hsp_qseq>
+      <Hsp_hseq>REIILDTETTGLDPRQGHRIVEIGAIEMVNKVLTGRNFHFYINPERDMPFEAYRIHGISGEFLKDK--PLFHTIADDFLEFISDSKLIIHNAPFDIKFLNHELSLLKRTDIKLLELANTI-DTLVMARSIFPGSKYNLDALCKRFKVDNSGRQLHGALKDAALLAEVYV-------ELMGGRQSAFKMVDKSAVINNLATNQVNNKTEQTTIVIKPTKEELQKHKEFL</Hsp_hseq>
+      <Hsp_midline>R+IILDTETTGL    G R+VE   +EMVN+ +T +N H Y++PERDMP EA R+HG++ + L++K  P F  +     +F+  ++LIIHNA FD+ FLN E   +    ++  EL  T+ DTL MAR +FPG K +LDALC RF VD S R LHGAL D  LL EVY+       +LMG  +      ++      +A+ ++  K      VIK  + EL  H+E+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|11132278|sp|P57337.1|DPO3E_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57337</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>3.67023e-48</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>RQIILDTETTGLYADG----GDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGET--EEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGE--ACIW</Hsp_qseq>
+      <Hsp_hseq>RTIILDTETTGINQTSLPHINHRIIEIGAVEIIDRCFTGNNFHVYIQPGRSIESGALKVHGITNKFLLDK--PIFKDIADSFLNYIKNSILVIHNASFDVGFINQELEILNKKIKINTFCSIIDTLKIARELFPGKKNTLDALCTRYKINKSHRNLHSAIVDSYLLGKLYLLMTGGQDSLFSDNTINYKENFKKLKKNIQLK-NNTLRILHPTLKENDLHEKYLQYMKDKSTCLW</Hsp_hseq>
+      <Hsp_midline>R IILDTETTG+          R++E   +E+++R  T  N H+Y+ P R +   A +VHG+T + L +K  P F ++     ++++ + L+IHNA FDVGF+N E   +         C++ DTL +ARE+FPG+K +LDALC R+ +++S R LH A++D  LLG++YL MT  Q  L  +     +E   K   + ++K    L+++     E   HE+YL  + +   C+W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|31340041|sp|Q89AN3.1|DPO3E_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AN3</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.41213e-47</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>RQIILDTETTGLYADG----GDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVE-ELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQ-----FDLMGETEEEEPTAKPVASAEMKLGAKLKVIKADEAELAAHEEYLDGLGE---ACIW</Hsp_qseq>
+      <Hsp_hseq>RKIVLDIETTGMNPAGCFYKNHKIIEIGAVEMINNVFTGNNFHSYIQPNRLIDKQSFKIHGITDNFLLDK--PKFHEISVKFLEYITNSDLIIHNAKFDVGFINYELNMINSDKRKISDYCNVVDTLPLARQLFPGKKNSLDALCNRYKINVSHRDFHSALIDAKLLAKVYTFMTSFQQSISIFDKNSNLNSIQKNAK----LDSRVPFRSTLLLATKDELQQHMKYLKYVKQETGNCVW</Hsp_hseq>
+      <Hsp_midline>R+I+LD ETTG+   G      +++E   +EM+N   T  N H Y+ P R + +++ ++HG+T   L +K  P F E+  +  +++  ++LIIHNAKFDVGF+N E   +     +    C V DTL +AR++FPG+K SLDALCNR+ ++ S R  H ALID +LL +VY  MT  Q     FD        +  AK     + ++  +  ++ A + EL  H +YL  + +    C+W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|6014992|sp|O68045.1|DPO3E_RHOCB</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon-like protein [Rhodobacter capsulatus SB 1003]</Hit_def>
+  <Hit_accession>O68045</Hit_accession>
+  <Hit_len>704</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.11371e-19</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>511</Hsp_hit-from>
+      <Hsp_hit-to>671</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVN-RQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKA-SLDALCNRFSVDRSKRVLHGALIDCELLGEVYL</Hsp_qseq>
+      <Hsp_hseq>VVFDTETTGLFPTGGDEIVQIAAVRIVNGRRVAGEVFDTLVNPGRPIPAASTAVHGITEAMV--ATAPAIAEVGRRFHKFAEGAVLVAHNAPFDLEFL----RRKELLIGKNFDNPVLDTVLLSAVVFGAAEGHSLDALTHRLGITIPEEARHTALGDTVATAEAFL</Hsp_hseq>
+      <Hsp_midline>++ DTETTGL+  GGD +V+ A + +VN R++  +     V+P R +P  +  VHG+T  ++    AP  AEVGR+   F  GA L+ HNA FD+ FL    RR  L   +     V DT+ ++  +F   +  SLDAL +R  +   +   H AL D     E +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1706437|sp|P54394.1|DING_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent helicase DinG homolog [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54394</Hit_accession>
+  <Hit_len>931</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.15936e-16</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPG-QKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRR</Hsp_qseq>
+      <Hsp_hseq>RFVVIDVETTGNSPKKGDKIIQIAAVVIENGQITER-FSKYINPNKSIPAFIEQLTGISNQMVE--NEQPFEAVAEEVFQLLDGAYFVAHNIHFDLGFVKYELHKAGFQLPD---CEVLDTVELSRIVFPGFEGYKLTELSEELQLRHDQP--HRADSDAEVTGLIFLEILEK</Hsp_hseq>
+      <Hsp_midline>R +++D ETTG     GD++++ A + + N Q+T++    Y++P + +P    ++ G++ Q++E  N  PF  V  ++   L GA  + HN  FD+GF+  E  + G    +   C V DT+ ++R +FPG +   L  L     +   +   H A  D E+ G ++L +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|6014996|sp|O83649.1|DPO3E_TREPA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III subunit epsilon [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>O83649</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>2.28975e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>LDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPG</Hsp_qseq>
+      <Hsp_hseq>FDTETTGLKAEE-DRIIEIGAVTF-DRKGIIARFSTLIFPDRAIPPDVSKINHITDDML--VNKPRFCEIVSDFSRFIKGTVLVAHNANFDVEFLNAE---LSLCKKQPLSHKVVDTYAMAQAVFPG</Hsp_hseq>
+      <Hsp_midline> DTETTGL A+  DR++E   +   +R+         + P+R +P + ++++ +T  +L   N P F E+    + F++G  L+ HNA FDV FLN E   + L   + L   V DT AMA+ +FPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122268369|sp|Q03MX3.1|DPO3_STRTD</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus thermophilus LMD-9]</Hit_def>
+  <Hit_accession>Q03MX3</Hit_accession>
+  <Hit_len>1464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>3.63973e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>612</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMK</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAVHND-LIQIAASKMHKGNIVEQ-FDEFIDPGYPLSAFTTELTGITDNHV--KGAKPLVQVLQEFQEFCKGAVLVAHNATFDVGFMNANYERHQLPTISQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFGVALDHH--HMANYDAEATGRLLFIFIKDVFEKHGLTNLEQLNTELVSDDSYK</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T   +  K A P  +V ++  +F +GA L+ HNA FDVGF+N  + R  LPT+ +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +     +  F+  G T  E+   + V+    K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81559957|sp|Q5M1Y0.1|DPO3_STRT1</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus thermophilus CNRZ1066]</Hit_def>
+  <Hit_accession>Q5M1Y0</Hit_accession>
+  <Hit_len>1464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>3.73697e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>612</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMK</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAVHND-LIQIAASKMHKGNIVEQ-FDEFIDPGYPLSAFTTELTGITDNHV--KGAKPLVQVLQEFQEFCKGAVLVAHNATFDVGFMNANYERHQLPTISQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFGVALDHH--HMANYDAEATGRLLFIFIKDVFEKHGLTNLEQLNTELVSDDSYK</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T   +  K A P  +V ++  +F +GA L+ HNA FDVGF+N  + R  LPT+ +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +     +  F+  G T  E+   + V+    K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|81561132|sp|Q5M6H0.1|DPO3_STRT2</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus thermophilus LMG 18311]</Hit_def>
+  <Hit_accession>Q5M6H0</Hit_accession>
+  <Hit_len>1464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>3.73697e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>612</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAKPVASAEMK</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAVHND-LIQIAASKMHKGNIVEQ-FDEFIDPGYPLSAFTTELTGITDNHV--KGAKPLVQVLQEFQEFCKGAVLVAHNATFDVGFMNANYERHQLPTISQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFGVALDHH--HMANYDAEATGRLLFIFIKDVFEKHGLTNLEQLNTELVSDDSYK</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T   +  K A P  +V ++  +F +GA L+ HNA FDVGF+N  + R  LPT+ +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +     +  F+  G T  E+   + V+    K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|13959345|sp|Q9CDT7.1|DPO3_LACLA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Lactococcus lactis subsp. lactis Il1403]</Hit_def>
+  <Hit_accession>Q9CDT7</Hit_accession>
+  <Hit_len>1638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>5.45616e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>597</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKA-SLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAM</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAVHND-LIQIAATKMHKGNPIDE-FDEFINPGYRLSEFTTELTGITDDHV--KNAKPLYEVLTKFQKFCEGTILVAHNATFDVGFMNMNYSRNGLPIITQ---PVVDTLEFARNLYPEMKRFGLGQLTKKFQIGLEHH--HMANFDAEATGRLLFVF</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M      D+    +++P   + E    + G+T   +  KNA P  EV  +   F  G  L+ HNA FDVGF+NM + R GLP + +    V DTL  AR ++P  K   L  L  +F +       H A  D E  G +    </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81433857|sp|Q819Y5.1|DPO3_BACCR</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q819Y5</Hit_accession>
+  <Hit_len>1435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>8.12226e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>581</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKAS-LDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSA-VYDTVIELAAVKVKGGEIIDR-FESFANPHQPLSATIIELTGITDDML--TDAPEVDEVFKKFEEWMGDHTLVAHNASFDMGFINVGFKKAGL---EKTNNPVIDTLELARFLFPEMKNHRLNTMCKKLDIELTQH--HRAIYDTEATGYLLVKMLK</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D ++E A +++   ++ D+    + +P + +      + G+T  +L   +AP   EV ++  +++    L+ HNA FD+GF+N+ F++ GL   E+    V DTL +AR +FP  K   L+ +C +  ++ ++   H A+ D E  G + + M +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|118793|sp|P13267.2|DPO3_BACSU</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P13267</Hit_accession>
+  <Hit_len>1437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.20581e-14</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>422</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKAS-LDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSA-VYDTIIELAAVKVKGGEIIDK-FEAFANPHRPLSATIIELTGITDDMLQ--DAPDVVDVIRDFREWIGDDILVAHNASFDMGFLNVAYKK--LLEVEKAKNPVIDTLELGRFLYPEFKNHRLNTLCKKFDIELTQH--HRAIYDTEATAYLLLKMLK</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D ++E A +++   ++ DK    + +P R +      + G+T  +L+  +AP   +V R   +++    L+ HNA FD+GFLN+ +++  L  VE+    V DTL + R ++P  K   L+ LC +F ++ ++   H A+ D E    + L M +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|24418364|sp|Q8RA32.1|DPO3_THETN</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Caldanaerobacter subterraneus subsp. tengcongensis MB4]</Hit_def>
+  <Hit_accession>Q8RA32</Hit_accession>
+  <Hit_len>1401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>3.77711e-14</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRR</Hsp_qseq>
+      <Hsp_hseq>VVFDIETTGL-SNINDEIIEIGAVKIKNKKIVD-TFETFVNPQIPISSFITKLTGIDESMV--KDAPLIEEVLPKFLEFAKGAVLVAHNANFDVSFIKSKAKKLGL-TVEN---TVLDTLELSRHLYQDLKNYKLDTLAEFFEVKLLHH--HRAVEDAKATAEIFIKMLEK</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL ++  D ++E   +++ N+++ D     +V+P+  +     ++ G+   ++  K+AP   EV  +  +F +GA L+ HNA FDV F+  + +++GL TVE    TV DTL ++R ++   K   LD L   F V       H A+ D +   E+++ M  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|13959348|sp|Q9KA72.1|DPO3_BACHD</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KA72</Hit_accession>
+  <Hit_len>1433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>4.18204e-14</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>420</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKAS-LDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSA-VYNKIIELAAVKVKNGEIIDR-FERFADPHEPLTNTIIELTGITDDML--KGQPEVEQVLNEFHAFIGDAVLVAHNASFDMGFLNTGFQKMGL---GEAKNPVIDTLELGRFLYPTLKNHRLNTLCKKFDIELVSH--HRAIYDAEATGHLLWRMVK</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   ++++E A +++ N ++ D+    +  P   +      + G+T  +L  K  P   +V  +   F+  A L+ HNA FD+GFLN  F+++GL    E    V DTL + R ++P  K   L+ LC +F ++      H A+ D E  G +   M +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123747742|sp|Q48R90.1|DPO3_STRPM</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pyogenes MGAS6180]</Hit_def>
+  <Hit_accession>Q48R90</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.83013e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>588</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAMNND-LIQIAASKMFKGNIVEQ-FDEFIDPGHPLSAFTTELTGITDKHLQD--AKPLVTVLKAFQDFCKDSILVAHNASFDVGFMNANYERHDLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLDHH--HMANYDAEATGRLLFIFLR</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T + L++  A P   V +   DF + + L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +     R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|24418360|sp|Q8NZB5.1|DPO3_STRP8</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pyogenes MGAS8232]</Hit_def>
+  <Hit_accession>Q8NZB5</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.05088e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>588</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAMNND-LIQIAASKMFKGNIVEQ-FDEFIDPGHPLSAFTTELTGITDKHLQ--GAKPLVTVLKAFQDFCKDSILVAHNASFDVGFMNANYERHNLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLDHH--HMANYDAEATGRLLFIFLR</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T + L+   A P   V +   DF + + L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +     R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|21263558|sp|Q92C34.1|DPO3_LISIN</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q92C34</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>2.73028e-13</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>430</Hsp_hit-from>
+      <Hsp_hit-to>584</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>ILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKAS-LDALCNRFSVDRSKRVLHGALIDCELLGEVYLA</Hsp_qseq>
+      <Hsp_hseq>VFDVETTGLSA-VYDTIIELAGVKMKNGEIIDK-FEAFIDPGHPLSATTINLTGITDDMV--KGSDPIDVVLKQFREWSGDDILVAHNASFDMGFINTAYEKVGL---EKAKNAVVDTLELARFLYPHFKNHRLNTLTKKFNIILEQH--HRAVFDAE--ATAYLA</Hsp_hseq>
+      <Hsp_midline>+ D ETTGL A   D ++E AG++M N ++ DK    ++ P   +      + G+T  ++  K + P   V +Q  ++     L+ HNA FD+GF+N  + +VGL   E+    V DTL +AR ++P  K   L+ L  +F++   +   H A+ D E     YLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|166217453|sp|A2RGI3.1|DPO3_STRPG</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pyogenes str. Manfredo]</Hit_def>
+  <Hit_accession>A2RGI3</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>2.91184e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>588</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAMNND-LIQIAASKMFKGNIVEQ-FDEFIDPGHPLSAFTTELTGITDKHLQ--GAKPLVTVLKAFQDFCKDSILVAHNASFDVGFMNANYERHDLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLDHH--HMANYDAEATGRLLFIFLR</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T + L+   A P   V +   DF + + L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +     R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|123257711|sp|Q1J9R4.1|DPO3_STRPB</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pyogenes MGAS2096] &gt;gi|123382486|sp|Q1JJW3.1|DPO3_STRPC RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pyogenes MGAS9429]</Hit_def>
+  <Hit_accession>Q1J9R4</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>2.96334e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>588</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAMNND-LIQIAASKMFKGNIVEQ-FDEFIDPGHPLSAFTTELTGITDKHLQ--GAKPLVTVLKAFQDFCKDSILVAHNASFDVGFMNANYERHDLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLDHH--HMANYDAEATGRLLFIFLR</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T + L+   A P   V +   DF + + L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +     R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|166217452|sp|Q1JEV4.1|DPO3_STRPD</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pyogenes MGAS10270]</Hit_def>
+  <Hit_accession>Q1JEV4</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>4.51428e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEV</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAMNND-LIQIAASKMFKGNIVEQ-FDEFIDPGHPLSAFTTELTGITDKHLQD--AKPLVTVLKAFQDFCKDSILVAHNASFDVGFMNANYERHDLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLDHH--HMANYDAEATGRL</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T + L++  A P   V +   DF + + L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|32469722|sp|Q8DWE0.1|DPO3_STRMU</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus mutans UA159]</Hit_def>
+  <Hit_accession>Q8DWE0</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>6.87982e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>586</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAINND-LIQIAASKMHKGNIVEQ-FDEFIDPGHPLSQFTTDLTGITDQHV--KGAKPISQVLQEFQSFCQDTVLVAHNATFDVGFMNANYERHDLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLEHH--HMANYDAEATGRLLFIFLK</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   + +    + G+T Q +  K A P ++V ++   F +   L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +     +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|341958649|sp|P0DA76.1|DPO3_STRP3</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III polC-type; Short=PolIII [Streptococcus pyogenes MGAS315] &gt;gi|341958650|sp|P0DA77.1|DPO3_STRPQ RecName: Full=DNA polymerase III polC-type; Short=PolIII [Streptococcus pyogenes SSI-1]</Hit_def>
+  <Hit_accession>P0DA76</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.18871e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEV</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAMNND-LIQIAASKMFKGNIVEQ-FDEFIDPGHPLSAFTTELTGITDKHLQ--GAKPLVTVLKAFQDFCKDSILVAHNASFDVGFMNANYERHDLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLDHH--HMANYDAEATGRL</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T + L+   A P   V +   DF + + L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|21263551|sp|Q8Y7G1.1|DPO3_LISMO</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q8Y7G1</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.35975e-13</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>430</Hsp_hit-from>
+      <Hsp_hit-to>584</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>ILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKAS-LDALCNRFSVDRSKRVLHGALIDCELLGEVYLA</Hsp_qseq>
+      <Hsp_hseq>VFDVETTGLSA-VYDTIIELAGVKMKNGEIIDK-FEAFIDPGHPLSATTINLTGITDDMV--KGSDPIDVVLKRFKEWSGDDILVAHNASFDMGFINTAYEKVGLEKAEN---AVVDTLELARFLYPHFKNHRLNTLTKKFNIILEQH--HRAVFDAE--ATAYLA</Hsp_hseq>
+      <Hsp_midline>+ D ETTGL A   D ++E AG++M N ++ DK    ++ P   +      + G+T  ++  K + P   V ++  ++     L+ HNA FD+GF+N  + +VGL   E     V DTL +AR ++P  K   L+ L  +F++   +   H A+ D E     YLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|73919253|sp|Q5X9U8.1|DPO3_STRP6</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pyogenes MGAS10394]</Hit_def>
+  <Hit_accession>Q5X9U8</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.38068e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEV</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAMNND-LIQIAASKMFKGNIVEQ-FDEFIDPGHPLSAFTTELTGITDKHLQ--GAKPLVTVLKAFQDFCKDSILVAHNASFDVGFMNANYERHDLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLDHH--HMANYDAEATGRL</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T + L+   A P   V +   DF + + L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|81175278|sp|P0C0B8.1|DPO3_STRP1</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pyogenes serotype M1]</Hit_def>
+  <Hit_accession>P0C0B8</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.64466e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEV</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAMNND-LIQIAASKMFKGNIVEQ-FDEFIDPGHPLSAFTTELTGITDKHLQ--GAKPLVTVLKAFQDFCKDSILVAHNASFDVGFMNANYERHDLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLDHH--HMANYDAEATGRL</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T + L+   A P   V +   DF + + L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|123382133|sp|Q1J4M0.1|DPO3_STRPF</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pyogenes MGAS10750]</Hit_def>
+  <Hit_accession>Q1J4M0</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.71213e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEV</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAMNND-LIQIAASKMFKGNIVEQ-FDEFIDPGHPLSAFTTELTGITDKHLQ--GAKPLVTVLKAFQDFCKDSILVAHNASFDVGFMNANYERHDLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLDHH--HMANYDAEATGRL</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T + L+   A P   V +   DF + + L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|67460321|sp|Q720A2.1|DPO3_LISMF</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Listeria monocytogenes serotype 4b str. F2365]</Hit_def>
+  <Hit_accession>Q720A2</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.7582e-13</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>430</Hsp_hit-from>
+      <Hsp_hit-to>584</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>ILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKAS-LDALCNRFSVDRSKRVLHGALIDCELLGEVYLA</Hsp_qseq>
+      <Hsp_hseq>VFDVETTGLSA-VYDTIIELAGVKMKNGEIIDK-FEAFIDPGHPLSATTINLTGITDDMV--KGSDPIDVVLKRFKEWSGDDILVAHNASFDMGFINTAYEKVGLEKAEN---AVVDTLELARFLYPHFKNHRLNTLTKKFNIILEQH--HRAVFDAE--ATAYLA</Hsp_hseq>
+      <Hsp_midline>+ D ETTGL A   D ++E AG++M N ++ DK    ++ P   +      + G+T  ++  K + P   V ++  ++     L+ HNA FD+GF+N  + +VGL   E     V DTL +AR ++P  K   L+ L  +F++   +   H A+ D E     YLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|166217454|sp|A4W428.1|DPO3_STRS2</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus suis 98HAH33] &gt;gi|166217456|sp|A4VXT1.1|DPO3_STRSY RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus suis 05ZYH33]</Hit_def>
+  <Hit_accession>A4W428</Hit_accession>
+  <Hit_len>1463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.91602e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>586</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPG-QKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSA-VNNALIQIAASKMHKGNII-AEFDEFIDPGHPLSQFTTDLTGITDEHV--RGSKPLEQVLREFQDFCQDSVMVAHNATFDVGFMNVNYERAGLPIISQ---PVIDTLEFARNLYPDFKRHGLGPLTKRFGVALEHH--HMANYDAEATGRLLFIFLK</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   + L++ A  +M    +       ++ P   + +    + G+T + +  + + P  +V R+  DF + + ++ HNA FDVGF+N+ + R GLP + +    V DTL  AR ++P  ++  L  L  RF V       H A  D E  G +     +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|123466238|sp|A0AIC1.1|DPO3_LISW6</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Listeria welshimeri serovar 6b str. SLCC5334]</Hit_def>
+  <Hit_accession>A0AIC1</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>8.39682e-13</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>430</Hsp_hit-from>
+      <Hsp_hit-to>584</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>ILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKAS-LDALCNRFSVDRSKRVLHGALIDCELLGEVYLA</Hsp_qseq>
+      <Hsp_hseq>VFDVETTGLSA-VYDTIIELAGVKMKNGEIIDK-FEAFIDPGHPLSATTINLTGITDDMV--KGSDPIDVVLKRFKEWSGDDILVAHNASFDMGFINTAYEKVGL---EKADNAVVDTLELARFLYPHFKNHRLNTLTKKFNIILEQH--HRAVFDAE--ATAYLA</Hsp_hseq>
+      <Hsp_midline>+ D ETTGL A   D ++E AG++M N ++ DK    ++ P   +      + G+T  ++  K + P   V ++  ++     L+ HNA FD+GF+N  + +VGL   E+    V DTL +AR ++P  K   L+ L  +F++   +   H A+ D E     YLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|32469727|sp|Q8EQU6.1|DPO3_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8EQU6</Hit_accession>
+  <Hit_len>1428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>8.4523e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>415</Hsp_hit-from>
+      <Hsp_hit-to>576</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPG-QKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSA-VYDTIIELAAVKIKGGEIVDR-FESFANPHHALSQTTIDLTGITDDMV--NDAPEVADVLKDFHTWMGNDILVAHNASFDMGFLNQGFQRIDY---EKASNPVVDTLELARFLLPELRNHRLNTLCKHLDIELTQH--HRAIYDAEATGYLLWKLVQR</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D ++E A +++   ++ D+    + +P   + +    + G+T  ++   +AP  A+V +    ++    L+ HNA FD+GFLN  F+R+     E+    V DTL +AR + P  +   L+ LC    ++ ++   H A+ D E  G +   + +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|166217455|sp|A3CQI2.1|DPO3_STRSV</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus sanguinis SK36]</Hit_def>
+  <Hit_accession>A3CQI2</Hit_accession>
+  <Hit_len>1462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.43952e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>425</Hsp_hit-from>
+      <Hsp_hit-to>585</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAVYND-LIQVAASKMHKGNII-AEFDEFINPGHPLSAFTTDLTGITDEHV--RNAKPLEQVLKEFQEFCQDSVLVAHNATFDVGFMNVNYERHGLPKIIQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQIALEHH--HMANYDAEATGRLLFIFIK</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    +       +++P   +      + G+T + +  +NA P  +V ++  +F + + L+ HNA FDVGF+N+ + R GLP + +    V DTL  AR ++P  K   L  L  RF +       H A  D E  G +     +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|13959349|sp|Q9PQB4.1|DPO3_UREPA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Ureaplasma parvum serovar 3 str. ATCC 700970]</Hit_def>
+  <Hit_accession>Q9PQB4</Hit_accession>
+  <Hit_len>1442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.48728e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>410</Hsp_hit-from>
+      <Hsp_hit-to>590</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNA-KFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETEEEEPTAK</Hsp_qseq>
+      <Hsp_hseq>VIFDIETTGLFPNF-DEIIEFGAVIMQNNKQIGEKIQFFIKPIQQINENVTNLTNISQEMV--NNAIDEKTALLKIKEIFDDHILVAHNGINFDINFINQRLLKWGL---EPLKNPSIDTLMISRAINPFKSHRLGAICKKYEVDYNDESAHRADYDAIVLADVFKVMKNNLFNDFGITNLSEINTK</Hsp_hseq>
+      <Hsp_midline>+I D ETTGL+ +  D ++EF  + M N +   + +  ++ P + + E    +  ++ +++   NA        +I +      L+ HN   FD+ F+N    + GL   E L     DTL ++R + P +   L A+C ++ VD +    H A  D  +L +V+  M    F+  G T   E   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|21263563|sp|Q97SQ2.1|DPO3_STRPN</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pneumoniae TIGR4]</Hit_def>
+  <Hit_accession>Q97SQ2</Hit_accession>
+  <Hit_len>1463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.8391e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>596</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETE</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAIYND-LIQVAASKMYKGNVIAE-FDEFINPGHPLSAFTTELTGITDDHV--KNAKPLEQVLQEFQEFCKDTVLVAHNATFDVGFMNANYERHDLPKISQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFGVALEHH--HMANYDAEATGRLLFIFIKEVAEKHGVTD</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    +  +    +++P   +      + G+T   +  KNA P  +V ++  +F +   L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +     +   +  G T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|32469721|sp|Q8DRA5.1|DPO3_STRR6</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pneumoniae R6] &gt;gi|122279342|sp|Q04MH6.1|DPO3_STRP2 RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pneumoniae D39]</Hit_def>
+  <Hit_accession>Q8DRA5</Hit_accession>
+  <Hit_len>1463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>2.91534e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>596</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDLMGETE</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAIYND-LIQVAASKMYKGNVIAE-FDEFINPGHPLSAFTTELTGITDDHV--KNAKPLEQVLQEFQEFCKDTVLVAHNATFDVGFMNANYERHDLPKISQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFGVALEHH--HMANYDAEATGRLLFIFIKEVAEKHGVTD</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    +  +    +++P   +      + G+T   +  KNA P  +V ++  +F +   L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +     +   +  G T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|54036993|sp|P63984.1|DPO3_STRA5</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus agalactiae 2603V/R] &gt;gi|54040954|sp|P63983.1|DPO3_STRA3 RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus agalactiae NEM316]</Hit_def>
+  <Hit_accession>P63984</Hit_accession>
+  <Hit_len>1468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>3.18658e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>431</Hsp_hit-from>
+      <Hsp_hit-to>599</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGE---VYLAMTRRQFDL</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSAANND-LIQIAASKMFKGNIIEQ-FDEFIDPGHPLSAFTTELTGITDNHV--RGSKPILQVLQEFQNFCQGTVLVAHNATFDVGFMNANYERHNLPLITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVALEHH--HMANYDAEATGRLLFIFLKEARENRDV</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T   +  + + P  +V ++  +F +G  L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G    ++L   R   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|76363558|sp|P0C0B7.1|DPO3_STRPY</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Streptococcus pyogenes]</Hit_def>
+  <Hit_accession>P0C0B7</Hit_accession>
+  <Hit_len>1465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>5.13676e-12</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>431</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>DTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQK-ASLDALCNRFSVDRSKRVLHGALIDCELLGEV</Hsp_qseq>
+      <Hsp_hseq>DVETTGLSAMNND-LIQIAASKMFKGNIVEQ-FDEFIDPGHPLSAFTTELTGITDKHLQ--GAKPLVTVLKAFQDFCKDSILVAHNASFDVGFMNANYERHDLPKITQ---PVIDTLEFARNLYPEYKRHGLGPLTKRFQVSLDHH--HMANYDAEATGRL</Hsp_hseq>
+      <Hsp_midline>D ETTGL A   D L++ A  +M    + ++    ++ P   +      + G+T + L+   A P   V +   DF + + L+ HNA FDVGF+N  + R  LP + +    V DTL  AR ++P  K   L  L  RF V       H A  D E  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|166217457|sp|A5IJJ8.1|DPO3_THEP1</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Thermotoga petrophila RKU-1]</Hit_def>
+  <Hit_accession>A5IJJ8</Hit_accession>
+  <Hit_len>1367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>8.26938e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRV-GLPTVEELGCTVTDTLAMAREMFPGQKASLDALCNRFSVDRSKRVLHGALIDCELLGEVYL</Hsp_qseq>
+      <Hsp_hseq>VVLDFETTGLDPQV-DEIIEIGAVKIQDGQIVDE-YHTLIKPSREISRRSSEITGITQEMLENKRS--IEEVLPEFLGFLENSIIVAHNANFDYRFLRLWIKKVMGL----DWERPYIDTLALAKSLLKMRSYSLDSVVEKLGLGPFRH--HRALDDARVTAQVFL</Hsp_hseq>
+      <Hsp_midline>++LD ETTGL     D ++E   +++ + Q+ D+  H  + P R++   ++ + G+T ++LE K +    EV  +   FL  + ++ HNA FD  FL +  ++V GL    +      DTLA+A+ +   +  SLD++  +  +   +   H AL D  +  +V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|122449173|sp|Q1WUF9.1|DPO3_LACS1</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Lactobacillus salivarius UCC118]</Hit_def>
+  <Hit_accession>Q1WUF9</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>1.39908e-11</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKA-SLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTR</Hsp_qseq>
+      <Hsp_hseq>VIFDTETTGLSAQY-DKVIELAAVKMEKGNVID-TFEEFIDPGHPLSQTTINLTSITDDMV--RGSKSEEEVFRLFKEFCKDCIIVGHNATFDVDFMNTGYERHNMEMIQEPWI---DTLPLARYLYPEMKGFRLNTLAKKLNIKLEHH--HRAIYDAEATGFIYYAMLK</Hsp_hseq>
+      <Hsp_midline>+I DTETTGL A   D+++E A ++M    + D     ++ P   + +    +  +T  ++  + +    EV R   +F +   ++ HNA FDV F+N  + R  +  ++E      DTL +AR ++P  K   L+ L  + ++       H A+ D E  G +Y AM +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|122265885|sp|Q03FS8.1|DPO3_PEDPA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Pediococcus pentosaceus ATCC 25745]</Hit_def>
+  <Hit_accession>Q03FS8</Hit_accession>
+  <Hit_len>1437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>2.73317e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>419</Hsp_hit-from>
+      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>RQIILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKA-SLDALCNRFSVDRSKRVLHGALIDCELLGEV</Hsp_qseq>
+      <Hsp_hseq>KYVIFDVETTGLSAIY-DKVIELSAVKMENGNVIDQ-FEEFIDPGFPLSETTINLTSITDEMV--RGSMSEKEVFTKFREFYEDAIIVGHNVTFDIGFMNTGYLRHGM---EEIKNPIIDTLTLARFLYPTLKGYRLNTLAKKFGVALEHH--HRAIYDSETTGHL</Hsp_hseq>
+      <Hsp_midline>+ +I D ETTGL A   D+++E + ++M N  + D+    ++ P   + E    +  +T +++  + +    EV  +  +F   A ++ HN  FD+GF+N  + R G+   EE+   + DTL +AR ++P  K   L+ L  +F V       H A+ D E  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|122269369|sp|Q03QS9.1|DPO3_LACBA</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Lactobacillus brevis ATCC 367]</Hit_def>
+  <Hit_accession>Q03QS9</Hit_accession>
+  <Hit_len>1445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>3.21458e-11</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGLPTVEELGCTVTDTLAMAREMFPGQKA-SLDALCNRFSVDRSKRVLHGALIDCELLGEV</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGLSA-IYDKVIELSAVKMEHQNVVDQ-FEEFIDPGFPLSEQTTNLTSITDDMVAGSKSE--EEVFKLFREFCGDAIIVGHNVTFDVGFMNTGYQRHGM---AEISNPIIDTLTLARFLYPTLKSYRLNTLAKRFHVSLEHH--HRAVYDAESTGHL</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL A   D+++E + ++M ++ + D+    ++ P   + E+   +  +T  ++    +    EV +   +F   A ++ HN  FDVGF+N  ++R G+    E+   + DTL +AR ++P  K+  L+ L  RF V       H A+ D E  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|32469713|sp|Q8CPG6.1|DPO3_STAES</Hit_id>
+  <Hit_def>RecName: Full=DNA polymerase III PolC-type; Short=PolIII [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CPG6</Hit_accession>
+  <Hit_len>1442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.8201e-11</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>592</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>IILDTETTGLYADGGDRLVEFAGLEMVNRQMTDKNLHLYVHPERDMPEEAARVHGLTIQVLEEKNAPPFAEVGRQIADFLRGAELIIHNAKFDVGFLNMEFRRVGL-PTVEELGCTVTDTLAMAREMFPGQ-KASLDALCNRFSVDRSKRVLHGALIDCELLGEVYLAMTRRQFDL</Hsp_qseq>
+      <Hsp_hseq>VVFDVETTGL-SNQYDKIIELAAVKVHNGEIIDK-FERFSNPHERLSETIINLTHITDDML--TDAPEIEEVLTEFKEWVGDAIFVAHNASFDMGFIDTGYERLGFGPSTN----GVIDTLELSRTINTEYGKHGLNFLAKKYGVELTQH--HRAIYDTEATAYIFIKMVQQMKEL</Hsp_hseq>
+      <Hsp_midline>++ D ETTGL ++  D+++E A +++ N ++ DK    + +P   + E    +  +T  +L   +AP   EV  +  +++  A  + HNA FD+GF++  + R+G  P+       V DTL ++R +     K  L+ L  ++ V+ ++   H A+ D E    +++ M ++  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

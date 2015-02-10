@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>15771</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F810</BlastOutput_query-def>
+  <BlastOutput_query-len>169</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>15771</Iteration_query-ID>
+  <Iteration_query-def>Q5F810</Iteration_query-def>
+  <Iteration_query-len>169</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1175199|sp|P43971.1|Y243_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_0243 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P43971</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>1.15562e-53</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>QSVTFAEPIEMLYACHGKVRRFCGQIAMLSGYIAENGCNQLVLQTIRQISRYFNVAAPLHHEDEEENFFPLLLQYAPQAREGVDELLRQHIGLYDNWAAVSAEFAKLEADNAYIPDAEAFKRFVEGYDVHLAIEEPLFDMGKTFIPEEKLTEIGKIMAARR</Hsp_qseq>
+      <Hsp_hseq>QFATWNEPIEMLYACHSKVKRFCRQLSILPDYLEKHGYTQAVLNDVEQILSYFNRAAPLHHDDEELDFFPQLVKVAPQTQTSIDELEKQHEYLHENWNALSVQLEELISEQRQDIDKHLIERFIQGYDRHIALEEPLFEMGRECLSADILTEMGKHMSARR</Hsp_hseq>
+      <Hsp_midline>Q  T+ EPIEMLYACH KV+RFC Q+++L  Y+ ++G  Q VL  + QI  YFN AAPLHH+DEE +FFP L++ APQ +  +DEL +QH  L++NW A+S +  +L ++     D    +RF++GYD H+A+EEPLF+MG+  +  + LTE+GK M+ARR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|54037804|sp|P65420.1|MQO_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Probable malate:quinone oxidoreductase; AltName: Full=MQO; AltName: Full=Malate dehydrogenase [Mycobacterium bovis AF2122/97] &gt;gi|166218990|sp|A1KMJ5.1|MQO_MYCBP RecName: Full=Probable malate:quinone oxidoreductase; AltName: Full=MQO; AltName: Full=Malate dehydrogenase [Mycobacterium bovis BCG str. Pasteur 1173P2] &gt;gi|166218991|sp|A5U6K4.1|MQO_MYCTA RecName: Full=Probable malate:quinone oxidoreductase; AltName: Full=MQO; AltName: Full=Malate dehydrogenase [Mycobacterium tuberculosis H37Ra] &gt;gi|254813205|sp|C1AFW6.1|MQO_MYCBT RecName: Full=Probable malate:quinone oxidoreductase; AltName: Full=MQO; AltName: Full=Malate dehydrogenase [Mycobacterium bovis BCG str. Tokyo 172] &gt;gi|614094411|sp|P9WJP4.1|MQO_MYCTO RecName: Full=Probable malate:quinone oxidoreductase; AltName: Full=MQO; AltName: Full=Malate dehydrogenase [Mycobacterium tuberculosis CDC1551] &gt;gi|614094414|sp|P9WJP5.1|MQO_MYCTU RecName: Full=Probable malate:quinone oxidoreductase; AltName: Full=MQO; AltName: Full=Malate dehydrogenase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P65420</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.280299</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PFETQSVTFAEPIEMLYACHGKVRRFCGQIAMLSGYIAENGCNQLVLQTIRQISR</Hsp_qseq>
+      <Hsp_hseq>PFMAAKRAFSEPVALNWAADGTDVDFGALAKQLIGYCVQNGTTALFGHEVRNLSR</Hsp_hseq>
+      <Hsp_midline>PF      F+EP+ + +A  G    F      L GY  +NG   L    +R +SR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|5915798|sp|O75936.1|BODG_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Gamma-butyrobetaine dioxygenase; AltName: Full=Gamma-butyrobetaine hydroxylase; Short=Gamma-BBH; AltName: Full=Gamma-butyrobetaine,2-oxoglutarate dioxygenase [Homo sapiens]</Hit_def>
+  <Hit_accession>O75936</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.33436</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>NAYIPDAEAFKRFVEGYDVHLAIEEPLFDMGKTFI--PEEKLTEIGKIMAARRC</Hsp_qseq>
+      <Hsp_hseq>DCYLDSAKARKLLVEALDVNIGIKGLIFDRKKVYITWPDEHYSEFQADWLKKRC</Hsp_hseq>
+      <Hsp_midline>+ Y+  A+A K  VE  DV++ I+  +FD  K +I  P+E  +E       +RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|75041100|sp|Q5R5D8.1|BODG_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Gamma-butyrobetaine dioxygenase; AltName: Full=Gamma-butyrobetaine hydroxylase; Short=Gamma-BBH; AltName: Full=Gamma-butyrobetaine,2-oxoglutarate dioxygenase [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R5D8</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.81897</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>NAYIPDAEAFKRFVEGYDVHLAIEEPLFDMGKTFI--PEEKLTEIGKIMAARRC</Hsp_qseq>
+      <Hsp_hseq>DCYLDSAKARKLLAEALDVNIGIKGLTFDRKKVYITWPDEHYSEFQADWLKKRC</Hsp_hseq>
+      <Hsp_midline>+ Y+  A+A K   E  DV++ I+   FD  K +I  P+E  +E       +RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|82188670|sp|Q7ZVM9.1|RMI1_DANRE</Hit_id>
+  <Hit_def>RecName: Full=RecQ-mediated genome instability protein 1 [Danio rerio]</Hit_def>
+  <Hit_accession>Q7ZVM9</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.88733</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>HIGLYDNWAAVSAEFAKLEADNAYIPDAEAFKRFVEGYDVHLAIEEPLFDMGKTFIPEEKLTEIGKIMAARRC</Hsp_qseq>
+      <Hsp_hseq>HIQVPPAWLDACVNWIKEEADRASIPQSQLNQRVLEQW-----LLTDLRDLAHPVLP-ERISEAQKTVLSNRC</Hsp_hseq>
+      <Hsp_midline>HI +   W      + K EAD A IP ++  +R +E +     +   L D+    +P E+++E  K + + RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|21541970|sp|Q924Y0.1|BODG_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Gamma-butyrobetaine dioxygenase; AltName: Full=Gamma-butyrobetaine hydroxylase; Short=Gamma-BBH; AltName: Full=Gamma-butyrobetaine,2-oxoglutarate dioxygenase [Mus musculus]</Hit_def>
+  <Hit_accession>Q924Y0</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.91404</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>EADNAYIPDAEAFKRFVEGYDVHLAIEEPLFDMGKTFI--PEEKLTEIGKIMAARRC</Hsp_qseq>
+      <Hsp_hseq>QCSDCYLHSAKARKLLLEALDVNIRIDDLTFDRKKVYITWPNDHYSEFEANWLKKRC</Hsp_hseq>
+      <Hsp_midline>+  + Y+  A+A K  +E  DV++ I++  FD  K +I  P +  +E       +RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|226701000|sp|B2HJU4.1|MQO_MYCMM</Hit_id>
+  <Hit_def>RecName: Full=Probable malate:quinone oxidoreductase; AltName: Full=MQO; AltName: Full=Malate dehydrogenase [Mycobacterium marinum M]</Hit_def>
+  <Hit_accession>B2HJU4</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.54158</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PFETQSVTFAEPIEMLYACHGKVRRFCGQIAMLSGYIAENGCNQLVLQTIRQISR</Hsp_qseq>
+      <Hsp_hseq>PLMAAKRVFSEPIALNWAADGTDVDFGALSRQLIGYCVRNGAVALFGQEVRNLVR</Hsp_hseq>
+      <Hsp_midline>P       F+EPI + +A  G    F      L GY   NG   L  Q +R + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

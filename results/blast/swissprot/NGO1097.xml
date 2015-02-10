@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>32815</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7S3</BlastOutput_query-def>
+  <BlastOutput_query-len>750</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>32815</Iteration_query-ID>
+  <Iteration_query-def>Q5F7S3</Iteration_query-def>
+  <Iteration_query-len>750</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|9910971|sp|Q9T1S9.1|VP19_BPAPS</Hit_id>
+  <Hit_def>RecName: Full=Putative portal protein p19 [Endosymbiont phage APSE-1]</Hit_def>
+  <Hit_accession>Q9T1S9</Hit_accession>
+  <Hit_len>720</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>0.000101309</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>681</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>669</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>627</Hsp_align-len>
+      <Hsp_qseq>RVTADGETGGRDVADALNFKLN---RAE-RQSRADKACSDAFRGQIACGIGWVEVTRN-PNPFEFPYECGVIHRNAIH-------WDMKSYKYDLSDARWLIRRRWLLPERLAQFFPEYAGHFKAMGRGGSDWRISGEMLDGGGNTGLADAWGISGRNTVSEEFWFNETTRELAVAEVWYRRWVTADCLRDKKTGRTVEFDGANPN--HREMAANGAVLFAASVPRMRRAFV--VGDLVVRDEPTPYPHQKFPYVPFFGFR--EDNTGIPYGYVRNMKYAQDNLNSTNSKLRWGLS----AIRTVRTKGIVDMSDEQFRRNIARVDADIVLNKIEAAQ-----PGARFDVSRDFELSAQHWQMLQDSRATIRQISGITPSFMGNRGNATSGRQESIQVEQSNQSLGLVMDNFRQSRSLVGELLLAMIIEDLGSDEQTVVIEGDAV--TQGRTVVINRPETDPVTGKAYLSNDLQNIRLKVALEDVPSTNSYRSQQLGAMSEAVKSLPPE------YQAAVLPFMVSLMDIPFKD---KVIEKIKEVRVQETPEQIEARIAQAVQDALAKSGNDIKRRELALKEQRTASEIKEIEARAVQIGVQAAYAAMQAGGQIAAMPQIAPVADA</Hsp_qseq>
+      <Hsp_hseq>RITVKFRPGDKTASEALANKLNGLFRADYEETDGGEACDNAFDDGSTGGFGCFRLTTNLVNALDPMDERQRICLEPIYDPARSVWFDPDAKKYDKSDAEWAFCMYSLSAEK---YKAEYNKDPATL------------------MSGIERSWDYD---------WYDVDVVYIAKYYEVKKESVDVVSFQNPLTSETVTYDSDQLELVEDELADIGFIEAARRTIKRRRVYVSVVDGEGFLEKAQRIPGEHIPLIPVYGKRWFIDDIERVEGHIAKAMDAQRLYNLQVSMLADSATQDTGSIPIVGKSQIKTLEKYWANRNKNR-PAFLPLNEIVDKQGNIIAPPTPVGYTQPQPLNQAMAALLQQTGADIQEVTGSSQAMQPMPSNIAKETVNHL-MHRSDMSSFIYLDNMAKSLKRAGEVWLSMAREVYGSDRQVRIVNADGTDDIALMSVVIN----DNQTGQVVAMNDLSSGRYDVTVDVGPSYTARRDATVSVLTNLLAGMLPQDPMRQVLQGIILDNMEGEGLDEFKEYNRKQLLTQGVVKPRNTEE--EQMVAQMIQQAQQPNAELVAAQGVLMQGQ---AEVQKAKNEELAIQVKAFQAQTEARVAEAKMVQILASADS</Hsp_hseq>
+      <Hsp_midline>R+T     G +  ++AL  KLN   RA+  ++   +AC +AF      G G   +T N  N  +   E   I    I+       +D  + KYD SDA W      L  E+   +  EY      +                   +G+  +W            W++     +A      +  V     ++  T  TV +D         E+A  G +  A    + RR +V  V      ++    P +  P +P +G R   D+     G++     AQ   N   S L    +    +I  V    I  +      RN  R  A + LN+I   Q     P      ++   L+     +LQ + A I++++G + +      N        + + +S+ S  + +DN  +S    GE+ L+M  E  GSD Q  ++  D        +VVIN    D  TG+    NDL + R  V ++  PS  + R   +  ++  +  + P+       Q  +L  M       FK+   K +     V+ + T E  E  +AQ +Q A   +   +  + + ++ Q   +E+++ +   + I V+A  A  +A    A M QI   AD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|426021105|sp|I7HHN4.1|PORTL_BPKHP</Hit_id>
+  <Hit_def>RecName: Full=Putative portal protein ORF17 [Helicobacter phage KHP30]</Hit_def>
+  <Hit_accession>I7HHN4</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.155647</Hsp_evalue>
+      <Hsp_query-from>315</Hsp_query-from>
+      <Hsp_query-to>661</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>544</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>VVRDEPTPYPHQKFPYVPFFGFREDNTGIPYGYVRNMKYAQDNLNSTNSKLRWGLSAIRTV-RTKGIVDMSDEQFRRNIARVDADIVLNKIEAAQPGARFDVSRDF-----ELSAQHWQMLQDSRATIRQISGITPSFMGNRGNATSGRQESIQVEQSNQSLGLVMDNFRQSRS----LVGELLLAMIIEDLGSDEQTVVIEGDAVTQGRTVVINRPETDPVTGKAYLSNDLQNIRLKVALEDVPSTNSYRSQQLGAMSEAVKSLPP---EYQAAVLPFMVSLMDIPFKDKVIEKIKEVRVQETPEQIEARIAQAVQDALAKSGNDIKRRELALKEQRTASEIKEIEARAVQIGVQAAYA</Hsp_qseq>
+      <Hsp_hseq>IYKSEKKPFKNGACPFI-VSKLYTDELNNYYGLFRDIKPMQDFINYAENRMGNMMGSFKAMFEEDAVVDVAE--------FVETMSLDNAIAKVRPNALKDHKIQFMNNQADLSALS-QKAEQKRQLLRLLAGLNDESLGMAVN----RQSGVAIAQRKESGLMGLQTFLKATDDMDRLIFRLAVSFICEYFTKEQVFKIV--DKKLGDRYFKINSND----------DNKIRPLKFDLILKSQLKTES-RDEKWYNWNELLKILAPIRPDLVPSLVPLMLNDMDSPITNDVLEAIQN--------------ANALQQQNAEANAPYNQQIQALQIQKLQAEIMELQAKAHKYAEQGALS</Hsp_hseq>
+      <Hsp_midline>+ + E  P+ +   P++       D     YG  R++K  QD +N   +++   + + + +     +VD+++         V+   + N I   +P A  D    F     +LSA   Q  +  R  +R ++G+    +G   N    RQ  + + Q  +S  + +  F ++      L+  L ++ I E    ++   ++  D     R   IN  +           N ++ ++  + L+    T S R ++    +E +K L P   +   +++P M++ MD P  + V+E I+               A A+Q   A++     ++  AL+ Q+  +EI E++A+A +   Q A +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.73993</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>YADGRQLDNELLQKQRELGLPPAVENLITPTLLSVQGYEATIRTDWRVTADGETGGRDVADALNFKLNRAERQSRADKACSDAFRGQIACGIG----WVEVTRNPN</Hsp_qseq>
+      <Hsp_hseq>YYNGNQLPQDVLNIILERGQTPIIENMFKVIVNKILGYKIESISEIRLSPKQEE-DRALSDLLNSLLQVFIQQENYDKSMIERDKNLLIGGLGVIQLWVSQDKDKN</Hsp_hseq>
+      <Hsp_midline>Y +G QL  ++L    E G  P +EN+    +  + GY+    ++ R++   E   R ++D LN  L    +Q   DK+  +  +  +  G+G    WV   ++ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|3024942|sp|Q58362.1|PFDA1_METJA</Hit_id>
+  <Hit_def>RecName: Full=Prefoldin subunit alpha 1; AltName: Full=GimC subunit alpha 1 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58362</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.96223</Hsp_evalue>
+      <Hsp_query-from>457</Hsp_query-from>
+      <Hsp_query-to>577</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RQESIQVEQSNQSLGLVMDNFRQSRSLVGELLLAM-IIEDLGSDEQTVVIEGDAVTQGRTVVINRPETDPVTGKAYLSNDLQNI--RLKVALEDVPSTNSYRSQQLGAMSEAVKSLPPEYQAAV</Hsp_qseq>
+      <Hsp_hseq>RQKAMALEIYNQQLQMIQSEITSIRALKSEIMNSIKTIENIKADEETLIPVGPGVFLKAKIVDDKALIG-VKSDIYVEKSFNEVIEDLKKSVEDLDKAEKEGMKKAEELAKAITALRKELQTEI</Hsp_hseq>
+      <Hsp_midline>RQ+++ +E  NQ L ++       R+L  E++ ++  IE++ +DE+T++  G  V     +V ++     V    Y+      +   LK ++ED+        ++   +++A+ +L  E Q  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|90110251|sp|Q3SW76.1|DNAK_NITWN</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaK; AltName: Full=HSP70; AltName: Full=Heat shock 70 kDa protein; AltName: Full=Heat shock protein 70 [Nitrobacter winogradskyi Nb-255]</Hit_def>
+  <Hit_accession>Q3SW76</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.96417</Hsp_evalue>
+      <Hsp_query-from>584</Hsp_query-from>
+      <Hsp_query-to>684</Hsp_query-to>
+      <Hsp_hit-from>478</Hsp_hit-from>
+      <Hsp_hit-to>592</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>LMDIPFKDKVIEKIKEVRVQETPEQIEARIAQAVQDALAKSGNDIKRREL----------------ALKEQRTASEIKEIEARAVQIGVQAAYAAMQAGGQIAAMPQIAPVADAVMQ</Hsp_qseq>
+      <Hsp_hseq>IVNVSAKDKATGKEQQIRIQASGGLSEADIEKMVKDAEANAAEDKKRREAVDAKNQADSLVHSTEKALTEH--GSKIEESERRAIEDAVSDLKEALKGDDAEAIKAKTNTLAQASMK</Hsp_hseq>
+      <Hsp_midline>++++  KDK   K +++R+Q +    EA I + V+DA A +  D KRRE                 AL E    S+I+E E RA++  V     A++     A   +   +A A M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|254789005|sp|B8CY75.1|TIG_HALOH</Hit_id>
+  <Hit_def>RecName: Full=Trigger factor; Short=TF; AltName: Full=PPIase [Halothermothrix orenii H 168]</Hit_def>
+  <Hit_accession>B8CY75</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>4.24642</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>639</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>QQLGAMSEAVKSLPPEYQAAVLPFMVSLMDIPFKDKVIE-KIKEVRVQETPEQIEARIAQAVQ-DALAKSGNDIKRRELALKEQR</Hsp_qseq>
+      <Hsp_hseq>KKVGEETEVEVTFPEDYQAE---------DLAGKDAVFKVDIKEIKVKETPELDDEFAKEASEFDTLEELKDDIKERLTSQKEDR</Hsp_hseq>
+      <Hsp_midline>+++G  +E   + P +YQA          D+  KD V +  IKE++V+ETPE  +    +A + D L +  +DIK R  + KE R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|75036802|sp|Q4QJJ7.1|MVP_LEIMA</Hit_id>
+  <Hit_def>RecName: Full=Major vault protein [Leishmania major]</Hit_def>
+  <Hit_accession>Q4QJJ7</Hit_accession>
+  <Hit_len>833</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>4.83456</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>671</Hsp_query-to>
+      <Hsp_hit-from>612</Hsp_hit-from>
+      <Hsp_hit-to>703</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>FMVSLMDIPFKDKVIEKIKEVRVQETPEQIEARIAQAVQDALAKSGNDIKRRELA--LKEQRTASEIKEIEARAVQIGVQAAYAAMQAGGQIAA</Hsp_qseq>
+      <Hsp_hseq>FVVTNIDVQSSEPTDEKTRD-SLQKSV-QLAIEITTKSQEAAARHGNELKDQEAKGQLERQKLLDKIEVENARTKWLELQAKSEAVQASGQSVA</Hsp_hseq>
+      <Hsp_midline>F+V+ +D+   +   EK ++  +Q++  Q+   I    Q+A A+ GN++K +E    L+ Q+   +I+   AR   + +QA   A+QA GQ  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|21542480|sp|P34675.2|YO25_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein ZK688.5 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>P34675</Hit_accession>
+  <Hit_len>1620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>4.95377</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>607</Hsp_query-to>
+      <Hsp_hit-from>329</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>RSQQLGAMSEAVKSLPPEYQAAVLPFMVSLMDIPFKDKVIEKIKEVRVQETPE</Hsp_qseq>
+      <Hsp_hseq>RNQRVEALDEIVKHL--EYQWAELSHMKDFERIRFRKNQTEEYRALKIQEYPE</Hsp_hseq>
+      <Hsp_midline>R+Q++ A+ E VK L  EYQ A L  M     I F+    E+ + +++QE PE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|363805422|sp|A4HSC9.1|MVP_LEIIN</Hit_id>
+  <Hit_def>RecName: Full=Major vault protein [Leishmania infantum]</Hit_def>
+  <Hit_accession>A4HSC9</Hit_accession>
+  <Hit_len>833</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>5.00211</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>671</Hsp_query-to>
+      <Hsp_hit-from>612</Hsp_hit-from>
+      <Hsp_hit-to>703</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>FMVSLMDIPFKDKVIEKIKEVRVQETPEQIEARIAQAVQDALAKSGNDIKRRELA--LKEQRTASEIKEIEARAVQIGVQAAYAAMQAGGQIAA</Hsp_qseq>
+      <Hsp_hseq>FVVTNIDVQSSEPTDEKTRD-SLQKSV-QLAIEITTKSQEAAARHGNELKDQEAKGQLERQKLLDKIEVENARTKWLELQAKSEAVQASGQSVA</Hsp_hseq>
+      <Hsp_midline>F+V+ +D+   +   EK ++  +Q++  Q+   I    Q+A A+ GN++K +E    L+ Q+   +I+   AR   + +QA   A+QA GQ  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254778011|sp|B7KSZ4.1|DNAK_METC4</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaK; AltName: Full=HSP70; AltName: Full=Heat shock 70 kDa protein; AltName: Full=Heat shock protein 70 [Methylobacterium extorquens CM4]</Hit_def>
+  <Hit_accession>B7KSZ4</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>5.99349</Hsp_evalue>
+      <Hsp_query-from>584</Hsp_query-from>
+      <Hsp_query-to>661</Hsp_query-to>
+      <Hsp_hit-from>478</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LMDIPFKDKVIEKIKEVRVQETPEQIEARIAQAVQDALAKSGNDIKRRELALKEQRTASEIKEIEARAVQIGVQAAYA</Hsp_qseq>
+      <Hsp_hseq>IVNVTAKDKATNKEHQIRIQASGGLSDADIEKMVKDAEANAEADKKRRELVEVKNQGESLIHATEKSVAEYGDKVSAA</Hsp_hseq>
+      <Hsp_midline>++++  KDK   K  ++R+Q +    +A I + V+DA A +  D KRREL   + +  S I   E    + G + + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|90101860|sp|Q2QLF8.1|CTTB2_CALJA</Hit_id>
+  <Hit_def>RecName: Full=Cortactin-binding protein 2; Short=CortBP2 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>Q2QLF8</Hit_accession>
+  <Hit_len>1662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>6.23952</Hsp_evalue>
+      <Hsp_query-from>676</Hsp_query-from>
+      <Hsp_query-to>747</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>APVADA-----VMQGAGYIRP------ARGDDPGFPVPAMPPETQIPPEGIPEAYGADTGPMTAVPPKSANHAQTGMETPTVS</Hsp_qseq>
+      <Hsp_hseq>SPLASANAKGSVCSSAAMARPGIDRQASHGDLIGVSVPAFPPSSANRIEENGPSTGSTPDPTSSIPPLPSNAAPSTAQTPGIT</Hsp_hseq>
+      <Hsp_midline>+P+A A     V   A   RP      + GD  G  VPA PP +    E    + G+   P +++PP  +N A +  +TP ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|363805421|sp|A4H452.1|MVP_LEIBR</Hit_id>
+  <Hit_def>RecName: Full=Major vault protein [Leishmania braziliensis]</Hit_def>
+  <Hit_accession>A4H452</Hit_accession>
+  <Hit_len>833</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>6.73924</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>671</Hsp_query-to>
+      <Hsp_hit-from>612</Hsp_hit-from>
+      <Hsp_hit-to>703</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>FMVSLMDIPFKDKVIEKIKEVRVQETPEQIEARIAQAVQDALAKSGNDIKRRELA--LKEQRTASEIKEIEARAVQIGVQAAYAAMQAGGQIAA</Hsp_qseq>
+      <Hsp_hseq>FVVTNIDVQSAEPTDEKTRD-SLQKSV-QLAIEITTKSQEAAARHGNELKNQEAKGHLERQKLIDKIEVENARTKWLELQAKSEAVQASGQSIA</Hsp_hseq>
+      <Hsp_midline>F+V+ +D+   +   EK ++  +Q++  Q+   I    Q+A A+ GN++K +E    L+ Q+   +I+   AR   + +QA   A+QA GQ  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|226738147|sp|A9W6R7.1|DNAK_METEP</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaK; AltName: Full=HSP70; AltName: Full=Heat shock 70 kDa protein; AltName: Full=Heat shock protein 70 [Methylobacterium extorquens PA1]</Hit_def>
+  <Hit_accession>A9W6R7</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>8.58127</Hsp_evalue>
+      <Hsp_query-from>584</Hsp_query-from>
+      <Hsp_query-to>661</Hsp_query-to>
+      <Hsp_hit-from>478</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LMDIPFKDKVIEKIKEVRVQETPEQIEARIAQAVQDALAKSGNDIKRRELALKEQRTASEIKEIEARAVQIGVQAAYA</Hsp_qseq>
+      <Hsp_hseq>IVNVTAKDKATNKEHQIRIQASGGLSDADIEKMVKDAEANAEADKKRRELVEVKNQGESLIHATEKSVSEYGDKVSAA</Hsp_hseq>
+      <Hsp_midline>++++  KDK   K  ++R+Q +    +A I + V+DA A +  D KRREL   + +  S I   E    + G + + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|254778012|sp|B8IHL3.1|DNAK_METNO</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaK; AltName: Full=HSP70; AltName: Full=Heat shock 70 kDa protein; AltName: Full=Heat shock protein 70 [Methylobacterium nodulans ORS 2060]</Hit_def>
+  <Hit_accession>B8IHL3</Hit_accession>
+  <Hit_len>637</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>9.10422</Hsp_evalue>
+      <Hsp_query-from>584</Hsp_query-from>
+      <Hsp_query-to>661</Hsp_query-to>
+      <Hsp_hit-from>478</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LMDIPFKDKVIEKIKEVRVQETPEQIEARIAQAVQDALAKSGNDIKRRELALKEQRTASEIKEIEARAVQIGVQAAYA</Hsp_qseq>
+      <Hsp_hseq>IVNVTAKDKATGKEHQIRIQASGGLSETEIQRMVQEAEANAAEDKKRRELVEVKNQGESLIHATEKSVKEYGDKVSEA</Hsp_hseq>
+      <Hsp_midline>++++  KDK   K  ++R+Q +    E  I + VQ+A A +  D KRREL   + +  S I   E    + G + + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|226738149|sp|B1ZGR1.1|DNAK_METPB</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaK; AltName: Full=HSP70; AltName: Full=Heat shock 70 kDa protein; AltName: Full=Heat shock protein 70 [Methylobacterium populi BJ001]</Hit_def>
+  <Hit_accession>B1ZGR1</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>9.75476</Hsp_evalue>
+      <Hsp_query-from>584</Hsp_query-from>
+      <Hsp_query-to>661</Hsp_query-to>
+      <Hsp_hit-from>478</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LMDIPFKDKVIEKIKEVRVQETPEQIEARIAQAVQDALAKSGNDIKRRELALKEQRTASEIKEIEARAVQIGVQAAYA</Hsp_qseq>
+      <Hsp_hseq>IVNVTAKDKATNKEHQIRIQASGGLSDADIEKMVKDAEANAEADKKRRELVEVKNQGESLIHATEKSVSEYGDKVSAA</Hsp_hseq>
+      <Hsp_midline>++++  KDK   K  ++R+Q +    +A I + V+DA A +  D KRREL   + +  S I   E    + G + + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

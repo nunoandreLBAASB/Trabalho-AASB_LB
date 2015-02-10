@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>19841</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7T4</BlastOutput_query-def>
+  <BlastOutput_query-len>66</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>19841</Iteration_query-ID>
+  <Iteration_query-def>Q5F7T4</Iteration_query-def>
+  <Iteration_query-len>66</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81628631|sp|Q83BB6.1|RPOD_COXBU</Hit_id>
+  <Hit_def>RecName: Full=RNA polymerase sigma factor RpoD; AltName: Full=Sigma-70 [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83BB6</Hit_accession>
+  <Hit_len>698</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.82303</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>EMLKRYARVKNAVRRFGRHFPFTL</Hsp_qseq>
+      <Hsp_hseq>ELKKLYGRYQNAIKRYGKKAPATL</Hsp_hseq>
+      <Hsp_midline>E+ K Y R +NA++R+G+  P TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|60389815|sp|Q9FXT4.1|AGAL_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Alpha-galactosidase; AltName: Full=Alpha-D-galactoside galactohydrolase; AltName: Full=Melibiase; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q9FXT4</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.24966</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>DNADLKAFEFAGREPADY-------REMLKRYARVKNAVRRFGRHFPFTL</Hsp_qseq>
+      <Hsp_hseq>EEQDVKTFASWGVDYLKYDNCNDAGRSVMERYTRMSNAMKTYGKNIFFSL</Hsp_hseq>
+      <Hsp_midline>+  D+K F   G +   Y       R +++RY R+ NA++ +G++  F+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|38258937|sp|Q15771.2|RAB30_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Ras-related protein Rab-30; Flags: Precursor [Homo sapiens] &gt;gi|68652043|sp|Q923S9.1|RAB30_MOUSE RecName: Full=Ras-related protein Rab-30; Flags: Precursor [Mus musculus] &gt;gi|116255980|sp|Q17QB7.1|RAB30_BOVIN RecName: Full=Ras-related protein Rab-30; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q15771</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.5673</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>AEEFCRKQIAYWLNESRKASDNADLKAFEFAGREPADYRE</Hsp_qseq>
+      <Hsp_hseq>AEEFSEAQDMYYLETSAKESDNVEKLFLDLACRLISEARQ</Hsp_hseq>
+      <Hsp_midline>AEEF   Q  Y+L  S K SDN +    + A R  ++ R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|205778748|sp|A8AI49.1|GHRA_CITK8</Hit_id>
+  <Hit_def>RecName: Full=Glyoxylate/hydroxypyruvate reductase A; AltName: Full=2-ketoacid reductase [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8AI49</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.78783</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>41</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>AYWLNESRKASDNADLKAFEFAGREPADY</Hsp_qseq>
+      <Hsp_hseq>AWWLNALAKAIPGANIREWKPGDNEPADY</Hsp_hseq>
+      <Hsp_midline>A+WLN   KA   A+++ ++    EPADY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|34098518|sp|Q8CPT4.1|FABH1_STAES</Hit_id>
+  <Hit_def>RecName: Full=3-oxoacyl-[acyl-carrier-protein] synthase 3 protein 1; AltName: Full=3-oxoacyl-[acyl-carrier-protein] synthase III protein 1; AltName: Full=Beta-ketoacyl-ACP synthase III 1; Short=KAS III 1 [Staphylococcus epidermidis ATCC 12228] &gt;gi|81675083|sp|Q5HQI2.1|FABH_STAEQ RecName: Full=3-oxoacyl-[acyl-carrier-protein] synthase 3; AltName: Full=3-oxoacyl-[acyl-carrier-protein] synthase III; AltName: Full=Beta-ketoacyl-ACP synthase III; Short=KAS III [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q8CPT4</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.24528</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>YWLNESRKASD---NADLKAFEFAGREPAD</Hsp_qseq>
+      <Hsp_hseq>HWADEDQDTSDLAYNASIKAIEDAGIQPVD</Hsp_hseq>
+      <Hsp_midline>+W +E +  SD   NA +KA E AG +P D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|327478562|sp|Q6NW40.3|RGMB_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=RGM domain family member B; AltName: Full=DRG11-responsive axonal guidance and outgrowth of neurite; Short=DRAGON; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q6NW40</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.45976</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>NADLKAFEFAGREPADYREMLKRYARVKNAVRRFGRHFPFTL</Hsp_qseq>
+      <Hsp_hseq>DSDAKSLRIVERESGHYVEMHARYIGTTVFVRQVGRYLTLAI</Hsp_hseq>
+      <Hsp_midline>++D K+     RE   Y EM  RY      VR+ GR+    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|74855873|sp|Q54VG0.1|DHTK1_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Probable 2-oxoglutarate dehydrogenase E1 component DHKTD1 homolog, mitochondrial; AltName: Full=Oxoglutarate dehydrogenase A; Flags: Precursor [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54VG0</Hit_accession>
+  <Hit_len>900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.54489</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>787</Hsp_hit-from>
+      <Hsp_hit-to>836</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>FCRKQIAYWLNESRKASDNADLKAFEFAGREPADYREMLKRYARVKNAVR</Hsp_qseq>
+      <Hsp_hseq>FCSGKVFYDLQEERKAKNFNDVAIIRLEQIAPFPYQRIQEEINRYSNATK</Hsp_hseq>
+      <Hsp_midline>FC  ++ Y L E RKA +  D+         P  Y+ + +   R  NA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81862530|sp|Q5SVR0.1|TBC9B_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=TBC1 domain family member 9B [Mus musculus]</Hit_def>
+  <Hit_accession>Q5SVR0</Hit_accession>
+  <Hit_len>1263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.05558</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>975</Hsp_hit-from>
+      <Hsp_hit-to>1023</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>LNESRKASDNADL-KAFEFAGREPADYREMLKRYARVKNAVRRFGRHFP</Hsp_qseq>
+      <Hsp_hseq>LQEQQEGSGNEDTPERREEKGTSPPDYRHYLRMWAKEKEAQKETIKDLP</Hsp_hseq>
+      <Hsp_midline>L E ++ S N D  +  E  G  P DYR  L+ +A+ K A +   +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|51316335|sp|Q7TQ33.1|RGMB_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=RGM domain family member B; AltName: Full=DRG11-responsive axonal guidance and outgrowth of neurite; Short=DRAGON; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q7TQ33</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.18913</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>NADLKAFEFAGREPADYREMLKRYARVKNAVRRFGRHFPFTL</Hsp_qseq>
+      <Hsp_hseq>DGDVKSLHIVEKESGRYVEMHARYIGTTVFVRQLGRYLTLAI</Hsp_hseq>
+      <Hsp_midline>+ D+K+     +E   Y EM  RY      VR+ GR+    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|118573080|sp|Q0VBW8.1|NMS_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Neuromedin-S; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q0VBW8</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>8.96606</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>KQIAYWLNESRKASDNADLKAFEFAGREPADYREMLKRYARVKNAVRRFGRHFPFTLP</Hsp_qseq>
+      <Hsp_hseq>EQMAYWASLSRQPKDNQDI------------YKRFLFHYSRTQEPAHPVKTGFPPVHP</Hsp_hseq>
+      <Hsp_midline>+Q+AYW + SR+  DN D+            Y+  L  Y+R +         FP   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

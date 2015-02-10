@@ -1,0 +1,882 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>15769</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7W7</BlastOutput_query-def>
+  <BlastOutput_query-len>69</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>15769</Iteration_query-ID>
+  <Iteration_query-def>Q5F7W7</Iteration_query-def>
+  <Iteration_query-len>69</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|313104292|sp|P45418.4|Y2002_DICD3</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase K2 [Dickeya dadantii 3937]</Hit_def>
+  <Hit_accession>P45418</Hit_accession>
+  <Hit_len>67</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.30343e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRKEG</Hsp_qseq>
+      <Hsp_hseq>MPFVNIRIT--KDGVTAEQKKQLIAGVTQLLVDTLGKNPATTVVIIDEVETDNWGIGGESVTERRQQA</Hsp_hseq>
+      <Hsp_midline>MP+VNI++T  K+  TA QK +LI GV +LL   LGKNP TTVV+IDEV+TDNW IGG+SV+ERR++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|45593805|sp|O25581.3|Y924_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase HP_0924 [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25581</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>2.76883e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRKE</Hsp_qseq>
+      <Hsp_hseq>MPFINIKLVPENGGPTNEQKQQLIEGVSDLMVKVLNKNKASIVVIIDEVDSNNYGLGGESVHHLRQK</Hsp_hseq>
+      <Hsp_midline>MP++NIK+      PT  QK +LI GV +L+ +VL KN  + VV+IDEVD++N+ +GG+SV   R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|45593804|sp|Q9ZKS7.3|Y858_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase jhp_0858 [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZKS7</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>3.97456e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRKE</Hsp_qseq>
+      <Hsp_hseq>MPFINIKLVPENGGPTNEQKQQLIEGVSDLMVKVLNKNKASIVVIIDEVDSNNYGLGGESIHHLRQK</Hsp_hseq>
+      <Hsp_midline>MP++NIK+      PT  QK +LI GV +L+ +VL KN  + VV+IDEVD++N+ +GG+S+   R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|45593794|sp|Q9PIM5.3|Y270_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase Cj0270 [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q9PIM5</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>1.04814e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDI--GGKSV</Hsp_qseq>
+      <Hsp_hseq>MPLVNIKL--AKPSLSKEQKAELIADITELLSTKYNKSKERVVVVLE--DVENYDIGFGGESV</Hsp_hseq>
+      <Hsp_midline>MP VNIK+   K + +  QKAELI  + ELL+    K+ E  VVV++  D +N+DI  GG+SV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|41019495|sp|P70994.3|4OT_BACSU</Hit_id>
+  <Hit_def>RecName: Full=2-hydroxymuconate tautomerase; AltName: Full=(2Z,4E)-2-hydroxyhexa-2,4-dienedioate keto-enol isomerase; AltName: Full=4-oxalocrotonate tautomerase; Short=4-OT [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P70994</Hit_accession>
+  <Hit_len>62</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>3.47092e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSE</Hsp_qseq>
+      <Hsp_hseq>MPYVTVKMLEGR---TDEQKRNLVEKVTEAVKETTGASEEKIVVFIEEMRKDHYAVAGKRLSD</Hsp_hseq>
+      <Hsp_midline>MPYV +K+  G+   T  QK  L+  V E +    G + E  VV I+E+  D++ + GK +S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|45593793|sp|Q9K6B5.3|Y3814_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase BH3814 [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K6B5</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>5.95853e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSER</Hsp_qseq>
+      <Hsp_hseq>MPIVTVKFLEGR---SDEQKRALVERVTEAVAETIQANPEKIHVVLEEMRKDHYGVAGKRISDQ</Hsp_hseq>
+      <Hsp_midline>MP V +K   G+   +  QK  L+  V E +A  +  NPE   VV++E+  D++ + GK +S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|45593855|sp|Q814P5.3|Y5378_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase BC_5378 [Bacillus cereus ATCC 14579] &gt;gi|45593856|sp|Q81JS3.3|Y5626_BACAN RecName: Full=Probable tautomerase BA_5626/GBAA_5626/BAS5226 [Bacillus anthracis]</Hit_def>
+  <Hit_accession>Q814P5</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.000317689</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSER</Hsp_qseq>
+      <Hsp_hseq>MPYVTVKMLEGR---TEEQKKALAEKVTAAVSETTGAPEENIVVFIEEMSKNHYAVGGKRLSDK</Hsp_hseq>
+      <Hsp_midline>MPYV +K+  G+   T  QK  L   V   ++   G   E  VV I+E+  +++ +GGK +S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|45593803|sp|Q8Y183.3|Y807_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase RSc0807 [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y183</Hit_accession>
+  <Hit_len>62</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.00348595</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERR</Hsp_qseq>
+      <Hsp_hseq>MPTFHIEMFEGR---SADQKRKLVEEVTRVTCETLGCAPGAVDIIIAEVKRENWATGGVLWSEQK</Hsp_hseq>
+      <Hsp_midline>MP  +I++  G+   +A QK +L+  V  +    LG  P    ++I EV  +NW  GG   SE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|45593806|sp|Q8CPB7.3|Y1045_STAES</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase SE_1045 [Staphylococcus epidermidis ATCC 12228] &gt;gi|73921175|sp|Q5HPH8.3|Y934_STAEQ RecName: Full=Probable tautomerase SERP0934 [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q8CPB7</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.00793344</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGG</Hsp_qseq>
+      <Hsp_hseq>MPIINVKLLEGR---SDEQLKDLVTEVTHAVEKTTGANKEAIHVVIEEMRKDHYAVGG</Hsp_hseq>
+      <Hsp_midline>MP +N+K+  G+   +  Q  +L+  V   + +  G N E   VVI+E+  D++ +GG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|45593802|sp|Q8XRG1.3|Y4393_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase RSp0893 [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8XRG1</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.0123284</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRKEGR</Hsp_qseq>
+      <Hsp_hseq>MPLIQVTLIEGR---TMEAKAALIGSLTQAAVATLGAPRESVRVIIQEVPAAHWGVAGVPKSAAKEPPR</Hsp_hseq>
+      <Hsp_midline>MP + + +  G+   T   KA LIG + +     LG   E+  V+I EV   +W + G   S  ++  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|45593121|sp|Q93JW0.3|4OT4_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=2-hydroxymuconate tautomerase; AltName: Full=4-oxalocrotonate tautomerase; Short=4-OT [Pseudomonas putida]</Hit_def>
+  <Hit_accession>Q93JW0</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.0293375</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSE</Hsp_qseq>
+      <Hsp_hseq>MPFAQIYMIEGR---TEAQKKAVIEKVSQALVEATGAPMANVRVWIQEVPKENWGIAGVSAKE</Hsp_hseq>
+      <Hsp_midline>MP+  I +  G+   T AQK  +I  V + L    G       V I EV  +NW I G S  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|45593117|sp|Q8KRR5.3|4OT_PSEFL</Hit_id>
+  <Hit_def>RecName: Full=2-hydroxymuconate tautomerase; AltName: Full=4-oxalocrotonate tautomerase; Short=4-OT [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>Q8KRR5</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>0.429442</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSE</Hsp_qseq>
+      <Hsp_hseq>MPIAQLYILDGR---SNEQKETLIREVSEAMSRSLDAPIERVRVIITEMPKNHFGIGGEPASK</Hsp_hseq>
+      <Hsp_midline>MP   + +  G+   +  QK  LI  V E ++R L    E   V+I E+  +++ IGG+  S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|54040058|sp|P99132.2|Y1195_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase SA1195.1 [Staphylococcus aureus subsp. aureus N315] &gt;gi|54040102|sp|P67527.2|Y1250_STAAW RecName: Full=Probable tautomerase MW1250 [Staphylococcus aureus subsp. aureus MW2] &gt;gi|54042765|sp|P67526.2|Y1363_STAAM RecName: Full=Probable tautomerase SAV1363 [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|73920517|sp|Q5HG56.3|Y1399_STAAC RecName: Full=Probable tautomerase SACOL1399 [Staphylococcus aureus subsp. aureus COL] &gt;gi|108884798|sp|Q6G9J6.3|Y1303_STAAS RecName: Full=Probable tautomerase SAS1303 [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|108884799|sp|Q6GH41.3|Y1376_STAAR RecName: Full=Probable tautomerase SAR1376 [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>P99132</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>0.463666</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGG</Hsp_qseq>
+      <Hsp_hseq>MPIVNVKLLEGR---SDEQLKNLVSEVTDAVEKTTGANRQAIHVVIEEMKPNHYGVAG</Hsp_hseq>
+      <Hsp_midline>MP VN+K+  G+   +  Q   L+  V + + +  G N +   VVI+E+  +++ + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|45593122|sp|Q9Z431.3|4OT3_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=2-hydroxymuconate tautomerase; AltName: Full=4-oxalocrotonate tautomerase; Short=4-OT [Pseudomonas putida]</Hit_def>
+  <Hit_accession>Q9Z431</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>0.614501</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVS</Hsp_qseq>
+      <Hsp_hseq>MPIAQLYILEGR---SDEQKETLIREVSEAMSRSLDAPIERVRVIITEMPKNHFGIGGEPAS</Hsp_hseq>
+      <Hsp_midline>MP   + +  G+   +  QK  LI  V E ++R L    E   V+I E+  +++ IGG+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|82582350|sp|Q49XG3.3|Y1389_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase SSP1389 [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49XG3</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.64225</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGG</Hsp_qseq>
+      <Hsp_hseq>MPIVNVKLLEGR---SDEQLKNLVTEVTNAVEKTTGANKEAIQIVIEEMKASHYGVAG</Hsp_hseq>
+      <Hsp_midline>MP VN+K+  G+   +  Q   L+  V   + +  G N E   +VI+E+   ++ + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|82582355|sp|Q4L670.3|Y1546_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase SH1546 [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L670</Hit_accession>
+  <Hit_len>62</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.732485</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGG</Hsp_qseq>
+      <Hsp_hseq>MPIINVKLLEGR---SDEQLKNLVTEVTNAVEKTTGANREAIHVIIEEMQKNHYGVAG</Hsp_hseq>
+      <Hsp_midline>MP +N+K+  G+   +  Q   L+  V   + +  G N E   V+I+E+  +++ + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|45593858|sp|Q89DI3.3|Y7456_BRADU</Hit_id>
+  <Hit_def>RecName: Full=Probable tautomerase bsl7456 [Bradyrhizobium diazoefficiens USDA 110]</Hit_def>
+  <Hit_accession>Q89DI3</Hit_accession>
+  <Hit_len>67</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>1.01699</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSER</Hsp_qseq>
+      <Hsp_hseq>MPEITVSMAEGR---TDEQKAGMMRDITQALVKNLGVDADAVVIQINEAPLRHKMKGGKTFVER</Hsp_hseq>
+      <Hsp_midline>MP + + +  G+   T  QKA ++  + + L + LG + +  V+ I+E    +   GGK+  ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|401429|sp|Q01468.2|4OT1_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=2-hydroxymuconate tautomerase; AltName: Full=4-oxalocrotonate tautomerase; Short=4-OT [Pseudomonas putida]</Hit_def>
+  <Hit_accession>Q01468</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>1.37104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRK</Hsp_qseq>
+      <Hsp_hseq>MPIAQIHILEGR---SDEQKETLIREVSEAISRSLDAPLTSVRVIITEMAKGHFGIGGELASKVRR</Hsp_hseq>
+      <Hsp_midline>MP   I +  G+   +  QK  LI  V E ++R L     +  V+I E+   ++ IGG+  S+ R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|21431890|sp|P34666.2|COQ5_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial; AltName: Full=Ubiquinone biosynthesis methyltransferase COQ5; Flags: Precursor [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>P34666</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.23717</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERR</Hsp_qseq>
+      <Hsp_hseq>GGLQVPYNAKCLDMAGGTGDIAFRILRHSP-TAKVTVSDINQPMLDVGKKRAEKER</Hsp_hseq>
+      <Hsp_midline>GG + P  A+  ++ GG  ++  R+L  +P T  V + +++    D+G K   + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|45593120|sp|Q8RQD2.3|4OT2_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=2-hydroxymuconate tautomerase; AltName: Full=4-oxalocrotonate tautomerase; Short=4-OT [Pseudomonas putida]</Hit_def>
+  <Hit_accession>Q8RQD2</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.72299</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRK</Hsp_qseq>
+      <Hsp_hseq>MPIAQIHILEGR---NDEQKETLIREVSEAISRSLDAPLTSVRVIITEMAKGHFGIGGELASKVRR</Hsp_hseq>
+      <Hsp_midline>MP   I +  G+      QK  LI  V E ++R L     +  V+I E+   ++ IGG+  S+ R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|122401746|sp|Q1I4J8.1|TRMA_PSEE4</Hit_id>
+  <Hit_def>RecName: Full=tRNA/tmRNA (uracil-C(5))-methyltransferase; AltName: Full=tRNA (uracil(54)-C(5))-methyltransferase; AltName: Full=tRNA(m5U54)-methyltransferase; Short=RUMT; AltName: Full=tmRNA (uracil(341)-C(5))-methyltransferase [Pseudomonas entomophila L48]</Hit_def>
+  <Hit_accession>Q1I4J8</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.12308</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>ELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRKEG</Hsp_qseq>
+      <Hsp_hseq>ELNVSVIGRSKGKRVVIGRDYAVENLDIAGRTFSYRQPEG</Hsp_hseq>
+      <Hsp_midline>EL   V+G++    VV+  +   +N DI G++ S R+ EG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|166987826|sp|A6NDG6.1|PGP_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase [Homo sapiens]</Hit_def>
+  <Hit_accession>A6NDG6</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.48523</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>AAQKAELIGG----VIELLARVLGKNPETTVVVIDEVDTD</Hsp_qseq>
+      <Hsp_hseq>AQRQADIIGKPSRFIFDCVSQEYGINPERTVMVGDRLDTD</Hsp_hseq>
+      <Hsp_midline>A ++A++IG     + + +++  G NPE TV+V D +DTD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|45593119|sp|Q9ZI54.3|4OT_PSEST</Hit_id>
+  <Hit_def>RecName: Full=2-hydroxymuconate tautomerase; AltName: Full=4-oxalocrotonate tautomerase; Short=4-OT [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>Q9ZI54</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>3.62473</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MPYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKS</Hsp_qseq>
+      <Hsp_hseq>MPIAQIHILEGR---SDEQKETLIREVSEAISRSLDAPLTSVRVIITEMPKVHFGIGGES</Hsp_hseq>
+      <Hsp_midline>MP   I +  G+   +  QK  LI  V E ++R L     +  V+I E+   ++ IGG+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|81900425|sp|Q8CHP8.1|PGP_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase; AltName: Full=Aspartate-based ubiquitous Mg(2+)-dependent phosphatase; Short=AUM [Mus musculus]</Hit_def>
+  <Hit_accession>Q8CHP8</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.2389</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>AAQKAELIG----GVIELLARVLGKNPETTVVVIDEVDTD</Hsp_qseq>
+      <Hsp_hseq>AQRQADIIGKPSRFIFDCVSQEYGINPERTVMVGDRLDTD</Hsp_hseq>
+      <Hsp_midline>A ++A++IG     + + +++  G NPE TV+V D +DTD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|119390884|sp|Q2YHF0.1|POLG_DEN4T</Hit_id>
+  <Hit_def>RecName: Full=Genome polyprotein; Contains: RecName: Full=Capsid protein C; AltName: Full=Core protein; Contains: RecName: Full=prM; Contains: RecName: Full=Peptide pr; Contains: RecName: Full=Small envelope protein M; AltName: Full=Matrix protein; Contains: RecName: Full=Envelope protein E; Contains: RecName: Full=Non-structural protein 1; Short=NS1; Contains: RecName: Full=Non-structural protein 2A; Short=NS2A; Contains: RecName: Full=Non-structural protein 2A-alpha; Contains: RecName: Full=Serine protease subunit NS2B; AltName: Full=Flavivirin protease NS2B regulatory subunit; AltName: Full=Non-structural protein 2B; Contains: RecName: Full=Serine protease NS3; AltName: Full=Flavivirin protease NS3 catalytic subunit; AltName: Full=Non-structural protein 3; Contains: RecName: Full=Non-structural protein 4A; Short=NS4A; Contains: RecName: Full=Peptide 2k; Contains: RecName: Full=Non-structural protein 4B; Short=NS4B; Contains: RecName: Full=RNA-directed RNA polymerase NS5; AltName: Full=Non-structural protein 5 [Dengue virus 4 Thailand/0348/1991]</Hit_def>
+  <Hit_accession>Q2YHF0</Hit_accession>
+  <Hit_len>3387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.60148</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>2786</Hsp_hit-from>
+      <Hsp_hit-to>2849</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>PYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRKEGR</Hsp_qseq>
+      <Hsp_hseq>PYRTWAYHGSYEAPSTGSASSMVNGVVKLLTKPWDVVPMVTQLAM----TDTTPFGQQRVFKEKVDTR</Hsp_hseq>
+      <Hsp_midline>PY      G  EAP+    + ++ GV++LL +     P  T + +    TD    G + V + + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|41019473|sp|P09866.2|POLG_DEN4D</Hit_id>
+  <Hit_def>RecName: Full=Genome polyprotein; Contains: RecName: Full=Capsid protein C; AltName: Full=Core protein; Contains: RecName: Full=prM; Contains: RecName: Full=Peptide pr; Contains: RecName: Full=Small envelope protein M; AltName: Full=Matrix protein; Contains: RecName: Full=Envelope protein E; Contains: RecName: Full=Non-structural protein 1; Short=NS1; Contains: RecName: Full=Non-structural protein 2A; Short=NS2A; Contains: RecName: Full=Non-structural protein 2A-alpha; Short=NS2A-alpha; Contains: RecName: Full=Serine protease subunit NS2B; AltName: Full=Flavivirin protease NS2B regulatory subunit; AltName: Full=Non-structural protein 2B; Contains: RecName: Full=Serine protease NS3; AltName: Full=Flavivirin protease NS3 catalytic subunit; AltName: Full=Non-structural protein 3; Contains: RecName: Full=Non-structural protein 4A; Short=NS4A; Contains: RecName: Full=Peptide 2k; Contains: RecName: Full=Non-structural protein 4B; Short=NS4B; Contains: RecName: Full=RNA-directed RNA polymerase NS5; AltName: Full=Non-structural protein 5 [Dengue virus 4 Dominica/814669/1981]</Hit_def>
+  <Hit_accession>P09866</Hit_accession>
+  <Hit_len>3387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.03492</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>2786</Hsp_hit-from>
+      <Hsp_hit-to>2849</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>PYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRKEGR</Hsp_qseq>
+      <Hsp_hseq>PYRTWAYHGSYEAPSTGSASSMVNGVVKLLTKPWDVIPMVTQLAM----TDTTPFGQQRVFKEKVDTR</Hsp_hseq>
+      <Hsp_midline>PY      G  EAP+    + ++ GV++LL +     P  T + +    TD    G + V + + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|81926947|sp|Q58HT7.1|POLG_DEN4P</Hit_id>
+  <Hit_def>RecName: Full=Genome polyprotein; Contains: RecName: Full=Capsid protein C; AltName: Full=Core protein; Contains: RecName: Full=prM; Contains: RecName: Full=Peptide pr; Contains: RecName: Full=Small envelope protein M; AltName: Full=Matrix protein; Contains: RecName: Full=Envelope protein E; Contains: RecName: Full=Non-structural protein 1; Short=NS1; Contains: RecName: Full=Non-structural protein 2A; Short=NS2A; Contains: RecName: Full=Non-structural protein 2A-alpha; Contains: RecName: Full=Serine protease subunit NS2B; AltName: Full=Flavivirin protease NS2B regulatory subunit; AltName: Full=Non-structural protein 2B; Contains: RecName: Full=Serine protease NS3; AltName: Full=Flavivirin protease NS3 catalytic subunit; AltName: Full=Non-structural protein 3; Contains: RecName: Full=Non-structural protein 4A; Short=NS4A; Contains: RecName: Full=Peptide 2k; Contains: RecName: Full=Non-structural protein 4B; Short=NS4B; Contains: RecName: Full=RNA-directed RNA polymerase NS5; AltName: Full=Non-structural protein 5 [Dengue virus 4 Philippines/H241/1956]</Hit_def>
+  <Hit_accession>Q58HT7</Hit_accession>
+  <Hit_len>3387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.16405</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>2786</Hsp_hit-from>
+      <Hsp_hit-to>2849</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>PYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRKEGR</Hsp_qseq>
+      <Hsp_hseq>PYRTWAYHGSYEAPSTGSASSMVNGVVKLLTKPWDVIPMVTQLAM----TDTTPFGQQRVFKEKVDTR</Hsp_hseq>
+      <Hsp_midline>PY      G  EAP+    + ++ GV++LL +     P  T + +    TD    G + V + + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|254789921|sp|A8LNK7.1|UBIE_DINSH</Hit_id>
+  <Hit_def>RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase; AltName: Full=Demethylmenaquinone methyltransferase [Dinoroseobacter shibae DFL 12 = DSM 16493]</Hit_def>
+  <Hit_accession>A8LNK7</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.26632</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>APTAAQKA-ELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSE</Hsp_qseq>
+      <Hsp_hseq>APRAAQRLLDVAGGTGDIAFRFLKRAPEAEAVVLDL--TESMLIAGRQRAE</Hsp_hseq>
+      <Hsp_midline>AP AAQ+  ++ GG  ++  R L + PE   VV+D   T++  I G+  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|81932311|sp|Q5UCB8.1|POLG_DEN4S</Hit_id>
+  <Hit_def>RecName: Full=Genome polyprotein; Contains: RecName: Full=Capsid protein C; AltName: Full=Core protein; Contains: RecName: Full=prM; Contains: RecName: Full=Peptide pr; Contains: RecName: Full=Small envelope protein M; AltName: Full=Matrix protein; Contains: RecName: Full=Envelope protein E; Contains: RecName: Full=Non-structural protein 1; Short=NS1; Contains: RecName: Full=Non-structural protein 2A; Short=NS2A; Contains: RecName: Full=Non-structural protein 2A-alpha; Contains: RecName: Full=Serine protease subunit NS2B; AltName: Full=Flavivirin protease NS2B regulatory subunit; AltName: Full=Non-structural protein 2B; Contains: RecName: Full=Serine protease NS3; AltName: Full=Flavivirin protease NS3 catalytic subunit; AltName: Full=Non-structural protein 3; Contains: RecName: Full=Non-structural protein 4A; Short=NS4A; Contains: RecName: Full=Peptide 2k; Contains: RecName: Full=Non-structural protein 4B; Short=NS4B; Contains: RecName: Full=RNA-directed RNA polymerase NS5; AltName: Full=Non-structural protein 5 [Dengue virus 4 Singapore/8976/1995]</Hit_def>
+  <Hit_accession>Q5UCB8</Hit_accession>
+  <Hit_len>3387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.2956</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>2786</Hsp_hit-from>
+      <Hsp_hit-to>2849</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>PYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRKEGR</Hsp_qseq>
+      <Hsp_hseq>PYRTWAYHGSYEAPSTGSASSMVNGVVKLLTKPWDVIPMVTQLAM----TDTTPFGQQRVFKEKVDTR</Hsp_hseq>
+      <Hsp_midline>PY      G  EAP+    + ++ GV++LL +     P  T + +    TD    G + V + + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|119390883|sp|Q2YHF2.1|POLG_DEN4H</Hit_id>
+  <Hit_def>RecName: Full=Genome polyprotein; Contains: RecName: Full=Capsid protein C; AltName: Full=Core protein; Contains: RecName: Full=prM; Contains: RecName: Full=Peptide pr; Contains: RecName: Full=Small envelope protein M; AltName: Full=Matrix protein; Contains: RecName: Full=Envelope protein E; Contains: RecName: Full=Non-structural protein 1; Short=NS1; Contains: RecName: Full=Non-structural protein 2A; Short=NS2A; Contains: RecName: Full=Non-structural protein 2A-alpha; Contains: RecName: Full=Serine protease subunit NS2B; AltName: Full=Flavivirin protease NS2B regulatory subunit; AltName: Full=Non-structural protein 2B; Contains: RecName: Full=Serine protease NS3; AltName: Full=Flavivirin protease NS3 catalytic subunit; AltName: Full=Non-structural protein 3; Contains: RecName: Full=Non-structural protein 4A; Short=NS4A; Contains: RecName: Full=Peptide 2k; Contains: RecName: Full=Non-structural protein 4B; Short=NS4B; Contains: RecName: Full=RNA-directed RNA polymerase NS5; AltName: Full=Non-structural protein 5 [Dengue virus 4 Thailand/0476/1997]</Hit_def>
+  <Hit_accession>Q2YHF2</Hit_accession>
+  <Hit_len>3387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.2956</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>2786</Hsp_hit-from>
+      <Hsp_hit-to>2849</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>PYVNIKVTGGKEAPTAAQKAELIGGVIELLARVLGKNPETTVVVIDEVDTDNWDIGGKSVSERRKEGR</Hsp_qseq>
+      <Hsp_hseq>PYRTWAYHGSYEAPSTGSASSMVNGVVKLLTKPWDVIPMVTQLAM----TDTTPFGQQRVFKEKVDTR</Hsp_hseq>
+      <Hsp_midline>PY      G  EAP+    + ++ GV++LL +     P  T + +    TD    G + V + + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

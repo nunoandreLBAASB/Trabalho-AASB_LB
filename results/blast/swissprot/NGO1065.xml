@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>28059</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7V2</BlastOutput_query-def>
+  <BlastOutput_query-len>64</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>28059</Iteration_query-ID>
+  <Iteration_query-def>Q5F7V2</Iteration_query-def>
+  <Iteration_query-len>64</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|77416737|sp|P0AAT0.1|YBDD_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YbdD [Escherichia coli CFT073] &gt;gi|77416738|sp|P0AAS9.1|YBDD_ECOLI RecName: Full=Uncharacterized protein YbdD [Escherichia coli K-12] &gt;gi|77416739|sp|P0AAT1.1|YBDD_SHIFL RecName: Full=Uncharacterized protein YbdD [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AAT0</Hit_accession>
+  <Hit_len>65</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>2.21836e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKHKLASWWKTIKLTANLMAGVPDYENYVAQQRKHNPN-APVMNKLQFQDYCRKRRCGANGGRCC</Hsp_qseq>
+      <Hsp_hseq>MFDSLAKAGKYLGQAAKLMIGMPDYDNYVEHMRVNHPDQTPMTYEEFFRERQDARYGGKGGARCC</Hsp_hseq>
+      <Hsp_midline>M   LA   K +   A LM G+PDY+NYV   R ++P+  P+  +  F++    R  G  G RCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|83288187|sp|P0ADD0.1|YJIX_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YjiX [Escherichia coli O157:H7] &gt;gi|83288188|sp|P0ADC9.1|YJIX_ECOL6 RecName: Full=Uncharacterized protein YjiX [Escherichia coli CFT073] &gt;gi|83288189|sp|P0ADC8.1|YJIX_ECOLI RecName: Full=Uncharacterized protein YjiX [Escherichia coli K-12] &gt;gi|83288190|sp|P0ADD1.1|YJIX_SHIFL RecName: Full=Uncharacterized protein YjiX [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0ADD0</Hit_accession>
+  <Hit_len>67</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>3.42075e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>LASWWKTIKLTANLMAGVPDYENYVAQQRKHNPNAPVMNKLQFQDYCRKRR------CGANGGRCC</Hsp_qseq>
+      <Hsp_hseq>LGQAKKYLGQAAKMLIGIPDYDNYVEHMKTNHPDKPYMS---YEEFFRERQNARYGGDGKGGMRCC</Hsp_hseq>
+      <Hsp_midline>L    K +   A ++ G+PDY+NYV   + ++P+ P M+   ++++ R+R+       G  G RCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81170588|sp|Q73PH1.1|MNMG_TREDE</Hit_id>
+  <Hit_def>RecName: Full=tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG; AltName: Full=Glucose-inhibited division protein A [Treponema denticola ATCC 35405]</Hit_def>
+  <Hit_accession>Q73PH1</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.707864</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>488</Hsp_hit-from>
+      <Hsp_hit-to>526</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>KHKLASWWKTIKLTANLMAGVPDYENYVAQQRK---HNP</Hsp_qseq>
+      <Hsp_hseq>REKIISLWKDIKITRDLIAKNPELKNHIGKSLADALHDP</Hsp_hseq>
+      <Hsp_midline>+ K+ S WK IK+T +L+A  P+ +N++ +      H+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|224487870|sp|P0C8V7.1|CO163_CONAH</Hit_id>
+  <Hit_def>RecName: Full=Delta-conotoxin-like Ac6.3; Flags: Precursor [Conus achatinus]</Hit_def>
+  <Hit_accession>P0C8V7</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>1.90249</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>AQQRKHNPNAPVMNKLQFQDYCRKRRCGANGGRCC</Hsp_qseq>
+      <Hsp_hseq>ARHEMKNPEASKSNK-RYECYSTGTFCGVNGGLCC</Hsp_hseq>
+      <Hsp_midline>A+    NP A   NK +++ Y     CG NGG CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81741683|sp|Q8D2G4.1|PYRH_WIGBR</Hit_id>
+  <Hit_def>RecName: Full=Uridylate kinase; Short=UK; AltName: Full=Uridine monophosphate kinase; Short=UMP kinase; Short=UMPK [Wigglesworthia glossinidia endosymbiont of Glossina brevipalpis]</Hit_def>
+  <Hit_accession>Q8D2G4</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.90638</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>ASWWKTIKLTANLMAGVPDYENYVAQQRKHNPNAPVMNKLQFQDYCRKR</Hsp_qseq>
+      <Hsp_hseq>AACLKAIEIDANLLLKITNVDGVFSEDPAKNPNATLYKKISY-DYALKK</Hsp_hseq>
+      <Hsp_midline>A+  K I++ ANL+  + + +   ++    NPNA +  K+ + DY  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|24418547|sp|Q9PP15.1|KPRS_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=Ribose-phosphate pyrophosphokinase; Short=RPPK; AltName: Full=5-phospho-D-ribosyl alpha-1-diphosphate; AltName: Full=Phosphoribosyl diphosphate synthase; AltName: Full=Phosphoribosyl pyrophosphate synthase; Short=P-Rib-PP synthase; Short=PRPP synthase; Short=PRPPase [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q9PP15</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.38885</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TANLMAGVPDYENYVAQQRKHNPNAPVMNKL</Hsp_qseq>
+      <Hsp_hseq>SANSITAIIPYFGYARQDRKANPRVPITAKL</Hsp_hseq>
+      <Hsp_midline>+AN +  +  Y  Y  Q RK NP  P+  KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|292494988|sp|P69750.2|CO6A_CONCN</Hit_id>
+  <Hit_def>RecName: Full=Delta-conotoxin-like CnVIA; Short=Delta-CnVIA; Flags: Precursor [Conus consors]</Hit_def>
+  <Hit_accession>P69750</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.52589</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>AQQRKHNPNAPVMNKLQFQDYCRKRRCGANGGRCC</Hsp_qseq>
+      <Hsp_hseq>ARHEMKNPEASKSNK-RYECYSTGTFCGINGGLCC</Hsp_hseq>
+      <Hsp_midline>A+    NP A   NK +++ Y     CG NGG CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|74625424|sp|Q9P7R8.1|YHV3_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein C211.03 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9P7R8</Hit_accession>
+  <Hit_len>1462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.31008</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>672</Hsp_hit-from>
+      <Hsp_hit-to>713</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AGVPDYENYVAQQRKHNPNAPVMNKLQFQDYCRKRRCGANGGR</Hsp_qseq>
+      <Hsp_hseq>AFVLSYSIIMLNTDQHNPNIKSQRRMTLDDFCRNVR-GVNDGQ</Hsp_hseq>
+      <Hsp_midline>A V  Y   +    +HNPN     ++   D+CR  R G N G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|341941972|sp|P97393.2|RHG05_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Rho GTPase-activating protein 5; AltName: Full=Rho-type GTPase-activating protein 5; AltName: Full=p190-B [Mus musculus]</Hit_def>
+  <Hit_accession>P97393</Hit_accession>
+  <Hit_len>1501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.32435</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>WKTIKLTANLMAGVPDYENYV---AQQRKHNPNAPVMNKLQFQDYCRKRR</Hsp_qseq>
+      <Hsp_hseq>WKTV---SNKLKNHPDYEEYINLEGTRKARNTFSKHIEQLK-QEHIRKRR</Hsp_hseq>
+      <Hsp_midline>WKT+   +N +   PDYE Y+     ++  N  +  + +L+ Q++ RKRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|134034138|sp|Q9YGY4.2|HDAC9_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Histone deacetylase 9; AltName: Full=Histone deacetylase-related protein; AltName: Full=MEF2-interacting transcription repressor MITR [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q9YGY4</Hit_accession>
+  <Hit_len>596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.35087</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>391</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>IKLTANLMAGVPDYENYVAQQRKHNPNAPVMNKLQFQDYCRKRRCGANGG</Hsp_qseq>
+      <Hsp_hseq>VSMAGQYAGGIPTSSNHVSLEGKANSHQAILQHLLLKEQMRQQKILASGG</Hsp_hseq>
+      <Hsp_midline>+ +      G+P   N+V+ + K N +  ++  L  ++  R+++  A+GG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|190358871|sp|Q13017.2|RHG05_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Rho GTPase-activating protein 5; AltName: Full=Rho-type GTPase-activating protein 5; AltName: Full=p190-B [Homo sapiens]</Hit_def>
+  <Hit_accession>Q13017</Hit_accession>
+  <Hit_len>1502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.85496</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>WKTIKLTANLMAGVPDYENYV---AQQRKHNPNAPVMNKLQFQDYCRKRR</Hsp_qseq>
+      <Hsp_hseq>WKTV---SNKLKNHPDYEEYINLEGTRKARNTFSKHIEQLK-QEHIRKRR</Hsp_hseq>
+      <Hsp_midline>WKT+   +N +   PDYE Y+     ++  N  +  + +L+ Q++ RKRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|97180276|sp|Q8GU86.2|PDR5_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Pleiotropic drug resistance protein 5 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q8GU86</Hit_accession>
+  <Hit_len>1454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.59344</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>YVAQQRKHNPNAPVMNKLQFQDYCRKRRCGANGGR</Hsp_qseq>
+      <Hsp_hseq>YVSQHDLHNPEMTVRETLDFS-----RRCLGSGAR</Hsp_hseq>
+      <Hsp_midline>YV+Q   HNP   V   L F      RRC  +G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|20140760|sp|Q9BZD6.1|TMG4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Transmembrane gamma-carboxyglutamic acid protein 4; AltName: Full=Proline-rich gamma-carboxyglutamic acid protein 4; Short=Proline-rich Gla protein 4; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9BZD6</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.71857</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>184</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>AGVPDYENYVAQQRKHNPNAP</Hsp_qseq>
+      <Hsp_hseq>AGLPSYEQAVALTRKHSVSPP</Hsp_hseq>
+      <Hsp_midline>AG+P YE  VA  RKH+ + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1168874|sp|P43071.1|CDR1_CANAX</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein CDR1 [Candida albicans]</Hit_def>
+  <Hit_accession>P43071</Hit_accession>
+  <Hit_len>1501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.45887</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>939</Hsp_hit-from>
+      <Hsp_hit-to>964</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>YVAQQRKHNPNAPVMNKLQFQDYCRK</Hsp_qseq>
+      <Hsp_hseq>YVQQQDVHLPTSTVREALQFSAYLRQ</Hsp_hseq>
+      <Hsp_midline>YV QQ  H P + V   LQF  Y R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|56405289|sp|P14740.2|DPP4_RAT</Hit_id>
+  <Hit_def>RecName: Full=Dipeptidyl peptidase 4; AltName: Full=Bile canaliculus domain-specific membrane glycoprotein; AltName: Full=Dipeptidyl peptidase IV; Short=DPP IV; AltName: Full=GP110 glycoprotein; AltName: Full=T-cell activation antigen CD26; AltName: CD_antigen=CD26; Contains: RecName: Full=Dipeptidyl peptidase 4 membrane form; AltName: Full=Dipeptidyl peptidase IV membrane form; Contains: RecName: Full=Dipeptidyl peptidase 4 soluble form; AltName: Full=Dipeptidyl peptidase IV soluble form; Contains: RecName: Full=Dipeptidyl peptidase 4 60 kDa soluble form; AltName: Full=Dipeptidyl peptidase IV 60 kDa soluble form [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P14740</Hit_accession>
+  <Hit_len>767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.06971</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>WKTIKLTANLMAGVPDYENYVAQQRKHNPNAPVMNKLQFQDYCRKR--RCGANGGRC</Hsp_qseq>
+      <Hsp_hseq>WEVISIEAL----TSDYLYYISNEYKEMPGGRNLYKIQLTDHTNKKCLSCDLNPERC</Hsp_hseq>
+      <Hsp_midline>W+ I + A       DY  Y++ + K  P    + K+Q  D+  K+   C  N  RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

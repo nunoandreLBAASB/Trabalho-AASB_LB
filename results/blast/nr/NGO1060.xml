@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>21645</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7V7</BlastOutput_query-def>
+  <BlastOutput_query-len>261</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>21645</Iteration_query-ID>
+  <Iteration_query-def>Q5F7V7</Iteration_query-def>
+  <Iteration_query-len>261</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489784282|ref|WP_003688173.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria gonorrhoeae] &gt;gi|59801430|ref|YP_208142.1| fimbrial assembly protein [Neisseria gonorrhoeae FA 1090] &gt;gi|194098288|ref|YP_002001346.1| FimB protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|538321711|ref|YP_008502771.1| fimbrial assembly protein FimB [Neisseria gonorrhoeae MS11] &gt;gi|59718325|gb|AAW89730.1| putative fimbrial assembly protein [Neisseria gonorrhoeae FA 1090] &gt;gi|193933578|gb|ACF29402.1| FimB [Neisseria gonorrhoeae NCCP11945] &gt;gi|226512539|gb|EEH61884.1| fimbrial assembly protein [Neisseria gonorrhoeae 1291] &gt;gi|268547947|gb|EEZ43365.1| fimbrial assembly protein [Neisseria gonorrhoeae 35/02] &gt;gi|268550902|gb|EEZ45921.1| hypothetical protein NGEG_01191 [Neisseria gonorrhoeae FA19] &gt;gi|268582836|gb|EEZ47512.1| fimbrial assembly protein FimB [Neisseria gonorrhoeae MS11] &gt;gi|268587512|gb|EEZ52188.1| fimbrial assembly protein [Neisseria gonorrhoeae PID1] &gt;gi|268624361|gb|EEZ56761.1| fimbrial assembly protein [Neisseria gonorrhoeae SK-92-679] &gt;gi|268626616|gb|EEZ59016.1| fimbrial assembly protein [Neisseria gonorrhoeae SK-93-1035] &gt;gi|291012588|gb|EFE04577.1| fimbrial assembly protein [Neisseria gonorrhoeae DGI2] &gt;gi|291610703|gb|EFF39813.1| fimbrial assembly protein FimB [Neisseria gonorrhoeae F62] &gt;gi|636865898|gb|KDN02723.1| fimb protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003688173</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.865</Hsp_bit-score>
+      <Hsp_score>1361</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFIIP</Hsp_qseq>
+      <Hsp_hseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFIIP</Hsp_hseq>
+      <Hsp_midline>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFIIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489793071|ref|WP_003696962.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria gonorrhoeae] &gt;gi|268585194|gb|EEZ49870.1| fimbrial assembly protein [Neisseria gonorrhoeae PID18] &gt;gi|268622146|gb|EEZ54546.1| fimbrial assembly protein [Neisseria gonorrhoeae PID332] &gt;gi|636860973|gb|KDM98172.1| fimb protein [Neisseria gonorrhoeae] &gt;gi|636863411|gb|KDN00416.1| fimb protein [Neisseria gonorrhoeae] &gt;gi|654606520|gb|KEC87062.1| fimb protein [Neisseria gonorrhoeae] &gt;gi|693765028|gb|KGI95912.1| fimb protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003696962</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>527.709</Hsp_bit-score>
+      <Hsp_score>1358</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFIIP</Hsp_qseq>
+      <Hsp_hseq>MMENGKTFPRWRFAVKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFIIP</Hsp_hseq>
+      <Hsp_midline>MMENGKTFPRWRFA+KSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFIIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|488158462|ref|WP_002229670.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|254672392|emb|CBA05677.1| serine protein kinase [Neisseria meningitidis alpha275] &gt;gi|372201392|gb|EHP15327.1| putative fimbrial assembly protein FimB [Neisseria meningitidis NM233] &gt;gi|402345580|gb|EJU80696.1| serine protein kinase [Neisseria meningitidis NM3081] &gt;gi|485394880|gb|EOC53220.1| putative serine protein kinase [Neisseria meningitidis 2003051] &gt;gi|485405958|gb|EOC63524.1| putative serine protein kinase [Neisseria meningitidis NM3042] &gt;gi|485419490|gb|EOC76084.1| putative serine protein kinase [Neisseria meningitidis NM51] &gt;gi|485423760|gb|EOC80068.1| putative serine protein kinase [Neisseria meningitidis NM80] &gt;gi|485425814|gb|EOC81962.1| putative serine protein kinase [Neisseria meningitidis NM165] &gt;gi|485425975|gb|EOC82107.1| putative serine protein kinase [Neisseria meningitidis NM3223] &gt;gi|485426348|gb|EOC82451.1| putative serine protein kinase [Neisseria meningitidis NM165]</Hit_def>
+  <Hit_accession>WP_002229670</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.005</Hsp_bit-score>
+      <Hsp_score>1338</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>257</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|488165980|ref|WP_002237188.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|402328632|gb|EJU63999.1| serine protein kinase [Neisseria meningitidis 69166] &gt;gi|402336117|gb|EJU71379.1| serine protein kinase [Neisseria meningitidis 80179] &gt;gi|432207809|gb|ELK63797.1| putative serine protein kinase [Neisseria meningitidis 68094] &gt;gi|432214743|gb|ELK70639.1| putative serine protein kinase [Neisseria meningitidis 70012] &gt;gi|432261077|gb|ELL16334.1| putative serine protein kinase [Neisseria meningitidis 69096] &gt;gi|432272982|gb|ELL28084.1| putative serine protein kinase [Neisseria meningitidis 70030] &gt;gi|485274305|gb|EOB40896.1| putative serine protein kinase [Neisseria meningitidis 70021] &gt;gi|485274327|gb|EOB40917.1| putative serine protein kinase [Neisseria meningitidis 69176] &gt;gi|485274350|gb|EOB40938.1| putative serine protein kinase [Neisseria meningitidis 69155] &gt;gi|485280745|gb|EOB46903.1| putative serine protein kinase [Neisseria meningitidis 96060] &gt;gi|485288696|gb|EOB54363.1| putative serine protein kinase [Neisseria meningitidis 69100] &gt;gi|485300948|gb|EOB65799.1| putative serine protein kinase [Neisseria meningitidis 70082]</Hit_def>
+  <Hit_accession>WP_002237188</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.62</Hsp_bit-score>
+      <Hsp_score>1337</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>257</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488153225|ref|WP_002224433.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|15677340|ref|NP_274495.1| fimbrial assembly protein [Neisseria meningitidis MC58] &gt;gi|121635166|ref|YP_975411.1| fimbrial assembly protein [Neisseria meningitidis FAM18] &gt;gi|385852902|ref|YP_005899416.1| putative fimbrial assembly protein FimB [Neisseria meningitidis H44/76] &gt;gi|7226728|gb|AAF41843.1| fimbrial assembly protein [Neisseria meningitidis MC58] &gt;gi|120866872|emb|CAM10631.1| putative fimbrial assembly protein [Neisseria meningitidis FAM18] &gt;gi|316984632|gb|EFV63597.1| fimbrial assembly protein [Neisseria meningitidis H44/76] &gt;gi|325138531|gb|EGC61095.1| putative fimbrial assembly protein FimB [Neisseria meningitidis ES14902] &gt;gi|325140634|gb|EGC63153.1| putative fimbrial assembly protein FimB [Neisseria meningitidis CU385] &gt;gi|325199906|gb|ADY95361.1| putative fimbrial assembly protein FimB [Neisseria meningitidis H44/76] &gt;gi|372200776|gb|EHP14798.1| putative fimbrial assembly protein FimB [Neisseria meningitidis NM220] &gt;gi|402335358|gb|EJU70624.1| serine protein kinase [Neisseria meningitidis 92045] &gt;gi|432202512|gb|ELK58574.1| putative serine protein kinase [Neisseria meningitidis NM422] &gt;gi|432222629|gb|ELK78420.1| putative serine protein kinase [Neisseria meningitidis M13255] &gt;gi|432226595|gb|ELK82321.1| putative serine protein kinase [Neisseria meningitidis NM418] &gt;gi|432227176|gb|ELK82887.1| putative serine protein kinase [Neisseria meningitidis NM586] &gt;gi|432229397|gb|ELK85085.1| putative serine protein kinase [Neisseria meningitidis NM762] &gt;gi|432232890|gb|ELK88525.1| putative serine protein kinase [Neisseria meningitidis M7089] &gt;gi|432233671|gb|ELK89297.1| putative serine protein kinase [Neisseria meningitidis M7124] &gt;gi|432235015|gb|ELK90634.1| putative serine protein kinase [Neisseria meningitidis NM174] &gt;gi|432240500|gb|ELK96035.1| putative serine protein kinase [Neisseria meningitidis 9757] &gt;gi|432240665|gb|ELK96199.1| putative serine protein kinase [Neisseria meningitidis 9506] &gt;gi|432242978|gb|ELK98493.1| putative serine protein kinase [Neisseria meningitidis NM126] &gt;gi|432246069|gb|ELL01530.1| putative serine protein kinase [Neisseria meningitidis 12888] &gt;gi|432246339|gb|ELL01790.1| putative serine protein kinase [Neisseria meningitidis 4119] &gt;gi|432246449|gb|ELL01896.1| putative serine protein kinase [Neisseria meningitidis 63049] &gt;gi|485332959|gb|EOB95688.1| putative serine protein kinase [Neisseria meningitidis NM43] &gt;gi|485334652|gb|EOB97268.1| putative serine protein kinase [Neisseria meningitidis NM94] &gt;gi|485336307|gb|EOB98808.1| putative serine protein kinase [Neisseria meningitidis NM82] &gt;gi|485336461|gb|EOB98947.1| putative serine protein kinase [Neisseria meningitidis NM94] &gt;gi|485338645|gb|EOC01011.1| putative serine protein kinase [Neisseria meningitidis NM94] &gt;gi|485339149|gb|EOC01478.1| putative serine protein kinase [Neisseria meningitidis NM94] &gt;gi|485339195|gb|EOC01520.1| putative serine protein kinase [Neisseria meningitidis NM95] &gt;gi|485339975|gb|EOC02253.1| putative serine protein kinase [Neisseria meningitidis NM94] &gt;gi|485342682|gb|EOC04770.1| putative serine protein kinase [Neisseria meningitidis NM313] &gt;gi|485345974|gb|EOC07839.1| putative serine protein kinase [Neisseria meningitidis NM1495] &gt;gi|485349757|gb|EOC11352.1| putative serine protein kinase [Neisseria meningitidis 73704] &gt;gi|485355415|gb|EOC16629.1| putative serine protein kinase [Neisseria meningitidis 2002020] &gt;gi|485357536|gb|EOC18549.1| putative serine protein kinase [Neisseria meningitidis NM477] &gt;gi|485359920|gb|EOC20720.1| putative serine protein kinase [Neisseria meningitidis M13265] &gt;gi|485362135|gb|EOC22735.1| putative serine protein kinase [Neisseria meningitidis NM3147] &gt;gi|485365564|gb|EOC25846.1| putative serine protein kinase [Neisseria meningitidis 2001072] &gt;gi|485367005|gb|EOC27191.1| putative serine protein kinase [Neisseria meningitidis 2001073] &gt;gi|485368875|gb|EOC28948.1| putative serine protein kinase [Neisseria meningitidis 2000081] &gt;gi|485375225|gb|EOC34858.1| putative serine protein kinase [Neisseria meningitidis 2001213] &gt;gi|485378401|gb|EOC37840.1| putative serine protein kinase [Neisseria meningitidis 2004264] &gt;gi|485378614|gb|EOC38022.1| putative serine protein kinase [Neisseria meningitidis 2000175] &gt;gi|485379428|gb|EOC38787.1| putative serine protein kinase [Neisseria meningitidis 2000175] &gt;gi|485379730|gb|EOC39073.1| putative serine protein kinase [Neisseria meningitidis 2005079] &gt;gi|485380564|gb|EOC39854.1| putative serine protein kinase [Neisseria meningitidis 2000175] &gt;gi|485380844|gb|EOC40114.1| putative serine protein kinase [Neisseria meningitidis 2000175] &gt;gi|485380868|gb|EOC40136.1| putative serine protein kinase [Neisseria meningitidis 2000175] &gt;gi|485382829|gb|EOC41982.1| putative serine protein kinase [Neisseria meningitidis 2000175] &gt;gi|485384722|gb|EOC43750.1| putative serine protein kinase [Neisseria meningitidis 2000175] &gt;gi|485385094|gb|EOC44093.1| putative serine protein kinase [Neisseria meningitidis 2001068] &gt;gi|485387439|gb|EOC46279.1| putative serine protein kinase [Neisseria meningitidis 2005040] &gt;gi|485387734|gb|EOC46551.1| putative serine protein kinase [Neisseria meningitidis 2002004] &gt;gi|485399340|gb|EOC57366.1| putative serine protein kinase [Neisseria meningitidis NM271] &gt;gi|485402502|gb|EOC60333.1| putative serine protein kinase [Neisseria meningitidis NM115] &gt;gi|485403693|gb|EOC61468.1| putative serine protein kinase [Neisseria meningitidis NM90] &gt;gi|485408200|gb|EOC65612.1| putative serine protein kinase [Neisseria meningitidis NM3131] &gt;gi|485408640|gb|EOC66023.1| putative serine protein kinase [Neisseria meningitidis NM3222] &gt;gi|485412669|gb|EOC69746.1| putative serine protein kinase [Neisseria meningitidis NM3144] &gt;gi|485413030|gb|EOC70072.1| putative serine protein kinase [Neisseria meningitidis NM3158] &gt;gi|485415388|gb|EOC72294.1| putative serine protein kinase [Neisseria meningitidis NM3164] &gt;gi|485419199|gb|EOC75820.1| putative serine protein kinase [Neisseria meningitidis NM27] &gt;gi|485430758|gb|EOC86455.1| putative serine protein kinase [Neisseria meningitidis NM32] &gt;gi|485432288|gb|EOC87856.1| putative serine protein kinase [Neisseria meningitidis NM23] &gt;gi|485433919|gb|EOC89329.1| putative serine protein kinase [Neisseria meningitidis NM32] &gt;gi|485435160|gb|EOC90433.1| putative serine protein kinase [Neisseria meningitidis NM35] &gt;gi|485436536|gb|EOC91685.1| putative serine protein kinase [Neisseria meningitidis NM36] &gt;gi|514069540|gb|EPF54447.1| putative serine protein kinase [Neisseria meningitidis NM134] &gt;gi|530899384|gb|EQC98131.1| putative serine protein kinase [Neisseria meningitidis 2002030] &gt;gi|530900140|gb|EQC98839.1| putative serine protein kinase [Neisseria meningitidis NM3141] &gt;gi|530905486|gb|EQD03847.1| putative serine protein kinase [Neisseria meningitidis NM3139] &gt;gi|530913409|gb|EQD11295.1| putative serine protein kinase [Neisseria meningitidis NM1476] &gt;gi|530920947|gb|EQD18382.1| putative serine protein kinase [Neisseria meningitidis NM3173] &gt;gi|694192793|gb|KGI98041.1| fimb protein [Neisseria meningitidis] &gt;gi|723270255|gb|KHC97447.1| fimb protein [Neisseria meningitidis] &gt;gi|723273855|gb|KHD01039.1| fimb protein [Neisseria meningitidis] &gt;gi|726975689|gb|KHF23109.1| fimb protein [Neisseria meningitidis] &gt;gi|730571112|gb|AIZ18914.1| fimb protein [Neisseria meningitidis] &gt;gi|730573442|gb|AIZ20844.1| fimb protein [Neisseria meningitidis M7124] &gt;gi|730575779|gb|AIZ22728.1| fimb protein [Neisseria meningitidis] &gt;gi|730578248|gb|AIZ24695.1| fimb protein [Neisseria meningitidis] &gt;gi|730579551|gb|AIZ25532.1| fimb protein [Neisseria meningitidis] &gt;gi|743393003|gb|KID52542.1| fimb protein [Neisseria meningitidis LNP27256] &gt;gi|744799161|gb|AJC63949.1| fimb protein [Neisseria meningitidis LNP21362] &gt;gi|747185424|gb|KIF89482.1| fimb protein [Neisseria meningitidis] &gt;gi|747188126|gb|KIF91675.1| fimb protein [Neisseria meningitidis] &gt;gi|747189207|gb|KIF92544.1| fimb protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002224433</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.538</Hsp_bit-score>
+      <Hsp_score>1329</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDQWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPD+WLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|325132640|gb|EGC55328.1|</Hit_id>
+  <Hit_def>putative fimbrial assembly protein FimB [Neisseria meningitidis M6190]</Hit_def>
+  <Hit_accession>EGC55328</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.227</Hsp_bit-score>
+      <Hsp_score>1323</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDQWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPD+WLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|747185661|gb|KIF89664.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>KIF89664</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.842</Hsp_bit-score>
+      <Hsp_score>1322</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGQLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDQWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCG LLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPD+WLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|518572612|ref|WP_019742819.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_019742819</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>512.301</Hsp_bit-score>
+      <Hsp_score>1318</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488164753|ref|WP_002235961.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|385323873|ref|YP_005878312.1| hypothetical protein NMV_0901 [Neisseria meningitidis 8013] &gt;gi|261392260|emb|CAX49780.1| conserved hypothetical protein [Neisseria meningitidis 8013] &gt;gi|402322368|gb|EJU57830.1| serine protein kinase [Neisseria meningitidis NM183] &gt;gi|402322717|gb|EJU58168.1| serine protein kinase [Neisseria meningitidis NM140] &gt;gi|402324531|gb|EJU59963.1| serine protein kinase [Neisseria meningitidis NM2781] &gt;gi|402332402|gb|EJU67729.1| serine protein kinase [Neisseria meningitidis NM576] &gt;gi|485349653|gb|EOC11260.1| putative serine protein kinase [Neisseria meningitidis 73696]</Hit_def>
+  <Hit_accession>WP_002235961</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.531</Hsp_bit-score>
+      <Hsp_score>1316</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVIEAFEKDRINIVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPV+EAFE+DR+ IVTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|488147828|ref|WP_002219036.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|385328262|ref|YP_005882565.1| fimbrial assembly protein [Neisseria meningitidis alpha710] &gt;gi|385341617|ref|YP_005895488.1| putative fimbrial assembly protein FimB [Neisseria meningitidis M01-240149] &gt;gi|385857536|ref|YP_005904048.1| putative fimbrial assembly protein FimB [Neisseria meningitidis NZ-05/33] &gt;gi|308389114|gb|ADO31434.1| fimbrial assembly protein [Neisseria meningitidis alpha710] &gt;gi|325130568|gb|EGC53318.1| putative fimbrial assembly protein FimB [Neisseria meningitidis OX99.30304] &gt;gi|325136621|gb|EGC59222.1| putative fimbrial assembly protein FimB [Neisseria meningitidis M0579] &gt;gi|325201823|gb|ADY97277.1| putative fimbrial assembly protein FimB [Neisseria meningitidis M01-240149] &gt;gi|325208425|gb|ADZ03877.1| putative fimbrial assembly protein FimB [Neisseria meningitidis NZ-05/33] &gt;gi|530899548|gb|EQC98283.1| putative serine protein kinase [Neisseria meningitidis 96037] &gt;gi|530906671|gb|EQD04955.1| putative serine protein kinase [Neisseria meningitidis NM045] &gt;gi|530907940|gb|EQD06151.1| putative serine protein kinase [Neisseria meningitidis NM151] &gt;gi|530911321|gb|EQD09338.1| putative serine protein kinase [Neisseria meningitidis NM003] &gt;gi|530917133|gb|EQD14810.1| putative serine protein kinase [Neisseria meningitidis NM518] &gt;gi|530923399|gb|EQD20684.1| putative serine protein kinase [Neisseria meningitidis NM2866]</Hit_def>
+  <Hit_accession>WP_002219036</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.531</Hsp_bit-score>
+      <Hsp_score>1316</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVIEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPV+EAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|645195877|ref|WP_025457016.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025457016</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.146</Hsp_bit-score>
+      <Hsp_score>1315</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWCFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKERMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKLLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRW FALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTK RMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLK LKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488155019|ref|WP_002226227.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|218768478|ref|YP_002342990.1| fimbrial assembly protein [Neisseria meningitidis Z2491] &gt;gi|254805261|ref|YP_003083482.1| putative fimbrial assembly protein [Neisseria meningitidis alpha14] &gt;gi|385338312|ref|YP_005892185.1| hypothetical protein NMAA_1190 [Neisseria meningitidis WUE 2594] &gt;gi|385340372|ref|YP_005894244.1| putative fimbrial assembly protein FimB [Neisseria meningitidis G2136] &gt;gi|385850936|ref|YP_005897451.1| putative fimbrial assembly protein FimB [Neisseria meningitidis M04-240196] &gt;gi|121052486|emb|CAM08825.1| putative fimbrial assembly protein [Neisseria meningitidis Z2491] &gt;gi|254668803|emb|CBA06771.1| putative fimbrial assembly protein [Neisseria meningitidis alpha14] &gt;gi|319410726|emb|CBY91108.1| conserved hypothetical protein [Neisseria meningitidis WUE 2594] &gt;gi|325142675|gb|EGC65060.1| putative fimbrial assembly protein FimB [Neisseria meningitidis 961-5945] &gt;gi|325198616|gb|ADY94072.1| putative fimbrial assembly protein FimB [Neisseria meningitidis G2136] &gt;gi|325205759|gb|ADZ01212.1| putative fimbrial assembly protein FimB [Neisseria meningitidis M04-240196] &gt;gi|402317984|gb|EJU53510.1| serine protein kinase [Neisseria meningitidis 93004] &gt;gi|432202050|gb|ELK58118.1| putative serine protein kinase [Neisseria meningitidis 87255] &gt;gi|432205881|gb|ELK61897.1| putative serine protein kinase [Neisseria meningitidis 98080] &gt;gi|432209011|gb|ELK64982.1| putative serine protein kinase [Neisseria meningitidis 88050] &gt;gi|432214982|gb|ELK70873.1| putative serine protein kinase [Neisseria meningitidis 63041] &gt;gi|432252381|gb|ELL07737.1| putative serine protein kinase [Neisseria meningitidis 2004090] &gt;gi|432252620|gb|ELL07972.1| putative serine protein kinase [Neisseria meningitidis 96023] &gt;gi|432256122|gb|ELL11446.1| putative serine protein kinase [Neisseria meningitidis 65014] &gt;gi|432258713|gb|ELL13994.1| putative serine protein kinase [Neisseria meningitidis 97020] &gt;gi|432265353|gb|ELL20549.1| putative serine protein kinase [Neisseria meningitidis NM3652] &gt;gi|432265570|gb|ELL20762.1| putative serine protein kinase [Neisseria meningitidis NM3642] &gt;gi|432265990|gb|ELL21179.1| putative serine protein kinase [Neisseria meningitidis 2007056] &gt;gi|432270805|gb|ELL25939.1| putative serine protein kinase [Neisseria meningitidis 2001212] &gt;gi|432276880|gb|ELL31934.1| putative serine protein kinase [Neisseria meningitidis 63006] &gt;gi|485281340|gb|EOB47467.1| putative serine protein kinase [Neisseria meningitidis 2000080] &gt;gi|485281552|gb|EOB47667.1| putative serine protein kinase [Neisseria meningitidis 94018] &gt;gi|485287570|gb|EOB53303.1| putative serine protein kinase [Neisseria meningitidis 75689] &gt;gi|485287785|gb|EOB53502.1| putative serine protein kinase [Neisseria meningitidis 75643] &gt;gi|485301316|gb|EOB66138.1| putative serine protein kinase [Neisseria meningitidis 65012] &gt;gi|485302054|gb|EOB66830.1| putative serine protein kinase [Neisseria meningitidis 64182] &gt;gi|485307210|gb|EOB71639.1| putative serine protein kinase [Neisseria meningitidis 97027] &gt;gi|485308518|gb|EOB72854.1| putative serine protein kinase [Neisseria meningitidis 96024] &gt;gi|485309053|gb|EOB73358.1| putative serine protein kinase [Neisseria meningitidis 97008] &gt;gi|485313578|gb|EOB77599.1| putative serine protein kinase [Neisseria meningitidis 98005] &gt;gi|485315439|gb|EOB79336.1| putative serine protein kinase [Neisseria meningitidis 2004085] &gt;gi|485315710|gb|EOB79589.1| putative serine protein kinase [Neisseria meningitidis 2003022] &gt;gi|485320268|gb|EOB83854.1| putative serine protein kinase [Neisseria meningitidis 2000063] &gt;gi|485321961|gb|EOB85424.1| putative serine protein kinase [Neisseria meningitidis NM604] &gt;gi|485322669|gb|EOB86092.1| putative serine protein kinase [Neisseria meningitidis 2002007] &gt;gi|485326901|gb|EOB90047.1| putative serine protein kinase [Neisseria meningitidis NM606] &gt;gi|485329172|gb|EOB92157.1| putative serine protein kinase [Neisseria meningitidis NM607] &gt;gi|485344286|gb|EOC06258.1| putative serine protein kinase [Neisseria meningitidis NM1482] &gt;gi|610427304|gb|AHW76180.1| fimbrial assembly protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002226227</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.76</Hsp_bit-score>
+      <Hsp_score>1314</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488163819|ref|WP_002235027.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|402316577|gb|EJU52120.1| serine protein kinase [Neisseria meningitidis NM255]</Hit_def>
+  <Hit_accession>WP_002235027</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.375</Hsp_bit-score>
+      <Hsp_score>1313</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVIEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPV+EAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|488141722|ref|WP_002212930.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|304338816|gb|EFM04921.1| fimbrial assembly protein, serogroup E1 family protein [Neisseria meningitidis ATCC 13091] &gt;gi|325128556|gb|EGC51429.1| putative fimbrial assembly protein FimB [Neisseria meningitidis N1568] &gt;gi|432208801|gb|ELK64773.1| putative serine protein kinase [Neisseria meningitidis 97021] &gt;gi|432215102|gb|ELK70992.1| putative serine protein kinase [Neisseria meningitidis 2006087] &gt;gi|432220113|gb|ELK75939.1| putative serine protein kinase [Neisseria meningitidis 2002038] &gt;gi|432221209|gb|ELK77022.1| putative serine protein kinase [Neisseria meningitidis 97014] &gt;gi|485392268|gb|EOC50775.1| putative serine protein kinase [Neisseria meningitidis 2005172] &gt;gi|485393754|gb|EOC52156.1| putative serine protein kinase [Neisseria meningitidis 2008223] &gt;gi|514069852|gb|EPF54731.1| putative serine protein kinase [Neisseria meningitidis 98002]</Hit_def>
+  <Hit_accession>WP_002212930</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.99</Hsp_bit-score>
+      <Hsp_score>1312</Hsp_score>
+      <Hsp_evalue>1.00869e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVIEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPV+EAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|488172100|ref|WP_002243308.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|402344879|gb|EJU80012.1| serine protein kinase [Neisseria meningitidis NM3001]</Hit_def>
+  <Hit_accession>WP_002243308</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.22</Hsp_bit-score>
+      <Hsp_score>1310</Hsp_score>
+      <Hsp_evalue>1.70539e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDQWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPD+WLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|488187072|ref|WP_002258280.1|</Hit_id>
+  <Hit_def>putative serine protein kinase [Neisseria meningitidis] &gt;gi|485372038|gb|EOC31883.1| putative serine protein kinase [Neisseria meningitidis 2001001] &gt;gi|485373827|gb|EOC33551.1| putative serine protein kinase [Neisseria meningitidis 2004032] &gt;gi|514070473|gb|EPF55315.1| putative serine protein kinase [Neisseria meningitidis 2007461] &gt;gi|530914715|gb|EQD12522.1| putative serine protein kinase [Neisseria meningitidis NM0552]</Hit_def>
+  <Hit_accession>WP_002258280</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.834</Hsp_bit-score>
+      <Hsp_score>1309</Hsp_score>
+      <Hsp_evalue>2.52856e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLEVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPL+VLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|488151047|ref|WP_002222255.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|254669489|emb|CBA03393.1| serine protein kinase [Neisseria meningitidis alpha153] &gt;gi|325134598|gb|EGC57241.1| putative fimbrial assembly protein FimB [Neisseria meningitidis M13399] &gt;gi|325144773|gb|EGC67065.1| putative fimbrial assembly protein FimB [Neisseria meningitidis M01-240013] &gt;gi|402331414|gb|EJU66751.1| serine protein kinase [Neisseria meningitidis 98008] &gt;gi|402339813|gb|EJU75022.1| putative serine protein kinase [Neisseria meningitidis NM2657] &gt;gi|432258584|gb|ELL13866.1| putative serine protein kinase [Neisseria meningitidis 61103] &gt;gi|485294606|gb|EOB59876.1| putative serine protein kinase [Neisseria meningitidis 63023] &gt;gi|485295024|gb|EOB60272.1| putative serine protein kinase [Neisseria meningitidis 61106] &gt;gi|530924895|gb|EQD22097.1| putative serine protein kinase [Neisseria meningitidis NM3230] &gt;gi|663091506|gb|KER39765.1| serine protein kinase [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002222255</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.834</Hsp_bit-score>
+      <Hsp_score>1309</Hsp_score>
+      <Hsp_evalue>2.64167e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVIEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDQWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPV+EAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPD+WLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488185539|ref|WP_002256747.1|</Hit_id>
+  <Hit_def>putative serine protein kinase [Neisseria meningitidis] &gt;gi|485352927|gb|EOC14313.1| putative serine protein kinase [Neisseria meningitidis 81858]</Hit_def>
+  <Hit_accession>WP_002256747</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.449</Hsp_bit-score>
+      <Hsp_score>1308</Hsp_score>
+      <Hsp_evalue>3.11278e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVIEAFEKDRINIVTAAEVAVEDLHKAPEGLQSLSWFGIRRVALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLEVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPV+EAFE+DR+ IVTAAEV VEDLHKAPEGLQSLSWFGIRR+ALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPL+VLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|389605367|emb|CCA44285.1|</Hit_id>
+  <Hit_def>fimbrial assembly protein, serogroup I [Neisseria meningitidis alpha522]</Hit_def>
+  <Hit_accession>CCA44285</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.449</Hsp_bit-score>
+      <Hsp_score>1308</Hsp_score>
+      <Hsp_evalue>4.00339e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKRAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALK AGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|488180372|ref|WP_002251580.1|</Hit_id>
+  <Hit_def>putative serine protein kinase [Neisseria meningitidis] &gt;gi|432271195|gb|ELL26321.1| putative serine protein kinase [Neisseria meningitidis 77221]</Hit_def>
+  <Hit_accession>WP_002251580</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.064</Hsp_bit-score>
+      <Hsp_score>1307</Hsp_score>
+      <Hsp_evalue>4.61524e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKAHMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKA MVDFSMVGIIQLAAL YGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|488170562|ref|WP_002241770.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|402340166|gb|EJU75369.1| serine protein kinase [Neisseria meningitidis NM2795]</Hit_def>
+  <Hit_accession>WP_002241770</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.064</Hsp_bit-score>
+      <Hsp_score>1307</Hsp_score>
+      <Hsp_evalue>5.55861e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTASRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT  RWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|504395039|ref|WP_014582141.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|385855528|ref|YP_005902041.1| putative fimbrial assembly protein FimB [Neisseria meningitidis M01-240355] &gt;gi|325204469|gb|ADY99922.1| putative fimbrial assembly protein FimB [Neisseria meningitidis M01-240355]</Hit_def>
+  <Hit_accession>WP_014582141</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.523</Hsp_bit-score>
+      <Hsp_score>1303</Hsp_score>
+      <Hsp_evalue>2.19855e-179</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVIEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDQWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPV+EAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPD+WLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|488190326|ref|WP_002261534.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|393291657|emb|CCI73112.1| Fimbrial assembly protein, serogroup I [Neisseria meningitidis alpha704]</Hit_def>
+  <Hit_accession>WP_002261534</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>505.368</Hsp_bit-score>
+      <Hsp_score>1300</Hsp_score>
+      <Hsp_evalue>6.95802e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTASRWRFALKRAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT  RWRFALK AGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|488161523|ref|WP_002232731.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|402316471|gb|EJU52016.1| serine protein kinase [Neisseria meningitidis 93003]</Hit_def>
+  <Hit_accession>WP_002232731</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.597</Hsp_bit-score>
+      <Hsp_score>1298</Hsp_score>
+      <Hsp_evalue>1.05445e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVPRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKACMVDFSMVGIIQLAALVYGLHSVSLARPVIEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDQWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>MMENGKT PRWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKA MVDFSMVGIIQLAAL YGLHSVSLARPV+EAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPD+WLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|518103221|ref|WP_019273429.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273429</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.595</Hsp_bit-score>
+      <Hsp_score>1163</Hsp_score>
+      <Hsp_evalue>3.26423e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVSRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILSSPKKTGRARAVDFSLTGAIQLAALAYGLHSVSLARPVVEAFEQDRITIVTAAEVVVEDLHKAPEGLQSLSWFGIRRVGLKEPDTADEENKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKAMKPLKKLADARKIAVADILKQADISEDKDWYFLPFTAGRQKDWIVVLDAQGNARGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MMENGKT  RWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLIL+SPKK  +AR VDFS+ G IQLAALAYGLHSVSLARPVVEAFEQDR+TIVTAAEVVVEDLHKAPEGLQSLSWFGIRR+ LKEP+ ADE+NKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRK +KPLK LADARK  VADILKQA ++E ++ Y+LPFT+ RQK+WIV+ D +GN +GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|489847666|ref|WP_003751352.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria polysaccharea] &gt;gi|296839335|gb|EFH23273.1| fimbrial assembly protein, serogroup E1 family protein [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>WP_003751352</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.965</Hsp_bit-score>
+      <Hsp_score>1138</Hsp_score>
+      <Hsp_evalue>2.23279e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MMENGKTASRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYKLVVAVDIVCGPLLTLILSSPKKTGRARIVDFSLTGAIQLAALAYGLHSVSLARPVIEAFEKDRINIVTAAEVAVEDLHKAPEGLQSLSWFGIRRVGLKEPDTADEQNKTLDLSMQGIEPSMRPDRWLPYSRQEAEKIRKAMKPLKKLADARKIAVADILKQADISEDKDWYFLPFTGSRQKDWIVVLDAQGNARGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MMENGKT  RWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLY+LVVAVDIVCGPLLTLIL+SPKK  +AR+VDFS+ G IQLAALAYGLHSVSLARPV+EAFE+DR+ IVTAAEV VEDLHKAPEGLQSLSWFGIRR+ LKEP+ ADE+NKTLDLS++GIEPSMRPDRWLPYS +EAEKIRK +KPLK LADARK  VADILKQA ++E ++ Y+LPFT SRQK+WIV+ D +GN +GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|489770805|ref|WP_003674716.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria cinerea] &gt;gi|269146307|gb|EEZ72725.1| fimbrial assembly protein, serogroup E1 family protein [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003674716</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.58</Hsp_bit-score>
+      <Hsp_score>1137</Hsp_score>
+      <Hsp_evalue>3.38213e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MMENGKTVSRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYKLVVAVDIVCGPLLTLILASPKKKIKERVVDFSLIGMIQFAALVYGLHSVSLARPVIEAFEKDRINIVTAAEVVVEDLHKAPEGLQSLSLSGIRRVALKEPADADEQNKSLELSLQGIEPSMRPDQWLPYSDQEAERIRKAMKPLKELAYARKTSVAHILKQADISEDKDWYYLPFTSSRQKDWIVVMDKQGNAQGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MMENGKT  RWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLY+LVVAVDIVCGPLLTLILASPKKK K R+VDFS++G+IQ AAL YGLHSVSLARPV+EAFE+DR+ IVTAAEVVVEDLHKAPEGLQSLS  GIRR+ALKEP DADE+NK+L+LSL+GIEPSMRPD+WLPYSD+EAE+IRK +KPLK LA ARKT+VA ILKQA ++E ++ YYLPFTSSRQK+WIV+ DK+GN +GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|489809984|ref|WP_003713841.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria lactamica] &gt;gi|309378690|emb|CBX22640.1| unnamed protein product [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003713841</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>4.34855e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MMENGKTASRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYKLVVAVDIVCGPLLTLILSSPKKTGRARIVDFSLTGAIQLAALAYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRVGLKEPDTADEENKTLDLSMQGIEPSMRPDRWLPYSRQEAEKIRKTMKPLKKLADARKIAVADILKQADISEDKDWYFLPFTGSRQKDWIVVLDAQGNARGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MMENGKT  RWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLY+LVVAVDIVCGPLLTLIL+SPKK  +AR+VDFS+ G IQLAALAYGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRR+ LKEP+ ADE+NKTLDLS++GIEPSMRPDRWLPYS +EAEKIRK +KPLK LADARK  VADILKQA ++E ++ Y+LPFT SRQK+WIV+ D +GN +GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|489806726|ref|WP_003710597.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria lactamica] &gt;gi|269208518|gb|EEZ74973.1| fimbrial assembly protein, serogroup E1 family protein [Neisseria lactamica ATCC 23970] &gt;gi|673469833|gb|KFJ36463.1| putative serine protein kinase [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003710597</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>6.46433e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MMENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MMENGKTASRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYKLVVAVDIVCGPLLTLILSSPKKTGRARAVDFSLTGAIQLAALVYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRVGLKEPDTADEQNKTLDLSMQGIEPSMRPDRWLPYSRQEADKIRKAMKPLKKLADARKIAVADILKQADISEDKDWYFLPFTGSRQKDWIVVLDAQGNARGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MMENGKT  RWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLY+LVVAVDIVCGPLLTLIL+SPKK  +AR VDFS+ G IQLAAL YGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRR+ LKEP+ ADE+NKTLDLS++GIEPSMRPDRWLPYS +EA+KIRK +KPLK LADARK  VADILKQA ++E ++ Y+LPFT SRQK+WIV+ D +GN +GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|503214085|ref|WP_013448746.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria lactamica] &gt;gi|313668124|ref|YP_004048408.1| fimbrial assembly protein [Neisseria lactamica 020-06] &gt;gi|313005586|emb|CBN87022.1| putative fimbrial assembly protein [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448746</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>1.68631e-152</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>MENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MENGKTASRWRFALKSAGWHLLISLSVAGLAALLVFKVWYPYPYAELTGGLSLYKLVVAVDIVCGPLLTLILSSPKKTGRARIVDFSLTGAIQLAALVYGLHSVSLARPVVEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRVGLKEPDTADEENKTLDLSMQGIEPSMRPDRWLPYSHQEAEKIRKAMKPLKKLADARKIAVADILKQADISEDKDWYFLPFTGSRQKDWIVVLDAQGNARGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MENGKT  RWRFALKSAGWHLLISL VAGLAALLVFKVWYPYPYAELTGGLSLY+LVVAVDIVCGPLLTLIL+SPKK  +AR+VDFS+ G IQLAAL YGLHSVSLARPVVEAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRR+ LKEP+ ADE+NKTLDLS++GIEPSMRPDRWLPYS +EAEKIRK +KPLK LADARK  VADILKQA ++E ++ Y+LPFT SRQK+WIV+ D +GN +GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|501178651|ref|WP_012221834.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria meningitidis] &gt;gi|161870354|ref|YP_001599524.1| fimbrial assembly protein [Neisseria meningitidis 053442] &gt;gi|161595907|gb|ABX73567.1| fimbrial assembly protein [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>WP_012221834</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.741</Hsp_bit-score>
+      <Hsp_score>1018</Hsp_score>
+      <Hsp_evalue>5.11645e-137</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>VVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_qseq>
+      <Hsp_hseq>MVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALVYGLHSVSLARPVIEAFEKDRINVVTAAEVAVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEEIRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_hseq>
+      <Hsp_midline>+VAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAAL YGLHSVSLARPV+EAFE+DR+ +VTAAEV VEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAE+IRKHLKPLKVLADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|738524174|ref|WP_036472651.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria flavescens]</Hit_def>
+  <Hit_accession>WP_036472651</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>1.85266e-113</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MENGKTF---PRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGL-AEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MENSHTLHSSSRFRFALKNAAWHLLISLILAGLAALLVFGVWYPYPYAELTGGLALYKLVISVDIVCGPLLTLILASPSKKLKERIVDFSLIGMIQLAALIYGLYSVSLARPVVAAFETDRINVVTAAEIDVNDLSHAPKDLQDLSWFGARRVGLREATGPDEANQSLDLSLKGVEPSMRPSWWLPDSQQEREKIRKAMKPLFVLAKARGMSEESIFKQASLENDGKELYFLPFTSARSKEWVVILNDQADFLGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MEN  T     R+RFALK+A WHLLISL++AGLAALLVF VWYPYPYAELTGGL+LY+LV++VDIVCGPLLTLILASP KK K R+VDFS++G+IQLAAL YGL+SVSLARPVV AFE DR+ +VTAAE+ V DL  AP+ LQ LSWFG RR+ L+E    DE N++LDLSLKG+EPSMRP  WLP S +E EKIRK +KPL VLA AR  +   I KQA L  +G+ELY+LPFTS+R KEW+VI + + +  GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|241320428|gb|EER56725.1|</Hit_id>
+  <Hit_def>hypothetical protein NEIFL0001_1818 [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>EER56725</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>1.96337e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MMENGKTF---PRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGL-AEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>FMENSHTLHSSSRFRFALKNAAWHLLISLILAGLAALLVFGVWYPYPYAELTGGLALYKLVISVDIVCGPLLTLILASPSKKLKERIVDFSLIGMIQLAALIYGLYSVSLARPVVAAFETDRINVVTAAEIDVNDLSHAPKDLQDLSWFGARRVGLREATGPDEANQSLDLSLKGVEPSMRPSWWLPDSQQEREKIRKAMKPLFVLAKARGMSEESIFKQASLENDGKELYFLPFTSARSKEWVVILNDQADFLGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline> MEN  T     R+RFALK+A WHLLISL++AGLAALLVF VWYPYPYAELTGGL+LY+LV++VDIVCGPLLTLILASP KK K R+VDFS++G+IQLAAL YGL+SVSLARPVV AFE DR+ +VTAAE+ V DL  AP+ LQ LSWFG RR+ L+E    DE N++LDLSLKG+EPSMRP  WLP S +E EKIRK +KPL VLA AR  +   I KQA L  +G+ELY+LPFTS+R KEW+VI + + +  GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|748605418|ref|WP_039863597.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria flavescens]</Hit_def>
+  <Hit_accession>WP_039863597</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.961</Hsp_bit-score>
+      <Hsp_score>868</Hsp_score>
+      <Hsp_evalue>2.48606e-113</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MENGKTF---PRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGL-AEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MENSHTLHSSSRFRFALKNAAWHLLISLILAGLAALLVFGVWYPYPYAELTGGLALYKLVISVDIVCGPLLTLILASPSKKLKERIVDFSLIGMIQLAALIYGLYSVSLARPVVVAFETDRMNVVTAAEIDVNDLSYAPKDLQDLSLFGVRRVGLREATSPDEANQSLDLSLKGIEPSMRPSWWLPDSQQEREKIRKAMKPLSVLAKAHSMSEESIFKQASLENDGKELYFLPFTSARSKEWVVILNEQADFLGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MEN  T     R+RFALK+A WHLLISL++AGLAALLVF VWYPYPYAELTGGL+LY+LV++VDIVCGPLLTLILASP KK K R+VDFS++G+IQLAAL YGL+SVSLARPVV AFE DRM +VTAAE+ V DL  AP+ LQ LS FG+RR+ L+E    DE N++LDLSLKGIEPSMRP  WLP S +E EKIRK +KPL VLA A   +   I KQA L  +G+ELY+LPFTS+R KEW+VI +++ +  GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|496466371|ref|WP_009175216.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria sp. oral taxon 014] &gt;gi|298281167|gb|EFI22657.1| hypothetical protein HMPREF9016_02235 [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009175216</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.413</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>7.15914e-111</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>MENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAE-GEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGF</Hsp_qseq>
+      <Hsp_hseq>METVKTPSRWRFALKMAGCHLLVSLFLAGMAALLVFKVWYPYPYAELTGGLQLYKLVVAVDVVCGPLLTLVLASPKKSVRERVVDFSLVGVIQLAALLYGLYSVSLARPVAVAFEVDRFSVVTAAEVDDTLLADAPEGLRRLPWFGVNRVGIREPLNAEEYNQDLMLSLKGIEPSMRPNRWAADDAREREKIRRGMKPLSALAAMRNMTEADILREADVKDTGEKRYYLPFTGSKEKGWIAVLDDHADFLGFAKIDGF</Hsp_hseq>
+      <Hsp_midline>ME  KT  RWRFALK AG HLL+SL +AG+AALLVFKVWYPYPYAELTGGL LY+LVVAVD+VCGPLLTL+LASPKK  + R+VDFS+VG+IQLAAL YGL+SVSLARPV  AFE DR ++VTAAEV    L  APEGL+ L WFG+ R+ ++EP +A+E N+ L LSLKGIEPSMRP+RW     +E EKIR+ +KPL  LA  R  T ADIL++A + + GE+ YYLPFT S++K WI + D   +  G+A IDGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|515029886|ref|WP_016687140.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016687140</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.872</Hsp_bit-score>
+      <Hsp_score>847</Hsp_score>
+      <Hsp_evalue>3.5728e-110</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEE-LYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MENTQTPPRWRFALKNAGWHLVVSLILAGLAALLVFAVWYPYPYSELTGGLNLYTLVVSVDIVCGPLLTLILASPKKKLRERITDFSLVGIIQLAALVYGLHSVSLARPVVAAFEKDRINIVTAAEIDEADLAKAPEDMRQLPWFGIERVALRDPASIEEANESLSLSLKGIEPSMRPNWWQPDSPAERAKIRSAMKPLVQLAIARNMSEADILKTASVKQTDKPLFFLPLTSGKIKNWIVVMDENADFLGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MEN +T PRWRFALK+AGWHL++SL++AGLAALLVF VWYPYPY+ELTGGL+LY LVV+VDIVCGPLLTLILASPKKK + R+ DFS+VGIIQLAAL YGLHSVSLARPVV AFE+DR+ IVTAAE+   DL KAPE ++ L WFGI R+AL++P   +E N++L LSLKGIEPSMRP+ W P S  E  KIR  +KPL  LA AR  + ADILK A + + ++ L++LP TS + K WIV+ D+  +  GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|489837912|ref|WP_003741623.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria mucosa] &gt;gi|288567762|gb|EFC89322.1| fimbrial assembly protein, serogroup E1 family protein [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003741623</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>1.04337e-108</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEE-LYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MENTQTPSRWRFALKNAGWHLVVSLILAGLAALLVFAVWYPYPYSELTGGLNLYTLVVSVDIVCGPLLTLILASPKKKLRERITDFSLVGIIQLAALVYGLHSVSLARPVVAAFEKDRINIVTAAEIDEADLAKAPEEMRQLPWFGIERVALRDPASIEEANESLSLSLKGIEPSMRPNWWQPDSPAERAKIRSAMKPLVQLAIARNMNEADILKTASVKQTDKPLFFLPLTSGKIKNWIVVMDENADFLGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MEN +T  RWRFALK+AGWHL++SL++AGLAALLVF VWYPYPY+ELTGGL+LY LVV+VDIVCGPLLTLILASPKKK + R+ DFS+VGIIQLAAL YGLHSVSLARPVV AFE+DR+ IVTAAE+   DL KAPE ++ L WFGI R+AL++P   +E N++L LSLKGIEPSMRP+ W P S  E  KIR  +KPL  LA AR    ADILK A + + ++ L++LP TS + K WIV+ D+  +  GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|746364534|ref|WP_039409021.1|</Hit_id>
+  <Hit_def>fimb protein [Morococcus cerebrosus] &gt;gi|742694088|gb|KIC06587.1| fimb protein [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_039409021</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>1.59506e-108</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEE-LYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MENTQTPSRWRFALKNAGWHLVVSLILAGLAALLVFAVWYPYPYSELTGGLNLYTLVVSVDIVCGPLLTLILASPKKKLRERITDFSLVGIIQLAALVYGLHSVSLARPVVAAFEKDRINIVTAAEIDEADLAKAPEEMHQLPWFGIERVALRDPATVEEANESLSLSLKGIEPSMRPNWWQPDSPAERAKIRSAMKPLAELAIARNMSEADILKATSVKQADKPLFFLPLTSGKIKNWIVVMDENADFLGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MEN +T  RWRFALK+AGWHL++SL++AGLAALLVF VWYPYPY+ELTGGL+LY LVV+VDIVCGPLLTLILASPKKK + R+ DFS+VGIIQLAAL YGLHSVSLARPVV AFE+DR+ IVTAAE+   DL KAPE +  L WFGI R+AL++P   +E N++L LSLKGIEPSMRP+ W P S  E  KIR  +KPL  LA AR  + ADILK   + + ++ L++LP TS + K WIV+ D+  +  GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|518100170|ref|WP_019270378.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_019270378</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>8.7115e-108</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGLAEGEE-LYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MENTQTPSRWRFALKNAGWHLVVSLILAGLAALLVFAVWYPYPYSELTGGLNLYTLVVSVDIVCGPLLTLILASPKKKLRERITDFSLVGIIQLAALIYGLHSVSLARPVVAAFEKDRINIVTAAEIDEADLAKAPEEMRQLPWFGIERVALRDPASIEEANESLSLSLKGIEPSMRPNWWQPDSPAERAKIRSAMKPMVQLAIARNMSEADILKTASDKQTDKPLFFLPLTSGKIKNWIVVMDENADFLGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>MEN +T  RWRFALK+AGWHL++SL++AGLAALLVF VWYPYPY+ELTGGL+LY LVV+VDIVCGPLLTLILASPKKK + R+ DFS+VGIIQLAAL YGLHSVSLARPVV AFE+DR+ IVTAAE+   DL KAPE ++ L WFGI R+AL++P   +E N++L LSLKGIEPSMRP+ W P S  E  KIR  +KP+  LA AR  + ADILK A   + ++ L++LP TS + K WIV+ D+  +  GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|224953095|gb|EEG34304.1|</Hit_id>
+  <Hit_def>hypothetical protein NEIFLAOT_00592 [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>EEG34304</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>1.93286e-103</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGL-AEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MLISLILAGLAALLVFGVWYPYPYAELTGGLALYKLVISVDIVCGPLLTLILASPSKKLKERIVDFSLIGMIQLAALIYGLYSVSLARPVVVAFETDRMNVVTAAEIDVNDLSYAPKDLQDLSLFGVRRVGLREATSPDEANQSLDLSLKGIEPSMRPSWWLPDSQQEREKIRKAMKPLSVLAKAHSMSEESIFKQASLENDGKELYFLPFTSARSKEWVVILNEQADFLGYAPIDGFI</Hsp_hseq>
+      <Hsp_midline>+LISL++AGLAALLVF VWYPYPYAELTGGL+LY+LV++VDIVCGPLLTLILASP KK K R+VDFS++G+IQLAAL YGL+SVSLARPVV AFE DRM +VTAAE+ V DL  AP+ LQ LS FG+RR+ L+E    DE N++LDLSLKGIEPSMRP  WLP S +E EKIRK +KPL VLA A   +   I KQA L  +G+ELY+LPFTS+R KEW+VI +++ +  GYAPIDGFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|489872713|ref|WP_003776244.1|</Hit_id>
+  <Hit_def>fimbrial assembly protein fimb [Neisseria macacae] &gt;gi|339888821|gb|EGQ78250.1| fimbrial assembly protein [Neisseria macacae ATCC 33926]</Hit_def>
+  <Hit_accession>WP_003776244</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.67687e-100</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGL-AEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MENTQHVSRWRFAVKSASLHLLVSLVLAGLAALLVFEVWYPFPYAELTGGLDLYKLVVSVDIVCGPLLTLILASPKKKMRERVVDFSLIGAIQLAALIYGLYSVSLARPVAAAFERDRINIVTAAEIDKADLAKAKDGFKTLPWFGIERVGVREAANVDEGNESLSLSLKGIEPSMRPNWWLPDGPAEREKIRRVMKPLSELAAARNMSEADIVKSAKVSASGKPLFFLPLTSGRTKDWVVIMDENADFVGYAPIDGFM</Hsp_hseq>
+      <Hsp_midline>MEN +   RWRFA+KSA  HLL+SL++AGLAALLVF+VWYP+PYAELTGGL LY+LVV+VDIVCGPLLTLILASPKKK + R+VDFS++G IQLAAL YGL+SVSLARPV  AFE+DR+ IVTAAE+   DL KA +G ++L WFGI R+ ++E  + DE N++L LSLKGIEPSMRP+ WLP    E EKIR+ +KPL  LA AR  + ADI+K A + A G+ L++LP TS R K+W+VI D+  +  GYAPIDGF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|489863186|ref|WP_003766801.1|</Hit_id>
+  <Hit_def>MULTISPECIES: fimbrial assembly protein fimb [Neisseria] &gt;gi|348610439|gb|EGY60131.1| hypothetical protein HMPREF1028_00166 [Neisseria sp. GT4A_CT1] &gt;gi|385697098|gb|EIG27548.1| hypothetical protein HMPREF1051_1905 [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003766801</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>8.28709e-100</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MENGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGL-AEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>MENTQHVSRWRFAVKSASLHLLVSLVLAGLAALLVFEVWYPFPYAELTGGLDLYKLVVSVDIVCGPLLTLILASPKKKMRERVVDFSLIGAIQLAALIYGLYSVSLARPVAAAFERDRINIVTAAEIDKADLAKAKDGFKTLPWFGIERVGVREAANVDEGNESLSLSLTGIEPSMRPNWWLPDGPAEREKIRRVMKPLSELAAARNMSEADIVKSAKVSASGKPLFFLPLTSGRTKDWVVIMDENADFVGYAPIDGFM</Hsp_hseq>
+      <Hsp_midline>MEN +   RWRFA+KSA  HLL+SL++AGLAALLVF+VWYP+PYAELTGGL LY+LVV+VDIVCGPLLTLILASPKKK + R+VDFS++G IQLAAL YGL+SVSLARPV  AFE+DR+ IVTAAE+   DL KA +G ++L WFGI R+ ++E  + DE N++L LSL GIEPSMRP+ WLP    E EKIR+ +KPL  LA AR  + ADI+K A + A G+ L++LP TS R K+W+VI D+  +  GYAPIDGF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|494575489|ref|WP_007341314.1|</Hit_id>
+  <Hit_def>fimb protein [Neisseria bacilliformis] &gt;gi|327465822|gb|EGF12095.1| FimB like protein [Neisseria bacilliformis ATCC BAA-1200]</Hit_def>
+  <Hit_accession>WP_007341314</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>9.66394e-67</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>RWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADA--RKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGF</Hsp_qseq>
+      <Hsp_hseq>RWRFALRMALIHLGINVVVALLVAALIFGVWYPQPYPELMGGLKLLGLIVAVDMVCGPVLTSVLANPKKPKREMATDLSLVAVIQLAALIYGLHAVAQARPVFVAFEADRFTVVSAAEIDRDKLAEALPEFRSLPWWGVKRIGLRDPKDGNEKLSSLQMSLQGVEPSARPDWWMEETAAYRERIRKKMKPLADLEKMYLNNADLAAAVKRSALPP-QDLYYLPFTSQKNKSWTVLMDKNTDFKAFVHLDAF</Hsp_hseq>
+      <Hsp_midline>RWRFAL+ A  HL I+++VA L A L+F VWYP PY EL GGL L  L+VAVD+VCGP+LT +LA+PKK  +    D S+V +IQLAAL YGLH+V+ ARPV  AFE DR T+V+AAE+  + L +A    +SL W+G++RI L++P+D +EK  +L +SL+G+EPS RPD W+  +    E+IRK +KPL  L         +A  +K++ L   ++LYYLPFTS + K W V+ DK  + K +  +D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|750384022|ref|WP_040665934.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria elongata] &gt;gi|747147364|gb|AJE17747.1| hypothetical protein NELON_01835 [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>WP_040665934</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>7.50973e-64</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>NGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTT---VADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGF</Hsp_qseq>
+      <Hsp_hseq>HSKQTRNWRFSFKALFFHFVISMVLMALLSVLVFAVWYPAPYFDLMGSWHLILMIAGVDLVCGPILTLIAANSNKSRQELIRDFAIIAVIQLCALAYGIYALAQSRPVADVFDKDRFYVVTALQIEPDRLKKAPEGMNHLPLFGMIKAGTRGAQNNKEFLDGIDLSLAGIPPAVRPDWWTPEND-AADKIAKAKLPLSKLLAAKPDTRPVIENTLKQKNI---DELYYLPFTAEKNLDWIVILDKNNQRLAYAPVDGF</Hsp_hseq>
+      <Hsp_midline>+ K    WRF+ K+  +H +IS+++  L ++LVF VWYP PY +L G   L  ++  VD+VCGP+LTLI A+  K  +  + DF+++ +IQL ALAYG+++++ +RPV + F++DR  +VTA ++  + L KAPEG+  L  FG+ +   +  ++  E    +DLSL GI P++RPD W P +D  A+KI K   PL  L  A+  T   + + LKQ  +   +ELYYLPFT+ +  +WIVI DK      YAP+DGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|291308343|gb|EFE49586.1|</Hit_id>
+  <Hit_def>hypothetical protein NEIELOOT_01677 [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>EFE49586</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>7.88128e-64</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>NGKTFPRWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTT---VADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGF</Hsp_qseq>
+      <Hsp_hseq>HSKQTRNWRFSFKALFFHFVISMVLMALLSVLVFAVWYPAPYFDLMGSWHLILMIAGVDLVCGPILTLIAANSNKSRQELIRDFAIIAVIQLCALAYGIYALAQSRPVADVFDKDRFYVVTALQIEPDRLKKAPEGMNHLPLFGMIKAGTRGAQNNKEFLDGIDLSLAGIPPAVRPDWWTPEND-AADKIAKAKLPLSKLLAAKPDTRPVIENTLKQKNI---DELYYLPFTAEKNLDWIVILDKNNQRLAYAPVDGF</Hsp_hseq>
+      <Hsp_midline>+ K    WRF+ K+  +H +IS+++  L ++LVF VWYP PY +L G   L  ++  VD+VCGP+LTLI A+  K  +  + DF+++ +IQL ALAYG+++++ +RPV + F++DR  +VTA ++  + L KAPEG+  L  FG+ +   +  ++  E    +DLSL GI P++RPD W P +D  A+KI K   PL  L  A+  T   + + LKQ  +   +ELYYLPFT+ +  +WIVI DK      YAP+DGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|255047554|gb|EET43018.1|</Hit_id>
+  <Hit_def>fimbrial assembly protein, serogroup E1 family protein [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>EET43018</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>7.88925e-63</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>KARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADILKQAGL-AEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGFI</Hsp_qseq>
+      <Hsp_hseq>RERVVDFSLIGAIQLAALIYGLYSVSLARPVAAAFERDRINIVTAAEIDKADLAKAKDGFKTLPWFGIERVGVREAANVDEGNESLSLSLTGIEPSMRPNWWLPDGPAEREKIRRVMKPLSELAAARNMSEADIVKSAKVSASGKPLFFLPLTSGRTKDWVVIMDENADFVGYAPIDGFM</Hsp_hseq>
+      <Hsp_midline>+ R+VDFS++G IQLAAL YGL+SVSLARPV  AFE+DR+ IVTAAE+   DL KA +G ++L WFGI R+ ++E  + DE N++L LSL GIEPSMRP+ WLP    E EKIR+ +KPL  LA AR  + ADI+K A + A G+ L++LP TS R K+W+VI D+  +  GYAPIDGF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|736687539|ref|WP_034693292.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acidovorax sp. NO-1]</Hit_def>
+  <Hit_accession>WP_034693292</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>3.26559e-62</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>RWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVL-----ADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTK-GYAPIDGF</Hsp_qseq>
+      <Hsp_hseq>RYRAALKASAAHLLVTILVATLAAILVFYVWYPWPFYEIVSGRELFWLVIGVDVVCGPLLTMVLWNPTKSARELALDMSLVGLIQVAALAYGMSTVTDTRPVRLVFEVDRIRLVSAAEVNHAQLEQAVKGLQNLPWLGPVLVGIREPKSNQEMLESIDLSLEGVEPSLRPDWWQPYV-LSVPQVLKAGRSIAVLRANRPADADRI---DAAVRATKTPESELLWLPLTAGRSFDWVVILHKESALPVSYARVDGF</Hsp_hseq>
+      <Hsp_midline>R+R ALK++  HLL+++LVA LAA+LVF VWYP+P+ E+  G  L+ LV+ VD+VCGPLLT++L +P K  +   +D S+VG+IQ+AALAYG+ +V+  RPV   FE DR+ +V+AAEV    L +A +GLQ+L W G   + ++EP+   E  +++DLSL+G+EPS+RPD W PY      ++ K  + + VL     ADA +    D   +A      EL +LP T+ R  +W+VI  KE      YA +DGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|496982665|ref|WP_009427045.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria sp. oral taxon 020] &gt;gi|429161745|gb|EKY04121.1| hypothetical protein HMPREF9120_02418 [Neisseria sp. oral taxon 020 str. F0370]</Hit_def>
+  <Hit_accession>WP_009427045</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>1.9247e-61</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>RWRFALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADAR--KTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTKGYAPIDGF</Hsp_qseq>
+      <Hsp_hseq>RWRFALRLASIHLLINILVAAVVAALVFFVWYPQPYPDLMGGLQIFGLIVAVDIICGPVLTSVLANPAKPKRETVTDLLLVGMIQAAALLYGLYTVTAVRPVWVVFENDRFTTVSAAEIDKNRLNEALPEFRQLPWTGVKRIAVRDSKSGDEELARIEMSMQGIEPRMLPAWWEAENETHRDRIRSKMRPVAELEKRYPGHPALAQAISKSGLPSA-DLYYLPFTSQENKDWTVLLDKNTDFKAFAPLDAF</Hsp_hseq>
+      <Hsp_midline>RWRFAL+ A  HLLI++LVA + A LVF VWYP PY +L GGL ++ L+VAVDI+CGP+LT +LA+P K  +  + D  +VG+IQ AAL YGL++V+  RPV   FE DR T V+AAE+    L++A    + L W G++RIA+++ +  DE+   +++S++GIEP M P  W   ++   ++IR  ++P+  L         +A  + ++GL    +LYYLPFTS   K+W V+ DK  + K +AP+D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|512036426|gb|EPD36259.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF9701_04862 [Delftia acidovorans CCUG 274B]</Hit_def>
+  <Hit_accession>EPD36259</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>1.58042e-60</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>TFPRWR-FALKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVLADARKTTVADI---LKQAGLAEGEELYYLPFTSSRQKEWIVITDKE-GNTKGYAPIDGF</Hsp_qseq>
+      <Hsp_hseq>TLPQRRQAAFRATSIHLLTSLFVAVPVAALVFYLWFPYPYRELSGGRELFWLIIGVDVVCGPLLTGVLFNPQKSWRELILDLGLVALIQLAALIYGLHTLSQARPVYLVFEVDRFRVVTVADVDNKSLHPEQGGLHVLPWTGPRIIGTRAPHDSKEYIDSLDMSLGGLDPSMRPDWWQPYEKNKPDALKRAQK-LETLRNKRPSQTALIEKAVRDSGLSEA-ALAWLPVTSFLSTGWVALIDNQTAEVKAFAPLDGF</Hsp_hseq>
+      <Hsp_midline>T P+ R  A ++   HLL SL VA   A LVF +W+PYPY EL+GG  L+ L++ VD+VCGPLLT +L +P+K  +  ++D  +V +IQLAAL YGLH++S ARPV   FE DR  +VT A+V  + LH    GL  L W G R I  + P D+ E   +LD+SL G++PSMRPD W PY   + + +++  K L+ L + R +  A I   ++ +GL+E   L +LP TS     W+ + D +    K +AP+DGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|363416741|gb|EHL23839.1|</Hit_id>
+  <Hit_def>hypothetical protein KYG_05539 [Acidovorax sp. NO-1]</Hit_def>
+  <Hit_accession>EHL23839</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>4.31692e-60</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LKSAGWHLLISLLVAGLAALLVFKVWYPYPYAELTGGLSLYQLVVAVDIVCGPLLTLILASPKKKTKARMVDFSMVGIIQLAALAYGLHSVSLARPVVEAFEQDRMTIVTAAEVVVEDLHKAPEGLQSLSWFGIRRIALKEPEDADEKNKTLDLSLKGIEPSMRPDRWLPYSDKEAEKIRKHLKPLKVL-----ADARKTTVADILKQAGLAEGEELYYLPFTSSRQKEWIVITDKEGNTK-GYAPIDGF</Hsp_qseq>
+      <Hsp_hseq>MKASAAHLLVTILVATLAAILVFYVWYPWPFYEIVSGRELFWLVIGVDVVCGPLLTMVLWNPTKSARELALDMSLVGLIQVAALAYGMSTVTDTRPVRLVFEVDRIRLVSAAEVNHAQLEQAVKGLQNLPWLGPVLVGIREPKSNQEMLESIDLSLEGVEPSLRPDWWQPYV-LSVPQVLKAGRSIAVLRANRPADADRI---DAAVRATKTPESELLWLPLTAGRSFDWVVILHKESALPVSYARVDGF</Hsp_hseq>
+      <Hsp_midline>+K++  HLL+++LVA LAA+LVF VWYP+P+ E+  G  L+ LV+ VD+VCGPLLT++L +P K  +   +D S+VG+IQ+AALAYG+ +V+  RPV   FE DR+ +V+AAEV    L +A +GLQ+L W G   + ++EP+   E  +++DLSL+G+EPS+RPD W PY      ++ K  + + VL     ADA +    D   +A      EL +LP T+ R  +W+VI  KE      YA +DGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

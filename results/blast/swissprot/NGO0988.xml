@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>23209</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F814</BlastOutput_query-def>
+  <BlastOutput_query-len>289</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>23209</Iteration_query-ID>
+  <Iteration_query-def>Q5F814</Iteration_query-def>
+  <Iteration_query-len>289</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|121729558|sp|Q46EW4.1|OGT_METBF</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Methanosarcina barkeri str. Fusaro]</Hit_def>
+  <Hit_accession>Q46EW4</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>1.08644e-38</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>IATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQ</Hsp_qseq>
+      <Hsp_hseq>IESPIGPILLAGNEKGLKHLDFLKGK---KRIEIPADWIENKKFFREAAR------QLEAYFSGKLESFDLKLAPEGTDFQKSVWKALCEIPYGETRTYKEIAVSIGKPRAYRAVGLANNRNPIAIIIPCHRVIGSDGKLTGYASGLDIKEFLLKLEENNLR</Hsp_hseq>
+      <Hsp_midline>I +P+G +L     KGL  L+F+  K   + I      +  +  FRE  R      +L+ YF G L++F   L   GT+FQK  W AL  IPYGETR+YKE A  +G P+A RAV  AN +N ++++IPCHRVIGSDGKLTGYA GL+ K+FLL LE   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|47117024|sp|Q8TI34.1|OGT_METAC</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Methanosarcina acetivorans C2A]</Hit_def>
+  <Hit_accession>Q8TI34</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>6.24306e-38</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>AAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>AIFESPIGPILLAGDEEGLKYVNFMKGK---KKIEVPDSWVENEEFFREASR------QLEAYFAGELKSFDVKLAPEGTEFQKSVWNALKEIPYGETRTYGEIAKNIGNPKASRAVGLANNRNPIAIIVPCHRVIGANGKLTGYASGLDIKEFLLKLE</Hsp_hseq>
+      <Hsp_midline>A   +P+G +L     +GL  + F+  K   ++I      +     FRE  R      +L+ YF G LK+F   L   GTEFQK  W+AL  IPYGETR+Y E A+ +GNPKA RAV  AN +N +++++PCHRVIG++GKLTGYA GL+ K+FLL LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1709457|sp|P52982.1|OGT_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>P52982</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>7.43984e-38</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>CAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTAL</Hsp_qseq>
+      <Hsp_hseq>CRSMDSPIGPLILAGHGSVLTNLQMVDQTYEPSRVGWLP----------ENGAFAEAVSQLDAYFAGELTEFAIELDLCGTEFQQRVWQALLTIPYGETRSYGEIAEQVGAPGAARAVGLANSRNPIAIIVPCHRVIGASGQLIGYGGGLNRKLTLLELEKHQVLTSL</Hsp_hseq>
+      <Hsp_midline>C ++ +P+G ++       L  L+ V Q Y    +  +           E+G       +LD YF G L  FA  L+  GTEFQ++ W ALL IPYGETRSY E A+++G P A RAV  AN +N +++++PCHRVIG+ G+L GY GGLNRK  LL LE+ +V T+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|47117022|sp|Q8PY44.1|OGT_METMA</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Methanosarcina mazei Go1]</Hit_def>
+  <Hit_accession>Q8PY44</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>1.05184e-35</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>IATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQ</Hsp_qseq>
+      <Hsp_hseq>IKSPIYPILLAGDEKGLKHLIFLKD---ERKAKIPNDWVENKDFFRE------VSNQLEAYFSGKLKTFDVKLAPQGTEFQKSVWKALCEIPCGETRTYGEIAKRIQNPKAYRAVGLANNRNPIAIIVPCHRVIGANGKLTGYASGLDIKEFLLKLEENNLK</Hsp_hseq>
+      <Hsp_midline>I +P+  +L     KGL  L F+     E++       +  +  FRE      +  +L+ YF G LKTF   L   GTEFQK  W AL  IP GETR+Y E A+R+ NPKA RAV  AN +N +++++PCHRVIG++GKLTGYA GL+ K+FLL LE   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|13431733|sp|Q9ZET8.1|OGT_MYCPA</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Mycobacterium avium subsp. paratuberculosis K-10]</Hit_def>
+  <Hit_accession>Q9ZET8</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>5.34616e-35</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>QELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALER</Hsp_qseq>
+      <Hsp_hseq>EQLGAYFAGELTEFDIELDLRGSEFQRRVWRALQTIPYGETRSYGEIAEQIGAPGAARAVGLANGHNPIAIVVPCHRVIGASGKLTGYGGGLDRKQTLLALER</Hsp_hseq>
+      <Hsp_midline>++L  YF G L  F   L+  G+EFQ++ W AL  IPYGETRSY E A+++G P A RAV  ANG N +++++PCHRVIG+ GKLTGY GGL+RKQ LLALER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|61229333|sp|P0A697.1|OGT_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Mycobacterium bovis AF2122/97] &gt;gi|614101045|sp|P9WJW4.1|OGT_MYCTO RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Mycobacterium tuberculosis CDC1551] &gt;gi|614101051|sp|P9WJW5.1|OGT_MYCTU RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P0A697</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.74488e-34</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>QELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALER</Hsp_qseq>
+      <Hsp_hseq>DQLNAYFAGELTEFDVELDLRGTDFQQRVWKALLTIPYGETRSYGEIADQIGAPGAARAVGLANGHNPIAIIVPCHRVIGASGKLTGYGGGINRKRALLELEK</Hsp_hseq>
+      <Hsp_midline> +L+ YF G L  F   L+  GT+FQ++ W ALL IPYGETRSY E A ++G P A RAV  ANG N +++++PCHRVIG+ GKLTGY GG+NRK+ LL LE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|118247|sp|P11742.1|OGT_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase, constitutive; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P11742</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>8.70503e-32</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>TPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNR-KQFLLALER</Hsp_qseq>
+      <Hsp_hseq>TPLGELIIAEEEDRITRL------FLSQEDWVDWKETVQNTEHKETPNLAEAKQQLQEYFAGERKTFSLPLSQKGTPFQQKVWQALERIPYGESRSYADIAAAVGSPKAVRAVGQANKRNDLPIFVPCHRVIGKNSALTGYAGSKTEIKAFLLNIER</Hsp_hseq>
+      <Hsp_midline>TPLGE++       +  L      +L QE     K        +E   +   +Q+L  YF G  KTF+ PL Q GT FQ++ W AL  IPYGE+RSY + A  +G+PKAVRAV  AN +N + + +PCHRVIG +  LTGYAG     K FLL +ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|113335|sp|P19220.1|ADAB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase, inducible; AltName: Full=O-6-methylguanine-DNA alkyltransferase; AltName: Full=O6-methylguanine-DNA methyltransferase; Short=MGMT [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P19220</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.78784e-31</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>VKGLCLLEFVG--QKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALER</Hsp_qseq>
+      <Hsp_hseq>LKGLV---FVGSQNKPIEELFEWARKRFPGSLLVEDDDKLEPYAVEITQYLEGKRKNFTVPVEYAGTQFQLAVWNALCEIPYGQTKSYSDIANDINKPAAVRAVGAAIGANPVLITVPCHRVIGKNGSLTGYRGGFEMKTLLLDLEK</Hsp_hseq>
+      <Hsp_midline>+KGL    FVG   K +E+     +K   G  +  +D +++    E+  Y +G  K F  P+E  GT+FQ   W+AL  IPYG+T+SY + A  +  P AVRAV AA G N V + +PCHRVIG +G LTGY GG   K  LL LE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|47117798|sp|P44687.2|OGT_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44687</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>7.17766e-28</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>LNELVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFAT-PLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALER</Hsp_qseq>
+      <Hsp_hseq>MTALYYTYYPSPVGRLLILSDGESITHIDFEKEQYAPNPKWHKQDELP---VF------QKVRLAFERYFNGEVECFSNIPLKPEGTAFQQAIWQALREIDYGELSTYGELALRINNPKAVRAVGGAVGSNPISIIIPCHRILGKDRTLTGFGGGLEAKRFLLQLEK</Hsp_hseq>
+      <Hsp_midline>+  L      +P+G +L +   + +  ++F  ++Y        Q  L    VF      Q +R   + YF G ++ F+  PL+  GT FQ+  W AL  I YGE  +Y E A R+ NPKAVRAV  A G N +S++IPCHR++G D  LTG+ GGL  K+FLL LE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|84027827|sp|P0AFH0.1|OGT_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Escherichia coli K-12] &gt;gi|84027828|sp|P0AFH1.1|OGT_SHIFL RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AFH0</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>4.37044e-26</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>LRQELDLYFKGHLKTFAT-PLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LSDKLREYFAGNLSIIDTLPTATGGTPFQREVWKTLRTIPCGQVMHYGQLAEQLGRPGAARAVGAANGSNPISIVVPCHRVIGRNGTMTGYAGGVQRKEWLLRHE</Hsp_hseq>
+      <Hsp_midline>L  +L  YF G+L    T P    GT FQ++ W  L  IP G+   Y + A++LG P A RAV AANG N +S+++PCHRVIG +G +TGYAGG+ RK++LL  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|60392854|sp|P0A2U0.1|OGT_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|60392855|sp|P0A2U1.1|OGT_SALTI RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P0A2U0</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>8.42812e-26</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>LRQELDLYFKGHLKTFATPLEQI--GTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LSDKLADYFAGNLAVIDT-LETATGGTPFQREVWQALRAIPCGQVMHYGQLAAQLGRPGAARAVGAANGANPISIVVPCHRVIGRNGTLTGYAGGVQRKEWLLRHE</Hsp_hseq>
+      <Hsp_midline>L  +L  YF G+L    T LE    GT FQ++ W AL AIP G+   Y + A +LG P A RAV AANG N +S+++PCHRVIG +G LTGYAGG+ RK++LL  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81999705|sp|Q5UNU9.1|MGMT_MIMIV</Hit_id>
+  <Hit_def>RecName: Full=Probable methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Acanthamoeba polyphaga mimivirus]</Hit_def>
+  <Hit_accession>Q5UNU9</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>3.17905e-24</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>LDLYFKGHLKTFAT-PLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQ</Hsp_qseq>
+      <Hsp_hseq>LHKYFKGQNDYFTNLDLELKGTPFQRKVWKQILEIPFGETRTYSDIAMAIGNPKAVRAVANACGANPIAIIVPCHRVVGKNND-GGYEYGLEKKLWLLDFEKKNTQ</Hsp_hseq>
+      <Hsp_midline>L  YFKG    F    LE  GT FQ++ W  +L IP+GETR+Y + A  +GNPKAVRAVA A G N +++++PCHRV+G +    GY  GL +K +LL  E+   Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|461468|sp|P06134.2|ADA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional transcriptional activator/DNA repair enzyme Ada; AltName: Full=Regulatory protein of adaptive response; Includes: RecName: Full=Methylphosphotriester-DNA--protein-cysteine S-methyltransferase; AltName: Full=Methylphosphotriester-DNA methyltransferase; Includes: RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=O6-methylguanine-DNA alkyltransferase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P06134</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>1.4158e-22</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>DLYFKGHLKT-----------FATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>DLMFQQHVREVIASLNQRDTPLTLPLDIRGTAFQQQVWQALRTIPCGETVSYQQLANAIGKPKAVRAVASACAANKLAIIIPCHRVVRGDGTLSGYRWGVSRKAQLLRRE</Hsp_hseq>
+      <Hsp_midline>DL F+ H++               PL+  GT FQ+Q W AL  IP GET SY++ A  +G PKAVRAVA+A   NK++++IPCHRV+  DG L+GY  G++RK  LL  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|20141175|sp|P26189.2|ADA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Regulatory protein ada; AltName: Full=Regulatory protein of adaptive response; Contains: RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=O-6-methylguanine-DNA alkyltransferase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P26189</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.86439e-22</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>FATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LSLPLDIQGTAFQQQVWQALCAIPCGETVSYQQLAATIGKPTAVRAVASACGANKLAMVIPCHRVVRRDGALSGYRWGVRRKAQLLKRE</Hsp_hseq>
+      <Hsp_midline> + PL+  GT FQ+Q W AL AIP GET SY++ A  +G P AVRAVA+A G NK++++IPCHRV+  DG L+GY  G+ RK  LL  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|74606110|sp|Q6CPW2.1|MGMT_KLULA</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=DNA repair MTase; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Kluyveromyces lactis NRRL Y-1140]</Hit_def>
+  <Hit_accession>Q6CPW2</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>2.10888e-21</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>IGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERG</Hsp_qseq>
+      <Hsp_hseq>LGTEFQKKVWETTKTIKAGATISYQQLAVLLGNPKAVRAIGSALAKNNIAVVIPCHRIIGSKGKLTGFRWGIELKESLLRQEQA</Hsp_hseq>
+      <Hsp_midline>+GTEFQK+ W+    I  G T SY++ A  LGNPKAVRA+ +A  +N ++V+IPCHR+IGS GKLTG+  G+  K+ LL  E+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|189081913|sp|A5E7M8.1|MGMT_LODEL</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=DNA repair MTase; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Lodderomyces elongisporus NRRL YB-4239]</Hit_def>
+  <Hit_accession>A5E7M8</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.35616e-20</Hsp_evalue>
+      <Hsp_query-from>195</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>PLEQI-GTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPK-AVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQTAL</Hsp_qseq>
+      <Hsp_hseq>PIEFIFGTELQRKVWQQLLEIPVGEVRYYGNIVEALGLPKSASRAVGNACGANKIALVVPCHRVIAQTGKLTGYRWGLATKKQILKMELGDAYTTL</Hsp_hseq>
+      <Hsp_midline>P+E I GTE Q++ W  LL IP GE R Y    + LG PK A RAV  A G NK+++++PCHRVI   GKLTGY  GL  K+ +L +E G+  T L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|189081914|sp|A3LZM4.1|MGMT_PICST</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=DNA repair MTase; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Scheffersomyces stipitis CBS 6054]</Hit_def>
+  <Hit_accession>A3LZM4</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>6.11398e-18</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GTEFQKQAWDALLA-IPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGE</Hsp_qseq>
+      <Hsp_hseq>GTPLQRKVWDYLVNELPVGSISTYQKIAQHLGMPNSSRAIGNCVGANRIAVVIPCHRVIGSSGKITGYRYGTNIKKTILQNELGS</Hsp_hseq>
+      <Hsp_midline>GT  Q++ WD L+  +P G   +Y++ AQ LG P + RA+    G N+++V+IPCHRVIGS GK+TGY  G N K+ +L  E G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|189081915|sp|A6ZXD3.1|MGMT_YEAS7</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=DNA repair MTase; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Saccharomyces cerevisiae YJM789]</Hit_def>
+  <Hit_accession>A6ZXD3</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>7.34907e-18</Hsp_evalue>
+      <Hsp_query-from>193</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>ATPLEQI-GTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALER</Hsp_qseq>
+      <Hsp_hseq>AIPFEFLFGTDFQRKVWNELLNVEHGHVATYGDIAKRIGKPTAARSVGRACGSNNLALLVPCHRIVGSNRKLTGYKWSCKLKEQLLNNEK</Hsp_hseq>
+      <Hsp_midline>A P E + GT+FQ++ W+ LL + +G   +Y + A+R+G P A R+V  A G N +++++PCHR++GS+ KLTGY      K+ LL  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|189047129|sp|P26188.3|MGMT_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=DNA repair MTase; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P26188</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>8.72636e-18</Hsp_evalue>
+      <Hsp_query-from>193</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>ATPLEQI-GTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALER</Hsp_qseq>
+      <Hsp_hseq>AIPFEFLFGTDFQRKVWNELLNVEHGHVVTYGDIAKRIGKPTAARSVGRACGSNNLALLVPCHRIVGSNRKLTGYKWSCKLKEQLLNNEK</Hsp_hseq>
+      <Hsp_midline>A P E + GT+FQ++ W+ LL + +G   +Y + A+R+G P A R+V  A G N +++++PCHR++GS+ KLTGY      K+ LL  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|74585557|sp|Q5A0Y8.1|MGMT_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=DNA repair MTase; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>Q5A0Y8</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>5.00017e-17</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>GTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>GTPLQRKVWKELVKIPAGQTRTYKELADLLGTHS--RVIGNCCGANRIAVLIPCHRVVGANNKLTGYRWGKSYKEYLLKQE</Hsp_hseq>
+      <Hsp_midline>GT  Q++ W  L+ IP G+TR+YKE A  LG     R +    G N+++V+IPCHRV+G++ KLTGY  G + K++LL  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|218511694|sp|Q6BVY4.2|MGMT_DEBHA</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=DNA repair MTase; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Debaryomyces hansenii CBS767]</Hit_def>
+  <Hit_accession>Q6BVY4</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.44742e-16</Hsp_evalue>
+      <Hsp_query-from>195</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PLEQI-GTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALERGEVQ</Hsp_qseq>
+      <Hsp_hseq>PYEFIFGTELQRKVWNQLMNTNASETVCYSQMASNLGMPKSSRVVGAACGANKIALFVPCHRALTKSGQISGYRWGVPLKQRLLKLEQKPLQ</Hsp_hseq>
+      <Hsp_midline>P E I GTE Q++ W+ L+     ET  Y + A  LG PK+ R V AA G NK+++ +PCHR +   G+++GY  G+  KQ LL LE+  +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|74609208|sp|Q6FNR0.1|MGMT_CANGA</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=DNA repair MTase; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Candida glabrata CBS 138]</Hit_def>
+  <Hit_accession>Q6FNR0</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>3.95397e-15</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALER</Hsp_qseq>
+      <Hsp_hseq>GTSLQHRIWDELVKIPHGKVTTYKEIADKLKIKNGSRAIGSGIGSNNIAIVIPCHRVVCSNGTLSGYKWSTSLKRKLLEREH</Hsp_hseq>
+      <Hsp_midline>GT  Q + WD L+ IP+G+  +YKE A +L      RA+ +  G N ++++IPCHRV+ S+G L+GY    + K+ LL  E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|75044366|sp|Q6TDU1.1|MGMT_CANFA</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>Q6TDU1</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.56475e-14</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LDLYFKGHLKTFATPLEQIGTE-FQKQAWDA------LLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LDAYFREPSVLPGLPLPAIHHPIFQRGSFTARVLRKLLELVKFGDTVSYQQLAALAGNPKAARAVGGAMRSNPVPILIPCHRVVCSSGAMGNYTGGLATKEWLLAHE</Hsp_hseq>
+      <Hsp_midline>LD YF+        PL  I    FQ+ ++ A      L  + +G+T SY++ A   GNPKA RAV  A   N V ++IPCHRV+ S G +  Y GGL  K++LLA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|47117032|sp|Q97VW7.1|OGT_SULSO</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Sulfolobus solfataricus P2] &gt;gi|259515392|sp|C4KKV8.1|OGT_SULIK RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Sulfolobus islandicus M.16.4] &gt;gi|259515395|sp|C3MKT6.1|OGT_SULIL RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Sulfolobus islandicus L.S.2.15] &gt;gi|259515399|sp|C3MUC6.1|OGT_SULIM RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Sulfolobus islandicus M.14.25] &gt;gi|259515406|sp|C3N9B4.1|OGT_SULIY RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Sulfolobus islandicus Y.G.57.14]</Hit_def>
+  <Hit_accession>Q97VW7</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>5.18465e-14</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>LVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LVYGLYKSPLGYITVAKDDKGFIMLDFC-------------DCVEGNS--RDDSSFTEFFHKLDLYFEGKPINLREPINLKTYPFRLSVFKEVMKIPWGKVMTYKQIADSLGT--SPRAVGMALSKNPILLIIPCHRVIAENG-IGGYSRGVKLKRALLELE</Hsp_hseq>
+      <Hsp_midline>LV     +PLG +      KG  +L+F                + G    R+D        +LDLYF+G       P+      F+   +  ++ IP+G+  +YK+ A  LG   + RAV  A  +N + ++IPCHRVI  +G + GY+ G+  K+ LL LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|127070|sp|P26187.3|MGMT_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Mus musculus]</Hit_def>
+  <Hit_accession>P26187</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>6.26156e-14</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>LDLYFKGHLKTFATPLEQIGTE-FQKQA------WDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNR-KQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LEAYFREPAATEGLPLPALHHPVFQQDSFTRQVLWKLLKVVKFGETVSYQQLAALAGNPKAARAVGGAMRSNPVPILIPCHRVVRSDGAIGHYSGGGQAVKEWLLAHE</Hsp_hseq>
+      <Hsp_midline>L+ YF+    T   PL  +    FQ+ +      W  L  + +GET SY++ A   GNPKA RAV  A   N V ++IPCHRV+ SDG +  Y+GG    K++LLA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|127069|sp|P16455.1|MGMT_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Homo sapiens]</Hit_def>
+  <Hit_accession>P16455</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>6.30356e-14</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>EFQKQA-WDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>SFTRQVLWKLLKVVKFGEVISYQQLAALAGNPKAARAVGGAMRGNPVPILIPCHRVVCSSGAVGNYSGGLAVKEWLLAHE</Hsp_hseq>
+      <Hsp_midline> F +Q  W  L  + +GE  SY++ A   GNPKA RAV  A   N V ++IPCHRV+ S G +  Y+GGL  K++LLA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|259515389|sp|C3N1B4.1|OGT_SULIA</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Sulfolobus islandicus M.16.27]</Hit_def>
+  <Hit_accession>C3N1B4</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>8.55242e-14</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>LVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LVYGLYKSPLGYITVAKDDKGFIMLDFC-------------DCVEGNS--RDDSSFTEFFHKLDLYFEGKPINLREPINLKTYPFRLSVFKEVMRIPWGKVMTYKQIADSLGT--SPRAVGMALSKNPILLIIPCHRVIAENG-IGGYSRGVKLKRALLELE</Hsp_hseq>
+      <Hsp_midline>LV     +PLG +      KG  +L+F                + G    R+D        +LDLYF+G       P+      F+   +  ++ IP+G+  +YK+ A  LG   + RAV  A  +N + ++IPCHRVI  +G + GY+ G+  K+ LL LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|259515403|sp|C3NMY2.1|OGT_SULIN</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Sulfolobus islandicus Y.N.15.51]</Hit_def>
+  <Hit_accession>C3NMY2</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.04505e-13</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>LVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LVYGLYKSPLGYITVAKDDKGFIMLDFC-------------DCVEGNS--RDDSSFTEFFHKLDLYFEGKPINLREPINLKTYPFRLSVFKEVMKIPWGKVMPYKQIADSLGT--SPRAVGMALSKNPILLIIPCHRVIAENG-IGGYSRGVKLKRALLELE</Hsp_hseq>
+      <Hsp_midline>LV     +PLG +      KG  +L+F                + G    R+D        +LDLYF+G       P+      F+   +  ++ IP+G+   YK+ A  LG   + RAV  A  +N + ++IPCHRVI  +G + GY+ G+  K+ LL LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|127071|sp|P24528.3|MGMT_RAT</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P24528</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.67599e-13</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>LDLYFKGHLKTFATPLEQIGTE-FQKQA------WDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNR-KQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LEAYFHEPAATEGLPLPALHHPVFQQDSFTRQVLWKLLKVVKFGEMVSYQQLAALAGNPKAARAVGGAMRSNPVPILIPCHRVIRSDGAIGNYSGGGQTVKEWLLAHE</Hsp_hseq>
+      <Hsp_midline>L+ YF     T   PL  +    FQ+ +      W  L  + +GE  SY++ A   GNPKA RAV  A   N V ++IPCHRVI SDG +  Y+GG    K++LLA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|127068|sp|P26186.1|MGMT_CRIGR</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Cricetulus griseus]</Hit_def>
+  <Hit_accession>P26186</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>4.52988e-13</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>LDLYFKGHLKTFATPLEQIGTE-FQKQA------WDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNR-KQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LEAYFQEPAATEGLPLPALHHPVFQQDSFTRQVLWKLLKVVKFGEMVSYQQLAALAGNPKAARAVGGAMRNNPVPILIPCHRVICSNGSIGNYSGGGQAVKEWLLAHE</Hsp_hseq>
+      <Hsp_midline>L+ YF+    T   PL  +    FQ+ +      W  L  + +GE  SY++ A   GNPKA RAV  A   N V ++IPCHRVI S+G +  Y+GG    K++LLA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|47116979|sp|O26715.1|OGT_METTH</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>O26715</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>9.10955e-13</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>GVKGLCLLEFVGQKYLEQEI--AAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>GVTAIILLEGV-KKYSNDSSPPMAIKKLLDSIRMFLDGCEVDFDLSVLD--FGGC------------TEYQRRVLDVVSSIPRGSTLTYSEVAARAGG--SPRSAAGALSRNPFPLVIPCHRVIRSDGNAGGYQGGVKLKKRLLEME</Hsp_hseq>
+      <Hsp_midline>GV  + LLE V +KY        A++K L    +F +   + F    LD  F G             TE+Q++  D + +IP G T +Y E A R G   + R+ A A  +N   ++IPCHRVI SDG   GY GG+  K+ LL +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|47117031|sp|Q973C7.1|OGT_SULTO</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Sulfolobus tokodaii str. 7]</Hit_def>
+  <Hit_accession>Q973C7</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>9.64652e-12</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>ELDLYFKGHLKTFATPLE-QIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>KLDLYFEGKKVDLTEPVDFKPFNEFRIRVFKEVMRIKWGEVRTYKQVADAVKT--SPRAVGTALSKNNVLLIIPCHRVIG-EKSLGGYSRGVELKRKLLELE</Hsp_hseq>
+      <Hsp_midline>+LDLYF+G       P++ +   EF+ + +  ++ I +GE R+YK+ A  +    + RAV  A  +N V ++IPCHRVIG +  L GY+ G+  K+ LL LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|387935350|sp|C9RE37.1|OGT_METVM</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Methanocaldococcus vulcanius M7]</Hit_def>
+  <Hit_accession>C9RE37</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.74682e-10</Hsp_evalue>
+      <Hsp_query-from>201</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALER</Hsp_qseq>
+      <Hsp_hseq>SSFTKKVLDEVKKIKFGETVSYGDIAKKLNT--SPRAVGVALSKNPLPLIIPCHRVVAKNS-LGGYSYGIEKKKFILEMEQ</Hsp_hseq>
+      <Hsp_midline>+ F K+  D +  I +GET SY + A++L    + RAV  A  +N + ++IPCHRV+  +  L GY+ G+ +K+F+L +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|172046911|sp|A4YH39.1|OGT_METS5</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Metallosphaera sedula DSM 5348]</Hit_def>
+  <Hit_accession>A4YH39</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.86098e-10</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>LRQELDLYFKGHLKTFA-TPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LFKKLDNYFQGKRTDFDDIPIRLNTNSFRMRVYKEVRKVKWGEVVTYKDIAEAVGT--SPRAVGVALSKNPILLLIPCHRVVAENG-LGGYSRGVELKRKLLELE</Hsp_hseq>
+      <Hsp_midline>L ++LD YF+G    F   P+      F+ + +  +  + +GE  +YK+ A+ +G   + RAV  A  +N + ++IPCHRV+  +G L GY+ G+  K+ LL LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|41017430|sp|Q58924.1|OGT_METJA</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58924</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>4.11124e-10</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>EFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALER</Hsp_qseq>
+      <Hsp_hseq>EFTKKVLDIVKDIEFGKTLTYGDIAKKLNT--SPRAVGMALKRNPLPLIIPCHRVVAKNS-LGGYSYGLDKKKFILERER</Hsp_hseq>
+      <Hsp_midline>EF K+  D +  I +G+T +Y + A++L    + RAV  A  +N + ++IPCHRV+  +  L GY+ GL++K+F+L  ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|76363275|sp|Q4J9C6.1|OGT_SULAC</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Sulfolobus acidocaldarius DSM 639]</Hit_def>
+  <Hit_accession>Q4J9C6</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.03422e-08</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>LVCAAIATPLGEMLAVFGVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVFREDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGL</Hsp_qseq>
+      <Hsp_hseq>IVYGVYNSPLGTITVAKNERGIIMLDFCD---------CAERNLVDNSTFTD------LFHKFDNYFQGKPVEFNETVDLFVNNFRRRVFNEVRRIGWGKVKTYKEIAETL--KTSPRAVGMALSKNPVLLIIPCHRIIAESG-LGGFSRGI</Hsp_hseq>
+      <Hsp_midline>+V     +PLG +      +G+ +L+F             ++ L     F +      L  + D YF+G    F   ++     F+++ ++ +  I +G+ ++YKE A+ L    + RAV  A  +N V ++IPCHR+I   G L G++ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|47116983|sp|O93728.2|OGT_PYRAE</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Pyrobaculum aerophilum str. IM2]</Hit_def>
+  <Hit_accession>O93728</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.2474e-08</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>KTFATP------------LEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>KTFVNPSRCSKRVGLAEFLELINIDEIDKRLLYLLGIPRGYVTTYKLYAEVLGT--SPRHVGWLMARNPLPVILPCHRVVKSDFSLGGYTGGVEVKKKLLAYE</Hsp_hseq>
+      <Hsp_midline>KTF  P            LE I  +   +    LL IP G   +YK  A+ LG   + R V     +N + V++PCHRV+ SD  L GY GG+  K+ LLA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|47117025|sp|Q8TZ11.1|OGT_METKA</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Methanopyrus kandleri AV19]</Hit_def>
+  <Hit_accession>Q8TZ11</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.55245e-08</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MQFLRQELDLYFKGHLKTFATPLEQIGTEFQ-KQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>LHSLKRDLERYFRGYPVDFDDVPVRINVSGKPREVLELVREIPYGTVVTYGDIAQKANTHPRVVGVSLA--RNRVPIIVACHRVVAADG-LGGFRWGLEWKRRLLELE</Hsp_hseq>
+      <Hsp_midline>+  L+++L+ YF+G+   F     +I    + ++  + +  IPYG   +Y + AQ+      V  V+ A  +N+V +++ CHRV+ +DG L G+  GL  K+ LL LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|47116980|sp|O27970.1|OGT_ARCFU</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>O27970</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.83877e-07</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>QELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYA------GGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>RQLERYFSGERVEVRIPYRLKASSFTRRVLEEVSRIPYGMVRMYSDIAKALNT--SPRAVGQAVKRNPLPVIIPCHRVVGKK-EIGGYTVSCSDIDGKSLKKRLLRLE</Hsp_hseq>
+      <Hsp_midline>++L+ YF G       P     + F ++  + +  IPYG  R Y + A+ L    + RAV  A  +N + V+IPCHRV+G   ++ GY        G + K+ LL LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|74625974|sp|Q9UTN9.1|ATL1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Alkyltransferase-like protein 1 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9UTN9</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>2.73672e-06</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>EFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLT--GYAGGLNRKQFLLALERGEV-QTAL</Hsp_qseq>
+      <Hsp_hseq>EFYTKVYDAVCEIPYGKVSTYGEIARYVGMPSYARQVGQAMKHLHPETHVPWHRVINSRGTISKRDISAGEQRQKDRLEEEGVEIYQTSL</Hsp_hseq>
+      <Hsp_midline>EF  + +DA+  IPYG+  +Y E A+ +G P   R V  A         +P HRVI S G ++    + G  R++  L  E  E+ QT+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|47116982|sp|O74023.1|OGT_THEKO</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase; AltName: Full=Pk-MGMT [Thermococcus kodakarensis KOD1]</Hit_def>
+  <Hit_accession>O74023</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>9.74448e-06</Hsp_evalue>
+      <Hsp_query-from>201</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TEFQKQAWDALLA-IPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>TPFEKKVYEWLTKNVKRGSVITYGDLAKALNT--SPRAVGGAMKRNPYPIVVPCHRVVAHDG-IGYYSSGIEEKKFLLEIE</Hsp_hseq>
+      <Hsp_midline>T F+K+ ++ L   +  G   +Y + A+ L    + RAV  A  +N   +++PCHRV+  DG +  Y+ G+  K+FLL +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|56404372|sp|Q6KZ38.1|NFI_PICTO</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional methyltransferase/endonuclease; Includes: RecName: Full=Probable methylated-DNA--protein-cysteine methyltransferase; AltName: Full=O-6-methylbase-DNA-alkyltransferase; Includes: RecName: Full=Endonuclease V; AltName: Full=Deoxyinosine 3&apos;endonuclease; AltName: Full=Deoxyribonuclease V; Short=DNase V [Picrophilus torridus DSM 9790]</Hit_def>
+  <Hit_accession>Q6KZ38</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>2.12585e-05</Hsp_evalue>
+      <Hsp_query-from>208</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>WDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRK</Hsp_qseq>
+      <Hsp_hseq>YSLLGQIPEGMVTTYGDLAVALGDVKAARACGYMLSRNNDTENIPCYKVIMSDGSLGGYSLGIDEK</Hsp_hseq>
+      <Hsp_midline>+  L  IP G   +Y + A  LG+ KA RA      +N  +  IPC++VI SDG L GY+ G++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|387935352|sp|F0LIT8.1|OGT_THEBM</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Thermococcus barophilus MP]</Hit_def>
+  <Hit_accession>F0LIT8</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000371125</Hsp_evalue>
+      <Hsp_query-from>201</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TEFQKQAWDALLA-IPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>TPFEKKVYEVLTKKVKRGSVITYGELAKMLST--SPRAVGNAMKRNPYPIIVPCHRVVLKSG-LGDYTPKREYKQFLLEIE</Hsp_hseq>
+      <Hsp_midline>T F+K+ ++ L   +  G   +Y E A+ L    + RAV  A  +N   +++PCHRV+   G L  Y      KQFLL +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|259515425|sp|C6A382.1|OGT_THESM</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Thermococcus sibiricus MM 739]</Hit_def>
+  <Hit_accession>C6A382</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000420134</Hsp_evalue>
+      <Hsp_query-from>201</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TEFQKQAWDALLA-IPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>TPFEKKVYETLTKKVKRGEVITYGELAKMLRS--SPRAIGGAMKRNPYPIIVPCHRVIASNN-IGNYTPKREYKRFLLETE</Hsp_hseq>
+      <Hsp_midline>T F+K+ ++ L   +  GE  +Y E A+ L +  + RA+  A  +N   +++PCHRVI S+  +  Y      K+FLL  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|47117026|sp|Q8TZV2.1|OGT_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>Q8TZV2</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000777821</Hsp_evalue>
+      <Hsp_query-from>201</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TEFQKQAWDALLA-IPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>TKFERKLYIYLVENVKRGEVITYGELAKILNT--SSRAVGAAVKRNPYPIIVPCHRVIGRKNPYL-YTPKPEYKKFLLEVE</Hsp_hseq>
+      <Hsp_midline>T+F+++ +  L+  +  GE  +Y E A+ L    + RAV AA  +N   +++PCHRVIG       Y      K+FLL +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|56404424|sp|Q9HKY3.1|NFI_THEAC</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional methyltransferase/endonuclease; Includes: RecName: Full=Probable methylated-DNA--protein-cysteine methyltransferase; AltName: Full=O-6-methylbase-DNA-alkyltransferase; Includes: RecName: Full=Endonuclease V; AltName: Full=Deoxyinosine 3&apos;endonuclease; AltName: Full=Deoxyribonuclease V; Short=DNase V [Thermoplasma acidophilum DSM 1728]</Hit_def>
+  <Hit_accession>Q9HKY3</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000893259</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>IPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGL</Hsp_qseq>
+      <Hsp_hseq>IPEGYVTTYGDLAQALGDPIAARAVGYMLSINEDPDTIPCYRVVLHDGTVGNYTHPL</Hsp_hseq>
+      <Hsp_midline>IP G   +Y + AQ LG+P A RAV      N+    IPC+RV+  DG +  Y   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|259515420|sp|C5A3L5.1|OGT_THEGJ</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Thermococcus gammatolerans EJ3]</Hit_def>
+  <Hit_accession>C5A3L5</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00117208</Hsp_evalue>
+      <Hsp_query-from>201</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TEFQKQAWDALLA-IPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>TPFERRVYEWLTKNVKRGTVITYGSLAKAL--ETSPRAVGGAMKRNPYPIIVPCHRVVSREG-IGHYNLGIEEKKFLLELE</Hsp_hseq>
+      <Hsp_midline>T F+++ ++ L   +  G   +Y   A+ L    + RAV  A  +N   +++PCHRV+  +G +  Y  G+  K+FLL LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|84027840|sp|P0AFP2.1|YBAZ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YbaZ [Escherichia coli K-12] &gt;gi|84027841|sp|P0AFP3.1|YBAZ_SHIFL RecName: Full=Uncharacterized protein YbaZ [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AFP2</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00163632</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>EFQKQAWDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNR-KQFLLA</Hsp_qseq>
+      <Hsp_hseq>SFPQRVWQIVAAIPEGYVTTYGDVAKLAGSPRAARQVGGVLKRLPEGSTLPWHRVVNRHGTISLTGPDLQRQRQALLA</Hsp_hseq>
+      <Hsp_midline> F ++ W  + AIP G   +Y + A+  G+P+A R V     +      +P HRV+   G ++     L R +Q LLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|56404421|sp|Q97AL5.1|NFI_THEVO</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional methyltransferase/endonuclease; Includes: RecName: Full=Probable methylated-DNA--protein-cysteine methyltransferase; AltName: Full=O-6-methylbase-DNA-alkyltransferase; Includes: RecName: Full=Endonuclease V; AltName: Full=Deoxyinosine 3&apos;endonuclease; AltName: Full=Deoxyribonuclease V; Short=DNase V [Thermoplasma volcanium GSS1]</Hit_def>
+  <Hit_accession>Q97AL5</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00385895</Hsp_evalue>
+      <Hsp_query-from>208</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>WDALLAIPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYA</Hsp_qseq>
+      <Hsp_hseq>YNLVRQIPDGMVSTYGDLAEALGDPVAARSVGFMLSINKEPDYIPCYKVVPHDGSVGNYT</Hsp_hseq>
+      <Hsp_midline>++ +  IP G   +Y + A+ LG+P A R+V      NK    IPC++V+  DG +  Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|387935351|sp|F4HK38.1|OGT_PYRSN</Hit_id>
+  <Hit_def>RecName: Full=Methylated-DNA--protein-cysteine methyltransferase; AltName: Full=6-O-methylguanine-DNA methyltransferase; Short=MGMT; AltName: Full=O-6-methylguanine-DNA-alkyltransferase [Pyrococcus sp. NA2]</Hit_def>
+  <Hit_accession>F4HK38</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00964709</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>GVKGLCLLEFVGQKYLEQEIAAVQKALRGRFVF-----REDGRMQFLRQELDLYFKGHLKTFATPLEQIGTEFQKQAWDALLA-IPYGETRSYKEQAQRLGNPKAVRAVAAANGQNKVSVMIPCHRVIGSDGKLTGYAGGLNRKQFLLALE</Hsp_qseq>
+      <Hsp_hseq>GIQGITY-SLDGIEFLEEQISRIINHLKSRNVRVNLSQEESEYPELVFMVLTGYVSNEEAFKELSLEGL-TEFEIKVYSWLVKNVKRGEVITYGKVAKALKTSPL--AIGGAMRRNPYPIIVPCHRVIGKRNKFL-YTPKPSYKKFLLEVE</Hsp_hseq>
+      <Hsp_midline>G++G+      G ++LE++I+ +   L+ R V       E    + +   L  Y           LE + TEF+ + +  L+  +  GE  +Y + A+ L       A+  A  +N   +++PCHRVIG   K   Y    + K+FLL +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

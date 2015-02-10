@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>16683</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7S5</BlastOutput_query-def>
+  <BlastOutput_query-len>157</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>16683</Iteration_query-ID>
+  <Iteration_query-def>Q5F7S5</Iteration_query-def>
+  <Iteration_query-len>157</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|12229579|sp|Q9P4C2.3|ADH2_KLUMA</Hit_id>
+  <Hit_def>RecName: Full=Alcohol dehydrogenase 2; AltName: Full=Alcohol dehydrogenase II [Kluyveromyces marxianus]</Hit_def>
+  <Hit_accession>Q9P4C2</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.70026</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>GTCVATAYPAFCAYIQVKQGKHQARQKAAIGLPVSGGGNPHYRQRRRVCLNMRRNRENFTSLACKIQEKGEHESKNPVVSDVLNAIGFTAVGIKGGISGESVYRRMGGGVLADRKTLKPYIMELRRLNN</Hsp_qseq>
+      <Hsp_hseq>GTDLAQVAPILCAGVTVYKALKTAEMKAGDWVAISGAAG------------------GLGSLAVQYAK----------------AMGFRVLGIDGGEGKEELFKSLGGEVFIDFTKSKDIVGEVIKATN</Hsp_hseq>
+      <Hsp_midline>GT +A   P  CA + V +    A  KA   + +SG                        SLA +  +                A+GF  +GI GG   E +++ +GG V  D    K  + E+ +  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|121730975|sp|Q2FR36.1|PYRH_METHJ</Hit_id>
+  <Hit_def>RecName: Full=Uridylate kinase; Short=UK; AltName: Full=Uridine monophosphate kinase; Short=UMP kinase; Short=UMPK [Methanospirillum hungatei JF-1]</Hit_def>
+  <Hit_accession>Q2FR36</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.05058</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>40</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>SVYRRMGGGVL---ADRKTLKPYIMELRRLNNNDRLFC</Hsp_qseq>
+      <Hsp_hseq>TIVLSLGGSILLPDIDRPNIKPYISVLTRISAKNRLFV</Hsp_hseq>
+      <Hsp_midline>++   +GG +L    DR  +KPYI  L R++  +RLF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|23822110|sp|Q9BBS8.1|RPOC1_LOTJA</Hit_id>
+  <Hit_def>RecName: Full=DNA-directed RNA polymerase subunit beta&apos;; AltName: Full=PEP; AltName: Full=Plastid-encoded RNA polymerase subunit beta&apos;; Short=RNA polymerase subunit beta&apos; (chloroplast) [Lotus japonicus]</Hit_def>
+  <Hit_accession>Q9BBS8</Hit_accession>
+  <Hit_len>682</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.36743</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>535</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>QKAAIGLPVSGGGNPHYRQRRRVCLNMRRNRENF-TSLACKIQEKGEHESKNPVVSDVLNAIG</Hsp_qseq>
+      <Hsp_hseq>QDMLIGLYILTSGN-----RRGICAN-RYNRSNWKNSKNEKIRDKKYMKKKEPFFSNSYDAIG</Hsp_hseq>
+      <Hsp_midline>Q   IGL +   GN     RR +C N R NR N+  S   KI++K   + K P  S+  +AIG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|75319499|sp|Q39821.1|SDLCA_SOYBN</Hit_id>
+  <Hit_def>RecName: Full=Dynamin-related protein 12A; AltName: Full=Phragmoplastin; AltName: Full=Soybean dynamin-like protein 12A; Short=SDL12A [Glycine max]</Hit_def>
+  <Hit_accession>Q39821</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.45713</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ENFTSLACKIQEK----GEH--ESKNPVVSDVLNAIGFTAVGIKGGISG--ESV----YRRMGGGVLADRKTLKPYIMELRRLNNNDRLFCEFERLADRR</Hsp_qseq>
+      <Hsp_hseq>ENLISLVNKIQRACTALGDHGENSALPTLWDSLPAIAVVG-GQSSGKSSVLESVVGKDFLPRGSGIV----TRRPLVLQLHKIDEGSREYAEFLHLPRKR</Hsp_hseq>
+      <Hsp_midline>EN  SL  KIQ      G+H   S  P + D L AI     G   G S   ESV    +   G G++    T +P +++L +++   R + EF  L  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|123351957|sp|Q10Y87.1|HIS4_TRIEI</Hit_id>
+  <Hit_def>RecName: Full=1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase; AltName: Full=Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [Trichodesmium erythraeum IMS101]</Hit_def>
+  <Hit_accession>Q10Y87</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.34083</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>NMRRNRENFTSLACKIQEKGEHESKNPVVSDVLNAIGFTAVGIKGGISGESVY</Hsp_qseq>
+      <Hsp_hseq>NIEALRELATAVSIPVIASGGISSIN----DLLNLLALETIGVKGAIVGRALY</Hsp_hseq>
+      <Hsp_midline>N+   RE  T+++  +   G   S N    D+LN +    +G+KG I G ++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|122404088|sp|Q1NAJ2.1|MAND_SPHSS</Hit_id>
+  <Hit_def>RecName: Full=D-mannonate dehydratase; Short=ManD [Sphingomonas sp. SKA58]</Hit_def>
+  <Hit_accession>Q1NAJ2</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.11648</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>KGEHESKNPVVSDVLNAIGFTAVGIKGGISGESVYRRMGGG</Hsp_qseq>
+      <Hsp_hseq>KGAYWRRGPVTMTAIAAVDMALWDIKGKIAGLPVYQLLGGA</Hsp_hseq>
+      <Hsp_midline>KG +  + PV    + A+      IKG I+G  VY+ +GG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|47117884|sp|Q01819.2|CONN_DROME</Hit_id>
+  <Hit_def>RecName: Full=Connectin; Flags: Precursor [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q01819</Hit_accession>
+  <Hit_len>682</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.57961</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>429</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>RENFTSLACKIQE-KGEH--ESKNPVVSDVLNAIGFTAVGIK----GGISGESVYRRMGGGVLADRK</Hsp_qseq>
+      <Hsp_hseq>RDSLEDLHCTLQEPKLSHFVDPVPPTILDVLNIGGFTAIGSNSASMGGVGNSVVGSSYSGLTMDDSR</Hsp_hseq>
+      <Hsp_midline>R++   L C +QE K  H  +   P + DVLN  GFTA+G      GG+    V     G  + D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75319500|sp|Q39828.1|SDL5A_SOYBN</Hit_id>
+  <Hit_def>RecName: Full=Dynamin-related protein 5A; AltName: Full=Soybean dynamin-like protein 5A; Short=SDL5A [Glycine max]</Hit_def>
+  <Hit_accession>Q39828</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.44617</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ENFTSLACKIQEK----GEH--ESKNPVVSDVLNAIGFTAVGIKGGISG--ESV----YRRMGGGVLADRKTLKPYIMELRRLNNNDRLFCEFERLADRR</Hsp_qseq>
+      <Hsp_hseq>ENLISLVNKIQRACTALGDHGENSALPTLWDSLPAIAVVG-GQSSGKSSVLESVVGKDFLPRGSGIV----TRRPLVLQLHKIEEGSREYAEFLHLPRKR</Hsp_hseq>
+      <Hsp_midline>EN  SL  KIQ      G+H   S  P + D L AI     G   G S   ESV    +   G G++    T +P +++L ++    R + EF  L  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|27735181|sp|P42697.3|DRP1A_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Dynamin-related protein 1A; AltName: Full=Dynamin-like protein 1; AltName: Full=Dynamin-like protein A; AltName: Full=Protein RADIAL SWELLING 9 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P42697</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.1591</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ENFTSLACKIQEK----GEH--ESKNPVVSDVLNAIGFTAVGIKG------GISGESVYRRMGGGVLADRKTLKPYIMELRRLNNNDRLFCEFERLADRR</Hsp_qseq>
+      <Hsp_hseq>ENLISLVNKIQRACTALGDHGDSSALPTLWDSLPAIAVVGGQSSGKSSVLESIVGKDFLPR-GSGIV----TRRPLVLQLQKIDDGTREYAEFLHLPRKK</Hsp_hseq>
+      <Hsp_midline>EN  SL  KIQ      G+H   S  P + D L AI        G       I G+    R G G++    T +P +++L+++++  R + EF  L  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|667467045|sp|D7BPX0.1|DGD_STRBB</Hit_id>
+  <Hit_def>RecName: Full=D-galactonate dehydratase family member SBI_01856; AltName: Full=D-gluconate dehydratase [Streptomyces bingchenggensis BCW-1]</Hit_def>
+  <Hit_accession>D7BPX0</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.10787</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>KGEHESKNPVVSDVLNAIGFTAVGIKGGISGESVYRRMGGGV</Hsp_qseq>
+      <Hsp_hseq>RGAYWRRGPVTMTSIGAVDLALWDIKGKATGQPVYQLLGGAV</Hsp_hseq>
+      <Hsp_midline>+G +  + PV    + A+      IKG  +G+ VY+ +GG V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|90110362|sp|Q01886.2|HTS1_COCCA</Hit_id>
+  <Hit_def>RecName: Full=HC-toxin synthetase; Short=HTS [Bipolaris zeicola]</Hit_def>
+  <Hit_accession>Q01886</Hit_accession>
+  <Hit_len>5218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.16468</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>2337</Hsp_hit-from>
+      <Hsp_hit-to>2416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>GLPVSGGGNPHYRQRRRVCLNMRRNRE-NFTSLACKIQEKGEHESKNPVVSDVLNAIGFTAVGIKGGISGESVYRRMGGGVLA</Hsp_qseq>
+      <Hsp_hseq>GIPLTAAGKIDRRMLRKLCEPFNRNDLISFTSKALSTSVKDAETTD--TVEDRLARIWEKVLGVK-GVGRESDFFSSGGNSMA</Hsp_hseq>
+      <Hsp_midline>G+P++  G    R  R++C    RN   +FTS A     K    +    V D L  I    +G+K G+  ES +   GG  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

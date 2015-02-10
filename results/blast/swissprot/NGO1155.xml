@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>8801</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7L6</BlastOutput_query-def>
+  <BlastOutput_query-len>152</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>8801</Iteration_query-ID>
+  <Iteration_query-def>Q5F7L6</Iteration_query-def>
+  <Iteration_query-len>152</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|20178184|sp|P76017.1|YCGV_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YcgV [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P76017</Hit_accession>
+  <Hit_len>955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>6.88672e-06</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>830</Hsp_hit-from>
+      <Hsp_hit-to>955</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>QPEVQLSYWFTRGYGFPLSNGLSAETDNFRSLMGRFGFRAGVDGLDG-GRLNIYGKLMYKREFIGTIRHRFNGSAVEEFKHRGGWLEYGLGVVRRNAGNGRQ--LYFEAQRSSMHTMRQNWQVNMGVRSMF</Hsp_qseq>
+      <Hsp_hseq>EPQTQLTYSHQNEMTMKASNGLNIHLNHYESLLGRASMILGYDITAGNSQLNVYVKTGAIREFSGDTEYLLNNSR-EKYSFKGNGWNNGVGV---SAQYNKQHTFYLEADYTQGNLFDQK-QVNGGYRFSF</Hsp_hseq>
+      <Hsp_midline>+P+ QL+Y          SNGL+   +++ SL+GR     G D   G  +LN+Y K    REF G   +  N S  E++  +G     G+GV   +A   +Q   Y EA  +  +   Q  QVN G R  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81346004|sp|Q45340.1|BRKA_BORPE</Hit_id>
+  <Hit_def>RecName: Full=BrkA autotransporter; Contains: RecName: Full=Serum resistance protein BrkA; Contains: RecName: Full=BrkA translocator; Flags: Precursor [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>Q45340</Hit_accession>
+  <Hit_len>1010</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>6.5727e-05</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>883</Hsp_hit-from>
+      <Hsp_hit-to>1010</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>QPEVQLSYWFTRGYGFPLSNGLSAETDNFRSLMGRFGFRAGVD-GLDGGRL-NIYGKLMYKREFIGTIRHRFNGSAVEEFKHRGGWLEYGLGVVRRNAGNGRQLYFEAQRSSMHTMRQNWQVNMGVRSMF</Hsp_qseq>
+      <Hsp_hseq>EPQAEVMLWRTSGKRYRASNGLRVKVDANTATLGRLGLRFGRRIALAGGNIVQPYARLGWTQEFKSTGDVRTNGIG-HAGAGRHGRVELGAG-VDAALGKGHNLYASYEYAAGDRINIPWSFHAGYRYSF</Hsp_hseq>
+      <Hsp_midline>+P+ ++  W T G  +  SNGL  + D   + +GR G R G    L GG +   Y +L + +EF  T   R NG        R G +E G G V    G G  LY   + ++   +   W  + G R  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|129828|sp|P24328.1|PERT_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Pertactin autotransporter; AltName: Full=P.95; Contains: RecName: Full=Outer membrane protein P.70; Contains: RecName: Full=Pertactin translocator; Flags: Precursor [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>P24328</Hit_accession>
+  <Hit_len>922</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0160788</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>795</Hsp_hit-from>
+      <Hsp_hit-to>919</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>QPEVQLSYWFTRGYGFPLSNGLSAETDNFRSLMGRFGFRAG--VDGLDGGRLNIYGKLMYKREFIGTIRHRFNGSAVEEFKHRGGWLEYGLGVVRRNAGNGRQLYFEAQRSSMHTMRQNWQVNMGVR</Hsp_qseq>
+      <Hsp_hseq>EPQAELAVFRVGGGAYRAANGLRVRDEGGSSVLGRLGLEVGKRIELAGGRQVQPYIKASVLQEFDGAGTVRTNGIA-HRTELRGTRAELGLGMA-AALGRGHSLYASYEYSKGPKLAMPWTFHAGYR</Hsp_hseq>
+      <Hsp_midline>+P+ +L+ +   G  +  +NGL    +   S++GR G   G  ++   G ++  Y K    +EF G    R NG A    + RG   E GLG+     G G  LY   + S    +   W  + G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|464364|sp|P14283.3|PERT_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Pertactin autotransporter; AltName: Full=P.93; Contains: RecName: Full=Outer membrane protein P.69; Contains: RecName: Full=Pertactin translocator; Flags: Precursor [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>P14283</Hit_accession>
+  <Hit_len>910</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0162145</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>775</Hsp_hit-from>
+      <Hsp_hit-to>907</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>TAAKTYRWQPEVQLSYWFTRGYGFPLSNGLSAETDNFRSLMGRFGFRAG--VDGLDGGRLNIYGKLMYKREFIGTIRHRFNGSAVEEFKHRGGWLEYGLGVVRRNAGNGRQLYFEAQRSSMHTMRQNWQVNMGVR</Hsp_qseq>
+      <Hsp_hseq>THADGWFLEPQAELAVFRAGGGAYRAANGLRVRDEGGSSVLGRLGLEVGKRIELAGGRQVQPYIKASVLQEFDGAGTVHTNGIA-HRTELRGTRAELGLGMAAA-LGRGHSLYASYEYSKGPKLAMPWTFHAGYR</Hsp_hseq>
+      <Hsp_midline>T A  +  +P+ +L+ +   G  +  +NGL    +   S++GR G   G  ++   G ++  Y K    +EF G      NG A    + RG   E GLG+     G G  LY   + S    +   W  + G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|34978536|sp|Q03035.2|PERT_BORBR</Hit_id>
+  <Hit_def>RecName: Full=Pertactin autotransporter; AltName: Full=P.94; Contains: RecName: Full=Outer membrane protein P.68; Contains: RecName: Full=Pertactin translocator; Flags: Precursor [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q03035</Hit_accession>
+  <Hit_len>916</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0182007</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>789</Hsp_hit-from>
+      <Hsp_hit-to>913</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>QPEVQLSYWFTRGYGFPLSNGLSAETDNFRSLMGRFGFRAG--VDGLDGGRLNIYGKLMYKREFIGTIRHRFNGSAVEEFKHRGGWLEYGLGVVRRNAGNGRQLYFEAQRSSMHTMRQNWQVNMGVR</Hsp_qseq>
+      <Hsp_hseq>EPQAELAVFRVGGGAYRAANGLRVRDEGGSSVLGRLGLEVGKRIELAGGRQVQPYIKASVLQEFDGAGTVRTNGIA-HRTELRGTRAELGLGMA-AALGRGHSLYASYEYSKGPKLAMPWTFHAGYR</Hsp_hseq>
+      <Hsp_midline>+P+ +L+ +   G  +  +NGL    +   S++GR G   G  ++   G ++  Y K    +EF G    R NG A    + RG   E GLG+     G G  LY   + S    +   W  + G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|75363266|sp|Q643C1.1|MPPO_STRHY</Hit_id>
+  <Hit_def>RecName: Full=Enduracididine beta-hydroxylase; AltName: Full=Mannopeptimycin biosynthesis protein O [Streptomyces hygroscopicus]</Hit_def>
+  <Hit_accession>Q643C1</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.7637</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>GFPLSNGLSAETDNFRSLMGRFGFRAGVDGLDG--GRLNIYGKLMYKRE</Hsp_qseq>
+      <Hsp_hseq>GVVLSPGDIVFIDNYRVVHGRKPFRARFDGTDRWLRRLNIARDLRKSRE</Hsp_hseq>
+      <Hsp_midline>G  LS G     DN+R + GR  FRA  DG D    RLNI   L   RE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|14917063|sp|O59545.2|AMTAB_PYRHO</Hit_id>
+  <Hit_def>RecName: Full=Probable threonylcarbamoyladenosine tRNA methylthiotransferase; AltName: Full=tRNA-t(6)A37 methylthiotransferase [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O59545</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.90335</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>FPPKPVGGWKNKTAAKTYRWQPEVQLSYWFTRGYGFPLSNGLSAETDNFRSLMGRFGFRAGV</Hsp_qseq>
+      <Hsp_hseq>YSPEKIIGWVKWAIKQGYK---EIWLSAEDTGCYGFDIGTNLAKLIDEITAIEGEFRIRVGM</Hsp_hseq>
+      <Hsp_midline>+ P+ + GW      + Y+   E+ LS   T  YGF +   L+   D   ++ G F  R G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

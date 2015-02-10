@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>3615</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7X2</BlastOutput_query-def>
+  <BlastOutput_query-len>114</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>3615</Iteration_query-ID>
+  <Iteration_query-def>Q5F7X2</Iteration_query-def>
+  <Iteration_query-len>114</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|7388477|sp|P71378.1|Y1339_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1339/HI_1462.1 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P71378</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0353355</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MKKLLIAAMMAAALA--AC--SQEAKQEVKEAAQ---AVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAA----ETKEAVSEAAKDTLNKAADAAQEAADKMKDAAK</Hsp_qseq>
+      <Hsp_hseq>MKKLTLALVLGSALVVTGCFDKQEAKQKVEDTKQTVASVASETKDAAANTMTEVKEKAQQLSTDVKNKVAEKVEDAKEVIKSATEAASEKVGEMKEAASEKASEMKEAVSEKATQAVDAVKEATK</Hsp_hseq>
+      <Hsp_midline>MKKL +A ++ +AL    C   QEAKQ+V++  Q   +V S+ KD AA+         ++    VK+  A+    A+E +  A +AA+    E KEA SE A +     ++ A +A D +K+A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|12230091|sp|Q9JYV5.1|FRPC_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Iron-regulated protein FrpC [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JYV5</Hit_accession>
+  <Hit_len>1829</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.689977</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>QEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAAD-AKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQE</Hsp_qseq>
+      <Hsp_hseq>NNLTQAAEIIYNDIVDNTSQGIEKGVKAIKELSEKMKNAASDLADGSAEKAKQVVEDLAQAAKEAY-ENAKSTAEKAAQAARE</Hsp_hseq>
+      <Hsp_midline>  + +AA+ + +D+ D  +   E    A++E   ++K+AA+D A  SAE+A    +D A   KEA  E AK T  KAA AA+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1706913|sp|P55127.1|FRPC_NEIMC</Hit_id>
+  <Hit_def>RecName: Full=Iron-regulated protein FrpC [Neisseria meningitidis serogroup C]</Hit_def>
+  <Hit_accession>P55127</Hit_accession>
+  <Hit_len>1829</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.710358</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>QEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAAD-AKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQE</Hsp_qseq>
+      <Hsp_hseq>NNLTQAAEIIYNDIVDNTSQGIEKGVKAIKELSEKMKNAASDLADGSAEKAKQVVEDLAQAAKEAY-ENAKSTAEKAAQAARE</Hsp_hseq>
+      <Hsp_midline>  + +AA+ + +D+ D  +   E    A++E   ++K+AA+D A  SAE+A    +D A   KEA  E AK T  KAA AA+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|74621989|sp|Q8SVY9.1|Y3G1_ENCCU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein ECU03_1610 [Encephalitozoon cuniculi GB-M1]</Hit_def>
+  <Hit_accession>Q8SVY9</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.768709</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>ACSQEAKQEVKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAADKMKD</Hsp_qseq>
+      <Hsp_hseq>AC--EARDKTKETAGSAKDKTKETAGSAKDKTKETAESAKDKTKETAGSAKDKTKETAESAKDKTKETAGSAKDKTKETAESAKDKTKETAGNVRD</Hsp_hseq>
+      <Hsp_midline>AC  EA+ + KE A + +   K+TA SA +      E AK + K+ A  AK   +E    AKD   ET  +  +  K+T   A D  +E A  ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|158513197|sp|A2XG55.2|LEA1_ORYSI</Hit_id>
+  <Hit_def>RecName: Full=Late embryogenesis abundant protein 1 [Oryza sativa Indica Group]</Hit_def>
+  <Hit_accession>A2XG55</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.16787</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>VKDTAASAAESAASAVEEAKGQVKDAAA----DAKASAEEAVTEAKDAAAETKEAVSEAAKDTLNKAADAAQEAA</Hsp_qseq>
+      <Hsp_hseq>TKDAVAQKASDASEATKNKLGEYKDALARKTRDAKDTTAQKATEFKDGVKATAQETRDATKDTTQTAADKARETA</Hsp_hseq>
+      <Hsp_midline> KD  A  A  A+ A +   G+ KDA A    DAK +  +  TE KD    T +   +A KDT   AAD A+E A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|464390|sp|P14929.2|FTSY_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Signal recognition particle receptor FtsY; Short=SRP receptor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P14929</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>8.53738</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VKEAAQAVESDVKDTAASAAESAASAVEEAKGQVKDAAADAKASAEEA---VTEAKDAAAET--------KEAVSEAAKDTLNKAADAAQEAA---DKM</Hsp_qseq>
+      <Hsp_hseq>IKEDVESLAESVKGRAESAVETVSGAVE----QVKETVAEMPSEAGEAAERVESAKEAVAETVGEAVGQVQEAVATTEEHKLGWAARLKQGLAKSRDKM</Hsp_hseq>
+      <Hsp_midline>+KE  +++   VK  A SA E+ + AVE    QVK+  A+  + A EA   V  AK+A AET        +EAV+   +  L  AA   Q  A   DKM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

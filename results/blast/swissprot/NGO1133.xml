@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>5285</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7N7</BlastOutput_query-def>
+  <BlastOutput_query-len>224</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>5285</Iteration_query-ID>
+  <Iteration_query-def>Q5F7N7</Iteration_query-def>
+  <Iteration_query-len>224</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|510120788|sp|Q8SQS5.2|PSA6_ENCCU</Hit_id>
+  <Hit_def>RecName: Full=Probable proteasome subunit alpha type-6; AltName: Full=26S proteasome alpha-type subunit PRE5; AltName: Full=Multicatalytic endopeptidase complex subunit PRE5 [Encephalitozoon cuniculi GB-M1]</Hit_def>
+  <Hit_accession>Q8SQS5</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.257491</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>SIDRSVLWC----NDEGWKLADYLPCDDVREDALK-RLFMALD-------SVFSRST--GVRSAAVYALMPSENAALRLVCLSQQGEGLENIWEQDGNITDVSLACRSAQS</Hsp_qseq>
+      <Hsp_hseq>SIDRKSLFTFSGITNDGLQIVDYLIDKSVREEVIKGRAIHFLDVFEDLLRDVFERTILDGRRLYGVSGLYMTEYDGIRLVEFNPKGHVRE--------VKGMGIGCRAQSS</Hsp_hseq>
+      <Hsp_midline>SIDR  L+      ++G ++ DYL    VRE+ +K R    LD        VF R+   G R   V  L  +E   +RLV  + +G   E        +  + + CR+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|82178562|sp|Q5BJD2.1|CO043_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein C15orf43 homolog [Danio rerio]</Hit_def>
+  <Hit_accession>Q5BJD2</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.09199</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SIDRSVL--WCNDEG----WKLADYLPCDDVREDALKRLFMALDSVFSRSTGVRSAAVYALMPSENAA</Hsp_qseq>
+      <Hsp_hseq>SVEKEVISFWVSEGGDISSWKTAGYLFSDDASSEDTKRIYGSEDYVKNRATVFHSSFLLACQPRQSVT</Hsp_hseq>
+      <Hsp_midline>S+++ V+  W ++ G    WK A YL  DD   +  KR++ + D V +R+T   S+ + A  P ++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|62510878|sp|Q5DRC6.1|PCDB8_PANTR</Hit_id>
+  <Hit_def>RecName: Full=Protocadherin beta-8; Short=PCDH-beta-8; Flags: Precursor [Pan troglodytes]</Hit_def>
+  <Hit_accession>Q5DRC6</Hit_accession>
+  <Hit_len>801</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.16865</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>PLD-EVRAAYLTAQTVMDMGM----ASIDRSVLW--CNDEGWKLADYLPCDDVREDALKRLFMALDSVFSRSTGVRSAAVYALMPSENAALRLVCL</Hsp_qseq>
+      <Hsp_hseq>PLDRESRAEYNVTITVTDLGTPGLTTHLNMTVLVSDVNDNAPAFTQASYTLFVRENNSPALHIGSVSATDRDSGTNAQVTYSLLPPQNPHLPLASL</Hsp_hseq>
+      <Hsp_midline>PLD E RA Y    TV D+G       ++ +VL    ND             VRE+    L +   S   R +G  +   Y+L+P +N  L L  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|13431375|sp|Q9Y5E4.1|PCDB5_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Protocadherin beta-5; Short=PCDH-beta-5; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9Y5E4</Hit_accession>
+  <Hit_len>795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.66548</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>411</Hsp_hit-from>
+      <Hsp_hit-to>502</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>EVRAAYLTAQTVMDMGMA------SIDRSVLWCNDEGWKLADYLPCDDVREDALKRLFMALDSVFSRSTGVRSAAVYALMPSENAALRLVCL</Hsp_qseq>
+      <Hsp_hseq>ESQAEYNITITVTDMGTPRLKTEHNITVLVSDVNDNAPAFTQTSYTLFVRENNSPALHIGSVSATDRDSGTNAQVTYSLLPPQNPHLRLASL</Hsp_hseq>
+      <Hsp_midline>E +A Y    TV DMG        +I   V   ND             VRE+    L +   S   R +G  +   Y+L+P +N  LRL  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2497383|sp|Q51649.1|T408_BURM1</Hit_id>
+  <Hit_def>RecName: Full=Putative transposase for insertion sequence IS408 [Burkholderia multivorans ATCC 17616]</Hit_def>
+  <Hit_accession>Q51649</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.02065</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>LSQQGEGLENIWEQDGNITDVSLACRSAQ--SGWMNVASDVRRWLNLGELSGERNHASAAQISIPVCTESGG----------VLGVVHVEFECAECADTAAQAEWV</Hsp_qseq>
+      <Hsp_hseq>LRRKGVTLQLLWEEYAEANPGQRTYRYTQFCQKYKDWAKSIKRSMRQQHRAGEKLFADFAGPTVPVLASDGGVEFEAHVFVAVLGASNYTFACATRTET--MADWI</Hsp_hseq>
+      <Hsp_midline>L ++G  L+ +WE+           R  Q    + + A  ++R +     +GE+  A  A  ++PV    GG          VLG  +  F CA   +T   A+W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|82182273|sp|Q6DCP1.1|FXRD1_XENLA</Hit_id>
+  <Hit_def>RecName: Full=FAD-dependent oxidoreductase domain-containing protein 1 [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q6DCP1</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.07432</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>WKLADYLPCDDVREDALKRLFMALDSVFSRSTGVRSAAVYALMPSENAALRLVCLSQQGEGLENIWEQDGNITDVSLACRSAQSGWMNVASD</Hsp_qseq>
+      <Hsp_hseq>WSIAYWLKQKENRRGALKVVVVERDPTYSRASTVLSAGGIRQQFSRPENIQMSLFSAQ--FLRNINEHLGVVNEDRIDIQFNPSGYLFLASE</Hsp_hseq>
+      <Hsp_midline>W +A +L   + R  ALK + +  D  +SR++ V SA       S    +++   S Q   L NI E  G + +  +  +   SG++ +AS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|62510881|sp|Q5DRC9.1|PCDB5_PANTR</Hit_id>
+  <Hit_def>RecName: Full=Protocadherin beta-5; Short=PCDH-beta-5; Flags: Precursor [Pan troglodytes]</Hit_def>
+  <Hit_accession>Q5DRC9</Hit_accession>
+  <Hit_len>795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>3.97529</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>411</Hsp_hit-from>
+      <Hsp_hit-to>502</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>EVRAAYLTAQTVMDMGMA------SIDRSVLWCNDEGWKLADYLPCDDVREDALKRLFMALDSVFSRSTGVRSAAVYALMPSENAALRLVCL</Hsp_qseq>
+      <Hsp_hseq>ESQAEYNITITVTDMGTPRLKTEHNITVLVSDVNDNAPAFTQTSYTLFVRENNSPALQIGSVSATDRDSGTNAQVTYSLLPPQNPHLRLASL</Hsp_hseq>
+      <Hsp_midline>E +A Y    TV DMG        +I   V   ND             VRE+    L +   S   R +G  +   Y+L+P +N  LRL  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|62510880|sp|Q5DRC8.1|PCDB6_PANTR</Hit_id>
+  <Hit_def>RecName: Full=Protocadherin beta-6; Short=PCDH-beta-6; Flags: Precursor [Pan troglodytes]</Hit_def>
+  <Hit_accession>Q5DRC8</Hit_accession>
+  <Hit_len>794</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.11827</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>410</Hsp_hit-from>
+      <Hsp_hit-to>501</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>EVRAAYLTAQTVMDMGMA------SIDRSVLWCNDEGWKLADYLPCDDVREDALKRLFMALDSVFSRSTGVRSAAVYALMPSENAALRLVCL</Hsp_qseq>
+      <Hsp_hseq>ESRAEYNITITVTDLGTPRLKTQQSITVQVSDVNDNAPAFTQTSYTLFVRENNSPALHIGSVSATDRDSGINAQVTYSLLPPQDPHLPLASL</Hsp_hseq>
+      <Hsp_midline>E RA Y    TV D+G        SI   V   ND             VRE+    L +   S   R +G+ +   Y+L+P ++  L L  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|145559514|sp|Q9UN66.3|PCDB8_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Protocadherin beta-8; Short=PCDH-beta-8; AltName: Full=Protocadherin-3I; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9UN66</Hit_accession>
+  <Hit_len>801</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.58606</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>PLD-EVRAAYLTAQTVMDMGM----ASIDRSVLW--CNDEGWKLADYLPCDDVREDALKRLFMALDSVFSRSTGVRSAAVYALMPSENAALRLVCL</Hsp_qseq>
+      <Hsp_hseq>PLDRESRAEYNVTITVTDLGTPRLTTHLNMTVLVSDVNDNAPAFTQTSYTLFVRENNSPALHIGSVSATDRDSGTNAQVTYSLLPPQDPHLPLASL</Hsp_hseq>
+      <Hsp_midline>PLD E RA Y    TV D+G       ++ +VL    ND             VRE+    L +   S   R +G  +   Y+L+P ++  L L  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|121731929|sp|Q464Y4.1|RPOH_METBF</Hit_id>
+  <Hit_def>RecName: Full=DNA-directed RNA polymerase subunit H [Methanosarcina barkeri str. Fusaro]</Hit_def>
+  <Hit_accession>Q464Y4</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.92561</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>LGELSGERNHASAAQISIPVCTESGGVLGVVHVEFECAECADTAAQAEWVALAL</Hsp_qseq>
+      <Hsp_hseq>LSKYSIEKEQLPKIKVHDPVCKEIGAVVGDV---VKITRISQTAGEAEYYRLVI</Hsp_hseq>
+      <Hsp_midline>L + S E+      ++  PVC E G V+G V    +    + TA +AE+  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|22095989|sp|Q9NPG4.1|PCD12_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Protocadherin-12; AltName: Full=Vascular cadherin-2; AltName: Full=Vascular endothelial cadherin-2; Short=VE-cad-2; Short=VE-cadherin-2; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9NPG4</Hit_accession>
+  <Hit_len>1184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.1147</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>DMGMASIDRSVLWCNDEGWKLADYLPCDDVREDALKRLFMALDSVFSRSTGVRSAAVYALMPSENAALRLVC</Hsp_qseq>
+      <Hsp_hseq>DLALIHVEIQVLDINDHQPRFPKGEQELEISESASLRTRIPLDRALDPDTGPNTLHTYTLSPSEHFALDVIV</Hsp_hseq>
+      <Hsp_midline>D+ +  ++  VL  ND   +        ++ E A  R  + LD      TG  +   Y L PSE+ AL ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|259647605|sp|C4ZD61.1|GPDA_EUBR3</Hit_id>
+  <Hit_def>RecName: Full=Glycerol-3-phosphate dehydrogenase [NAD(P)+]; AltName: Full=NAD(P)H-dependent glycerol-3-phosphate dehydrogenase [Eubacterium rectale ATCC 33656]</Hit_def>
+  <Hit_accession>C4ZD61</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.34588</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GWKLADYLPCDDVREDALKR---LFMALDSVFSRSTGVRSAAVYALMPSENAALRLVCLSQQGE-----GLENIWEQDGNITDVSLACRSAQSGWMNVASDVRRWLNLGELSGERNHASA</Hsp_qseq>
+      <Hsp_hseq>GVKLPDSITFTTDIEETIKNNDILVLAVPSVFTRSTAVKMA------PFVKEGQIIVCVAKGIEENTLMTISDVVESEIPCADVAVMCGPSH------AEEVGRLLPTTVVAGARTQKTA</Hsp_hseq>
+      <Hsp_midline>G KL D +      E+ +K    L +A+ SVF+RST V+ A      P       +VC+++  E      + ++ E +    DV++ C  +       A +V R L    ++G R   +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|82182122|sp|Q6DBY0.1|NUP85_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Nuclear pore complex protein Nup85; AltName: Full=85 kDa nucleoporin; AltName: Full=Nucleoporin Nup85; AltName: Full=Pericentrin-1 [Danio rerio]</Hit_def>
+  <Hit_accession>Q6DBY0</Hit_accession>
+  <Hit_len>649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>9.06041</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>367</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>NIWEQDGNITDVSLACRSAQSGWMNVASDVRRWLNLGELSGERNHASAAQISIPV---CTESGGVLGVVHVE</Hsp_qseq>
+      <Hsp_hseq>NNWWFVAHLTDLLDHCKLLQSHNLHFGSNLREFLVLEYASGLFTHHSLWQLAVDYLDHCPEFGRVYLELQIE</Hsp_hseq>
+      <Hsp_midline>N W    ++TD+   C+  QS  ++  S++R +L L   SG   H S  Q+++     C E G V   + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|3025044|sp|P74078.1|Y1254_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=UPF0053 protein sll1254 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P74078</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>9.30208</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LENIWEQDGNITDVSLACRSAQSGWMNVASDVRRWLNL--GELS----GERNHASAA-QISIPV</Hsp_qseq>
+      <Hsp_hseq>LNNIFNIVGSITIGALATKHLQDAWMGVFSGILTLLIIVFGEIIPKTLGERYATNIALLIAIPV</Hsp_hseq>
+      <Hsp_midline>L NI+   G+IT  +LA +  Q  WM V S +   L +  GE+     GER   + A  I+IPV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|81879139|sp|Q8R480.1|NUP85_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Nuclear pore complex protein Nup85; AltName: Full=85 kDa nucleoporin; AltName: Full=FROUNT; AltName: Full=Nucleoporin Nup85; AltName: Full=Pericentrin-1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q8R480</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>9.65722</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>375</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>GNITDVSLACRSAQSGWMNVASDVRRWLNLGELSGERNHASAAQISI---PVCTESGGVLGVVHVEFECAECADTAAQAEWVALALALSEPLKQLLGITAAEGDEN</Hsp_qseq>
+      <Hsp_hseq>AHLTDLLDHCRLLQSHNLYFGSNMREFLLLEYASGLFAHHSLWQLGVDYFDYCPELGRVSLELHIERIPLNTEQKALKVLRICEQRQMTEQVKSICKILAMKAVRN</Hsp_hseq>
+      <Hsp_midline> ++TD+   CR  QS  +   S++R +L L   SG   H S  Q+ +     C E G V   +H+E         A +   +     ++E +K +  I A +   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>45293</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7B2</BlastOutput_query-def>
+  <BlastOutput_query-len>110</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>45293</Iteration_query-ID>
+  <Iteration_query-def>Q5F7B2</Iteration_query-def>
+  <Iteration_query-len>110</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|296453048|sp|Q6ZNG1.2|ZN600_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger protein 600 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q6ZNG1</Hit_accession>
+  <Hit_len>722</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.316258</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>422</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>SFPDNSEMVIKESLNDGHKTYKFEFCEIVDNC</Hsp_qseq>
+      <Hsp_hseq>TFGQNSDLLIHKSIHTGEQPYKYEECEKVFSC</Hsp_hseq>
+      <Hsp_midline>+F  NS+++I +S++ G + YK+E CE V +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|25008529|sp|Q8K9W2.1|GYRA_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=DNA gyrase subunit A [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K9W2</Hit_accession>
+  <Hit_len>825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.615541</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>523</Hsp_hit-from>
+      <Hsp_hit-to>593</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>ITQAQLALYKYQPSSEYF-------GQSMAVIAQSEFVEFAKINKSENVIDCFSFFWNRRIKHDIWLISFPDNS</Hsp_qseq>
+      <Hsp_hseq>VTLSHSGYVKYQPLSDYNAQKRGGKGKSAAKIKEEDFIESLVVTNTHDTILCFS---SRGILYWMKVYQLPESS</Hsp_hseq>
+      <Hsp_midline>+T +     KYQP S+Y        G+S A I + +F+E   +  + + I CFS   +R I + + +   P++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|11132931|sp|P57277.1|GYRA_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=DNA gyrase subunit A [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57277</Hit_accession>
+  <Hit_len>830</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.792384</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>522</Hsp_hit-from>
+      <Hsp_hit-to>592</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>ITQAQLALYKYQPSSEYF-------GQSMAVIAQSEFVEFAKINKSENVIDCFSFFWNRRIKHDIWLISFPDNS</Hsp_qseq>
+      <Hsp_hseq>VTLSHSGYVKYQPLSDYNAQRRGGKGKSAAKIKEEDFIESLVIANTHDTILCFS---SRGILYWMKVYQLPESS</Hsp_hseq>
+      <Hsp_midline>+T +     KYQP S+Y        G+S A I + +F+E   I  + + I CFS   +R I + + +   P++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|84028817|sp|P0AES4.1|GYRA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=DNA gyrase subunit A [Escherichia coli K-12] &gt;gi|84028818|sp|P0AES5.1|GYRA_SHIFL RecName: Full=DNA gyrase subunit A [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AES4</Hit_accession>
+  <Hit_len>875</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.65478</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>541</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ITQAQLALYKYQPSSEY-------FGQSMAVIAQSEFVEFAKINKSENVIDCFS</Hsp_qseq>
+      <Hsp_hseq>VTLSHQGYVKYQPLSEYEAQRRGGKGKSAARIKEEDFIDRLLVANTHDHILCFS</Hsp_hseq>
+      <Hsp_midline>+T +     KYQP SEY        G+S A I + +F++   +  + + I CFS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122170980|sp|Q0DXZ1.1|CSLE2_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Cellulose synthase-like protein E2; AltName: Full=OsCslE2 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q0DXZ1</Hit_accession>
+  <Hit_len>745</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.84059</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NKSENVIDCFSFFWNRRIKHDIWLISFPDNSEMVIKESL</Hsp_qseq>
+      <Hsp_hseq>NNSESIRDALCFFLDEEQGQDIGFVQYPQNFENVVHNDI</Hsp_hseq>
+      <Hsp_midline>N SE++ D   FF +     DI  + +P N E V+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1170143|sp|P41513.1|GYRA_PECCA</Hit_id>
+  <Hit_def>RecName: Full=DNA gyrase subunit A [Pectobacterium carotovorum]</Hit_def>
+  <Hit_accession>P41513</Hit_accession>
+  <Hit_len>878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.98605</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>541</Hsp_hit-from>
+      <Hsp_hit-to>601</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>ITQAQLALYKYQPSSEY-------FGQSMAVIAQSEFVEFAKINKSENVIDCFS----FFW</Hsp_qseq>
+      <Hsp_hseq>VTLSHQGYVKYQPLSDYEAQRRGGKGKSAARIKEEDFIDRLLVANTHDTILCFSSRGRLYW</Hsp_hseq>
+      <Hsp_midline>+T +     KYQP S+Y        G+S A I + +F++   +  + + I CFS     +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123358909|sp|Q141C9.1|ADC_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Probable acetoacetate decarboxylase; Short=AAD; Short=ADC [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>Q141C9</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.23782</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>CFSFFWNRRIKHDIWLISF---PDNSEMVIKESLNDGHKTYKFEFCEIVDNCNFDD</Hsp_qseq>
+      <Hsp_hseq>AFPMGPYRFINREFLIITYRTDPDKLRAVVPEPLEIGEPLVHYEFIRMPDSTGFGD</Hsp_hseq>
+      <Hsp_midline> F     R I  +  +I++   PD    V+ E L  G     +EF  + D+  F D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|82133637|sp|Q8AXP2.1|CCD80_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Coiled-coil domain-containing protein 80; AltName: Full=Equarin; Flags: Precursor [Gallus gallus]</Hit_def>
+  <Hit_accession>Q8AXP2</Hit_accession>
+  <Hit_len>958</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.78596</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>QAQLALYKYQPSSEYFGQSMAVIAQSEFVEFAKINKSENVIDCFSFFWNRRIKHDIWLISFPDNSE</Hsp_qseq>
+      <Hsp_hseq>QRLTAAAKYSKSEMIKDEGISTASQSRAVRFPSGSSSPNVLASFAG------KNRVWVISAPHASE</Hsp_hseq>
+      <Hsp_midline>Q   A  KY  S     + ++  +QS  V F   + S NV+  F+       K+ +W+IS P  SE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|226710959|sp|B2T319.1|ADC_BURPP</Hit_id>
+  <Hit_def>RecName: Full=Probable acetoacetate decarboxylase; Short=AAD; Short=ADC [Burkholderia phytofirmans PsJN]</Hit_def>
+  <Hit_accession>B2T319</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>8.37185</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>CFSFFWNRRIKHDIWLISF---PDNSEMVIKESLNDGHKTYKFEFCEIVDNCNFDD</Hsp_qseq>
+      <Hsp_hseq>AFPMGPYRFINREFLIITYRTDPDKLRAVVPEPLEIGEPLVHYEFIRMPDSTGFGD</Hsp_hseq>
+      <Hsp_midline> F     R I  +  +I++   PD    V+ E L  G     +EF  + D+  F D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|259495212|sp|Q9TZM3.6|LRK1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Leucine-rich repeat serine/threonine-protein kinase 1; AltName: Full=Leucine-rich repeats, ras-like domain, kinase protein 1; AltName: Full=PARK8-related kinase [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q9TZM3</Hit_accession>
+  <Hit_len>2393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.94372</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>1890</Hsp_hit-from>
+      <Hsp_hit-to>1948</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>FGQSMAVIAQSEFVEFAKINKSENVIDCFSFFWNRRIKHDIWLISFPDNSEMVIKESLNDGHK</Hsp_qseq>
+      <Hsp_hseq>FGGTEGFMA-PEIVRFNGEEEYTQKVDCFSF---GMFLYELLTLKFPFESEEHVKERMLDGAR</Hsp_hseq>
+      <Hsp_midline>FG +   +A  E V F    +    +DCFSF       +++  + FP  SE  +KE + DG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

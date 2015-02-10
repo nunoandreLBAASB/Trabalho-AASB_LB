@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>47125</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7W1</BlastOutput_query-def>
+  <BlastOutput_query-len>160</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>47125</Iteration_query-ID>
+  <Iteration_query-def>Q5F7W1</Iteration_query-def>
+  <Iteration_query-len>160</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489784292|ref|WP_003688183.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria gonorrhoeae] &gt;gi|59801426|ref|YP_208138.1| acyl-CoA hydrolase [Neisseria gonorrhoeae FA 1090] &gt;gi|194098294|ref|YP_002001352.1| putative acyl-CoA hydrolase [Neisseria gonorrhoeae NCCP11945] &gt;gi|538321708|ref|YP_008502768.1| acyl-CoA thioester hydrolase [Neisseria gonorrhoeae MS11] &gt;gi|59718321|gb|AAW89726.1| putative acyl-CoA hydrolase [Neisseria gonorrhoeae FA 1090] &gt;gi|193933584|gb|ACF29408.1| putative acyl-CoA hydrolase [Neisseria gonorrhoeae NCCP11945] &gt;gi|226512544|gb|EEH61889.1| acyl-CoA hydrolase [Neisseria gonorrhoeae 1291] &gt;gi|268547952|gb|EEZ43370.1| acyl CoA thioester hydrolase [Neisseria gonorrhoeae 35/02] &gt;gi|268550897|gb|EEZ45916.1| hypothetical protein NGEG_01186 [Neisseria gonorrhoeae FA19] &gt;gi|268582841|gb|EEZ47517.1| acyl-CoA thioester hydrolase [Neisseria gonorrhoeae MS11] &gt;gi|268585199|gb|EEZ49875.1| acyl-CoA hydrolase [Neisseria gonorrhoeae PID18] &gt;gi|268587517|gb|EEZ52193.1| acyl-CoA hydrolase [Neisseria gonorrhoeae PID1] &gt;gi|268622151|gb|EEZ54551.1| acyl-CoA hydrolase [Neisseria gonorrhoeae PID332] &gt;gi|268624366|gb|EEZ56766.1| acyl-CoA hydrolase [Neisseria gonorrhoeae SK-92-679] &gt;gi|268626621|gb|EEZ59021.1| acyl-CoA hydrolase [Neisseria gonorrhoeae SK-93-1035] &gt;gi|291012582|gb|EFE04571.1| acyl CoA thioester hydrolase [Neisseria gonorrhoeae DGI2] &gt;gi|291610698|gb|EFF39808.1| acyl-CoA hydrolase [Neisseria gonorrhoeae F62] &gt;gi|636863407|gb|KDN00412.1| acyl-CoA thioester hydrolase [Neisseria gonorrhoeae] &gt;gi|636865893|gb|KDN02718.1| acyl-CoA thioester hydrolase [Neisseria gonorrhoeae] &gt;gi|654606524|gb|KEC87066.1| acyl-CoA thioester hydrolase [Neisseria gonorrhoeae] &gt;gi|693765032|gb|KGI95916.1| acyl-CoA thioester hydrolase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003688183</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>1.41739e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|728044217|ref|WP_033910217.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria gonorrhoeae] &gt;gi|636860968|gb|KDM98167.1| acyl-CoA thioester hydrolase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_033910217</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.109</Hsp_bit-score>
+      <Hsp_score>858</Hsp_score>
+      <Hsp_evalue>4.71784e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYASVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYA+VNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489806715|ref|WP_003710586.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-CoA thioester hydrolase [Neisseria] &gt;gi|313668129|ref|YP_004048413.1| acyl-CoA hydrolase [Neisseria lactamica 020-06] &gt;gi|269208512|gb|EEZ74967.1| thioesterase family protein [Neisseria lactamica ATCC 23970] &gt;gi|296839339|gb|EFH23277.1| thioesterase family protein [Neisseria polysaccharea ATCC 43768] &gt;gi|309378350|emb|CBX23047.1| unnamed protein product [Neisseria lactamica Y92-1009] &gt;gi|313005591|emb|CBN87027.1| putative acyl-CoA hydrolase [Neisseria lactamica 020-06] &gt;gi|673468701|gb|KFJ35331.1| thioesterase superfamily protein [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003710586</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.724</Hsp_bit-score>
+      <Hsp_score>857</Hsp_score>
+      <Hsp_evalue>5.87079e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRRDISLQASGDVSCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRR+ISLQASGDVSCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|518103225|ref|WP_019273433.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019273433</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.954</Hsp_bit-score>
+      <Hsp_score>855</Hsp_score>
+      <Hsp_evalue>1.01409e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRRNISLQASGDVSCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRR ISLQASGDVSCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488184731|ref|WP_002255939.1|</Hit_id>
+  <Hit_def>thioesterase superfamily protein [Neisseria meningitidis] &gt;gi|485349707|gb|EOC11308.1| thioesterase superfamily protein [Neisseria meningitidis 73696]</Hit_def>
+  <Hit_accession>WP_002255939</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.183</Hsp_bit-score>
+      <Hsp_score>853</Hsp_score>
+      <Hsp_evalue>2.6249e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRKNISLQASGDVSCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKR+ ISLQASGDVSCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|488153880|ref|WP_002225088.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|15677335|ref|NP_274490.1| acyl CoA thioester hydrolase [Neisseria meningitidis MC58] &gt;gi|385852906|ref|YP_005899420.1| thioesterase family protein [Neisseria meningitidis H44/76] &gt;gi|7226722|gb|AAF41838.1| acyl CoA thioester hydrolase family protein [Neisseria meningitidis MC58] &gt;gi|316984627|gb|EFV63592.1| thioesterase superfamily protein [Neisseria meningitidis H44/76] &gt;gi|325140581|gb|EGC63101.1| thioesterase family protein [Neisseria meningitidis CU385] &gt;gi|325199910|gb|ADY95365.1| thioesterase family protein [Neisseria meningitidis H44/76] &gt;gi|432202508|gb|ELK58570.1| thioesterase superfamily protein [Neisseria meningitidis NM422] &gt;gi|432222625|gb|ELK78416.1| thioesterase superfamily protein [Neisseria meningitidis M13255] &gt;gi|432226591|gb|ELK82317.1| thioesterase superfamily protein [Neisseria meningitidis NM418] &gt;gi|432240496|gb|ELK96031.1| thioesterase superfamily protein [Neisseria meningitidis 9757] &gt;gi|432240599|gb|ELK96133.1| thioesterase superfamily protein [Neisseria meningitidis 9506] &gt;gi|432246048|gb|ELL01509.1| thioesterase superfamily protein [Neisseria meningitidis 12888] &gt;gi|432246335|gb|ELL01786.1| thioesterase superfamily protein [Neisseria meningitidis 4119] &gt;gi|485354212|gb|EOC15517.1| thioesterase superfamily protein [Neisseria meningitidis 2002020] &gt;gi|485358297|gb|EOC19239.1| thioesterase superfamily protein [Neisseria meningitidis 2002020] &gt;gi|485359978|gb|EOC20775.1| thioesterase superfamily protein [Neisseria meningitidis M13265] &gt;gi|530897800|gb|EQC96654.1| thioesterase superfamily protein [Neisseria meningitidis NM3141] &gt;gi|530899448|gb|EQC98193.1| thioesterase superfamily protein [Neisseria meningitidis 2002030] &gt;gi|530900035|gb|EQC98740.1| thioesterase superfamily protein [Neisseria meningitidis NM3141] &gt;gi|530900136|gb|EQC98835.1| thioesterase superfamily protein [Neisseria meningitidis NM3141] &gt;gi|530919015|gb|EQD16586.1| thioesterase superfamily protein [Neisseria meningitidis NM1476] &gt;gi|744799165|gb|AJC63953.1| acyl-CoA thioester hydrolase [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>WP_002225088</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.798</Hsp_bit-score>
+      <Hsp_score>852</Hsp_score>
+      <Hsp_evalue>2.89628e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHVGDLVTFYASVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRRDISLQASGDVSCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIH+GDLVTFYA+VNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRR+ISLQASGDVSCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488141729|ref|WP_002212937.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|218768474|ref|YP_002342986.1| acyl-CoA hydrolase [Neisseria meningitidis Z2491] &gt;gi|385338308|ref|YP_005892181.1| putative acyl-CoA thioester hydrolase [Neisseria meningitidis WUE 2594] &gt;gi|121052482|emb|CAM08821.1| putative acyl-CoA hydrolase [Neisseria meningitidis Z2491] &gt;gi|304338796|gb|EFM04902.1| thioesterase family protein [Neisseria meningitidis ATCC 13091] &gt;gi|319410722|emb|CBY91104.1| putative acyl-CoA thioester hydrolase [Neisseria meningitidis WUE 2594] &gt;gi|432209007|gb|ELK64978.1| thioesterase superfamily protein [Neisseria meningitidis 88050] &gt;gi|432215061|gb|ELK70952.1| thioesterase superfamily protein [Neisseria meningitidis 63041] &gt;gi|432252360|gb|ELL07716.1| thioesterase superfamily protein [Neisseria meningitidis 2004090] &gt;gi|432252616|gb|ELL07968.1| thioesterase superfamily protein [Neisseria meningitidis 96023] &gt;gi|432256118|gb|ELL11442.1| thioesterase superfamily protein [Neisseria meningitidis 65014] &gt;gi|432258651|gb|ELL13932.1| thioesterase superfamily protein [Neisseria meningitidis 97020] &gt;gi|432265349|gb|ELL20545.1| thioesterase superfamily protein [Neisseria meningitidis NM3652] &gt;gi|432265566|gb|ELL20758.1| thioesterase superfamily protein [Neisseria meningitidis NM3642] &gt;gi|432265986|gb|ELL21175.1| thioesterase superfamily protein [Neisseria meningitidis 2007056] &gt;gi|432270813|gb|ELL25947.1| thioesterase superfamily protein [Neisseria meningitidis 2001212] &gt;gi|432276876|gb|ELL31930.1| thioesterase superfamily protein [Neisseria meningitidis 63006] &gt;gi|485281336|gb|EOB47463.1| thioesterase superfamily protein [Neisseria meningitidis 2000080] &gt;gi|485281627|gb|EOB47739.1| thioesterase superfamily protein [Neisseria meningitidis 94018] &gt;gi|485287566|gb|EOB53299.1| thioesterase superfamily protein [Neisseria meningitidis 75689] &gt;gi|485287629|gb|EOB53359.1| thioesterase superfamily protein [Neisseria meningitidis 75689] &gt;gi|485287789|gb|EOB53506.1| thioesterase superfamily protein [Neisseria meningitidis 75643] &gt;gi|485293970|gb|EOB59282.1| thioesterase superfamily protein [Neisseria meningitidis 97018] &gt;gi|485301311|gb|EOB66133.1| thioesterase superfamily protein [Neisseria meningitidis 65012] &gt;gi|485302045|gb|EOB66821.1| thioesterase superfamily protein [Neisseria meningitidis 64182] &gt;gi|485307118|gb|EOB71556.1| thioesterase superfamily protein [Neisseria meningitidis 97027] &gt;gi|485308562|gb|EOB72895.1| thioesterase superfamily protein [Neisseria meningitidis 96024] &gt;gi|485309207|gb|EOB73504.1| thioesterase superfamily protein [Neisseria meningitidis 97008] &gt;gi|485313611|gb|EOB77630.1| thioesterase superfamily protein [Neisseria meningitidis 98005] &gt;gi|485315706|gb|EOB79585.1| thioesterase superfamily protein [Neisseria meningitidis 2003022] &gt;gi|485317313|gb|EOB81098.1| thioesterase superfamily protein [Neisseria meningitidis 2004085] &gt;gi|485320294|gb|EOB83878.1| thioesterase superfamily protein [Neisseria meningitidis 2000063] &gt;gi|485321984|gb|EOB85445.1| thioesterase superfamily protein [Neisseria meningitidis NM604] &gt;gi|485322657|gb|EOB86080.1| thioesterase superfamily protein [Neisseria meningitidis 2002007] &gt;gi|485329230|gb|EOB92179.1| thioesterase superfamily protein [Neisseria meningitidis NM607] &gt;gi|610427299|gb|AHW76175.1| acyl-CoA hydrolase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002212937</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.872</Hsp_bit-score>
+      <Hsp_score>847</Hsp_score>
+      <Hsp_evalue>1.85733e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRRDISLQASEDISCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRR+ISLQAS D+SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|442570918|pdb|4IEN|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Acyl-coa Hydrolase From Neisseria Meningitidis Fam18 &gt;gi|442570919|pdb|4IEN|B Chain B, Crystal Structure Of Acyl-coa Hydrolase From Neisseria Meningitidis Fam18 &gt;gi|442570920|pdb|4IEN|C Chain C, Crystal Structure Of Acyl-coa Hydrolase From Neisseria Meningitidis Fam18 &gt;gi|442570921|pdb|4IEN|D Chain D, Crystal Structure Of Acyl-coa Hydrolase From Neisseria Meningitidis Fam18</Hit_def>
+  <Hit_accession>4IEN_A</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.872</Hsp_bit-score>
+      <Hsp_score>847</Hsp_score>
+      <Hsp_evalue>1.88572e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRRDISLQASEDMSCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRR+ISLQAS D+SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488145663|ref|WP_002216871.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|121635162|ref|YP_975407.1| acyl-CoA hydrolase [Neisseria meningitidis FAM18] &gt;gi|254805257|ref|YP_003083478.1| putative acyl-CoA hydrolase [Neisseria meningitidis alpha14] &gt;gi|385323877|ref|YP_005878316.1| putative acyl-CoA thioester hydrolase [Neisseria meningitidis 8013] &gt;gi|385328267|ref|YP_005882570.1| putative acyl-CoA hydrolase [Neisseria meningitidis alpha710] &gt;gi|385340368|ref|YP_005894240.1| thioesterase family protein [Neisseria meningitidis G2136] &gt;gi|385341621|ref|YP_005895492.1| thioesterase family protein [Neisseria meningitidis M01-240149] &gt;gi|385855524|ref|YP_005902037.1| thioesterase family protein [Neisseria meningitidis M01-240355] &gt;gi|385857532|ref|YP_005904044.1| thioesterase family protein [Neisseria meningitidis NZ-05/33] &gt;gi|120866868|emb|CAM10627.1| putative acyl-CoA hydrolase [Neisseria meningitidis FAM18] &gt;gi|254668799|emb|CBA06759.1| putative acyl-CoA hydrolase [Neisseria meningitidis alpha14] &gt;gi|254671771|emb|CBA09618.1| putative acyl-CoA thioester hydrolase [Neisseria meningitidis alpha153] &gt;gi|254674284|emb|CBA10068.1| putative acyl-CoA thioester hydrolase [Neisseria meningitidis alpha275] &gt;gi|261392264|emb|CAX49784.1| putative acyl-CoA thioester hydrolase [Neisseria meningitidis 8013] &gt;gi|308389119|gb|ADO31439.1| putative acyl-CoA hydrolase [Neisseria meningitidis alpha710] &gt;gi|325128560|gb|EGC51433.1| thioesterase family protein [Neisseria meningitidis N1568] &gt;gi|325130558|gb|EGC53310.1| thioesterase family protein [Neisseria meningitidis OX99.30304] &gt;gi|325131209|gb|EGC53922.1| thioesterase superfamily protein [Neisseria meningitidis M6190] &gt;gi|325134602|gb|EGC57245.1| thioesterase family protein [Neisseria meningitidis M13399] &gt;gi|325136625|gb|EGC59226.1| thioesterase family protein [Neisseria meningitidis M0579] &gt;gi|325138519|gb|EGC61084.1| thioesterase family protein [Neisseria meningitidis ES14902] &gt;gi|325144777|gb|EGC67069.1| thioesterase family protein [Neisseria meningitidis M01-240013] &gt;gi|325198612|gb|ADY94068.1| thioesterase family protein [Neisseria meningitidis G2136] &gt;gi|325201827|gb|ADY97281.1| thioesterase family protein [Neisseria meningitidis M01-240149] &gt;gi|325204465|gb|ADY99918.1| thioesterase family protein [Neisseria meningitidis M01-240355] &gt;gi|325208421|gb|ADZ03873.1| thioesterase family protein [Neisseria meningitidis NZ-05/33] &gt;gi|372200794|gb|EHP14814.1| thioesterase family protein [Neisseria meningitidis NM220] &gt;gi|372201413|gb|EHP15346.1| thioesterase family protein [Neisseria meningitidis NM233] &gt;gi|389605372|emb|CCA44290.1| putative acyl-CoA hydrolase [Neisseria meningitidis alpha522] &gt;gi|393291653|emb|CCI73108.1| putative acyl-CoA thioester hydrolase-related protein [Neisseria meningitidis alpha704] &gt;gi|402316467|gb|EJU52012.1| protein vdlD [Neisseria meningitidis 93003] &gt;gi|402316573|gb|EJU52116.1| protein vdlD [Neisseria meningitidis NM255] &gt;gi|402322364|gb|EJU57826.1| protein vdlD [Neisseria meningitidis NM183] &gt;gi|402322713|gb|EJU58164.1| protein vdlD [Neisseria meningitidis NM140] &gt;gi|402324527|gb|EJU59959.1| protein vdlD [Neisseria meningitidis NM2781] &gt;gi|402328628|gb|EJU63995.1| protein vdlD [Neisseria meningitidis 69166] &gt;gi|402331410|gb|EJU66747.1| protein vdlD [Neisseria meningitidis 98008] &gt;gi|402332398|gb|EJU67725.1| protein vdlD [Neisseria meningitidis NM576] &gt;gi|402335259|gb|EJU70525.1| protein vdlD [Neisseria meningitidis 92045] &gt;gi|402339809|gb|EJU75018.1| thioesterase superfamily protein [Neisseria meningitidis NM2657] &gt;gi|402340162|gb|EJU75365.1| protein vdlD [Neisseria meningitidis NM2795] &gt;gi|402344883|gb|EJU80016.1| protein vdlD [Neisseria meningitidis NM3001] &gt;gi|402345488|gb|EJU80604.1| protein vdlD [Neisseria meningitidis NM3081] &gt;gi|432202046|gb|ELK58114.1| thioesterase superfamily protein [Neisseria meningitidis 87255] &gt;gi|432205877|gb|ELK61893.1| thioesterase superfamily protein [Neisseria meningitidis 98080] &gt;gi|432207667|gb|ELK63655.1| thioesterase superfamily protein [Neisseria meningitidis 68094] &gt;gi|432208797|gb|ELK64769.1| thioesterase superfamily protein [Neisseria meningitidis 97021] &gt;gi|432214739|gb|ELK70635.1| thioesterase superfamily protein [Neisseria meningitidis 70012] &gt;gi|432215098|gb|ELK70988.1| thioesterase superfamily protein [Neisseria meningitidis 2006087] &gt;gi|432220109|gb|ELK75935.1| thioesterase superfamily protein [Neisseria meningitidis 2002038] &gt;gi|432221205|gb|ELK77018.1| thioesterase superfamily protein [Neisseria meningitidis 97014] &gt;gi|432227172|gb|ELK82883.1| thioesterase superfamily protein [Neisseria meningitidis NM586] &gt;gi|432229393|gb|ELK85081.1| thioesterase superfamily protein [Neisseria meningitidis NM762] &gt;gi|432232886|gb|ELK88521.1| thioesterase superfamily protein [Neisseria meningitidis M7089] &gt;gi|432233667|gb|ELK89293.1| thioesterase superfamily protein [Neisseria meningitidis M7124] &gt;gi|432235011|gb|ELK90630.1| thioesterase superfamily protein [Neisseria meningitidis NM174] &gt;gi|432242930|gb|ELK98445.1| thioesterase superfamily protein [Neisseria meningitidis NM126] &gt;gi|432246444|gb|ELL01891.1| thioesterase superfamily protein [Neisseria meningitidis 63049] &gt;gi|432258580|gb|ELL13862.1| thioesterase superfamily protein [Neisseria meningitidis 61103] &gt;gi|432261081|gb|ELL16338.1| thioesterase superfamily protein [Neisseria meningitidis 69096] &gt;gi|432271191|gb|ELL26317.1| thioesterase superfamily protein [Neisseria meningitidis 77221] &gt;gi|432272978|gb|ELL28080.1| thioesterase superfamily protein [Neisseria meningitidis 70030] &gt;gi|485274296|gb|EOB40887.1| thioesterase superfamily protein [Neisseria meningitidis 70021] &gt;gi|485274324|gb|EOB40914.1| thioesterase superfamily protein [Neisseria meningitidis 69176] &gt;gi|485274376|gb|EOB40961.1| thioesterase superfamily protein [Neisseria meningitidis 69155] &gt;gi|485280758|gb|EOB46916.1| thioesterase superfamily protein [Neisseria meningitidis 96060] &gt;gi|485288778|gb|EOB54442.1| thioesterase superfamily protein [Neisseria meningitidis 69100] &gt;gi|485292413|gb|EOB57857.1| thioesterase superfamily protein [Neisseria meningitidis 69100] &gt;gi|485294754|gb|EOB60017.1| thioesterase superfamily protein [Neisseria meningitidis 63023] &gt;gi|485295057|gb|EOB60303.1| thioesterase superfamily protein [Neisseria meningitidis 61106] &gt;gi|485301014|gb|EOB65857.1| thioesterase superfamily protein [Neisseria meningitidis 70082] &gt;gi|485328432|gb|EOB91461.1| thioesterase superfamily protein [Neisseria meningitidis NM133] &gt;gi|485329574|gb|EOB92523.1| thioesterase superfamily protein [Neisseria meningitidis NM133] &gt;gi|485331628|gb|EOB94457.1| thioesterase superfamily protein [Neisseria meningitidis NM133] &gt;gi|485332682|gb|EOB95438.1| thioesterase superfamily protein [Neisseria meningitidis NM43] &gt;gi|485336422|gb|EOB98911.1| thioesterase superfamily protein [Neisseria meningitidis NM82] &gt;gi|485336535|gb|EOB99013.1| thioesterase superfamily protein [Neisseria meningitidis NM94] &gt;gi|485339191|gb|EOC01516.1| thioesterase superfamily protein [Neisseria meningitidis NM95] &gt;gi|485341930|gb|EOC04072.1| thioesterase superfamily protein [Neisseria meningitidis NM1482] &gt;gi|485342678|gb|EOC04766.1| thioesterase superfamily protein [Neisseria meningitidis NM313] &gt;gi|485343647|gb|EOC05661.1| thioesterase superfamily protein [Neisseria meningitidis NM1482] &gt;gi|485345827|gb|EOC07697.1| thioesterase superfamily protein [Neisseria meningitidis NM1482] &gt;gi|485345970|gb|EOC07835.1| thioesterase superfamily protein [Neisseria meningitidis NM1495] &gt;gi|485349791|gb|EOC11382.1| thioesterase superfamily protein [Neisseria meningitidis 73704] &gt;gi|485352958|gb|EOC14342.1| thioesterase superfamily protein [Neisseria meningitidis 81858] &gt;gi|485367001|gb|EOC27187.1| thioesterase superfamily protein [Neisseria meningitidis 2001073] &gt;gi|485368804|gb|EOC28885.1| thioesterase superfamily protein [Neisseria meningitidis 2000081] &gt;gi|485369078|gb|EOC29134.1| thioesterase superfamily protein [Neisseria meningitidis 2000081] &gt;gi|485370297|gb|EOC30262.1| thioesterase superfamily protein [Neisseria meningitidis 2001001] &gt;gi|485373889|gb|EOC33609.1| thioesterase superfamily protein [Neisseria meningitidis 2004032] &gt;gi|485375288|gb|EOC34918.1| thioesterase superfamily protein [Neisseria meningitidis 2001213] &gt;gi|485378434|gb|EOC37869.1| thioesterase superfamily protein [Neisseria meningitidis 2004264] &gt;gi|485380892|gb|EOC40157.1| thioesterase superfamily protein [Neisseria meningitidis 2000175] &gt;gi|485380975|gb|EOC40231.1| thioesterase superfamily protein [Neisseria meningitidis 2005079] &gt;gi|485385154|gb|EOC44149.1| thioesterase superfamily protein [Neisseria meningitidis 2001068] &gt;gi|485387466|gb|EOC46304.1| thioesterase superfamily protein [Neisseria meningitidis 2005040] &gt;gi|485387730|gb|EOC46547.1| thioesterase superfamily protein [Neisseria meningitidis 2002004] &gt;gi|485387760|gb|EOC46574.1| thioesterase superfamily protein [Neisseria meningitidis 2002004] &gt;gi|485388379|gb|EOC47154.1| thioesterase superfamily protein [Neisseria meningitidis 2002004] &gt;gi|485392337|gb|EOC50839.1| thioesterase superfamily protein [Neisseria meningitidis 2005172] &gt;gi|485394918|gb|EOC53256.1| thioesterase superfamily protein [Neisseria meningitidis 2003051] &gt;gi|485399418|gb|EOC57440.1| thioesterase superfamily protein [Neisseria meningitidis NM271] &gt;gi|485399858|gb|EOC57845.1| thioesterase superfamily protein [Neisseria meningitidis NM115] &gt;gi|485401480|gb|EOC59388.1| thioesterase superfamily protein [Neisseria meningitidis NM90] &gt;gi|485405994|gb|EOC63556.1| thioesterase superfamily protein [Neisseria meningitidis NM3042] &gt;gi|485406425|gb|EOC63947.1| thioesterase superfamily protein [Neisseria meningitidis NM3222] &gt;gi|485408247|gb|EOC65657.1| thioesterase superfamily protein [Neisseria meningitidis NM3131] &gt;gi|485412665|gb|EOC69742.1| thioesterase superfamily protein [Neisseria meningitidis NM3144] &gt;gi|485413026|gb|EOC70068.1| thioesterase superfamily protein [Neisseria meningitidis NM3158] &gt;gi|485415453|gb|EOC72356.1| thioesterase superfamily protein [Neisseria meningitidis NM3164] &gt;gi|485419249|gb|EOC75879.1| thioesterase superfamily protein [Neisseria meningitidis NM27] &gt;gi|485419527|gb|EOC76117.1| thioesterase superfamily protein [Neisseria meningitidis NM51] &gt;gi|485422677|gb|EOC79075.1| thioesterase superfamily protein [Neisseria meningitidis NM80] &gt;gi|485425850|gb|EOC81995.1| thioesterase superfamily protein [Neisseria meningitidis NM165] &gt;gi|485425971|gb|EOC82103.1| thioesterase superfamily protein [Neisseria meningitidis NM3223] &gt;gi|485430169|gb|EOC85926.1| thioesterase superfamily protein [Neisseria meningitidis NM23] &gt;gi|485430818|gb|EOC86512.1| thioesterase superfamily protein [Neisseria meningitidis NM32] &gt;gi|485432242|gb|EOC87812.1| thioesterase superfamily protein [Neisseria meningitidis NM32] &gt;gi|485435156|gb|EOC90429.1| thioesterase superfamily protein [Neisseria meningitidis NM35] &gt;gi|485436618|gb|EOC91763.1| thioesterase superfamily protein [Neisseria meningitidis NM36] &gt;gi|514069533|gb|EPF54440.1| thioesterase superfamily protein [Neisseria meningitidis NM134] &gt;gi|514069879|gb|EPF54757.1| thioesterase superfamily protein [Neisseria meningitidis 98002] &gt;gi|514070505|gb|EPF55345.1| thioesterase superfamily protein [Neisseria meningitidis 2007461] &gt;gi|530899586|gb|EQC98317.1| thioesterase superfamily protein [Neisseria meningitidis 96037] &gt;gi|530905540|gb|EQD03898.1| thioesterase superfamily protein [Neisseria meningitidis NM3139] &gt;gi|530906667|gb|EQD04951.1| thioesterase superfamily protein [Neisseria meningitidis NM045] &gt;gi|530907991|gb|EQD06199.1| thioesterase superfamily protein [Neisseria meningitidis NM151] &gt;gi|530911317|gb|EQD09334.1| thioesterase superfamily protein [Neisseria meningitidis NM003] &gt;gi|530914741|gb|EQD12546.1| thioesterase superfamily protein [Neisseria meningitidis NM0552] &gt;gi|530916729|gb|EQD14426.1| thioesterase superfamily protein [Neisseria meningitidis NM0552] &gt;gi|530917246|gb|EQD14919.1| thioesterase superfamily protein [Neisseria meningitidis NM518] &gt;gi|530922293|gb|EQD19642.1| thioesterase superfamily protein [Neisseria meningitidis NM3230] &gt;gi|530923471|gb|EQD20750.1| thioesterase superfamily protein [Neisseria meningitidis NM2866] &gt;gi|663091512|gb|KER39771.1| thioesterase superfamily protein [Neisseria meningitidis 992008] &gt;gi|694192789|gb|KGI98037.1| acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|723270250|gb|KHC97442.1| acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|723273850|gb|KHD01034.1| acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|726975685|gb|KHF23105.1| acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|730571117|gb|AIZ18919.1| acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|730573437|gb|AIZ20839.1| acyl-CoA thioester hydrolase [Neisseria meningitidis M7124] &gt;gi|730575774|gb|AIZ22723.1| acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|730578243|gb|AIZ24690.1| acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|743392986|gb|KID52525.1| acyl-CoA thioester hydrolase [Neisseria meningitidis LNP27256] &gt;gi|747189224|gb|KIF92556.1| acyl-CoA thioester hydrolase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002216871</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>3.2081e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRRDISLQASEDMSCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRR+ISLQAS D+SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|488162849|ref|WP_002234057.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria meningitidis] &gt;gi|161870349|ref|YP_001599519.1| acyl-CoA hydrolase [Neisseria meningitidis 053442] &gt;gi|385850940|ref|YP_005897455.1| thioesterase family protein [Neisseria meningitidis M04-240196] &gt;gi|161595902|gb|ABX73562.1| acyl-CoA hydrolase [Neisseria meningitidis 053442] &gt;gi|325205763|gb|ADZ01216.1| thioesterase family protein [Neisseria meningitidis M04-240196] &gt;gi|402317980|gb|EJU53506.1| protein vdlD [Neisseria meningitidis 93004] &gt;gi|402336113|gb|EJU71375.1| protein vdlD [Neisseria meningitidis 80179]</Hit_def>
+  <Hit_accession>WP_002234057</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.717</Hsp_bit-score>
+      <Hsp_score>844</Hsp_score>
+      <Hsp_evalue>4.75494e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEVRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRRDISLQASEDMSCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGE+RHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRR+ISLQAS D+SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|489770792|ref|WP_003674703.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria cinerea] &gt;gi|269146301|gb|EEZ72719.1| thioesterase family protein [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003674703</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.324</Hsp_bit-score>
+      <Hsp_score>830</Hsp_score>
+      <Hsp_evalue>7.02145e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLRLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHVGDLVTFYASVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRKNISLQASEDMSCGC</Hsp_hseq>
+      <Hsp_midline>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELL LLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIH+GDLVTFYA+VNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKR+ ISLQAS D+SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|489851724|ref|WP_003755401.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-CoA thioester hydrolase [Neisseriaceae] &gt;gi|255050642|gb|EET46106.1| thioesterase family protein [Neisseria sicca ATCC 29256] &gt;gi|339887412|gb|EGQ76968.1| thioesterase [Neisseria macacae ATCC 33926] &gt;gi|385699726|gb|EIG30004.1| thioesterase family protein [Neisseria sicca VK64] &gt;gi|742693579|gb|KIC06142.1| acyl-CoA thioester hydrolase [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_003755401</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>9.26785e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MDQTRQLPSHELIMSELMMPDTANFSGNVHGGELLRLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHVGDLVTFYASVNYTGRTSMEIGIRVEAQNIRTGEVRHTNSCYFTMVAVEDGKPVPVPPLEITTERQRCRYEKAKKRKALSLQASDEASCGC</Hsp_hseq>
+      <Hsp_midline>M Q RQLPSHELIMSELMMPDTANFSGNVHGGELL LLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIH+GDLVTFYA+VNYTGRTSMEIGIRVEAQNIRTGE+RHTNSCYFTMVAV+DGKPVPVPPLEI T+RQRCRYEKAKKR+ +SLQAS + SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|489840621|ref|WP_003744324.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria mucosa] &gt;gi|288565868|gb|EFC87428.1| thioesterase family protein [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003744324</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>1.72755e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MEQARQLPSHELIMSELMMPDTANFSGNVHGGELLRLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHVGDLVTFYASVNYTGRTSMEIGIRVEAQNIRTGEVRHTNSCYFTMVAVEDGKPVPVPPLEIITERQRCRYEKAKKRKALSLQTSDETSCGC</Hsp_hseq>
+      <Hsp_midline>M Q RQLPSHELIMSELMMPDTANFSGNVHGGELL LLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIH+GDLVTFYA+VNYTGRTSMEIGIRVEAQNIRTGE+RHTNSCYFTMVAV+DGKPVPVPPLEI+T+RQRCRYEKAKKR+ +SLQ S + SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|496669500|ref|WP_009311990.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria sp. GT4A_CT1] &gt;gi|348611021|gb|EGY60696.1| hypothetical protein HMPREF1028_01256 [Neisseria sp. GT4A_CT1]</Hit_def>
+  <Hit_accession>WP_009311990</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>3.12407e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MDQTRQLPAHELIMSELMMPDTANFSGNVHGGELLRLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHVGDLVTFYASVNYTGRTSMEIGIRVEAQNIRTGEVRHTNSCYFTMVAVEDGKPVPVPPLEITTERQRCRYEKAKKRKVLSLQTSDETSCGC</Hsp_hseq>
+      <Hsp_midline>M Q RQLP+HELIMSELMMPDTANFSGNVHGGELL LLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIH+GDLVTFYA+VNYTGRTSMEIGIRVEAQNIRTGE+RHTNSCYFTMVAV+DGKPVPVPPLEI T+RQRCRYEKAKKR+ +SLQ S + SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|518100349|ref|WP_019270557.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_019270557</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>3.88692e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MEQARQLPSHELIMSELMMPDTANFSGNVHGGELLRLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHVGDLVTFYSSVNYTGRTSMEIGIRVEAQNIRTGEVRHTNSCYFTMVAVEDGKPVPVPPLEITTERQRCRYEKAQKRKALSLQTSDETSCGC</Hsp_hseq>
+      <Hsp_midline>M Q RQLPSHELIMSELMMPDTANFSGNVHGGELL LLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIH+GDLVTFY++VNYTGRTSMEIGIRVEAQNIRTGE+RHTNSCYFTMVAV+DGKPVPVPPLEI T+RQRCRYEKA+KR+ +SLQ S + SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|496464600|ref|WP_009173445.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria sp. oral taxon 014] &gt;gi|298282739|gb|EFI24226.1| thioesterase family protein [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009173445</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>4.15474e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MEQTRQLPSHELIMSELMMPDTANFSGNVHGGELLRLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHVGDLVTFYASVNYTGRTSMEIGIRVEAQNIRTGEVRHTNSCYFTMVAVEDGKPVPVPPLEITTERQRCRFDKAKKRKELSLRAADESSCGC</Hsp_hseq>
+      <Hsp_midline>M Q RQLPSHELIMSELMMPDTANFSGNVHGGELL LLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIH+GDLVTFYA+VNYTGRTSMEIGIRVEAQNIRTGE+RHTNSCYFTMVAV+DGKPVPVPPLEI T+RQRCR++KAKKR+E+SL+A+ + SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|515031165|ref|WP_016688419.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016688419</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>2.04508e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MEQARQLPSHELIMSELMMPDTANFSGNVHGGELLRLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIRVGDLVTFYSSVNYTGRTSMEIGIRVEAQNIRTGEVRHTNSCYFTMVAVEDGKPVPVPPLEITTERQRCRYEKAKKRKALSLQTSDETSCGC</Hsp_hseq>
+      <Hsp_midline>M Q RQLPSHELIMSELMMPDTANFSGNVHGGELL LLDQVAYSCASRYSGNYCVTLSVDKVLFKEPI +GDLVTFY++VNYTGRTSMEIGIRVEAQNIRTGE+RHTNSCYFTMVAV+DGKPVPVPPLEI T+RQRCRYEKAKKR+ +SLQ S + SCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|489842916|ref|WP_003746615.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria mucosa] &gt;gi|317400470|gb|EFV81128.1| acyl CoA thioester hydrolase [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003746615</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>1.46378e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSC</Hsp_qseq>
+      <Hsp_hseq>MEQARQLPSHELIMSELMMPDTANFSGNVHGGELLRLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHVGELVTFYASINYTGRTSMEVGIRVEAQNIRTGEVRHTNSCYFTMVAVEDGKPVAVPPLEINTPRQRCRYEKAKKRKALSLQASNEVSC</Hsp_hseq>
+      <Hsp_midline>M Q RQLPSHELIMSELMMPDTANFSGNVHGGELL LLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIH+G+LVTFYA++NYTGRTSME+GIRVEAQNIRTGE+RHTNSCYFTMVAV+DGKPV VPPLEI T RQRCRYEKAKKR+ +SLQAS +VSC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|750384458|ref|WP_040666370.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria elongata] &gt;gi|747147915|gb|AJE18298.1| acyl-CoA thioester hydrolase [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>WP_040666370</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>2.02931e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSC</Hsp_qseq>
+      <Hsp_hseq>MEQTRQLPSHELIMSELMMPDTANFSGNVHGGELLRLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHVGDLVTFYASVNYTGRTSMEIGIRVEAQNIRTGEVRHTNSCYFTMVAVENGKPVPVPPLEITTERQRCRYEKAKKRKALSLQENETLSC</Hsp_hseq>
+      <Hsp_midline>M Q RQLPSHELIMSELMMPDTANFSGNVHGGELL LLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIH+GDLVTFYA+VNYTGRTSMEIGIRVEAQNIRTGE+RHTNSCYFTMVAV++GKPVPVPPLEI T+RQRCRYEKAKKR+ +SLQ +  +SC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|748605523|ref|WP_039863702.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria flavescens]</Hit_def>
+  <Hit_accession>WP_039863702</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>7.17954e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVS</Hsp_qseq>
+      <Hsp_hseq>MKPERQLPSHELIMSELMMPYTANFSGNVHGGDLLRLLDQVAYSCACRYSGTYCVTLSVDKVLFKEPIHVGELVTFYASINYTGRTSMEVGIRVEAQNIHTGEVRHTNSCYFTMVAVKDGKPVPVPPLEINTPRQRCRYEKAKKRKELSLQAANENS</Hsp_hseq>
+      <Hsp_midline>M  +RQLPSHELIMSELMMP TANFSGNVHGG+LL LLDQVAYSCA RYSG YCVTLSVDKVLFKEPIH+G+LVTFYA++NYTGRTSME+GIRVEAQNI TGE+RHTNSCYFTMVAVKDGKPVPVPPLEI T RQRCRYEKAKKR+E+SLQA+ + S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|565114128|ref|WP_023887520.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens] &gt;gi|564137225|gb|ETA83339.1| hypothetical protein HMPREF1177_01500 [Eikenella corrodens CC92I]</Hit_def>
+  <Hit_accession>WP_023887520</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>2.6418e-95</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>TQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>SHTRQLPAHELVMSELMMPNAANFSGNVHGGELLRLLDQVAYSCASRYSGHYCVTLSVDKVLFKEPIHVGELVTFYASVNYTGRTSMEIGIRVEAQNIRTGQVRHTNSCYFTMVAMENGKPVPVPPLQITGERQRCRHEKALQRKQLSLQASASLPCGC</Hsp_hseq>
+      <Hsp_midline>+  RQLP+HEL+MSELMMP+ ANFSGNVHGGELL LLDQVAYSCASRYSG+YCVTLSVDKVLFKEPIH+G+LVTFYA+VNYTGRTSMEIGIRVEAQNIRTG++RHTNSCYFTMVA+++GKPVPVPPL+I  +RQRCR+EKA +R+++SLQAS  + CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|489921180|ref|WP_003824533.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Eikenella corrodens] &gt;gi|224941840|gb|EEG23049.1| thioesterase family protein [Eikenella corrodens ATCC 23834]</Hit_def>
+  <Hit_accession>WP_003824533</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>3.1459e-95</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>TQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>SHTRQLPAHELVMSELMMPNAANFSGNVHGGELLRLLDQVAYSCASRYSGHYCVTLSVDKVLFKEPIHVGELVTFYASVNYTGRTSMEIGIRVEAQNIRTGQVRHTNSCYFTMVAMENGKPVPVPPLQITGERQRCRHEKALQRKQLSLQASASMPCGC</Hsp_hseq>
+      <Hsp_midline>+  RQLP+HEL+MSELMMP+ ANFSGNVHGGELL LLDQVAYSCASRYSG+YCVTLSVDKVLFKEPIH+G+LVTFYA+VNYTGRTSMEIGIRVEAQNIRTG++RHTNSCYFTMVA+++GKPVPVPPL+I  +RQRCR+EKA +R+++SLQAS  + CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|489782553|ref|WP_003686444.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-CoA thioester hydrolase [Neisseria] &gt;gi|241319045|gb|EER55547.1| thioesterase family protein [Neisseria flavescens SK114] &gt;gi|284796447|gb|EFC51794.1| thioesterase family protein [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>WP_003686444</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>4.49323e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MKPERQLPSHELIMSELMMPYTANFSGNVHGGDLLRLLDQVAYSCACRYSGTYCVTLSVDKVLFKEPIHVGELVTFYASINYTGRTSMEVGIRVEAQNIHTGEVRHTNSCYFTMVAVEDGKPVPVPPLEINTQRQRCRYERAKKRKELSLQAANEDS-GC</Hsp_hseq>
+      <Hsp_midline>M  +RQLPSHELIMSELMMP TANFSGNVHGG+LL LLDQVAYSCA RYSG YCVTLSVDKVLFKEPIH+G+LVTFYA++NYTGRTSME+GIRVEAQNI TGE+RHTNSCYFTMVAV+DGKPVPVPPLEI T RQRCRYE+AKKR+E+SLQA+ + S GC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|738542698|ref|WP_036490948.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria mucosa] &gt;gi|694242190|gb|KGJ33044.1| acyl-CoA thioester hydrolase [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_036490948</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>3.98705e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>MKPERQLPSHELIMSELMMPYTANFSGNVHGGDLLRLLDQVAYSCACRYSGTYCVTLSVDKVLFKEPIHVGELVTFYASINYTGRTSMEVGIRVEAQNIHTGKVRHTNSCYFTMVAVEDGKPVPVPPLEINTPRQRCRYERAKKRKELSLQAANEDS-GC</Hsp_hseq>
+      <Hsp_midline>M  +RQLPSHELIMSELMMP TANFSGNVHGG+LL LLDQVAYSCA RYSG YCVTLSVDKVLFKEPIH+G+LVTFYA++NYTGRTSME+GIRVEAQNI TG++RHTNSCYFTMVAV+DGKPVPVPPLEI T RQRCRYE+AKKR+E+SLQA+ + S GC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|291307394|gb|EFE48637.1|</Hit_id>
+  <Hit_def>thioesterase family protein [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>EFE48637</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>7.36915e-89</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSC</Hsp_qseq>
+      <Hsp_hseq>MPDTANFSGNVHGGELLRLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHVGDLVTFYASVNYTGRTSMEIGIRVEAQNIRTGEVRHTNSCYFTMVAVENGKPVPVPPLEITTERQRCRYEKAKKRKALSLQENETLSC</Hsp_hseq>
+      <Hsp_midline>MPDTANFSGNVHGGELL LLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIH+GDLVTFYA+VNYTGRTSMEIGIRVEAQNIRTGE+RHTNSCYFTMVAV++GKPVPVPPLEI T+RQRCRYEKAKKR+ +SLQ +  +SC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|224952811|gb|EEG34020.1|</Hit_id>
+  <Hit_def>thioesterase family protein [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>EEG34020</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>7.79384e-88</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVS</Hsp_qseq>
+      <Hsp_hseq>MSELMMPYTANFSGNVHGGDLLRLLDQVAYSCACRYSGTYCVTLSVDKVLFKEPIHVGELVTFYASINYTGRTSMEVGIRVEAQNIHTGEVRHTNSCYFTMVAVKDGKPVPVPPLEINTPRQRCRYEKAKKRKELSLQAANENS</Hsp_hseq>
+      <Hsp_midline>MSELMMP TANFSGNVHGG+LL LLDQVAYSCA RYSG YCVTLSVDKVLFKEPIH+G+LVTFYA++NYTGRTSME+GIRVEAQNI TGE+RHTNSCYFTMVAVKDGKPVPVPPLEI T RQRCRYEKAKKR+E+SLQA+ + S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|349790963|gb|EGZ44857.1|</Hit_id>
+  <Hit_def>thioesterase [Neisseria wadsworthii 9715]</Hit_def>
+  <Hit_accession>EGZ44857</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>7.44461e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSC</Hsp_qseq>
+      <Hsp_hseq>MTDNQNLPQSELQMSILMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIHVGELVTFLASVNHVGRTSMEVGIRVEAQNIRERTVRHTNSCYFTMVAVDNGKPVAVPPLQITNERQQCRFEAAEARKRIRLQESNQPDC</Hsp_hseq>
+      <Hsp_midline>MT  + LP  EL MS LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPIH+G+LVTF A+VN+ GRTSME+GIRVEAQNIR   +RHTNSCYFTMVAV +GKPV VPPL+I  +RQ+CR+E A+ R+ I LQ S    C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|750385178|ref|WP_040667089.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria wadsworthii]</Hit_def>
+  <Hit_accession>WP_040667089</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>1.09423e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSC</Hsp_qseq>
+      <Hsp_hseq>MTDNQNLPQSELQMSILMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIHVGELVTFLASVNHVGRTSMEVGIRVEAQNIRERTVRHTNSCYFTMVAVDNGKPVAVPPLQITNERQQCRFEAAEARKRIRLQESNQPDC</Hsp_hseq>
+      <Hsp_midline>MT  + LP  EL MS LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPIH+G+LVTF A+VN+ GRTSME+GIRVEAQNIR   +RHTNSCYFTMVAV +GKPV VPPL+I  +RQ+CR+E A+ R+ I LQ S    C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|490410732|ref|WP_004283570.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria weaveri] &gt;gi|343967317|gb|EGV35566.1| thioesterase [Neisseria weaveri ATCC 51223] &gt;gi|343969472|gb|EGV37684.1| thioesterase [Neisseria weaveri LMG 5135]</Hit_def>
+  <Hit_accession>WP_004283570</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>3.2515e-77</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>TQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCGC</Hsp_qseq>
+      <Hsp_hseq>TQNNGLPEHELKMSILMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIHVGELVTFSASVNHVGRTSMEVGIRVEAQNIRERTVRHTNSCYFTMVAMDNGKPAAVPPLQLQTEAQRCRFQAAERRKALRLQMQGNSDFNC</Hsp_hseq>
+      <Hsp_midline>TQ   LP HEL MS LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPIH+G+LVTF A+VN+ GRTSME+GIRVEAQNIR   +RHTNSCYFTMVA+ +GKP  VPPL++ T+ QRCR++ A++R+ + LQ  G+    C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|496409225|ref|WP_009118089.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Neisseria shayeganii] &gt;gi|348014504|gb|EGY53382.1| thioesterase [Neisseria shayeganii 871]</Hit_def>
+  <Hit_accession>WP_009118089</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>3.74161e-73</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>PSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDV-SC</Hsp_qseq>
+      <Hsp_hseq>PQHELQMTVLMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIHVGELVTFLASVNHVGRTSMEIGIRVEAEDIRRRSVRHTNSCYFTMVAMHEGKPAPVPPLALSTDLQRCRFTAAEQRKKLRLDSSRTIPSC</Hsp_hseq>
+      <Hsp_midline>P HEL M+ LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPIH+G+LVTF A+VN+ GRTSMEIGIRVEA++IR   +RHTNSCYFTMVA+ +GKP PVPPL + TD QRCR+  A++R+++ L +S  + SC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|489880481|ref|WP_003783946.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella denitrificans] &gt;gi|324980907|gb|EGC16567.1| thioesterase family protein [Kingella denitrificans ATCC 33394]</Hit_def>
+  <Hit_accession>WP_003783946</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.868</Hsp_bit-score>
+      <Hsp_score>577</Hsp_score>
+      <Hsp_evalue>1.66747e-72</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>QRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQAS</Hsp_qseq>
+      <Hsp_hseq>QENIPQHELQMSVLMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGFYCVTLSVDKVTFKEPIYVGELVTFLASVNMVGRTSMEVGIRVEAQNIRDRTTRHTNSCYFTMVAMDNGKPVPVPELVLVTEQQRCRHTAAQHRKQLRLQEA</Hsp_hseq>
+      <Hsp_midline>Q  +P HEL MS LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG YCVTLSVDKV FKEPI++G+LVTF A+VN  GRTSME+GIRVEAQNIR    RHTNSCYFTMVA+ +GKPVPVP L ++T++QRCR+  A+ R+++ LQ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|518219920|ref|WP_019390128.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_019390128</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>3.23677e-71</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>PSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>PQHELQMTVLMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIYVGELVTFLASVNLVGRTSMEVGIRVEAQNIRERTTRHTNSCYFTMVAMEDGKPATVPPLLLQTEQQKCRAAAAEQRKQMRLQMNA</Hsp_hseq>
+      <Hsp_midline>P HEL M+ LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPI++G+LVTF A+VN  GRTSME+GIRVEAQNIR    RHTNSCYFTMVA++DGKP  VPPL + T++Q+CR   A++R+++ LQ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|489894802|ref|WP_003798252.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella oralis] &gt;gi|237865653|gb|EEP66791.1| thioesterase family protein [Kingella oralis ATCC 51147]</Hit_def>
+  <Hit_accession>WP_003798252</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>4.3451e-71</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>PSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQAS</Hsp_qseq>
+      <Hsp_hseq>PAHELHMTTLITPAMANFSGNLHGGELLKMLDQVAYACASRYSGNMCVTLSVDQVMFKEPIHVGELVNYYASVNLVGRTSMEIGIRVEAENIQTRTVRHTNSCYFTMVAMKDGKPVAVPPLALQTEQQILRHAAAEQRKKLRLQAN</Hsp_hseq>
+      <Hsp_midline>P+HEL M+ L+ P  ANFSGN+HGGELL +LDQVAY+CASRYSGN CVTLSVD+V+FKEPIH+G+LV +YA+VN  GRTSMEIGIRVEA+NI+T  +RHTNSCYFTMVA+KDGKPV VPPL + T++Q  R+  A++R+++ LQA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|740471308|ref|WP_038302597.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038302597</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.73004e-70</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>PSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>PQHELQMTVLMTPDMANFSGNVHGGDLLKLLDQVVYACASRYSGHYCVTLSVDKVTFKEPIYVGELVTFLASVNLVGRTSMEVGIRVEAQNIRERTTRHTNSCYFTMVAMEDGKPATVPPLLLQTEQQKCRAAAAEQRKQMRLQMNA</Hsp_hseq>
+      <Hsp_midline>P HEL M+ LM PD ANFSGNVHGG+LL LLDQV Y+CASRYSG+YCVTLSVDKV FKEPI++G+LVTF A+VN  GRTSME+GIRVEAQNIR    RHTNSCYFTMVA++DGKP  VPPL + T++Q+CR   A++R+++ LQ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|489888344|ref|WP_003791794.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella kingae] &gt;gi|380833120|gb|EIC12999.1| acyl-CoA thioester hydrolase [Kingella kingae PYKK081]</Hit_def>
+  <Hit_accession>WP_003791794</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>2.91695e-70</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>PSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>PQHELQMTVLMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIYVGELVTFLASVNLVGRTSMEVGIRVEAQNIRERTTRHTNSCYFTMVAMDNGKPTTVPPLLLQTEQQKCRAAAAEQRKQMRLQMNA</Hsp_hseq>
+      <Hsp_midline>P HEL M+ LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPI++G+LVTF A+VN  GRTSME+GIRVEAQNIR    RHTNSCYFTMVA+ +GKP  VPPL + T++Q+CR   A++R+++ LQ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|740498626|ref|WP_038329512.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038329512</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>2.94887e-70</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>HELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>HELQMTVLMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIYVGELVTFLASVNLVGRTSMEVGIRVEAQNIRERTTRHTNSCYFTMVAMEDGKPATVPPLLLQTEQQKCRAAAAEQRKQMRLQMNA</Hsp_hseq>
+      <Hsp_midline>HEL M+ LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPI++G+LVTF A+VN  GRTSME+GIRVEAQNIR    RHTNSCYFTMVA++DGKP  VPPL + T++Q+CR   A++R+++ LQ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|737060961|ref|WP_035055847.1|</Hit_id>
+  <Hit_def>VdlD [Andreprevotia chitinilytica]</Hit_def>
+  <Hit_accession>WP_035055847</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>3.04479e-70</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>QRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>QQQQPKHQLSMTVLMMPEMANFSGNVHGGQLLKLLDEAAYACASRYAGTYVVTLSVDQVLFKQPIHVGELVTFLASVNYTGRTSMEIGIRVEAENIRTREVRHTNSCYFTMVAMGEDGKPAAIPLLTPDDDASRARWQTAERRRALRLQQQG</Hsp_hseq>
+      <Hsp_midline>Q+Q P H+L M+ LMMP+ ANFSGNVHGG+LL LLD+ AY+CASRY+G Y VTLSVD+VLFK+PIH+G+LVTF A+VNYTGRTSMEIGIRVEA+NIRT E+RHTNSCYFTMVA+ +DGKP  +P L    D  R R++ A++RR + LQ  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|740487290|ref|WP_038318220.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038318220</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>3.39703e-70</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>PSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>PQHELQMTVLMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIYVDELVTFLASVNLVGRTSMEVGIRVEAQNIRERTTRHTNSCYFTMVAMEDGKPATVPPLLLQTEQQKCRAAAAEQRKQMRLQMNA</Hsp_hseq>
+      <Hsp_midline>P HEL M+ LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPI++ +LVTF A+VN  GRTSME+GIRVEAQNIR    RHTNSCYFTMVA++DGKP  VPPL + T++Q+CR   A++R+++ LQ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|489884950|ref|WP_003788400.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella kingae] &gt;gi|332968929|gb|EGK07976.1| thioesterase [Kingella kingae ATCC 23330]</Hit_def>
+  <Hit_accession>WP_003788400</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>1.42871e-69</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>HELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>HELQMTVLMTPDMANFSGNVHGGDLLKLLDQVTYACASRYSGHYCVTLSVDKVTFKEPIYVGELVTFLASVNLVGRTSMEVGIRVEAQNIRERTTRHTNSCYFTMVAMEDGKPATVPPLLLQTEQQKCRAAAAEQRKQMRLQMNA</Hsp_hseq>
+      <Hsp_midline>HEL M+ LM PD ANFSGNVHGG+LL LLDQV Y+CASRYSG+YCVTLSVDKV FKEPI++G+LVTF A+VN  GRTSME+GIRVEAQNIR    RHTNSCYFTMVA++DGKP  VPPL + T++Q+CR   A++R+++ LQ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|652665214|ref|WP_027021401.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Conchiformibius steedae]</Hit_def>
+  <Hit_accession>WP_027021401</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>1.63367e-69</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>LPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQAS</Hsp_qseq>
+      <Hsp_hseq>MPSHELQMTVLMTPAMANFSGNVHGGDLLKLLDQVAYSCACRYSGHYCVTLSVDKVTFKEPIYVGELVAFLASVNHVGRTSMEIGIRVEAQHIRNRTVRHTNSCYFTMVAVENGKPVPVPALALKTEAQKRRFAAAEQRKQQRLQGS</Hsp_hseq>
+      <Hsp_midline>+PSHEL M+ LM P  ANFSGNVHGG+LL LLDQVAYSCA RYSG+YCVTLSVDKV FKEPI++G+LV F A+VN+ GRTSMEIGIRVEAQ+IR   +RHTNSCYFTMVAV++GKPVPVP L + T+ Q+ R+  A++R++  LQ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|692410653|ref|WP_032132897.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_032132897</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>2.77467e-69</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>HELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>HELQMTVLMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIYVGELVTFLASVNLVGRTSMEVGIRVEAQNIRERTTRHTNSCYFTMVAMDNGKPTTVPPLLLQTEQQKCRAAAAEQRKQMRLQMNA</Hsp_hseq>
+      <Hsp_midline>HEL M+ LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPI++G+LVTF A+VN  GRTSME+GIRVEAQNIR    RHTNSCYFTMVA+ +GKP  VPPL + T++Q+CR   A++R+++ LQ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|740490564|ref|WP_038321484.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038321484</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>8.23659e-69</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>PSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>PQHELQMTVLMTPDMANFSGNVHCGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIYVGELVTFLASVNLVGRTSMEVGIRVEAQNIRERTTRHTNSCYFTMVAMDNGKPTTVPPLLLQTEQQKCRAAAAEQRKQMRLQMNA</Hsp_hseq>
+      <Hsp_midline>P HEL M+ LM PD ANFSGNVH G+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPI++G+LVTF A+VN  GRTSME+GIRVEAQNIR    RHTNSCYFTMVA+ +GKP  VPPL + T++Q+CR   A++R+++ LQ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|740474419|ref|WP_038305608.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038305608</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>2.78572e-68</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>HELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>HELQMTVLMTPDMANFSGNVHGGDLLKLLDQVAYACASRYSGHYCVTLSVDKVTFKEPIYVGELVTFLASVNLVGRTSMEVGIRVEAQNIRERTTRYTNSCYFTMVAMDNGKPTTVPPLLLQTEQQKCRAAAAEQRKQMRLQMNA</Hsp_hseq>
+      <Hsp_midline>HEL M+ LM PD ANFSGNVHGG+LL LLDQVAY+CASRYSG+YCVTLSVDKV FKEPI++G+LVTF A+VN  GRTSME+GIRVEAQNIR    R+TNSCYFTMVA+ +GKP  VPPL + T++Q+CR   A++R+++ LQ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|740483473|ref|WP_038314411.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038314411</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>7.49663e-68</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>HELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASG</Hsp_qseq>
+      <Hsp_hseq>HELQMTVLMTPDMANFSGNVHGGDLLKLLDQVTYACASRYSGHYYVTLSVDKVTFKEPIYVGELVTFLASVNLVGRTSMEVGIRVEAQNIRERTTRHTNSCYFTMVAMEDGKPATVPPLLLQTEQQKCRAAAAEQRKQMRLQMNA</Hsp_hseq>
+      <Hsp_midline>HEL M+ LM PD ANFSGNVHGG+LL LLDQV Y+CASRYSG+Y VTLSVDKV FKEPI++G+LVTF A+VN  GRTSME+GIRVEAQNIR    RHTNSCYFTMVA++DGKP  VPPL + T++Q+CR   A++R+++ LQ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|647131147|ref|WP_025646387.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-CoA thioester hydrolase [Psychrobacter]</Hit_def>
+  <Hit_accession>WP_025646387</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>8.62761e-68</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>TQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKD-GKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSC</Hsp_qseq>
+      <Hsp_hseq>TAKKAPLNHELYMSILMTPDMANFIGNVHGGDLLKMLDQVAYACASRYSGSYVVTLSVDQVMFREPIYVGELVTFAASVNYVGTTSMEVGIRVEAEDVRARTIRHTNSCYFTMVAIDDNGKPTPVPPLEIKNESQQCRADAALERKEMRMQSAHRPSC</Hsp_hseq>
+      <Hsp_midline>T ++   +HEL MS LM PD ANF GNVHGG+LL +LDQVAY+CASRYSG+Y VTLSVD+V+F+EPI++G+LVTF A+VNY G TSME+GIRVEA+++R   IRHTNSCYFTMVA+ D GKP PVPPLEI  + Q+CR + A +R+E+ +Q++   SC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|490923079|ref|WP_004784949.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Acinetobacter] &gt;gi|479952693|gb|ENU98273.1| hypothetical protein F969_02828 [Acinetobacter sp. NIPH 899] &gt;gi|480170103|gb|ENX06694.1| hypothetical protein F897_02971 [Acinetobacter sp. NIPH 2171] &gt;gi|587774631|gb|EXA68489.1| hypothetical protein J504_0323 [Acinetobacter baumannii 348935]</Hit_def>
+  <Hit_accession>WP_004784949</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>2.96128e-67</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCG</Hsp_qseq>
+      <Hsp_hseq>ELTMSVLMTPDMANFSGNVHGGTILKLLDQVAYACASRYSGSYVVTLSVDKVNFKEPIHVGELVTFLASVNHVGRTSMEIGIRVEAQNIQKRTVRHTNSCYFTMVAVDENGKPKQIPPLNLDNDWKRCRFEAAEQRKVARLQENHHPSCS</Hsp_hseq>
+      <Hsp_midline>EL MS LM PD ANFSGNVHGG +L LLDQVAY+CASRYSG+Y VTLSVDKV FKEPIH+G+LVTF A+VN+ GRTSMEIGIRVEAQNI+   +RHTNSCYFTMVAV ++GKP  +PPL +  D +RCR+E A++R+   LQ +   SC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|490776101|ref|WP_004638290.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-CoA thioester hydrolase [Acinetobacter] &gt;gi|226836882|gb|EEH69265.1| thioesterase family protein [Acinetobacter sp. ATCC 27244] &gt;gi|292824398|gb|EFF83193.1| thioesterase family protein [Acinetobacter haemolyticus ATCC 19194] &gt;gi|480079765|gb|ENW18366.1| hypothetical protein F927_01810 [Acinetobacter haemolyticus CIP 64.3] &gt;gi|480080553|gb|ENW19136.1| hypothetical protein F926_02697 [Acinetobacter haemolyticus NIPH 261] &gt;gi|523906265|gb|EPR88358.1| cytosolic long-chain acyl-CoA thioester hydrolase family protein [Acinetobacter haemolyticus MTCC 9819]</Hit_def>
+  <Hit_accession>WP_004638290</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>3.30753e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSH--ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCG</Hsp_qseq>
+      <Hsp_hseq>LDQMNQIPDDQSELTMSVLMTPDMANFSGNVHGGAILKLLDQVAYACASRYSGSYVVTLSVDKVNFKEPIYVGELVTFLASINHVGRTSMEVGIRVEAQNIQDRTIRHTNTCYFTMVAVDEERKPKQVPPLNLNTDWKRCRFEAAEQRKEMRLQEVHQPSCS</Hsp_hseq>
+      <Hsp_midline>+ Q  Q+P    EL MS LM PD ANFSGNVHGG +L LLDQVAY+CASRYSG+Y VTLSVDKV FKEPI++G+LVTF A++N+ GRTSME+GIRVEAQNI+   IRHTN+CYFTMVAV ++ KP  VPPL + TD +RCR+E A++R+E+ LQ     SC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|491160612|ref|WP_005018999.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-CoA thioester hydrolase [Acinetobacter] &gt;gi|255302780|gb|EET82011.1| thioesterase family protein [Acinetobacter radioresistens SK82] &gt;gi|262298695|gb|EEY86608.1| thioesterase family protein [Acinetobacter radioresistens SH164] &gt;gi|400203965|gb|EJO34950.1| hypothetical protein ACINWCA157_0305 [Acinetobacter radioresistens WC-A-157] &gt;gi|403189890|dbj|GAB73461.1| putative acyl-CoA thioesterase [Acinetobacter radioresistens DSM 6976 = NBRC 102413 = CIP 103788] &gt;gi|480045996|gb|ENV85189.1| hypothetical protein F940_02324 [Acinetobacter radioresistens NIPH 2130] &gt;gi|480047346|gb|ENV86508.1| hypothetical protein F939_02588 [Acinetobacter radioresistens DSM 6976 = NBRC 102413 = CIP 103788] &gt;gi|587843247|gb|EXB33820.1| hypothetical protein J546_1601 [Acinetobacter baumannii 1461402] &gt;gi|587882017|gb|EXB70949.1| hypothetical protein J550_2220 [Acinetobacter baumannii 230853] &gt;gi|587891582|gb|EXB80200.1| hypothetical protein J538_3038 [Acinetobacter baumannii 272263] &gt;gi|587944095|gb|EXC30592.1| hypothetical protein J520_2498 [Acinetobacter baumannii 869535] &gt;gi|588140079|gb|EXE15772.1| hypothetical protein J559_0454 [Acinetobacter baumannii 983759] &gt;gi|588185564|gb|EXE59272.1| hypothetical protein J579_1158 [Acinetobacter baumannii 1239920] &gt;gi|588677493|gb|EXF55748.1| hypothetical protein J502_3149 [Acinetobacter baumannii 1294596] &gt;gi|630419330|gb|KCX36702.1| hypothetical protein J577_2164 [Acinetobacter baumannii 263903-1]</Hit_def>
+  <Hit_accession>WP_005018999</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>3.59773e-67</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKD-GKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCG</Hsp_qseq>
+      <Hsp_hseq>ELTMSVLMTPDMANFSGNVHGGTILKLLDQVAYACASRYSGSYVVTLSVDKVNFKEPIHVGELVTFLASVNHVGRTSMEIGIRVEAQNIQKRTVRHTNSCYFTMVAVDEQGKPRQVPPLNLNNDWKRCRFEAAEQRKVLRLQEHHHPSCS</Hsp_hseq>
+      <Hsp_midline>EL MS LM PD ANFSGNVHGG +L LLDQVAY+CASRYSG+Y VTLSVDKV FKEPIH+G+LVTF A+VN+ GRTSMEIGIRVEAQNI+   +RHTNSCYFTMVAV + GKP  VPPL +  D +RCR+E A++R+ + LQ     SC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|736571711|ref|WP_034583369.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Acinetobacter sp. HR7]</Hit_def>
+  <Hit_accession>WP_034583369</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>6.54716e-67</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCG</Hsp_qseq>
+      <Hsp_hseq>ELTMTVLMTPDMANFSGNVHGGTILKLLDQVAYACASRYSGSYVVTLSVDKVTFKEPIHVGELVTFLASVNHVGRTSMEIGIRVEAQNIQKRTVRHTNSCYFTMVAVDENGKPKEIPPLNLDNDWKRCRFEAAEQRKIARLQENHHPSCS</Hsp_hseq>
+      <Hsp_midline>EL M+ LM PD ANFSGNVHGG +L LLDQVAY+CASRYSG+Y VTLSVDKV FKEPIH+G+LVTF A+VN+ GRTSMEIGIRVEAQNI+   +RHTNSCYFTMVAV ++GKP  +PPL +  D +RCR+E A++R+   LQ +   SC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|712287962|gb|KGT48339.1|</Hit_id>
+  <Hit_def>acyl-CoA thioester hydrolase [Acinetobacter sp. HR7]</Hit_def>
+  <Hit_accession>KGT48339</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>7.93005e-67</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSCG</Hsp_qseq>
+      <Hsp_hseq>ELTMTVLMTPDMANFSGNVHGGTILKLLDQVAYACASRYSGSYVVTLSVDKVTFKEPIHVGELVTFLASVNHVGRTSMEIGIRVEAQNIQKRTVRHTNSCYFTMVAVDENGKPKEIPPLNLDNDWKRCRFEAAEQRKIARLQENHHPSCS</Hsp_hseq>
+      <Hsp_midline>EL M+ LM PD ANFSGNVHGG +L LLDQVAY+CASRYSG+Y VTLSVDKV FKEPIH+G+LVTF A+VN+ GRTSMEIGIRVEAQNI+   +RHTNSCYFTMVAV ++GKP  +PPL +  D +RCR+E A++R+   LQ +   SC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

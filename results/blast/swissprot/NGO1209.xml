@@ -1,0 +1,1537 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>14817</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7G9 Cytosine-specific methyltransferase</BlastOutput_query-def>
+  <BlastOutput_query-len>377</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>14817</Iteration_query-ID>
+  <Iteration_query-def>Q5F7G9 Cytosine-specific methyltransferase</Iteration_query-def>
+  <Iteration_query-len>377</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|11386930|sp|Q59606.1|MTF7_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase NgoFVII; Short=M.NgoFVII; AltName: Full=Cytosine-specific methyltransferase NgoFVII; Short=M.NgoVII [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q59606</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>2.96895e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>386</Hsp_align-len>
+      <Hsp_qseq>KSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLS--SQEGIEVIAGGPPCQPFSLGGKHLAHE-DRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEK-YVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFE--PEKKPWQTVRDTLSDIP--HPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLS---EKSSLH</Hsp_qseq>
+      <Hsp_hseq>KILSLFSGCGGLDLGFHQAGCETVWANDFSHWACESFRKNIG-DVIVEGDIEQINPNDPTIPDCDIILGGFPCQDFSMIWKQPGLEGERGNLYKSFLRFVNAKKPKVFVAENVKGLLTANKKKAIQQIIT--DFENCG--------------------------YYVQANVYNFAEFGVPQFRERVLIVGVRLDTGFDFRHPEPTHNETGENGLKPYVTAGQAISNIPQNASNNELLKISDKTRRMLELIPEG-------GNFTDIPKDHPLYVKGMISHVYRRMHR----------NEPSKTIIAAGGGGTWG-----YHFPEPRAFTNRERARLQSFPDDFEFVGSTTEVRRQIGNAVPPQGVVELAKSILPIFSDNYEKVDLH</Hsp_hseq>
+      <Hsp_midline>K L +FSG GGL  G   AG +     + +  AC S R N    ++ +GD+   + +  +    ++I GG PCQ FS+  K    E +R +++   +R+V   +PK F+ ENVKGLL  +     + I+    + N G                          Y V   + N A++GVPQ RERV+IVG+R D   D++ P+ TH+E   N  K YVT      +      N ++ +   K   + E  PE           +DIP  HPL    +  H YR   R          +EPSKTI A G G   G     Y     R FT+ E   LQ+FP++F   G+  E  RQIGNAVP +    L K ++ + S   EK  LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1709155|sp|P50196.1|MTE8_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase Eco47II; Short=M.Eco47II; AltName: Full=Cytosine-specific methyltransferase Eco47II [Escherichia coli]</Hit_def>
+  <Hit_accession>P50196</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>6.19967e-36</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSS-QEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLD--IDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSG----IDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSE</Hsp_qseq>
+      <Hsp_hseq>LELFAGAGGMALGLEKAGLKSVLLNEIDSHACKTLRKNRPEWNVVEGDVSQVDFTPYRNTVDVLAGGFPCQAFSYAGKKLGFEDTRGTLFFEFARAAKEINPKVLLAENVRGLLNHDAGRTLETI-----------------KNIIT---DLGYTLFEP-------RVLKAIFYKVPQKRERLIIVAVRNDLADGIDYEWPS--------SYNKILTLKDALKKGE--LYDSDVPESEGQKYPKRKAEILSMVPPGGYWRDLPEDIQKEYMLKSFYLGG-----GKTGMARRLSWDEPSLTLTCA----PAQKQTERCHPEETRPLTVREYARIQTFPDEWVFEGPMSAKYKQIGNAVPVNLSFAVGKSVVHLLDK</Hsp_hseq>
+      <Hsp_midline>LE+F+GAGG+A GLE AG +     E++  AC +LR N     V +GDV+  D +  +  ++V+AGG PCQ FS  GK L  ED R  +F    R  +   PK  + ENV+GLL        E I                 K  +T   ++ + L++        ++L A  Y VPQKRER++IV +R DL   ID+++P         ++ K +T +   K  E   ++ D+ E   +KY   + E            D+P  +    +    Y  G     G TG       DEPS T+       P  +   R      R  T  E   +QTFP+E+V  G      +QIGNAVPV LS  +GK ++ +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|400287|sp|P31033.1|MTM4_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase NgoMIV; Short=M.NgoMIV; AltName: Full=Cytosine-specific methyltransferase NgoMIV [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P31033</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>6.34171e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>385</Hsp_align-len>
+      <Hsp_qseq>SLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYR-DGARIYPGHTGSGIDEPSKTIK-----AGGHG--------VPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEKS</Hsp_qseq>
+      <Hsp_hseq>SLEICAGAGGQALGLERAGFSHVALIEIEPSACQTLRLNRPDWNVIEGDVRLFQGEGYDGIDLLAGGVPCPPFSKAGKQLGKDDERDLFPEAIRLAKETDPKAIMLENVRGLLDPKFENY---------------------RNHIT-------EQFAKLGYLGQWKLLYAADYGVSQLRPRVLFVALKNEYTNFFKWP--------------------------------------------EPNSEQPKTVGELLFDLMSE--NNWQGAHNWRLKAAQIAP--TLVAVQKNTAVLTWDLHDPNAHGRSWVWMVQVCGIVRRLKTFTGMPRLTVRMTAR-IQGFPDDWQFFGKKTPMYRQIGNAFPPPVAEAVGRQIIKALKKEN</Hsp_hseq>
+      <Hsp_midline>SLEI +GAGG A GLE AGF H + IE+   AC +LR N     V +GDV  F     +GI+++AGG PC PFS  GK L  +D RD+FP A+R  +   PKA + ENV+GLL   F +Y                     + H+T         +  + Y   ++LL AADYGV Q R RV+ V ++ +    +K+P                                            EP  +  +TV + L D+     N+    H +R   A+I P  T   + + +  +         HG        V G    ++   G  R      A+ +Q FP+++   G      RQIGNA P  ++E +G+ ++  L +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|462645|sp|P34882.1|MTAA_SYNP2</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase AquI subunit alpha; Short=M.AquI subunit alpha; Short=M.AquiA; AltName: Full=Cytosine-specific methyltransferase AquI subunit alpha [Synechococcus sp. PCC 7002]</Hit_def>
+  <Hit_accession>P34882</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>9.88009e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>KSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLS--------SQEGIEVIAGGPPCQPFSLGGKHLAHEDRRDMFP-HAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIP</Hsp_qseq>
+      <Hsp_hseq>KLISLFSGAGGMDIGFHAAGFSTAVAVEQDPSCCNTLRLNMPDTPVIEGDITSITTQVILEAAKVNPLEIDLVIGGPPCQSFSLAGKRMGMDDPRGMLVLEFLRVVREALPKCFVMENVKGMINWSKGKALEAIMTEASQPI-------KYAG-------------KEYKYAVSYHVLNAADFGVPQFRERVFIVGNR--LGKTFQFPEPTHGPS----------------NQARQID------------LFGKQLKPYKTVQDAISTLP</Hsp_hseq>
+      <Hsp_midline>K + +FSGAGG+  G   AGF  A  +E +   CN+LR N     V +GD+              +   I+++ GGPPCQ FSL GK +  +D R M     +R V    PK F+ ENVKG++  S     E I+   + P         + G             K  KY VSY +LNAAD+GVPQ RERV IVG R  L   ++FP+ TH                   N+ ++ +            +F  + KP++TV+D +S +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1709163|sp|P50188.1|MTN1_NOCAE</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase NaeI; Short=M.NaeI; AltName: Full=Cytosine-specific methyltransferase NaeI [Lechevalieria aerocolonigenes]</Hit_def>
+  <Hit_accession>P50188</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>1.96789e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVAD---FDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRL--NWEKYVTGEYWEKHNEPKRFNKDIAEKL---QKKYG</Hsp_qseq>
+      <Hsp_hseq>LEVVEICAGAGGQALGLEKAGFSHRLAVELDVNAAATLRKNLKSDVVITGDVADPSVLNPMEHLGVSLLAGGVPCPPFSIAGKQLGADDMRDLFAWAVELCDVMKPRALMLENVRGLSMPRFAGYRQHVLDRLN--DMG--------------------------YVAEWRLLHASDFGVPQLRPRFVLVALQNKFAPYFTWPEPTGAAPTVGETLKDLMAADGWEGAEEWAAQANDIAPTIVGGSKKHG</Hsp_hseq>
+      <Hsp_midline>++ +EI +GAGG A GLE AGF H   +EL+ +A  +LR N    +V  GDVAD    +     G+ ++AGG PC PFS+ GK L  +D RD+F  AV   +  +P+A + ENV+GL    FA Y +++L RL   ++G                          Y   ++LL+A+D+GVPQ R R V+V ++      + +P+ T +   +    +  +  + WE   E      DIA  +    KK+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|127487|sp|P09795.1|MTS1_SALIN</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase SinI; Short=M.SinI; AltName: Full=Cytosine-specific methyltransferase SinI [Salmonella enterica subsp. enterica serovar Infantis]</Hit_def>
+  <Hit_accession>P09795</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>7.47242e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>KSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFD---------LSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIE---------FNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEY----WEKHNEPKRFNKDIA-------EKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTG----SGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLM</Hsp_qseq>
+      <Hsp_hseq>KALSFFSGAMGLDLGIEQAGFETLLASEIDKAARDTILSN-RPNMALIGDIRDYTTEDILKLAGVSSGNEIDLIMGGPPCQAFSTAGKRLGLEDERGNVFIKYLDVALDIRPKYIVIENVRGL---------------LSAPMKHRPHNERGEG-LPPLKSEEQPGGVLHYIIRIIKSAGYSVSFNLYNSANFGVPQIRERVIIICSRDGSRVPFLQP--THSEK---------GEYGLPKWITLRETITNLKNITHEHVLFPEKRLKYYRLLK-EGQYWKHLPEDLQK--EALGKSFFLGG----------GKTGFLRRVAWDRPSPTLVT--HPAMPATDLAHPDE--LRPLSVQEYKVIQQFPEEWVIKGKLLDKYRQLGNAVPIGLGLAVGKNIL</Hsp_hseq>
+      <Hsp_midline>K+L  FSGA GL  G+E AGF+     E++K A +++ SN  P +   GD+ D+          +SS   I++I GGPPCQ FS  GK L  ED R ++F   +      RPK  + ENV+GL               L+ P      NE  +G L  LK  E           + K   Y VS+ L N+A++GVPQ RERV+I+  R    + +  P  THSE          GEY    W    E     K+I        EK  K Y + + E + W+ + + L      LG     G           G TG       D PS T+    H      ++   D+  +R  +  E K++Q FPEE+VI G   +  RQ+GNAVP+ L   +GK+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|22256926|sp|O33481.1|MTP1_PSYTA</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase PspPI; Short=M.PspPI; AltName: Full=Cytosine-specific methyltransferase PspPI [Psychrobacter sp. TA137]</Hit_def>
+  <Hit_accession>O33481</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>1.9527e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEG-IEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEK----YVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSG----IDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLS</Hsp_qseq>
+      <Hsp_hseq>VELFAGAGGLALGLEQAGFKSVLLNEKDKYACATLRANRPNWNVIEDDIENVDFTHLNGKVDLLTGGFPCQPFSYAGKQLGFEDLRGTLVFEMARAIKEIKPKVFLAENVKGLAENDGGRTLSIIIKVLEDLGYKILEKE---------------VYKAIFYK------------VPQKRERLIIIGVRTDL------------YDKLAYEKPSPYYKVLTVADALKAGELYDVDVPESTGQLYPERKAEIMSYVPEGGYWRDLPIRIAKEYMMKSFYLGG-----GKTGMARRLSWDEPSLTLVC----TPAQKQTERCHPSESRPLTTREYARIQTFPDDWEFKGSVGQIYKQIGNAVPVNLALAIGKAIIRMLN</Hsp_hseq>
+      <Hsp_midline>+E+F+GAGGLA GLE AGF+     E +K AC +LR+N     V + D+ + D +   G ++++ GG PCQPFS  GK L  ED R  +     R ++  +PK F+ ENVKGL           I+  L      IL+ E               +YK I YK            VPQKRER++I+G+R DL             D+L +EK    Y      +     + ++ D+ E   + Y   + E   +        D+P  +    +    Y  G     G TG       DEPS T+       P  +   R      R  T+ E   +QTFP+++   G+ G+  +QIGNAVPV L+  +GK ++ +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|550540815|sp|D4ZX35.1|MTAP_ARTPN</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase AplI; Short=M.AplI; AltName: Full=Cytosine-specific methyltransferase AplI [Arthrospira platensis NIES-39]</Hit_def>
+  <Hit_accession>D4ZX35</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>6.07889e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>374</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>77</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGE-YWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIR--YDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEKSS</Hsp_qseq>
+      <Hsp_hseq>LDLFAGCGGFSLGFKAAGFQTIGY-EMLADAAATYTRNLQDPCYCQTLEIGQDLCNHP--DVIIGGPPCQPFSVGGLQKGPRDSRDGLPIFIDAIARYQPEIAIFENVRGMLYKN-RQYLEKIV-----------------AELERL-----------NYRVDIKLINAVNYGVPQKRERLFVVAYQT----AWNWP-----EAETLAIPYTAGDAIYDTASTIPIGAKFLTPSMLEYIGRYEAKSKCVKP-RDIYLDIP----------------CRTLTCRNLSG----------------ATSDMLRLLLPDGRRRRLTVREAARLQSFPDWFELVGSENSQFNQIGNAVPPLLAKAIAKSVKMTLENKPS</Hsp_hseq>
+      <Hsp_midline>L++F+G GG + G + AGFQ   + E+  DA  +   N       Q      DL +    +VI GGPPCQPFS+GG      D RD  P  +  +  Y+P+  IFENV+G+L K+   Y E I+                   L RL            Y+V  +L+NA +YGVPQKRER+ +V  +      W +P     E       Y  G+  ++  +      K +   + +  G +E + K  +  RD   DIP                 R       SG                   +M+R    DG  R  T  EA  LQ+FP+ F + G+      QIGNAVP  L++ + K +   L  K S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1709158|sp|P50192.1|MTHA_HAEPH</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase HphIA; Short=M.HphIA; AltName: Full=Cytosine-specific methyltransferase HphIA; AltName: Full=M.Hphi(C) [Haemophilus parahaemolyticus]</Hit_def>
+  <Hit_accession>P50192</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>8.45038e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGD---VADFDL---SSQEGIEVIAGGPPCQPFSLGGK---HLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLM</Hsp_qseq>
+      <Hsp_hseq>IDLFSGAGGFSLGFDRAGFHQLLSVEIEPHYCDTYRANFPDHQVLQQDLTTLSDDNLLRHINHRKVDVVIGGPPCQGFSMAGKIGRTFADDPRNHLFKEFVRVVKLTQPKFFVMENVA----------------RLFTHNSG----------KTRAEITE--QFERLGYKVKCKVLNAADFGVPQLRSRIVFIGRKDGGEI--TFPEPSHTE--YNTVGDAIG-HFPKLNAGE--NSLILNHEAMNHSTQMLEKMSFVKNGGDRNDIPESL--RPISG-DVRKYIRYHS-------DKPSVCVTGDMRKV------FHYEQN--RALTVRELAALQSFPDDFVFLGKKIAQQQQVGNAVPPLLAQAIAEAVL</Hsp_hseq>
+      <Hsp_midline>+++FSGAGG + G + AGF     +E+    C++ R+NF    V Q D   ++D +L    +   ++V+ GGPPCQ FS+ GK     A + R  +F   VR V+  +PK F+ ENV                 RL   N G           TR +  E   ++ + YKV  ++LNAAD+GVPQ R R+V +G +   +I   FP+ +H+E   N      G ++ K N  +  N  I       +     EK  +       +DIP  L    I+G + R   R +        D+PS  +      V        Y+    R  T  E   LQ+FP++FV  G      +Q+GNAVP  L++ + + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|462651|sp|P34906.1|MTF1_FUSNU</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase FnuDI; Short=M.FnuDI; AltName: Full=Cytosine-specific methyltransferase FnuDI [Fusobacterium nucleatum]</Hit_def>
+  <Hit_accession>P34906</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>9.04058e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>84</Hsp_gaps>
+      <Hsp_align-len>396</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQG--DVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDI-DWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGI---DEPSKTIKAGGHGV---PGGENMIRYD----------DGTVRYFTSYEAKLLQTFPEEF-VISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEKSSL</Hsp_qseq>
+      <Hsp_hseq>MKLLSLFSGAGGLDLGFERAGFEIIVANEYDKTIWETYEKNHKAKLIKKDIREILSEELPKSDG---IIGGPPCQSWSEAGSLRGINDPRGKLFYEYIRILKDIQPKFFLAENVKGMLSKR--------------------NTEAVKDIIKEFEEAGYNVF--------IKLLNAFDYGVAQDRERVFYVGFRKDLNISNFEFPYPISEKER----KYLKDSIWDLKDNAL------------------PGKDKNKTNAD----------DCIVENHEYLTGSYSTIFMSRNRVRQWEQPAFTVQASGRQCQLHPQAPTMIKIDKNMYKFVAGKENLYRRLSIRECARIQGFPDTFKFYYTSLEDGYKMVGNAVPVDLAYIIAKRIKETLTDKEKI</Hsp_hseq>
+      <Hsp_midline>MK L +FSGAGGL  G E AGF+     E +K    +   N   KL+ +   ++   +L   +G   I GGPPCQ +S  G      D R  +F   +R ++  +PK F+ ENVKG+L K                       E  K  +   +E  +N++         +LLNA DYGV Q RERV  VG R DL+I +++FP     ++R    KY+    W+  +                     P K   +T  D          +  +  HEY  G+      + + +   ++P+ T++A G      P    MI+ D          +   R  +  E   +Q FP+ F     +  +  + +GNAVPV L+ I+ K +   L++K  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|62297515|sp|P52311.2|MTX2_XANOR</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase XorII; Short=M.XorII; AltName: Full=Cytosine-specific methyltransferase XorII [Xanthomonas oryzae pv. oryzae KACC 10331]</Hit_def>
+  <Hit_accession>P52311</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>1.37902e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQG----DVADFDLSSQEGI-----EVIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKE-IEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPK---RTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDI-------PHPLGNHKITGH---EYRDGARIYPGHTGS-------GIDEPSKTIKAGGHGVPGGENMIRYDDGTV-RYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEK</Hsp_qseq>
+      <Hsp_hseq>IDLFAGAGGLSLGFEQAGFDLVAAVDIDPIHCAAHKFNF-PKCATVCKSVVDVTGDELRRIAGIGKRDIDIVIGGAPCQGFSLIGKRALDDSRNQLVHHYVRVVMELKPKYFVFENVKGL-------------------TVG--------KHRQFLKEVIEAFQNGGYDVVTDYRVLNAADYGVPQDRRRLILMGARKGLPLP-AYPEPTGRTTVGDAI-------GDIPDAESFPELWERDW---VKAKYGKPSTYAAYLRGKKDDPTDFGYRRQFDPMLLTGSLLTDHTELSRQRFAAIAPDDVEPVSRFKKLALNGICNTLRAGTASDRGAFTSPRPIHPTVPRVITVREAARLHSYPDWFRFHATKWHGFRQIGNSVPPLLARAVGGQIMKALRKK</Hsp_hseq>
+      <Hsp_midline>+++F+GAGGL+ G E AGF   + ++++   C + + NF PK         DV   +L    GI     +++ GG PCQ FSL GK    + R  +  H VR V   +PK F+FENVKGL                    +G         H   LKE IE     G      Y++LNAADYGVPQ R R++++G R  L +   +P+   RT   D +       G+  +  + P+ + +D    ++ KYG         +  +D  +D        P  L    +T H     +  A I P             ++    T++AG     G     R    TV R  T  EA  L ++P+ F          RQIGN+VP  L+  +G  +M  L +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|127429|sp|P06530.1|MTBR_BACIU</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase BsuRI; Short=M.BsuRI; AltName: Full=Cytosine-specific methyltransferase BsuRI [Bacillus subtilis]</Hit_def>
+  <Hit_accession>P06530</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>2.19965e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>125</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGF------QHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQE-----------------------GIEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHT-GSGIDEPSKTIKAGGHGV---PGGENMIR-------YDDG--TVRYFTSYEAKLLQTFPEEF----------VISGAWGEAMRQIGNAVPVKLSEILG</Hsp_qseq>
+      <Hsp_hseq>LSLFSGCGGLDLGFELAGLAAVIGEQAAMEAFKDKDRFNELRNKSIFHTIYTNDL--FKEANQTYKTNFPGHVIQHEKDIRQVKYFPKCNLILGGFPCPGFSEAGPRLIDDDRNFLYLHFIRSLIQAQPEIFVAENVKGMMTLGKGEVLNQII-------------ED---------------FASAGYRVQFKLLNARDYGVPQLRERVIIEGVRKDISFNYKYPSPTHGE--------------------------------------ETGLKPFKTLRDSIGDLVTDPGPY-FTGSY----SSIYMSRNRKKSWDEQSFTIQASGRQAPLHPGGLSMKKIGKDKWVFPDGEENHRRLSVKEIARVQTFPDWFQFSQGTNSQTSINNRLDKQYKQIGNAVPVLLAKAVA</Hsp_hseq>
+      <Hsp_midline>L +FSG GGL  G ELAG       Q A     +KD  N LR+      +Y  D+  F  ++Q                           +I GG PC  FS  G  L  +DR  ++ H +R +   +P+ F+ ENVKG++     +    I+             ED               +    Y+V ++LLNA DYGVPQ RERV+I G+R D+  ++K+P  TH E                                      E   KP++T+RD++ D+    G +  TG      + IY         DE S TI+A G      PGG +M +       + DG    R  +  E   +QTFP+ F           I+    +  +QIGNAVPV L++ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|127486|sp|P23737.1|MTS9_STAAU</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase Sau96I; Short=M.Sau96I; AltName: Full=Cytosine-specific methyltransferase Sau96I [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>P23737</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>2.27773e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVA----DFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLS---------DIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSE</Hsp_qseq>
+      <Hsp_hseq>FETFAGAGGLALGLESAGLSTYGAVEIDKNAAETLRINRPKWKVIENDIEFIADNLDEFIDEEIDILSGGYPCQTFSYAGKRNGFADTRGTLFYPYSKILSKLKPKAFIAENVRGLVNHDDGKTLEVML----------------------------KVFIKEGYEVYWNILNSWNYDVAQKRERIVIIGIREDLVKEQKYPFR-----------FPLAQVY------KPVLKDVLKDVPKSKVTAYSDKK-----REVMKLVPPGGCWVDLPEQIAKDYMGKSWYSGGGKRGMARRISW-DEPCLTLTTS----PSQKQTERCHPDETRPFSIREYARIQSFPDEWEFSGGVGAQYRQIGNAVPVNLAKYIGKSLVHYLNQ</Hsp_hseq>
+      <Hsp_midline> E F+GAGGLA GLE AG      +E++K+A  +LR N     V + D+     + D    E I++++GG PCQ FS  GK     D R  +F    + +   +PKAFI ENV+GL+        E +L                             ++    Y+V + +LN+ +Y V QKRER+VI+GIR DL  + K+P R           +   + +      K   KD+ + + K       +KK     R+ +          D+P  +    +    Y  G +       S  DEP  T+       P  +   R      R F+  E   +Q+FP+E+  SG  G   RQIGNAVPV L++ +GK L+  L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|127417|sp|P25262.1|MTB1_HERAU</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase HgiBI; Short=M.HgiBI; AltName: Full=Cytosine-specific methyltransferase HgiBI [Herpetosiphon aurantiacus]</Hit_def>
+  <Hit_accession>P25262</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>3.15535e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIE------VIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDID-WKFPKRTHSEDRL</Hsp_qseq>
+      <Hsp_hseq>FRFIDLFAGIGGFRLGLEAVGGVCVASAEIDQQAIKVYRQN------WPTDGVDHNLGDITAIQQLPAHDVLVGGVPCQPWSIAGKNQAFDDPRGQLWADVIRLVQINQPKAFIFENVKGLV--------------------------DPRNRLCL--EIILDSFKDLGYSVFYKLLNSFDFGVAQNRDRVFIVGIQQKLDLNGFSFPEYTESEQRL</Hsp_hseq>
+      <Hsp_midline> + +++F+G GG   GLE  G    +  E+++ A    R N      +  D  D +L     I+      V+ GG PCQP+S+ GK+ A +D R  ++   +R V+  +PKAFIFENVKGL+                          D +  L    EI  + +K + Y V Y+LLN+ D+GV Q R+RV IVGI+  LD++ + FP+ T SE RL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|266583|sp|P29567.1|MTHT_METTF</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase MthTI; Short=M.MthTI; AltName: Full=Cytosine-specific methyltransferase MthTI [Methanothermobacter thermautotrophicus]</Hit_def>
+  <Hit_accession>P29567</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>1.5195e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>112</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDAC-NSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLG----------NHKITGHEYRDG---ARIYPGHTGSGIDEPSKTIKAGGHGVPG----------GENMIRYDDGT---VRYFTSYEAKLLQTFPEEFVI---SGAWGEAMRQIGNAVPVKLSEILGKH----LMGVLS</Hsp_qseq>
+      <Hsp_hseq>MDIASFFSGAGGLDLGFTKAGF-NIVFANDNWKGCWKTFEKNHGIK-INKKPIEWLKPSEIPDVVGFIGGPPCQSWSLAGSMCGADDPRGKTFYAYVDLVKEKDPLFFLAENVPGIVSRT---------------------------HLPEFKRL-VNSFIDIGYNVEYKVLNAKDYGVPQDRKRVFIVGYREDLNLKFEFPK----------------------------------PLNKKV-----------TLRDAIGDLPEPKPALEKNRSNGENLEVPNHEYMTGTFSSRYMSRNRVRSWDEVSFTIQAGGRHAPCHPQANKMIKVGPDKFIFDPESPKPYRRLSVRECARIQGFPDDFIFYYKNVADGYTM--VGNAVPVKLAEELAKKIKKDLEGVLN</Hsp_hseq>
+      <Hsp_midline>M     FSGAGGL  G   AGF +  F   N   C  +   N   K + +  +     S    +    GGPPCQ +SL G     +D R   F   V  V+   P  F+ ENV G++ ++                           HL   K +  N +  I Y V Y++LNA DYGVPQ R+RV IVG R DL++ ++FPK                                   L KK            T+RD + D+P P            N ++  HEY  G   +R    +     DE S TI+AGG   P           G +   +D  +    R  +  E   +Q FP++F+    + A G  M  +GNAVPVKL+E L K     L GVL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|127439|sp|P05302.1|MTD1_DESNO</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase DdeI; Short=M.DdeI; AltName: Full=Cytosine-specific methyltransferase DdeI [Desulfomicrobium norvegicum]</Hit_def>
+  <Hit_accession>P05302</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>3.03336e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>365</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>87</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFN-PKL-VYQGDVADFDLS----SQEGIEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKF---PKRTHSEDRLNWEKYVT-------GEYWEKHNEPKRFNKDIAEKLQKKYGIF--EPEKKPWQTVRDTLS------DIPHPLGNH---------KITGHEY-RDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIR--YDDGTVRYFTSYEAKLLQTFPEEFVISG-----AWGEAM---RQIGNAVPVKLSEILGKHL</Hsp_qseq>
+      <Hsp_hseq>MNIIDLFAGCGGFSHGFKMAGYN--SILAIEKDLWASQTYSFNNPNVSVITEDITTLDPGDLKISVSDVDGIIGGPPCQGFSLSGNRDQKDPRNSLFVDFVRFVKFFSPKFFVMENVLGILSMKTKSR-QYV------------------------KDIIAEEFSNVGYKVCVIILNACDYGVPQSRQRVFFIGLKSDRPLNQQILTPPSKVIESEYTSLEEAISDLPVIEAGEGGEVQDYPVAPRNKYQENMRKGSTCVYNHVAMRHTQRLVDRFAAIKFGQSVKHVSEEHSQRKRGDANSISGKVFSQNNMRPYPY-------KPCPTVAASFQS-----NFIHPFYN----RNFTAREGARIQSFPDTYIFQGKRTTMSWEKHLSQYQQIGNAVPPLLAQALAERI</Hsp_hseq>
+      <Hsp_midline>M  +++F+G GG + G ++AG+   S + + KD   S   +FN P + V   D+   D      S   ++ I GGPPCQ FSL G     + R  +F   VR+V+++ PK F+ ENV G+L        +Y+                        K+I    +  + YKV   +LNA DYGVPQ R+RV  +G+++D  ++ +    P +    +  + E+ ++       GE  E  + P        E ++K           +  Q + D  +       + H    H          I+G  + ++  R YP        +P  T+ A         N I   Y+    R FT+ E   +Q+FP+ ++  G     +W + +   +QIGNAVP  L++ L + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1171050|sp|P45000.1|MTH5_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase HindV; Short=M.HindV; AltName: Full=Cytosine-specific methyltransferase HindV [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45000</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>5.04635e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>99</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIE--------VIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDD-----GTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLM</Hsp_qseq>
+      <Hsp_hseq>MKCVDLFSGCGGLSLGFELAGFEICAAFENWEKAIEIYKNNFS-HPIYNIDLRN----EKEAVEKIKKYSPDLIMGGPPCQDFSSAGKRDISLGRADLTYSFANIVCNIRPKWFVMENVEQI----------------------------KKSHI--LQDI-INQFIDFGYGLTSAILDASYCGVPQSRTRFSLIG-------------------KLNSE----------HNF-------LIPTLSRKLS-----DKP-MTVRDY-------LGNSLNLEFYYRH-PRNYNRRGIFSIDEPSPTIRGVNRPIPKGYNINSCDPKGVELAKVRPLTTIERSYIQTFPKSFLFSGTKTDLEQMIGNAVPVNLAKFVASAII</Hsp_hseq>
+      <Hsp_midline>MK +++FSG GGL+ G ELAGF+  +  E  + A    ++NF+   +Y  D+ +     +E +E        +I GGPPCQ FS  GK      R D+       V   RPK F+ ENV+ +                             K H+  L++I  N +    Y ++  +L+A+  GVPQ R R  ++G                   +LN E          HN        +   L +K        KP  TVRD        LGN       YR   R Y       IDEPS TI+     +P G N+   D        VR  T+ E   +QTFP+ F+ SG   +  + IGNAVPV L++ +   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|462655|sp|P08455.2|MTP2_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase NgoPII; Short=M.NgoPII; AltName: Full=Cytosine-specific methyltransferase NgoPII [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P08455</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>1.01591e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>73</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADF-DLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGV----------PGGENMIRYDDGT---VRYFTSYEAKLLQTFPEEF-VISGAWGEAMRQIGNAVPVKLS</Hsp_qseq>
+      <Hsp_hseq>MKIISLFSGCGGLDLGFEKAGFEIPAANEYDKTIWATFKANHPKTHLIEGDIRKIKEEDFPEEIDGIIGGPPCQSWSEAGALRGIDDARGQLFFDYIRILKSKQPKFFLAENVSGMLANR---------------HNGAVQNL-------------LKMFDGCGYDVTLTMANAKDYGVAQERKRVFYIGFRKDLEIKFSFPKGSTVEDK-----------------DKITLKDVIWDLQDTAVPSAPQNK---TNPDAVNNNEYFTGSFSPI---FMSRNRV------KAWDEQGFTVQASGRQCQLHPQAPKMEKHGANDYRFAAGKETLYRRMTVREVARIQGFPDNFKFIYQNVNDAYKMIGNAVPVNLA</Hsp_hseq>
+      <Hsp_midline>MK + +FSG GGL  G E AGF+  +  E +K    + ++N     + +GD+    +    E I+ I GGPPCQ +S  G     +D R  +F   +R ++  +PK F+ ENV G+L                  + G +QN                ++ G  Y V+  + NA DYGV Q+R+RV  +G R DL+I + FPK +  ED+                  K   KD+   LQ       P+ K   T  D +++  +  G+       +    R+         DE   T++A G               G N  R+  G     R  T  E   +Q FP+ F  I     +A + IGNAVPV L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|18202059|sp|O52702.1|MTA1_ACEPA</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase ApaLI; Short=M.ApaLI; AltName: Full=Cytosine-specific methyltransferase ApaLI [Acetobacter pasteurianus]</Hit_def>
+  <Hit_accession>O52702</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>3.31754e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>365</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>99</Hsp_gaps>
+      <Hsp_align-len>415</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIE------VIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEK-----------------------------YVTGEYWEKHNEPKRFNKDI-----------AEKLQKKYGIFEPEKKPWQTVRDTLSDIPHP----LGNHKI---TGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHL</Hsp_qseq>
+      <Hsp_hseq>VSLFAGAGGFSSGFSQAGLKPLFGAEINADACQTYQENVGSP-CHQLDLSTVDPSHIEMLTGGKRPFVVIGGPPCQGFSTAGPRNFADPRNLLIFNYLNIVERLSPRWLIFENVEGLLTSGGGR------------DLARLVRE----------------FVDMGYSVRLQKVNLAAYGVPQTRKRVLIIGNR--LGIDFQFPEELYSFDSGKAKKASGKPLAPSLAEAVAGLGPAASDKDALVPYASSEPVNAFDARMRAGNRVEVVTHHVRVEAAERMQVEL------LKPGQTMKDLPPELWHESYRRRANRRVSDGTPTEKRGGAP-------SGIKRLHGNLQSLTITGPAAREFIHPTEH--RPLTIRECARIQTFPDKYRWVGNNASVIQQIGNAVPPLAAERLAKHL</Hsp_hseq>
+      <Hsp_midline>+ +F+GAGG + G   AG +     E+N DAC + + N      +Q D++  D S  E +       V+ GGPPCQ FS  G     + R  +  + +  VE   P+  IFENV+GLL                  +L  L  E                +  + Y V  Q +N A YGVPQ R+RV+I+G R  L ID++FP+  +S D    +K                             Y + E     +   R    +           AE++Q +        KP QT++D   ++ H       N ++   T  E R GA        SGI      +++     P     I   +   R  T  E   +QTFP+++   G     ++QIGNAVP   +E L KHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|298286911|sp|P13906.3|MTB1_LYSSH</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase BspRI; Short=M.BspRI; AltName: Full=Cytosine-specific methyltransferase BspRI [Lysinibacillus sphaericus]</Hit_def>
+  <Hit_accession>P13906</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>4.3379e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>365</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>119</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIEL------NKDACNSLRSNFNPKLVYQGDVADFDLSSQE---------------------GIEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGV---PGGENMIRYD-------DG--TVRYFTSYEAKLLQTFPE--EF--------VISGAWGEAMRQIGNAVPVKLSEILGKHL</Hsp_qseq>
+      <Hsp_hseq>LSLFCGAGGLDLGFELAGLEQSLGTDKALEAFKDRDVYNAIRHESVFHTVYANDIFSEALQTYEKNMPNHVFIHEKDIRKIKEFPSANLVIGGFPCPGFSEAGPRLVDDERNFLYIHFIRCLMQVQPEIFVAENVKGMMTLGGGEVFRQIV-------------ED---------------FGAAGYRVEARLLNARDYGVPQIRERVIIVGVRNDIDFNYEYPEITHGN--------------------------------------EEGLKPYVTLEEAIGDLSLDPGPYFTGSYSTIFMSR----NRKKKWTDQSFTIQASGRQAPIHPGGLPMEKVDKNKWIFPDGEENHRRLSVKEIKRIQTFPDWYEFSDGGNMKVSVNNRLDKQYKQIGNAVPVFLARAVAKSI</Hsp_hseq>
+      <Hsp_midline>L +F GAGGL  G ELAG + +   +       ++D  N++R       VY  D+    L + E                        ++ GG PC  FS  G  L  ++R  ++ H +R +   +P+ F+ ENVKG++     + F  I+             ED               +    Y+V  +LLNA DYGVPQ RERV+IVG+R D+D ++++P+ TH                                        E   KP+ T+ + + D+    G +    +     +R    +      + S TI+A G      PGG  M + D       DG    R  +  E K +QTFP+  EF         ++    +  +QIGNAVPV L+  + K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|127435|sp|P25264.1|MTC2_HERAU</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase HgiCII; Short=M.HgiCII; AltName: Full=Cytosine-specific methyltransferase HgiCII [Herpetosiphon aurantiacus]</Hit_def>
+  <Hit_accession>P25264</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>5.91553e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQ-EGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDI-DWKFPKRTHSEDRL</Hsp_qseq>
+      <Hsp_hseq>FRFIDLFAGIGGFRLGLEAVGGICVGSAEIDQQAIKVYRQNW-PTDRSEHNLGDITTLQQLPAHDLVVGGVPCQPWSIAGKNQAFDDPRGQLWADVIRLVRINQPKAFIFENVKGLIDPRNRLCLESIL----------------------------DSFKAEGYNVYYKLLNSFDYGVAQNRDRVFIIGIQQKLGVPDFSFPEYSESEQRL</Hsp_hseq>
+      <Hsp_midline> + +++F+G GG   GLE  G       E+++ A    R N+ P    + ++ D     Q    +++ GG PCQP+S+ GK+ A +D R  ++   +R V   +PKAFIFENVKGL+        E IL                            + +K   Y V Y+LLN+ DYGV Q R+RV I+GI+  L + D+ FP+ + SE RL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|127440|sp|P24600.1|MTD1_HERAU</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase HgiDI; Short=M.HgiDI; AltName: Full=Cytosine-specific methyltransferase HgiDI [Herpetosiphon aurantiacus]</Hit_def>
+  <Hit_accession>P24600</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>7.55409e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>89</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFD----LSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTV---RYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSE</Hsp_qseq>
+      <Hsp_hseq>MKTIDLFAGCGGMSLGFMQAGFEIVAAVDNWRPAINTYQQNFTHP-IHELDLAQIDAAVSLIKTHSPELIIGGPPCQDFSSAGK-------RD----------------------EGLGRANLTLDFAKIVLAIQ-PAWVIMENVE-RARLSKIHQQACSMLGDEGYSLAQVVLDASLCGVPQLRKRTFVIG--------------------------------HRHGS----IADLANVLQQRLA------KQSLTVRDY-------FGESLDTDYYYRH-PRTYERRAIFSVNEPSPTIRGVNRPIPATYRMHPKDAGDVSLARPLTTKERSLIQTFPLDFKFVGTKSEQEQMIGNAVPVNLAFFLATSLQAYLNQ</Hsp_hseq>
+      <Hsp_midline>MK++++F+G GG++ G   AGF+  + ++  + A N+ + NF    +++ D+A  D    L      E+I GGPPCQ FS  GK       RD                      +GL R +    F  I+L +  P   I++N + +  L+++ +   ++     Y ++  +L+A+  GVPQ R+R  ++G                                 +H        D+A  LQ++        K   TVRD         G    T + YR   R Y       ++EPS TI+     +P    M   D G V   R  T+ E  L+QTFP +F   G   E  + IGNAVPV L+  L   L   L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|127447|sp|P25266.1|MTE1_HERAU</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase HgiEI; Short=M.HgiEI; AltName: Full=Cytosine-specific methyltransferase HgiEI [Herpetosiphon aurantiacus]</Hit_def>
+  <Hit_accession>P25266</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.13491e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQ--GDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDID-WKFPKRTHSEDRL</Hsp_qseq>
+      <Hsp_hseq>FRFIDLFAGIGGFRLGLEAVGGVCVASAEIDQQAIKVYWQNWPTDGVDHNLGDITQ--IQQLPAHDVLVGGVPCQPWSIAGKNQAFDDPRGQLWADVIRLVQINQPKAFIFENVKGLV--------------------------DPRNRLCL--EIILDSFKDLGYSVFYKLLNSFDFGVAQNRDRVFIVGIQQKLDLNGFSFPEYAESDQRL</Hsp_hseq>
+      <Hsp_midline> + +++F+G GG   GLE  G    +  E+++ A      N+    V    GD+    +      +V+ GG PCQP+S+ GK+ A +D R  ++   +R V+  +PKAFIFENVKGL+                          D +  L    EI  + +K + Y V Y+LLN+ D+GV Q R+RV IVGI+  LD++ + FP+   S+ RL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|127427|sp|P17044.1|MTBF_BACIU</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase BsuFI; Short=M.BsuFI; AltName: Full=Cytosine-specific methyltransferase BsuFI [Bacillus subtilis]</Hit_def>
+  <Hit_accession>P17044</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>1.34713e-22</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>84</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKH--LAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDI-DWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTV--RDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEK</Hsp_qseq>
+      <Hsp_hseq>IDLFAGIGGIRLGFEDKYTKCVFSSEWDKYAAQTYEANYGEK--PHGDITKINENDIPDQDVLLAGFPCQPFSNIGKREGFAHE-RRNIIFDVLRILKKKQPKMFLLENVKGLLTNDNGNTFRVILDNL----------------------------KSLGYSVFYEVMDAQNFGLPQRRERIVIVGFHPDLGINDFSFPKG-------NPDNKVPINAILEHN-PTGYS--ISKRLQESYLFKKDDGKP-QIVDFRCTYQVNTLVASYHKI---QRLTGTFVKDGETG------------------------------LRLFSELELKRLMGFPVDFKVPVSRTQMYRQFGNSVAVPMI----KAVAGAMKER</Hsp_hseq>
+      <Hsp_midline>+++F+G GG+  G E    +     E +K A  +  +N+  K    GD+   + +     +V+  G PCQPFS  GK    AHE RR++    +R ++  +PK F+ ENVKGLL     + F  IL  L                            K + Y V Y++++A ++G+PQ+RER+VIVG   DL I D+ FPK        N +  V      +HN P  ++  I+++LQ+ Y   + + KP Q V  R T          HKI   +   G  +  G TG                              +R F+  E K L  FP +F +  +  +  RQ GN+V V +     K + G + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|127471|sp|P24581.1|MTNX_NEILA</Hit_id>
+  <Hit_def>RecName: Full=Cytosine-specific methyltransferase NlaX; Short=M.NlaX [Neisseria lactamica]</Hit_def>
+  <Hit_accession>P24581</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>5.2106e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>386</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFI---ELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGH-LTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFP----KRTHSEDRLNW---EKY-VTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEKS</Hsp_qseq>
+      <Hsp_hseq>FKIIDLFAGIGGIRLGFEQA-FDDVRCVFSSEIDKYAVQTYQANHGGETVC-GDITQTDVADIPDHDILSAGFPCQPFSQAGLKKGFADTRGTLFFDIERILLAKKPQAFLLENVKQL-----------------------------KGHDKGRTLQVILAHLQQAGYKVYTEVLKARDFGIPQNRERIYLVGF-LNHDVDFRFPQPIGQATAVGDILEAYPDEKYTISDKLWQGYQRRKAENRAAGKGF--GYGLFNAESAYTNT----------------ISARYYKDGSEIL-------IEQPGK---------------------NPRKITPPEAARLQGFPDSFQIPVSDAQAYRQFGNSVCVPVIRAIAEQMKAALSAVS</Hsp_hseq>
+      <Hsp_midline> K +++F+G GG+  G E A F     +   E++K A  + ++N   + V  GD+   D++     ++++ G PCQPFS  G      D R  +F    R +   +P+AF+ ENVK L                             KGH   R  ++     +   YKV  ++L A D+G+PQ RER+ +VG   + D+D++FP    + T   D L     EKY ++ + W+ +   K  N+   +     YG+F  E     T                I+   Y+DG+ I        I++P K                       R  T  EA  LQ FP+ F I  +  +A RQ GN+V V +   + + +   LS  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|462657|sp|P34877.1|MTSA_LACLC</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase ScrFIA; Short=M.ScrFI-A; Short=M.ScrFIA; AltName: Full=Cytosine-specific methyltransferase ScrFIA [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>P34877</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>3.41148e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>KSLEIFSGAGGLAKGLELAGFQHASFI-ELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEKS</Hsp_qseq>
+      <Hsp_hseq>KMIDLFAGIGGTRLGFHQTEKVKSVFSSEIDKFAIKTYKANFGDEP--HGDITKIDEKDIPDHDILVGGFPCQAFSQAGKKLGFDDTRGTLFFEIARIIKEKRPKAFLLENVKNLKTHDKGRTFKTIL----------------------------NTLEELDYEVHTALFKARDFGLPQNRERIYIVGF-----------------DRKSISNYSDFQMPTPLQEKTRVGNILESVVDDKY-----------TISDKLWD-----GHQRRKTENKKNGKGF--GYTLFNQDSEYTNTLSARYYKDGSEILIEQKNKNPRKITPREAARLQGFPENFIIPVSDTQAYKEFGNSVAVPTIHAIAEKMLEVL-EKS</Hsp_hseq>
+      <Hsp_midline>K +++F+G GG   G        + F  E++K A  + ++NF  +    GD+   D       +++ GG PCQ FS  GK L  +D R  +F    R ++  RPKAF+ ENVK L        F+ IL                            N  + + Y+V   L  A D+G+PQ RER+ IVG                  DR +   Y   +      E  R    +   +  KY           T+ D L D     G+ +      ++G     G+T    D       +  +   G E +I   +   R  T  EA  LQ FPE F+I  +  +A ++ GN+V V     + + ++ VL EKS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|12229862|sp|Q59603.2|MTB1_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase NgoBI; Short=M.NgoBI; AltName: Full=Cytosine-specific methyltransferase NgoBI; Short=M.NgoI [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q59603</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>9.70972e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>374</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>85</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>KSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWE--KHNEPKRFNKDIAEKLQKKYGIFE---PEKKPW-QTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEKSS</Hsp_qseq>
+      <Hsp_hseq>KTIDLFSGIGGIRLGFEKYGCTNVFSSEWDKYARQVYEANFGEKPF--GDINGIDPSDIPDHDILLAGFPCQPFSIAGKGLGFEDTRGTLFFNIAEILKTKQPKAFLLENVK----------------RLTTHDSG------------RTFRIVLETLKQLGYTVYFKVLNTLDFGLPQKRERIYIVGFSD--NIPFYFPEPINQYRPL-------GELLENDRDVEPSYFLSDTLK--QKRLAALKKAPPTPSIWHENIGGNVSALPY------------------------------SCALRAGGS-----YNYLVVNG--VRRLTGREMLRLQGFPDDFEINIPYSQVRKVAGNSVSVPVIEATRKICSLLFPARSN</Hsp_hseq>
+      <Hsp_midline>K++++FSG GG+  G E  G  +    E +K A     +NF  K    GD+   D S     +++  G PCQPFS+ GK L  ED R  +F +    ++  +PKAF+ ENVK                RLT  + G            R   I     K + Y V +++LN  D+G+PQKRER+ IVG     +I + FP+  +    L       GE  E  +  EP  F  D  +  QK+    +   P    W + +   +S +P+                              S  ++AGG       N +  +   VR  T  E   LQ FP++F I+  + +  +  GN+V V + E   K    +   +S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1709152|sp|P50185.1|MTD5_DACSA</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase DsaV; Short=M.DsaV; AltName: Full=Cytosine-specific methyltransferase DsaV [Dactylococcopsis salina]</Hit_def>
+  <Hit_accession>P50185</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>1.63116e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLY--KGIKYKVSYQLLNAADYGVPQKRERVVIVGI--RADLDIDWKFPKRTHSEDRLN-------WEKY-VTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVL</Hsp_qseq>
+      <Hsp_hseq>LKFIDLFAGIGGMRIPFEELGGKCVFSSEIDKHCQRTYEANFGE--MPTGDITKLSADSIPYHDLLLAGFPCQAFSQGGRKQGFQDERGQLFFQVAKILNDHRPQAILLENVKGL-----------------------------RGH-DKGRTLQMILYVLEKLNYVVSWKIISATDFNLPQKRERIFIVGFQDKNNKNLIFDFPKPIELTAKVGDLLEKEVDEKYTITDRMWEGHQNRKKAHR----KRGNGFGFSLVNRNSSYT--------------RTISARYYKDGSEV----------------------------LVEQANKNPRVLTPRECARLQGFPESFVIPVSDCQAWRQFGNSVPVSVIRAIAQKMLSYI</Hsp_hseq>
+      <Hsp_midline>+K +++F+G GG+    E  G +     E++K    +  +NF    +  GD+      S    +++  G PCQ FS GG+    +D R  +F    + +  +RP+A + ENVKGL                             +GH  + + ++  LY  + + Y VS+++++A D+ +PQKRER+ IVG   + + ++ + FPK      ++         EKY +T   WE H   K+ ++    K    +G     +    T                I+   Y+DG+ +                            ++   +   R  T  E   LQ FPE FVI  +  +A RQ GN+VPV +   + + ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|127460|sp|P20589.1|MTH3_HAEAE</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase HaeIII; Short=M.HaeIII; AltName: Full=Cytosine-specific methyltransferase HaeIII [Haemophilus aegyptius]</Hit_def>
+  <Hit_accession>P20589</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>1.08054e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>107</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHP-LGNHKITGHEYRDGARIYPGH-----TGSGI----------DEPSKTIKAGGHG----------VPGGENMIRYDDGT---VRYFTSYEAKLLQTFPEEFVIS-GAWGEAMRQIGNAVPVKLSEILGKHLMGVL</Hsp_qseq>
+      <Hsp_hseq>MNLISLFSGAGGLDLGFQKAGFRIICANEYDKSIWKTYESNHSAKLI-KGDISKISSDEFPKCDGIIGGPPCQSWSEGGSLRGIDDPRGKLFYEYIRILKQKKPIFFLAENVKGMMAQR---------------------------HNKAVQEF-IQEFDNAGYDVHIILLNANDYGVAQDRKRVFYIGFRKELNINY-LPPIPH--------------------------------------LIKPT---FKDVIWDLKDNPIPALDKNKTNGNKC-----IYPNHEYFIGSYSTIFMSRNRVRQWNEPAFTVQASGRQCQLHPQAPVMLKVSKNLNKFVEGKEHLYRRLTVRECARVQGFPDDFIFHYESLNDGYKMIGNAVPVNLAYEIAKTIKSAL</Hsp_hseq>
+      <Hsp_midline>M  + +FSGAGGL  G + AGF+     E +K    +  SN + KL+ +GD++          + I GGPPCQ +S GG     +D R  +F   +R ++  +P  F+ ENVKG++ +                            H   ++E     +    Y V   LLNA DYGV Q R+RV  +G R +L+I++  P   H                                      + +P    ++ V   L D P P L  +K  G++      IYP H     + S I          +EP+ T++A G            +   +N+ ++ +G     R  T  E   +Q FP++F+    +  +  + IGNAVPV L+  + K +   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|462647|sp|P34905.1|MTB1_BREBE</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase BbvI; Short=M.BbvI; AltName: Full=Cytosine-specific methyltransferase BbvI [Brevibacillus brevis]</Hit_def>
+  <Hit_accession>P34905</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>2.40053e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>67</Hsp_gaps>
+      <Hsp_align-len>386</Hsp_align-len>
+      <Hsp_qseq>EIFSGAGGLAKGL-----------ELAGFQHASFIELNKDACNSLRSNF---NPKLVYQGDVADFDLSSQEG----IEVIAGGPPCQPFSLGGKHLAHE-DRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSED-RLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLS</Hsp_qseq>
+      <Hsp_hseq>ELFCGPGGLALGAKEAKYMHPETGEVFEFEHAWANDIDEWACETFRTNICPDRPDSVVCGDVRELDIKSLGEKFGEIDAFTFGFPCNDYSIVGEHKGMEGNYGPLYSYGVKILNEYNPLVFIAENVGGLQSANEGKAF-----------LGILNDLASAGKYG--------------YKLVPHLYKFEEYGVPQRRHRIIIVGIRKDQDVAFRVPEPTHKEKYRTASEALADIPEDALNHEFTRHKKKVVEMLNH----IAPGGNAWS------ESIPEELRLNVKKVRMSQIYRRLHP-------DQPSYTVTGSGG-----GGTHGYHWEEPRALTNRERARLQTFPDDYEFIGKKEMVRKQIGMAVPPDGAKIILEAVLKTFA</Hsp_hseq>
+      <Hsp_midline>E+F G GGLA G            E+  F+HA   ++++ AC + R+N     P  V  GDV + D+ S       I+    G PC  +S+ G+H   E +   ++ + V+ +  Y P  FI ENV GL   +    F           LGIL +    G                 YK+   L    +YGVPQ+R R++IVGIR D D+ ++ P+ TH E  R   E          ++E  R  K + E L        P    W         IP  L  +       +   R++P       D+PS T+   G           Y     R  T+ E   LQTFP+++   G      +QIG AVP   ++I+ + ++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|12229852|sp|O30868.1|MTH2_HAEAE</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase HaeII; Short=M.HaeII; AltName: Full=Cytosine-specific methyltransferase HaeII [Haemophilus aegyptius]</Hit_def>
+  <Hit_accession>O30868</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>1.83896e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>KSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSE--DRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHP-LGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLS</Hsp_qseq>
+      <Hsp_hseq>KTIDLFAGIGGIRLGFEAFGCKNVFSSEWDKYAQSMYEVNFGEKPF--GDINDISPSDIPDHDILLAGFPCQPFSIAGKGLGFADTRGTLFFNIEAILKAKKPKAFLLENVKRLTTHDNGNTFKVINDKLN--KLG--------------------------YTVYHKVLNTLDFGLPQKRERIYIVGFLDKLHFEFPKPIGKYEELSNILESDDVVPNNYF------------LSDELKRK------------RLSSITKDVPYPSIWHENISGNV-------------------SALPYSCALSVGGSYNYLVVNG--VRRLTGPEMLRLQGFPDTFEINIPYSQVRKVAGNSVSVPVIRAIAGSMINSLN</Hsp_hseq>
+      <Hsp_midline>K++++F+G GG+  G E  G ++    E +K A +    NF  K    GD+ D   S     +++  G PCQPFS+ GK L   D R  +F +    ++  +PKAF+ ENVK L      + F+ I  +L    LG                          Y V +++LN  D+G+PQKRER+ IVG    L  ++  P   + E  + L  +  V   Y+            ++++L++K             +     D+P+P + +  I+G+                    S    +    V G  N +  +   VR  T  E   LQ FP+ F I+  + +  +  GN+V V +   +   ++  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|18202008|sp|O31073.1|MTS1_STRAH</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase SacI; Short=M.SacI; AltName: Full=Cytosine-specific methyltransferase SacI [Streptomyces achromogenes]</Hit_def>
+  <Hit_accession>O31073</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>4.88303e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>123</Hsp_gaps>
+      <Hsp_align-len>425</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAG------------FQHASFIELNKDACNSLRSNFNPKLVYQGDVADF---DLSSQEGIE-----VIAGGPPCQPFSLGGKHLAHEDRRDMFPHA------VRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWK---FPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPH-PLGNHKITGHEYRDGARIYPG-----HTG--------------------SGIDEPSKTIKA--GGHGVPGGENMIRYDDGT--VRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLM</Hsp_qseq>
+      <Hsp_hseq>LPVISLFSGAGGLDCAIESCAEPPLVQDGSGSPLRVAVATDYEQTALDTLSANFPHTKTLCGDIQTIPTAELLEAGGLKPGDPTLVIGGPPCTPFSKSGFWI-EEKRNSADPNASLLDEYVRVVRESKPEAFILENVQGLTYKTHQAQFDRLIAGL----------------------------KDAGYNPTFRVLLAAEYGVPQ-----LRRRVFVVGRRDGKAFHFPETTHS-----------GE-------------------SERDRVIDHTKIPFTSLREALAGLPDVPEAGEVVEGTYAELAAEVPPGQNYLWHTDRYGGRNEFKWRSRYWTFLLKADPDRPSTTLQAQPGPWVGPFHWENVKNANGEERARRFRVAEMKRIMTFPDEFVFTGVKREVQRQIGNPVPVELGKVVVRALM</Hsp_hseq>
+      <Hsp_midline>+  + +FSGAGGL   +E                + A   +  + A ++L +NF       GD+      +L    G++     ++ GGPPC PFS  G  +  E R    P+A      VR V   +P+AFI ENV+GL  K+    F+ ++  L                            K   Y  ++++L AA+YGVPQ     +   +      D K   FP+ THS           GE                    ++  + +  K P+ ++R+ L+ +P  P     + G      A + PG     HT                     +  D PS T++A  G    P     ++  +G    R F   E K + TFP+EFV +G   E  RQIGN VPV+L +++ + LM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|12229856|sp|P94147.1|MTA1_THAGE</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase AgeI; Short=M.AgeI; AltName: Full=Cytosine-specific methyltransferase AgeI [Thalassobius gelatinovorus]</Hit_def>
+  <Hit_accession>P94147</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>4.95922e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>73</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQH-----------ASFIELNKDACNSLRS--NFNPKLVYQGDVADFDLSSQEG-IEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFE-PEKKPWQTVRDTLSDIP</Hsp_qseq>
+      <Hsp_hseq>MKTIDLFCGAGGLGEGFRQAGFSALYANDHETPALATYKENHPDAVCSTDSIETVDPKKIRE------DLGVAPGQVDVVMGGPPCQGFSTYGQRRDDDARNQLYVPYFGFVEEFRPKAFLIENVVGLLSMSGGAVLADMVARA----------------------------EALGYAADVVTLDACEYGVPQHRRRVFIFGAADGQRIDP--PQPSH----VNGKR--SGVVL--NDQPSLF--------------FDGPSIQPALTVRDAISDLP</Hsp_hseq>
+      <Hsp_midline>MK++++F GAGGL +G   AGF             A++ E + DA  S  S    +PK + +      DL    G ++V+ GGPPCQ FS  G+    + R  ++     +VE +RPKAF+ ENV GLL  S       ++ R                             + + Y      L+A +YGVPQ R RV I G      ID   P+ +H    +N ++  +G     +++P  F              F+ P  +P  TVRD +SD+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.171031</Hsp_evalue>
+      <Hsp_query-from>291</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>354</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>DEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLS</Hsp_qseq>
+      <Hsp_hseq>DAPSHTVVA--HMARDCSDFVH--PGIDRFVSVREAARFQSFPDTYRFPGSQFRQFRQIGNAVPPLLGRAMAETIKVAIS</Hsp_hseq>
+      <Hsp_midline>D PS T+ A  H      + +    G  R+ +  EA   Q+FP+ +   G+     RQIGNAVP  L   + + +   +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|127464|sp|P11408.1|MTM1_MORSP</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase MspI; Short=M.MspI; AltName: Full=Cytosine-specific methyltransferase MspI [Moraxella sp.]</Hit_def>
+  <Hit_accession>P11408</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>6.35063e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>82</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKH--LAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLN--WEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGN-HKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPV</Hsp_qseq>
+      <Hsp_hseq>FKFIDLFSGIGGIRQSFEVNGGKCVFSSEIDPFAKFTYYTNFG--VVPFGDITKVEATTIPQHDILCAGFPCQPFSHIGKREGFEHPTQGTMFHEIVRIIETKKTPVLFLENVPGLINHDDGNTLKVIIETL----------ED------------------MGYKVHHTVLDASHFGIPQKRKRFYLVAF-LNQNIHFEFPKPPMISKDIGEVLESDVTG-------------YSISEHLQKSYLFKKDDGKPSLIDKNTTGAVKTLVSTYHKI---QRLTGTFVKDGETG------------------------------IRLLTTNECKAIMGFPKDFVIPVSRTQMYRQMGNSVVV</Hsp_hseq>
+      <Hsp_midline> K +++FSG GG+ +  E+ G +     E++  A  +  +NF   +V  GD+   + ++    +++  G PCQPFS  GK     H  +  MF   VR +E  +      ENV GL+     +  + I+  L          ED                  + YKV + +L+A+ +G+PQKR+R  +V    + +I ++FPK       +    E  VTG               I+E LQK Y   + + KP    ++T   +   +   HKI   +   G  +  G TG                              +R  T+ E K +  FP++FVI  +  +  RQ+GN+V V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|127431|sp|P00476.1|MTBS_BPSPR</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase SPRI; Short=M.SPRI; AltName: Full=Cytosine-specific methyltransferase SPRI [Bacillus phage SPR]</Hit_def>
+  <Hit_accession>P00476</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.8443e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLEL--AGFQHASFIELNKDACNSLRS--NFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADL</Hsp_qseq>
+      <Hsp_hseq>LRVMSLFSGIGAFEAALRNIGVGYELVGFSEIDKYAVKSFCAIHNVDEQLNF-GDVSKIDKKKLPEFDLLVGGSPCQSFSVAGHRKGFEDTRGTLFFQYVETLKEKQPKFFVFENVKGLI------------------------NHDKGNTLNVMAEA----FSEVGYRIDLELLNSKFFNVPQNRERLYIIGIREDL</Hsp_hseq>
+      <Hsp_midline>++ + +FSG G     L     G++   F E++K A  S  +  N + +L + GDV+  D       +++ GG PCQ FS+ G     ED R  +F   V  ++  +PK F+FENVKGL+                        N D    L  + E     +  + Y++  +LLN+  + VPQ RER+ I+GIR DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1709164|sp|P50182.1|MTN4_NEILA</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase NlaIV; Short=M.NlaIV; AltName: Full=Cytosine-specific methyltransferase NlaIV [Neisseria lactamica]</Hit_def>
+  <Hit_accession>P50182</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>2.19061e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFI------ELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVG</Hsp_qseq>
+      <Hsp_hseq>IKFIDLFSGMSGIRKGFEQACRKQSVACKCVFTSEIKPAALEVLKQNY-PDEVPYGDITKIETGDIPDFDILLAGFPCQAFSFAGKRLGFEDTRGTLFFDVARILKAKKPKGFILENVEGLVTHDRKDPTQKIGRTLTV----ILETLEALG-----------------YYVSWKVLNAKDFGIPQNRKRIYLTG</Hsp_hseq>
+      <Hsp_midline>+K +++FSG  G+ KG E A  + +         E+   A   L+ N+ P  V  GD+   +       +++  G PCQ FS  GK L  ED R  +F    R ++  +PK FI ENV+GL+     D  + I   LT     IL+  +  G                 Y VS+++LNA D+G+PQ R+R+ + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|462656|sp|P34879.1|MTS2_SHISO</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase SsoII; Short=M.SsoII; AltName: Full=Cytosine-specific methyltransferase SsoII [Shigella sonnei]</Hit_def>
+  <Hit_accession>P34879</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>3.59824e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>89</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>KSLEIFSGAGGLAKGLELAGFQHASFI-ELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDID---WKFPKRTHSEDRLN--WEKYVTGEY------WEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVL</Hsp_qseq>
+      <Hsp_hseq>RMIDLFAGIGGTRLGFHQTNAVNVVFSSEWDKFAQKTYHANYGD--FPDGDITKIDEKDIPDHEILVGGFPCVAFSQAGLKKGFNDTRGTLFFDIARIIKEKKPHAFLLENVKNLLGHDKGRTFSIIK----------------------------NTLEELNYTVYYNIFAAKDFGVPQNRERIYIVGFNKEKVRNHEHFTFPTPLKTKTRVGDILEKSVDNKYTLSDALWNGHQRRKLVNAAAGKGFG--YGLFN-ENSPY---------------TNTISARYYKDGSEILIEQKGS----------------------------NPRKITPREASRLQGFPSDFIIPVSDTQAYKQFGNSVAVPVINAIAEKIISTL</Hsp_hseq>
+      <Hsp_midline>+ +++F+G GG   G       +  F  E +K A  +  +N+       GD+   D       E++ GG PC  FS  G      D R  +F    R ++  +P AF+ ENVK LL       F  I                             N  + + Y V Y +  A D+GVPQ RER+ IVG   +   +   + FP    ++ R+    EK V  +Y      W  H   K  N    +     YG+F  E  P+                + I+   Y+DG+ I     GS                              R  T  EA  LQ FP +F+I  +  +A +Q GN+V V +   + + ++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|12229863|sp|Q59605.1|MTB5_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase NgoBV; Short=M.NgoBV; AltName: Full=Cytosine-specific methyltransferase NgoBV; Short=M.NgoV [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q59605</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>6.83935e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIE------LNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVG</Hsp_qseq>
+      <Hsp_hseq>IKFIDLFSGMSGIRKGFEQACRKQSVACECVFTSEIKPAALEVLKQNY-PDEVPYGDITKIETGDIPDFDILLAGFPCQAFSFAGKRLGFEDTRGTLFFDVARILKAKKPKGFILENVEGLVTHDRKDSTQKIGRTLTV----ILETLEALG-----------------YYVSWKVLNAKEFGIPQNRKRIYLTG</Hsp_hseq>
+      <Hsp_midline>+K +++FSG  G+ KG E A  + +   E      +   A   L+ N+ P  V  GD+   +       +++  G PCQ FS  GK L  ED R  +F    R ++  +PK FI ENV+GL+     D  + I   LT     IL+  +  G                 Y VS+++LNA ++G+PQ R+R+ + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1171044|sp|P43420.1|MTB6_BACSF</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase Bsp6I; Short=M.Bsp6I; AltName: Full=Cytosine-specific methyltransferase Bsp6I [Bacillus sp. RFL6]</Hit_def>
+  <Hit_accession>P43420</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>9.8021e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>365</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>375</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAG-FQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR--DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYG-VPQKRERVVIVGIR-----ADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGVPGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISG-AWGEAMRQIGNAVPVKLSEILGKHL</Hsp_qseq>
+      <Hsp_hseq>LQIASLFAGVGGIDLGFEQTGYFETVWANEYDKNAAITYQSNFKNKLIID-DIRNIKVEDVPDFDVLLSGFPCTSFSVAGYRKGFEDEKSGDLFFETLRLIVAKKPQVIFLENVKNLVGHDNGNTFKVI-----------------------YEALESN-----GYHIKYQVLNAKDFGNIPQNRERIYIVGFRNIEHYKNFNFPMPQPLTLTIKDMINLSDKLDDRFYYTEDKCS-FYSPLQEQMTSDETIYQWRRK---YVRENKSNVCPTL----------------------------TANMGTGGHNVP----LVKTKHG-IRKLTPRECFNFQGYPEDFILPELAPTHLYKQAGNSVVVPVIRRIAENI</Hsp_hseq>
+      <Hsp_midline>++   +F+G GG+  G E  G F+     E +K+A  + +SNF  KL+   D+ +  +      +V+  G PC  FS+ G     ED +  D+F   +R +   +P+    ENVK L+     + F+ I                        + +E N      Y + YQ+LNA D+G +PQ RER+ IVG R      + +     P     +D +N    +   ++   ++   F   + E++     I++  +K    VR+  S++   L                            +  +  GGH VP    +++   G +R  T  E    Q +PE+F++   A     +Q GN+V V +   + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|127455|sp|P05102.1|MTH1_HAEPH</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase HhaI; Short=M.HhaI; AltName: Full=Cytosine-specific methyltransferase HhaI [Haemophilus parahaemolyticus]</Hit_def>
+  <Hit_accession>P05102</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>2.25842e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDI-DWKFPK----RTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGSGIDEPSKTIKAGGHGV---PGGENMIRYDDGTVRYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEK</Hsp_qseq>
+      <Hsp_hseq>LRFIDLFAGLGGFRLALESCGAECVYSNEWDKYAQEVYEMNFGEKP--EGDITQVNEKTIPDHDILCAGFPCQAFSISGKQKGFEDSRGTLFFDIARIVREKKPKVVFMENVKNFASHDNGNTLEVVK----------------------------NTMNELDYSFHAKVLNALDYGIPQKRERIYMICFRNDLNIQNFQFPKPFELNTFVKDLLLPDSEVEHLVIDR--------KDLVMTNQ------EIEQTTPKTVR---------LG---IVGKGGQ-GERIY---STRGI---AITLSAYGGGIFAKTGGYLV----NGKTRKLHPRECARVMGYPDSYKVHPSTSQAYKQFGNSVVINVLQYIAYNIGSSLNFK</Hsp_hseq>
+      <Hsp_midline>++ +++F+G GG    LE  G +     E +K A      NF  K   +GD+   +  +    +++  G PCQ FS+ GK    ED R  +F    R V   +PK    ENVK        +  E +                             N    + Y    ++LNA DYG+PQKRER+ ++  R DL+I +++FPK     T  +D L  +  V     ++        KD+    Q      E E+   +TVR         LG   I G   + G RIY   +  GI   + T+ A G G+    GG  +    +G  R     E   +  +P+ + +  +  +A +Q GN+V + + + +  ++   L+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|127416|sp|P10283.1|MTB1_BREEP</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase BepI; Short=M.BepI; AltName: Full=Cytosine-specific methyltransferase BepI [Brevibacterium epidermidis]</Hit_def>
+  <Hit_accession>P10283</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>6.87064e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>128</Hsp_gaps>
+      <Hsp_align-len>446</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHAS-----------------FIELNKDA-----------------CNSLRSNFN-PKLVYQ--------GDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRRD----------------MFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPHPLGNHKITGHEYRDGARIYPGHTGS---GIDEPSKTIKAGGHGVPGGENMIRYDDGT--------VRYFTSYEAKLLQTFPE--EFVI------SGAWGEAMRQIGNAVPVKLSEILGKHLMGV</Hsp_qseq>
+      <Hsp_hseq>MKVLSLFSGCGGMDLGLEGGFLAHRSSINSDLYASYISDHDENYVYLKKTGFETVFANDILPFAKLAWCNFFKNRVNQPENIFHLESIVDVVNNIENKQFSFPNDIDVVTGGFPCQDFSFAGKRKGFDSHKDHNGIIYNEPTEATRGQLYLWLKKVVEITKPKVFIAENVKGLV---------------TLGDVKDIIQKDFR-----------NIDDGYVV-LDAQVLNAKNYGVAQNRERVIFIGI-----------SKRYANKKILDELISLQEKSEVYPYPPY-----------THGT-DPELKPYATLNQILAHLPEPELASTDKSQQSYSKAKLFKKTQGNIEVNMNGQAPTIRAEHHGNIEFRRLSKENGGTNLSELHLPQRRLTVRECALIQSFPPDYEFVFNYGKANSVSASAAYKIIGNAVPPLLGFAIGRHLSQI</Hsp_hseq>
+      <Hsp_midline>MK L +FSG GG+  GLE     H S                 ++ L K                   CN  ++  N P+ ++          ++ +   S    I+V+ GG PCQ FS  GK    +  +D                ++    + VE  +PK FI ENVKGL+               T  ++  +  +D++           N+  G    +  Q+LNA +YGV Q RERV+ +GI            + ++  ++  E     E  E +  P              +G  +PE KP+ T+   L+ +P P         +    A+++    G+    ++  + TI+A  HG      + + + GT         R  T  E  L+Q+FP   EFV       S +   A + IGNAVP  L   +G+HL  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1171045|sp|P09915.2|MTBR_BPRH1</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase Rho11sI; Short=M.Rho11sI; AltName: Full=Bsu P11s; AltName: Full=Cytosine-specific methyltransferase Rho11sI [Bacillus phage rho11s]</Hit_def>
+  <Hit_accession>P09915</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>7.85996e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQH--ASFIELNKDACNSLRS--NFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADL</Hsp_qseq>
+      <Hsp_hseq>LRVMSLFSGIGAFEAALRNIGVEYELVGFSEIDKYAIKSYCAIHNADEQLNF-GDVSKIDKKKLPEFDLLVGGSPCQSFSVAGYRKGFEDTRGTLFFQYIDTLKEKQPRYFVFENVKGLI------------------------NHDKGNTLNIMAE----SFSEVGYRIDLELLNSKFFNVPQNRERIYIIGVREDL</Hsp_hseq>
+      <Hsp_midline>++ + +FSG G     L   G ++    F E++K A  S  +  N + +L + GDV+  D       +++ GG PCQ FS+ G     ED R  +F   +  ++  +P+ F+FENVKGL+                        N D    L  + E     +  + Y++  +LLN+  + VPQ RER+ I+G+R DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|127420|sp|P19888.1|MTBA_ANEAE</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase BanI; Short=M.BanI; AltName: Full=Cytosine-specific methyltransferase BanI [Aneurinibacillus aneurinilyticus]</Hit_def>
+  <Hit_accession>P19888</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>2.30839e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAG--FQHASFI----ELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGI</Hsp_qseq>
+      <Hsp_hseq>IKFVDLFAGIGGIRIGFERAAKRFELETECVLSSEIDKKACETYALNFKEE--PQGDIHE--ITSFPEFDFLLAGFPCQPFSYAGKQQGFGDTRGTLFFEVERVLRDNRPKAFLLENVRGLVTHD--------------------KGRTLKTIISKLEEL--------GYGVSYLLLNSSTFGVPQNRVRIYILGI</Hsp_hseq>
+      <Hsp_midline>+K +++F+G GG+  G E A   F+  +      E++K AC +   NF  +   QGD+ +  ++S    + +  G PCQPFS  GK     D R  +F    R +   RPKAF+ ENV+GL+                       +    K  +++L+E+         Y VSY LLN++ +GVPQ R R+ I+GI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.66077</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>364</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>RYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSE</Hsp_qseq>
+      <Hsp_hseq>RRITPRECARLQGFPDDFILHSNDNFAYKQLGNSVTVKVVE</Hsp_hseq>
+      <Hsp_midline>R  T  E   LQ FP++F++      A +Q+GN+V VK+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1171048|sp|P25263.2|MTC1_HERAU</Hit_id>
+  <Hit_def>RecName: Full=Modification methylase HgiCI; Short=M.HgiCI; AltName: Full=Cytosine-specific methyltransferase HgiCI [Herpetosiphon aurantiacus]</Hit_def>
+  <Hit_accession>P25263</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>9.84016e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELA----GFQHASFI--ELNKDACNSLRSNFNPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRR-DMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGI</Hsp_qseq>
+      <Hsp_hseq>LKFIDLFAGIGGMRLGFEQAMHELGIETACVLSSEIDKHAQTTYAMNFHEQ--SQGDITQ--IQDFPSFDFLLAGFPCQPFSYAGKQKGFGDTRGTLFFEIERILKAYRPKGFLLENVRGLTTHDKGRTFKTILQKLHELNYGV-----------------------------YLILNSSNFQVPQNRLRVYIVGL</Hsp_hseq>
+      <Hsp_midline>+K +++F+G GG+  G E A    G + A  +  E++K A  +   NF+ +   QGD+    +      + +  G PCQPFS  GK     D R  +F    R ++ YRPK F+ ENV+GL        F+ IL +L   N G+                             Y +LN++++ VPQ R RV IVG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|12230342|sp|Q27746.1|DNMT1_PARLI</Hit_id>
+  <Hit_def>RecName: Full=DNA (cytosine-5)-methyltransferase PliMCI; AltName: Full=DNA methyltransferase PliMCI; Short=DNA MTase PliMCI; Short=M.PliMCI; AltName: Full=Dnmt1; AltName: Full=MCMT [Paracentrotus lividus]</Hit_def>
+  <Hit_accession>Q27746</Hit_accession>
+  <Hit_len>1612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>2.04639e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1131</Hsp_hit-from>
+      <Hsp_hit-to>1367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>67</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASF-IELNKDACNSLRSNFNP-------------KLVYQGDVADFD---LSSQEGIEVIAGGPPCQPFSLGGKHLAHED---RRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHS-EDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIP</Hsp_qseq>
+      <Hsp_hseq>LKCLDVFAGCGGLSEGFHQAGICESSWAIEKEEPAAQAYRLN-NPGSTVFSDDCNELLRLVMQGEKTSRTGQKLPQKGDVELLCGGPPCQGFSGMNRFNSREYSKFKNSLISSYLSYCDYYRPRFFLLENVR-----NFVSYKKNMVLKLAL------------RCLIRMG-----------YQCTFGILQAGQYGVPQTRRRAIILAAAPGEKLPF-YPEPLHVFSSRACSLSVMIGE--------KKIESNNQWCLSAPYRTI--------TVRDTMSDLP</Hsp_hseq>
+      <Hsp_midline>+K L++F+G GGL++G   AG   +S+ IE  + A  + R N NP             +LV QG+        L  +  +E++ GGPPCQ FS   +  + E    +  +    + Y +YYRP+ F+ ENV+     +F  Y + ++L+L                L R+            Y+ ++ +L A  YGVPQ R R +I+       + + +P+  H    R      + GE        K+   +    L   Y           TVRDT+SD+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.81488</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>1537</Hsp_hit-from>
+      <Hsp_hit-to>1591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>RYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEKS</Hsp_qseq>
+      <Hsp_hseq>RVVSVRECARSQGFPDTYRFFGSILDKHRQIGNAVPPPMAAAIGMEIKVCLQTKT</Hsp_hseq>
+      <Hsp_midline>R  +  E    Q FP+ +   G+  +  RQIGNAVP  ++  +G  +   L  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|20141336|sp|P13864.5|DNMT1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=DNA (cytosine-5)-methyltransferase 1; Short=Dnmt1; Short=Met-1; AltName: Full=DNA methyltransferase MmuI; Short=DNA MTase MmuI; Short=M.MmuI; AltName: Full=MCMT [Mus musculus]</Hit_def>
+  <Hit_accession>P13864</Hit_accession>
+  <Hit_len>1620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>3.01816e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1142</Hsp_hit-from>
+      <Hsp_hit-to>1378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASF-IELNKDACNSLRSNFNP-------------KLVYQGDVADF---DLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHA-----VRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHS-EDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIP</Hsp_qseq>
+      <Hsp_hseq>LRTLDVFSGCGGLSEGFHQAGISETLWAIEMWDPAAQAFRLN-NPGTTVFTEDCNVLLKLVMAGEVTNSLGQRLPQKGDVEMLCGGPPCQGFS--GMNRFNSRTYSKFKNSLVVSFLSYCDYYRPRFFLLENV-----RNFVSYRRSMVLKLT-----------------------LRCLVRMGYQCTFGVLQAGQYGVAQTRRRAIILAAAPGEKLPL-FPEPLHVFAPRACQLSVVVDD--------KKFVSNITRLSSGPFRTI--------TVRDTMSDLP</Hsp_hseq>
+      <Hsp_midline>+++L++FSG GGL++G   AG     + IE+   A  + R N NP             KLV  G+V +     L  +  +E++ GGPPCQ FS  G +  +      F ++     + Y +YYRP+ F+ ENV     ++F  Y   ++L+LT                             + Y+ ++ +L A  YGV Q R R +I+       +   FP+  H    R      V  +        K+F  +I       +           TVRDT+SD+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|83305674|sp|P0AEE0.1|DCM_ECO57</Hit_id>
+  <Hit_def>RecName: Full=DNA-cytosine methyltransferase [Escherichia coli O157:H7] &gt;gi|83305675|sp|P0AED9.1|DCM_ECOLI RecName: Full=DNA-cytosine methyltransferase; AltName: Full=M.EcoDcm [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AEE0</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>6.07154e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSN--FNPKL-VYQGDVADFDLSSQEGI----------------EVIAGGPPCQPFSLGGKH----------LAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSE</Hsp_qseq>
+      <Hsp_hseq>IDLFAGIGGIRRGFESIGGQCVFTSEWNKHAVRTYKANHYCDPATHHFNEDIRDITLSHKEGVSDEAAAEHIRQHIPEHDVLLAGFPCQPFSLAGVSKKNSLGRAHGFACDTQGTLFFDVVRIIDARRPAMFVLENVKNLKSHDQGKTFRIIMQTLDELGYDVADAEDNGPDDPKIID--------------------GKHFLPQHRERIVLVGFRRDLNLKADFTLRDISE</Hsp_hseq>
+      <Hsp_midline>+++F+G GG+ +G E  G Q     E NK A  + ++N   +P    +  D+ D  LS +EG+                +V+  G PCQPFSL G             A + +  +F   VR ++  RP  F+ ENVK L        F  I+  L      +   ED      ++ +                      + +PQ RER+V+VG R DL++   F  R  SE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|20137608|sp|Q9Z330.2|DNMT1_RAT</Hit_id>
+  <Hit_def>RecName: Full=DNA (cytosine-5)-methyltransferase 1; Short=Dnmt1; AltName: Full=DNA MTase RnoIP; Short=M.RnoIP; AltName: Full=DNA methyltransferase I; AltName: Full=MCMT [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q9Z330</Hit_accession>
+  <Hit_len>1622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>9.21499e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1144</Hsp_hit-from>
+      <Hsp_hit-to>1322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASF-IELNKDACNSLRSNFNP-------------KLVYQGDVADF---DLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHA-----VRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVG</Hsp_qseq>
+      <Hsp_hseq>LRTLDVFSGCGGLTEGFHQAGISETLWAIEMWEPAAQAFRLN-NPGTTVFTEDCNVLLKLVMAGEVTNSLGQRLPQKGDVEMLCGGPPCQGFS--GMNRFNSRTYSKFKNSLVVSFLSYCDYYRPRFFLLENV-----RNFVSFRRSMVLKLT-----------------------LRCLVRMGYQCTFGVLQAGQYGVAQTRRRAIILA</Hsp_hseq>
+      <Hsp_midline>+++L++FSG GGL +G   AG     + IE+ + A  + R N NP             KLV  G+V +     L  +  +E++ GGPPCQ FS  G +  +      F ++     + Y +YYRP+ F+ ENV     ++F  +   ++L+LT                             + Y+ ++ +L A  YGV Q R R +I+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|50897489|sp|Q8EL95.1|MT36_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Putative modification methylase OB3336; AltName: Full=Cytosine-specific methyltransferase; AltName: Full=M.OihORF3336P [Oceanobacillus iheyensis HTE831]</Hit_def>
+  <Hit_accession>Q8EL95</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>9.75575e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>LEIFSGAGGLAKGLELAGFQHASFIELNKDACNSLRSNF------------NPKLVYQGDVADFDLSSQEGIEVIAGGPPCQPFSLGG----KHLAHEDRRDMFPHAVRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQN--EDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVGIRADLDIDWKFPKRTHSEDRLNWEKYVTGEYWEKHNEPKRFNKDIAEKLQKKYGIFEPEKKPWQTVRDTLSDIPH--PLGNHK</Hsp_qseq>
+      <Hsp_hseq>VDLFSGCGGLALGFQLAGFNIRKGIELDRDASDVASFNLHWRQGKHDRHLNNDITLLSANEFYNDLDRKNDLIVI-GGPPCQAYSKIGRAKLKSLGEERRQE-------------------NDARGKLYENFLDYALHV-----DANVIVMENVPEAVNYGGVNIPDTVCDILINKGYDAIWTVLNAADFGVPQTRVRLFVMAIKKDIGKIKFIPEPTH-KPHINVKRQSVNVRWMQ-------SEIRNSKYYKQPNIPDETLSDWVTVGDAIGDLPNLFPVYNQK</Hsp_hseq>
+      <Hsp_midline>+++FSG GGLA G +LAGF     IEL++DA +    N             N   +   +    DL  +  + VI GGPPCQ +S  G    K L  E R++                    + +G L ++F DY  ++       N+ +++N  E        + +   ++     Y   + +LNAAD+GVPQ R R+ ++ I+ D+      P+ TH +  +N ++      W +       ++    K  K+  I +     W TV D + D+P+  P+ N K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00778776</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>365</Hsp_query-to>
+      <Hsp_hit-from>405</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>RYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHL</Hsp_qseq>
+      <Hsp_hseq>RGISVREAARLQSFPDDFLFDCSMGAAFKQIGNAVPPLLAKAIAEAM</Hsp_hseq>
+      <Hsp_midline>R  +  EA  LQ+FP++F+   + G A +QIGNAVP  L++ + + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|108935977|sp|Q24K09.1|DNMT1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=DNA (cytosine-5)-methyltransferase 1; Short=Dnmt1 [Bos taurus]</Hit_def>
+  <Hit_accession>Q24K09</Hit_accession>
+  <Hit_len>1611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.08186e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1136</Hsp_hit-from>
+      <Hsp_hit-to>1314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MKSLEIFSGAGGLAKGLELAGFQHASF-IELNKDACNSLRSNFNP-------------KLVYQGDVADF---DLSSQEGIEVIAGGPPCQPFSLGGKHLAHEDRRDMFPHA-----VRYVEYYRPKAFIFENVKGLLRKSFADYFEYILLRLTYPNLGILQNEDWKGHLTRLKEIEFNLYKGIKYKVSYQLLNAADYGVPQKRERVVIVG</Hsp_qseq>
+      <Hsp_hseq>LRTLDVFSGCGGLSEGFHQAGISETLWAIEMWDPAAQAFRLN-NPGSTVFTEDCNVLLKLVMAGEVTNSRGQKLPQKGDVEMLCGGPPCQGFS--GMNRFNSRTYSKFKNSLVVSFLSYCDYYRPRYFLLENV-----RNFVSFKRSMVLKLT-----------------------LRCLVRMGYQCTFGVLQAGQYGVAQTRRRAIILA</Hsp_hseq>
+      <Hsp_midline>+++L++FSG GGL++G   AG     + IE+   A  + R N NP             KLV  G+V +     L  +  +E++ GGPPCQ FS  G +  +      F ++     + Y +YYRP+ F+ ENV     ++F  +   ++L+LT                             + Y+ ++ +L A  YGV Q R R +I+ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>9.96983</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>1542</Hsp_hit-from>
+      <Hsp_hit-to>1596</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>RYFTSYEAKLLQTFPEEFVISGAWGEAMRQIGNAVPVKLSEILGKHLMGVLSEKS</Hsp_qseq>
+      <Hsp_hseq>RVVSVRECARSQGFPDTYRLFGNILDKHRQVGNAVPPPLAKAIGLEIKRCMLAKA</Hsp_hseq>
+      <Hsp_midline>R  +  E    Q FP+ + + G   +  RQ+GNAVP  L++ +G  +   +  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

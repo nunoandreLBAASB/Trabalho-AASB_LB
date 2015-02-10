@@ -1,0 +1,1425 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>50569</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7H3</BlastOutput_query-def>
+  <BlastOutput_query-len>764</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>50569</Iteration_query-ID>
+  <Iteration_query-def>Q5F7H3</Iteration_query-def>
+  <Iteration_query-len>764</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81784695|sp|Q9JZN9.1|Y964_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Probable TonB-dependent receptor NMB0964; Flags: Precursor [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZN9</Hit_accession>
+  <Hit_len>758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1512.28</Hsp_bit-score>
+      <Hsp_score>3914</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>764</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>758</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>729</Hsp_identity>
+      <Hsp_positive>738</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>758</Hsp_align-len>
+      <Hsp_qseq>MAQITLKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGASAPVIRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGEAGLRLSSGNLEKLTSAGINIGLGKNFVLHTEGLYRKSGDYAVPRYRNLKRLPDSHADSQTGSIGLSWVGEKGFIGAAYSDRRDRYGLPAHSHEYDDCHADIIWQKSLINKRYLQLYPHLLTEEDIDYDNPGLSCGFHDGDGAHAHTHNGKPWIDLRNKRYELRAEWKQPFPGFEALRVHLNRNDYHHDEKAGDAVENFFNNKTHNARIELRHQPIGRLKGSWGVQYLGQKSSALSAIPETVQQPMLIDNNVRHYSFFGVEQANWDNFTLEGGVRVEKQKASIRYDKALIDRENYYNQPLPDLGAHRQTARSFALSGNWYFTPHHKLSLTASHQERLPSTQELYAHGKHVATNTFEVGNKHLNKERSNNIELALGYEGDRWQYNLAAYRNRFGNYIYAQTLNDGRGPKSIEDDSEMKLVRYNQSGADFYGAEGEIYFKPTPRYRIGVSGDYVRGRLKNLPSLPGREDPYGKRPFIAQADQNAPRIPAARLGFHLKTSLTDRIDANLDYYRVFAQNKLARYETRTPGHHMLNLGANYRRNTRYGEWNWYVKADNLLNQSVYAHSSFLSDTPQMGRSFTGGVNVKF</Hsp_qseq>
+      <Hsp_hseq>MAQTTLKPIVLSILLINTPLLAQAHETEQSVDLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGASAPVIRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGELGLRLSSGNLEKLTSGGINIGLGKNFVLHTEGLYRKSGDYAVPRYRNLKRLPDSHADSQTGSIGLSWVGEKGFIGVAYSDRRDQYGLPAHSHEYDDCHADIIWQKSLINKRYLQLYPHLLTEEDIDYDNPGLSCGFHDDDNAHAHTHSGRPWIDLRNKRYELRAEWKQPFPGFEALRVHLNRNDYRHDEKAGDAVENFFNNQTQNARIELRHQPIGRLKGSWGVQYLQQKSSALSAISEAVKQPMLLDNKVQHYSFFGVEQANWDNFTLEGGVRVEKQKASIQYDKALIDRENYYNHPLPDLGAHRQTARSFALSGNWYFTPQHKLSLTASHQERLPSTQELYAHGKHVATNTFEVGNKHLNKERSNNIELALGYEGDRWQYNLALYRNRFGNYIYAQTLNDGRGPKSIEDDSEMKLVRYNQSGADFYGAEGEIYFKPTPRYRIGVSGDYVRGRLKNLPSLPGREDAYGNRPFIAQDDQNAPRVPAARLGFHLKASLTDRIDANLDYYRVFAQNKLARYETRTPGHHMLNLGANYRRNTRYGEWNWYVKADNLLNQSVYAHSSFLSDTPQMGRSFTGGVNVKF</Hsp_hseq>
+      <Hsp_midline>MAQ TLKPIVLSILLINTPLLAQAHETEQSV LETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGASAPVIRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGE GLRLSSGNLEKLTS GINIGLGKNFVLHTEGLYRKSGDYAVPRYRNLKRLPDSHADSQTGSIGLSWVGEKGFIG AYSDRRD+YGLPAHSHEYDDCHADIIWQKSLINKRYLQLYPHLLTEEDIDYDNPGLSCGFHD D AHAHTH+G+PWIDLRNKRYELRAEWKQPFPGFEALRVHLNRNDY HDEKAGDAVENFFNN+T NARIELRHQPIGRLKGSWGVQYL QKSSALSAI E V+QPML+DN V+HYSFFGVEQANWDNFTLEGGVRVEKQKASI+YDKALIDRENYYN PLPDLGAHRQTARSFALSGNWYFTP HKLSLTASHQERLPSTQELYAHGKHVATNTFEVGNKHLNKERSNNIELALGYEGDRWQYNLA YRNRFGNYIYAQTLNDGRGPKSIEDDSEMKLVRYNQSGADFYGAEGEIYFKPTPRYRIGVSGDYVRGRLKNLPSLPGRED YG RPFIAQ DQNAPR+PAARLGFHLK SLTDRIDANLDYYRVFAQNKLARYETRTPGHHMLNLGANYRRNTRYGEWNWYVKADNLLNQSVYAHSSFLSDTPQMGRSFTGGVNVKF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|61211655|sp|Q8ZAA1.1|BTUB_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Yersinia pestis] &gt;gi|150438858|sp|Q1CBU1.2|BTUB_YERPA RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Yersinia pestis Antiqua] &gt;gi|150438859|sp|Q1CNP0.2|BTUB_YERPN RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Yersinia pestis Nepal516] &gt;gi|158514188|sp|A4TRG0.2|BTUB_YERPP RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Yersinia pestis Pestoides F]</Hit_def>
+  <Hit_accession>Q8ZAA1</Hit_accession>
+  <Hit_len>625</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>1.25409e-05</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>ITLKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGEAGLRLSSGNLEKLTSAGINIGLGKNFV</Hsp_qseq>
+      <Hsp_hseq>MTIKKYTLLTALSVTAFSGWAQGNNTTDNNDEMVVTANRFPQPKSSVL---APVDVVTRADIDRWQSTNINDVLRRLPGVDIAQDGGMGQRSSLFIRGTNSSHVLVLIDGVRLNQAGITG-ASDLS-----QIPISLVQRIEYIRGPRSAVYGSDAIGGVINILTGRDKPGTTLSAGLGSNGYQTYDGSTQQKLGEDTTVTLAGNYT</Hsp_hseq>
+      <Hsp_midline>+T+K   L   L  T     A     +   + + V     P+  S +L      D +   D  R ++ N+ D L  +PG+  +Q GG    S+  IRG     + VL      N  G TG  +D S      +  +L Q++E +RGP + +Y S  + G++++  G+       +   G  G +   G+ ++       + L  N+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|61211453|sp|Q66G57.1|BTUB_YERPS</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Yersinia pseudotuberculosis IP 32953] &gt;gi|166991400|sp|A7FD14.1|BTUB_YERP3 RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Yersinia pseudotuberculosis IP 31758]</Hit_def>
+  <Hit_accession>Q66G57</Hit_accession>
+  <Hit_len>624</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.40106e-05</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>ITLKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGG--GASAPVIRGQTGRRIKV------LNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>MTIKKYTLLTALSVTAFSGWAQGNNTTDNNNEMVVTANRFPQPKSSVL---APVDVVTRADIDRWQSTNINDVLRRLPGINIAQYGGPRQLSSLFIRGTNSSHVLVLVDGVRLNQAGISGS-SDLS-----QIPISLVQRIEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+T+K   L   L  T     A     +     + V     P+  S +L      D +   D  R ++ N+ D L  +PGI+ +QYGG    S+  IRG     + V      LN  G +G  +D S      +  +L Q++E +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1175205|sp|P44600.1|HXUC1_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Heme/hemopexin utilization protein C; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44600</Hit_accession>
+  <Hit_len>723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.0001255</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>TPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGG---ASAPVIRGQTGRRI-KVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLV</Hsp_qseq>
+      <Hsp_hseq>TTTLVTANALAQSVELDSINVIATRDP---SRFAYTPEKQSK---DSLLSKQATSVADALEDIPNVDVR--GGSRSIAQKPNIRGLSDNRVVQVIDGVRQNFDLAHRG---SYFLPMSLIQEIEVIKGPSSSLWGSGALGGVV</Hsp_hseq>
+      <Hsp_midline>T  L  A+   QSV L++++V+    P   S   +T     K      L ++A ++ DAL+ +P +     GG    A  P IRG +  R+ +V++   +  D+A      +  +  +L Q++E+++GP + L+ SG + G+V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.152133</Hsp_evalue>
+      <Hsp_query-from>507</Hsp_query-from>
+      <Hsp_query-to>589</Hsp_query-to>
+      <Hsp_hit-from>463</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LSLTASHQE--RLPSTQELYAHGKHVATNTFE-------VGNKHLNKERSNNIEL-------ALGYEGDRWQYNLAAYRNRFGNYIYAQTLNDGRGPKS</Hsp_qseq>
+      <Hsp_hseq>LDFTAKYNEAFRAPSMQERFVSGAHFGANTLGLDHINRFVANPNLRPETAKNKEITANLHFDSLFKQGDKFKIEATYFRNDVKDFINLKIFNDAKTSAS</Hsp_hseq>
+      <Hsp_midline>L  TA + E  R PS QE +  G H   NT         V N +L  E + N E+       +L  +GD+++     +RN   ++I  +  ND +   S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|121957939|sp|P76356.3|YOEA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putative uncharacterized protein YoeA [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P76356</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000172671</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>AQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKA-VNLGDALDGVPGIHASQYG-GGASAPVIRGQTGRRIKVLNHHGE-TGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVD</Hsp_qseq>
+      <Hsp_hseq>ATATSSETKISNEETLVVTTNRSASN---LWESPATIQVIDQQTLQNSTNASIADNLQDIPGVEITDNSLAGRKQIRIRGEASSRVLILIDGQEVTYQRAGDNYGVGLLIDESALERVEVVKGPYSVLYGSQAIGGIVN</Hsp_hseq>
+      <Hsp_midline>A A  +E  +  E   VV  +R  +    L  S A+ ++I   TL+     ++ D L  +PG+  +     G     IRG+   R+ +L    E T   A  +    +++D +  ++VE+++GP ++LY S  + G+V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2507462|sp|P17315.2|CIRA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Colicin I receptor; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P17315</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.00043554</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>IVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAV-NLGDALDGVPGIHASQYGGGASAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEK</Hsp_qseq>
+      <Hsp_hseq>LCLSAISCAWPVLAVDDDGETMV--VTASSVEQN--------LKDAPASISVITQEDLQRKPVQNLKDVLKEVPGVQLTNEGDNRKGVSIRGLDSSYTLILVDGKRVNSRNAVFRHNDFDLNW-IPVDSI--ERIEVVRGPMSSLYGSDALGGVVNIITKKIGQK</Hsp_hseq>
+      <Hsp_midline>+ LS +    P+LA   + E  V   T S V ++        L  + AS  +I+ + L++K V NL D L  VPG+  +  G       IRG       +L      N         DF  +  I VD+   +++E++RGP++ LY S  + G+V++   KI +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81336716|sp|Q4QNS6.1|HXUC_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Heme/hemopexin utilization protein C; Flags: Precursor [Haemophilus influenzae 86-028NP]</Hit_def>
+  <Hit_accession>Q4QNS6</Hit_accession>
+  <Hit_len>709</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000764087</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>TPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGG---ASAPVIRGQTGRRI-KVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLV</Hsp_qseq>
+      <Hsp_hseq>TTTLVTANALAQSVELDSINVIATRDP---SRFTYTPQKQSK---DSLLSKQATSVAAALEDIPNVDVR--GGSRSIAQKPNIRGLSDNRVVQVIDGVRQNFDLAHRG---SYFLPMSLIQEIEVIKGPSSSLWGSGALGGVV</Hsp_hseq>
+      <Hsp_midline>T  L  A+   QSV L++++V+    P   S   +T     K      L ++A ++  AL+ +P +     GG    A  P IRG +  R+ +V++   +  D+A      +  +  +L Q++E+++GP + L+ SG + G+V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>5.79371</Hsp_evalue>
+      <Hsp_query-from>507</Hsp_query-from>
+      <Hsp_query-to>583</Hsp_query-to>
+      <Hsp_hit-from>459</Hsp_hit-from>
+      <Hsp_hit-to>551</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>LSLTASHQE--RLPSTQELYAHGKHVAT--------NTFEVGNKHLNKERSNNIEL-------ALGYEGDRWQYNLAAYRNRFGNYIYAQTLND</Hsp_qseq>
+      <Hsp_hseq>LDFTAKYNEAFRAPSMQERFVSGAHFGTSTRVGDIINSF-VANPNLRPETAKNKEITANLHFDSLFKQGDKFKIEATYFRNDVKDLINLKRLDD</Hsp_hseq>
+      <Hsp_midline>L  TA + E  R PS QE +  G H  T        N+F V N +L  E + N E+       +L  +GD+++     +RN   + I  + L+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|11386826|sp|P96949.2|HPUB_NEIMC</Hit_id>
+  <Hit_def>RecName: Full=Hemoglobin-haptoglobin utilization protein B; Flags: Precursor [Neisseria meningitidis serogroup C]</Hit_def>
+  <Hit_accession>P96949</Hit_accession>
+  <Hit_len>810</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00133786</Hsp_evalue>
+      <Hsp_query-from>426</Hsp_query-from>
+      <Hsp_query-to>576</Hsp_query-to>
+      <Hsp_hit-from>445</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MLIDNNVRHYSFFGVEQANWDNFTLEGGVRVEKQKASIRYDK---ALIDRENYYNQ---PLPDLGAHRQTA-RSFALSGNWYFTPHHKLSLTASHQERLPSTQELYAHGKHVATNTFEVGNKHLNKERSNNIELALGYEGDRWQYNLAAYRNRFGNYI</Hsp_qseq>
+      <Hsp_hseq>MLIENRSK-YKF-----AYWNNVFHLGGNDRFRLNAGIRYDKNSSSAKDDPKYTTAIRGQIPHLGSERAHAGFSYGTGFDWRFTKHLHLLAKYSTGFRAPTSDETWLLFPH--PDFYLKANPNLKAEKAKNWELGLAGSGKAGNFKLSGFKTKYRDFI</Hsp_hseq>
+      <Hsp_midline>MLI+N  + Y F     A W+N    GG    +  A IRYDK   +  D   Y       +P LG+ R  A  S+    +W FT H  L    S   R P++ E +    H   + +   N +L  E++ N EL L   G    + L+ ++ ++ ++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1170441|sp|P45357.1|HXUC2_HAEIF</Hit_id>
+  <Hit_def>RecName: Full=Heme/hemopexin utilization protein C; Flags: Precursor [Haemophilus influenzae]</Hit_def>
+  <Hit_accession>P45357</Hit_accession>
+  <Hit_len>725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.00176311</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>LSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGG---ASAPVIRGQTGRRI-KVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLV</Hsp_qseq>
+      <Hsp_hseq>LSLAIATT--LVTANALAQSVELDSINVIATRDP---SRFAYTPEKQSK---DSLLSKQATSVAAALEDIPNVDIR--GGSRSIAQKPNIRGLSDNRVVQVIDGVRQNFDLAH---RGSYFLPMSLIQEIEVIKGPSSSLWGSGALGGVV</Hsp_hseq>
+      <Hsp_midline>LS+ +  T  L  A+   QSV L++++V+    P   S   +T     K      L ++A ++  AL+ +P +     GG    A  P IRG +  R+ +V++   +  D+A      +  +  +L Q++E+++GP + L+ SG + G+V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.649559</Hsp_evalue>
+      <Hsp_query-from>507</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>459</Hsp_hit-from>
+      <Hsp_hit-to>553</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LSLTASHQE--RLPSTQELYAHGKHVAT--------NTFEVGNKHLNKERSNNIEL-------ALGYEGDRWQYNLAAYRNRFGNYIYAQTLNDGR</Hsp_qseq>
+      <Hsp_hseq>LDFTAKYNEAFRAPSMQERFVSGSHFGTSILGRNEINKF-VANPNLRPETAKNKEITANLHFDSLFKQGDKFKIEATYFRNDVKDFINLKIFNDAK</Hsp_hseq>
+      <Hsp_midline>L  TA + E  R PS QE +  G H  T        N F V N +L  E + N E+       +L  +GD+++     +RN   ++I  +  ND +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|11386832|sp|Q9JWA2.1|HPUB_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Hemoglobin-haptoglobin utilization protein B; Flags: Precursor [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JWA2</Hit_accession>
+  <Hit_len>810</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00206727</Hsp_evalue>
+      <Hsp_query-from>426</Hsp_query-from>
+      <Hsp_query-to>576</Hsp_query-to>
+      <Hsp_hit-from>445</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MLIDNNVRHYSFFGVEQANWDNFTLEGGVRVEKQKASIRYDK---ALIDRENYYNQ---PLPDLGAHRQTA-RSFALSGNWYFTPHHKLSLTASHQERLPSTQELYAHGKHVATNTFEVGNKHLNKERSNNIELALGYEGDRWQYNLAAYRNRFGNYI</Hsp_qseq>
+      <Hsp_hseq>MLIENRSK-YKF-----AYWNNAFHLGGNDRFRLNAGIRYDKNSSSAKDDPKYTTAIRGQIPHLGSERAHAGFSYGTGFDWRFTKHLHLLAKYSTGFRAPTSDETWLLFPH--PDFYLKANPNLKAEKAKNWELGLAGSGKAGNFKLSGFKTKYRDFI</Hsp_hseq>
+      <Hsp_midline>MLI+N  + Y F     A W+N    GG    +  A IRYDK   +  D   Y       +P LG+ R  A  S+    +W FT H  L    S   R P++ E +    H   + +   N +L  E++ N EL L   G    + L+ ++ ++ ++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166991452|sp|A4WG45.2|BTUB_ENT38</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4WG45</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00223224</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>LKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGG--GASAPVIRGQTGRRIKVL------NHHGETG--DMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGEAGLRLSSGNLEKLTSAGINIGLGKNFVLHTEGL</Hsp_qseq>
+      <Hsp_hseq>IKKVSLMTALSVTAFSGWAQDSADSL----VVTANRFEQPANTVLAPTSVVTRE----DIERWQSTTVLDVMRRLPGVDTAQNGGMGQASSLFVRGTNSSHVLILVDGIRLNQAGVTGSSDLSQFP--------ISLVQRIEYIRGPRSAVYGSDAIGGVVNIITTRAKDGTTLNAGVGSHGYQNYGGSTQQTLGDNTRVTLAGDYT-YTKGF</Hsp_hseq>
+      <Hsp_midline>+K + L   L  T     A ++  S+    V    +    A + L  TS  + +    D  R ++  + D +  +PG+  +Q GG   AS+  +RG     + +L      N  G TG  D++ F          +L Q++E +RGP + +Y S  + G+V++   +  +    N   G  G +   G+ ++       + L  ++  +T+G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|61211639|sp|Q8DD41.1|BTUB_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8DD41</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00239803</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>QITLKPIVLSILLINTPLL-AQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQ-KAVNLGDALDGVPGIHASQYGG-GASAPV-IRGQTGRRIKVLNHHGETGDMAD-FSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QKSLLAIAMASLLTPVSYLHAQEVQTNDTV------VVTANRFEQP---LAEVIASTTVISKQEIEETQAKSLLDVLKRVPGIEVSQSGGRGHSASVFIRGFNSNQVLFLVDGVRINSAAGGISFNH---IPVGIIERVEVIKGPGGALYGSDAIAGVINV</Hsp_hseq>
+      <Hsp_midline>Q +L  I ++ LL     L AQ  +T  +V      VV  +R       L    AS  +IS   + + +A +L D L  VPGI  SQ GG G SA V IRG    ++  L         A   S +H   +   + ++VE+++GP   LY S  +AG+++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|61211368|sp|O52903.1|BTUB_CITFR</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Citrobacter freundii]</Hit_def>
+  <Hit_accession>O52903</Hit_accession>
+  <Hit_len>612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00388931</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>LKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>IKKSLLCTALSVTAFSGWAQDTRP----DTLVVTANRFQQPRSAVLAPITV---VTRQDIDRWQSTSVNDVLRRLPGVDIAQYGGMGQNSSISIRGTNASHVLVLIDGVRLNLAGVSG-AADLS-----QFPVSLVQRIEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+K  +L   L  T     A +T      +T+ V      +  S +L   T    +   D  R ++ ++ D L  +PG+  +QYGG    S+  IRG     + VL      N  G +G  AD S         +L Q++E +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|150438857|sp|Q0SY25.2|BTUB_SHIF8</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q0SY25</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00470164</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>SILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>SLLTACSVTAFSAWAQDTSPDTLVVTAIRFEQPRST--VLAPTTV---VTRQDIDRWQSTSVNDVLRRLPGVDITQNGGSGQLSSIFIRGTNASHVLVLIDGVRLNLAGVSGS-ADLS-----QFPIALVQRIEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>S+L   +     A   + S     V+ +   +PR+T  +L  +T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         AL Q++E +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|61211629|sp|Q83IS4.2|BTUB_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Shigella flexneri]</Hit_def>
+  <Hit_accession>Q83IS4</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00486556</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>SILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>SLLTACSVTAFSAWAQDTSPDTLVVTAIRFEQPRST--VLAPTTV---VTRQDIDRWQSTSVNDVLRRLPGVDITQNGGSGQLSSIFIRGTNASHVLVLIDGVRLNLAGVSGS-ADLS-----QFPIALVQRIEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>S+L   +     A   + S     V+ +   +PR+T  +L  +T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         AL Q++E +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|166991291|sp|A7ZUI6.1|BTUB_ECO24</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Escherichia coli O139:H28 str. E24377A]</Hit_def>
+  <Hit_accession>A7ZUI6</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00753165</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QPRST--VLAPTTV---VTRQDIDRWQSTSVNDVLRRLPGVDITQNGGSGQLSSIFIRGTNASHVLVLIDGVRLNLAGVSGS-ADLS-----QFPIALVQRVEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+PR+T  +L  +T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         AL Q+VE +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|150438855|sp|Q0TA90.2|BTUB_ECOL5</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Escherichia coli 536]</Hit_def>
+  <Hit_accession>Q0TA90</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00759645</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QPRST--VLAPTTV---VTRQDIDRWQSTSVNDVLRRLPGVDITQNGGSGQLSSIFIRGTNASHVLVLIDGVRLNLAGVSGS-ADLS-----QFPIALVQRVEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+PR+T  +L  +T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         AL Q+VE +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|61211638|sp|Q8CVJ0.2|BTUB_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8CVJ0</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00766181</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QPRST--VLAPTTV---VTRQDIDRWQSTSVNDVLRRLPGVDITQNGGSGQLSSIFIRGTNASHVLVLIDGVRLNLAGVSGS-ADLS-----QFPIALVQRVEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+PR+T  +L  +T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         AL Q+VE +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|166991292|sp|A8A774.1|BTUB_ECOHS</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Escherichia coli HS]</Hit_def>
+  <Hit_accession>A8A774</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00766181</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QPRST--VLAPTTV---VTRQDIDRWQSTSVNDVLRRLPGVDITQNGGSGQLSSIFIRGTNASHVLVLIDGVRLNLAGVSGS-ADLS-----QFPIALVQRVEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+PR+T  +L  +T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         AL Q+VE +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|416728|sp|P06129.2|BTUB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Escherichia coli K-12] &gt;gi|123615617|sp|Q3YV10.1|BTUB_SHISS RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Shigella sonnei Ss046]</Hit_def>
+  <Hit_accession>P06129</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.0079289</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QPRST--VLAPTTV---VTRQDIDRWQSTSVNDVLRRLPGVDITQNGGSGQLSSIFIRGTNASHVLVLIDGVRLNLAGVSGS-ADLS-----QFPIALVQRVEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+PR+T  +L  +T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         AL Q+VE +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|150438854|sp|A1AIE8.2|BTUB_ECOK1</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Escherichia coli APEC O1] &gt;gi|150438856|sp|Q1R3U1.2|BTUB_ECOUT RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Escherichia coli UTI89]</Hit_def>
+  <Hit_accession>A1AIE8</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00806591</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QPRST--VLAPTTV---VTRQDIDRWQSTSVNDVLRRLPGVDITQNGGSGQLSSIFIRGTNASHVLVLIDGVRLNLAGVSGS-ADLS-----QFPIALVQRVEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+PR+T  +L  +T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         AL Q+VE +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|61211651|sp|Q8X714.1|BTUB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8X714</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.0082053</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QPRST--VLAPTTV---VTRQDIDRWQSTSVNDVLRRLPGVDITQNGGSGQLSSIFIRGTNASHVLVLIDGVRLNLAGGSGS-ADLS-----QFPIALVQRVEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+PR+T  +L  +T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         AL Q+VE +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|123561309|sp|Q32AE6.1|BTUB_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32AE6</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0100781</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>RPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QPRST--VLAPTTV---VTRQDIDRWQSTSVNDVLRRLPGVDITQNGGSGQLSSIFIRGTNASHVLVLIDGVRLNLAGVSGS-ADLS-----QFPIALVQSVEYIRGPRSAVYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+PR+T  +L  +T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         AL Q VE +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|172044582|sp|P0C6R0.1|IRGA_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Iron-regulated outer membrane virulence protein; Flags: Precursor [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>P0C6R0</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.0142275</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>MAQITLKPIVLSI---LLINTPLLAQ-AHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAV-NLGDALDGVPGIHASQYGGGASAPV-IRG--------------QTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>MSRFNPSPVSLSVTLGLMFSASAFAQDATKTDETM---VVTAAGYAQ------VIQNAPASISVISREDLESRYYRDVTDALKSVPGVTVT--GGGDTTDISIRGMGSNYTLILVDGKRQTSRQTRP-NSDGPGIEQGWLPPLQAI-------ERIEVIRGPMSTLYGSDAIGGVINI</Hsp_hseq>
+      <Hsp_midline>M++    P+ LS+   L+ +    AQ A +T++++    V+  G ++      ++  + AS  +IS + L  +   ++ DAL  VPG+  +  GGG +  + IRG              QT R+ +  N  G   +     P  AI       +++E++RGP++ LY S  + G++++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>6.93299</Hsp_evalue>
+      <Hsp_query-from>497</Hsp_query-from>
+      <Hsp_query-to>764</Hsp_query-to>
+      <Hsp_hit-from>402</Hsp_hit-from>
+      <Hsp_hit-to>652</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>GNWYFTPHHKLSLTASHQERLPSTQELYAHGKHVATNTFEVGNKHLNKERSNNIELALGYE-GDRWQYNLAAYRNRFGNYIYAQTLNDGRGPKSIEDDSEMKLVRYNQSGADFYGAEGEIYFKPTPRYRIGVSGDYVRGRLKNLPSLPGREDPYGKRPFIAQADQNAPRIPAARLGFHLKTSLTDRID--ANLDY--YRVFAQNKLARYETRTPGHHMLNLGANYRRNTRYGEWNWYVKAD--NLLNQSV-YAHSSFLSDTPQMGRSFTGGVNVKF</Hsp_qseq>
+      <Hsp_hseq>GVWNLDPLWTVKGGVSTGFRAPQLREVTPDWGQVSGGGNIYGNPDLKPETSINKELSLMYSTGSGLAASLTAFHNDFKDKITRVACPANICTAGPNQWGAAPTYRVNIDEAETYGAEATLSLPITESVELSSSYTYTHSEQKS--------GNFAGRPLL--------QLPKHLFNANLSWQTTDRLNSWANLNYRGKEMQPEGGASNDDFIAPSYTFIDTGVTYALTDTA-----TIKAAVYNLFDQEVNYAEYGYVED----GRRYWLGLDIAF</Hsp_hseq>
+      <Hsp_midline>G W   P   +    S   R P  +E+      V+      GN  L  E S N EL+L Y  G     +L A+ N F + I                       R N   A+ YGAE  +    T    +  S  Y     K+          +  RP +        ++P      +L    TDR++  ANL+Y    +  +   +  +   P +  ++ G  Y            +KA   NL +Q V YA   ++ D    GR +  G+++ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|172047742|sp|A5F9G0.1|IRGA_VIBC3</Hit_id>
+  <Hit_def>RecName: Full=Iron-regulated outer membrane virulence protein; Flags: Precursor [Vibrio cholerae O395]</Hit_def>
+  <Hit_accession>A5F9G0</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.0149769</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>MAQITLKPIVLSI---LLINTPLLAQ-AHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAV-NLGDALDGVPGIHASQYGGGASAPV-IRG--------------QTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>MSRFNPSPVSLSVTLGLMFSASAFAQDATKTDETM---VVTAAGYAQ------VIQNAPASISVISREDLESRYYRDVTDALKSVPGVTVT--GGGDTTDISIRGMGSNYTLILVDGKRQTSRQTRP-NSDGPGIEQGWLPPLQAI-------ERIEVIRGPMSTLYGSDAIGGVINI</Hsp_hseq>
+      <Hsp_midline>M++    P+ LS+   L+ +    AQ A +T++++    V+  G ++      ++  + AS  +IS + L  +   ++ DAL  VPG+  +  GGG +  + IRG              QT R+ +  N  G   +     P  AI       +++E++RGP++ LY S  + G++++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>5.89443</Hsp_evalue>
+      <Hsp_query-from>497</Hsp_query-from>
+      <Hsp_query-to>764</Hsp_query-to>
+      <Hsp_hit-from>402</Hsp_hit-from>
+      <Hsp_hit-to>652</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>GNWYFTPHHKLSLTASHQERLPSTQELYAHGKHVATNTFEVGNKHLNKERSNNIELALGYE-GDRWQYNLAAYRNRFGNYIYAQTLNDGRGPKSIEDDSEMKLVRYNQSGADFYGAEGEIYFKPTPRYRIGVSGDYVRGRLKNLPSLPGREDPYGKRPFIAQADQNAPRIPAARLGFHLKTSLTDRID--ANLDY--YRVFAQNKLARYETRTPGHHMLNLGANYRRNTRYGEWNWYVKAD--NLLNQSV-YAHSSFLSDTPQMGRSFTGGVNVKF</Hsp_qseq>
+      <Hsp_hseq>GVWNLDPLWTVKGGVSTGFRAPQLREVTPDWGQVSGGGNIYGNPDLQPETSINKELSLMYSTGSGLAASLTAFHNDFKDKITRVACPANICTAGPNQWGATPTYRVNIDEAETYGAEATLSLPITESVELSSSYTYTHSEQKS--------GNFAGRPLL--------QLPKHLFNANLSWQTTDRLNSWANLNYRGKEMQPEGGASNDDFIAPSYTFIDTGVTYALTDTA-----TIKAAVYNLFDQEVNYAEYGYVED----GRRYWLGLDIAF</Hsp_hseq>
+      <Hsp_midline>G W   P   +    S   R P  +E+      V+      GN  L  E S N EL+L Y  G     +L A+ N F + I                       R N   A+ YGAE  +    T    +  S  Y     K+          +  RP +        ++P      +L    TDR++  ANL+Y    +  +   +  +   P +  ++ G  Y            +KA   NL +Q V YA   ++ D    GR +  G+++ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|20141233|sp|P37409.2|BTUB_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P37409</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0164214</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>LKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>IKKATLLTAFSVTAFSAWAQDTSP----DTLVVTANRFQQPRSAVLAPVTI---VTRQDIERWQSTSVNDVLRRLPGVDIAQSGGAGQNSSIFIRGTNSSHVLVLIDGVRLNLAGVSGS-ADLS-----QFPVSLVQRIEYIRGPRSAIYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+K   L      T   A A +T      +T+ V      +  S +L   T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         +L Q++E +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|61211400|sp|Q5PK67.1|BTUB_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|73619640|sp|Q57H87.2|BTUB_SALCH RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67]</Hit_def>
+  <Hit_accession>Q5PK67</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0168488</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>LKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>IKKATLLTAFSVTAFSAWAQDTSP----DTLVVTANRFQQPRSAVLAPVTI---VTRQDIERWQSTSVNDVLRRLPGVDIAQSGGAGQNSSIFIRGTNSSHVLVLIDGVRLNLAGVSGS-ADLS-----QFPVSLVQRIEYIRGPRSAIYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+K   L      T   A A +T      +T+ V      +  S +L   T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         +L Q++E +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|61211631|sp|Q87KN9.1|BTUB_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87KN9</Hit_accession>
+  <Hit_len>624</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0236524</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>LKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGG-GASAPV-IRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQ-------QVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>MKKSALAITLASL-LSPVSYLQAQEISVDETIVVTANRFKQIDGAVLAQTVT--VTKEDIRRQQADSLFDVFRTLPSIEVAQYGGRGQSASIFVRGGSATQVLVL--------VDGVRMPRAIMGGIDFNQFPINSIERIDYIRGARASIYGSEAISGVINI</Hsp_hseq>
+      <Hsp_midline>+K   L+I L +  L   ++   Q + ++   VV  +R +   G +   T +  +   D  RQ+A +L D    +P I  +QYGG G SA + +RG +  ++ VL        +       AIM     +Q       +++ +RG    +Y S  ++G++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2501236|sp|Q56989.1|HMUR_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Hemin receptor; Flags: Precursor [Yersinia pestis]</Hit_def>
+  <Hit_accession>Q56989</Hit_accession>
+  <Hit_len>676</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0248605</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>AQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDT-LRQKAVNLGDALDGVPGIHASQYG-GGASAPVIRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGL-----VDVAD</Hsp_qseq>
+      <Hsp_hseq>SKKHSTDTMV----VTATGNERSSFEAPMMVT------VIEGNAPTSQTAATAADMLRQVPGLTVTGSGRTNGQDVVMRGYGKQGVLTLVDGVRQG--TDTGHLNSTFLDPALVKRIEIVRGPAALLYGSGALGGVIAYETVDAAD</Hsp_hseq>
+      <Hsp_midline>++ H T+  V    V+  G  R    + ++ T      +I G+    Q A    D L  VPG+  +  G       V+RG   + +  L      G   D    ++  +D AL +++EI+RGP  LLY SG + G+     VD AD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|61211654|sp|Q8Z314.1|BTUB_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z314</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0254151</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>LKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>IKKATLLTAFSVTAFSAWAQDTSP----DTLVVTANRFQQPRSAVLAPVTI---VTRQDIERWQSTSVNDVLRRLPGVDIAQSGGTGQNSSIFIRGTNSSHVLVLIDGVRLNLAGVSGS-ADLS-----QFPVSLVQRIEYIRGPRSAIYGSDAIGGVVNI</Hsp_hseq>
+      <Hsp_midline>+K   L      T   A A +T      +T+ V      +  S +L   T    +   D  R ++ ++ D L  +PG+  +Q GG    S+  IRG     + VL      N  G +G  AD S         +L Q++E +RGP + +Y S  + G+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|6016198|sp|P31499.2|HEMR_YEREN</Hit_id>
+  <Hit_def>RecName: Full=Hemin receptor; Flags: Precursor [Yersinia enterocolitica]</Hit_def>
+  <Hit_accession>P31499</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0272027</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>ETVSVVGKSRPRATSGLLHTSTASDK----------IISGDT-LRQKAVNLGDALDGVPGIHASQYGGGASAPV-IRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGL-----VDVADGKIP</Hsp_qseq>
+      <Hsp_hseq>DTSSTQTNSKKRIADTMVVTATGNERSSFEAPMMVTVVEADTPTSETATSATDMLRNIPGLTVTGSGRVNGQDVTLRGYGKQGVLTLVDGIRQG--TDTGHLNSTFLDPALVKRVEIVRGPSALLYGSGALGGVISYETVDAADLLLP</Hsp_hseq>
+      <Hsp_midline>+T S    S+ R    ++ T+T +++          ++  DT   + A +  D L  +PG+  +  G      V +RG   + +  L      G   D    ++  +D AL ++VEI+RGP  LLY SG + G+     VD AD  +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|61211863|sp|Q93SE0.2|BTUB_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Escherichia coli]</Hit_def>
+  <Hit_accession>Q93SE0</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.034889</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>QSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QDTPLDTLVVTANRFQEPLSTVLAPVTI---VTREDIDRWQVSSVNDVLRRLPGVAISQHGGEGQLSTIFVRGTNSNHTLVLIDGVRLNLAGVSG-AADLS-----QFPVALVQRIEYIRGPRSAIYGSDAIGGVINI</Hsp_hseq>
+      <Hsp_midline>Q   L+T+ V         S +L   T    +   D  R +  ++ D L  +PG+  SQ+GG    S   +RG       VL      N  G +G  AD S         AL Q++E +RGP + +Y S  + G++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|166991453|sp|A7ML93.2|BTUB_CROS8</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7ML93</Hit_accession>
+  <Hit_len>616</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.038374</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>DTLRQKAVNLGDALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETG--DMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGEAGLRLSSGNLEKLTSAGINIGLGKNFVLHTEGL</Hsp_qseq>
+      <Hsp_hseq>DIERWQANTVIDVMRRLPGVDTAQSGGMGQLSSLFIRGTNSSHVLILVDGIRLNQAGVTGSSDLSQFP--------LALVQRIEYIRGPRSAVYGSDAIGGVVNIITTRAKDGTTLNAGIGSHSYQNYGGSTQQTLGDNTRVTLAGDYT-YTRGF</Hsp_hseq>
+      <Hsp_midline>D  R +A  + D +  +PG+  +Q GG    S+  IRG     + +L      N  G TG  D++ F          AL Q++E +RGP + +Y S  + G+V++   +  +    N   G    +   G+ ++       + L  ++  +T G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|6137256|sp|P76115.1|YNCD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Probable TonB-dependent receptor YncD; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P76115</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0505829</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MAQITLKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKA--VNLGDALDGVPGIHASQYGGGASAPVI-------RGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLV</Hsp_qseq>
+      <Hsp_hseq>MKIFSVRQTVLPALLVLSPVVFAADEQ---------TMIVSAAPQVVSEL--DTPAAVSVVDGEEMRLATPRINLSESLTGVPGLQVQNRQNYAQDLQLSIRGFGSRSTYGIRGIRLYVDGIPATMPD-GQGQTSNIDLSSVQNVEVLRGPFSALY--GNASGGV</Hsp_hseq>
+      <Hsp_midline>M   +++  VL  LL+ +P++  A E          +++  + P+  S L   + A+  ++ G+ +R     +NL ++L GVPG+        A    +       R   G R   L   G    M D        +D +  Q VE+LRGP + LY  GN +G V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|166991399|sp|A7MXY8.1|BTUB_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7MXY8</Hit_accession>
+  <Hit_len>617</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0564374</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>TLKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGG-GASAPV-IRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQ-------QVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGEAGLRLSSGNLEKLT-SAGINIGLGKNF</Hsp_qseq>
+      <Hsp_hseq>TFLAITCASLLSPT-FYSQAQEVSAD---ETV-VVTANRFKQIDGAVLAQTVT--VTKEDIKRLQANSLFDVFRTLPSVEVAQYGGRGQSASIYVRGGSSSQVLVL--------VDGVRMPRAIMGGIDFNQFPINSVERIDYIRGARASIYGSEAISGVIN-----IITRAPINDDSGRVSAGYGSNNHKKGTFVVSKPVGEGKHF</Hsp_hseq>
+      <Hsp_midline>T   I  + LL  T   +QA E       ETV VV  +R +   G +   T +  +   D  R +A +L D    +P +  +QYGG G SA + +RG +  ++ VL        +       AIM     +Q       +++ +RG    +Y S  ++G+++     I  + P N  SG       S N +K T      +G GK+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|61211472|sp|Q6CZB5.1|BTUB_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6CZB5</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.103534</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>LKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGG--GASAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGEAGLRLSSGNLEKLTSAGINIGLGKNFVLHTEGL</Hsp_qseq>
+      <Hsp_hseq>IKKISLLTALSVTAFSGWAQETDNNAMVVTAN---RFQQPVNSVLAPTTVVTREEID----RWQAKSLTDVMRRLPGVDIGQNGGLGQKSSLFIRGTNSSHVLVLIDGIRLNQAGISGS-SDLS-----QIPLSLVQKVEYIRGSRSAVYGSDAIGGVVNIITTREKNGTTLNAGVGSKGYQSYDAATQQALGDSTTATLAGNYV-YTKGF</Hsp_hseq>
+      <Hsp_midline>+K I L   L  T     A ET+ +  + T +   + +    S L  T+  + + I     R +A +L D +  +PG+   Q GG    S+  IRG     + VL      N  G +G  +D S      +  +L Q+VE +RG  + +Y S  + G+V++   +       N   G  G +      ++         L  N+V +T+G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|61211595|sp|Q7MYE3.1|BTUB_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7MYE3</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.23995</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>ILLINTPLLAQAHETEQSVGLETVS--VVGKSR-PRATSGLLHTSTASDKIISGDTL-RQKAVNLGDALDGVPGIHASQYGG--GASAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>LLLSTVSIMVISGWNQASAAVESQDSLVVTASRFKQPISSILAPYT----VVTRDEIDRWQSNSVADILRRLPGVDIARHGGIGQLSSLFIRGTHASHVLVLMDGIRLNQAGISGS-SDLS-----QIPVSLVQKIEYIRGPRSAVYGSDAIGGVINI</Hsp_hseq>
+      <Hsp_midline>+LL    ++  +   + S  +E+    VV  SR  +  S +L   T    +++ D + R ++ ++ D L  +PG+  +++GG    S+  IRG     + VL      N  G +G  +D S      +  +L Q++E +RGP + +Y S  + G++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|325530048|sp|P0CL48.1|FOXA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Ferrioxamine B receptor; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P0CL48</Hit_accession>
+  <Hit_len>702</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.254309</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>PLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGASAP--VIRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGEAGLRLSSGN</Hsp_qseq>
+      <Hsp_hseq>PLFAQ--ETTKNDTVIVTSPVQSGATKLATPDIETPQSVSIITRQQFEEQGATSVRQAVSYTPGVYSNQIGASNRFDYIVLRGFSDGSLDNVYLDG-LKMMGDTNSHSSLVVDPWFLEDIEVVRGPASVLYGRSSPGGIV-----ALTSRKPAFDAGGE--VKLFAGN</Hsp_hseq>
+      <Hsp_midline>PL AQ  ET ++  +   S V     +  +  + T  +   I       Q A ++  A+   PG++++Q G        V+RG +   +  +   G    M D +   +++VD    + +E++RGP ++LY   +  G+V      +  + P     GE  ++L +GN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|325530047|sp|E1W8M5.1|FOXA_SALTS</Hit_id>
+  <Hit_def>RecName: Full=Ferrioxamine B receptor; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344]</Hit_def>
+  <Hit_accession>E1W8M5</Hit_accession>
+  <Hit_len>702</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.267678</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>PLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGASAP--VIRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGEAGLRLSSGN</Hsp_qseq>
+      <Hsp_hseq>PLFAQ--ETTKNDTVIVTSPVQSGATKLATPDIETPQSVSIITRQQFEEQGATSVRQAVSYTPGVYSNQIGASNRFDYIVLRGFSDGSLDNVYLDG-LKMMGDTNSHSSLVVDPWFLEDIEVVRGPASVLYGRSSPGGIV-----ALTSRKPAFDAGGE--VKLFAGN</Hsp_hseq>
+      <Hsp_midline>PL AQ  ET ++  +   S V     +  +  + T  +   I       Q A ++  A+   PG++++Q G        V+RG +   +  +   G    M D +   +++VD    + +E++RGP ++LY   +  G+V      +  + P     GE  ++L +GN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|61211592|sp|Q7MQ42.1|BTUB_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MQ42</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.458522</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>QITLKPIVLSILLINTPL-LAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLG-DALDGVPGIHASQYGGGA--SAPVIRGQTGRRIKVL------NHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDV</Hsp_qseq>
+      <Hsp_hseq>QKSLLAIAMASLL--TPISYLHAQEVQTN---DTVVVTANRFEQVESSVL----ASISVVTKAEIEQLNVTTALDILKTLPGVEVNSQGGKGQISSIFLRGTSSKHTLVLVDGVKINSATAGGASLGLIPAFAI-------EQIEVVRGPRAAIYGSDAIGGVIHI</Hsp_hseq>
+      <Hsp_midline>Q +L  I ++ LL  TP+    A E + +   +TV V      +  S +L    AS  +++   + Q  V    D L  +PG+  +  GG    S+  +RG + +   VL      N     G      P  AI       +Q+E++RGP   +Y S  + G++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|61211504|sp|Q6LLU3.1|BTUB_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=Vitamin B12 transporter BtuB; AltName: Full=Cobalamin receptor; AltName: Full=Outer membrane cobalamin translocator; Flags: Precursor [Photobacterium profundum]</Hit_def>
+  <Hit_accession>Q6LLU3</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.95738</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>LKPIVLSILLINTPLLAQAHETEQSVGLETVSVVGKSRPRATSGLLHTSTASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGASAPV-IRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIP-EKMPE-NGVSGEAGLRLSSGNLEKLTSAGINIGLGKN----FVLHTEGL----YRKSGDYAVPRYRNLKRLPDSHADSQTGS-IGLSW-VGEKGFIGAAYSDRRDRYGLP</Hsp_qseq>
+      <Hsp_hseq>MKKTLLAVALAPLCLPSQVFAADESSNDVMVVTANRFEQPIKNVIAPISVVTKEEI--DAIQAKSI--AEVLRRLPGVQVVSGGYGQATEVYVRGTTSRHLLVMINGVRIGSATLGSADFSQIPLTGI-ERIELIRGSRAALYGSDAIGGVLNIITAYQPGESVAEVTAGGGSDGFYQLGGSV-----AG---GLGESGWGKIALKTEGADGFSARKE-----PFEQDDDGFKNSNVVAEVGTHVGDHWKLSLQGYYHDGESDYDDSYGAP</Hsp_hseq>
+      <Hsp_midline>+K  +L++ L    L +Q    ++S     V    +      + +   S  + + I  D ++ K++   + L  +PG+     G G +  V +RG T R + V+ +    G     S D + +  T + +++E++RG    LY S  + G++++     P E + E     G  G     G++     AG   GLG++      L TEG      RK      P  ++     +S+  ++ G+ +G  W +  +G+     SD  D YG P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|68566090|sp|Q5EXX3.1|ZBT38_RAT</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger and BTB domain-containing protein 38; AltName: Full=Zinc finger protein expressed in neurons; Short=Zenon [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q5EXX3</Hit_accession>
+  <Hit_len>1203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>5.84022</Hsp_evalue>
+      <Hsp_query-from>294</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>970</Hsp_hit-from>
+      <Hsp_hit-to>1036</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>LQLYPHLLTEEDIDYDNPGLSCGFHDGDGAHAHTHNGKPWIDLRNKRYELRAEWKQPFPGFEALRVHL</Hsp_qseq>
+      <Hsp_hseq>VKLPPDKASEEEENKEMPKLQCELCDGDKAAGAGAEGKPHQHLTLKPYICELCAKQ-FQSSSTLKMHM</Hsp_hseq>
+      <Hsp_midline>++L P   +EE+ + + P L C   DGD A      GKP   L  K Y      KQ F     L++H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|172047806|sp|A5GTE2.1|ILVD_SYNR3</Hit_id>
+  <Hit_def>RecName: Full=Dihydroxy-acid dehydratase; Short=DAD [Synechococcus sp. RCC307]</Hit_def>
+  <Hit_accession>A5GTE2</Hit_accession>
+  <Hit_len>558</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>7.16264</Hsp_evalue>
+      <Hsp_query-from>589</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>501</Hsp_hit-from>
+      <Hsp_hit-to>544</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>SIEDDSEMKLVRYNQSGADFYGAEGEIYFKPTPRYRIGVSGDYVR</Hsp_qseq>
+      <Hsp_hseq>SITVDAQQQLLQLNVDAAELERRK-QAWVKPEPRYRTGVLGKYAR</Hsp_hseq>
+      <Hsp_midline>SI  D++ +L++ N   A+    + + + KP PRYR GV G Y R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|2507464|sp|P06971.2|FHUA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Ferrichrome-iron receptor; AltName: Full=Ferric hydroxamate receptor; AltName: Full=Ferric hydroxamate uptake; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P06971</Hit_accession>
+  <Hit_len>747</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>7.68527</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>MVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGEAG</Hsp_qseq>
+      <Hsp_hseq>VIDPYMLERAEIMRGPVSVLYGKSSPGGLLNMVS-KRPTTEPLKEVQFKAG</Hsp_hseq>
+      <Hsp_midline>++D  + ++ EI+RGPV++LY   +  GL+++   K P   P   V  +AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|585759|sp|P38047.1|PUPB_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Ferric-pseudobactin BN7/BN8 receptor; Flags: Precursor [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P38047</Hit_accession>
+  <Hit_len>809</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>8.19799</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>QKAVNLGDALDGVPGIHASQYGGGASAPVIRGQTGRRIKVLNHHGE---TGDMADFSPDHAIMVDTALSQQVEILRGPVTLLYSSGNVAGLVDVADGKIPEKMPENGVSGEAG</Hsp_qseq>
+      <Hsp_hseq>QRLTNLTDALEATPGITVVRDGLGSESDSYW---SRGFAIQNYEVDGVPTSTRLDNYSQSMAMFD-----RVEIVRGATGLISGMGNPSATINLIR-KRPTAEAQASITGEAG</Hsp_hseq>
+      <Hsp_midline>Q+  NL DAL+  PGI   + G G+ +        R   + N+  +   T    D       M D     +VEI+RG   L+   GN +  +++   K P    +  ++GEAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|74672768|sp|Q4WTC4.1|HIR1_ASPFU</Hit_id>
+  <Hit_def>RecName: Full=Protein hir1 [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>Q4WTC4</Hit_accession>
+  <Hit_len>1043</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>9.16868</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>SGLLHT-----------STASDKIISGDTLRQKAVNLGDALDGVPGIHASQYGGGASAPVIRGQTGRRIKVLNHHGETGDMADFSPDHAIMVDTALSQQVEILRG</Hsp_qseq>
+      <Hsp_hseq>SGTIHTVRFSPNGKYLASGADDKIVCIYTL-----------DANPPSHASTFGSNEAPPVENWRTIRRL--IGHDNDVQDLG-WSYDSSILVSVGLDSKVVVWSG</Hsp_hseq>
+      <Hsp_midline>SG +HT           S A DKI+   TL           D  P  HAS +G   + PV   +T RR+  + H  +  D+  +S D +I+V   L  +V +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

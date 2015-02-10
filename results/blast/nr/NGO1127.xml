@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>202033</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7P3</BlastOutput_query-def>
+  <BlastOutput_query-len>60</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>202033</Iteration_query-ID>
+  <Iteration_query-def>Q5F7P3</Iteration_query-def>
+  <Iteration_query-len>60</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489795796|ref|WP_003699687.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|194099018|ref|YP_002002092.1| putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|194100162|ref|YP_002001267.1| putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|194100218|ref|YP_002002550.1| putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|193934308|gb|ACF30132.1| putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|193935452|gb|ACF31276.1| putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|193935508|gb|ACF31332.1| putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|268622079|gb|EEZ54479.1| predicted protein [Neisseria gonorrhoeae PID332] &gt;gi|291011915|gb|EFE03904.1| conserved hypothetical protein [Neisseria gonorrhoeae DGI2] &gt;gi|291611191|gb|EFF40283.1| phage associated protein [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>WP_003699687</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>3.9434e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MANIDLTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_qseq>
+      <Hsp_hseq>MANIDLTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_hseq>
+      <Hsp_midline>MANIDLTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489787644|ref|WP_003691535.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|59800906|ref|YP_207618.1| phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|59801494|ref|YP_208206.1| phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|59801947|ref|YP_208659.1| phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|538321143|ref|YP_008502203.1| phage protein [Neisseria gonorrhoeae MS11] &gt;gi|538321779|ref|YP_008502839.1| phage protein [Neisseria gonorrhoeae MS11] &gt;gi|538322241|ref|YP_008503301.1| phage protein [Neisseria gonorrhoeae MS11] &gt;gi|59717801|gb|AAW89206.1| hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|59718389|gb|AAW89794.1| hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|59718842|gb|AAW90247.1| hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|268548528|gb|EEZ43946.1| conserved hypothetical protein [Neisseria gonorrhoeae 35/02] &gt;gi|268551257|gb|EEZ46276.1| hypothetical protein NGEG_02104 [Neisseria gonorrhoeae FA19] &gt;gi|268583773|gb|EEZ48449.1| phage protein [Neisseria gonorrhoeae MS11] &gt;gi|268585137|gb|EEZ49813.1| predicted protein [Neisseria gonorrhoeae PID18] &gt;gi|268587449|gb|EEZ52125.1| predicted protein [Neisseria gonorrhoeae PID1] &gt;gi|268624298|gb|EEZ56698.1| predicted protein [Neisseria gonorrhoeae SK-92-679] &gt;gi|268626594|gb|EEZ58994.1| predicted protein [Neisseria gonorrhoeae SK-93-1035] &gt;gi|537637328|gb|AGU85008.1| phage protein [Neisseria gonorrhoeae MS11] &gt;gi|537637516|gb|AGU85084.1| phage protein [Neisseria gonorrhoeae MS11] &gt;gi|636860301|gb|KDM97584.1| hypothetical protein AW44_13970 [Neisseria gonorrhoeae] &gt;gi|636861977|gb|KDM99110.1| hypothetical protein BK61_14080 [Neisseria gonorrhoeae] &gt;gi|636865263|gb|KDN02137.1| hypothetical protein BK60_13440 [Neisseria gonorrhoeae] &gt;gi|654605885|gb|KEC86555.1| hypothetical protein DT75_11650 [Neisseria gonorrhoeae] &gt;gi|693764522|gb|KGI95457.1| hypothetical protein IX30_11420 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003691535</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.07711e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MANIDLTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_qseq>
+      <Hsp_hseq>MANIDLTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_hseq>
+      <Hsp_midline>MANIDLTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|490599788|ref|WP_004464808.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|226512423|gb|EEH61768.1| predicted protein [Neisseria gonorrhoeae 1291]</Hit_def>
+  <Hit_accession>WP_004464808</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>9.24551e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MANIDLTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_qseq>
+      <Hsp_hseq>MANIDLTQWDGKTIGAAANPEQGYINIIIGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_hseq>
+      <Hsp_midline>MANIDLTQWDGKTIGAAANPEQGYINI IGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|488141204|ref|WP_002212412.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|304339417|gb|EFM05489.1| hypothetical protein HMPREF0602_0111 [Neisseria meningitidis ATCC 13091]</Hit_def>
+  <Hit_accession>WP_002212412</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>1.17798e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MANIDLTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_qseq>
+      <Hsp_hseq>MANIDLTQWDEKTISAAANPEQGYINIIIGSDDLFINIEQAYAIHAALGKAVAEYEGEAQ</Hsp_hseq>
+      <Hsp_midline>MANIDLTQWD KTI AAANPEQGYINI IGSDDLFINIEQAYAIHAALG+AVAEYEG AQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488167517|ref|WP_002238725.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|402337743|gb|EJU72990.1| putative phage associated protein [Neisseria meningitidis 80179]</Hit_def>
+  <Hit_accession>WP_002238725</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>7.68534e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MANIDLTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGAQ</Hsp_qseq>
+      <Hsp_hseq>MANIDLTQWSEKTISAAANPEQGYINIIIGSDDLFINIEQAYAIHAALGKAVAEYEGEAQ</Hsp_hseq>
+      <Hsp_midline>MANIDLTQW  KTI AAANPEQGYINI IGSDDLFINIEQAYAIHAALG+AVAEYEG AQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|224951998|gb|EEG33207.1|</Hit_id>
+  <Hit_def>hypothetical protein NEIFLAOT_01773 [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>EEG33207</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>6.74992e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>MANIDLTQW-DGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAE</Hsp_qseq>
+      <Hsp_hseq>MANIDLSQWTESVPVQIAANQEQGFVDIIIGQDDIFMSINHANDLYKKLKEYFGE</Hsp_hseq>
+      <Hsp_midline>MANIDL+QW +   +  AAN EQG+++I IG DD+F++I  A  ++  L E   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|485375059|gb|EOC34707.1|</Hit_id>
+  <Hit_def>hypothetical protein NM2004032_0945 [Neisseria meningitidis 2004032] &gt;gi|514072122|gb|EPF56879.1| hypothetical protein NM2007461_0988 [Neisseria meningitidis 2007461]</Hit_def>
+  <Hit_accession>EOC34707</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.118265</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MANIDLTQWDGK--TIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAV</Hsp_qseq>
+      <Hsp_hseq>MANIDLTQWGTKLQVIPQRFEHEPAIYEVECGNDSVFFTEEHAYQLYYALEKVL</Hsp_hseq>
+      <Hsp_midline>MANIDLTQW  K   I      E     +  G+D +F   E AY ++ AL + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|366996372|ref|XP_003677949.1|</Hit_id>
+  <Hit_def>hypothetical protein NCAS_0H02920 [Naumovozyma castellii CBS 4309] &gt;gi|342303819|emb|CCC71602.1| hypothetical protein NCAS_0H02920 [Naumovozyma castellii CBS 4309]</Hit_def>
+  <Hit_accession>XP_003677949</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>3.64667</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>LTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAAL</Hsp_qseq>
+      <Hsp_hseq>MGQWLEMEIGITGGEEDGVNNESVEKDDLYTKAEQVYAVHEAL</Hsp_hseq>
+      <Hsp_midline>+ QW    IG     E G  N ++  DDL+   EQ YA+H AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1150394|emb|CAA61912.1|</Hit_id>
+  <Hit_def>fructose-1,6-bisphosphate aldolase [Euglena gracilis]</Hit_def>
+  <Hit_accession>CAA61912</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>6.8751</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>MANIDLTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGA</Hsp_qseq>
+      <Hsp_hseq>MAKLNL--WLEMEIGMTGGVEDGVDNSGVANDKLYTSSEQVFAVHKALGASSPNFSIAA</Hsp_hseq>
+      <Hsp_midline>MA ++L  W    IG     E G  N  + +D L+ + EQ +A+H ALG +   +   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|648592926|ref|WP_026284677.1|</Hit_id>
+  <Hit_def>acetyl xylan esterase [Prevotella veroralis]</Hit_def>
+  <Hit_accession>WP_026284677</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>7.01593</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>LTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGA</Hsp_qseq>
+      <Hsp_hseq>LPEWDGKTLGVTGSSQGGMLSLVCGA--LHPKVSFIGAVHAAMCDHTASLHGKA</Hsp_hseq>
+      <Hsp_midline>L +WDGKT+G   + + G +++  G+  L   +    A+HAA+ +  A   G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|490519213|ref|WP_004384718.1|</Hit_id>
+  <Hit_def>putative cephalosporin-C deacetylase [Prevotella veroralis] &gt;gi|260534547|gb|EEX17164.1| acetyl xylan esterase (AXE1) [Prevotella veroralis F0319]</Hit_def>
+  <Hit_accession>WP_004384718</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>7.54319</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>LTQWDGKTIGAAANPEQGYINITIGSDDLFINIEQAYAIHAALGEAVAEYEGGA</Hsp_qseq>
+      <Hsp_hseq>LPEWDGKTLGVTGSSQGGMLSLVCGA--LHPKVSFIGAVHAAMCDHTASLHGKA</Hsp_hseq>
+      <Hsp_midline>L +WDGKT+G   + + G +++  G+  L   +    A+HAA+ +  A   G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

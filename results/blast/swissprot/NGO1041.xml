@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>59529</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7X4</BlastOutput_query-def>
+  <BlastOutput_query-len>502</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>59529</Iteration_query-ID>
+  <Iteration_query-def>Q5F7X4</Iteration_query-def>
+  <Iteration_query-len>502</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|13878636|sp|Q9ZN70.1|PPX_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Exopolyphosphatase; Short=ExopolyPase; AltName: Full=Metaphosphatase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9ZN70</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.681</Hsp_bit-score>
+      <Hsp_score>914</Hsp_score>
+      <Hsp_evalue>2.00857e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>505</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>300</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>506</Hsp_align-len>
+      <Hsp_qseq>MTTNPAN---ILASVDLGSNSFRLQICESN-NGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQN-KITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDM--KKMGGIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKV</Hsp_qseq>
+      <Hsp_hseq>MPQKPAEAFPLIAALDLGSNSFHLCLAKANIHGEVRILERLGEKVQLAAGLDEERNLSEEATQRGLDCLRRFAQFISGMPQGSVRVVATNALREARNRSDFIRRAEEVLGHPVEVISGREEARLIYLGVANSMPDSGGRRLVSDIGGGSTEFIIGQGFESELRESLQMGCVSYTQRYFRDGKITPARYAQAYTAARLELMGIENSLRRLGWQQAVGASGTIRAVALAIKAGGHGNGEISPDGLAWLKRKVLKLGDVEKLDLEGIKPDRRTIFPAGLAILEAIFDALELEQMVHSEGALREGVLYDLVGRHQHEDVRERTISSLMQRYHVDPEQASRVEAKALKVLAEVGDAWELNGE---LHRDLLSWGARVHEIGLDIAHYHYHKHGAYLIEHSDLAGFSRQDQQMLSLLVRGHRRNIPADKLAEFAEEGDKLVRLCIVLRFAILFHHIRGTQEMPS---VRLKAEPKSLSVTFPEGWLEANPLTQADFAQEAEWLKRVGYSLNV</Hsp_hseq>
+      <Hsp_midline>M   PA    ++A++DLGSNSF L + ++N +G++++++   + V+ AAGLDE++NLS  + ++ LDCL +F + + G     VR VATN  R A+N +DF+ +AE  LG P+E+I+GREEARLIY GV +++P  GG+ LV DIGGGSTEF+IG     ++ ESL +GCV+Y+ R+F++ KIT   +  A +AAR E+  I  ++ R GW  AVG SG+ +++   + A      +I+  G+  L  ++++ G V+K   E +KP+R  +F  GLA++ A F+ ++L++M  +E ALR+GV YDL+GR  +ED+R +T++    RYHV   QA R    A   +  +  A  +  +   L +  L   A +HEIGLDIAH  YHKH AY++E++D+ GFSR++Q +L+ LV GHR ++   K+       + L    + LR A LF   R     P    +R   E     +     WLE +PL       E+   +++     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|84029295|sp|Q3IDD5.2|GPPA_PSEHT</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Pseudoalteromonas haloplanktis TAC125]</Hit_def>
+  <Hit_accession>Q3IDD5</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>1.21932e-99</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>492</Hsp_align-len>
+      <Hsp_qseq>NILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQN-KITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNV-TVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKK-MGGIIGGNEML-WYAVLSLRLAALFCRSRQDLSFPK-NMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKI</Hsp_qseq>
+      <Hsp_hseq>NVYAVIDLGSNSFHMLIAKSIAGGLQTIGRVKRKVRLAAGLDIDNVLSSEAMHRGWECLALFAERLQDIPKQNITIVATATLRLASNADVFKAQAEKILGHKVNVISGELEARTIYKGVAHT-SSCTGSQLVIDIGGASTEVIIGKNFDALLYKSLNIGCVTYLERYFKDCKLSNANFNTAIKAARTVIDEIASEYKVKGWQIASGASGTVQAIQEIMIAQNLDEL-LTLEKLYTIKKQSIAYKTIAALDLPGLSEDRRLVFVSGLAILIALFESLEIEKMGLAGGALREGVLYSMLPELHNSDIRKRTIDGFIDRYHVDQKQASRVASLVLNLASEVNESWPIKALNGLPL----LTAVAQLHEIGLLIEYKQYHKHSAYILKNTEMPGFSQSEHKVIVAVAKGHRSDLQKGYFDSLGANSVLAQYLVRLIRIAVILCMRRQDDVLPEFAITVKDDVLNLQF----ENDWLKNHPLMASELQQESKQQAKL</Hsp_hseq>
+      <Hsp_midline>N+ A +DLGSNSF + I +S  G L+ I   K+ VR AAGLD    LS+ +  +  +CLA F ERL+    + +  VAT T R+A N   F  +AE  LG  + +I+G  EAR IY GV HT   C G  LVIDIGG STE +IG   +  + +SL +GCVTY  R+F++ K++  +F  AI AAR  I  I+     +GW  A G SG+ ++I++++ A+   E  +T + +  + ++ I   ++       L  +R  VF  GLA+++A FE +++++M +   ALR+GV Y ++    N D+R +T+  F  RYHV   QA R A         +  +  +  +  L L    L   A LHEIGL I +  YHKHSAYIL+N +MPGFS+ E  ++  +  GHR D++K     +G N +L  Y V  +R+A + C  RQD   P+  + ++ D  +  F    ++ WL+ HPL+A  L+ ES Q  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|226736773|sp|B2VG72.1|GPPA_ERWT9</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Erwinia tasmaniensis]</Hit_def>
+  <Hit_accession>B2VG72</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>2.99244e-95</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>499</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNKITAK-DFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQ------QYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAV--LS--LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQ</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTIARIKRKVRLAAGLDADNNLSAEAMDRGWQCLRLFSEQLQDIPPEQIRVVATATLRIAANAGSFLAQAQKLLGCPVNVISGEEEARLIYQGVSHT---TGGSDKRLVVDIGGGSTELVTGRGSQPTTLYSLSMGCVTWLERYFSDRQLGKVNFEQAEQAARAMIRPIADSLKAQGWQVCVGASGTVQALQEIMMAQGMDE-RITLNKLQQLKQRAIECGKLEELEIEGLTLERALVFPSGLSILIAIFSELNISSMTLAGGALREGLLYGMLPLPVDRDIRSRTLHDVQRRFSVDPEQAERVRQLADSF------ARQVSLQ----WKLDDRSRELLGSACLLHEIGLSVDFRQAPQHAAYLVRYLDLPGFTPAQKKLLATLLQNQVGNI-DLPLLSQQNALLPRIAERLSRLLRLAIIFASRRRDDRLPA---VRLQADDDNLTVTLPSGWLEAHPLRAELLEQEA-RWQ</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ I   K+ VR AAGLD   NLS  + ++   CL  F E+L+   PEQ+R VAT T R+A N   FL +A+  LG P+ +I+G EEARLIY GV HT    GG  K LV+DIGGGSTE V G    P    SL +GCVT+  R+F ++   K +F+ A  AAR  I+ I+ ++  +GW   VG SG+ +++++++ A+   E  IT   ++ L +R IE G +++ + E L  ER  VF  GL++++A F E+ +  MT+   ALR+G+ Y ++   ++ D+R +T+ + Q R+ V   QA+R  + A +F      A+ V++Q    W+      + LG A  LHEIGL +      +H+AY++   D+PGF+  ++ +LA L+    G++  +  +   N +L      LS  LRLA +F   R+D   P    +R   +     + + S WLE HPL A+ LE E+ +WQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|259647632|sp|C6DHF6.1|GPPA_PECCP</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6DHF6</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>1.02199e-94</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>509</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGK--MLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQ------QYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMG----GIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKVE</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVARETAGSIQTLAKIKRKVRLAAGLDKQNRLSQDAMQRGWQCLQLFSERLQDIPQDQVRVVATATLRLATNADEFLQRAQEILGLPIQVISGEEEARLIYQGVAHT---TGGPDARLVVDIGGGSTELATGVGAKTTQLISLPMGCVTWLDRYFSDRNLEAGNFERAEQAAREMLRPVAASLREQGWQICVGASGTVQALQEIMVAQGMDEY-ITLPKLRQLKEHAIQCDKLEELEIEGLTLERALVFPSGLAILLAIFQELDIKTMTLAGGALREGLVYGMLHLPVDQDIRHRTLATLQRRYLLDVEQAKRVSTLADNFLQQVARD----------WQLDNRCRELLRSACLVHEIGLSIDFRQSPQHAAYLIRHSDLPGFTPAQKKLLATLLQNQINPVDLMPLSQQNALPVNQAQRLCRL-LRLAIIFASRRRDDTLPA-VRLRVEGETLRLIL--PAGWLSQHPLRAEMLEQES-RWQSYVHWPLMLE</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGLD+Q  LS  + ++   CL  F ERL+    +QVR VAT T R+A N  +FL +A+  LG PI++I+G EEARLIY GV HT    GG    LV+DIGGGSTE   G         SLP+GCVT+  R+F ++ + A +F+ A  AAR  ++ ++ ++  +GW   VG SG+ +++++++ A+   E  IT   +R L E  I+   +++ + E L  ER  VF  GLA+++A F+E+ +  MT+   ALR+G+ Y ++   +++D+R +T+A  Q RY + + QAKR +  A  F+  +             WQ      + L  A  +HEIGL I      +H+AY++ ++D+PGF+  ++ +LA L+      +  M       +  N+      L LRLA +F   R+D + P  ++LR + E+   IL   + WL +HPL A+ LE ES +WQ  ++ P  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|13878629|sp|Q9KU08.2|PPX_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Exopolyphosphatase; Short=ExopolyPase; AltName: Full=Metaphosphatase [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KU08</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>1.63517e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>512</Hsp_align-len>
+      <Hsp_qseq>MTTNPANI--LASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQN-KITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMK----------KMGGIIGGNEMLWYAVLSLRLAALFCRSRQDLSFP------KNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKI</Hsp_qseq>
+      <Hsp_hseq>MTTVVSNAREIAAIDLGSNSFHMVVAKVVDQDLQLISRHKQRVRLAAGLDEQKNLDEESIQRGLECLAMFAERLQGFEPRNVRIAATHTLRQARNANLFIQRALDVLPFPIEIIPGSEEARLIYLGVAHT-QPQADSMLVVDIGGGSTEMIIGKGFEAELLNSKQMGCVNFTERYFANGKLSRKNFAQAIVASEQKLESIASKYRKKGWQMAFGSSGTIKAIHEVLIGQGHEDGLITFERLSKLIEKLCEWDSIDDLQLPGLTDDRKPVFAAGVAILSAIFHGLNIKEMHFSDGALREGLLYEMEDRFKYSDIRLRTTENLAAKHLVDLEHAAKVKGHAREFLAQV--ANELGLPEGSELCDLLEWGALLHEVGLSINLQGFHRHSAYILRHNNMAGFNSEQQLVLSNLARFQRKSLKLNELDDFSLFKKKHIIG-------LIRVLRLAIVVNGQRNDDPLPPLTLSAKDDEWRLECEQ--------PDWLENNKLLHADLQTEQEYWREV</Hsp_hseq>
+      <Hsp_midline>MTT  +N   +A++DLGSNSF + + +  +  L++I   KQ VR AAGLDEQKNL   S ++ L+CLA F ERL+GF P  VR  AT+T R A+N   F+ +A   L FPIEII G EEARLIY GV HT  P    MLV+DIGGGSTE +IG     ++  S  +GCV ++ R+F N K++ K+F  AI A+  +++ I+    ++GW  A G+SG+ K+I +VL  +  ++  IT++ +  L E++ E  S+   +   L  +R  VFA G+A++ A F  + +  M  ++ ALR+G+ Y++  R    D+R +T      ++ V L  A +    A+ F+  +  A  + + E +     L   A LHE+GL I   G+H+HSAYIL + +M GF+ ++Q +L+ L    R  +K          K   IIG        +  LRLA +    R D   P      K+ + R + E           WLE + L+   L+ E   W+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81643640|sp|Q6CZD8.1|GPPA_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6CZD8</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>7.16498e-94</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>503</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGK--MLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMG----GIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKVE</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVTRETAGSIQTLAKIKRKVRLAAGLDKQNRLSQEAMQRGWQCLQLFSERLQDIPQDQVRVVATATLRLATNADEFLQRAQEILGLPIQVISGEEEARLIYQGVAHT---TGGPDARLVVDIGGGSTELATGIGAKTTQLISLPMGCVTWLDRYFSDRNLEAGNFERAENAAREMLRPVAASLREQGWQICVGASGTVQALQEIMVAQGMDEY-ITLPKLRQLKEHAIQCDKLEELEIDGLTLERALVFPSGLAILLAIFQELDIKTMTLAGGALREGLVYGMLHLPVDQDIRHRTLATLQRRYLLDTEQAKRVSTLADNFLQQVARDWQLDSR----CRELLRSACMVHEIGLSIDFRQSPQHAAYLIRHSDLPGFTPAQKKLLATLLQNQINPIDLMPLSQQNALPVNQAQHLCRL-LRLAIIFASRRRDDTLPA-VRLRVEGEALRLIL--PAGWLAQHPLRAEMLEQES-RWQSYVHWPLMLE</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGLD+Q  LS  + ++   CL  F ERL+    +QVR VAT T R+A N  +FL +A+  LG PI++I+G EEARLIY GV HT    GG    LV+DIGGGSTE   G         SLP+GCVT+  R+F ++ + A +F+ A +AAR  ++ ++ ++  +GW   VG SG+ +++++++ A+   E  IT   +R L E  I+   +++ + + L  ER  VF  GLA+++A F+E+ +  MT+   ALR+G+ Y ++   +++D+R +T+A  Q RY +   QAKR +  A  F+  +     +  +     ++ L  A  +HEIGL I      +H+AY++ ++D+PGF+  ++ +LA L+      +  M       +  N+      L LRLA +F   R+D + P  ++LR + E+   IL   + WL +HPL A+ LE ES +WQ  ++ P  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166200641|sp|A1JI66.1|GPPA_YERE8</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JI66</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>9.05451e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>517</Hsp_align-len>
+      <Hsp_qseq>MTTNPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNKITAKD-FQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTF---------MDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGN----EMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKVE</Hsp_qseq>
+      <Hsp_hseq>MMLSSTSLYAAIDLGSNSFHMLVVREVAGSIQTLARIKRKVRLAAGLDTQNHLSQEAMERGWQCLKLFSERLQDIPLDQIRVVATATLRLASNAEEFLQTATEILGCPIQVISGEEEARLIYHGVAHT---TGGPEQRLVVDIGGGSTELVTGNGAQANILVSLPMGCVTWLERYFSDRNLAKDNFDRSESAAREMLKPVAQRFREHGWQICVGASGTVQALQEIMVAQGMDEL-ITLAKLQQLKQRAIQCGKLEELEIPGLTLERALVFPSGLSILIAIFQELAIESMTLAGGALREGLVYGMLHLPVEQDIRSRTVRNIQRRYLLDTEQAKRVSKLADNFLLQVEKEWRLDSRC-------------RELLQNACLIHEIGLSIDFKRAPQHAAYLIRNLDLPGFT-PAQKLLLAALLQNQSDTLDLSLLNQQNALPVDMAQHLCRLLRLAIIFSSRRRDDTLPA-VRLRANGETLYVLL--PHGWLQQHPYRAEALEQES-HWQSYVQWPLLLE</Hsp_hseq>
+      <Hsp_midline>M  +  ++ A++DLGSNSF + +     G ++ +   K+ VR AAGLD Q +LS  + E+   CL  F ERL+    +Q+R VAT T R+A N  +FL  A   LG PI++I+G EEARLIY GV HT    GG  + LV+DIGGGSTE V G+    +I  SLP+GCVT+  R+F ++  AKD F  + SAAR  ++ +++     GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ +   L  ER  VF  GL++++A F+E+ ++ MT+   ALR+G+ Y ++   + +D+R +TV   Q RY +   QAKR ++ A  F         +DS C             ++ L  A  +HEIGL I      +H+AY++ N D+PGF+   Q +L   ++ ++ D   +  +   N    +M  +    LRLA +F   R+D + P  ++LR + E+   +L     WL++HP  A+ALE ES  WQ  +  P  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|61229943|sp|P0A269.2|PPX_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Exopolyphosphatase; Short=ExopolyPase; AltName: Full=Metaphosphatase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|61229944|sp|P0A270.2|PPX_SALTI RecName: Full=Exopolyphosphatase; Short=ExopolyPase; AltName: Full=Metaphosphatase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P0A269</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>5.71268e-93</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>LASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNKITAKD-FQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETA-------QTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMK--KMGGIIGGNEMLWYAVLS-LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKIN</Hsp_qseq>
+      <Hsp_hseq>FAAVDLGSNSFHMVIARVVDGAMQIIGRLKQRVHLADGLGADNKLSEEAMERGLSCLSLFAERLQGFSPSSVCIVGTHTLRQAQNAADFLKRAEKVIPYPIEIISGNEEARLIFMGVEHTQPEKGRK-LVIDIGGGSTELVIGENFEPRLVESRRMGCVSFAQLYFPGGVINKENFQRARMAAAQKLETLTWQYRIQGWNVAMGASGTIKAAHEVLLALGEKDGFITPERLDKLKSEVLKHRSFNALSLPGLSEERKAVFVPGLAILCGVFDALAIRELRLSDGALREGVLYEMEGRFRHQDVRSRTAKSLANQYNIDREQARRVLETTMQMYEQWQAQQPKLAHPQ---LEALLRW------AAMLHEVGLNINHSGLHRHSAYILQHSDLPGFNQEQQMMMATLVRYHRKAIKLDDMPRFTLFKKKQYLPLIQLLRLGVLLNNQRQATTTPPTLRLTTD--DSHWTLCFPHDWFSQNALVLLDLEKEQQYWEAVT</Hsp_hseq>
+      <Hsp_midline> A+VDLGSNSF + I    +G +++I   KQ V  A GL     LS  + E+ L CL+ F ERL+GF P  V  V T+T R A+N ADFL +AE  + +PIEII+G EEARLI+ GV HT P  G K LVIDIGGGSTE VIG    P + ES  +GCV+++  +F   +  K+ FQ A  AA  +++ ++     +GW+ A+G SG+ K+  +VL A   ++  IT + +  L   +++  S        L  ER  VF  GLA++   F+ + +  + +++ ALR+GV Y++ GR  ++D+R +T     ++Y++   QA+R  ET        Q     L H +   ++ L  W      AA LHE+GL+I H+G H+HSAYIL+++D+PGF++++Q ++A LV  HR  +K   M       +  +  ++  LRL  L    RQ  + P  ++L TD     + L     W  ++ L+   LE E   W+ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|75379409|sp|Q74R94.1|GPPA_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Yersinia pestis] &gt;gi|81640753|sp|Q66G20.1|GPPA_YERPS RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Yersinia pseudotuberculosis IP 32953] &gt;gi|166200642|sp|A4TRC9.1|GPPA_YERPP RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Yersinia pestis Pestoides F] &gt;gi|166991477|sp|A7FD46.1|GPPA_YERP3 RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Yersinia pseudotuberculosis IP 31758] &gt;gi|226736973|sp|B2K045.1|GPPA_YERPB RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Yersinia pseudotuberculosis PB1/+] &gt;gi|226736974|sp|A9R8H6.1|GPPA_YERPG RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Yersinia pestis Angola] &gt;gi|226736975|sp|B1JQ12.1|GPPA_YERPY RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>Q74R94</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>1.75978e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>514</Hsp_align-len>
+      <Hsp_qseq>MTTNPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNKITAKD-FQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALW------QQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGN----EMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKVE</Hsp_qseq>
+      <Hsp_hseq>MMLSSTSLYAAIDLGSNSFHMLVVREVAGSIQTLARIKRKVRLAAGLDNQNHLSQEAMERGWQCLKLFSERLQDIPLDQIRVVATATLRLASNADEFLRTATEILGCPIQVISGEEEARLIYHGVAHT---TGGPEQRLVVDIGGGSTELVTGNGAQANILVSLSMGCVTWLERYFGDRHLAKENFERAELAAHEMIKPVAQRFREHGWQVCVGASGTVQALQEIMVAQGMDEL-ITLAKLQQLKQRAIQCGKLEELEIPGLTLERALVFPSGLSILIAIFQELSIESMTLAGGALREGLVYGMLHLPVEQDIRRRTLRNLQRRYLLDTEQAKRVS----------CLADNFFLQVEKEWHLDGRCREFLQNACLIHEIGLSVDFKHAPQHAAYLIRNLDLPGFTPAQKLLLSAL-LQNQSDTIDLSLLNQQNALPADMAQHLCRLLRLAIIFSSRRRDDTLPA-VRLRADNNAL-YVL-VPQGWLEQHPYRAEALEQES-HWQSYVQWPLLLE</Hsp_hseq>
+      <Hsp_midline>M  +  ++ A++DLGSNSF + +     G ++ +   K+ VR AAGLD Q +LS  + E+   CL  F ERL+    +Q+R VAT T R+A N  +FL  A   LG PI++I+G EEARLIY GV HT    GG  + LV+DIGGGSTE V G+    +I  SL +GCVT+  R+F ++  AK+ F+ A  AA   I+ +++     GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ +   L  ER  VF  GL++++A F+E+ ++ MT+   ALR+G+ Y ++   + +D+R +T+   Q RY +   QAKR +          C A N  +Q    W      +++L  A  +HEIGL +      +H+AY++ N D+PGF+  ++ +L+ L + ++ D   +  +   N    +M  +    LRLA +F   R+D + P  ++LR D  +  ++L +   WLE+HP  A+ALE ES  WQ  +  P  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|84029451|sp|P0AFL8.2|PPX_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Exopolyphosphatase; Short=ExopolyPase; AltName: Full=Metaphosphatase [Escherichia coli O157:H7] &gt;gi|84029452|sp|P0AFL7.2|PPX_ECOL6 RecName: Full=Exopolyphosphatase; Short=ExopolyPase; AltName: Full=Metaphosphatase [Escherichia coli CFT073] &gt;gi|84029453|sp|P0AFL6.2|PPX_ECOLI RecName: Full=Exopolyphosphatase; Short=ExopolyPase; AltName: Full=Metaphosphatase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AFL8</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>2.32184e-92</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>LASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNKITAKD-FQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMD-------SLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMK----KMGGIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKI</Hsp_qseq>
+      <Hsp_hseq>FAAVDLGSNSFHMVIARVVDGAMQIIGRLKQRVHLADGLGPDNMLSEEAMTRGLNCLSLFAERLQGFSPASVCIVGTHTLRQALNATDFLKRAEKVIPYPIEIISGNEEARLIFMGVEHTQPEKGRK-LVIDIGGGSTELVIGENFEPILVESRRMGCVSFAQLYFPGGVINKENFQRARMAAAQKLETLTWQFRIQGWNVAMGASGTIKAAHEVLMEMGEKDGIITPERLEKLVKEVLRHRNFASLSLPGLSEERKTVFVPGLAILCGVFDALAIRELRLSDGALREGVLYEMEGRFRHQDVRSRTASSLANQYHIDSEQARRVLDTTMQMYEQWREQQPKLAHPQ---LEALLRW------AAMLHEVGLNINHSGLHRHSAYILQNSDLPGFNQEQQLMMATLVRYHRKAIKLDDLPRFTLFKKKQFLPLIQL-LRLGVLLNNQRQATTTPPTLTLITD--DSHWTLRFPHDWFSQNALVLLDLEKEQEYWEGV</Hsp_hseq>
+      <Hsp_midline> A+VDLGSNSF + I    +G +++I   KQ V  A GL     LS  +  + L+CL+ F ERL+GF P  V  V T+T R A N  DFL +AE  + +PIEII+G EEARLI+ GV HT P  G K LVIDIGGGSTE VIG    P + ES  +GCV+++  +F   +  K+ FQ A  AA  +++ ++     +GW+ A+G SG+ K+  +VL     ++  IT + +  L + ++   +        L  ER  VF  GLA++   F+ + +  + +++ ALR+GV Y++ GR  ++D+R +T +   ++YH+   QA+R  +T     +        L H +   ++ L  W      AA LHE+GL+I H+G H+HSAYIL+N+D+PGF++++Q ++A LV  HR  +K        +    + L    L LRL  L    RQ  + P  + L TD     + LR    W  ++ L+   LE E   W+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|226736960|sp|B7LU76.1|GPPA_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LU76</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>3.75611e-90</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENALSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAAREVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLAVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQVENEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPI-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLKANHEL--LTLTLPQGWLTQHPLGKEIIDQES-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ +  LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D + +  ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + ++ ES QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|123561184|sp|Q329V7.1|GPPA_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q329V7</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>5.74361e-90</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENALSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAAREVLRPIADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQYMTLAGGALREGLVYGMLHLAVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQVENEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIAQES-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ +  LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ I+  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D + +  ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + +  ES QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|166201363|sp|A1AHU9.2|GPPA_ECOK1</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli APEC O1] &gt;gi|166201364|sp|Q1R4G0.2|GPPA_ECOUT RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli UTI89] &gt;gi|226735913|sp|B7MGI9.1|GPPA_ECO45 RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli S88] &gt;gi|226735920|sp|B1LLV2.1|GPPA_ECOSM RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli SMS-3-5] &gt;gi|254799505|sp|B7UMN4.1|GPPA_ECO27 RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli O127:H6 str. E2348/69]</Hit_def>
+  <Hit_accession>A1AHU9</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>7.98208e-90</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENALSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAAREVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLTVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQVENEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIDQES-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ +  LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D + +  ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + ++ ES QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|226735918|sp|B7NF84.1|GPPA_ECOLU</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli UMN026]</Hit_def>
+  <Hit_accession>B7NF84</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>8.32833e-90</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENALSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLAQENFDAAEKAAREVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLTVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQVKNEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIAQES-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ +  LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D + +  ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + +  ES QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|226735915|sp|B7NTG3.1|GPPA_ECO7I</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli IAI39]</Hit_def>
+  <Hit_accession>B7NTG3</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.656</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>9.35991e-90</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENALSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAARKVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLAVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQVESEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIDQES-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ +  LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D +    ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + ++ ES QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81724006|sp|Q83PI3.4|GPPA_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Shigella flexneri]</Hit_def>
+  <Hit_accession>Q83PI3</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.656</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>9.87013e-90</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENDLSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAAREVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLAVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQVENEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIAQEN-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ + +LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D + +  ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + +  E+ QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|84029294|sp|Q8FBR0.2|GPPA_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli CFT073] &gt;gi|254799507|sp|B7N272.1|GPPA_ECO81 RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli ED1a]</Hit_def>
+  <Hit_accession>Q8FBR0</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.656</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>1.08596e-89</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENALSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAAREVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLTVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFYDQVENEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIDQES-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ +  LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D + +  ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + ++ ES QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|54041235|sp|P25552.3|GPPA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli K-12] &gt;gi|81765540|sp|Q8XAT5.1|GPPA_ECO57 RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli O157:H7] &gt;gi|166991474|sp|A8A6N3.1|GPPA_ECOHS RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli HS] &gt;gi|189042206|sp|B1IWC1.1|GPPA_ECOLC RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli ATCC 8739] &gt;gi|226735914|sp|B5YY27.1|GPPA_ECO5E RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli O157:H7 str. EC4115] &gt;gi|226735917|sp|B1X9Z3.1|GPPA_ECODH RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli str. K-12 substr. DH10B] &gt;gi|259647631|sp|C4ZZ47.1|GPPA_ECOBW RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P25552</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>1.35714e-89</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENALSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAAREVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLAVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQVENEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIAQES-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ +  LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D + +  ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + +  ES QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|170676096|sp|A4WG31.1|GPPA_ENT38</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4WG31</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>2.06457e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>498</Hsp_align-len>
+      <Hsp_qseq>MTTNPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGN----EMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQ</Hsp_qseq>
+      <Hsp_hseq>MMITGSSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLSQDNHLSPEAMERGWQCLRLFAERLQDIPHNQIRVVATATLRLAVNSVDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGDDRRLVVDIGGASTELVTGTGAQATSLFSLSMGCVTWLERYFTDRNLAQENFDEAENAAREVLRPVMDKLRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFSELDIHCMTLAGGALREGLVYGMLHLAVEQDIRSRTLRNVQRRFIVDTEQAQRVAQLASSFANQL---KTTWALE-PLSQDLLISACALHEMGLSIDFKQAPIHAAYLVRNLDLPGFTPAQKKLLATLLL-NQTNTVDLSSLHQQNAVPPRVAEHLCRLLRLAILFASRRRDDLLPA---IKLEAEGENLTLTLPEDWLDNHPLGAEMIEQE-YQWQ</Hsp_hseq>
+      <Hsp_midline>M    +++ A++DLGSNSF + +     G ++ +   K+ VR AAGL +  +LS  + E+   CL  F ERL+     Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F  A +AAR  ++ +   +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ V   QA+R A+ A +F + L   K     E  L Q  L  A ALHE+GL I       H+AY++ N D+PGF+  ++ +LA L++ ++ +   +  +   N     +  +    LRLA LF   R+D   P    ++ + E     L +   WL+ HPL A+ +E E  QWQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|123558221|sp|Q31UK6.1|GPPA_SHIBS</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Shigella boydii Sb227] &gt;gi|166991473|sp|A7ZTY0.1|GPPA_ECO24 RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli O139:H28 str. E24377A] &gt;gi|226735916|sp|B7M5C6.1|GPPA_ECO8A RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli IAI1] &gt;gi|226735919|sp|B6I4B5.1|GPPA_ECOSE RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli SE11] &gt;gi|226736971|sp|B2TU13.1|GPPA_SHIB3 RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Shigella boydii CDC 3083-94]</Hit_def>
+  <Hit_accession>Q31UK6</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>2.2588e-89</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENALSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAAREVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLAVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQVEKEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIAQES-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ +  LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D +    ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + +  ES QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|254799506|sp|B7L8C0.1|GPPA_ECO55</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Escherichia coli 55989]</Hit_def>
+  <Hit_accession>B7L8C0</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>2.2829e-89</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENALSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAAREVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLAVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQV---ENEWYLE-AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIAQES-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ +  LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D +   +N    E A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + +  ES QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|123518631|sp|Q2NQB1.1|GPPA_SODGM</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Sodalis glossinidius str. &apos;morsitans&apos;]</Hit_def>
+  <Hit_accession>Q2NQB1</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>5.84456e-89</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>505</Hsp_align-len>
+      <Hsp_qseq>NILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYA-------VLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKVE</Hsp_qseq>
+      <Hsp_hseq>SLYAAIDLGSNSFHMLVVREVAGTLQTLARIKRKVRLAAGLYGDNRLSSDAMQRGWQCLRLFAEHLQDIPPTQVRVVATATLRLATNAAEFLGPASAILGCPVQVISGEEEARLIYQGVAHT---TGGSDERLVVDIGGGSTELVVGRGAQALELFSLEMGCVTWLERYFNDRSLTRENFERAEQAAREKIRPVAFRLLAQGWQVCVGASGTVQALQEIMVAQGMDE-HITLSKLLQLKQRAIHCGKLEELEIEGLTLERALVFPSGLAILLAVFAELGITTMTLAGGALREGMMYGMMALPVGGDIRQRTLENLQRRYQLDTEQAQRVTWLADGFARQVAEAWQLDERCFTL----LRCASMIHEIGLSIDIKRAPQHAAYLVRHTDLPGFTPAQQKLIATLLQNQSNHIN----LTQLNEQNCLAPRIAQRLCRLMRLAIIFASRRRDDALPA-VELRAAEETLYVIL--PQGWLSQHPLRAEYLEQES-QWQSYVHWPLLLE</Hsp_hseq>
+      <Hsp_midline>++ A++DLGSNSF + +     G L+ +   K+ VR AAGL     LS+ + ++   CL  F E L+   P QVR VAT T R+A N A+FL  A A LG P+++I+G EEARLIY GV HT    GG  + LV+DIGGGSTE V+G         SL +GCVT+  R+F ++ +T ++F+ A  AAR +I+ ++  ++ +GW   VG SG+ +++++++ A+   E  IT   +  L +R I  G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +  D+R +T+   Q RY +   QA+R    A  F   +  A  +  +   L    L  A+ +HEIGL I      +H+AY++ + D+PGF+  +Q ++A L+      +     +   NE    A          +RLA +F   R+D + P  ++LR   E+   IL     WL +HPL A+ LE ES QWQ  ++ P  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|123047784|sp|Q0SYW9.1|GPPA_SHIF8</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q0SYW9</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>9.87234e-89</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENDLSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDISGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAAREVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLAVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQVENEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIAQEN-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ + +LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DI G STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D + +  ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + +  E+ QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|166991476|sp|A8G827.1|GPPA_SERP5</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8G827</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>1.01984e-88</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>501</Hsp_align-len>
+      <Hsp_qseq>ILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKVE</Hsp_qseq>
+      <Hsp_hseq>LYAAIDLGSNSFHMLVVREVAGSIQTLARIKRKVRLAAGLDQNNLLSHEAMQRGWQCLKLFSERLQDIPRAQIRVVATATLRLASNADEFLQTAEQILGCPIQVISGEEEARLIYHGVAHT---TGGPDQRLVVDIGGGSTELVTGTGAQAAQLYSLSMGCVTWLERFFSDRNLGQENFERAEQAAREMVRPIAPQLRQHGWQVCVGASGTVQALQEIMVAQGMDE-RITLSKLRQLKQRAIQCGKLEELEIEGLTLERALVFPSGLSILLAIFQELGIESMMLAGGALREGLVYGMLHLPVEQDIRSRTIRNLQRRYLLDTEQAERVSQLAANFSQQVSNEWQLD----ARCRELLHSACLIHEIGLSVDFKQAPQHAAYLIRHLDLPGFTPAQKKLLATL-LQNQSNTIDLPLLSQQNALPPRTAQRLCRILRLAIIFASRRRDDTLPA-VRLRANNDDELTVI-LPPGWLEQHPLRAEALDQES-HWQSYVHWPLILE</Hsp_hseq>
+      <Hsp_midline>+ A++DLGSNSF + +     G ++ +   K+ VR AAGLD+   LS  + ++   CL  F ERL+     Q+R VAT T R+A N  +FL  AE  LG PI++I+G EEARLIY GV HT    GG  + LV+DIGGGSTE V G+        SL +GCVT+  RFF ++ +  ++F+ A  AAR  ++ I+  + + GW   VG SG+ +++++++ A+   E  IT   +R L +R I+ G +++ + E L  ER  VF  GL++++A F+E+ ++ M +   ALR+G+ Y ++   + +D+R +T+   Q RY +   QA+R ++ A  F   + +   +     A  ++ L  A  +HEIGL +      +H+AY++ + D+PGF+  ++ +LA L + ++ +   +  +   N +           LRLA +F   R+D + P  ++LR + +    ++ +   WLE+HPL A+AL+ ES  WQ  ++ P  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|84029296|sp|Q3YVI5.1|GPPA_SHISS</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Shigella sonnei Ss046]</Hit_def>
+  <Hit_accession>Q3YVI5</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>1.23359e-88</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>502</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSENALSNEAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLAVNAGDFIANAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRNLGQENFDAAEKAAREVLRPVADELRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLEKLQQLKQRAIHCGRLEELEIDGLTLERALVFPSGLAILIAIFTELNIQCMTLAGGALREGLVYGMLHLAVEQDIRSRTLRNIQRRFMIDIDQAQRVAKVAANFFDQVEKEWHLE----AISRDLLISACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAIIFASRRRDDLVPE-MTLQANHEL--LTLTLPQGWLTQHPLGKEIIAQES-QWQSYVHWPLEV</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+ +  LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  DF+  A+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F AA  AAR  ++ ++  +   GW   VG SG+ +++++++ A+   E  IT + ++ L +R I  G +++ + + L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ + ++QA+R A+ A  F D +    ++     A+ +  L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N +           LRLA +F   R+D   P+ M L+ + E     L +   WL +HPL  + +  ES QWQ  ++ P +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|166200637|sp|A7MQI3.1|GPPA_CROS8</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MQI3</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>7.09792e-88</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>492</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>494</Hsp_align-len>
+      <Hsp_qseq>NILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPK-NMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK</Hsp_qseq>
+      <Hsp_hseq>SLYAAIDLGSNSFHMLVVREVAGSIQTLTRVKRKVRLAAGLGADNALSADAMERGWQCLRLFAERLQDIPPSQIRVVATATLRLATNADVFVARAQEILGCPVQVIAGEEEARLIYQGVAHT---TGGADRRLVVDIGGASTELVTGTGARATSLFSLPMGCVTFLERFFTDRSLTQEHFASAEQAARDILQPVIAQLRGQGWKICVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKARAIHCGRLEELEIEGLTLERALVFPSGLAILIAIFSELEIECMTLAGGALREGLVYGMLHLAVDQDIRNRTLKNIQRRFMVDIAQAGRVAQLAERFAVSV--EREWALDDLS--RALLHSASLLHEVGLAVDFKRAPQHAAYLVNNLDLPGFTPAQKKLLATLLLNQTGTV-DLPALQQQNAVPLRVAERLCRLLRLAIIFASRRRDDMLPDVTLTAHDDTLTAS----LPQDWLSVHPLGAEMLEQEQL-WQS</Hsp_hseq>
+      <Hsp_midline>++ A++DLGSNSF + +     G ++ +   K+ VR AAGL     LS  + E+   CL  F ERL+   P Q+R VAT T R+A N   F+ +A+  LG P+++IAG EEARLIY GV HT    GG  + LV+DIGG STE V G+        SLP+GCVT+  RFF ++ +T + F +A  AAR+ +Q +   +  +GW   VG SG+ +++++++ A+   E  IT   ++ L  R I  G +++ + E L  ER  VF  GLA+++A F E++++ MT+   ALR+G+ Y ++   +++D+R +T+   Q R+ V + QA R A+ A+ F  S+   +   + +L+  +  L  A+ LHE+GL +      +H+AY++ N D+PGF+  ++ +LA L++   G +  +  +   N +           LRLA +F   R+D   P   +    DT +      +   WL  HPL A+ LE E + WQ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|254799510|sp|B7VMF0.1|GPPA_VIBSL</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Vibrio tasmaniensis LGP32]</Hit_def>
+  <Hit_accession>B7VMF0</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>1.02339e-87</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>502</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>505</Hsp_align-len>
+      <Hsp_qseq>TTNPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKM---GGIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKVEAV</Hsp_qseq>
+      <Hsp_hseq>TVSPP-LYAAIDLGSNSFHMLVVRHIDGSVQTMAKIKRKVRLAAGLDENNALSTEAMQRGWDCLSLFAERLRDIPKENIRIVGTATLRTAINVDIFLEKANQILGYDINVISGEEEAATIYKGVAHT-SGGSGRRLVVDIGGASTEMIIGEGFSAKALTSLKMGCVTWLERHFKDRQLTATNFNNAIEAAKSTLAPILDSYTDIGWDVCVGASGTVQALQEIMLAQGMDEV-ITHAKLKRLQKQAMITERLEELEIEGLTLERALVFPSGLSILIAIFELLEIDSMTLAGGALREGLAYEMVDEFRQEDIRARTIKSVQSRYQMDVSYSEQVAVVAQTLLEQAGAETWVSEPQAGV---LLQTAAKLHEIGLTIDFKKGGEHSAYLLQNLDLPGFTRAQKHCLGELTRRYREQLTSLPEQHAISGTSS---KRILRILRLAILLTHRRNPALEPEFKLTTDDNN--LTLTLSKQWLADNPLTAAELEIESNRQTDIGWPLNIECL</Hsp_hseq>
+      <Hsp_midline>T +P  + A++DLGSNSF + +    +G ++ +   K+ VR AAGLDE   LST + ++  DCL+ F ERLR    E +R V T T R A N+  FL KA   LG+ I +I+G EEA  IY GV HT     G+ LV+DIGG STE +IG   +     SL +GCVT+  R F+++ +TA +F  AI AA++ +  I  +    GWD  VG SG+ +++++++ A+   E  IT+  ++ L ++ +    +++ + E L  ER  VF  GL++++A FE +++D MT+   ALR+G+ Y+++     ED+R +T+   Q RY + ++ +++ A  AQT ++       V+  +  +    L  AA LHEIGL I      +HSAY+L+N D+PGF+R ++  L +L   +R  +  +     I G +      +L +   A+    R++ +     +L TD  +    L +  +WL  +PL A  LE ES +   I  P  +E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|166991472|sp|A8ACT2.1|GPPA_CITK8</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8ACT2</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.25401e-87</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>NILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSL---CHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGN----EMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>SLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLNSDNSLSAEAMERGWQCLRLFAERLQDIPQPQICVVATATLRLAVNAGEFIAKAQEILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFTDRNLAQENFDEAEKAAREVLRPVADELRKHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIHCGRLEELEIEGLTLERALVFPSGLAILIAIFTELDIQCMTLAGGALREGLVYGMLHLAVDQDIRSRTLRNIQRRFMVDTEQAHRVADLAVNFLDQVEDKWHLEPIS-------RELLTSACQLHEIGLSVDFKQAPQHAAYLVRNLDLPGFTPAQKKLLATLLLNQTNPI-DLSSLHQQNAVPPRVAEHLCRLLRLAIIFASRRRDDLVP---QITLQAQDENLTLTLPQGWLEHHPLGKELIDQES-QWQSYVHWPLDV</Hsp_hseq>
+      <Hsp_midline>++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+   +LS  + E+   CL  F ERL+     Q+  VAT T R+A N  +F+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F  A  AAR  ++ ++  + + GW   VG SG+ +++++++ A+   E  IT   ++ L +R I  G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +++D+R +T+   Q R+ V   QA R A+ A  F+D +    H + ++       ++ L  A  LHEIGL +      +H+AY++ N D+PGF+  ++ +LA L++     +  +  +   N     +  +    LRLA +F   R+D   P   Q+    +     L +   WLE HPL  + ++ ES QWQ  ++ P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|189042208|sp|A9MXF2.1|GPPA_SALPB</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7]</Hit_def>
+  <Hit_accession>A9MXF2</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>6.53887e-87</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>NPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>NSTSLYAAIDLGSNSFHMLVVREAAGSIQTLTRIKRKVRLAAGLNNDNHLSAEAMERGWQCLRLFAERLQDIPQPQIRVVATATLRLAVNAGEFIAKAQTILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFSDRNLAQENFDDAEKAARDVLRPVADELRFHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFTELNIQSMTLAGGALREGLVYGMLHLAVDQDIRSRTLRNIQRRFIVDTDQANRVAKLADNFLKQVENAWHIE----PISRELLLSACQLHEIGLSVDFKQAPYHAAYLVRHLDLPGYTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAILFAGRRRDDLVPE-ITLQALNEN--LTLTLPSDWLAHHPLGKELIDQES-QWQSYVHWPLDV</Hsp_hseq>
+      <Hsp_midline>N  ++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+   +LS  + E+   CL  F ERL+     Q+R VAT T R+A N  +F+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F  A  AAR+ ++ ++  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +++D+R +T+   Q R+ V  +QA R A+ A  F+  + +A ++      + ++ L  A  LHEIGL +       H+AY++ + D+PG++  ++ +LA L++     +  +  +   N +           LRLA LF   R+D   P+ + L+   E+    L + S WL  HPL  + ++ ES QWQ  ++ P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|75479594|sp|Q57HT7.1|GPPA_SALCH</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67]</Hit_def>
+  <Hit_accession>Q57HT7</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>6.82198e-87</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>NPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>NSTSLYAAIDLGSNSFHMLVVREAAGSIQTLTRIKRKVRLAAGLNNDNHLSAEAMERGWQCLRLFAERLQDIPQPQIRVVATATLRLAVNAGEFIAKAQTILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFSDRNLAQENFDDAEKAARDVLRPVADELRFHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFTELNIQSMTLAGGALREGLVYGMLHLAVDQDIRSRTLQNIQRRFIVDTDQANRVAKLADNFLKQVENAWHIE----PISRELLLSACQLHEIGLSVDFKQAPYHAAYLVRHLDLPGYTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAILFAGRRRDDLVPE-ITLRALNEN--LTLTLPGDWLAHHPLGKELIDQES-QWQSYVHWPLDV</Hsp_hseq>
+      <Hsp_midline>N  ++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+   +LS  + E+   CL  F ERL+     Q+R VAT T R+A N  +F+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F  A  AAR+ ++ ++  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +++D+R +T+   Q R+ V  +QA R A+ A  F+  + +A ++      + ++ L  A  LHEIGL +       H+AY++ + D+PG++  ++ +LA L++     +  +  +   N +           LRLA LF   R+D   P+ + LR   E+    L +   WL  HPL  + ++ ES QWQ  ++ P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|226736964|sp|B5FN73.1|GPPA_SALDC</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853]</Hit_def>
+  <Hit_accession>B5FN73</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.62636e-86</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>NPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>NSTSLYAAIDLGSNSFHMLVVREASGSIQTLTRIKRKVRLAAGLNNDNHLSAEAMERGWQCLRLFAERLQDIPQPQIRVVATATLRLAVNAGEFIAKAQTILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFSDRNLAQENFDDAEKAARDVLRPVADELRFHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFTELNIQSMTLAGGALREGLVYGMLHLAVDQDIRSRTLRNIQRRFIVDTDQANRVAKLADNFLKQVENAWHIE----PISRELLLSACQLHEIGLSVDFKQAPYHAAYLVRHLDLPGYTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAILFAGRRRDDLVPE-ITLQALNEN--LTLTLPGDWLAHHPLGKELIDQES-QWQSYVHWPLDV</Hsp_hseq>
+      <Hsp_midline>N  ++ A++DLGSNSF + +    +G ++ +   K+ VR AAGL+   +LS  + E+   CL  F ERL+     Q+R VAT T R+A N  +F+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F  A  AAR+ ++ ++  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +++D+R +T+   Q R+ V  +QA R A+ A  F+  + +A ++      + ++ L  A  LHEIGL +       H+AY++ + D+PG++  ++ +LA L++     +  +  +   N +           LRLA LF   R+D   P+ + L+   E+    L +   WL  HPL  + ++ ES QWQ  ++ P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|166991475|sp|A6TGG8.1|GPPA_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6TGG8</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>2.37916e-86</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>492</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>496</Hsp_align-len>
+      <Hsp_qseq>NPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGN----EMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK</Hsp_qseq>
+      <Hsp_hseq>SSTSLYAAIDLGSNSFHMLVVREVAGSIQTLSRIKRKVRLAAGLNSDNTLSAEAMERGWQCLRLFAERLQDIPPTQIRVVATATLRLAVNAGEFLAKAQEILGTPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRSLTKENFDLAEAAAREVLLPVADVLRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFSELNIQCMTLAGGALREGLVYGMLHLSVEQDIRSRTLRNIQRRFMIDTEQAQRVGGLASHLLSQLDGSWELD----PLSRDLLLSACALHEIGLSVDFKRAPQHAAYLVNNLDLPGFTPAQKKLIATLLLNQTNAI-DLSSLHQQNAVPPRVAEHLCRLLRLAILFASRRRDDLLPA-IQLTAQDEQLTLIL--PGNWLDEHPLGREMVDQE-CQWQS</Hsp_hseq>
+      <Hsp_midline>+  ++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+    LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  +FL KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +T ++F  A +AAR  +  ++  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ +   QA+R    A   +  L  +  +      L +  L  A ALHEIGL +      +H+AY++ N D+PGF+  ++ ++A L++     +  +  +   N     +  +    LRLA LF   R+D   P  +QL    E    IL     WL+ HPL  + ++ E  QWQ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|61225451|sp|P0A267.1|GPPA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|61225452|sp|P0A268.1|GPPA_SALTI RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|226736963|sp|B5EZ39.1|GPPA_SALA4 RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Agona str. SL483] &gt;gi|226736965|sp|B5QVH1.1|GPPA_SALEP RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|226736968|sp|B4SZ25.1|GPPA_SALNS RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Newport str. SL254] &gt;gi|226736970|sp|B4TNT2.1|GPPA_SALSV RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633]</Hit_def>
+  <Hit_accession>P0A267</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>4.44853e-86</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>NPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>NSTSLYAAIDLGSNSFHMLVVREAAGSIQTLTRIKRKVRLAAGLNNDNHLSAEAMERGWQCLRLFAERLQDIPQPQIRVVATATLRLAVNAGEFIAKAQTILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFSDRNLAQENFDDAEKAARDVLRPVADELRFHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFTELNIQSMTLAGGALREGLVYGMLHLAVDQDIRSRTLRNIQRRFIVDTDQANRVAKLADNFLKQVENAWHIE----PISRELLLSACQLHEIGLSVDFKQAPYHAAYLVRHLDLPGYTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAILFAGRRRDDLVPE-ITLQALNEN--LTLTLPGDWLAHHPLGKELIDQES-QWQSYVHWPLDV</Hsp_hseq>
+      <Hsp_midline>N  ++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+   +LS  + E+   CL  F ERL+     Q+R VAT T R+A N  +F+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F  A  AAR+ ++ ++  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +++D+R +T+   Q R+ V  +QA R A+ A  F+  + +A ++      + ++ L  A  LHEIGL +       H+AY++ + D+PG++  ++ +LA L++     +  +  +   N +           LRLA LF   R+D   P+ + L+   E+    L +   WL  HPL  + ++ ES QWQ  ++ P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|81448878|sp|Q8DDN5.1|GPPA_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Vibrio vulnificus CMCP6] &gt;gi|84029297|sp|Q7MGP6.2|GPPA_VIBVY RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q8DDN5</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>5.49394e-86</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>ILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMG--GIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKVEA</Hsp_qseq>
+      <Hsp_hseq>LYAAIDLGSNSFHMLVVRHIDGSVQTMAKIKRKVRLAAGLDEHNALSKEAMQRGWDCLSLFAERLQDIPAEHIRIVGTATLRTATNVDLFLQKANQILGHPIEVISGEEEAATIYKGVAHT-SGGSGRRLVVDIGGASTELIIGEGFEAKALTSLKMGCVTWLENFFKDRQLSARNFEAAIEGAKQTLLPILEQYKSLGWDVCVGASGTVQALQEIMLAQGMDEV-ITHAKLKRLQKQAMLADHLEELEIEGLTLERALVFPSGLSILIAIFELLEIDAMTLAGGALREGLAYEMMSELRQDDIRARTIGSIQSRYQLDSQYGQQVANLALKLLQQVGDVMWIPEPQGAM---LLETTAKLHEIGLTIDFKKGGEHSAYLMQHLDLPGFTRAQKFLMGEIARRYREGLTSLPEQHALSGNS--GKRLLRLLRLAVILSHRRQPSLEPEVTLSAEGDK--LTLAIDAQWLENNPLTAAELELEANRQTDIGWPLVIES</Hsp_hseq>
+      <Hsp_midline>+ A++DLGSNSF + +    +G ++ +   K+ VR AAGLDE   LS  + ++  DCL+ F ERL+    E +R V T T R A N+  FL KA   LG PIE+I+G EEA  IY GV HT     G+ LV+DIGG STE +IG         SL +GCVT+   FF+++ ++A++F+AAI  A+  +  I +     GWD  VG SG+ +++++++ A+   E  IT+  ++ L ++ + A  +++ + E L  ER  VF  GL++++A FE +++D MT+   ALR+G+ Y+++     +D+R +T+   Q RY +     ++ A  A   +  +     +   + A+    L   A LHEIGL I      +HSAY++++ D+PGF+R ++ ++ ++   +R  +  +     + GN      +L L   A+    R+  S    + L  + +     L ID++WLE +PL A  LE E+ +   I  P  +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|226736962|sp|B4F1V2.1|GPPA_PROMH</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4F1V2</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>6.06595e-86</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>509</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQ------QYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRG--DMKKMG--GIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKVE</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREIAGSIQVLSRVKRKVRLAAGLNKENELSEQAMERGWQCLRLFSEYLRDIPAEQIRVVATATLRIAKNADIFVAKASEILGNTVHVISGEEEARLIYRGVAHT---TGGAEQRLVVDIGGGSTELVTGTGAKTTQLMSLSMGCVTWLERYFSDRSLTEENFAQAQQAAKAILAPVAEKLIQQGWQVCVGASGTVQALQEIMIAQGMDEL-ITLPKLERLKQKAIECGKLEELEIEGLTFERALVFPSGLAILIAIFETLHIENMILAGGALREGLVYGMLHLPIEQDIRQRTLRNIQRRFQIDIEQAHRVQQLAEHFF----------IQVSKSWQLDNRCRELLSSACALHEIGLSVDFRQAPSHASYLVSHLDLPGYTPAQRRLIASFLRNQKGIIDLAPLNQQNALPINQA-YRLVRLLRLAIIFASRRRDDTLPA---LRLRTEDEKLIITLPHQWIAEHPLRAENL-HEEIQLQSYVHWPLMLE</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +     G ++V+   K+ VR AAGL+++  LS  + E+   CL  F E LR    EQ+R VAT T R+AKN   F+ KA   LG  + +I+G EEARLIY GV HT    GG  + LV+DIGGGSTE V G+        SL +GCVT+  R+F ++ +T ++F  A  AA+  +  +++ ++++GW   VG SG+ +++++++ A+   E  IT   +  L ++ IE G +++ + E L  ER  VF  GLA+++A FE + ++ M +   ALR+G+ Y ++   + +D+R +T+   Q R+ + + QA R  + A+ F           +Q    WQ      + L  A ALHEIGL +       H++Y++ + D+PG++  ++ ++A  +   +G  D+  +     +  N+  +  V  LRLA +F   R+D + P    LR  TE    I+ +  +W+  HPL A+ L +E +Q Q  ++ P  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|226736967|sp|B4TB12.1|GPPA_SALHS</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476]</Hit_def>
+  <Hit_accession>B4TB12</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>6.30936e-86</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>NPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>NSTSLYAAIDLGSNSFHMLVVREAAGSIQTLTRIKRKVRLAAGLNNDNHLSAEAMERGWQCLRLFAERLQDIPQPQIRVVATATLRLAVNAGEFIAKAQTILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFSDRNLAQENFDDAEKAARDVLRPVADELRFHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFTELNIQSMTLAGGALREGLVYGMLHLAVDQDIRSRTLRNIQRRFIVDTEQANRVAKLADNFLKQVENAWHIE----PISRELLLSACQLHEIGLSVDFKQAPYHAAYLVRHLDLPGYTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAILFAGRRRDDLVPE-ITLQALNEN--LTLTLPGDWLAHHPLGKELIDQES-QWQSYVHWPLDV</Hsp_hseq>
+      <Hsp_midline>N  ++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+   +LS  + E+   CL  F ERL+     Q+R VAT T R+A N  +F+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F  A  AAR+ ++ ++  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +++D+R +T+   Q R+ V   QA R A+ A  F+  + +A ++      + ++ L  A  LHEIGL +       H+AY++ + D+PG++  ++ +LA L++     +  +  +   N +           LRLA LF   R+D   P+ + L+   E+    L +   WL  HPL  + ++ ES QWQ  ++ P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|226736966|sp|B5RFS4.1|GPPA_SALG2</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91]</Hit_def>
+  <Hit_accession>B5RFS4</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>1.16598e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>NPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>NSTSLYAAIDLGSNSFHMLVVREAAGSIQTLTRIKRKVRLAAGLNNDNHLSAEAMERGWQCLRLFAERLQDIPQPQIRVVATATLRLAVNAGEFIAKAQTILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFSDRNLAQENFDDAEKVARDVLRPVADELRFHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFTELNIQSMTLAGGALREGLVYGMLHLAVDQDIRSRTLRNIQRRFIVDTDQANRVAKLADNFLKQVENAWHIE----PISRELLLSACQLHEIGLSVDFKQAPYHAAYLVRHLDLPGYTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAILFAGRRRDDLVPE-ITLQALNEN--LTLTLPGDWLAHHPLGKELIDQES-QWQSYVHWPLDV</Hsp_hseq>
+      <Hsp_midline>N  ++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+   +LS  + E+   CL  F ERL+     Q+R VAT T R+A N  +F+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F  A   AR+ ++ ++  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +++D+R +T+   Q R+ V  +QA R A+ A  F+  + +A ++      + ++ L  A  LHEIGL +       H+AY++ + D+PG++  ++ +LA L++     +  +  +   N +           LRLA LF   R+D   P+ + L+   E+    L +   WL  HPL  + ++ ES QWQ  ++ P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|226736961|sp|B5XYZ0.1|GPPA_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XYZ0</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>1.17659e-85</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>492</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>493</Hsp_align-len>
+      <Hsp_qseq>NILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGN----EMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK</Hsp_qseq>
+      <Hsp_hseq>SLYAAIDLGSNSFHMLVVREVAGSIQTLSRIKRKVRLAAGLNSDNTLSAEAMERGWQCLRLFAERLQDIPPTQIRVVATATLRLAVNAEEFLAKAQEILGTPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFADRSLTKENFDLAEAAAREVLLPIADVLRYHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFSELNIQCMTLAGGALREGLVYGMLHLSVEQDIRSRTLRNIQRRFMIDTEQAQRVASLASHLLSQLDGSWELD----PLSRDLLLSACSLHEIGLSVDFKRAPQHAAYLVNNLDLPGFTPAQKKLIATLLLNQTNAI-DLSSLHQQNAVPPRVAEHLCRLLRLAILFASRRRDDLLPA-IQLAAHDDQ--LTLTLPENWLAEHPLGREMVDQE-CQWQS</Hsp_hseq>
+      <Hsp_midline>++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+    LS  + E+   CL  F ERL+   P Q+R VAT T R+A N  +FL KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +T ++F  A +AAR  +  I+  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   + +D+R +T+   Q R+ +   QA+R A  A   +  L  +  +      L +  L  A +LHEIGL +      +H+AY++ N D+PGF+  ++ ++A L++     +  +  +   N     +  +    LRLA LF   R+D   P  +QL    +     L +   WL  HPL  + ++ E  QWQ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|254799508|sp|C0Q2V8.1|GPPA_SALPC</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]</Hit_def>
+  <Hit_accession>C0Q2V8</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>1.47178e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>NPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>NSTSLYAAIDLGSNSFHMLVVREAAESIQTLTRIKRKVRLAAGLNNDNHLSAEAMERGWQCLRLFAERLQDIPQPQIRVVATATLRLAVNAGEFIAKAQTILGCPVQVISGEEEARLIYQGVAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFSDRNLAQENFDDAEKAARDVLRPVADELRFHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFTELNIQSMTLAGGALREGLVYGMLHLAVDQDIRSRTLRNIQRRFIVDTDQANRVAKLADNFLKQVENAWHIE----PISRELLLSACQLHEIGLSVDFKQAPYHAAYLVRHLDLPGYTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAILFAGRRRDDLVPE-ITLRALNEN--LTLTLPGDWLAHHPLGKELIDQES-QWQSYVHWPLDV</Hsp_hseq>
+      <Hsp_midline>N  ++ A++DLGSNSF + +       ++ +   K+ VR AAGL+   +LS  + E+   CL  F ERL+     Q+R VAT T R+A N  +F+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F  A  AAR+ ++ ++  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +++D+R +T+   Q R+ V  +QA R A+ A  F+  + +A ++      + ++ L  A  LHEIGL +       H+AY++ + D+PG++  ++ +LA L++     +  +  +   N +           LRLA LF   R+D   P+ + LR   E+    L +   WL  HPL  + ++ ES QWQ  ++ P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|166200634|sp|A0KEG8.1|GPPA_AERHH</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Aeromonas hydrophila subsp. hydrophila ATCC 7966]</Hit_def>
+  <Hit_accession>A0KEG8</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>1.52627e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>MTTNPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTY-SLRFFQNKITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMK----KMGGIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKV</Hsp_qseq>
+      <Hsp_hseq>MHNSP--LYAAIDLGSNSFHMLVVREVAGALRTVTKVKRKVRLAAGLDPEFRLSRAAMERGWDCLRLFSEQLQDIPADNIRVVGTATLRLATNVDEFLSEAERVLNHSIEIISGEEEAKTIYEGVSWTSAGEGNR-LVIDIGGASTELVIGEHSEAKLLNSLHMGCVTWLNNHFGDGELSEARFKQAIAAAKAVLEKVAEDYRALGWRTCVGASGTVQALQEIMLAQGKSE-RVTLPKLQELMGQAIACGKLDQLQLEGLAAERLTVFPSGLAILIAIFETLGIESMTLAGGALREGLIYGLLGNNHDCDARDRTADSLINRYQLDKEHAERVRDTAVEAFNQLQPAWRLSKR---YGRPILRYAALLHEIGLCIEYKKAPQHAAYIIDNIDMPGFTPAQKKLLSALLFNQRDEFKLEPLEKQGAVTGRQAIRLARI-LRIALILCMRRTQGTVPR-FTLEADEDA--LTLTLPSGWLDEHYLRASELRFEVERQQKMGWPTRL</Hsp_hseq>
+      <Hsp_midline>M  +P  + A++DLGSNSF + +     G L+ +   K+ VR AAGLD +  LS ++ E+  DCL  F E+L+    + +R V T T R+A N+ +FL +AE  L   IEII+G EEA+ IY GV  T    G + LVIDIGG STE VIG      +  SL +GCVT+ +  F   +++   F+ AI+AA+  +++++++    GW   VG SG+ +++++++ A+   E  +T   ++ L  + I  G + + + E L  ER+ VF  GLA+++A FE + ++ MT+   ALR+G+ Y L+G   + D R +T     +RY +    A+R  +TA    + L  A  ++ +     +  L  AA LHEIGL I +    +H+AYI++N DMPGF+  ++ +L+ L+   R + K    +  G + G + +  A + LR+A + C  R   + P+   L  D ++    L + S WL+ H L A  L +E  + QK+  P ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|81361286|sp|Q5PKK4.1|GPPA_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|226736969|sp|B5BIS8.1|GPPA_SALPK RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601]</Hit_def>
+  <Hit_accession>Q5PKK4</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.85774e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>NPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>NSTSLYAAIDLGSNSFHMLVVREAAGSIQTLTRIKRKVRLAAGLNNDNHLSAEAMERGWQCLRLFAERLQDIPQPQIRVVATATLRLAVNAGEFIAKAQTILGCPVQVISGEEEARLIYQGAAHT---TGGADQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLERYFSDRNLAQENFDDAEKAARDVLRPVADELRFHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFTELNIQSMTLAGGALREGLVYGMLHLAVDQDIRSRTLRNIQRRFIVDTDQANRVAKLADNFLKQVENAWHIE----PISRELLLSACQLHEIGLSVDFKQAPYHAAYLVRHLDLPGYTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAILFAGRRRDDLVPE-ITLQALNEN--LTLTLPGDWLAHHPLGKELIDQES-QWQSYVHWPLDV</Hsp_hseq>
+      <Hsp_midline>N  ++ A++DLGSNSF + +     G ++ +   K+ VR AAGL+   +LS  + E+   CL  F ERL+     Q+R VAT T R+A N  +F+ KA+  LG P+++I+G EEARLIY G  HT    GG  + LV+DIGG STE V G+        SL +GCVT+  R+F ++ +  ++F  A  AAR+ ++ ++  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +++D+R +T+   Q R+ V  +QA R A+ A  F+  + +A ++      + ++ L  A  LHEIGL +       H+AY++ + D+PG++  ++ +LA L++     +  +  +   N +           LRLA LF   R+D   P+ + L+   E+    L +   WL  HPL  + ++ ES QWQ  ++ P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|81726646|sp|Q87KH4.1|GPPA_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87KH4</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>3.39231e-85</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>ILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMG--GIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKVEA</Hsp_qseq>
+      <Hsp_hseq>LYAAIDLGSNSFHMLVVRHIDGSVQTMAKIKRKVRLAAGLDEHNSLSMEAMQRGWDCLSLFAERLQDIPTQNIRIVGTATLRTATNVDVFLEKANQILGQPIEVISGEEEAATIYKGVAHT-SGGSGRRLVVDIGGASTELIIGEGFEAKALTSLKMGCVTWLENFFKDRQLNARNFEAAIEGAKQTIKPILEQYTDLGWDVCVGASGTVQALQEIMLAQGMDEV-ITHSKLKRLQKQAMLADHLEELDIEGLTLERALVFPSGLSILIAIFELLEIDAMTLAGGALREGLVYEMVDELRQNDIRARTICSVQSRYQLDCQYGEQVATLAGKLLEQAGGDEWIAEPQGKV---LLETTAKLHEIGLTIDFKKGGEHSAYLLQNLDLPGYTRAQKFFIGEIARRYREQLSSLPEQHAISGTSA--KRVLRLLRLAVLLTHRRNPSLEPQVELLAEGDK--LTLSIDAKWLEANPLTAAELEIESNRQTDIGWPLTITA</Hsp_hseq>
+      <Hsp_midline>+ A++DLGSNSF + +    +G ++ +   K+ VR AAGLDE  +LS  + ++  DCL+ F ERL+    + +R V T T R A N+  FL KA   LG PIE+I+G EEA  IY GV HT     G+ LV+DIGG STE +IG         SL +GCVT+   FF+++ + A++F+AAI  A+  I+ I +     GWD  VG SG+ +++++++ A+   E  IT+  ++ L ++ + A  +++   E L  ER  VF  GL++++A FE +++D MT+   ALR+G+ Y+++      D+R +T+   Q RY +     ++ A  A   ++     + +   +  +    L   A LHEIGL I      +HSAY+L+N D+PG++R ++  + ++   +R  +  +     I G       VL L   A+    R++ S    ++L  + +     L ID+KWLE +PL A  LE ES +   I  P  + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81418052|sp|Q7MYL1.1|GPPA_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7MYL1</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>4.62936e-85</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>505</Hsp_align-len>
+      <Hsp_qseq>ANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTF---------MDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS-------LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQ</Hsp_qseq>
+      <Hsp_hseq>SSLYAAIDLGSNSFHMLVVREVSGSMQILARIKRKVRLAAGLDKNNRLSQQAMERGWQCLRIFSERLQDIPPSQIRVVATATLRIAENSDEFVGKASEILDCPVKVISGEDEARLIYQGVAHT---TGGPEKRLVVDIGGASTELVTGNGAKASQLSSLSMGCVTWLEGYFNDRSLTEENFARAEAAAHETLKLIAPKLIEQGWQICVGASGTVQALQEIMIAQGMDEL-ITLPKLQELKHKAIECGKLEELEIEGLTLERALVFPSGLAILIAIFQALNIESMILAGGALREGLVYGMLDLPIEPDIRTRTLRNIQRRFQLDVEQSQRVKQLAEHFLQQVAKPWELDSRCH-------------ELLQSACLIHEIGLSIDFHQAPSHAAYLINYLALPGYTPAQKKLLATLLKNQSGPID----LFSFNQQNALPLIQAQRLCRLLRLAIIFANRRRNDTLPA---LRLKVSDEALTITLPHGWLMQHPLRAESLQQE-IQWQ</Hsp_hseq>
+      <Hsp_midline>+++ A++DLGSNSF + +    +G ++++   K+ VR AAGLD+   LS  + E+   CL  F ERL+   P Q+R VAT T R+A+N  +F+ KA   L  P+++I+G +EARLIY GV HT    GG  K LV+DIGG STE V G+        SL +GCVT+   +F ++ +T ++F  A +AA   ++ I+  ++ +GW   VG SG+ +++++++ A+   E  IT   ++ L  + IE G +++ + E L  ER  VF  GLA+++A F+ + ++ M +   ALR+G+ Y ++   +  D+R +T+   Q R+ + + Q++R  + A+ F         +DS CH             + L  A  +HEIGL I       H+AY++    +PG++  ++ +LA L+    G +     +   N+     ++        LRLA +F   R++ + P    LR         + +   WL +HPL A++L+ E +QWQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|166200639|sp|A7MXT2.1|GPPA_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7MXT2</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.863</Hsp_bit-score>
+      <Hsp_score>699</Hsp_score>
+      <Hsp_evalue>1.28929e-83</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>ILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRT----DTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKV</Hsp_qseq>
+      <Hsp_hseq>LYAAIDLGSNSFHMLVVRHIDGSVQTMAKIKRKVRLAAGLDEHNSLSMEAMQRGWDCLSLFAERLQDIPKQNIRIVGTATLRTATNVDVFLEKANQILGQPIEVITGEEEAATIYKGVAHT-SGGSGRRLVVDIGGASTELIIGEGFEAKALTSLKMGCVTWLENFFKDRQLNARNFDAAIEGAKQTLMPILGQYTDLGWDVCVGASGTVQALQEIMLAQGMDEV-ITHSKLKRLQKQAMLADHLEELDIEGLTLERALVFPSGLSILIAIFEQLEIDAMTLAGGALREGLVYEMVDELRQNDIRARTIRSVQNRYQLDCQYGEQVAKLAGKLLEQVGGEAWVAEPQ---GKVLLKTTAKLHEIGLTIDFKKGGEHSAYLLQHLDLPGYTRAQKFFIGEIARRYREQLTSL------PEQHALSGTSGKRVLRLLRLAVLLSHRRNPDLEPCVTLTAEGDKLTLSIDAKWLEANPLTAAELEIESNRQTDIGWPLSI</Hsp_hseq>
+      <Hsp_midline>+ A++DLGSNSF + +    +G ++ +   K+ VR AAGLDE  +LS  + ++  DCL+ F ERL+    + +R V T T R A N+  FL KA   LG PIE+I G EEA  IY GV HT     G+ LV+DIGG STE +IG         SL +GCVT+   FF+++ + A++F AAI  A+  +  I       GWD  VG SG+ +++++++ A+   E  IT+  ++ L ++ + A  +++   E L  ER  VF  GL++++A FE++++D MT+   ALR+G+ Y+++      D+R +T+   Q+RY +     ++ A+ A   ++ +     V   +    +  L   A LHEIGL I      +HSAY+L++ D+PG++R ++  + ++   +R  +  +       E    +  S +      R    LS  +N  L        E     L ID+KWLE +PL A  LE ES +   I  P  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|189042207|sp|A9MJ30.1|GPPA_SALAR</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MJ30</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>1.04091e-82</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>NPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS----LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQK-INMPFKV</Hsp_qseq>
+      <Hsp_hseq>NSTSLYAAIDLGSNSFHMLVVREVAGSIQTLTRIKRKVRLAAGLSSDNQLSAEAMERGWQCLRLFAERLQDIPQPQIRVVATATLRLAVNAGEFIAKAQTILGCPVQVISGEEEARLIYQGVAHT---TGGAEQRLVVDIGGASTELVTGTGAQTTSLFSLSMGCVTWLEHYFSDRNLAQENFDDAEKAARDVLRPVADKLRFHGWKVCVGASGTVQALQEIMMAQGMDE-RITLAKLQQLKQRAIQCGRLEELEIEGLTLERALVFPSGLAILIAIFTELNIQFMTLAGGALREGLVYGMLHLTVDQDICSRTLRNIQRRFIIDTDQANRVAKLAGNFLKQVENAWHIE----PISRELLLSACQLHEIGLSVDFKQAPYHAAYLVRHLDLPGYTPAQKKLLATLLLNQTNPV-DLSSLHQQNAVPPRVAEQLCRLLRLAILFAGRRRDDLVPE-ITLQAQNEN--LTLTLPDGWLAHHPLGKELIDQES-QWQSYVHWPLDI</Hsp_hseq>
+      <Hsp_midline>N  ++ A++DLGSNSF + +     G ++ +   K+ VR AAGL     LS  + E+   CL  F ERL+     Q+R VAT T R+A N  +F+ KA+  LG P+++I+G EEARLIY GV HT    GG  + LV+DIGG STE V G+        SL +GCVT+   +F ++ +  ++F  A  AAR+ ++ ++  +   GW   VG SG+ +++++++ A+   E  IT   ++ L +R I+ G +++ + E L  ER  VF  GLA+++A F E+ +  MT+   ALR+G+ Y ++   +++D+  +T+   Q R+ +  +QA R A+ A  F+  + +A ++      + ++ L  A  LHEIGL +       H+AY++ + D+PG++  ++ +LA L++     +  +  +   N +           LRLA LF   R+D   P+ + L+   E+    L +   WL  HPL  + ++ ES QWQ  ++ P  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|81398856|sp|Q6LLL4.1|GPPA_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Photobacterium profundum]</Hit_def>
+  <Hit_accession>Q6LLL4</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>6.98489e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>511</Hsp_align-len>
+      <Hsp_qseq>MTTNPANIL-ASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGG--KMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQ-----QYLGRAA-ALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLS-LRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKVE</Hsp_qseq>
+      <Hsp_hseq>MERNPISPLYAAIDLGSNSFHMWIVREVAGSVQTLAKIKRKVRLAAGLNSQNELSEEAMQRGWDCLSLFAERLQDIPAERVRIIGTAALRTAVNADIFLSKAKDILGSKVDVIPGEEEARIIYQGVAHT---SGGSDKRLVVDIGGASTEVIIGEGFDASALTSLKIGCVTWLERYFKDRYLTAENFDAAIDAAKNAIEPIVEQYTQLGWETCVGASGTVQALQEIMLAQGMDEI-ITLSKLKRMQRQAMQYERLEDLDIEGLTLERALVFPSGLSILIAVFESLNIESMTLAGGALREGMVYEMMSKMRHHDVRERTLTSVQERFQLDTSHASAVTNTAMALL-SRCDEE---------WQLEPQAQYLLHASVCLHEIGTSIEFKKSGEHAAYLINHIDLPGFTRAQKHLIAELLRRFREQLTSLPEQHALSAQNAARILRLLRLAVILCHRRDHNQQPP---FSLSVAENKLVLTLPAAWLLANPLSHVELQQEATRQTDMGWPLVLE</Hsp_hseq>
+      <Hsp_midline>M  NP + L A++DLGSNSF + I     G ++ +   K+ VR AAGL+ Q  LS  + ++  DCL+ F ERL+    E+VR + T   R A N   FL KA+  LG  +++I G EEAR+IY GV HT    GG  K LV+DIGG STE +IG   +     SL +GCVT+  R+F+++ +TA++F AAI AA+N I+ I +   + GW+  VG SG+ +++++++ A+   E  IT   ++ +  + ++   ++    E L  ER  VF  GL++++A FE + ++ MT+   ALR+G+ Y+++ +  + D+R +T+   Q R+ +  + A     TA   + S C  +         WQ     QYL  A+  LHEIG  I      +H+AY++ + D+PGF+R ++ ++A+L+   R  +  +      +      +L  LRLA + C  R     P              +L + + WL  +PL    L+ E+ +   +  P  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|75354833|sp|Q5E8U7.1|GPPA_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E8U7</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.462</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>9.92139e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>501</Hsp_align-len>
+      <Hsp_qseq>TTNPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKVEA</Hsp_qseq>
+      <Hsp_hseq>TMSP--MYAAIDLGSNSFHMLVVRHINGSVQTMAKIKRKVRLAAGLNENNTLSHEAMQRGWDCLSLFAERLQDIPVENIRIVGTATLRVASNVDIFLEKANQILGHNINVIEGEEEARMIYQGVAHT-SGGNGRRLVVDIGGASTELIIGEGFEAQALTSLKMGCVTWLEGYFKDRALTQKNFNAAIAGAKETLAPILQQYTDLGWQTCVGASGTVQALQEIMLAQGMDEV-ITLAKLKRLQKQAMQYEHLEELDIDGLTLERALVFPSGLSILIAIFELLNIDSMTLAGGALREGLCYGMIDELQHDEVCQRTIKSTQQRYQLDVDYAQQVTDLSIQLVQQCGNDWLIEPQALPL----LTAATQLHEIGMCIDYKKGGEHSAYLINALDLPGFTRAQKHLLGELLRRYREYFSAMPTQHAVSDISAQRMLRILRLAIILTHRRDVNLAPTVTLSEKNDVLS--LSIDGAWLAANPLTRSELEIEADKQTNIGWELVIDA</Hsp_hseq>
+      <Hsp_midline>T +P  + A++DLGSNSF + +    NG ++ +   K+ VR AAGL+E   LS  + ++  DCL+ F ERL+    E +R V T T RVA N+  FL KA   LG  I +I G EEAR+IY GV HT     G+ LV+DIGG STE +IG         SL +GCVT+   +F+++ +T K+F AAI+ A+  +  I +     GW   VG SG+ +++++++ A+   E  IT   ++ L ++ ++   +++   + L  ER  VF  GL++++A FE + +D MT+   ALR+G+ Y +I    ++++  +T+   Q RY + ++ A++  + +   +    +   +  Q L L    L  A  LHEIG+ I +    +HSAY++   D+PGF+R ++ +L +L+  +R     M      +++    +L +   A+    R+D++    + L    +     L ID  WL  +PL    LE E+ +   I     ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|81545505|sp|Q9KV53.1|GPPA_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Vibrio cholerae O1 biovar El Tor str. N16961] &gt;gi|170676097|sp|A5F3R3.1|GPPA_VIBC3 RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Vibrio cholerae O395] &gt;gi|254799509|sp|C3LQR0.1|GPPA_VIBCM RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Vibrio cholerae M66-2]</Hit_def>
+  <Hit_accession>Q9KV53</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>2.28022e-79</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>494</Hsp_align-len>
+      <Hsp_qseq>ILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKVE</Hsp_qseq>
+      <Hsp_hseq>LYAAIDLGSNSFHMLVVRHIDGSVQTMAKIKRKVRLAAGLDEHNALSLDAMQRGWDCLSLFAERLQDIPAENIRIVGTATLRTATNAGEFIAKANQILGHPIDVISGEEEAATIYKGVAHTSGGL-GRRLVVDIGGASTELIIGEGFEAKALTSLKMGCVTWLERHFKDRQLTATNFNNAILAAKQMLDPILTQYTELGWNVCVGASGTVQALQEIMLAQGMDEV-ITLTKLKRLQKQAMLADHLEELDIEGLTLERALVFPSGLSILIAIFESLNIEAMTLAGGALREGLVYEMVQDLRQEDIRARTIRCVQTRYQIDSAYGDQVATLASKLL-AQCGGEAWINEPQA--EMLLRTAAKLHEIGLTIDFKKGGEHSAYLLQHLDLPGYTRAQKHYLGEIVRRYREQLTSLPEQYALSGTSGKRVLRLLRLAVLLSHRRSPALEPMVELSAQEDK--LTLTLDGEWLAKNPLTRTELELEANRQTDIGWPLSIE</Hsp_hseq>
+      <Hsp_midline>+ A++DLGSNSF + +    +G ++ +   K+ VR AAGLDE   LS  + ++  DCL+ F ERL+    E +R V T T R A N  +F+ KA   LG PI++I+G EEA  IY GV HT     G+ LV+DIGG STE +IG         SL +GCVT+  R F+++ +TA +F  AI AA+  +  I       GW+  VG SG+ +++++++ A+   E  IT   ++ L ++ + A  +++   E L  ER  VF  GL++++A FE + ++ MT+   ALR+G+ Y+++     ED+R +T+   Q RY +      + A  A   + + C  +    +  A  +  L  AA LHEIGL I      +HSAY+L++ D+PG++R ++  L ++V  +R  +  +      +      VL L   A+    R+  +    ++L    +     L +D +WL ++PL    LE E+ +   I  P  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|226736972|sp|B5FF86.1|GPPA_VIBFM</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Vibrio fischeri MJ11]</Hit_def>
+  <Hit_accession>B5FF86</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.61</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>3.1357e-78</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>493</Hsp_align-len>
+      <Hsp_qseq>ASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTYSLRFFQNK-ITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMKKMGGIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKVEA</Hsp_qseq>
+      <Hsp_hseq>AAIDLGSNSFHMLVVRHINGSVQTMAKIKRKVRLAAGLNENNTLSHEAMQRGWDCLSLFAERLQDIPVENIRIVGTATLRVASNVDIFLEKANQILGHNINVIEGEEEARMIYQGVAHT-SGGNGRRLVVDIGGASTELIIGEGFEAQALTSLKMGCVTWLEGYFKDRALTQKNFDSAIAGAKETLAPILQQYTDLGWQTCVGASGTVQALQEIMLAQGMDEV-ITLAKLKRLQKQAMQYEHLEELDIDGLTLERALVFPSGLSILIAIFELLNIDSMTLAGGALREGLCYGMIDELQHDEVCQRTIKSTQQRYQLDVEYAQQVTDLSIQLVQQCGNDWLTEPQALPL----LTAATQLHEIGMCIDYKKGGEHSAYLINALDLPGFTRAQKHLLGELLRRYREYFSAMPTQHAVSDISAQRMLRILRLAIILTHRRDVNLAPAVTLSEKNDVLS--LSIDGTWLAANPLTRSELEIEADKQTNIGWDLVIDA</Hsp_hseq>
+      <Hsp_midline>A++DLGSNSF + +    NG ++ +   K+ VR AAGL+E   LS  + ++  DCL+ F ERL+    E +R V T T RVA N+  FL KA   LG  I +I G EEAR+IY GV HT     G+ LV+DIGG STE +IG         SL +GCVT+   +F+++ +T K+F +AI+ A+  +  I +     GW   VG SG+ +++++++ A+   E  IT   ++ L ++ ++   +++   + L  ER  VF  GL++++A FE + +D MT+   ALR+G+ Y +I    ++++  +T+   Q RY + +  A++  + +   +    +      Q L L    L  A  LHEIG+ I +    +HSAY++   D+PGF+R ++ +L +L+  +R     M      +++    +L +   A+    R+D++    + L    +     L ID  WL  +PL    LE E+ +   I     ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|166200635|sp|A4STJ8.1|GPPA_AERS4</Hit_id>
+  <Hit_def>RecName: Full=Guanosine-5&apos;-triphosphate,3&apos;-diphosphate pyrophosphatase; AltName: Full=Guanosine pentaphosphate phosphohydrolase; AltName: Full=pppGpp-5&apos;-phosphohydrolase [Aeromonas salmonicida subsp. salmonicida A449]</Hit_def>
+  <Hit_accession>A4STJ8</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>4.61028e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>MTTNPANILASVDLGSNSFRLQICESNNGQLKVIDSFKQMVRFAAGLDEQKNLSTSSQEQALDCLAKFGERLRGFRPEQVRAVATNTFRVAKNIADFLPKAEAALGFPIEIIAGREEARLIYTGVIHTLPPCGGKMLVIDIGGGSTEFVIGSTLNPDITESLPLGCVTY-SLRFFQNKITAKDFQAAISAARNEIQRISKNMMREGWDFAVGTSGSAKSIRDVLAAEMPQEADITYKGMRALAERIIEAGSVKKAKFENLKPERIEVFAGGLAVMMAAFEEMKLDRMTVTEAALRDGVFYDLIGRGLNEDMRGQTVAEFQHRYHVSLNQAKRTAETAQTFMDSLCHAKNVTVQELALWQQYLGRAAALHEIGLDIAHTGYHKHSAYILENADMPGFSRKEQTILAQLVIGHRGDMK----KMGGIIGGNEMLWYAVLSLRLAALFCRSRQDLSFPKNMQLRTDTESCGFILRIDSKWLERHPLIADALEYESVQWQKINMPFKV</Hsp_qseq>
+      <Hsp_hseq>MHNSP--LYAAIDLGSNSFHMLVVREVAGALRTVTKVKRKVRLAAGLDPEFRLSRAAMERGWDCLRLFSEQLQDIPADNIRVVGTATLRLATNVDEFLSEAERVLNHSIEIISGEEEAKTIYEGVSWTSAGEGNR-LVIDIGGASTELVIGEHSEAKLLNSLHMGCVTWLNNHFGDGELSEARFAQAIAAAKAVLEKVAEDYCVLGWRTCVGASGTVQALQEIMLAQGKSE-RVTLPKLQELMGQAIACGRLDRLQLEGLAAERLTVFPSGLAILIAIFETLNIESMTLAGGALREGLIYGLLGNNHDCDARDRTADSLISCYQLDKEHAERVRDTAIEAFNQLQPAWRLSKR---YGRPILRYAALLHEIGLCIEYKKAPQHAAYIIDNIDMPGFTPAQKKLLSALLFNQRDEFKLETLEKQGAVTGRQAIRLARI-LRISLILCMRRTQGTVP-NFTLQAEEEA--LTLTLPKGWMDEHYLRASELRLEVERQQKMGWPTRL</Hsp_hseq>
+      <Hsp_midline>M  +P  + A++DLGSNSF + +     G L+ +   K+ VR AAGLD +  LS ++ E+  DCL  F E+L+    + +R V T T R+A N+ +FL +AE  L   IEII+G EEA+ IY GV  T    G + LVIDIGG STE VIG      +  SL +GCVT+ +  F   +++   F  AI+AA+  +++++++    GW   VG SG+ +++++++ A+   E  +T   ++ L  + I  G + + + E L  ER+ VF  GLA+++A FE + ++ MT+   ALR+G+ Y L+G   + D R +T       Y +    A+R  +TA    + L  A  ++ +     +  L  AA LHEIGL I +    +H+AYI++N DMPGF+  ++ +L+ L+   R + K    +  G + G + +  A + LR++ + C  R   + P N  L+ + E+    L +   W++ H L A  L  E  + QK+  P ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

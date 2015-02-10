@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>20023</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7M1</BlastOutput_query-def>
+  <BlastOutput_query-len>386</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>20023</Iteration_query-ID>
+  <Iteration_query-def>Q5F7M1</Iteration_query-def>
+  <Iteration_query-len>386</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1709007|sp|P55218.1|METZ_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=O-succinylhomoserine sulfhydrylase; Short=OSH sulfhydrylase; Short=OSHS sulfhydrylase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P55218</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.54</Hsp_bit-score>
+      <Hsp_score>937</Hsp_score>
+      <Hsp_evalue>7.05462e-122</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>QTLAIRGGKEQTGYREHNQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEV-ADQAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALA</Hsp_qseq>
+      <Hsp_hseq>DTLAVRAGQRRTPEGEHGEALFTTSSYVFRTAADAAARFAGEVPGNVYSRYTNPTVRTFEERIAALEGAEQAVATASGMSAILALVMSLCSSGDHVLVSRSVFGSTISLFDKYFKRFGIQVDYPPLSDLAAWEAACKPNTKLFFVESPSNPLAELVDIAALAEIAHAKGALLAVDNCFCTPALQQPLKLGADVVIHSATKYIDGQGRGMGGVVAGRGEQMKEVVGFLRTAGPTLSPFNAWLFLKGLETLRIRMQAHSASALALAEWLERQPGIERVYYAGLPSHPQHELARRQQSGFGAVVSFDVKGGRDAAWRFIDATRMVSITTNLGDTKTTIAHPATTSHGRLSPEDRARAGIGDSLIRVAVGLEDLDDLKADMARGLA</Hsp_hseq>
+      <Hsp_midline> TLA+R G+ +T   EH +ALF TSS+++  A  AA  F+ ++ G  Y+R  NPT+  FE+RIAALEGAE+AVAT++GMSAI A   +   +GDHV+ SRS+FG+T+   +    +FGI V     +D+  W+AA K NTKL F+E+PSNPL E+ D+ ALAE+AH  GALL VDN   +P   QPLK GAD+ + SATK IDG GR MGGV+AG  E M +V  +  + G  +SPFNAW  L G+ETL +RM+    +AL +A+WL+ QP ++ VYY GLP HPQ EL R+QQ+G G V+ F+V   + AAW+ ++   + S T NLGD ++TI +P TT+HGR+ PE++  AGI   L+R++VGLE + DL  D+ + LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|614092951|sp|P9WGB4.1|METZ_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=O-succinylhomoserine sulfhydrylase; Short=OSH sulfhydrylase; Short=OSHS sulfhydrylase [Mycobacterium tuberculosis CDC1551] &gt;gi|614092958|sp|P9WGB5.1|METZ_MYCTU RecName: Full=O-succinylhomoserine sulfhydrylase; Short=OSH sulfhydrylase; Short=OSHS sulfhydrylase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WGB4</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>8.38151e-93</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>TLAIRGGKEQTGYREHNQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELM-AQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGF------EVADQAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALA</Hsp_qseq>
+      <Hsp_hseq>TVGVRGGMLRSGFEETAEAMYLTSGYVYGSAAVAEKSFAGELDHYVYSRYGNPTVSVFEERLRLIEGAPAAFATASGMAAVFTSLGALLGAGDRLVAARSLFGSCFVVCSEILPRWGVQTVFVDGDDLSQWERALSVPTQAVFFETPSNPMQSLVDIAAVTELAHAAGAKVVLDNVFATPLLQQGFPLGVDVVVYSGTKHIDGQGRVLGGAILGDREYIDGPVQKLMRHTGPAMSAFNAWVLLKGLETLAIRVQHSNASAQRIAEFLNGHPSVRWVRYPYLPSHPQYDLAKRQMSGGGTVVTFALDCPEDVAKQ-RAFEVLDKMRLIDISNNLGDAKSLVTHPATTTHRAMGPEGRAAIGLGDGVVRISVGLEDTDDLIADIDRALS</Hsp_hseq>
+      <Hsp_midline>T+ +RGG  ++G+ E  +A++LTS +++ +A  A   F+ ++  + Y+R  NPT++ FE+R+  +EGA  A AT++GM+A+  +    L AGD +V++RSLFG+     + I+ ++G+    V   D+++W+ A+   T+ +F ETPSNP+  + D+ A+ ELAH  GA +V+DN   +P+  Q    G D+ V S TK IDG GRV+GG + G  E +   V       G AMS FNAW LL G+ETL++R++    +A RIA++L   P V+ V Y  LP HPQ +L ++Q +GGG V+ F      +VA Q  A++V++   L   + NLGD +S +T+P TTTH  M PE + A G+  G+VR+SVGLE   DLI D+ +AL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|380876964|sp|Q1M0P5.1|METB_HELPX</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase [Helicobacter pylori]</Hit_def>
+  <Hit_accession>Q1M0P5</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.003</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>3.74851e-83</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>LHPQTLAIRGG-KEQTGYREHNQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQ-VAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>MHMQTKLIHGGISEDATTGAVSVPIYQTSTYRQDAIGHH--------KGYEYSRSGNPTRFALEELIADLEGGVKGFAFASGLAGIHAVF-SLLQSGDHVLLGDDVYGGTFRLFNKVLVKNGLSCTIIDTSDLSQIKKAIKPNTKALYLETPSNPLLKITDLAQCASVAKDHGLLTIVDNTFATPYYQNPLLLGADIVVHSGTKYLGGHSDVVAGLVTTNNEALAQEIAFFQNAIGGVLGPQDSWLLQRGIKTLGLRMQAHQKNALCVAEFLEKHPKVERVYYPGLPTHPNYELAKKQMRGFSGMLSFTLKNDSEATPFVESLKLFILGESLGGVESLVGVPAFMTHACIPKTQREAAGIRDGLVRLSVGIEHEQDLLEDLEQAFAK</Hsp_hseq>
+      <Hsp_midline>+H QT  I GG  E       +  ++ TS++  D   H         KG+ Y+R+ NPT  A E+ IA LEG  +  A ++G++ I A F + LQ+GDHV+    ++G T    N ++ K G+  + +  +D+++ K A+K NTK L+LETPSNPL ++ DL   A +A   G L +VDN+  +P    PL  GADI V S TK + GH  V+ G++  + E +AQ +A + N+ G  + P ++W L  G++TL LRM+    NAL +A++L++ P+V+ VYY GLP HP  EL +KQ  G   ++ F + + + A   VE   LF    +LG V S +  P   TH  +   ++ AAGIR GLVRLSVG+E+  DL++DL+QA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2500947|sp|P56069.1|METB_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>P56069</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>1.04715e-81</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>KGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQ-VAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>KGYEYSRSGNPTRFALEELIADLEGGVKGFAFASGLAGIHAVF-SLLQSGDHVLLGDDVYGGTFRLFNQVLVKNGLSCTIIDTSDISQIKKAIKPNTKALYLETPSNPLLKITDLAQCASVAKDHGLLTIVDNTFATPYYQNPLLLGADIVAHSGTKYLGGHSDVVAGLVTTNNEALAQEIAFFQNAIGGVLGPQDSWLLQRGIKTLGLRMEAHQKNALCVAEFLEKHPKVERVYYPGLPTHPNYELAKKQMRGFSGMLSFTLKNDSEAVAFVESLKLFILGESLGGVESLVGIPAFMTHACIPKTQREAAGIRDGLVRLSVGIEHEQDLLEDLEQAFAK</Hsp_hseq>
+      <Hsp_midline>KG+ Y+R+ NPT  A E+ IA LEG  +  A ++G++ I A F + LQ+GDHV+    ++G T    N ++ K G+  + +  +DI++ K A+K NTK L+LETPSNPL ++ DL   A +A   G L +VDN+  +P    PL  GADI   S TK + GH  V+ G++  + E +AQ +A + N+ G  + P ++W L  G++TL LRME    NAL +A++L++ P+V+ VYY GLP HP  EL +KQ  G   ++ F + + + A   VE   LF    +LG V S +  P   TH  +   ++ AAGIR GLVRLSVG+E+  DL++DL+QA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1708975|sp|P13254.2|MEGL_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Methionine gamma-lyase; AltName: Full=L-methioninase [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P13254</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>3.38598e-81</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>GY--REHNQAL----FLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAV--YCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWK----VVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>GYDPQDHGGALVPPVYQTATFTFPTVEYGAACFAGEQAGHFYSRISNPTLNLLEARMASLEGGEAGLALASGMGAITSTLWTLLRPGDEVLLGNTLYGCTFAFLHHGIGEFGVKLRHVDMADLQALEAAMTPATRVIYFESPANPNMHMADIAGVAKIARKHGATVVVDNTYCTPYLQRPLELGADLVVHSATKYLSGHGDITAGIVVGSQALVDRIRLQGLKDMTGAVLSPHDAALLMRGIKTLNLRMDRHCANAQVLAEFLARQPQVELIHYPGLASFPQYTLARQQMSQPGGMIAFELKGGIGAGRRFMNALQLFSRAVSLGDAESLAQHPASMTHSSYTPEERAHYGISEGLVRLSVGLEDIDDLLADVQQAL</Hsp_hseq>
+      <Hsp_midline>GY  ++H  AL    + T++F +   ++ A  F+ +  G  Y+R +NPT+   E R+A+LEG E  +A ++GM AI +  +T L+ GD V+   +L+G T  F+++ + +FG+ +  V   D+   +AA+   T++++ E+P+NP   +AD+  +A++A   GA +VVDN+  +P   +PL+ GAD+ V SATK + GHG +  G++ GS+ L+ ++ +    +  G  +SP +A  L+ G++TL+LRM++   NA  +A++L  QPQV+ ++Y GL   PQ  L R+Q +  G +I FE+     A +     ++LFSR  +LGD  S   +P + TH    PEE+   GI  GLVRLSVGLE + DL+ D++QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1708993|sp|P53780.1|METC_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase, chloroplastic; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P53780</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>2.92538e-78</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>FTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLA-GSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>YDYTRSGNPTRDALESLLAKLDKADRAFCFTSGMAALSAVTH-LIKNGEEIVAGDDVYGGSDRLLSQVVPRSGVVVKRVNTTKLDEVAAAIGPQTKLVWLESPTNPRQQISDIRKISEMAHAQGALVLVDNSIMSPVLSRPLELGADIVMHSATKFIAGHSDVMAGVLAVKGEKLAKEVYFLQNSEGSGLAPFDCWLCLRGIKTMALRIEKQQENARKIAMYLSSHPRVKKVYYAGLPDHPGHHLHFSQAKGAGSVFSFITGSVALSKHLVETTKYFSIAVSFGSVKSLISMPCFMSHASIPAEVREARGLTEDLVRISAGIEDVDDLISDLDIAF</Hsp_hseq>
+      <Hsp_midline>+ YTR+ NPT  A E  +A L+ A+RA   ++GM+A+ A     ++ G+ +V+   ++G +   ++ +V + G+ V RV+ T ++E  AA+   TKL++LE+P+NP  +++D+  ++E+AH  GAL++VDNS++SPV S+PL+ GADI + SATK I GH  VM GVLA   E+L  +V    NS G  ++PF+ W  L G++T++LR+EKQ +NA +IA +L   P+V+ VYY GLPDHP   L   Q  G G V  F     A +  +VE    FS   + G V+S I+ P   +H  +  E + A G+   LVR+S G+E V DLI DL  A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81341901|sp|O31632.1|METC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase MetC; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31632</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>3.70589e-78</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>QHAADLFSKKIKGF---TYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLA-GSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKVVELFSR---TANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>QHASTFHQSSFEEFGAYDYSRSGTPTRTALEETIAALEGGTRGFAFSSGMAAISTAFL-LLSQGDHVLVTEDVYGGTFRMVTEVLTRFGIEHTFVDMTDRNEVARSIKPNTKVIYMETPSNPTLGITDIKAVVQLAKENGCLTFLDNTFMTPALQRPLDLGVDIVLHSATKFLSGHSDVLSGLAAVKDEELGKQLYKLQNAFGAVLGVQDCWLVLRGLKTLQVRLEKASQTAQRLAEFFQKHPAVKRVYYPGLADHPGAETHKSQSTGAGAVLSFELESKEAVKKLVENVSLPVFAVSLGAVESILSYPATMSHAAMPKEEREKRGITDGLLRLSVGVEHADDLEHDFEQAL</Hsp_hseq>
+      <Hsp_midline>QHA+       + F    Y+R+  PT  A E+ IAALEG  R  A S+GM+AI  AF   L  GDHV+ +  ++G T   +  ++T+FGI  + V  TD NE   ++K NTK++++ETPSNP   + D++A+ +LA   G L  +DN+ ++P   +PL  G DI + SATK + GH  V+ G+ A   EEL  Q+    N+ G  +   + W +L G++TL +R+EK    A R+A++ Q+ P V+ VYY GL DHP AE  + Q  G G V+ FE+  + A  K+VE  S      +LG V S ++ P T +H  M  EE+   GI  GL+RLSVG+E+  DL  D +QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81637465|sp|O05394.1|MCCB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-lyase; AltName: Full=Gamma-cystathionase; AltName: Full=Homocysteine gamma-lyase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O05394</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.817</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>6.73116e-75</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>LHPQTLAIRGG---KEQTGYREHNQALFLTSSFMWDNA-QHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGG-VLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQA---AAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>MKKKTLMIHGGITGDEKTGAV--SVPIYQVSTYKQPKAGQHT---------GYEYSRTANPTRTALEALVTELESGEAGYAFSSGMAAITAVMMLF-NSGDHVVLTDDVYGGTYRVMTKVLNRLGIESTFVDTSSREEVEKAIRPNTKAIYIETPTNPLLKITDLTLMADIAKKAGVLLIVDNTFNTPYFQQPLTLGADIVLHSATKYLGGHSDVVGGLVVTASKELGEELHFVQNSTGGVLGPQDSWLLMRGIKTLGLRMEAIDQNARKIASFLENHPAVQTLYYPGSSNHPGHELAKTQGAGFGGMISFDIGSEERVDAFLGNLKLFTIAESLGAVESLISVPARMTHASIPRERRLELGITDGLIRISVGIEDAEDLLEDIGQAL</Hsp_hseq>
+      <Hsp_midline>+  +TL I GG    E+TG    +  ++  S++    A QH          G+ Y+RTANPT  A E  +  LE  E   A S+GM+AI A    F  +GDHVV +  ++G T   +  ++ + GI  + V  +   E + A++ NTK +++ETP+NPL ++ DL  +A++A   G LL+VDN+  +P   QPL  GADI + SATK + GH  V+GG V+  S+EL  ++    NS G  + P ++W L+ G++TL LRME    NA +IA +L+  P VQ +YY G  +HP  EL + Q  G G +I F++  +    A    ++LF+   +LG V S I+ P   TH  +  E +L  GI  GL+R+SVG+E   DL++D+ QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|11133710|sp|Q9ZMW7.1|METB_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZMW7</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>2.16487e-74</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>KGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQ-VAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>KGYEYSRSGNPTRFALEELIADLEGGVKGFAFASGLAGIHAVF-SLLQSGDHVLLGDDVYGGNFRLFNKVLVKNGLSCTIIDTSDLSQIKKAIKPNTKALYLETPSNPLLKITDLAQCASVAKEHNLLTIVDNTFATPYCQNPLLLGTDIVAHNGTKYLGGHSDVVAGLVTTNNEALAQEFDFFQNAIGGVLGLQDSWLLQRGIKTLGLRMEAHQKNALCVAEFLEKHPKVERVYYPGLPTHPNHELAKAQMRGFSGMFSFTLKNDSEAVAFVESLKLFILGESLGGVESLVGIPALMTHACIPKAQREAAGIRDGLVRLSVGIEHEQDLLEDLDQAFAK</Hsp_hseq>
+      <Hsp_midline>KG+ Y+R+ NPT  A E+ IA LEG  +  A ++G++ I A F + LQ+GDHV+    ++G      N ++ K G+  + +  +D+++ K A+K NTK L+LETPSNPL ++ DL   A +A     L +VDN+  +P    PL  G DI   + TK + GH  V+ G++  + E +AQ    + N+ G  +   ++W L  G++TL LRME    NAL +A++L++ P+V+ VYY GLP HP  EL + Q  G   +  F + + + A   VE   LF    +LG V S +  P   TH  +   ++ AAGIR GLVRLSVG+E+  DL++DL QA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|61228131|sp|P0A4K2.1|METC_LACLA</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Lactococcus lactis subsp. lactis Il1403] &gt;gi|146324994|sp|A2RM21.1|METC_LACLM RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Lactococcus lactis subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>P0A4K2</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>4.56455e-74</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>KGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGG-VLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>KEYEYSRSGNPTRHALEELIADLEGGVQGFAFSSGLAGIHAVLSLF-SAGDHIILADDVYGGTFRLMDKVLTKTGIIYDLVDLSNLDDLKAAFKEETKAIYFETPSNPLLKVLDIKEISAIAKAHDALTLVDNTFATPYLQQPIALGADIVLHSATKYLGGHSDVVAGLVTTNSKELASEIGFLQNSIGAVLGPQDSWLVQRGIKTLALRMEAHSANAQKIAEFLETSKAVSKVYYPGLNSHPGHEIAKKQMSAFGGMISFELTDENAVKDFVENLSYFTLAESLGGVESLIEVPAVMTHASIPKELREEIGIKDGLIRLSVGVEAIEDLLTDIKEALEK</Hsp_hseq>
+      <Hsp_midline>K + Y+R+ NPT  A E+ IA LEG  +  A S+G++ I A    F  AGDH++ +  ++G T   ++ ++TK GI    V  +++++ KAA K  TK ++ ETPSNPL +V D++ ++ +A    AL +VDN+  +P   QP+  GADI + SATK + GH  V+ G V   S+EL +++    NS G  + P ++W +  G++TL+LRME    NA +IA++L+    V  VYY GL  HP  E+ +KQ +  G +I FE+ D+ A    VE    F+   +LG V S I  P   TH  +  E +   GI+ GL+RLSVG+E + DL+ D+K+AL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|74858798|sp|Q55DV9.1|CGL_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-lyase; AltName: Full=Gamma-cystathionase [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q55DV9</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>5.18638e-74</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>FTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLA-GSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNG-GGIVIGFEVA--DQAAAW-KVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>YDYSRSGNPTRKAFEECIAACENAKYALSFASGLATL-TTITHLLKSGDEVISIDDVYGGTRRYFTRVAANFDLKFSFVDLSTLDDLKNAFTDKTRLVWIETPTNPLLKVADIKAVADYVHSRGATLVVDNTFMSPYFQNPLDLGADIVMHSVTKYINGHSDCVMGVLATNNDELYAKLKFLQNSIGAVPSPFDCFLALRGLKTLHVRMEAHQKNAFAICNFLEKHPKVERVIYPGLPSHPQHEICKRQMKGYGGMVVFFVKGSIDQSRSFLENIKLFALAESLGGVESLIELPSVMTHASVPAEERAKLGISDTLIRLSVGIEDINDLLADISQALDK</Hsp_hseq>
+      <Hsp_midline>+ Y+R+ NPT  AFE+ IAA E A+ A++ ++G++ +       L++GD V+S   ++G T  +   +   F +  S V  + +++ K A    T+L+++ETP+NPL +VAD++A+A+  H  GA LVVDN+ +SP    PL  GADI + S TK I+GH   + GVLA  ++EL A++    NS G   SPF+ +  L G++TL +RME    NA  I  +L++ P+V+ V Y GLP HPQ E+ ++Q  G GG+V+ F     DQ+ ++ + ++LF+   +LG V S I  P   TH  +  EE+   GI   L+RLSVG+E + DL+ D+ QAL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81628325|sp|Q83A83.1|METC_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83A83</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>2.66218e-72</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>KGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKF-GIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGV-LAGSEELMAQVAVYC-NSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEV-ADQAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>QGYEYSRSQNPTRFAYERCVADLESGQHGFAFASGMAAT-ATILELLQPGDHVVVMDDVYGGSYRLFENVRKRSAGLSFSFVDFTDENKVREAVTAKTKMLWVESPSNPRLKIVDLAKIAEIAKEKNIIAVADNTFATPIIQRPLELGFDIVTHSATKYLNGHSDIIGGVAVVGDNKTLAEQLKYLQNAIGAIAAPFDSFMVLRGLKTLAIRMERHCENAMQLAQWLEKHPKVKRVYYPGLPSHPQHSIAKKQMRYFGGMISVELKCDLNETKKVLERCQLFTLAESLGGVESLIEHPAIMTHASIPQAERQKLGITDGFIRLSVGIEAITDLRHDLEAAL</Hsp_hseq>
+      <Hsp_midline>+G+ Y+R+ NPT  A+E+ +A LE  +   A ++GM+A  A     LQ GDHVV    ++G +     N+  +  G+  S V  TD N+ + AV A TK+L++E+PSNP  ++ DL  +AE+A     + V DN+  +P+  +PL+ G DI   SATK ++GH  ++GGV + G  + +A+   Y  N+ G   +PF+++ +L G++TL++RME+  +NA+++AQWL++ P+V+ VYY GLP HPQ  + +KQ    G +I  E+  D     KV+E   LF+   +LG V S I +P   TH  +   E+   GI  G +RLSVG+E + DL  DL+ AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|146324993|sp|P0C2T9.1|METC_LACLC</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>P0C2T9</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>1.35856e-71</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>KGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGG-VLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>KEYEYSRSGNPTRHALEELIADLEGGVQGFAFSSGLAGIHAVLSLF-SAGDHIILADDVYGGTFRLVDKVLTKTGIIYDLVDLSNLEDLKAAFKAETKAVYFETPSNPLLKVLDIKEISSIAKAHNALTLVDNTFATPYLQQPIALGADIVLHSATKYLGGHSDVVAGLVTTNSNELAIEIGFLQNSIGAVLGPQDSWLVQRGIKTLAPRMEAHSANAQKIAEFLEASQAVSKVYYPGLVNHEGHEIAKKQMTAFGGMISFELTDENAVKNFVENLRYFTLAESLGGVESLIEVPAVMTHASIPKELREEIGIKDGLIRLSVGVEALEDLLTDLKEALEK</Hsp_hseq>
+      <Hsp_midline>K + Y+R+ NPT  A E+ IA LEG  +  A S+G++ I A    F  AGDH++ +  ++G T   ++ ++TK GI    V  +++ + KAA KA TK ++ ETPSNPL +V D++ ++ +A    AL +VDN+  +P   QP+  GADI + SATK + GH  V+ G V   S EL  ++    NS G  + P ++W +  G++TL+ RME    NA +IA++L+    V  VYY GL +H   E+ +KQ    G +I FE+ D+ A    VE    F+   +LG V S I  P   TH  +  E +   GI+ GL+RLSVG+E + DL+ DLK+AL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|62510330|sp|Q60HG7.1|CGL_MACFA</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q60HG7</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>1.38341e-69</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>GFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIG-ALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRV-MGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVAD--QAAA--WKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>GFEYSRSGNPTRNCLEKAVAALDGAKYCLAFASGLAAT-VTITHLLKAGDQIICMDDVYGGTNRYFRQVASEFGLKISFVDCSKIKLLEAAITPETKLVWIETPTNPVLKMIDIEACAHIVHKRGDIILVVDNTFMSPYFQRPLALGADICMCSATKYMNGHSDVVMGLVSVNCERLHNRLRFLQNSLGAVPSPLDCYLCNRGLKTLHVRMEKHFKNGMAVAQFLESNPGVEKVIYPGLPSHPQHELAKRQCTGCTGMITFYIKGTLQHAEIFLKNLKLFTLAESLGGFESLVELPAIMTHASVPKNDRDVLGISDTLIRLSVGLEDEKDLLEDLDQAL</Hsp_hseq>
+      <Hsp_midline>GF Y+R+ NPT    EK +AAL+GA+  +A ++G++A        L+AGD ++    ++G T  +   + ++FG+ +S V  + I   +AA+   TKL+++ETP+NP+ ++ D+EA A + H  G  +LVVDN+ +SP   +PL  GADI + SATK ++GH  V MG V    E L  ++    NS G   SP + +    G++TL +RMEK F N + +AQ+L+  P V+ V Y GLP HPQ EL ++Q  G   +I F +    Q A    K ++LF+   +LG   S +  P   TH  +   ++   GI   L+RLSVGLE   DL++DL QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|27734227|sp|Q8VCN5.1|CGL_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase [Mus musculus]</Hit_def>
+  <Hit_accession>Q8VCN5</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>9.4131e-69</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>HPQTLAIRGGKE--QTGYREHNQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIG-ALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRV-MGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVA---DQAAAW-KVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>HFATQAIHVGQEPEQWNSRAVVLPISLATTFKQD--------FPGQSSGFEYSRSGNPTRNCLEKAVAALDGAKHSLAFASGLAAT-ITITHLLKAGDEIICMDEVYGGTNRYFRRVASEFGLKISFVDCSKTKLLEAAITPQTKLVWIETPTNPTLKLADIGACAQIVHKRGDIILVVDNTFMSAYFQRPLALGADICMCSATKYMNGHSDVVMGLVSVNSDDLNSRLRFLQNSLGAVPSPFDCYLCCRGLKTLQVRMEKHFKNGMAVARFLETNPRVEKVVYPGLPSHPQHELAKRQCSGCPGMVSFYIKGALQHAKAFLKNLKLFTLAESLGGYESLAELPAIMTHASVPEKDRATLGINDTLIRLSVGLEDEQDLLEDLDRAL</Hsp_hseq>
+      <Hsp_midline>H  T AI  G+E  Q   R     + L ++F  D        F  +  GF Y+R+ NPT    EK +AAL+GA+ ++A ++G++A        L+AGD ++    ++G T  +   + ++FG+ +S V  +     +AA+   TKL+++ETP+NP  ++AD+ A A++ H  G  +LVVDN+ +S    +PL  GADI + SATK ++GH  V MG V   S++L +++    NS G   SPF+ +    G++TL +RMEK F N + +A++L+  P+V+ V Y GLP HPQ EL ++Q +G   ++ F +      A A+ K ++LF+   +LG   S    P   TH  +  +++   GI   L+RLSVGLE   DL++DL +AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122143720|sp|Q19QT7.1|CGL_PIG</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase [Sus scrofa]</Hit_def>
+  <Hit_accession>Q19QT7</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>1.2944e-68</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>GFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIG-ALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRV-MGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVA---DQAAAW-KVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>GFEYSRSGNPTXNCLEKAVAVLDGAKYSLAFASGLAAT-VTITHLLKAGXQIISMDDVYGGTNRYFRQVAAEFGLKISFVDCSKSKLLEAAITPETKLVWIETPTNPILKMIDIEACAQIVHKHGDIILVVDNTFMSAYFQRPLALGADICMYSATKYMNGHSDVVMGLVSLNSETLHSRLRFLQNSLGAVPSPIDCYLCNRGLKTLQVRMEKHFENGMAVAQFLESHPLVEKVIYPGLPSHPQHELAKRQCTGCPGMISFYIKGSLHHAETFLKSLKLFTLAESLGGYESLAELPAIMTHSSVPKSDREVLGIRDTLIRLSVGLEDKQDLMDDLDQAL</Hsp_hseq>
+      <Hsp_midline>GF Y+R+ NPT    EK +A L+GA+ ++A ++G++A        L+AG  ++S   ++G T  +   +  +FG+ +S V  +     +AA+   TKL+++ETP+NP+ ++ D+EA A++ H  G  +LVVDN+ +S    +PL  GADI + SATK ++GH  V MG V   SE L +++    NS G   SP + +    G++TL +RMEK F+N + +AQ+L+  P V+ V Y GLP HPQ EL ++Q  G   +I F +      A  + K ++LF+   +LG   S    P   TH  +   ++   GIR  L+RLSVGLE   DL+DDL QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1705789|sp|P18757.2|CGL_RAT</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase; AltName: Full=Probasin-related antigen; Short=PRB-RA [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P18757</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>3.71612e-67</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>GFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHG-IGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRV-MGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKV----VELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>GFVYSRSGNPTRNCLEKAVAALDGAKHCLTFARGLAAT-TTITHLLKAGDEVICMDEVYGGTNRYFRRVASEFGLKISFVDCSKTKLLEAAITPQTKLVWIETPTNPTLKLADIKACAQIVHKHKDIILVVDNTFMSAYFQRPLALGADICMCSATKYMNGHSDVVMGLVSVTSDDLNERLRFLQNSLGAVPSPFDCYLCCRGLKTLQIRMEKHFRNGMAVARFLESNPRVEKVIYPGLPSHPQHELAKRQCTGCPGMVSFYIKGTLQHAQVFLKNIKLFALAESLGGYESLAELPAIMTHASVPEKDRATLGISDTLIRLSVGLEDEKDLLEDLGQAL</Hsp_hseq>
+      <Hsp_midline>GF Y+R+ NPT    EK +AAL+GA+  +  + G++A        L+AGD V+    ++G T  +   + ++FG+ +S V  +     +AA+   TKL+++ETP+NP  ++AD++A A++ H     +LVVDN+ +S    +PL  GADI + SATK ++GH  V MG V   S++L  ++    NS G   SPF+ +    G++TL +RMEK F N + +A++L+  P+V+ V Y GLP HPQ EL ++Q  G   ++ F +       +V    ++LF+   +LG   S    P   TH  +  +++   GI   L+RLSVGLE   DL++DL QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|54037785|sp|P66876.1|METB_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase [Mycobacterium bovis AF2122/97] &gt;gi|614092907|sp|P9WGB6.1|METB_MYCTO RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase [Mycobacterium tuberculosis CDC1551] &gt;gi|614092913|sp|P9WGB7.1|METB_MYCTU RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P66876</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>7.10064e-66</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>PQTLAIRGGKEQTGYREH------NQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLA-GSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNG-GGIVIGFEVADQAAAWKVV---ELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>PATRAI-----HAGYRPDPATGAVNVPIYASSTF-------AQDGVGGLRGGFEYARTGNPTRAALEASLAAVEEGAFARAFSSGMAATDCALRAMLRPGDHVVIPDDAYGGTFRLIDKVFTRWDVQYTPVRLADLDAVGAAITPRTRLIWVETPTNPLLSIADITAIAELGTDRSAKVLVDNTFASPALQQPLRLGADVVLHSTTKYIGGHSDVVGGALVTNDEELDEEFAFLQNGAGAVPGPFDAYLTMRGLKTLVLRMQRHSENACAVAEFLADHPSVSSVLYPGLPSHPGHEIAARQMRGFGGMVSVRMRAGRRAAQDLCAKTRVFILAESLGGVESLIEHPSAMTHASTAGSQ---LEVPDDLVRLSVGIEDIADLLGDLEQAL</Hsp_hseq>
+      <Hsp_midline>P T AI       GYR        N  ++ +S+F       A D       GF Y RT NPT AA E  +AA+E    A A S+GM+A   A    L+ GDHVV     +G T   I+ + T++ +  + V   D++   AA+   T+L+++ETP+NPL  +AD+ A+AEL     A ++VDN+  SP   QPL+ GAD+ + S TK I GH  V+GG L    EEL  + A   N  G    PF+A+  + G++TL LRM++  +NA  +A++L + P V +V Y GLP HP  E+  +Q  G GG+V     A + AA  +     +F    +LG V S I +P   TH      +     +   LVRLSVG+E + DL+ DL+QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1170929|sp|P46807.1|METB_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>P46807</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>2.80907e-65</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>QTGYREH------NQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYC-NSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNG-GGIVIGFEVADQAAAWKVV---ELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>HAGYRPDPATGAVNVPIYASSTF-------AQDGVGELRGGFEYARTGNPMRAALEASLATVEEGVFARAFSSGMAASDCALRVMLRPGDHVIIPDDVYGGTFRLIDKVFTQWNVDYTPVPLSDLDAVRAAITSRTRLIWVETPTNPLLSIADITSIGELGKKHSVKVLVDNTFASPALQQPLMLGADVVLHSTTKYIGGHSDVVGGALVTNDEELDQAFGFLQNGAGAVPSPFDAYLTMRGLKTLVLRMQRHNENAITVAEFLAGHPSVSAVLYPGLPSHPGHEVAARQMRGFGGMVSLRMRAGRLAAQDLCARTKVFTLAESLGGVESLIEQPSAMTHASTTGSQ---LEVPDDLVRLSVGIEDVGDLLCDLKQAL</Hsp_hseq>
+      <Hsp_midline>  GYR        N  ++ +S+F       A D   +   GF Y RT NP  AA E  +A +E    A A S+GM+A   A    L+ GDHV+    ++G T   I+ + T++ +  + V  +D++  +AA+ + T+L+++ETP+NPL  +AD+ ++ EL       ++VDN+  SP   QPL  GAD+ + S TK I GH  V+GG L  ++E + Q   +  N  G   SPF+A+  + G++TL LRM++  +NA+ +A++L   P V AV Y GLP HP  E+  +Q  G GG+V     A + AA  +    ++F+   +LG V S I  P   TH      +     +   LVRLSVG+E VGDL+ DLKQAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|21542422|sp|P55217.3|CGS1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-synthase 1, chloroplastic; Short=AtCGS1; AltName: Full=METHIONINE OVERACCUMULATION 1; AltName: Full=O-succinylhomoserine (thiol)-lyase; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P55217</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>3.08335e-65</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>TSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKA-NTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEV-ADQAAAWKVVELFS---RTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>TSAYFFKKTAELIDFKEKRSVSFEYGRYGNPTTVVLEDKISALEGAESTLVMASGMCASTVMLLALVPAGGHIVTTTDCYRKTRIFMENFLPKLGITVTVIDPADIAGLEAAVNEFKVSLFFTESPTNPFLRCVDIELVSKICHKRGTLVCIDGTFATPLNQKALALGADLVVHSATKYIGGHNDVLAGCICGSLKLVSEIRNLHHVLGGTLNPNAAYLIIRGMKTLHLRVQQQNSTAFRMAEILEAHPKVSHVYYPGLPSHPEHELAKRQMTGFGGVVSFEIDGDIETTIKFVDSLKIPYIAPSFGGCESIVDQPAIMSYWDLPQEERLKYGIKDNLVRFSFGVEDFEDVKADILQAL</Hsp_hseq>
+      <Hsp_midline>TS++ +       D   K+   F Y R  NPT    E +I+ALEGAE  +  ++GM A        + AG H+V++   +  T  F+ N + K GI V+ + P DI   +AAV      L F E+P+NP     D+E ++++ H  G L+ +D +  +P+  + L  GAD+ V SATK I GH  V+ G + GS +L++++    +  G  ++P  A+ ++ G++TL LR+++Q   A R+A+ L+  P+V  VYY GLP HP+ EL ++Q  G G V+ FE+  D     K V+         + G   S +  P   ++  +  EE+L  GI+  LVR S G+E   D+  D+ QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|20137676|sp|O13326.1|CYSD_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=O-acetylhomoserine (thiol)-lyase; AltName: Full=Homocysteine synthase; AltName: Full=O-acetylhomoserine sulfhydrylase; Short=OAH sulfhydrylase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O13326</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>5.97216e-65</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>HPQTLAIRGGKEQTGYREHNQA-LFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGS-----QPLKHGADISVSSATK------------AIDG----------------------HGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQ-QNGGGIVIGFEV---ADQA-AAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>HFETLQLHAGQEPDAATSSRAVPIYATTSYVFRDCDHGGRLFGLQEPGYIYSRMMNPTADVFEKRIAALEHGAAAIATSSGTSALFMALTTLAKAGDNIVSTSYLYGGTYNLFKVTLPRLGITTKFVNGDDPNDLAAQIDENTKAVYVESIGNPMYNVPDFERIAEVAHAAGVPLMVDNTF----GGGGYLVRPIDHGADIVTHSATKWIGGHGTTIGGVIVDSGKFDWKKNSKRFPEFNEPHPGYHGMVFTETFGNLAYAFACRTQTLRDVGGNANPFGVFLLLQGLETLSLRMERHVQNAFALAKYLEKHPKVNWVSYPGLESHVSHKLAKKYLKNGYGAVLSFGAKGGPDQSRKVVNALKLASQLANVGDAKTLVIAPAYTTHLQLTDEEQISAGVTKDLIRVAVGIEHIDDIIADFAQAL</Hsp_hseq>
+      <Hsp_midline>H +TL +  G+E           ++ T+S+++ +  H   LF  +  G+ Y+R  NPT   FEKRIAALE    A+ATS+G SA+  A  T  +AGD++VS+  L+G T       + + GI    V+  D N+  A +  NTK +++E+  NP+  V D E +AE+AH  G  L+VDN+     G      +P+ HGADI   SATK             +D                       HG V            A         G   +PF  + LL G+ETLSLRME+   NA  +A++L++ P+V  V Y GL  H   +L +K  +NG G V+ F      DQ+      ++L S+ AN+GD ++ +  P  TTH ++  EE+++AG+   L+R++VG+E++ D+I D  QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|27735163|sp|P32929.3|CGL_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase [Homo sapiens]</Hit_def>
+  <Hit_accession>P32929</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>8.9717e-63</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>GFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIG-ALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRV-MGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVAD--QAAA--WKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVG</Hsp_qseq>
+      <Hsp_hseq>GFEYSRSGNPTRNCLEKAVAALDGAKYCLAFASGLAAT-VTITHLLKAGDQIICMDDVYGGTNRYFRQVASEFGLKISFVDCSKIKLLEAAITPETKLVWIETPTNPTQKVIDIEGCAHIVHKHGDIILVVDNTFMSPYFQRPLALGADISMYSATKYMNGHSDVVMGLVSVNCESLHNRLRFLQNSLGAVPSPIDCYLCNRGLKTLHVRMEKHFKNGMAVAQFLESNPWVEKVIYPGLPSHPQHELVKRQCTGCTGMVTFYIKGTLQHAEIFLKNLKLFTLAESLGGFESLAELPAIMTHASVLKNDRDVLGISDTLIRLSVG</Hsp_hseq>
+      <Hsp_midline>GF Y+R+ NPT    EK +AAL+GA+  +A ++G++A        L+AGD ++    ++G T  +   + ++FG+ +S V  + I   +AA+   TKL+++ETP+NP  +V D+E  A + H  G  +LVVDN+ +SP   +PL  GADIS+ SATK ++GH  V MG V    E L  ++    NS G   SP + +    G++TL +RMEK F N + +AQ+L+  P V+ V Y GLP HPQ EL+++Q  G   ++ F +    Q A    K ++LF+   +LG   S    P   TH  +   ++   GI   L+RLSVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|3024189|sp|Q92441.3|MET17_KLULA</Hit_id>
+  <Hit_def>RecName: Full=Protein MET17; Includes: RecName: Full=O-acetylhomoserine sulfhydrylase; Short=OAH sulfhydrylase; AltName: Full=Homocysteine synthase; Includes: RecName: Full=O-acetylserine sulfhydrylase; Short=OAS sulfhydrylase [Kluyveromyces lactis NRRL Y-1140]</Hit_def>
+  <Hit_accession>Q92441</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>3.29255e-62</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>HPQTLAIRGGKEQTGYREHNQA--LFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSL-LSPVGSQPLKHGADISVSSATKAIDG----------------------------------HGRVMGGVLAGSEELMAQVAV-YCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQ-QNGGGIVIGFEVAD-----------QAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALA</Hsp_qseq>
+      <Hsp_hseq>HFDTLQLHAGQEKTADAHNPRAVPIYATTSYVFNDSKHGAQLFGLETPGYIYSRIMNPTLDVLEKRLAALEGGIAALATSSGQAAQTLAVTGLAHTGDNIVSTSFLYGGTYNQFKVAFKRLGIEARFVDGDKPEDFEKLFDEKTKALYLESIGNPKYNVPDFEKIVAVAHKHGIPVVVDNTFGAGGFFCQPIKYGADIVTHSATKWIGGHGVTVGGVIIDSGKFPWKDYPEKFPQFSQPSEGYHGLIFNDAF-GPAAFIGHVRTELLRDLGPVLSPFAGFLLLQGLETLSLRGERHGSNALKLAQYLESSPYVSWVSYPGLPSHSHHENAKKYLENGFGGVLSFGVKDLPNASEESDPFKASGAQVVDNLKLASNLANVGDSKTLVIAPYFTTHQQLTDEEKLASGVTKDLIRVSVGTEFIDDIIADFEASFA</Hsp_hseq>
+      <Hsp_midline>H  TL +  G+E+T    + +A  ++ T+S+++++++H A LF  +  G+ Y+R  NPT+   EKR+AALEG   A+ATS+G +A   A       GD++VS+  L+G T         + GI    V      +++      TK L+LE+  NP   V D E +  +AH  G  +VVDN+        QP+K+GADI   SATK I G                                  HG +      G    +  V        G  +SPF  + LL G+ETLSLR E+   NAL++AQ+L+  P V  V Y GLP H   E  +K  +NG G V+ F V D           +A+  +VV+   L S  AN+GD ++ +  P+ TTH ++  EEKLA+G+   L+R+SVG E++ D+I D + + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|146345408|sp|P50125.2|CYSD_EMENI</Hit_id>
+  <Hit_def>RecName: Full=O-acetylhomoserine (thiol)-lyase; AltName: Full=Homocysteine synthase; AltName: Full=O-acetylhomoserine sulfhydrylase; Short=OAH sulfhydrylase [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>P50125</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>4.46951e-61</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>419</Hsp_align-len>
+      <Hsp_qseq>QTLAIRGGKE-QTGYREHNQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSL-LSPVGSQPLKHGADISVSSATK-----------AIDGHGRVMGGVLAG--------SE--------ELMAQVAV-------YCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQ-QNGGGIVIGFEVADQAAAWKVV----ELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALA</Hsp_qseq>
+      <Hsp_hseq>ETLQLHAGQEPDPATNSRAVPIYATTSYTFNDSAHGARLFGLKEFGNIYSRIMNPTVDVFEKRIAALEGGVAAVAASSGQAAQFMAISALAHAGDNIVSTSNLYGGTYNQFKVLFPRLGITTKFVQGDKAEDIAAAIDDRTKAVYVETIGNPRYNVPDFEVIAKVAHEKGIPLVVDNTFGAGGYFVRPIEHGADIVVHSATKWIGGHGTTIGGVVVDSGKFDWGKNAARFPQFTQPSEGYHGLNFWETFGPIAFAIRVRVEILRDLGSALNPFAAQQLILGLETLSLRAERHASNALALANWLKKNDHVSWVSYVGLEEHSSHEVAKKYLKRGFGGVLSFGVKGEAAVGSQVVDNFKLISNLANVGDSKTLAIHPWSTTHEQLTDQERIDSGVTEDAIRISVGTEHIDDIIADFEQSFA</Hsp_hseq>
+      <Hsp_midline>+TL +  G+E           ++ T+S+ ++++ H A LF  K  G  Y+R  NPT+  FEKRIAALEG   AVA S+G +A   A      AGD++VS+ +L+G T      +  + GI    V      +  AA+   TK +++ET  NP   V D E +A++AH  G  LVVDN+        +P++HGADI V SATK            +   G+   G  A         SE        E    +A             G A++PF A QL+ G+ETLSLR E+   NAL +A WL++   V  V Y GL +H   E+ +K  + G G V+ F V  +AA    V    +L S  AN+GD ++   +PW+TTH ++  +E++ +G+    +R+SVG E++ D+I D +Q+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81341900|sp|O31631.1|METI_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-synthase/O-acetylhomoserine (thiol)-lyase; Short=CGS/OAH thiolyase; AltName: Full=O-acetylhomoserine sulfhydrylase; Short=OAH sulfhydrylase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31631</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>9.13528e-61</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>GFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGG-VLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAW-----KVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>GFDYVRTKNPTRQLVEDAIANLENGARGLAFSSGMAAIQTIMALF-KSGDELIVSSDLYGGTYRLFENEWKKYGLTFHYDDFSDEDCLRSKITPNTKAVFVETPTNPLMQEADIEHIARITKEHGLLLIVDNTFYTPVLQRPLELGADIVIHSATKYLGGHNDLLAGLVVVKDERLGEEMFQHQNAIGAVLPPFDSWLLMRGMKTLSLRMRQHQANAQELAAFLEEQEEISDVLYPG--------------KGG--MLSFRL--QKEEWVNPFLKALKTICFAESLGGVESFITYPATQTHMDIPEEIRIANGVCNRLLRFSVGIEHAEDLKEDLKQALCQ</Hsp_hseq>
+      <Hsp_midline>GF Y RT NPT    E  IA LE   R +A S+GM+AIQ     F ++GD ++ S  L+G T     N   K+G+       +D +  ++ +  NTK +F+ETP+NPL + AD+E +A +    G LL+VDN+  +PV  +PL+ GADI + SATK + GH  ++ G V+   E L  ++  + N+ G  + PF++W L+ G++TLSLRM +   NA  +A +L+EQ ++  V Y G               GG  ++ F +  Q   W     K ++      +LG V S IT P T TH  +  E ++A G+   L+R SVG+E+  DL +DLKQAL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|127030|sp|P00935.1|METB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P00935</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>1.2493e-60</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TLAIRGG---KEQTGYREHNQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGG-VLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEV-ADQAAAWKV---VELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>TIAVRSGLNDDEQYGCVVPPIHLSSTYNFTGFNEPRAHD----------YSRRGNPTRDVVQRALAELEGGAGAVLTNTGMSAIHLVTTVFLKPGDLLVAPHDCYGGSYRLFDSLAKRGCYRVLFVDQGDEQALRAALAEKPKLVLVESPSNPLLRVVDIAKICHLAREVGAVSVVDNTFLSPALQNPLALGADLVLHSCTKYLNGHSDVVAGVVIAKDPDVVTELAWWANNIGVTGGAFDSYLLLRGLRTLVPRMELAQRNAQAIVKYLQTQPLVKKLYHPSLPENQGHEIAARQQKGFGAMLSFELDGDEQTLRRFLGGLSLFTLAESLGGVESLISHAATMTHAGMAPEARAAAGISETLLRISTGIEDGEDLIADLENGF</Hsp_hseq>
+      <Hsp_midline>T+A+R G    EQ G       L  T +F   N   A D          Y+R  NPT    ++ +A LEG   AV T+TGMSAI      FL+ GD +V+    +G +    +++  +    V  V   D    +AA+    KL+ +E+PSNPL  V D+  +  LA  +GA+ VVDN+ LSP    PL  GAD+ + S TK ++GH  V+ G V+A   +++ ++A + N+ G+    F+++ LL G+ TL  RME    NA  I ++LQ QP V+ +Y+  LP++   E+  +QQ G G ++ FE+  D+    +    + LF+   +LG V S I++  T TH  M PE + AAGI   L+R+S G+E   DLI DL+   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1705787|sp|P55216.1|CGL2_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Putative cystathionine gamma-lyase 2; AltName: Full=Gamma-cystathionase [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>P55216</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>1.8241e-60</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>390</Hsp_align-len>
+      <Hsp_qseq>HPQTLAIRGGKEQTGYREHNQA---LFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNI-VTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGA--LLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRV-MGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGF----EVADQAAAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>HFGTAAIHVGQEPEQW-DMNQVVPPISLSSTYKQDNPGEP--------KGHDYSRAGNPTRDVLQKNLAALEDAKHCQVFSSGLAA-TSAIINLLKYGDHIVCSDDVYGGTQRYIRRVAVPNHGLEVDSVDLTDVQNLEKAIKPNTKMVWFESPSNPLLKVVDIAAVVQTAKKANPEIVVVVDNTFMSPYFQRPISLGADVVVHSITKYINGHSDVVMGAVITDNDEFQQHLFFMQLAVGAVPSPFDCFLVNRGLKTLHIRMRAHYENALAVAKYLEANDRIESVLYPALPSHPQHEVHEKQTKGMSGMISFYLKGELQESRAFLSALKVFTLAESLGGYESLAELPSIMTHASVPAETRIVLGITDNLIRISVGIEDLDDLVADLDQAL</Hsp_hseq>
+      <Hsp_midline>H  T AI  G+E   + + NQ    + L+S++  DN            KG  Y+R  NPT    +K +AALE A+     S+G++A  +A    L+ GDH+V S  ++G T  +I  + V   G+ V  V  TD+   + A+K NTK+++ E+PSNPL +V D+ A+ + A       ++VVDN+ +SP   +P+  GAD+ V S TK I+GH  V MG V+  ++E    +     + G   SPF+ + +  G++TL +RM   ++NAL +A++L+   ++++V Y  LP HPQ E+  KQ  G   +I F    E+ +  A    +++F+   +LG   S    P   TH  +  E ++  GI   L+R+SVG+E + DL+ DL QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1170928|sp|P44502.1|METB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44502</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>5.86604e-60</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>GFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTT-----VGFINNIVTKFGIGVSRVSPTDIN-----EWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGG-VLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQA---AAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALA</Hsp_qseq>
+      <Hsp_hseq>GFDYTRTKNPTRTVLEETIAKLENGDRGFAFSSGMAAIQV-LMTLFTAPDEWIVSSDVYGGTYRLLDFSYKNN---------NSVKPVYVNTASASAIEAAINPNTKAIFIETPSNPLMEECDVVEIAKLAKKHNLMLIVDNTFLTPVLSRPLDLGADVVIHSGTKYIAGHNDALVGLIVAKGQELCDRIAYIQNGAGAVLSPFDSWLTIRGMKTLSLRMKRHQENAQAIAEFLKAQPQVESVLY---------------PNKGGM-LSFRLQDEAWVNTFLKSIKLITFAESLGGTESFITYPATQTHMDIPESERVARGITNTLLRFSVGIEDVEDIKADLLQAFA</Hsp_hseq>
+      <Hsp_midline>GF YTRT NPT    E+ IA LE  +R  A S+GM+AIQ    T   A D  + S  ++G T       + NN         + V P  +N       +AA+  NTK +F+ETPSNPL E  D+  +A+LA     +L+VDN+ L+PV S+PL  GAD+ + S TK I GH   + G ++A  +EL  ++A   N  G  +SPF++W  + G++TLSLRM++  +NA  IA++L+ QPQV++V Y                N GG+ + F + D+A      K ++L +   +LG   S IT P T TH  +   E++A GI   L+R SVG+E V D+  DL QA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|75039975|sp|Q58DW2.1|CGL_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase [Bos taurus]</Hit_def>
+  <Hit_accession>Q58DW2</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.42595e-59</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>GFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIG-ALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRV-MGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVA---DQAAAW-KVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVG</Hsp_qseq>
+      <Hsp_hseq>GFEYSRSGNPTRNCLEKAVAALDGAKYSLAFASGLAAT-VTITHLLKAGDQIICMDDVYGGTNRYFRQVATEFGLKISFVDCSKPKLLEAAITPETKLVWIETPTNPSLKMIDIEACAHTVHKHGDIILVVDNTFMSAYFQRPLSLGADICMYSATKYMNGYSDVVMGLVSLNSESLHDRLRFLQNSLGAVPSPIDCYLCNRGLKTLQVRMEKHFENGMAVAQFLESNPQVEKVIYPGLPSHPQHELAKRQCTGCPGMVTFYIKGSLQHAETFLQNLKLFTLAESLGGYESLAELPAIMTHASVPKSDREVLGISDTLIRLSVG</Hsp_hseq>
+      <Hsp_midline>GF Y+R+ NPT    EK +AAL+GA+ ++A ++G++A        L+AGD ++    ++G T  +   + T+FG+ +S V  +     +AA+   TKL+++ETP+NP  ++ D+EA A   H  G  +LVVDN+ +S    +PL  GADI + SATK ++G+  V MG V   SE L  ++    NS G   SP + +    G++TL +RMEK F+N + +AQ+L+  PQV+ V Y GLP HPQ EL ++Q  G   ++ F +      A  + + ++LF+   +LG   S    P   TH  +   ++   GI   L+RLSVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|527525040|sp|Q1K8G0.1|CBL_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>Q1K8G0</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>1.6398e-59</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>FTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIG--ALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSE-ELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKVVE---LFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>YDYTRSGNPTRTHLERHLAKIMNANRCLSVSSGMGALDV-ITRLLKPGDEVITGDDLYGGTNRLLTYLKNNQGVIVHHVDTTNVESVRQIISPKTTMVLLETPTNPLIKICDIPTIARITHEANEKAVVVVDNTMLSPMLFNPLDVGADIVYESGTKYLSGHHDIMAGVIAVNDTELGDKLYFTINATGCGLSPNDSFLLMRGVKTLAIRMEKQQANAQRIAEFLESHG--FKVRYPGLKSHPQYDLHWSMARGAGAVLSFETGDVALSERIVEAARLWGISVSFGCVNSLISMPCRMSHASIDAKTRAERQMPEDIIRLCVGIEDADDLIDDLSRALVQ</Hsp_hseq>
+      <Hsp_midline>+ YTR+ NPT    E+ +A +  A R ++ S+GM A+       L+ GD V++   L+G T   +  +    G+ V  V  T++   +  +   T ++ LETP+NPL ++ D+  +A + H     A++VVDN++LSP+   PL  GADI   S TK + GH  +M GV+A ++ EL  ++    N+ G  +SP +++ L+ GV+TL++RMEKQ  NA RIA++L+       V Y GL  HPQ +L      G G V+ FE  D A + ++VE   L+  + + G V S I+ P   +H  +  + +    +   ++RL VG+E   DLIDDL +AL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|127027|sp|P06106.3|MET17_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Protein MET17; Includes: RecName: Full=O-acetylhomoserine sulfhydrylase; Short=OAH sulfhydrylase; AltName: Full=Homocysteine synthase; Includes: RecName: Full=O-acetylserine sulfhydrylase; Short=OAS sulfhydrylase [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P06106</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>1.11864e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>HPQTLAIRGGKEQTGYREHNQ---ALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSL-LSPVGSQPLKHGADISVSSATK------------AIDG----------------------HGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQ-QNGGGIVIGFEVADQAAAWKVVELF--------------SRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>HFDTVQLHAGQENPGDNAHRSRAVPIYATTSYVFENSKHGSQLFGLEVPGYVYSRFQNPTSNVLEERIAALEGGAAALAVSSGQAAQTLAIQGLAHTGDNIVSTSYLYGGTYNQFKISFKRFGIEARFVEGDNPEEFEKVFDERTKAVYLETIGNPKYNVPDFEKIVAIAHKHGIPVVVDNTFGAGGYFCQPIKYGADIVTHSATKWIGGHGTTIGGIIVDSGKFPWKDYPEKFPQFSQPAEGYHGTIYNEAYGNLAYIVHVRTELLRDLGPLMNPFASFLLLQGVETLSLRAERHGENALKLAKWLEQSPYVSWVSYPGLASHSHHENAKKYLSNGFGGVLSFGVKDLPNADKETDPFKLSGAQVVDNLKLASNLANVGDAKTLVIAPYFTTHKQLNDKEKLASGVTKDLIRVSVGIEFIDDIIADFQQSF</Hsp_hseq>
+      <Hsp_midline>H  T+ +  G+E  G   H      ++ T+S++++N++H + LF  ++ G+ Y+R  NPT    E+RIAALEG   A+A S+G +A   A       GD++VS+  L+G T         +FGI    V   +  E++      TK ++LET  NP   V D E +  +AH  G  +VVDN+        QP+K+GADI   SATK             +D                       HG +          ++          G  M+PF ++ LL GVETLSLR E+  +NAL++A+WL++ P V  V Y GL  H   E  +K   NG G V+ F V D   A K  + F              S  AN+GD ++ +  P+ TTH ++  +EKLA+G+   L+R+SVG+E++ D+I D +Q+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|399331|sp|P31373.2|CYS3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-lyase; AltName: Full=Gamma-cystathionase; AltName: Full=Sulfur transfer protein 1 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P31373</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>2.42777e-58</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>IKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAEL----AHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLA-GSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWL-QEQPQVQAVYYTGLPDHPQAELIRKQQNG--GGIVIGFEVADQA-AAWKV---VELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>IGTYEYSRSQNPNRENLERAVAALENAQYGLAFSSG-SATTATILQSLPQGSHAVSIGDVYGGTHRYFTKVANAHGVETSFTNDL-LNDLPQLIKENTKLVWIETPTNPTLKVTDIQKVADLIKKHAAGQDVILVVDNTFLSPYISNPLNFGADIVVHSATKYINGHSDVVLGVLATNNKPLYERLQFLQNAIGAIPSPFDAWLTHRGLKTLHLRVRQAALSANKIAEFLAADKENVVAVNYPGLKTHPNYDVVLKQHRDALGGGMISFRIKGGAEAASKFASSTRLFTLAESLGGIESLLEVPAVMTHGGIPKEAREASGVFDDLVRISVGIEDTDDLLEDIKQALKQ</Hsp_hseq>
+      <Hsp_midline>I  + Y+R+ NP     E+ +AALE A+  +A S+G SA  A     L  G H VS   ++G T  +   +    G+  S  +   +N+    +K NTKL+++ETP+NP  +V D++ +A+L    A G   +LVVDN+ LSP  S PL  GADI V SATK I+GH  V+ GVLA  ++ L  ++    N+ G   SPF+AW    G++TL LR+ +   +A +IA++L  ++  V AV Y GL  HP  +++ KQ     GG +I F +   A AA K      LF+   +LG + S +  P   THG +  E + A+G+   LVR+SVG+E   DL++D+KQAL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|75169461|sp|Q9C876.1|CGS2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable cystathionine gamma-synthase 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9C876</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>3.8114e-57</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>TSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKAN-TKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEV-ADQAAAWKVVELFS---RTANLGDVRSTI----TNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>TTTYFFKDTTELIDFKEKRIDLYEYARYGNPTTMALEEKISVLEGAESTLVMASGMYASNVMLLALVPTNGHIVATKDCYKETRIFMENFLTKLGITVTFIDSDDIAGLQTLVNNHEVSLFFTESPTNPFLRCVDIKLVSKICHRRGTLVCIDATIATPINQKTLALGADLVHHSATKYIGGHNDFLAGSISGSMELVSKIRNLHKLLGGTLNPNAAYLLIRGMKTMHLRVRQQNSTGMKMAQVLEAHPKVSRVYYLGLPSHPEHLIAKRQMTGIGGLISFEIDGDLKTTIKFIDALKIPYLAASFGGCESLVDQLATGIWD-----IPREERLKDGFQDNLVRFSFGIEDFEDIKADVLQAL</Hsp_hseq>
+      <Hsp_midline>T+++ + +     D   K+I  + Y R  NPT  A E++I+ LEGAE  +  ++GM A        +    H+V+++  +  T  F+ N +TK GI V+ +   DI   +  V  +   L F E+P+NP     D++ ++++ H  G L+ +D ++ +P+  + L  GAD+   SATK I GH   + G ++GS EL++++       G  ++P  A+ L+ G++T+ LR+ +Q    +++AQ L+  P+V  VYY GLP HP+  + ++Q  G G +I FE+  D     K ++        A+ G   S +    T  W      +  EE+L  G +  LVR S G+E   D+  D+ QAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|140567|sp|P24601.1|METB_HERAU</Hit_id>
+  <Hit_def>RecName: Full=Probable cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase, partial [Herpetosiphon aurantiacus]</Hit_def>
+  <Hit_accession>P24601</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.76886e-56</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>GFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGG-VLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNG-GGIV</Hsp_qseq>
+      <Hsp_hseq>GYEYSRTDNPTRTALQTCLAALEEAKHALVFASGLGA-STTLMLMLKAGDHVICGDDVYGGTYRLFQRVMTEHGLSFDFIDMADPEAVRAAIKPNTRLIWLETPTNPLLKLAPIAAITRVAREHGIWTIVDNTFASPYNQRPITLGADMVLHSTTKYIGGHSDVVGGAIMTSNDELYEKLKFLQNAAGAVPGPFDCWLVLRGVKTLSIRMRDDERNALAIAQFLTEHPGVEKVIYPGLPSHPQHNLAREQMRGFGGMI</Hsp_hseq>
+      <Hsp_midline>G+ Y+RT NPT  A +  +AALE A+ A+  ++G+ A        L+AGDHV+    ++G T      ++T+ G+    +   D    +AA+K NT+L++LETP+NPL ++A + A+  +A   G   +VDN+  SP   +P+  GAD+ + S TK I GH  V+GG ++  ++EL  ++    N+ G    PF+ W +L GV+TLS+RM     NAL IAQ+L E P V+ V Y GLP HPQ  L R+Q  G GG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|212288279|sp|O94350.4|CBL_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O94350</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>5.63864e-56</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>FTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAEL--AHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLA-GSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGL-PDHPQAELIRKQQNGGGIVIGFEVADQAAAWKVV---ELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>FDYTRSGNPTRSVLQVHLAKLMKAKHAFVTSNGMSALDM-ILRCCKSNSHVVAGHDLYGGSDRLLSFNQRQYGFKVDNVDTSDLAAFEAALRPDTNLVLIESPTNPRISICDIRAIVKITRSKAKDALLVMDNTMLSPVLCNPLDFGYDIVYESATKYLSGHHDLMGGVIATKSDEIAKSVFFNINAMGAAMAPFECFLLLRGIKTMGLRVERAQQNAIEIAKFLKSKG--LQVNFPGLDPDAKSTAIFYSFARGPGAVMSVFTGDVEVSKTIVNTTKLFEISVSFGAVNSLISMPAYMSHASIKKEVRDARGLSEDLIRICVGIENVDDLKADLENALAQ</Hsp_hseq>
+      <Hsp_midline>F YTR+ NPT +  +  +A L  A+ A  TS GMSA+        ++  HVV+   L+G +   ++    ++G  V  V  +D+  ++AA++ +T L+ +E+P+NP   + D+ A+ ++  +    ALLV+DN++LSPV   PL  G DI   SATK + GH  +MGGV+A  S+E+   V    N+ G AM+PF  + LL G++T+ LR+E+   NA+ IA++L+ +     V + GL PD     +      G G V+     D   +  +V   +LF  + + G V S I+ P   +H  ++ E + A G+   L+R+ VG+E V DL  DL+ ALA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|12644453|sp|Q59829.2|CYSA_STRCO</Hit_id>
+  <Hit_def>RecName: Full=Putative cystathionine gamma-lyase; AltName: Full=Gamma-cystathionase [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>Q59829</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>1.47778e-47</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>FTYTRTANPTIAAFEKRIAALEG-AERAVAT---STGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEE-LMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKVVE---LFSRTANLGDVRSTITN--PWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>YTYGRDENPTWTRLESAIGELEAPGEAGVETLVFASGMAAISSVLFSQLRAGDTAVLPDDGY-QALPLVRAQLEAYGIEV-RTAPTG-RDAQLDVLDGAKLLWIETPSNPGLDVCDVRRLVEAAHAGGALVAVDNTLATPLGQRPLELGADFSVASGTKQLTGHGDVLLGYVAGRDAGAMAAVRRWRKIVGAIPGPMEAWLAHRSIATLQLRVDRQDSTALKVAEALRTRPEITGLRYPGLPDDPSHKVASQQMLRYGCVVSFTLPSRARADRFLDALRLVEGATSFGGVRSTAERRGRW---GGDAVPE---------GFIRLSVGAEDPDDLVADLLRAL</Hsp_hseq>
+      <Hsp_midline>+TY R  NPT    E  I  LE   E  V T   ++GM+AI +  F+ L+AGD  V     +   +  +   +  +GI V R +PT   + +  V    KLL++ETPSNP  +V D+  L E AH  GAL+ VDN+L +P+G +PL+ GAD SV+S TK + GHG V+ G +AG +   MA V  +    G    P  AW     + TL LR+++Q   AL++A+ L+ +P++  + Y GLPD P  ++  +Q    G V+ F +  +A A + ++   L     + G VRST      W    G   PE         G +RLSVG E   DL+ DL +AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|109940099|sp|Q52811.2|METC_RHIL3</Hit_id>
+  <Hit_def>RecName: Full=Putative cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase; AltName: Full=ORF5 [Rhizobium leguminosarum bv. viciae 3841]</Hit_def>
+  <Hit_accession>Q52811</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.24766e-43</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>NQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQA---------AAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALA</Hsp_qseq>
+      <Hsp_hseq>NPPVVHASTVLFPNAR----AMETRTQKYTYGTRGTPTTDALCEAIDALEGSAGTILVPSGLAAVTIPFLGFVAAGDHALVVDSVYGPTRHFCDTMLKRLGVEVEYYHPEIGAGIETLFRSNTKLVHTEAPGSNTFEMQDIPAISAVAHRHGAVVMMDNTWATPVYFRPLDHGVDISIHASTKYPSGHSDILLGTVSANAEHWERLKEANGVLGICGAPDDAYQILRGLRTMGLRLERHYESALDIAKWLEGRDDVARVLHPALPSFPSHHLWKRDFKGASGIFSFVLAADGPEKSRAKAHAFLDALRIFGLGYSWGGFES------LALHAYLNDRTVAKAPTDGPVIRLQIGIEDVADLKADIERGFA</Hsp_hseq>
+      <Hsp_midline>N  +   S+ ++ NA+        + + +TY     PT  A  + I ALEG+   +   +G++A+   F  F+ AGDH +   S++G T  F + ++ + G+ V    P      +   ++NTKL+  E P +   E+ D+ A++ +AH  GA++++DN+  +PV  +PL HG DIS+ ++TK   GH  ++ G ++ + E   ++       G+  +P +A+Q+L G+ T+ LR+E+ +++AL IA+WL+ +  V  V +  LP  P   L ++   G   +  F +A            A    + +F    + G   S         H  +       A     ++RL +G+E V DL  D+++  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1723943|sp|P53101.1|STR3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase; AltName: Full=Sulfur transfer protein 3 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P53101</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>8.53252e-41</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>QTLAIRGGKEQTGYREHNQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGA--ERAVATSTGMSAIQAAF--FTFLQAGDH----VVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKL--LFLETPSNPLGEVADLEALAELAHGIG--ALLVVDNSLLSPVGSQPLK--HGADISVSSATKAIDGHGRVMGGVL-AGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQE----QP----QVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEV-----ADQAAAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALA</Hsp_qseq>
+      <Hsp_hseq>DTVVVNTGSQNDQHSASVPPVYLSTTF-------KVDLNNEDAQNYDYSRSGNPTRSVLQHQIGKLYRVPQENVLAVSSGMTALDVILRGLVLLNGTDNHTPTIIAGDDLYGGTQRLLNFFKQQSHAVSVHVDTSDFEKFKTVFQSLDKVDCVLLESPTNPLCKVVDIPRILRFVKCISPDTTVVVDNTMMSGLNCNPLQLNPGCDVVYESATKYLNGHHDLMGGVIISKTPEIASKLYFVINSTGAGLSPMDSWLLVRGLKTLGVRLYQQQRNAMILAHWLENSCGFKPTRTNKATKTRFVGLRSNPDFKLHKSFNNGPGAVLSFETGSFEHSKRLVSSKKLSIWAVTVSFGCVNSLLSMPCKMSHASIDPELRKERDFPEDLVRLCCGIENIVDLKKDLLAAMV</Hsp_hseq>
+      <Hsp_midline> T+ +  G +   +      ++L+++F         DL ++  + + Y+R+ NPT +  + +I  L     E  +A S+GM+A+         L   D+    +++   L+G T   +N    +       V  +D  ++K   ++  K+  + LE+P+NPL +V D+  +      I     +VVDN+++S +   PL+   G D+   SATK ++GH  +MGGV+ + + E+ +++    NS G  +SP ++W L+ G++TL +R+ +Q  NA+ +A WL+     +P    +     + GL  +P  +L +   NG G V+ FE      + +  + K + +++ T + G V S ++ P   +H  + PE +        LVRL  G+E + DL  DL  A+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1170930|sp|P44527.1|METC_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44527</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>1.28349e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>MSKKLHPQTLAIRGGKEQTGYR-EHNQALFLTSSFMWDNAQHAADLFSKKIKG-FTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGA--LLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQAAAWKV------VELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPG--------LVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>MQTKYDLSTMFIHSGRQKRFSQGSVNPVLQRASSLLFDSIEDKKHATQRRAKGELFYGRRGTLTHFALQDLMCEMEGGAGCYLYPCGTAAVTNSILSFVKTGDHVLMSGAAYEPTQYFCNIVLKKMQIDITYYDPLIGEDIATLIQPNTKVLFLEAPSSITMEIPDIPTIVKAARKVNPNIVIMIDNTWSAGVLFKALEHDIDISIQAGTKYLVGHSDIMIGTAVANARTWDQLREHSYLMGQMVDADSAYTTARGIRTLGVRLKQHQESSIKVAKWLSEQPEVKTVYHPALPSCPGHEFFLRDFSGSSGLFSFELTQRLTSEQVSKFMDHFQLFAMAYSWGGFESLILCN--------QPEE--IAHIRPNIKRNLTGSLIRVHIGFENVDELIADLKAGFER</Hsp_hseq>
+      <Hsp_midline>M  K    T+ I  G+++   +   N  L   SS ++D+ +       ++ KG   Y R    T  A +  +  +EG         G +A+  +  +F++ GDHV+ S + +  T  F N ++ K  I ++   P    +    ++ NTK+LFLE PS+   E+ D+  + + A  +    ++++DN+  + V  + L+H  DIS+ + TK + GH  +M G    +     Q+  +    G  +   +A+    G+ TL +R+++  ++++++A+WL EQP+V+ VY+  LP  P  E   +  +G   +  FE+  +  + +V       +LF+   + G   S I           QPEE   A IRP         L+R+ +G E V +LI DLK    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|75205145|sp|Q9SGU9.1|MGL_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Methionine gamma-lyase; Short=AtMGL; AltName: Full=L-methioninase [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SGU9</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.31181e-38</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>FTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTK-FGIGVSRVSPTDINEW-KAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSP-FN---AWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQN-----GGGIVIGFEVADQA----AAWKVVELFSRTA-NLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDL</Hsp_qseq>
+      <Hsp_hseq>YVYSRHFNPTVLNLSRQMAALEGTQAAYCTSSGMSAISSVMLQLCSSGGHVVAASTLYGGTHALLSHFLPRTCNITTSFVDITDHGAVANAIVEGRTQVLYFESVANPTLTVADIPELSRMAHEKGVTVVVDNT-FAPMVLSPAKLGADVVVHSISKFISGGADIIAGAVCGSENLVKEMMDLRGGSLMLLGPTMNAKVAFELSERIPHLGLRMREHSHRAQVYAERMRDLG--MKVIYPGLETHPQHKLFKGMVNRDYGYGGLLSIDMETEEKANKLMAYLQNATQFGFMAVSLGYYETLMSCSGSSTSSELDPSQKEAAGISPGLVRMSVG--YVGTL</Hsp_hseq>
+      <Hsp_midline>+ Y+R  NPT+    +++AALEG + A  TS+GMSAI +       +G HVV++ +L+G T   +++ + +   I  S V  TD      A V+  T++L+ E+ +NP   VAD+  L+ +AH  G  +VVDN+  +P+   P K GAD+ V S +K I G   ++ G + GSE L+ ++        + + P  N   A++L   +  L LRM +    A   A+ +++      V Y GL  HPQ +L +   N     GG + I  E  ++A    A  +    F   A +LG   + ++   ++T   + P +K AAGI PGLVR+SVG  YVG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|585479|sp|Q07703.3|METC_BORAV</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase; AltName: Full=Osteotoxin [Bordetella avium]</Hit_def>
+  <Hit_accession>Q07703</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>5.27897e-35</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>TYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVM-GGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNG--GGIVIGFEVADQAAAWKV--VELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>TYGRMGMDTHAALEQVFAELEGGTHCYLASSGLAGISMVFLSLLSAGEHALVADCAYGPVHELHEAVLSRLGIDVTFFDAK--ADLASLVRPTTRLIFAEAPGSLLFEMLDMPALARFAKQHDLILATDNTWGSGYIYRPLTLGAQVSVIAGTKYVGGHSDLMLGAVVTNDEAIAKRLNRTQYALGYSVSADDAWLALRGVRTMPVRMAQHARHALEVCEFLQNRPEVVRLYHPAWPADPGHALWQRDCSGSNGMLAVQLGLSPQAARDFVNALTLFGIGFSWGGFESLVQ---LVTPGELARHQYWQGG-SDALVRLHIGLESPADLIADLAQALDR</Hsp_hseq>
+      <Hsp_midline>TY R    T AA E+  A LEG       S+G++ I   F + L AG+H + +   +G        ++++ GI V+        +  + V+  T+L+F E P + L E+ D+ ALA  A     +L  DN+  S    +PL  GA +SV + TK + GH  +M G V+   E +  ++     + G ++S  +AW  L GV T+ +RM +   +AL + ++LQ +P+V  +Y+   P  P   L ++  +G  G + +   ++ QAA   V  + LF    + G   S +      T G +   +    G    LVRL +GLE   DLI DL QAL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|127031|sp|P06721.1|METC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase MetC; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P06721</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.24296e-31</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>NQALFLTSSFMWDNAQHAADLFSKKIKG-FTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGI--GALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEVADQ------AAAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRP--------GLVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>NSVIQRASSLVFDSVEAKKHATRNRANGELFYGRRGTLTHFSLQQAMCELEGGAGCVLFPCGAAAVANSILAFIEQGDHVLMTNTAYEPSQDFCSKILSKLGVTTSWFDPLIGADIVKHLQPNTKIVFLESPGSITMEVHDVPAIVAAVRSVVPDAIIMIDNTWAAGVLFKALDFGIDVSIQAATKYLVGHSDAMIGTAVCNARCWEQLRENAYLMGQMVDADTAYITSRGLRTLGVRLRQHHESSLKVAEWLAEHPQVARVNHPALPGSKGHEFWKRDFTGSSGLFSFVLKKKLNNEELANYLDNFSLFSMAYSWGGYESLILAN--------QPEH--IAAIRPQGEIDFSGTLIRLHIGLEDVDDLIADLDAGFAR</Hsp_hseq>
+      <Hsp_midline>N  +   SS ++D+ +        +  G   Y R    T  + ++ +  LEG    V    G +A+  +   F++ GDHV+ + + +  +  F + I++K G+  S   P    +    ++ NTK++FLE+P +   EV D+ A+      +   A++++DN+  + V  + L  G D+S+ +ATK + GH   M G    +     Q+       G  +    A+    G+ TL +R+ +  +++L++A+WL E PQV  V +  LP     E  ++   G   +  F +  +      A       LFS   + G   S I           QPE    A IRP         L+RL +GLE V DLI DL    AR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1170931|sp|P43623.1|METC_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Putative cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase; AltName: Full=Increased recombination centers protein 7 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P43623</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>6.06308e-29</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>RGGKEQTGYREHNQALFLTSSFMWDNAQHAADLFSKKIKGFTYTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAEL-IRKQQNGGGI</Hsp_qseq>
+      <Hsp_hseq>RNPDEQSGFV--NPPLYKGSTII---LKKLSDL--EQRKGRFYGTAGSPTIDNLENAWTHLTGGAGTVLSASGLGSISLALLALSKAGDHILMTDSVYVPTRMLCDGLLAKFGVETDYYDPSIGKDIEKLVKPNTTVIFLESPGSGTMEVQDIPALVSVAKKHGIKTILDNTWATPLFFDAHAHGIDISVEAGTKYLGGHSDLLIGLASANEECWPLLRSTYDAMAMLPGAEDCQLALRGMRTLHLRLKEVERKALDLAAWLGNRDEVEKVLHPAFEDCPGHEYWVRDYKGSSGL</Hsp_hseq>
+      <Hsp_midline>R   EQ+G+   N  L+  S+ +    +  +DL  ++ KG  Y    +PTI   E     L G    V +++G+ +I  A     +AGDH++ + S++  T    + ++ KFG+      P+   + +  VK NT ++FLE+P +   EV D+ AL  +A   G   ++DN+  +P+      HG DISV + TK + GH  ++ G+ + +EE    +    ++  +     +    L G+ TL LR+++    AL +A WL  + +V+ V +    D P  E  +R  +   G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|20141509|sp|P18949.2|METC_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P18949</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>2.62721e-28</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>YTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIG--ALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEV------ADQAAAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPG--------LVRLSVGLEYVGDLIDDLKQALAR</Hsp_qseq>
+      <Hsp_hseq>YGRRGTLTHFSLQEAMCELEGGAGCALFPCGAAAVANTILAFVEQGDHILMTNTAYEPSQDFCSKILGKLGVTTSWFDPLIGADITQHIQPNTKVVFLESPGSITMEVHDIPSIVSAVRRVAPEAVIMIDNTWAAGVLFKALEFDIDISIQAGTKYLIGHSDAMVGTAVANARCWEQLRENAYLMGQMLDADTAYMTSRGLRTLGVRLRQHQESSLKIAAWLANHPQVARVNHPALPGSKGHAFWKRDFTGSSGLFSFVLNKKLTEAELSAYLDNFSLFSMAYSWGGYESLIIAN--------QPEQ--IAAIRPAGGVDFTGTLVRVHIGLESVDDLIADLAAGFAR</Hsp_hseq>
+      <Hsp_midline>Y R    T  + ++ +  LEG         G +A+      F++ GDH++ + + +  +  F + I+ K G+  S   P    +    ++ NTK++FLE+P +   EV D+ ++      +   A++++DN+  + V  + L+   DIS+ + TK + GH   M G    +     Q+       G  +    A+    G+ TL +R+ +  +++L+IA WL   PQV  V +  LP        ++   G   +  F +      A+ +A      LFS   + G   S I           QPE+   A IRP         LVR+ +GLE V DLI DL    AR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|731700|sp|P38716.1|YHR2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized trans-sulfuration enzyme YHR112C [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P38716</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.73541e-25</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>YTRTANPTIAAFEKRIAA-LEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMA-QVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQ-----VQAVYYTGLPDHPQAELIRKQQNGG-GIVIGFEVADQAAAWKV---VELFSRTANLGDVRSTI-----TNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>YSRLAHPNSTRLESIFSEILDG--YAVIYSSGLAAFYAAMVHY--NPKKIFIGQSYHG--VRAIANILTR-NYGIEQHPLEDIE--KCASEGD--IVHLESPVNPYGTSSDIESLARRAHAKGALLIVDSTFASPPLQYAWNFGADIVLYSATKYFGGHSDLLSGVLVVKEEATSRQLKDDRIYLGTNVANLESFMLLRSLRTYEMRITKQSENATKLVRFLSDHQSEFDKVLKTIYHSSL---QTEEFVKKQLVGGYGPVFAITLYTKEQCKQLPLKLKYFHHATSLGGIESLVEWRAMTDPY----------------IDQTLIRVSVGCESANDLIKDLASAL</Hsp_hseq>
+      <Hsp_midline>Y+R A+P     E   +  L+G   AV  S+G++A  AA   +      +   +S  G  V  I NI+T+   G+ +    DI   K A + +  ++ LE+P NP G  +D+E+LA  AH  GALL+VD++  SP        GADI + SATK   GH  ++ GVL   EE  + Q+       G  ++   ++ LL  + T  +R+ KQ +NA ++ ++L +        ++ +Y++ L      E ++KQ  GG G V    +  +    ++   ++ F    +LG + S +     T+P+                I   L+R+SVG E   DLI DL  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|31077042|sp|O42851.1|YFHE_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized trans-sulfuration enzyme C23A1.14c [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O42851</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>3.73081e-22</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>YTRTANPTIAAFEKRIAALEGAERAVATSTGMSAIQAAFFTFLQAGDHVVSSRSLFGTTVGFINNIVTKFGIGVSRVS--PTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSE-----ELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQ--------------EQPQVQAVYYTGLPDHPQAELIRKQQNGGGIVIGFEV---ADQAAAWKVVEL--FSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQALA</Hsp_qseq>
+      <Hsp_hseq>YARISGNNVDRAEASLSSVLGAP-SVVYSSGLAAIYG-LLSYLNP-KHIAVHKPGFGGYSGTIQIIAR-----INRLTGLETSFIDGKCDAIGEGDVIWLETPLNPLGIAFDIPFYKELAKKKGAILVVDSTFAPPPIQDALVLGADYVVHSATKYLAGHSDVLAGVTASKDRSKILDLKADRAY----LGTILHPQQAFLLLRSLRTFPLRIAKHSENGFLVAQHLNKLATDEQFATSLGIDSSLILEVYHNSL---QTKEFVAKNLTGGHASC-FSVLLKSDTVAKHLCCELKYFHHATSLGSVESLIE--W-----RRMTDSK----IDPRLVRLSIGIEDAADLIADLNRVFA</Hsp_hseq>
+      <Hsp_midline>Y R +   +   E  ++++ GA  +V  S+G++AI     ++L    H+   +  FG   G I  I       ++R++   T   + K        +++LETP NPLG   D+    ELA   GA+LVVD++   P     L  GAD  V SATK + GH  V+ GV A  +     +L A  A      G  + P  A+ LL  + T  LR+ K  +N   +AQ L               +   +  VY+  L      E + K   GG     F V   +D  A     EL  F    +LG V S I   W     R   + K    I P LVRLS+G+E   DLI DL +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|31076748|sp|Q12198.1|METW_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Putative cystathionine gamma-synthase YLL058W; AltName: Full=O-succinylhomoserine (thiol)-lyase [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q12198</Hit_accession>
+  <Hit_len>575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>4.80585e-11</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>564</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>EKRIAALEG-----AERAVATSTGMSAIQAA--FFTFLQ----AGDHVVSSRS------LFGTTVGFI-------NNIVTKFG------IGVSRVSPTDINEWKAAVKANTKLLFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGG--VLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSL-RMEKQF-DNALRIAQ---------WLQEQPQV-QAVYY---TGLPDHPQAELIRKQQNGGGIVIG---FEVADQAAAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>EKKTPNWEGLNLNPNEDVYLVSSGMSAISTARNLLTFWEEKKNSGDSLNKTTSDQKKKPLLCDTVGIFGFPFKDTQVIMTKFGKCKFFGFGNSR-DVVELQKFLETSKQRILAVFVETPSNPLLNMPDLKKLRSLADQYGFFIVIDDT-IGGLNVDILPY-ADIVSTSLTKLFNGASNVMGGSVVLNPKSSLYPYAREYFRSA-------NFEDLLWCEDAIVLERNSRDFEDRTLRANANTGILLNDLLLPEEGKICKKIYYPTVTSKETFENYESVRNERGGYGCLFSVAFFNEGDAKAFYDSLKVFKGPSN--GTNFTLACPYVHLAHHSELEEVSKFGADPNIIRVSVGLEDIQWLLKVFSSAL</Hsp_hseq>
+      <Hsp_midline>EK+    EG      E     S+GMSAI  A    TF +    +GD +  + S      L   TVG           I+TKFG       G SR    ++ ++    K     +F+ETPSNPL  + DL+ L  LA   G  +V+D++ +  +    L + ADI  +S TK  +G   VMGG  VL     L      Y  S        N   LL   + + L R  + F D  LR             L E+ ++ + +YY   T        E +R ++ G G +     F   D  A +  +++F   +N      T+  P+       + EE    G  P ++R+SVGLE +  L+     AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|167012005|sp|P38675.3|MET7_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=Cystathionine gamma-synthase; AltName: Full=O-succinylhomoserine (thiol)-lyase [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>P38675</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.75633e-10</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>611</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>SPTDINEWKAAVKANTKLL--FLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGG---VLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSLRMEKQFDNALRIAQWLQEQPQVQAVYYTGLPD-HPQAELIRKQQNGGG--IVIGFEVADQAAAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLEYVGDLIDDLKQAL</Hsp_qseq>
+      <Hsp_hseq>SKSDLDDLETRLESGERYLALFCEFPGNPLLTCPDLVRIRELADKYEFAVVVDETIGTFANVNVLQF-ADIVVSSLTKIFSGDCNVMGGGAIFNPNSRYYSALKSFVQQQLEDTYWPEDVIFMERNSRDFVARIDRVNANAEAICRVLQDHPLVKTLYYPKYNDSRANYEAVKLPQGGYGGLISVVLKGKKQAVAFYDAIETAKGPSLG-TNFTLTSPYVLLAHYQELDWAEQYGVDRNLIRISVGLEGTDELINVFTRAL</Hsp_hseq>
+      <Hsp_midline>S +D+++ +  +++  + L  F E P NPL    DL  + ELA      +VVD ++ +      L+  ADI VSS TK   G   VMGG       S    A  +           P +   +         R+++   NA  I + LQ+ P V+ +YY    D     E ++  Q G G  I +  +   QA A+      ++  +LG    T+T+P+       + +     G+   L+R+SVGLE   +LI+   +AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|31076746|sp|O74314.1|MET7_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Probable cystathionine gamma-synthase; AltName: Full=O-succinylhomoserine (thiol)-lyase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O74314</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>2.50497e-08</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>596</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>TGMSAIQAAFFTFLQAGDHVVSSRSL-FGTTVGFINNIVTKFGIGVSRV---SPTDINEWKAAVKANTKL--LFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQ--PLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSL-RMEKQF--------DNALRIAQWLQEQPQVQAVYYTGLPDHPQA-ELIRKQQNG-GGIV-IGFEVADQAAAWKVVELFSRTANLGDVRSTITNPWTTTHGRMQPEEKLAAGIRPGLVRLSVGLE</Hsp_qseq>
+      <Hsp_hseq>TGMSAIYNTHRILRLVLDD--SRKSVCFGFCYVDTLKILQKWGSGCYFYGLGNDEQLDEFEKRLESGEKVMALFCEFPSNPLLNSPDLVRIRKLADSYDFAVVVDETIGNFVNVEVLPL---ADVVVSSLTKIFSGDSNVMGGSM-----VLNPSSRYYSRIKDAMKALYE-DLLYDEDALTLERNSRDFAERSQVINHNAETICNLLYQNPKIKTLYYPKYNTSKEHFEACRRENGGYGGLLSVVFHNPEDARQFYDKIQVAKGPSLG-TNFTLASPYAILAHYQELDWAGENGIDRNLVRVSVGME</Hsp_hseq>
+      <Hsp_midline>TGMSAI           D   S +S+ FG        I+ K+G G       +   ++E++  +++  K+  LF E PSNPL    DL  + +LA      +VVD ++ + V  +  PL   AD+ VSS TK   G   VMGG +     ++   + Y +    AM       LL   + L+L R  + F         NA  I   L + P+++ +YY       +  E  R++  G GG++ + F   + A  +      ++  +LG    T+ +P+       + +     GI   LVR+SVG+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|2500948|sp|Q04533.1|METX_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Putative cystathionine gamma-synthase YML082W; AltName: Full=O-succinylhomoserine (thiol)-lyase [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q04533</Hit_accession>
+  <Hit_len>649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.15002e-07</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>395</Hsp_hit-from>
+      <Hsp_hit-to>630</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>LFLETPSNPLGEVADLEALAELAHGIGALLVVDNSLLSPVGSQPLKHGADISVSSATKAIDGHGRVMGGVLAGSEELMAQVAVYCNSCGLAMSPFNAWQLLSGVETLSL-RMEKQF-DNALRI---AQWLQE---QPQV------QAVYYTGLPDHP---QAELIRKQQNG--GGIV-IGFEVADQAAAWKVVELFSRTANLGDVRSTITNPWT--TTHGRMQPEEKLAAGIRPGLVRLSVGLE</Hsp_qseq>
+      <Hsp_hseq>VFIETPSNPLLKMGNLLELKRLSELFGFFIIIDETVGGIVNIDGLPF-ADIVCSSLTKTFSGDSNVIGGSMV----LNPQSRVYEFASRFMQLEDEYEDLLWCEDAIYLERNSRDFIARTIRINYSTEYLLDKILKPHVGENKLFKKIYYPNLTSKETLTNYDMVRCKKEGGYGGLFSLTFHDEDHAAAFYDNLKLNKGPSLG-TNFTLAFPYTLMTYYHELDMAEKF--GVERNLLRISVGLE</Hsp_hseq>
+      <Hsp_midline>+F+ETPSNPL ++ +L  L  L+   G  +++D ++   V    L   ADI  SS TK   G   V+GG +     L  Q  VY  +            LL   + + L R  + F    +RI    ++L +   +P V      + +YY  L         +++R ++ G  GG+  + F   D AAA+      ++  +LG    T+  P+T  T +  +   EK   G+   L+R+SVGLE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

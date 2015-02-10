@@ -1,0 +1,969 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>21561</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7W1</BlastOutput_query-def>
+  <BlastOutput_query-len>160</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>21561</Iteration_query-ID>
+  <Iteration_query-def>Q5F7W1</Iteration_query-def>
+  <Iteration_query-len>160</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|60416206|sp|P0A0Q7.1|VDLD_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Protein VdlD [Helicobacter pylori 26695] &gt;gi|60416207|sp|P0A0Q8.1|VDLD_HELPJ RecName: Full=Protein VdlD [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>P0A0Q7</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.30647e-49</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREI</Hsp_qseq>
+      <Hsp_hseq>KLLMSYLVVPTTANFNNVMHGGELLNLLDKVAYVCSTRYCAKGTVTLSVDGVTFKYPIPVGNLLTFLASINYVGNTSCEVGIKVLSEDIKTREITHTNSCYFTMVAVENGKPTPMPKYEPKTEVEIRRYEGALKRKEM</Hsp_hseq>
+      <Hsp_midline>+L+MS L++P TANF+  +HGGELL LLD+VAY C++RY     VTLSVD V FK PI +G+L+TF A++NY G TS E+GI+V +++I+T EI HTNSCYFTMVAV++GKP P+P  E  T+ +  RYE A KR+E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|12230706|sp|Q9Z7Q0.1|Y654_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized acyl-CoA thioester hydrolase CPn_0654/CP_0093/CPj0654/CpB0680 [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z7Q0</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>5.76634e-27</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQ</Hsp_qseq>
+      <Hsp_hseq>IFPNDLNANNTVFGGLLMSLLDRLALVVAERHTESVCVTAFVDALRFYAPAYMGENLICKAAVNRTWRTSLEVGVKVWAENIYKQERRHITSAYFTFVAVNEDNQPIPVHQIVPETPEEKRRYNEADRRRQARLE</Hsp_hseq>
+      <Hsp_midline>+ P+  N +  V GG L+ LLD++A   A R++ + CVT  VD + F  P ++G+ +   AAVN T RTS+E+G++V A+NI   E RH  S YFT VAV +D +P+PV  +   T  ++ RY +A +RR+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|12230665|sp|O84540.1|Y535_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized acyl-CoA thioester hydrolase CT_535 [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84540</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.33578e-23</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQ</Hsp_qseq>
+      <Hsp_hseq>IFPNDLNTNNTIFGGLLMSLLDRLALVVAERHCESICVTAFVDAMRFYAPAYMGENLICCASVNRSWRTSLEVGVKVWAENIYKQEHRHITSAYFTFVAVDKNNSPVEVPELIPESQEEIRRFREADQRRALRLK</Hsp_hseq>
+      <Hsp_midline>+ P+  N +  + GG L+ LLD++A   A R+  + CVT  VD + F  P ++G+ +   A+VN + RTS+E+G++V A+NI   E RH  S YFT VAV K+  PV VP L   +  +  R+ +A +RR + L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|12230705|sp|Q9PJK7.1|Y822_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized acyl-CoA thioester hydrolase TC_0822 [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PJK7</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.32418e-23</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQ</Hsp_qseq>
+      <Hsp_hseq>IFPNDLNTNNTIFGGLLMSLLDRLALVVAERHCESICVTALVDAVRFYAPAYMGENLICCASVNRSWRTSLEVGVKVWAENIYKQEQRHITSAYFTFVAVDENNSPVEIPELVPETQEEIRRFHEADQRRASRLK</Hsp_hseq>
+      <Hsp_midline>+ P+  N +  + GG L+ LLD++A   A R+  + CVT  VD V F  P ++G+ +   A+VN + RTS+E+G++V A+NI   E RH  S YFT VAV ++  PV +P L   T  +  R+ +A +RR   L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|25008183|sp|Q8WYK0.1|ACO12_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Acyl-coenzyme A thioesterase 12; Short=Acyl-CoA thioesterase 12; AltName: Full=Acyl-CoA thioester hydrolase 12; AltName: Full=Cytoplasmic acetyl-CoA hydrolase 1; Short=CACH-1; Short=hCACH-1; AltName: Full=START domain-containing protein 15; Short=StARD15 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8WYK0</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>2.54201e-18</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGK-PVPVPPLEILTDRQRCRYEKAKKRREISLQ</Hsp_qseq>
+      <Hsp_hseq>EVVMSQAIQPAHATARGELSAGQLLKWIDTTACLAAEKHAGVSCVTASVDDIQFEETARVGQVITIKAKVTRAFSTSMEISIKVMVQDMLTGIEKLVSVAFSTFVAKPVGKEKIHLKPVTLLTEQDHVEHNLAAERRKVRLQ</Hsp_hseq>
+      <Hsp_midline>E++MS+ + P  A   G +  G+LL  +D  A   A +++G  CVT SVD + F+E   +G ++T  A V     TSMEI I+V  Q++ TG  +  +  + T VA   GK  + + P+ +LT++    +  A +RR++ LQ</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.34601e-15</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>ELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEA---QNIRTGEIRHTNSCYFTMVAVKDGKP-VPVPPLEILTDRQRCRYEKAKKRREISL</Hsp_qseq>
+      <Hsp_hseq>ELVLPPHANHHGNTFGGQIMAWMETVATISASRLCWAHPFLKSVDMFKFRGPSTVGDRLVFTAIVNNTFQTCVEVGVRVEAFDCQEWAEGRGRHINSAFLIYNAADDKENLITFPRIQPISKDDFRRYRGAIARKRIRL</Hsp_hseq>
+      <Hsp_midline>EL++P  AN  GN  GG+++  ++ VA   ASR    +    SVD   F+ P  +GD + F A VN T +T +E+G+RVEA   Q    G  RH NS +    A  D +  +  P ++ ++     RY  A  R+ I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|25008184|sp|Q9DBK0.1|ACO12_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Acyl-coenzyme A thioesterase 12; Short=Acyl-CoA thioesterase 12; AltName: Full=Acyl-CoA thioester hydrolase 12; AltName: Full=Cytoplasmic acetyl-CoA hydrolase 1; Short=CACH-1; Short=mCACH-1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9DBK0</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>9.5837e-18</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>ELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEA---QNIRTGEIRHTNSCYFTMVAVKDG-KPVPVPPLEILTDRQRCRYEKAKKRREISL</Hsp_qseq>
+      <Hsp_hseq>ELVLPPHANHHGNTFGGQIMAWMETVATISASRLCHGHPFLKSVDMFKFRGPSTVGDRLVFSAIVNNTFQNSVEVGVRVEAFDCQEWAEGQGRHINSAFLIYNAVDDQEKLITFPRIQPISKDDFRRYQGAIARRRIRL</Hsp_hseq>
+      <Hsp_midline>EL++P  AN  GN  GG+++  ++ VA   ASR    +    SVD   F+ P  +GD + F A VN T + S+E+G+RVEA   Q    G+ RH NS +    AV D  K +  P ++ ++     RY+ A  RR I L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>6.61545e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGK-PVPVPPLEILTDRQRCRYEKAKKRREISLQ</Hsp_qseq>
+      <Hsp_hseq>EVLMSQAIQPAHADSRGELSAGQLLKWMDTTACLAAEKHAGISCVTASMDDILFEDTARIGQIITIRAKVTRAFSTSMEISIKVIVQDKFTGIQKLLCVAFSTFVAKPVGKEKVHLKPVLLQTEQEQVEHNLASERRKVRLQ</Hsp_hseq>
+      <Hsp_midline>E++MS+ + P  A+  G +  G+LL  +D  A   A +++G  CVT S+D +LF++   IG ++T  A V     TSMEI I+V  Q+  TG  +     + T VA   GK  V + P+ + T++++  +  A +RR++ LQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|85681911|sp|Q64559.4|BACH_RAT</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic acyl coenzyme A thioester hydrolase; AltName: Full=ACH1; AltName: Full=ACT; AltName: Full=Acyl-CoA thioesterase 7; AltName: Full=Brain acyl-CoA hydrolase; Short=BACH; AltName: Full=CTE-IIa; AltName: Full=CTE-IIb; Short=CTE-II; AltName: Full=LACH1; AltName: Full=Long chain acyl-CoA thioester hydrolase; AltName: Full=MTE-II [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q64559</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.86809e-17</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>PSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRY----SGNYCVT--LSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTN--SCYFTMVAVKD-GKPVPVPPLEILTDRQ----RCRYEKAKKRREISLQASGDV</Hsp_qseq>
+      <Hsp_hseq>PGHCIAMGRIMRPDDANVAGNVHGGTILKMIEEAGVIISTRHCNSQNGERCVAALARVERTDFLSPMCIGEVAHVSAEITYTSKHSVEVQVHVLSENILTGTKKLTNKATLWYVPLSLKNVDKVLEVPPIVYLRQEQEEEGRKRYEAQKLERMETKWRNGDI</Hsp_hseq>
+      <Hsp_midline>P H + M  +M PD AN +GNVHGG +L ++++     ++R+    +G  CV     V++  F  P+ IG++    A + YT + S+E+ + V ++NI TG  + TN  + ++  +++K+  K + VPP+  L   Q    R RYE  K  R  +   +GD+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>5.0637e-15</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIR--HTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKR</Hsp_qseq>
+      <Hsp_hseq>LVGPSDCTLHGFVHGGVTMKLMDEVAGIVAARHCKTNIVTASVDAINFHDKIRKGCVITISGRMTFTSNKSMEIEVLVDADPVVDNSQKRYRAASAFFTYVSLNQEGKPLPVPQLVPETEDEKKRFEEGKGR</Hsp_hseq>
+      <Hsp_midline>L+ P      G VHGG  + L+D+VA   A+R+     VT SVD + F + I  G ++T    + +T   SMEI + V+A  +     +     S +FT V++ ++GKP+PVP L   T+ ++ R+E+ K R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|25008181|sp|Q99NB7.1|ACO12_RAT</Hit_id>
+  <Hit_def>RecName: Full=Acyl-coenzyme A thioesterase 12; Short=Acyl-CoA thioesterase 12; AltName: Full=Acyl-CoA thioester hydrolase 12; AltName: Full=Cytoplasmic acetyl-CoA hydrolase 1; Short=CACH-1; Short=rACH; Short=rCACH-1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q99NB7</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>2.64379e-17</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>ELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIR---TGEIRHTNSCYFTMVAVKDGKP-VPVPPLEILTDRQRCRYEKAKKRREISL</Hsp_qseq>
+      <Hsp_hseq>ELVLPPHANHHGNTFGGQIMAWMETVATISASRLCHGHPFLKSVDMFKFRGPSTVGDRLVFNAIVNNTFQNSVEVGVRVEAFDCREWAEGQGRHINSAFLIYNAVDDQEELITFPRIQPISKDDFRRYQGAIARRRIRL</Hsp_hseq>
+      <Hsp_midline>EL++P  AN  GN  GG+++  ++ VA   ASR    +    SVD   F+ P  +GD + F A VN T + S+E+G+RVEA + R    G+ RH NS +    AV D +  +  P ++ ++     RY+ A  RR I L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>9.59754e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGK-PVPVPPLEILTDRQRCRYEKAKKRREISLQ</Hsp_qseq>
+      <Hsp_hseq>EVLMSQAIQPAHADSRGELSAGQLLKWMDTTACLAAEKHAGISCVTASMDDILFEDTARIGQIVTIRAKVTRAFSTSMEISIKVRVQDKFTGIQKLLCVAFSTFVVKPLGKEKVHLKPVLLQTEQEQVEHRLASERRKVRLQ</Hsp_hseq>
+      <Hsp_midline>E++MS+ + P  A+  G +  G+LL  +D  A   A +++G  CVT S+D +LF++   IG +VT  A V     TSMEI I+V  Q+  TG  +     + T V    GK  V + P+ + T++++  +  A +RR++ LQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|28376965|sp|Q91V12.2|BACH_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic acyl coenzyme A thioester hydrolase; AltName: Full=Acyl-CoA thioesterase 7; AltName: Full=Brain acyl-CoA hydrolase; Short=BACH; AltName: Full=CTE-IIa; Short=CTE-II; AltName: Full=Long chain acyl-CoA thioester hydrolase [Mus musculus]</Hit_def>
+  <Hit_accession>Q91V12</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>2.03431e-16</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>HELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRY----SGNYCVT--LSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTN--SCYFTMVAVKD-GKPVPVPPLEILTDRQ----RCRYEKAKKRREISLQASGDV</Hsp_qseq>
+      <Hsp_hseq>HCVTMGRIMRPDDANVAGNVHGGTILKMIEEAGAIISTRHCNSQNGERCVAALARVERTDFLSPMCIGEVAHVSAEITYTSKHSVEVQVHVMSENILTGTKKLTNKATLWYVPLSLKNVDKVLEVPPIVYLRQEQEEEGRKRYEAQKLERMETKWRNGDI</Hsp_hseq>
+      <Hsp_midline>H + M  +M PD AN +GNVHGG +L ++++     ++R+    +G  CV     V++  F  P+ IG++    A + YT + S+E+ + V ++NI TG  + TN  + ++  +++K+  K + VPP+  L   Q    R RYE  K  R  +   +GD+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>4.45518e-15</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIR--HTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKR</Hsp_qseq>
+      <Hsp_hseq>LVGPSDCTLHGFVHGGVTMKLMDEVAGIVAARHCKTNIVTASVDAINFHDKIRKGCVITISGRMTFTSNKSMEIEVLVDADPVVDNSQKRYRAASAFFTYVSLNQEGKPMPVPQLVPETEDEKKRFEEGKGR</Hsp_hseq>
+      <Hsp_midline>L+ P      G VHGG  + L+D+VA   A+R+     VT SVD + F + I  G ++T    + +T   SMEI + V+A  +     +     S +FT V++ ++GKP+PVP L   T+ ++ R+E+ K R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|21362997|sp|Q8VHQ9.1|ACO11_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Acyl-coenzyme A thioesterase 11; Short=Acyl-CoA thioesterase 11; AltName: Full=Acyl-CoA thioester hydrolase 11; AltName: Full=Adipose-associated thioesterase; AltName: Full=Brown fat-inducible thioesterase; Short=BFIT [Mus musculus]</Hit_def>
+  <Hit_accession>Q8VHQ9</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.20491e-15</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>ELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEA--QNIRTGEIRHTNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSC</Hsp_qseq>
+      <Hsp_hseq>ELVLPPHANHQGNTFGGQIMAWMENVATIAASRLCHAHPTLKAIEMFHFRGPSQVGDRLVLKAIVNNAFKHSMEVGVCVEAYRQEAET-QRRHINSAFMTFVVLDKDDQPQKLPWIRPQPGEGERRYREASARKKIRLDRKYLVSC</Hsp_hseq>
+      <Hsp_midline>EL++P  AN  GN  GG+++  ++ VA   ASR    +    +++   F+ P  +GD +   A VN   + SME+G+ VEA  Q   T + RH NS + T V + KD +P  +P +         RY +A  R++I L     VSC</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>2.60006e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISL</Hsp_qseq>
+      <Hsp_hseq>EVQMSQLVLPCHTNHRGELSIGQLLKWIDTTACLSAERHAGCPCVTASMDDIYFDHTISVGQVVNIKAKVNRAFNSSMEVGIQVVSEDLCSEKQWSVCKALATFVAHRELSKVKLKQVIPLTEEEKTEHGVAAERRRMRL</Hsp_hseq>
+      <Hsp_midline>E+ MS+L++P   N  G +  G+LL  +D  A   A R++G  CVT S+D + F   I +G +V   A VN    +SME+GI+V ++++ + +         T VA ++   V +  +  LT+ ++  +  A +RR + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|12230664|sp|O66120.1|Y511_ZYMMO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized acyl-CoA thioester hydrolase ZMO0511 [Zymomonas mobilis subsp. mobilis ZM4 = ATCC 31821]</Hit_def>
+  <Hit_accession>O66120</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.15921e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>PSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRH------TNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKK</Hsp_qseq>
+      <Hsp_hseq>PAGEPAIRVIAMPANTNADGRMFGGWLMGMLDQAAGLVAARHALARVVTVAADSITFHAPVQVGDELSLYARLVKVGRTSMKI----EVEGWR--RVRHELETIKAISGLFTFVAIDEDRRPCQVPPM----NETRLLSDKADK</Hsp_hseq>
+      <Hsp_midline>P+ E  +  + MP   N  G + GG L+ +LDQ A   A+R++    VT++ D + F  P+ +GD ++ YA +   GRTSM+I    E +  R   +RH        S  FT VA+ +D +P  VPP+    +  R   +KA K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|28381347|sp|O00154.3|BACH_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic acyl coenzyme A thioester hydrolase; AltName: Full=Acyl-CoA thioesterase 7; AltName: Full=Brain acyl-CoA hydrolase; Short=BACH; AltName: Full=CTE-IIa; Short=CTE-II; AltName: Full=Long chain acyl-CoA thioester hydrolase [Homo sapiens]</Hit_def>
+  <Hit_accession>O00154</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.14671e-14</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>PSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRY----SGNYCVT--LSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTN--SCYFTMVAVKD-GKPVPVPPLEILTDRQ----RCRYEKAKKRREISLQASGDV</Hsp_qseq>
+      <Hsp_hseq>PCGACITGRIMRPDDANVAGNVHGGTILKMIEEAGAIISTRHCNSQNGERCVAALARVERTDFLSPMCIGEVAHVSAEITYTSKHSVEVQVNVMSENILTGAKKLTNKATLWYVPLSLKNVDKVLEVPPVVYSRQEQEEEGRKRYEAQKLERMETKWRNGDI</Hsp_hseq>
+      <Hsp_midline>P    I   +M PD AN +GNVHGG +L ++++     ++R+    +G  CV     V++  F  P+ IG++    A + YT + S+E+ + V ++NI TG  + TN  + ++  +++K+  K + VPP+      Q    R RYE  K  R  +   +GD+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.63667e-13</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQN-IRTGEIRH-TNSCYFTMVAV-KDGKPVPVPPLEILTDRQRCRYEKAKKR</Hsp_qseq>
+      <Hsp_hseq>LVGPSDCTLHGFVHGGVTMKLMDEVAGIVAARHCKTNIVTASVDAINFHDKIRKGCVITISGRMTFTSNKSMEIEVLVDADPVVDSSQKRYRAASAFFTYVSLSQEGRSLPVPQLVPETEDEKKRFEEGKGR</Hsp_hseq>
+      <Hsp_midline>L+ P      G VHGG  + L+D+VA   A+R+     VT SVD + F + I  G ++T    + +T   SMEI + V+A   + + + R+   S +FT V++ ++G+ +PVP L   T+ ++ R+E+ K R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|21363000|sp|Q8WXI4.1|ACO11_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Acyl-coenzyme A thioesterase 11; Short=Acyl-CoA thioesterase 11; AltName: Full=Acyl-CoA thioester hydrolase 11; AltName: Full=Adipose-associated thioesterase; AltName: Full=Brown fat-inducible thioesterase; Short=BFIT [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8WXI4</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>2.13716e-14</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>ELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEA--QNIRTGEIRHTNSCYFTMVAVK-DGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGDVSC</Hsp_qseq>
+      <Hsp_hseq>ELVLPPHANHQGNTFGGQIMAWMENVATIAASRLCRAHPTLKAIEMFHFRGPSQVGDRLVLKAIVNNAFKHSMEVGVCVEAYRQEAETHR-RHINSAFMTFVVLDADDQPQLLPWIRPQPGDGERRYREASARKKIRLDRKYIVSC</Hsp_hseq>
+      <Hsp_midline>EL++P  AN  GN  GG+++  ++ VA   ASR    +    +++   F+ P  +GD +   A VN   + SME+G+ VEA  Q   T   RH NS + T V +  D +P  +P +         RY +A  R++I L     VSC</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.2491e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISL</Hsp_qseq>
+      <Hsp_hseq>EVQMSQLVLPCHTNQRGELSVGQLLKWIDTTACLSAERHAGCPCVTASMDDIYFEHTISVGQVVNIKAKVNRAFNSSMEVGIQVASEDLCSEKQWNVCKALATFVARREITKVKLKQITPRTEEEKMEHSVAAERRRMRL</Hsp_hseq>
+      <Hsp_midline>E+ MS+L++P   N  G +  G+LL  +D  A   A R++G  CVT S+D + F+  I +G +V   A VN    +SME+GI+V ++++ + +  +      T VA ++   V +  +   T+ ++  +  A +RR + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|60416299|sp|P0A1A1.1|YCIA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Acyl-CoA thioester hydrolase YciA [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|60416300|sp|P0A1A2.1|YCIA_SALTI RecName: Full=Acyl-CoA thioester hydrolase YciA [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P0A1A1</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>3.54483e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRT---GEIRHTNSCYFTMVAVK-DGKPVPVP</Hsp_qseq>
+      <Hsp_hseq>MTTMDNTPQGELVLRTLAMPADTNANGDIFGGWLMSQMDIGGAILAKEIAHGRVVTVRVEGMTFLRPVAVGDVVCCYARCVKRGTTSISINIEVWVKKVASEPIGQRYKATEALFIYVAVDPDGKPRPLP</Hsp_hseq>
+      <Hsp_midline>MT     P  EL++  L MP   N +G++ GG L+  +D      A   +    VT+ V+ + F  P+ +GD+V  YA     G TS+ I I V  + + +   G+        F  VAV  DGKP P+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|12644598|sp|P57362.1|Y274_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized acyl-CoA thioester hydrolase BU274 [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57362</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.74244e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRT---GEIRHTNSCYFTMVAV-KDGKPVPVPPLEIL</Hsp_qseq>
+      <Hsp_hseq>MSEKNKLPKGIIVLKTLSMPENINANGDIFGGWIMSQMDLGGAILAKEISGGKVATVRVDSINFLKSVSVGDIVNCYANCIKIGKSSIKINVEIWIKKIYSKPLGQYYCAAEAIFIYVAINKTGQPRELLPMSII</Hsp_hseq>
+      <Hsp_midline>M+++ +LP   +++  L MP+  N +G++ GG ++  +D      A   SG    T+ VD + F + + +GD+V  YA     G++S++I + +  + I +   G+        F  VA+ K G+P  + P+ I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|22654297|sp|P42398.3|Y263_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized acyl-CoA thioester hydrolase BUsg_263 [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>P42398</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>2.69815e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRT---GEIRHTNSCYFTMVAVKD-GKPVPVPPLEIL</Hsp_qseq>
+      <Hsp_hseq>MPKKNKLPQGTIVLKTLTMRSDTNANGDIFGGWIMSQMDMGGAILAKEIAGGRVVTVQVNGITFFKPVSVGDIVSCYAHCIKTGNSSITINLEVWIKKIYSKPLGQFYCAAEAIFIYVAIDETGKPRELLPMSII</Hsp_hseq>
+      <Hsp_midline>M ++ +LP   +++  L M    N +G++ GG ++  +D      A   +G   VT+ V+ + F +P+ +GD+V+ YA    TG +S+ I + V  + I +   G+        F  VA+ + GKP  + P+ I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|32363302|sp|Q89AL4.1|Y254_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized acyl-CoA thioester hydrolase bbp_254 [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AL4</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>1.89722e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRT---GEIRHTNSCYFTMVAVKD-GKPVPVPPLEIL</Hsp_qseq>
+      <Hsp_hseq>MNIKNQKPKGKMVLRTLAMPADTNANGDIFGGWIMSQMDIGGAILAKEIARGRVVTVSVNGMTFLKSVSVGDVVSCYAHCIRTGNTSITIKIEVWIKKVSSEPLGKFYCTTEAIFVYVAVDEFGQPKTLLPFSII</Hsp_hseq>
+      <Hsp_midline>M  + Q P  ++++  L MP   N +G++ GG ++  +D      A   +    VT+SV+ + F + + +GD+V+ YA    TG TS+ I I V  + + +   G+   T    F  VAV + G+P  + P  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|68066504|sp|P0A8Z0.1|YCIA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Acyl-CoA thioester hydrolase YciA; AltName: Full=Protein P14 [Escherichia coli K-12] &gt;gi|68066507|sp|P0A8Z1.1|YCIA_ECOL6 RecName: Full=Acyl-CoA thioester hydrolase YciA [Escherichia coli CFT073] &gt;gi|68066508|sp|P0A8Z2.1|YCIA_SHIFL RecName: Full=Acyl-CoA thioester hydrolase YciA [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0A8Z0</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>6.74668e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>MTQQRQLPSHELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRT---GEIRHTNSCYFTMVAVK-DGKPVPVP</Hsp_qseq>
+      <Hsp_hseq>MSTTHNVPQGDLVLRTLAMPADTNANGDIFGGWLMSQMDIGGAILAKEIAHGRVVTVRVEGMTFLRPVAVGDVVCCYARCVQKGTTSVSINIEVWVKKVASEPIGQRYKATEALFKYVAVDPEGKPRALP</Hsp_hseq>
+      <Hsp_midline>M+    +P  +L++  L MP   N +G++ GG L+  +D      A   +    VT+ V+ + F  P+ +GD+V  YA     G TS+ I I V  + + +   G+        F  VAV  +GKP  +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1175670|sp|P44886.1|Y827_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized acyl-CoA thioester hydrolase HI_0827 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44886</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.10668e-09</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>LIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRT---GEIRHTNSCYFTMVAV-KDGKPVPVP</Hsp_qseq>
+      <Hsp_hseq>LLLRTLAMPSDTNANGDIFGGWIMSQMDMGGAILAKEIAHGRVVTVAVESMNFIKPISVGDVVCCYGQCLKVGRSSIKIKVEVWVKKVASEPIGERYCVTDAVFTFVAVDNNGRSRTIP</Hsp_hseq>
+      <Hsp_midline>L++  L MP   N +G++ GG ++  +D      A   +    VT++V+ + F +PI +GD+V  Y      GR+S++I + V  + + +   GE        FT VAV  +G+   +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|45645018|sp|P49851.2|YKHA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized acyl-CoA thioester hydrolase YkhA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P49851</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.3295e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>ELIMSELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAV-KDGK</Hsp_qseq>
+      <Hsp_hseq>KVVKTSRVFPLDTNNHNTLFGGKLMSYIDDIASISAARHCRRETVTASMDSVDFLKPIGQKDSVCLESYVTWVGTSSMEVFVKVIKEHLMTGERELAATSFLTFVALDSNGK</Hsp_hseq>
+      <Hsp_midline>+++ +  + P   N    + GG+L+  +D +A   A+R+     VT S+D V F +PI   D V   + V + G +SME+ ++V  +++ TGE     + + T VA+  +GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|224471815|sp|Q9Y305.2|ACOT9_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Acyl-coenzyme A thioesterase 9, mitochondrial; Short=Acyl-CoA thioesterase 9; AltName: Full=Acyl-CoA thioester hydrolase 9; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9Y305</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.67371e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QQRQLPSHELIMS-------ELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKD</Hsp_qseq>
+      <Hsp_hseq>RSRVLPSNAVWMENSKLKSLEICHPQERNIFNRIFGGFLMRKAYELAWATACSFGGSRPFVVAVDDIMFQKPVEVGSLLFLSSQVCFTQNNYIQVRVHSEVASLQEKQHTTTNVFHFTFMSEKE</Hsp_hseq>
+      <Hsp_midline>+ R LPS+ + M        E+  P   N    + GG L+    ++A++ A  + G+    ++VD ++F++P+ +G L+   + V +T    +++ +  E  +++  +   TN  +FT ++ K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|12643842|sp|Q9R0X4.1|ACOT9_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Acyl-coenzyme A thioesterase 9, mitochondrial; Short=Acyl-CoA thioesterase 9; AltName: Full=Acyl coenzyme A thioester hydrolase 2; Short=MTE-2; AltName: Full=Acyl-CoA thioester hydrolase 9; AltName: Full=Mitochondrial 48 kDa acyl-CoA thioester hydrolase 1; Short=Mt-ACT48.1; AltName: Full=Protein U8; AltName: Full=p48; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9R0X4</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>7.62321e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QQRQLPSHELIMSELMM-------PDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKD</Hsp_qseq>
+      <Hsp_hseq>QSRILPPKAVWMEDTKLKSLDICHPQERNVFNRIFGGFLMRKAYELAWATACSFGGSRPYVVTVDDIMFQKPVEVGSLLFLSSQVCFTQDNYIQVRVHSEVSSLDSREHMTTNVFHFTFMSEKE</Hsp_hseq>
+      <Hsp_midline>Q R LP   + M +  +       P   N    + GG L+    ++A++ A  + G+    ++VD ++F++P+ +G L+   + V +T    +++ +  E  ++ + E   TN  +FT ++ K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|122140077|sp|Q3SWX2.1|ACOT9_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Acyl-coenzyme A thioesterase 9, mitochondrial; Short=Acyl-CoA thioesterase 9; AltName: Full=Acyl-CoA thioester hydrolase 9; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q3SWX2</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.27118e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QQRQLPSHELIMS-------ELMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKD</Hsp_qseq>
+      <Hsp_hseq>RSRVLPANSVWMENSKLKSLDICHPQERNIFNRIFGGFLMRKAYELGWATACNFGGSRPFIVAVDDIMFQKPVEVGSLLFLSAQVCFTQGNYIQVRVHSEVASLQDKEHMTTNVFHFTFMSEKE</Hsp_hseq>
+      <Hsp_midline>+ R LP++ + M        ++  P   N    + GG L+    ++ ++ A  + G+    ++VD ++F++P+ +G L+   A V +T    +++ +  E  +++  E   TN  +FT ++ K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123780024|sp|Q32MW3.1|ACO10_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Acyl-coenzyme A thioesterase 10, mitochondrial; Short=Acyl-CoA thioesterase 10; AltName: Full=Mitochondrial 48 kDa acyl-CoA thioester hydrolase 2; Short=Mt-ACT48.2; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q32MW3</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.78396e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QQRQLPSHELIMSELMM-------PDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKD</Hsp_qseq>
+      <Hsp_hseq>QSRILPPKAVWMEDTKLKSLDICHPQERNVFNRIFGGFLMRKAYELAWATACSFGGSRPYVVTVDDIMFQKPVEVGSLLFLSSQVCFTQGNYIQVRVHSEVFSLDSREHMTTNVFHFTFMSEKE</Hsp_hseq>
+      <Hsp_midline>Q R LP   + M +  +       P   N    + GG L+    ++A++ A  + G+    ++VD ++F++P+ +G L+   + V +T    +++ +  E  ++ + E   TN  +FT ++ K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|74712081|sp|Q6ZUV0.1|BACHL_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative cytosolic acyl coenzyme A thioester hydrolase-like; AltName: Full=Acyl-CoA thioesterase 7-like [Homo sapiens]</Hit_def>
+  <Hit_accession>Q6ZUV0</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0102964</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LMMPDTANFSGNVHGGELLLLLDQVAYSCASRYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEA</Hsp_qseq>
+      <Hsp_hseq>LVGPSDCTLHSFVHEGVTMKVMDEVAGILAARHCKTNLVTASMEAINFDNKIRKGCIKTISGRMTFTSNKSVEIEVLVDA</Hsp_hseq>
+      <Hsp_midline>L+ P        VH G  + ++D+VA   A+R+     VT S++ + F   I  G + T    + +T   S+EI + V+A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0437793</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>SGNYCVTL--SVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSC---YFTMVAVKDGKPVPVPPLEILTDRQ----RCRYEKAKKRREISLQASGDV</Hsp_qseq>
+      <Hsp_hseq>NGDRCVAALARVECTHFLWPMCIGEVAHVSAEITYTSKHSVEVQVNMMSENILTGAKKLTNKATLWYAPLSLTNVDKVLEEPPVVYFRQEQEEEGQKRYKTQKLERMETNWRNGDI</Hsp_hseq>
+      <Hsp_midline>+G+ CV     V+   F  P+ IG++    A + YT + S+E+ + + ++NI TG  + TN     Y  +      K +  PP+      Q    + RY+  K  R  +   +GD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|238687135|sp|A9BDF0.1|SYR_PROM4</Hit_id>
+  <Hit_def>RecName: Full=Arginine--tRNA ligase; AltName: Full=Arginyl-tRNA synthetase; Short=ArgRS [Prochlorococcus marinus str. MIT 9211]</Hit_def>
+  <Hit_accession>A9BDF0</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.12674</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>IHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRHTNSCYFTMVAVKDGKPVPVPPLEILTDRQRCRYEKAKKRREISLQASGD</Hsp_qseq>
+      <Hsp_hseq>INLGDLVKFYR----------------QAKKLFDEDETFQDASREEVVRLQNGDPQSLKAWQLLCDQSRIEFEKIYKRLDIHITERGE</Hsp_hseq>
+      <Hsp_midline>I++GDLV FY                 +A+ +   +    ++    +V +++G P  +   ++L D+ R  +EK  KR +I +   G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|57012917|sp|Q19269.2|NAS14_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Zinc metalloproteinase nas-14; AltName: Full=Nematode astacin 14; Flags: Precursor [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q19269</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.55546</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>QVAYSCAS---RYSGNYCVTLSVDKVLFKEPIHIGDLVTFYAAVNYTGRTSMEIGIRVEAQNIRTGEIRH</Hsp_qseq>
+      <Hsp_hseq>NVAFGCSSYVGRAGGNQTVSLEVDKC-FSKGIIAHELMHALGFFHEHSRTDRDDFVDINEDNIRPGMMRN</Hsp_hseq>
+      <Hsp_midline> VA+ C+S   R  GN  V+L VDK  F + I   +L+      +   RT  +  + +   NIR G +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

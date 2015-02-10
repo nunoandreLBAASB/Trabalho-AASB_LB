@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_22829</BlastOutput_query-ID>
+  <BlastOutput_query-def>YP_008914853.1 opacity protein [Neisseria gonorrhoeae FA 1090]</BlastOutput_query-def>
+  <BlastOutput_query-len>229</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_22829</Iteration_query-ID>
+  <Iteration_query-def>YP_008914853.1 opacity protein [Neisseria gonorrhoeae FA 1090]</Iteration_query-def>
+  <Iteration_query-len>229</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|662021669|ref|WP_030003514.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria gonorrhoeae] &gt;gi|651851644|ref|YP_008914853.1| opacity protein [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>WP_030003514</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.093</Hsp_bit-score>
+      <Hsp_score>1224</Hsp_score>
+      <Hsp_evalue>1.63032e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489802620|ref|WP_003706501.1|</Hit_id>
+  <Hit_def>opacity protein opA66 [Neisseria gonorrhoeae] &gt;gi|291610227|gb|EFF39340.1| opacity protein opA66 [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>WP_003706501</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>1.12373e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTK--KVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNIKNVRIHASNGNRID----LKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTGFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSVN K  +++ + G +I+    LK ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT FLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|662021668|ref|WP_030003513.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria gonorrhoeae] &gt;gi|651851643|ref|YP_008914852.1| opacity protein [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>WP_030003513</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>2.02109e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKK-DKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAYEHITRDYPDAAGANQGKKISTVSDYFKNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKEL-ENKNQN---KRDLKTENQENGSFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGIGFDITPKLTLDTGYRYHNWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYA E IT DYP+  G  +  KISTVSDYF+NIRTHSIHPRVSVGYDFGGWRIAADYARYRKWN++KYSV+ K++ ENK +     + LK ENQENG+FHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAG+GFDITP LTLD GYRYHNWGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|488176267|ref|WP_002247475.1|</Hit_id>
+  <Hit_def>outer membrane protein P.IIC [Neisseria meningitidis] &gt;gi|432220993|gb|ELK76809.1| outer membrane protein P.IIC [Neisseria meningitidis 97014]</Hit_def>
+  <Hit_accession>WP_002247475</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>6.03018e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPKPTGTDKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGSFHAASSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSSHAPGTAPTIYNQGSTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYP+PTGT KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYA YRKWNN+KYSVNTK++ ENK    N  + LK ENQENG+FHA SSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT++   G APT+YN GSTQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488162368|ref|WP_002233576.1|</Hit_id>
+  <Hit_def>outer membrane protein [Neisseria meningitidis] &gt;gi|402321140|gb|EJU56619.1| outer membrane protein [Neisseria meningitidis 93004]</Hit_def>
+  <Hit_accession>WP_002233576</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.963</Hsp_bit-score>
+      <Hsp_score>1003</Hsp_score>
+      <Hsp_evalue>5.78806e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPKPTGTDKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGSFHAASSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSSHAPGTAPTIYNQGSTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYP+PTGT KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYA YRKWNN+KYSVNTK++ ENK    N  + LK ENQENG+FHA SSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT++   G APT+YN GSTQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|488174245|ref|WP_002245453.1|</Hit_id>
+  <Hit_def>outer membrane protein P.IIC [Neisseria meningitidis] &gt;gi|432210654|gb|ELK66610.1| outer membrane protein P.IIC [Neisseria meningitidis 97021] &gt;gi|432212261|gb|ELK68203.1| outer membrane protein P.IIC [Neisseria meningitidis 97021]</Hit_def>
+  <Hit_accession>WP_002245453</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.578</Hsp_bit-score>
+      <Hsp_score>1002</Hsp_score>
+      <Hsp_evalue>7.28071e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPKPTGTDKDKISTVSDYFRNIRAHSIHPRVSVGYDFGDWRIAADYASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGSFHAASSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSSHAPGTAPTIYNQGSTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYP+PTGT KDKISTVSDYFRNIR HSIHPRVSVGYDFG WRIAADYA YRKWNN+KYSVNTK++ ENK    N  + LK ENQENG+FHA SSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT++   G APT+YN GSTQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|728044922|ref|WP_033910794.1|</Hit_id>
+  <Hit_def>Opacity protein opA54 [Neisseria gonorrhoeae] &gt;gi|654606330|gb|KEC86893.1| Opacity protein opA54 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_033910794</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.578</Hsp_bit-score>
+      <Hsp_score>1002</Hsp_score>
+      <Hsp_evalue>7.44154e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKK---VNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPEPTAQKKGTISTVSDYFRNIRTHSIHPRVSVGYDFGSWRIAADYARYRKWNNNKYSVNIEKGQEVHKNRRDR-------KTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKATEFLTVPHGPGTTPTVYPGKNTQDAHRESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYPEPT  KK  ISTVSDYFRNIRTHSIHPRVSVGYDFG WRIAADYARYRKWNN+KYSVN +K   V++N+ ++       K ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKK TEFLT     G  PTVY   +TQDAH+ESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|325128693|gb|EGC51559.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria meningitidis N1568]</Hit_def>
+  <Hit_accession>EGC51559</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.963</Hsp_bit-score>
+      <Hsp_score>1003</Hsp_score>
+      <Hsp_evalue>1.35663e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHDYPKPTGTDKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGTFHAVSSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSTHAPSTAPTIYNQGSTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITHDYP+PTGT KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYA YRKWNN+KYSVNTK++ ENK    N  + LK ENQENGTFHAVSSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT+      APT+YN GSTQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488176026|ref|WP_002247234.1|</Hit_id>
+  <Hit_def>outer membrane protein P.IIC [Neisseria meningitidis] &gt;gi|432217433|gb|ELK73301.1| outer membrane protein P.IIC [Neisseria meningitidis 2006087] &gt;gi|432221712|gb|ELK77517.1| outer membrane protein P.IIC [Neisseria meningitidis 2002038]</Hit_def>
+  <Hit_accession>WP_002247234</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>6.76203e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPKPTGTDKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGTFHAVSSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSTHTPSTAPTIYNGKSTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYP+PTGT KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYA YRKWNN+KYSVNTK++ ENK    N  + LK ENQENGTFHAVSSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT+      APT+YN  STQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|501495157|ref|WP_012503526.1|</Hit_id>
+  <Hit_def>outer membrane protein [Neisseria gonorrhoeae] &gt;gi|194098316|ref|YP_002001374.1| outer membrane protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|193933606|gb|ACF29430.1| outer membrane protein [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>WP_012503526</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.882</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>1.15022e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTK--KVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVY-NNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPEPTAPGKNKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVDIENVQIREDNGNRID----RKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVSYGHVRHSIDSTKKTTEFVTSAGAPGGAPTVYPPHKNTQDDHREGNSIRRVGLGVIAGVGFDITPKLTLDAGYRYHNWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYPEPT   K+KISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSV+ +  ++ E+ G +I+     K ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARV+YGHVRHSIDSTKKTTEF+T+AG  GGAPTVY  + +TQD H+E +SIRRVGLGVIAGVGFDITP LTLDAGYRYHNWGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|485391819|gb|EOC50366.1|</Hit_id>
+  <Hit_def>outer membrane protein P.IIC, partial [Neisseria meningitidis 2005172]</Hit_def>
+  <Hit_accession>EOC50366</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>1.728e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHDYPKPTGTDKDKISTVSDYFRNIRAHSIHPRVSVGYDFGDWRIAADYASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGSFHAASSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSSHAPGTAPTIYNQGSTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITHDYP+PTGT KDKISTVSDYFRNIR HSIHPRVSVGYDFG WRIAADYA YRKWNN+KYSVNTK++ ENK    N  + LK ENQENG+FHA SSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT++   G APT+YN GSTQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|485393488|gb|EOC51915.1|</Hit_id>
+  <Hit_def>outer membrane protein P.IIC, partial [Neisseria meningitidis 2008223]</Hit_def>
+  <Hit_accession>EOC51915</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>4.7077e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHDYPKPTGTDKDKISTVSDYFRNIRAHSIHPRVSVGYDFGDWRIAADYASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGSFHAASSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSSHAPGTAPTIYNQGSTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITHDYP+PTGT KDKISTVSDYFRNIR HSIHPRVSVGYDFG WRIAADYA YRKWNN+KYSVNTK++ ENK    N  + LK ENQENG+FHA SSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT++   G APT+YN GSTQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|535358|gb|AAA74082.1|</Hit_id>
+  <Hit_def>Opa15063G [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>AAA74082</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.497</Hsp_bit-score>
+      <Hsp_score>994</Hsp_score>
+      <Hsp_evalue>1.04934e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGS-TQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAFAAERITHDYPEPTGTKKGTISTVSDYFRNIRTHSVHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNIERVQEAHSNRID----LKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTKILTSFYGVATKPTTYDIGPKTQDAHQESNSIRRVGLGVIAGVGFDITPKLTLDTGYRYHYWGRLENTRFKTHEASLGMRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLA+AAERITHDYPEPTGTKK  ISTVSDYFRNIRTHS+HPRVSVGYDFGGWRIAADYARYRKWNN+KYSVN ++V E    +I+    LKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT+ LT+       PT Y+ G  TQDAHQES+SIRRVGLGVIAGVGFDITP LTLD GYRYH WGRLENTRFKTHEASLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|488151422|ref|WP_002222630.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria meningitidis] &gt;gi|385851418|ref|YP_005897933.1| opacity protein [Neisseria meningitidis M04-240196] &gt;gi|325134070|gb|EGC56724.1| opacity protein [Neisseria meningitidis M13399] &gt;gi|325144281|gb|EGC66586.1| opacity protein [Neisseria meningitidis M01-240013] &gt;gi|325206241|gb|ADZ01694.1| opacity protein [Neisseria meningitidis M04-240196]</Hit_def>
+  <Hit_accession>WP_002222630</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>2.30909e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGA---PTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPKATGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYASYRKWNNNKYSVNTKKVQENQGTRKD----LKTENQENGSFHAASSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVVTST--HGGADTKPTIYNGESTQNAYHESHSIRRLGLGVVAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYP+ TG  KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYA YRKWNN+KYSVNTKKV EN+G + +    LK ENQENG+FHA SSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE +T+    GGA   PT+YN  STQ+A+ ES SIRR+GLGV+AGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|662021667|ref|WP_030003512.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria gonorrhoeae] &gt;gi|651851642|ref|YP_008914851.1| opacity protein [Neisseria gonorrhoeae FA 1090] &gt;gi|651851648|ref|YP_008914857.1| opacity protein [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>WP_030003512</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>2.81761e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDK-ISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDG-GAPTVYN-NGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPEPTGAKKDKKISTVSDYFRNIRTHSVHPRVSVGYDFGSWRIAADYARYRKWNNSKYSVNIKRVKENNGSGKKLTQDLKTENQENGTFHAVSSLGLSAVYDFDTGSRFKPYAGVRVSYGHVRHSIDSTKKTTDVITAPPTTSDGAPTTYNANPQTQNPYHQSDSIRRVGLGVIAGVGFDITPNLTLDTGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYPEPTG KKDK ISTVSDYFRNIRTHS+HPRVSVGYDFG WRIAADYARYRKWNNSKYSVN K+V EN G    +TQ LK ENQENGTFHAVSSLGLSAVYDF    +FKPY G RV+YGHVRHSIDSTKKTT+ +TA      GAPT YN N  TQ+ + +SDSIRRVGLGVIAGVGFDITPNLTLD GYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|515714692|ref|WP_017147292.1|</Hit_id>
+  <Hit_def>Opacity protein opA54 [Neisseria gonorrhoeae] &gt;gi|538321736|ref|YP_008502796.1| opacity protein [Neisseria gonorrhoeae MS11] &gt;gi|537637498|gb|AGU85069.1| opacity protein [Neisseria gonorrhoeae MS11]</Hit_def>
+  <Hit_accession>WP_017147292</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>5.68028e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKK-DKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPEPTGAKKGTTISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVSIKELLRNKGNG-NRTD-LKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVTTILHGPGTTPTVYPGKNTQDAHRESDSIRRVGLGAVAGVGIDITPNLTLDAGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYPEPTG KK   ISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSV+ K++  NKG   N T  LKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE  T     G  PTVY   +TQDAH+ESDSIRRVGLG +AGVG DITPNLTLDAGYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|325128517|gb|EGC51393.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria meningitidis N1568]</Hit_def>
+  <Hit_accession>EGC51393</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>1.0024e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHDYPKPTGTDKDKISTVSDYFRNIRAHSIHPRVSVGYDFGDWRIAADCASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGSFHAASSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSSHAPGTAPTIYNQGSTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITHDYP+PTGT KDKISTVSDYFRNIR HSIHPRVSVGYDFG WRIAAD A YRKWNN+KYSVNTK++ ENK    N  + LK ENQENG+FHA SSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT++   G APT+YN GSTQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|129222|sp|P11297.1|OP28_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein V28; Flags: Precursor, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P11297</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>2.46009e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAYEHITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKEL-ENKNQN---KRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTKFLTSS-YGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDAGYRYHNWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYA E ITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWN++KYSV+ K++ ENK +     + LK ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT+FLT++   G  PTVY   +TQ+AH +S+SIRRVGLGVIAGVGFDITP LTLDAGYRYHNWGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|488160310|ref|WP_002231518.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria meningitidis] &gt;gi|402319651|gb|EJU55156.1| opacity protein [Neisseria meningitidis 93003]</Hit_def>
+  <Hit_accession>WP_002231518</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>2.69051e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHNYPEPTGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGDWRIAADYASYRKWNSNKYSVNTKEVQENG----NTRQDLKTENQENGTFHAVSSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTNVVTVAGAANIAPTIYYAPETQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITH+YPEPTG  KDKISTVSDYFRNIR HSIHPRVSVGYDFG WRIAADYA YRKWN++KYSVNTK+V EN     N  Q LK ENQENGTFHAVSSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT  +T AG    APT+Y    TQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|488167703|ref|WP_002238911.1|</Hit_id>
+  <Hit_def>outer membrane protein [Neisseria meningitidis] &gt;gi|402336097|gb|EJU71359.1| outer membrane protein [Neisseria meningitidis 80179]</Hit_def>
+  <Hit_accession>WP_002238911</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>3.3474e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHNYPEPTGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGSFHAASSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSSHAPGTAPTIYNVPKTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLKNTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITH+YPEPTG  KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYA YRKWNN+KYSVNTK++ ENK    N  + LK ENQENG+FHA SSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT++   G APT+YN   TQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRL+NTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|515714639|ref|WP_017147239.1|</Hit_id>
+  <Hit_def>Opacity protein opA54 [Neisseria gonorrhoeae] &gt;gi|538322142|ref|YP_008503202.1| opacity protein [Neisseria gonorrhoeae MS11] &gt;gi|537637648|gb|AGU85148.1| opacity protein [Neisseria gonorrhoeae MS11]</Hit_def>
+  <Hit_accession>WP_017147239</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>5.70415e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAYEHITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKEL-ENKNQN---KRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTKFLTSS-YGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDTGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYA E ITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWN++KYSV+ K++ ENK +     + LK ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT+FLT++   G  PTVY   +TQ+AH +S+SIRRVGLGVIAGVGFDITP LTLD GYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|728045029|ref|WP_033910878.1|</Hit_id>
+  <Hit_def>Opacity protein opA54 [Neisseria gonorrhoeae] &gt;gi|654605991|gb|KEC86622.1| Opacity protein opA54 [Neisseria gonorrhoeae] &gt;gi|693764507|gb|KGI95447.1| Opacity protein opA54 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_033910878</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>6.1575e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGS--TQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPEPTAQKKGTISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNIENVRIRKENGIRIDR--KTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKATEFLTVPHGKNIKSTTYDNISPQTQNAHHQSDSIRRVGLGVIAGVGFDITPKLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYPEPT  KK  ISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSVN + V   K   I + +  K ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKK TEFLT         T Y+N S  TQ+AH +SDSIRRVGLGVIAGVGFDITP LTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|7443348|pir||S16612</Hit_id>
+  <Hit_def>opacity protein opaE precursor - Neisseria gonorrhoeae  (strain MS11) (fragments)</Hit_def>
+  <Hit_accession>S16612</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>1.05769e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAYEHITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKEL-ENKNQN---KRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVTTILHGPGTTPTVYPGKNTQDAHRESDSIRRVGLGAVAGVGIDITPNLTLDAGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYA E ITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWN++KYSV+ K++ ENK +     + LK ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE  T     G  PTVY   +TQDAH+ESDSIRRVGLG +AGVG DITPNLTLDAGYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|417404|sp|Q05034.1|OPA67_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA67; Flags: Precursor, partial [Neisseria gonorrhoeae] &gt;gi|940804|emb|CAA79375.1| outer membrane protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q05034</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.563</Hsp_bit-score>
+      <Hsp_score>976</Hsp_score>
+      <Hsp_evalue>1.07231e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKK-DKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTV---YNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHDYPEATAQKKGTTISTVSDYFRNIRTHSVHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVSIKKL-QNQYNK-------KTENQENGTFHAASSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTGFLTTAGARGAAPTVSSPYKN--TQDAHQESNSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITHDYPE T  KK   ISTVSDYFRNIRTHS+HPRVSVGYDFGGWRIAADYARYRKWNNSKYSV+ KK+ +N+  K       K ENQENGTFHA SSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT FLT AG  G APTV   Y N  TQDAHQES+SIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|515714252|ref|WP_017146852.1|</Hit_id>
+  <Hit_def>Opacity protein opA54 [Neisseria gonorrhoeae] &gt;gi|535124107|gb|EQS69947.1| opacity protein opA58 [Neisseria gonorrhoeae FA19] &gt;gi|535127661|gb|EEZ46283.2| opacity protein opA58 [Neisseria gonorrhoeae FA19]</Hit_def>
+  <Hit_accession>WP_017146852</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.793</Hsp_bit-score>
+      <Hsp_score>974</Hsp_score>
+      <Hsp_evalue>1.60993e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGS--TQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITRDYPEPTGTGKNKISTVSDYFRNIRTHSVHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNIENVRIRKENGIRIDR--KTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKATEFLTVPHGKNIKSTTYDNISPQTQNAHHQSDSIRRVGLGVIAGVGFDITPKLTLDAGYRYHNWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERIT DYPEPTGT K+KISTVSDYFRNIRTHS+HPRVSVGYDFGGWRIAADYARYRKWNN+KYSVN + V   K   I + +  K ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKK TEFLT         T Y+N S  TQ+AH +SDSIRRVGLGVIAGVGFDITP LTLDAGYRYHNWGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|488174919|ref|WP_002246127.1|</Hit_id>
+  <Hit_def>outer membrane protein P.IIC [Neisseria meningitidis] &gt;gi|432210274|gb|ELK66235.1| outer membrane protein P.IIC [Neisseria meningitidis 88050] &gt;gi|432248931|gb|ELL04355.1| outer membrane protein P.IIC [Neisseria meningitidis 63049] &gt;gi|432254409|gb|ELL09744.1| outer membrane protein P.IIC [Neisseria meningitidis 96023] &gt;gi|432261763|gb|ELL17009.1| outer membrane protein P.IIC [Neisseria meningitidis 97020] &gt;gi|432266317|gb|ELL21505.1| outer membrane protein P.IIC [Neisseria meningitidis NM3652] &gt;gi|432267547|gb|ELL22724.1| outer membrane protein P.IIC [Neisseria meningitidis NM3642] &gt;gi|432268385|gb|ELL23556.1| outer membrane protein P.IIC [Neisseria meningitidis 2007056] &gt;gi|432272246|gb|ELL27358.1| outer membrane protein P.IIC [Neisseria meningitidis 2001212]</Hit_def>
+  <Hit_accession>WP_002246127</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.022</Hsp_bit-score>
+      <Hsp_score>972</Hsp_score>
+      <Hsp_evalue>3.458e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKF---KPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHNYPEPTGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNTKNVQKNDNGN---RQDLKTENQENGTFHAVSSLGLSAIYDFKLNDKFDKFKPYIGVRVAYGHVRHSIDSTKKTTNVVTVAGAANTAPTIYYAPETQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITH+YPEPTG  KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSVNTK V +N        Q LK ENQENGTFHAVSSLGLSA+YDFKLNDKF   KPYIG RVAYGHVRHSIDSTKKTT  +T AG    APT+Y    TQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|7443364|pir||S16610</Hit_id>
+  <Hit_def>opacity protein opaK precursor - Neisseria gonorrhoeae  (strain MS11) (fragments)</Hit_def>
+  <Hit_accession>S16610</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>3.98609e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKK-DKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHDYPEPTGAKKGTTISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVSIKELLRNKGNG-NRTD-LKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVTTILHGPGTTPTVYPGKNTQNAHRESDSIRRVGLGAVAGVGIDITPNLTLDAGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITHDYPEPTG KK   ISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSV+ K++  NKG   N T  LKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE  T     G  PTVY   +TQ+AH+ESDSIRRVGLG +AGVG DITPNLTLDAGYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|538398640|ref|WP_020997406.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria gonorrhoeae] &gt;gi|538322478|ref|YP_008503538.1| opacity protein [Neisseria gonorrhoeae MS11] &gt;gi|537637742|gb|AGU85182.1| opacity protein [Neisseria gonorrhoeae MS11]</Hit_def>
+  <Hit_accession>WP_020997406</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.637</Hsp_bit-score>
+      <Hsp_score>971</Hsp_score>
+      <Hsp_evalue>4.31202e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDK-ISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPEPTGAKKDKKISTVSDYFRNIRTHSVHPRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKEL-ENKNQN---KRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTKFLTSS-YGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDTGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYPEPTG KKDK ISTVSDYFRNIRTHS+HPRVSVGYDFGGWRIAADYARYRKWN++KYSV+ K++ ENK +     + LK ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT+FLT++   G  PTVY   +TQ+AH +S+SIRRVGLGVIAGVGFDITP LTLD GYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|501495520|ref|WP_012503879.1|</Hit_id>
+  <Hit_def>outer membrane protein [Neisseria gonorrhoeae] &gt;gi|194099372|ref|YP_002002472.1| outer membrane protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|193934662|gb|ACF30486.1| outer membrane protein [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>WP_012503879</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.252</Hsp_bit-score>
+      <Hsp_score>970</Hsp_score>
+      <Hsp_evalue>4.88399e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNN-GSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPKPTDPSKGKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVSIKKL-QNQYNK-------KTENQENGTFHAASSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTGFLTTAGARGAGSAVRPSYKSTQDAHHQSNSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYP+PT   K KISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSV+ KK+ +N+  K       K ENQENGTFHA SSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT FLT AG  G    V  +  STQDAH +S+SIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|662021664|ref|WP_030003509.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria gonorrhoeae] &gt;gi|651851637|ref|YP_008914846.1| opacity protein [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>WP_030003509</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.637</Hsp_bit-score>
+      <Hsp_score>971</Hsp_score>
+      <Hsp_evalue>5.17984e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPEPTGAKKGKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGMRVGYGHVRHQVRSVEQETTTVTTYLQSGKPSPIVRGSTLKLPHHESRSSRRLGFGAMAGVGIDVAPGLTLDAGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYPEPTG KK KISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIG RV YGHVRH + S ++ T  +T   Q G    +    + +  H ES S RR+G G +AGVG D+ P LTLDAGYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|504393438|ref|WP_014580540.1|</Hit_id>
+  <Hit_def>Opacity protein opA58 [Neisseria meningitidis] &gt;gi|385337847|ref|YP_005891720.1| Opacity protein opA58 [Neisseria meningitidis WUE 2594] &gt;gi|319410261|emb|CBY90602.1| Opacity protein opA58 Flags: Precursor [Neisseria meningitidis WUE 2594] &gt;gi|610426663|gb|AHW75539.1| Opacity protein opA58 [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_014580540</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.637</Hsp_bit-score>
+      <Hsp_score>971</Hsp_score>
+      <Hsp_evalue>1.95898e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKF---KPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHNYPEPTGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNTKNVQKNDNGN---RQDLKTENQENGTFHAVSSLGLSAIYDFKLNDKFDKFKPYIGVRVAYGHVRHSIDSTKKTTNVVTVAGAANTAPTIYYAPETQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITH+YPEPTG  KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSVNTK V +N        Q LK ENQENGTFHAVSSLGLSA+YDFKLNDKF   KPYIG RVAYGHVRHSIDSTKKTT  +T AG    APT+Y    TQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|488180503|ref|WP_002251711.1|</Hit_id>
+  <Hit_def>outer membrane protein P.IIC [Neisseria meningitidis] &gt;gi|432275604|gb|ELL30675.1| outer membrane protein P.IIC [Neisseria meningitidis 70030]</Hit_def>
+  <Hit_accession>WP_002251711</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.711</Hsp_bit-score>
+      <Hsp_score>966</Hsp_score>
+      <Hsp_evalue>1.95939e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPQATGA--NNTSTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGSFHAASSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSSHAPGTAPTIYNQGSTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYP+ TG   +  STVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYA YRKWNN+KYSVNTK++ ENK    N  + LK ENQENG+FHA SSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT++   G APT+YN GSTQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|2150054|gb|AAC32700.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria meningitidis] &gt;gi|13591541|emb|CAC36359.1| opacity protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAC32700</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.481</Hsp_bit-score>
+      <Hsp_score>968</Hsp_score>
+      <Hsp_evalue>2.4121e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKF---KPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHNYPEPTGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNTKNVQKNDNGN---RQDLKTENQENGTFHAVSSLGLSAIYDFKLNDKFDKFKPYIGVRVAYGHVRHSIDSTKKTTNVVTVAGAANTAPTIYYAPETQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITH+YPEPTG  KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSVNTK V +N        Q LK ENQENGTFHAVSSLGLSA+YDFKLNDKF   KPYIG RVAYGHVRHSIDSTKKTT  +T AG    APT+Y    TQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|7443350|pir||S16614</Hit_id>
+  <Hit_def>opacity protein opaF precursor - Neisseria gonorrhoeae  (strain MS11) (fragments)</Hit_def>
+  <Hit_accession>S16614</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>2.5576e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAYEHITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKEL-ENKNQN---KRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTKFLTSS-YGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDTGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYA E ITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWN++KYSV+ K++ ENK +     + LK ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT+FLT++   G  PTVY   +TQ+AH +S+SIRRVGLGVIAGVGFDITP LTLD GYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|501178335|ref|WP_012221537.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria meningitidis] &gt;gi|161869837|ref|YP_001599006.1| opacity protein [Neisseria meningitidis 053442] &gt;gi|161595390|gb|ABX73050.1| opacity protein [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>WP_012221537</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.326</Hsp_bit-score>
+      <Hsp_score>965</Hsp_score>
+      <Hsp_evalue>3.86367e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKF---KPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPKPTGTDKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYASYRKWNNNKYSVNTKNVQKNDNGN---RQDLKTENQENGTFHAVSSLGLSAIYDFKLNDKFDKFKPYIGVRVAYGHVRHSIDSTKKTTNVVTVAGAANTAPTIYYAPETQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYP+PTGT KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYA YRKWNN+KYSVNTK V +N        Q LK ENQENGTFHAVSSLGLSA+YDFKLNDKF   KPYIG RVAYGHVRHSIDSTKKTT  +T AG    APT+Y    TQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|2642263|gb|AAC45986.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAC45986</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.326</Hsp_bit-score>
+      <Hsp_score>965</Hsp_score>
+      <Hsp_evalue>5.92125e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKF---KPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHDYPEPTGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNTKNVQKNDNGN---RQDLKTENQENGTFHAVSSLGLSAIYDFKLNDKFDKFKPYIGVRVAYGHVRHSIDSTKKTTNVVTVAGAANTAPTIYYAPETQNAYHESHSIRRLGLGVVAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITHDYPEPTG  KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSVNTK V +N        Q LK ENQENGTFHAVSSLGLSA+YDFKLNDKF   KPYIG RVAYGHVRHSIDSTKKTT  +T AG    APT+Y    TQ+A+ ES SIRR+GLGV+AGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|7443351|pir||S16613</Hit_id>
+  <Hit_def>opacity protein opaB precursor - Neisseria gonorrhoeae  (strain MS11) (fragments)</Hit_def>
+  <Hit_accession>S16613</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>1.02192e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHDYPEPTGAKKDKKSTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKEL-ENKNQN---KRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTKFLTSS-YGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDTGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITHDYPEPTG KKDK STVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWN++KYSV+ K++ ENK +     + LK ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT+FLT++   G  PTVY   +TQ+AH +S+SIRRVGLGVIAGVGFDITP LTLD GYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|417415|sp|Q04880.1|OPAK_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA57; Flags: Precursor, partial [Neisseria gonorrhoeae] &gt;gi|940797|emb|CAA79368.1| outer membrane protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04880</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.555</Hsp_bit-score>
+      <Hsp_score>963</Hsp_score>
+      <Hsp_evalue>1.08464e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAYEHITHDYPEPTAPNKNKISTVSDYFRNIRTRSVHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVSIKELLRNKGNG-NRTD-LKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVTTILHGPGTTPTVYPGKNTQDAHRESDSIRRVGLGAVAGVGIDITPNLTLDAGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYA E ITHDYPEPT   K+KISTVSDYFRNIRT S+HPRVSVGYDFGGWRIAADYARYRKWNN+KYSV+ K++  NKG   N T  LKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE  T     G  PTVY   +TQDAH+ESDSIRRVGLG +AGVG DITPNLTLDAGYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|501494977|ref|WP_012503350.1|</Hit_id>
+  <Hit_def>outer membrane protein [Neisseria gonorrhoeae] &gt;gi|194097681|ref|YP_002000721.1| outer membrane protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|193932971|gb|ACF28795.1| outer membrane protein [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>WP_012503350</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.785</Hsp_bit-score>
+      <Hsp_score>961</Hsp_score>
+      <Hsp_evalue>1.38058e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAYEHITHDYPEPTGTKKDKISTVSDYFRNIRTHSVHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVSIKELLRNKGNGNRTDQ--KTENQENGTFHAVSSLGLSAVYDFDTGSRFKPYIGARVAYGHVRHSIDSTKKTTEVTTILHGPDTTPTVYPGKNTQDDHREGNSIRRVGLGVIAGVGFDITPKLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYA E ITHDYPEPTGTKKDKISTVSDYFRNIRTHS+HPRVSVGYDFGGWRIAADYARYRKWNN+KYSV+ K++  NKG      Q  K ENQENGTFHAVSSLGLSAVYDF    +FKPYIGARVAYGHVRHSIDSTKKTTE  T        PTVY   +TQD H+E +SIRRVGLGVIAGVGFDITP LTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|13591543|emb|CAC36360.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>CAC36360</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.17</Hsp_bit-score>
+      <Hsp_score>962</Hsp_score>
+      <Hsp_evalue>1.94098e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKF---KPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHNYPEPTGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNTKNVQKNDNGN---RQDLKTENQENGTFHAVSSLGLSAIYDFKLNDKFDKFKPYIGVRVAYGHVRHSIDSTKKTTNVVTVAGAANTAPTIYYAPETQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITH+YPEPTG  KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSVNTK V +N        Q LK ENQENGTFHAVSSLGLSA+YDFKLNDKF   KPYIG RVAYGHVRHSIDSTKKTT  +T AG    APT+Y    TQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|2642261|gb|AAC45985.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAC45985</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.785</Hsp_bit-score>
+      <Hsp_score>961</Hsp_score>
+      <Hsp_evalue>2.39527e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKF---KPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHNYPEPTGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNTKNVQKNDNGN---RQDLKTENQENGTFHAVSSLGLSAIYDFKLNDKFDKFKPYIGVRVAYGHVRHSIDSTKKTTNVVTVAGAANTAPTIYYAPETQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITH+YPEPTG  KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSVNTK V +N        Q LK ENQENGTFHAVSSLGLSA+YDFKLNDKF   KPYIG RVAYGHVRHSIDSTKKTT  +T AG    APT+Y    TQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|501494982|ref|WP_012503355.1|</Hit_id>
+  <Hit_def>opacity protein V28 [Neisseria gonorrhoeae] &gt;gi|194097687|ref|YP_002000727.1| opacity protein V28 [Neisseria gonorrhoeae NCCP11945] &gt;gi|193932977|gb|ACF28801.1| P28_NEIGO Opacity protein V28 precursor [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>WP_012503355</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.015</Hsp_bit-score>
+      <Hsp_score>959</Hsp_score>
+      <Hsp_evalue>2.41047e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPEPTGTGKNKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVSIKELKNNN------NKKKKTENQENGSFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSI-STKKTTEFLTVARNRVTVPGTYKVSTTPGAHQESNSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYPEPTGT K+KISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSV+ K++  N        +  K ENQENG+FHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSI STKKTTEFLT A      P  Y   +T  AHQES+SIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|488165691|ref|WP_002236899.1|</Hit_id>
+  <Hit_def>outer membrane protein [Neisseria meningitidis] &gt;gi|402330663|gb|EJU66010.1| outer membrane protein [Neisseria meningitidis 69166] &gt;gi|432209235|gb|ELK65205.1| opacity protein opA50 [Neisseria meningitidis 68094] &gt;gi|432214344|gb|ELK70245.1| opacity protein opA50 [Neisseria meningitidis 70012] &gt;gi|432218555|gb|ELK74412.1| outer membrane protein P.IIC [Neisseria meningitidis 2006087] &gt;gi|432224383|gb|ELK80149.1| outer membrane protein P.IIC [Neisseria meningitidis 97014] &gt;gi|432262009|gb|ELL17254.1| opacity protein opA50 [Neisseria meningitidis 69096]</Hit_def>
+  <Hit_accession>WP_002236899</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.015</Hsp_bit-score>
+      <Hsp_score>959</Hsp_score>
+      <Hsp_evalue>2.63611e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHDYPQATGA--NNTSTVSDYFRNIRAHSIHPRVSVGYDFGDWRIAADYASYRKWNNNKYSVNTKEL-ENKN---NNKRDLKTENQENGSFHAASSLGLSAIYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEVLTSSHAPGTAPTIYNQGSTQNAYHESHSIRRLGLGVIAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITHDYP+ TG   +  STVSDYFRNIR HSIHPRVSVGYDFG WRIAADYA YRKWNN+KYSVNTK++ ENK    N  + LK ENQENG+FHA SSLGLSA+YDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTE LT++   G APT+YN GSTQ+A+ ES SIRR+GLGVIAGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|417409|sp|Q04878.1|OPAE_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA55; Flags: Precursor, partial [Neisseria gonorrhoeae] &gt;gi|940795|emb|CAA79366.1| outer membrane protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04878</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.4</Hsp_bit-score>
+      <Hsp_score>960</Hsp_score>
+      <Hsp_evalue>2.63907e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAYEHITHDYPEQTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKEL-ENKNQN---KRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTKFLTSS-YGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDTGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYA E ITHDYPE TGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWN++KYSV+ K++ ENK +     + LK ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT+FLT++   G  PTVY   +TQ+AH +S+SIRRVGLGVIAGVGFDITP LTLD GYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|417403|sp|Q05033.1|OPA66_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA66; Flags: Precursor, partial [Neisseria gonorrhoeae] &gt;gi|940803|emb|CAA79374.1| outer membrane protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q05033</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.4</Hsp_bit-score>
+      <Hsp_score>960</Hsp_score>
+      <Hsp_evalue>2.74937e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKV-----NENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTV---YNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAYEHITHDYPKPTDPSKGKLSTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNDSKYSVSIKNLQRRTSNGNRRDR-------KTENQENGSFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTTAGARGTDPTVSSPYKN--TQDAHQESNSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYA E ITHDYP+PT   K K+STVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWN+SKYSV+ K +     N N+ ++       K ENQENG+FHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLT AG  G  PTV   Y N  TQDAHQES+SIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|2642275|gb|AAC45992.1|</Hit_id>
+  <Hit_def>opacity protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AAC45992</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.4</Hsp_bit-score>
+      <Hsp_score>960</Hsp_score>
+      <Hsp_evalue>2.87794e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQ-DGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAAERITHNYPEPTGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNTKNVQVNKSN--GNRQDLKTENQENGTFHAVSSLGLSAVYDFNTGSRFKPYAGVRVAYGHVRHSIDSTKKTTNVLTVPTNIPGGTPTIYNQGSTQDAYHESHSIRRLGLGVVAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>+QADLAYAAERITH+YPEPTG  KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYARYRKWNN+KYSVNTK V  NK       Q LK ENQENGTFHAVSSLGLSAVYDF    +FKPY G RVAYGHVRHSIDSTKKTT  LT      GG PT+YN GSTQDA+ ES SIRR+GLGV+AGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|417410|sp|Q04879.1|OPAF_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Opacity protein opA56; Flags: Precursor, partial [Neisseria gonorrhoeae] &gt;gi|940796|emb|CAA79367.1| outer membrane protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q04879</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.244</Hsp_bit-score>
+      <Hsp_score>957</Hsp_score>
+      <Hsp_evalue>6.89834e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>VQADLAYAYEHITHDYPEQTGTKKDKISTVSDYFRNVRTHSIHPRVSVGYDFGGWRIAADYARYRKWNDDKYSVDIKEL-ENKNQN---KRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTKFLTSS-YGGLNPTVYTEENTQNAHHQSNSIRRVGLGVIAGVGFDITPKLTLDTGYRYHYWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>+QADLAYA E ITHDYPE TGTKKDKISTVSDYFRN+RTHSIHPRVSVGYDFGGWRIAADYARYRKWN+ KYSV+ K++ ENK +     + LK ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTT+FLT++   G  PTVY   +TQ+AH +S+SIRRVGLGVIAGVGFDITP LTLD GYRYH WGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|488182726|ref|WP_002253934.1|</Hit_id>
+  <Hit_def>outer membrane protein P.IIC [Neisseria meningitidis] &gt;gi|485321683|gb|EOB85164.1| outer membrane protein P.IIC [Neisseria meningitidis 2000063]</Hit_def>
+  <Hit_accession>WP_002253934</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>1.15082e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQ-DGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAAERITHNYPEPTGADKDKISTVSDYFRNIRAHSIHPRVSVGYDFGGWRIAADYASYRKWNDNKYSVNTKNVQVNKSN--GNRQDLKTENQENGTFHAVSSLGLSAVYDFNTGSRFKPYAGVRVAYGHVRHSIDSTKKTTNVLTVPTNIPGGTPTIYNQGSTQDAYHESHSIRRLGLGVVAGVGFDITPKLTLDTGYRYHNWGRLENTRFKTHEVSLGMRYHF</Hsp_hseq>
+      <Hsp_midline>MQADLAYAAERITH+YPEPTG  KDKISTVSDYFRNIR HSIHPRVSVGYDFGGWRIAADYA YRKWN++KYSVNTK V  NK       Q LK ENQENGTFHAVSSLGLSAVYDF    +FKPY G RVAYGHVRHSIDSTKKTT  LT      GG PT+YN GSTQDA+ ES SIRR+GLGV+AGVGFDITP LTLD GYRYHNWGRLENTRFKTHE SLGMRY F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|645189098|ref|WP_025456233.1|</Hit_id>
+  <Hit_def>Opacity protein opA54 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025456233</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>1.37051e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNE-NKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTA-AGQDGGAPTVYN-NGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAYEHITHDYPEPTAPNKNKISTVSDYFRNIRTRSVHPRVSVGYDFGGWRIAADYARYRKWNNNKYSVNIENVQKHDNGNRID----RKTENQENGSFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTIEFLTAPSNAPNGASTNYDISPKTQNAHQESNSIRRVGLGVIAGVGFDITPKLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYA E ITHDYPEPT   K+KISTVSDYFRNIRT S+HPRVSVGYDFGGWRIAADYARYRKWNN+KYSVN + V + + G +I+     K ENQENG+FHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKT EFLTA +    GA T Y+ +  TQ+AHQES+SIRRVGLGVIAGVGFDITP LTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|515714571|ref|WP_017147171.1|</Hit_id>
+  <Hit_def>Opacity protein opA54 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_017147171</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>1.3892e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MQADLAYAAERITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNNSKYSVNTKKVNENKGEKINVTQYLKAENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKTTEFLTAAGQDGGAPTVYNNGSTQDAHQESDSIRRVGLGVIAGVGFDITPNLTLDAGYRYHNWGRLENTRFKTHEASLGMRYRF</Hsp_qseq>
+      <Hsp_hseq>MQADLAYAYEHITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWNDNKYSVDIKEL-ENKNQN---KRDLKTENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKKITGLLTTS-TPGIMSGVYKVLRTPGAHRESDSIRRVGLGVIAGVGFDITPKLTLDAGYRYHNWGRLENTRFKTHEASLGVRYRF</Hsp_hseq>
+      <Hsp_midline>MQADLAYA E ITHDYPEPTGTKKDKISTVSDYFRNIRTHSIHPRVSVGYDFGGWRIAADYARYRKWN++KYSV+ K++ ENK +     + LK ENQENGTFHAVSSLGLSAVYDFKLNDKFKPYIGARVAYGHVRHSIDSTKK T  LT +   G    VY    T  AH+ESDSIRRVGLGVIAGVGFDITP LTLDAGYRYHNWGRLENTRFKTHEASLG+RYRF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

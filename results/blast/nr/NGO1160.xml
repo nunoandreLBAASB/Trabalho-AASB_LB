@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>50591</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7L1</BlastOutput_query-def>
+  <BlastOutput_query-len>268</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>50591</Iteration_query-ID>
+  <Iteration_query-def>Q5F7L1</Iteration_query-def>
+  <Iteration_query-len>268</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489785870|ref|WP_003689761.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria gonorrhoeae] &gt;gi|59801526|ref|YP_208238.1| hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [Neisseria gonorrhoeae FA 1090] &gt;gi|538321813|ref|YP_008502873.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae MS11] &gt;gi|59718421|gb|AAW89826.1| putative phosphomethylpyrimidine kinase [Neisseria gonorrhoeae FA 1090] &gt;gi|226513549|gb|EEH62894.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae 1291] &gt;gi|268548910|gb|EEZ44328.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae 35/02] &gt;gi|268551365|gb|EEZ46384.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae FA19] &gt;gi|268583959|gb|EEZ48635.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae MS11] &gt;gi|268588553|gb|EEZ53229.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae PID1] &gt;gi|268623168|gb|EEZ55568.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae PID332] &gt;gi|268625332|gb|EEZ57732.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae SK-92-679] &gt;gi|268627593|gb|EEZ59993.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae SK-93-1035] &gt;gi|636860333|gb|KDM97608.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae] &gt;gi|636862341|gb|KDM99453.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae] &gt;gi|636865278|gb|KDN02150.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae] &gt;gi|654605956|gb|KEC86597.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae] &gt;gi|693764574|gb|KGI95498.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003689761</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.821</Hsp_bit-score>
+      <Hsp_score>1418</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489801631|ref|WP_003705513.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria gonorrhoeae] &gt;gi|194099519|ref|YP_002002643.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae NCCP11945] &gt;gi|193934809|gb|ACF30633.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae NCCP11945] &gt;gi|291611272|gb|EFF40356.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>WP_003705513</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.206</Hsp_bit-score>
+      <Hsp_score>1419</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489793683|ref|WP_003697574.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria gonorrhoeae] &gt;gi|268586293|gb|EEZ50969.1| phosphomethylpyrimidine kinase [Neisseria gonorrhoeae PID18]</Hit_def>
+  <Hit_accession>WP_003697574</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.666</Hsp_bit-score>
+      <Hsp_score>1415</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIKEDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAI+EDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|291013051|gb|EFE05022.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria gonorrhoeae DGI2]</Hit_def>
+  <Hit_accession>EFE05022</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.666</Hsp_bit-score>
+      <Hsp_score>1415</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIKEDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAI+EDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488145541|ref|WP_002216749.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|385850829|ref|YP_005897344.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M04-240196] &gt;gi|325128653|gb|EGC51521.1| phosphomethylpyrimidine kinase [Neisseria meningitidis N1568] &gt;gi|325205652|gb|ADZ01105.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M04-240196] &gt;gi|432208913|gb|ELK64885.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 97021] &gt;gi|432215214|gb|ELK71104.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2006087] &gt;gi|432219243|gb|ELK75091.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2002038] &gt;gi|432223746|gb|ELK79525.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 97014] &gt;gi|485391923|gb|EOC50419.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2005172] &gt;gi|485393569|gb|EOC51989.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2008223] &gt;gi|514069736|gb|EPF54624.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 98002]</Hit_def>
+  <Hit_accession>WP_002216749</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.576</Hsp_bit-score>
+      <Hsp_score>1394</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSSSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCEAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGS+SGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVC+AVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|503213976|ref|WP_013448637.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria lactamica] &gt;gi|313667994|ref|YP_004048278.1| phosphomethylpyrimidine kinase [Neisseria lactamica 020-06] &gt;gi|313005456|emb|CBN86891.1| phosphomethylpyrimidine kinase [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448637</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.576</Hsp_bit-score>
+      <Hsp_score>1394</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCRFGKRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCEAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FG+RVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVC+AVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488168002|ref|WP_002239210.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|402334518|gb|EJU69805.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 80179] &gt;gi|402342547|gb|EJU77707.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3001]</Hit_def>
+  <Hit_accession>WP_002239210</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.191</Hsp_bit-score>
+      <Hsp_score>1393</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCKAVRTAKSYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVCKAV+TAK+YITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|488188909|ref|WP_002260117.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|485399459|gb|EOC57477.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM115] &gt;gi|485400803|gb|EOC58735.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM90] &gt;gi|485405600|gb|EOC63203.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3042] &gt;gi|485418894|gb|EOC75543.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM27] &gt;gi|485419209|gb|EOC75828.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM51] &gt;gi|485422118|gb|EOC78546.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM80] &gt;gi|485425250|gb|EOC81442.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM165] &gt;gi|485425643|gb|EOC81806.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3223]</Hit_def>
+  <Hit_accession>WP_002260117</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.806</Hsp_bit-score>
+      <Hsp_score>1392</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETIFAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETI AQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488150968|ref|WP_002222176.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|15677466|ref|NP_274622.1| phosphomethylpyrimidine kinase [Neisseria meningitidis MC58] &gt;gi|385852785|ref|YP_005899299.1| phosphomethylpyrimidine kinase [Neisseria meningitidis H44/76] &gt;gi|7226867|gb|AAF41968.1| phosphomethylpyrimidine kinase [Neisseria meningitidis MC58] &gt;gi|316983873|gb|EFV62853.1| phosphomethylpyrimidine kinase [Neisseria meningitidis H44/76] &gt;gi|325134707|gb|EGC57346.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M13399] &gt;gi|325140738|gb|EGC63252.1| phosphomethylpyrimidine kinase [Neisseria meningitidis CU385] &gt;gi|325199789|gb|ADY95244.1| phosphomethylpyrimidine kinase [Neisseria meningitidis H44/76] &gt;gi|432201769|gb|ELK57844.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM422] &gt;gi|432222316|gb|ELK78114.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M13255] &gt;gi|432226443|gb|ELK82171.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM418] &gt;gi|432240159|gb|ELK95701.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 9506] &gt;gi|432240405|gb|ELK95943.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 9757] &gt;gi|432245599|gb|ELL01066.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 12888] &gt;gi|432246282|gb|ELL01737.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 4119] &gt;gi|485355068|gb|EOC16313.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2002020] &gt;gi|485359500|gb|EOC20339.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M13265] &gt;gi|485361687|gb|EOC22321.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM477] &gt;gi|530899035|gb|EQC97802.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3141] &gt;gi|530899116|gb|EQC97878.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2002030] &gt;gi|530914111|gb|EQD11954.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM1476] &gt;gi|530920662|gb|EQD18123.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3173] &gt;gi|744799058|gb|AJC63846.1| phosphomethylpyrimidine kinase [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>WP_002222176</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.421</Hsp_bit-score>
+      <Hsp_score>1391</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLEFDSPRFPTAHTHGTGCTFSACITAELAKGSDVCEAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLE DSPRFPTAHTHGTGCTFSACITAELAKG DVC+AVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|372201030|gb|EHP15009.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis NM233]</Hit_def>
+  <Hit_accession>EHP15009</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.191</Hsp_bit-score>
+      <Hsp_score>1393</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETIFAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETI AQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|506296002|ref|WP_015815777.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|254805381|ref|YP_003083602.1| phosphomethylpyrimidine kinase [Neisseria meningitidis alpha14] &gt;gi|254668923|emb|CBA07136.1| phosphomethylpyrimidine kinase [Neisseria meningitidis alpha14]</Hit_def>
+  <Hit_accession>WP_015815777</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.65</Hsp_bit-score>
+      <Hsp_score>1389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSSSGRCTDWLFTQNETLELDNPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISSPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGS+SGRCTDWLFTQNETLELD+PRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAIS+PLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488160700|ref|WP_002231908.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|385323761|ref|YP_005878200.1| phosphomethylpyrimidine kinase (HMP-phosphate kinase; HMP-P kinase) [Neisseria meningitidis 8013] &gt;gi|261392148|emb|CAX49654.1| phosphomethylpyrimidine kinase (HMP-phosphate kinase; HMP-P kinase) [Neisseria meningitidis 8013] &gt;gi|402318654|gb|EJU54171.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 93003] &gt;gi|402342449|gb|EJU77613.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3081]</Hit_def>
+  <Hit_accession>WP_002231908</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.65</Hsp_bit-score>
+      <Hsp_score>1389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCRFGKRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKSLDVCEAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FG+RVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAK LDVC+AVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488162934|ref|WP_002234142.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|402317729|gb|EJU53262.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 93004] &gt;gi|432214837|gb|ELK70730.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 63041] &gt;gi|432246558|gb|ELL02005.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 63049] &gt;gi|432252973|gb|ELL08319.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 65014] &gt;gi|432276574|gb|ELL31630.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 63006] &gt;gi|485300974|gb|EOB65821.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 65012] &gt;gi|485309153|gb|EOB73453.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 97027] &gt;gi|485352538|gb|EOC13952.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 81858]</Hit_def>
+  <Hit_accession>WP_002234142</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.65</Hsp_bit-score>
+      <Hsp_score>1389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSSSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCEAVQTAKAYITAAISSPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGS+SGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVC+AVQTAKAYITAAIS+PLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|488149301|ref|WP_002220509.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|121635269|ref|YP_975514.1| phosphomethylpyrimidine kinase [Neisseria meningitidis FAM18] &gt;gi|120866975|emb|CAM10737.1| phosphomethylpyrimidine kinase [Neisseria meningitidis FAM18] &gt;gi|325132699|gb|EGC55382.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M6190] &gt;gi|325138585|gb|EGC61144.1| phosphomethylpyrimidine kinase [Neisseria meningitidis ES14902] &gt;gi|393291586|emb|CCI73221.1| phosphomethylpyrimidine kinase [Neisseria meningitidis alpha704] &gt;gi|402340280|gb|EJU75483.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM2795] &gt;gi|432202074|gb|ELK58140.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 98080] &gt;gi|432227293|gb|ELK83004.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM586] &gt;gi|432229253|gb|ELK84944.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM762] &gt;gi|432232574|gb|ELK88212.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M7089] &gt;gi|432233785|gb|ELK89411.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M7124] &gt;gi|432234104|gb|ELK89726.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM174] &gt;gi|432242894|gb|ELK98409.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM126] &gt;gi|485329154|gb|EOB92143.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM133] &gt;gi|485332436|gb|EOB95205.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM43] &gt;gi|485335878|gb|EOB98412.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM82] &gt;gi|485336144|gb|EOB98659.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM94] &gt;gi|485338769|gb|EOC01123.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM95] &gt;gi|485342309|gb|EOC04422.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM313] &gt;gi|485343132|gb|EOC05179.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM1482] &gt;gi|485345519|gb|EOC07412.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM1495] &gt;gi|485349471|gb|EOC11093.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 73704] &gt;gi|485361546|gb|EOC22193.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3147] &gt;gi|485365066|gb|EOC25376.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2001072] &gt;gi|485366484|gb|EOC26701.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2001073] &gt;gi|485368179|gb|EOC28291.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2000081] &gt;gi|485374678|gb|EOC34344.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2001213] &gt;gi|485377671|gb|EOC37148.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2004264] &gt;gi|485380551|gb|EOC39844.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2000175] &gt;gi|485380695|gb|EOC39974.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2005079] &gt;gi|485384535|gb|EOC43581.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2001068] &gt;gi|485387021|gb|EOC45888.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2005040] &gt;gi|485387268|gb|EOC46120.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2002004] &gt;gi|485429894|gb|EOC85686.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM23] &gt;gi|485430457|gb|EOC86180.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM32] &gt;gi|485434876|gb|EOC90187.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM35] &gt;gi|485436265|gb|EOC91440.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM36] &gt;gi|694192116|gb|KGI97431.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|723270374|gb|KHC97566.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|723273973|gb|KHD01157.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|726975659|gb|KHF23080.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|730570994|gb|AIZ18796.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|730573561|gb|AIZ20963.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M7124] &gt;gi|730575896|gb|AIZ22845.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|730578366|gb|AIZ24813.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|730579666|gb|AIZ25647.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|747185254|gb|KIF89357.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|747185475|gb|KIF89522.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|747187992|gb|KIF91581.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|747189038|gb|KIF92410.1| phosphomethylpyrimidine kinase [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002220509</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.265</Hsp_bit-score>
+      <Hsp_score>1388</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCKAVRTAKSYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVCKAV+TAK+YITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|488147750|ref|WP_002218958.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|385328893|ref|YP_005883196.1| phosphomethylpyrimidine kinase [Neisseria meningitidis alpha710] &gt;gi|385338411|ref|YP_005892284.1| phosphomethylpyrimidine kinase (HMP-phosphate kinase; HMP-P kinase) [Neisseria meningitidis WUE 2594] &gt;gi|385340483|ref|YP_005894355.1| phosphomethylpyrimidine kinase [Neisseria meningitidis G2136] &gt;gi|385341507|ref|YP_005895378.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M01-240149] &gt;gi|385855647|ref|YP_005902160.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M01-240355] &gt;gi|385857654|ref|YP_005904166.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NZ-05/33] &gt;gi|308389745|gb|ADO32065.1| phosphomethylpyrimidine kinase [Neisseria meningitidis alpha710] &gt;gi|319410825|emb|CBY91215.1| phosphomethylpyrimidine kinase (HMP-phosphate kinase; HMP-P kinase) [Neisseria meningitidis WUE 2594] &gt;gi|325130647|gb|EGC53388.1| phosphomethylpyrimidine kinase [Neisseria meningitidis OX99.30304] &gt;gi|325136722|gb|EGC59322.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M0579] &gt;gi|325142779|gb|EGC65151.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 961-5945] &gt;gi|325144827|gb|EGC67115.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M01-240013] &gt;gi|325198727|gb|ADY94183.1| phosphomethylpyrimidine kinase [Neisseria meningitidis G2136] &gt;gi|325201713|gb|ADY97167.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M01-240149] &gt;gi|325204588|gb|ADZ00042.1| phosphomethylpyrimidine kinase [Neisseria meningitidis M01-240355] &gt;gi|325208543|gb|ADZ03995.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NZ-05/33] &gt;gi|402330827|gb|EJU66171.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 98008] &gt;gi|432201814|gb|ELK57888.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 87255] &gt;gi|432209122|gb|ELK65093.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 88050] &gt;gi|432252101|gb|ELL07460.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2004090] &gt;gi|432252509|gb|ELL07862.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 96023] &gt;gi|432258809|gb|ELL14090.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 97020] &gt;gi|432264342|gb|ELL19546.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3652] &gt;gi|432265679|gb|ELL20871.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3642] &gt;gi|432265879|gb|ELL21070.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2007056] &gt;gi|432270736|gb|ELL25872.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2001212] &gt;gi|485280766|gb|EOB46923.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2000080] &gt;gi|485280998|gb|EOB47143.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 94018] &gt;gi|485287048|gb|EOB52817.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 75689] &gt;gi|485287417|gb|EOB53158.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 75643] &gt;gi|485293595|gb|EOB58931.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 97018] &gt;gi|485308140|gb|EOB72505.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 96024] &gt;gi|485308583|gb|EOB72914.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 97008] &gt;gi|485313271|gb|EOB77318.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 98005] &gt;gi|485314979|gb|EOB78901.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2004085] &gt;gi|485315335|gb|EOB79238.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2003022] &gt;gi|485319971|gb|EOB83575.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2000063] &gt;gi|485321748|gb|EOB85227.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM604] &gt;gi|485322133|gb|EOB85587.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2002007] &gt;gi|485326730|gb|EOB89891.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM606] &gt;gi|485328765|gb|EOB91776.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM607] &gt;gi|485349337|gb|EOC10971.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 73696] &gt;gi|530899323|gb|EQC98073.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 96037] &gt;gi|530905237|gb|EQD03616.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3139] &gt;gi|530906252|gb|EQD04561.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM045] &gt;gi|530907474|gb|EQD05710.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM151] &gt;gi|530910976|gb|EQD09016.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM003] &gt;gi|530914486|gb|EQD12311.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM0552] &gt;gi|530916886|gb|EQD14578.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM518] &gt;gi|530921846|gb|EQD19226.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3230] &gt;gi|530923051|gb|EQD20353.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM2866] &gt;gi|610427444|gb|AHW76320.1| phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|663090971|gb|KER39251.1| hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002218958</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.88</Hsp_bit-score>
+      <Hsp_score>1387</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSSSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCEAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGS+SGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVC+AVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|488188763|ref|WP_002259971.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|485398869|gb|EOC56939.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM271] &gt;gi|485405864|gb|EOC63438.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3222] &gt;gi|485407612|gb|EOC65062.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3131] &gt;gi|485412266|gb|EOC69376.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3144] &gt;gi|485412693|gb|EOC69766.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3158] &gt;gi|485414812|gb|EOC71753.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM3164]</Hit_def>
+  <Hit_accession>WP_002259971</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.88</Hsp_bit-score>
+      <Hsp_score>1387</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETIFAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETI AQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|488141562|ref|WP_002212770.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|304339001|gb|EFM05095.1| phosphomethylpyrimidine kinase [Neisseria meningitidis ATCC 13091]</Hit_def>
+  <Hit_accession>WP_002212770</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.495</Hsp_bit-score>
+      <Hsp_score>1386</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEGEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCEAVQTAKAYITAAISSPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPE EALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVC+AVQTAKAYITAAIS+PLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488163872|ref|WP_002235080.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|161870469|ref|YP_001599641.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 053442] &gt;gi|218768588|ref|YP_002343100.1| phosphomethylpyrimidine kinase [Neisseria meningitidis Z2491] &gt;gi|121052596|emb|CAM08936.1| phosphomethylpyrimidine kinase [Neisseria meningitidis Z2491] &gt;gi|161596022|gb|ABX73682.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 053442] &gt;gi|254673296|emb|CBA08409.1| phosphomethylpyrimidine kinase [Neisseria meningitidis alpha275] &gt;gi|402316165|gb|EJU51715.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM255] &gt;gi|402328194|gb|EJU63572.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 69166] &gt;gi|402335154|gb|EJU70428.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 92045] &gt;gi|432207269|gb|ELK63260.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 68094] &gt;gi|432214265|gb|ELK70168.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 70012] &gt;gi|432258186|gb|ELL13474.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 61103] &gt;gi|432259912|gb|ELL15181.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 69096] &gt;gi|432272292|gb|ELL27403.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 70030] &gt;gi|485273718|gb|EOB40347.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 69176] &gt;gi|485273827|gb|EOB40450.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 70021] &gt;gi|485273845|gb|EOB40466.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 69155] &gt;gi|485291345|gb|EOB56850.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 69100] &gt;gi|485294489|gb|EOB59767.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 61106] &gt;gi|485297846|gb|EOB62932.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 63023] &gt;gi|485300692|gb|EOB65563.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 70082] &gt;gi|485304714|gb|EOB69344.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 64182] &gt;gi|485373331|gb|EOC33049.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2004032] &gt;gi|485375594|gb|EOC35197.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2001001] &gt;gi|485394117|gb|EOC52496.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2003051] &gt;gi|514069184|gb|EPF54114.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM134] &gt;gi|514069470|gb|EPF54383.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 2007461]</Hit_def>
+  <Hit_accession>WP_002235080</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.495</Hsp_bit-score>
+      <Hsp_score>1386</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSSSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVRTAKSYITAAISSPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGS+SGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAV+TAK+YITAAIS+PLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|489805245|ref|WP_003709119.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria lactamica] &gt;gi|269209236|gb|EEZ75691.1| phosphomethylpyrimidine kinase [Neisseria lactamica ATCC 23970] &gt;gi|673470035|gb|KFJ36665.1| phosphomethylpyrimidine kinase [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003709119</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.11</Hsp_bit-score>
+      <Hsp_score>1385</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKGSFVQSLSIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCRFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIESRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCEAVQTAKVYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MKGSFVQ+L+IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIE+RKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVC+AVQTAK YITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|488180219|ref|WP_002251427.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|432272820|gb|ELL27925.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 77221]</Hit_def>
+  <Hit_accession>WP_002251427</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.724</Hsp_bit-score>
+      <Hsp_score>1384</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKISFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCRFGKRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKSLDVCEAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FG+RVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAK LDVC+AVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|743394235|gb|KID53773.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis LNP27256]</Hit_def>
+  <Hit_accession>KID53773</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.88</Hsp_bit-score>
+      <Hsp_score>1387</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCKAVRTAKSYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVCKAV+TAK+YITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|372200544|gb|EHP14606.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis NM220]</Hit_def>
+  <Hit_accession>EHP14606</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.88</Hsp_bit-score>
+      <Hsp_score>1387</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETIFAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETI AQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|488164812|ref|WP_002236020.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|402322204|gb|EJU57669.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM183] &gt;gi|402322592|gb|EJU58048.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM140] &gt;gi|402324643|gb|EJU60075.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM2781] &gt;gi|402328971|gb|EJU64336.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM576] &gt;gi|402337118|gb|EJU72369.1| phosphomethylpyrimidine kinase [Neisseria meningitidis NM2657]</Hit_def>
+  <Hit_accession>WP_002236020</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCEAVRTAKSYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVC+AV+TAK+YITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|489810563|ref|WP_003714419.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria lactamica] &gt;gi|309378399|emb|CBX23000.1| phosphomethylpyrimidine kinase [Neisseria lactamica Y92-1009]</Hit_def>
+  <Hit_accession>WP_003714419</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKGSFVQSLSIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCRFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVRIESRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCEAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MKGSFVQ+L+IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGV IE+RKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVC+AVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|645197453|ref|WP_025458098.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025458098</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGKRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIESRKDAERAAKILLDYGVKNVVIKGGHLNGSASGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FG+RVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIE+RKDAERAAKILLDYGVKNV+IKGGHLNGS SGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|488181243|ref|WP_002252451.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis] &gt;gi|485283176|gb|EOB49198.1| phosphomethylpyrimidine kinase [Neisseria meningitidis 96060]</Hit_def>
+  <Hit_accession>WP_002252451</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.798</Hsp_bit-score>
+      <Hsp_score>1379</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAEHAAKILLDYGVKNVVIKGGHLNGSSSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVRTAKSYITAAISSPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAE AAKILLDYGVKNV+IKGGHLNGS+SGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAV+TAK+YITAAIS+PLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|518102093|ref|WP_019272301.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019272301</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.332</Hsp_bit-score>
+      <Hsp_score>1370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKESFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPGTDVLTPNLPEAEALTGVRIENREDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSLRFPTAHTHGTGCTFSACITAELAKGSDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLP TD+LTPNLPEAEALTGV IENR+DAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDS RFPTAHTHGTGCTFSACITAELAKG DVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|254670068|emb|CBA04932.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria meningitidis alpha153]</Hit_def>
+  <Hit_accession>CBA04932</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.464</Hsp_bit-score>
+      <Hsp_score>1334</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGP</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCDFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVVIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCEAVRTAKSYITAAISNPLEIGAGHGP</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHC FGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNV+IKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVC+AV+TAK+YITAAISNPLEIGAGHGP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|645193421|ref|WP_025456946.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025456946</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.442</Hsp_bit-score>
+      <Hsp_score>1295</Hsp_score>
+      <Hsp_evalue>4.74207e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADSLKHCDFGKRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVRIESRKDAERAAKILLDYGVKNVVIKGGHLHGSSSGHCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCEAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVAD LKHC FG+RVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGV IE+RKDAERAAKILLDYGVKNV+IKGGHL+GS+SG CTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVC+AVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|296837889|gb|EFH21827.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>EFH21827</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.827</Hsp_bit-score>
+      <Hsp_score>1296</Hsp_score>
+      <Hsp_evalue>6.63965e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKSSFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADSLKHCDFGKRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDVLTPNLPEAEALTGVRIESRKDAERAAKILLDYGVKNVVIKGGHLHGSSSGHCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGSDVCEAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK SFVQTL IAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVAD LKHC FG+RVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTD+LTPNLPEAEALTGV IE+RKDAERAAKILLDYGVKNV+IKGGHL+GS+SG CTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKG DVC+AVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|489774163|ref|WP_003678061.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria cinerea] &gt;gi|269144573|gb|EEZ70991.1| phosphomethylpyrimidine kinase [Neisseria cinerea ATCC 14685]</Hit_def>
+  <Hit_accession>WP_003678061</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.745</Hsp_bit-score>
+      <Hsp_score>1288</Hsp_score>
+      <Hsp_evalue>7.14528e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MEETFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADNLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPGTDVLTPNLPEAEALTGVHIESRKDAERAAKILLDYGVKNVVIKGGHLNGSSSGHCTDWLFTQNETLEFDSLRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M+ +FVQTL IAGSDSGGGAGIQADLKTFQMRGVFGT VITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVAD LKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLP TD+LTPNLPEAEALTGVHIE+RKDAERAAKILLDYGVKNV+IKGGHLNGS+SG CTDWLFTQNETLE DS RFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|489837314|ref|WP_003741026.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria mucosa] &gt;gi|288568433|gb|EFC89993.1| phosphomethylpyrimidine kinase [Neisseria mucosa ATCC 25996]</Hit_def>
+  <Hit_accession>WP_003741026</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.639</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>3.03455e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MKETFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHLVPTDIIAAQIEAVRADFEIRAYKIGMLGTAEVIECVAENLKKCRFGKRVLDPVMIAKGGAPLLQDSAVEAMKRLLLPDTDILTPNLPEAEALTGVRIENRQDAERAAKILQDCGVKNVVIKGGHLSDSRSEYCTDWLFTPDEVFEFTDRRFPTAHTHGTGCTFSACIAAELAKGFETLEAVQTAKKYITEAICNPLNIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>MK +FVQTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVHLVPT+ I AQI+A+R DF+IRAYKIGMLGTAE+IECVA+ LK C FG+RVLDPVMIAKGGAPLLQDSAV A+ RLLLPDTDILTPNLPEAEALTGV IENR+DAERAAKIL D GVKNV+IKGGHL+ S S  CTDWLFT +E  E    RFPTAHTHGTGCTFSACI AELAKG +  +AVQTAK YIT AI NPL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|518100280|ref|WP_019270488.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_019270488</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>6.95996e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MEETFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHLVPTDIITAQIEAVRADFEIRAYKIGMLGTAEVIECVAENLKKCRFGKRVLDPVMIAKGGAPLLQDSAVEAMKRLLLPDTDILTPNLPEAEALTGVRIENRQDAERAAKILQDCGVKNVVIKGGHLGDSRSEYCTDWLFTPDEVFEFTDRRFPTAHTHGTGCTFSACIAAELAKGFETLESVQTAKKYITEAIRNPLNIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M+ +FVQTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVHLVPT+ ITAQI+A+R DF+IRAYKIGMLGTAE+IECVA+ LK C FG+RVLDPVMIAKGGAPLLQDSAV A+ RLLLPDTDILTPNLPEAEALTGV IENR+DAERAAKIL D GVKNV+IKGGHL  S S  CTDWLFT +E  E    RFPTAHTHGTGCTFSACI AELAKG +  ++VQTAK YIT AI NPL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|746359577|ref|WP_039404195.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Morococcus cerebrosus] &gt;gi|742701104|gb|KIC13291.1| phosphomethylpyrimidine kinase [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_039404195</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.017</Hsp_bit-score>
+      <Hsp_score>1094</Hsp_score>
+      <Hsp_evalue>1.8035e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MEETFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHLIPTDIITAQIEAVRSDFEIRAYKIGMLGTAEVIECVAENLKKCRFGKRVLDPVMIAKGGAPLLQDSAVEAMKRLLLPDTDILTPNLPEAETLTGVRIENRQDAERAAKILQDCGVKNVVVKGGHLGDSRSEYCTDWLFTPDDVFEFVDRRFPTAHTHGTGCTFSACIAAELAKGFETLEAVQTAKKYITEAIRNPLNIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M+ +FVQTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVHL+PT+ ITAQI+A+R DF+IRAYKIGMLGTAE+IECVA+ LK C FG+RVLDPVMIAKGGAPLLQDSAV A+ RLLLPDTDILTPNLPEAE LTGV IENR+DAERAAKIL D GVKNV++KGGHL  S S  CTDWLFT ++  E    RFPTAHTHGTGCTFSACI AELAKG +  +AVQTAK YIT AI NPL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|515031072|ref|WP_016688326.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016688326</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.705</Hsp_bit-score>
+      <Hsp_score>1088</Hsp_score>
+      <Hsp_evalue>1.45219e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MEETFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHLVPTDIITAQIEAVRADFEIRAYKIGMLGTAEVIECVAENLKKCRFGKRVLDPVMIAKGGAPLLQDSAVEAMKRLLLSDTDILTPNLPEAEALTDVRIENRQDAERAAKILQDCGVKNVVIKGGHLSDSRSEYCTDWLFTPDDVFEFTDRRFPTAHTHGTGCTFSACIAAELAKGFETLEAVQTAKKYITEAIRNPLNIGAGHGPVNHWAYQD</Hsp_hseq>
+      <Hsp_midline>M+ +FVQTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVHLVPT+ ITAQI+A+R DF+IRAYKIGMLGTAE+IECVA+ LK C FG+RVLDPVMIAKGGAPLLQDSAV A+ RLLL DTDILTPNLPEAEALT V IENR+DAERAAKIL D GVKNV+IKGGHL+ S S  CTDWLFT ++  E    RFPTAHTHGTGCTFSACI AELAKG +  +AVQTAK YIT AI NPL IGAGHGPVNHWAY+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|489865471|ref|WP_003769063.1|</Hit_id>
+  <Hit_def>MULTISPECIES: phosphomethylpyrimidine kinase [Neisseria] &gt;gi|348613083|gb|EGY62681.1| phosphomethylpyrimidine kinase [Neisseria sp. GT4A_CT1] &gt;gi|385693464|gb|EIG24111.1| phosphomethylpyrimidine kinase [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003769063</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.705</Hsp_bit-score>
+      <Hsp_score>1088</Hsp_score>
+      <Hsp_evalue>1.82652e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MEETFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHLVPTDIIAAQIEAVRADFEIRAYKIGMLGTAQVIECVAENLKKCRFGKRVLDPVMIAKGGAPLLQDSAVEAMKRLLLPDTDILTPNLPEAEALTGVRIESRQDAERAAKILQDCGVKNVVIKGGHLGDSRSEYCTDWLFTPDDVFEFADRRFPTAHTHGTGCTFSACIAAELAKGFETLEAVQTAKKYITEAIRNPLNIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M+ +FVQTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVHLVPT+ I AQI+A+R DF+IRAYKIGMLGTA++IECVA+ LK C FG+RVLDPVMIAKGGAPLLQDSAV A+ RLLLPDTDILTPNLPEAEALTGV IE+R+DAERAAKIL D GVKNV+IKGGHL  S S  CTDWLFT ++  E    RFPTAHTHGTGCTFSACI AELAKG +  +AVQTAK YIT AI NPL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|489873253|ref|WP_003776780.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria macacae] &gt;gi|339888423|gb|EGQ77884.1| phosphomethylpyrimidine kinase [Neisseria macacae ATCC 33926]</Hit_def>
+  <Hit_accession>WP_003776780</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.239</Hsp_bit-score>
+      <Hsp_score>1079</Hsp_score>
+      <Hsp_evalue>3.88646e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MEETFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHLVPTDIIAAQIEAVRADFEIRAYKIGMLGTAQVIECVAENLKKCRFGKRVLDPVMIAKGGAPLLQDSAVEAMKRLLLPDTDILTPNLPEAEALTGVRIESRQDAERAAKILQGCGVKNVVIKGGHLGDSRSEYCTDWLFTPDDVFEFADRRFPTAHTHGTGCTFSACIAAELAKGFETLEAVQTAKKYITEAIRNPLNIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M+ +FVQTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVHLVPT+ I AQI+A+R DF+IRAYKIGMLGTA++IECVA+ LK C FG+RVLDPVMIAKGGAPLLQDSAV A+ RLLLPDTDILTPNLPEAEALTGV IE+R+DAERAAKIL   GVKNV+IKGGHL  S S  CTDWLFT ++  E    RFPTAHTHGTGCTFSACI AELAKG +  +AVQTAK YIT AI NPL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|738544722|ref|WP_036492964.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria mucosa] &gt;gi|694240473|gb|KGJ31365.1| phosphomethylpyrimidine kinase [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_036492964</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>5.70956e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MDELFIQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHPIPTDMIAAQIAAIQEDFHIRAYKIGMLGTAEIIECVAEQTAECDFGKRVLDPVMIAKGGAPLLENSAVEAMKRLLLPHTDVLTPNLPEAQALTGINIENRQDAERAAKILQDWGVKNVVIKGGHLADSQSEYCTDWLFTPYETIELNSKRFPTPHTHGTGCTFSACITAELAKGFSVSEAVQTAKNYIAAAISHPLDIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M   F+QTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVH +PT+ I AQI AI+EDF IRAYKIGMLGTAEIIECVA++   C FG+RVLDPVMIAKGGAPLL++SAV A+ RLLLP TD+LTPNLPEA+ALTG++IENR+DAERAAKIL D+GVKNV+IKGGHL  S S  CTDWLFT  ET+EL+S RFPT HTHGTGCTFSACITAELAKG  V +AVQTAK YI AAIS+PL+IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|489852358|ref|WP_003756034.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria sicca] &gt;gi|255050350|gb|EET45814.1| phosphomethylpyrimidine kinase [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>WP_003756034</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.698</Hsp_bit-score>
+      <Hsp_score>1075</Hsp_score>
+      <Hsp_evalue>1.23663e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MEETFVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHLVPTDIIAAQIEAVRADFEIRAYKIGMLGTAQVIECVAENLKKCRFGKRVLDPVMIAKGGAPLLQDSAVEAMKRLLLPDTDILTPNLPEAEALTGVRIESRQDAEHAAKILQDCGVKNVVIKGGHLGDSRSEYCIDWLFTPDDVFEFADRRFPTAHTHGTGCTFSACIAAELAKGFETLEAVQTAKKYITEAIRNPLNIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M+ +FVQTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVHLVPT+ I AQI+A+R DF+IRAYKIGMLGTA++IECVA+ LK C FG+RVLDPVMIAKGGAPLLQDSAV A+ RLLLPDTDILTPNLPEAEALTGV IE+R+DAE AAKIL D GVKNV+IKGGHL  S S  C DWLFT ++  E    RFPTAHTHGTGCTFSACI AELAKG +  +AVQTAK YIT AI NPL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|748605490|ref|WP_039863669.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria flavescens]</Hit_def>
+  <Hit_accession>WP_039863669</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.313</Hsp_bit-score>
+      <Hsp_score>1074</Hsp_score>
+      <Hsp_evalue>2.02627e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MDELFIQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHPIPTDMIAAQIAAIQEDFQIRAYKIGMLGTAEIIECVAEQTAECGFGKRVLDPVMIAKGGAPLLENSAVEAMKRLLLPHTDVLTPNLPEAQALTGINIENRQDAERAAKILQDWGVKNVVIKGGHLADSQSEYCTDWLFTPYETIELNSKRFPTPHTHGTGCTFSACITAELAKGFSVSEAVQTAKNYIAAAISHPLGIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M   F+QTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVH +PT+ I AQI AI+EDF IRAYKIGMLGTAEIIECVA++   C FG+RVLDPVMIAKGGAPLL++SAV A+ RLLLP TD+LTPNLPEA+ALTG++IENR+DAERAAKIL D+GVKNV+IKGGHL  S S  CTDWLFT  ET+EL+S RFPT HTHGTGCTFSACITAELAKG  V +AVQTAK YI AAIS+PL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|224952892|gb|EEG34101.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>EEG34101</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>2.61977e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MDELFIQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHPIPTDMIAAQIAAIQEDFQIRAYKIGMLGTAEIIECVAEQTAECGFGKRVLDPVMIAKGGAPLLENSAVEAMKRLLLPHTDVLTPNLPEAQALTGINIENRQDAERAAKILQDWGVKNVVIKGGHLADSQSEYCTDWLFTPYETIELNSKRFPTPHTHGTGCTFSACITAELAKGFSVSEAVQTAKNYIAAAISHPLGIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M   F+QTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVH +PT+ I AQI AI+EDF IRAYKIGMLGTAEIIECVA++   C FG+RVLDPVMIAKGGAPLL++SAV A+ RLLLP TD+LTPNLPEA+ALTG++IENR+DAERAAKIL D+GVKNV+IKGGHL  S S  CTDWLFT  ET+EL+S RFPT HTHGTGCTFSACITAELAKG  V +AVQTAK YI AAIS+PL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|284797163|gb|EFC52510.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria subflava NJ9703]</Hit_def>
+  <Hit_accession>EFC52510</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>2.9219e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MDELFIQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHSIPTDMIAAQIAAIQEDFQIRAYKIGMLGTAEIIECVAEQTAECDFGKRVLDPVMIAKGGAPLLENSAVEAMKRLLLPHTDVLTPNLPEAQALTGINIENRQDAERAAKILQDWGVKNVVIKGGHLADSQSEYCTDWLFTPYETIELNSKRFPTPHTHGTGCTFSACITAELAKGFSVPEAVQTAKNYIAAAISHPLGIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M   F+QTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVH +PT+ I AQI AI+EDF IRAYKIGMLGTAEIIECVA++   C FG+RVLDPVMIAKGGAPLL++SAV A+ RLLLP TD+LTPNLPEA+ALTG++IENR+DAERAAKIL D+GVKNV+IKGGHL  S S  CTDWLFT  ET+EL+S RFPT HTHGTGCTFSACITAELAKG  V +AVQTAK YI AAIS+PL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|748603892|ref|WP_039862072.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria subflava]</Hit_def>
+  <Hit_accession>WP_039862072</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>3.00201e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MDELFIQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHSIPTDMIAAQIAAIQEDFQIRAYKIGMLGTAEIIECVAEQTAECDFGKRVLDPVMIAKGGAPLLENSAVEAMKRLLLPHTDVLTPNLPEAQALTGINIENRQDAERAAKILQDWGVKNVVIKGGHLADSQSEYCTDWLFTPYETIELNSKRFPTPHTHGTGCTFSACITAELAKGFSVPEAVQTAKNYIAAAISHPLGIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M   F+QTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVH +PT+ I AQI AI+EDF IRAYKIGMLGTAEIIECVA++   C FG+RVLDPVMIAKGGAPLL++SAV A+ RLLLP TD+LTPNLPEA+ALTG++IENR+DAERAAKIL D+GVKNV+IKGGHL  S S  CTDWLFT  ET+EL+S RFPT HTHGTGCTFSACITAELAKG  V +AVQTAK YI AAIS+PL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|489845158|ref|WP_003748851.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria mucosa] &gt;gi|317399514|gb|EFV80184.1| phosphomethylpyrimidine kinase [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003748851</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>3.53625e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MDELFIQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHPIPTDMIAAQIAAIQEDFQIRAYKIGMLGTAEIIECVAEQTAECDFGKRVLDPVMIAKGGAPLLENSAVEAMKRLLLPHTDVLTPNLPEAQALTGINIENRQDAERAAKILQDWGVKNVVIKGGHLADSQSEYCTDWLFTPNETIELNSKRFPTPHTHGTGCTFSACIAAELAKGFGVPEAVQTAKNYIAAAISHPLGIGAGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M   F+QTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVH +PT+ I AQI AI+EDF IRAYKIGMLGTAEIIECVA++   C FG+RVLDPVMIAKGGAPLL++SAV A+ RLLLP TD+LTPNLPEA+ALTG++IENR+DAERAAKIL D+GVKNV+IKGGHL  S S  CTDWLFT NET+EL+S RFPT HTHGTGCTFSACI AELAKG  V +AVQTAK YI AAIS+PL IGAGHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|241320272|gb|EER56605.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>EER56605</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.438</Hsp_bit-score>
+      <Hsp_score>1025</Hsp_score>
+      <Hsp_evalue>1.68983e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MDELFIQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHPIPTDIIAAQIAAIQEDFQIRAYKIGMLGTVEIIECVAEQTAECDFGKRVLDPVMIAKGGAPLLENSAVEAMKRLLLPHTDVLTPNLPEAQALTGINIENRQDAERAAKILQDWGVKNVVIKGGHLADSQSEYCTDWLFMPYETIELNSKRFPTPHTHGTGCTFSACITAELAKGFSVPEAVQTAKNYIAAAISHPLGIGAGNGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M   F+QTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVH +PT+ I AQI AI+EDF IRAYKIGMLGT EIIECVA++   C FG+RVLDPVMIAKGGAPLL++SAV A+ RLLLP TD+LTPNLPEA+ALTG++IENR+DAERAAKIL D+GVKNV+IKGGHL  S S  CTDWLF   ET+EL+S RFPT HTHGTGCTFSACITAELAKG  V +AVQTAK YI AAIS+PL IGAG+GPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|738524224|ref|WP_036472701.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria flavescens]</Hit_def>
+  <Hit_accession>WP_036472701</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>2.29769e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MDELFIQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSVLTAVTAQNTLGVSAVHPIPTDIIAAQIAAIQEDFQIRAYKIGMLGTVEIIECVAEQTAECDFGKRVLDPVMIAKGGAPLLENSAVEAMKRLLLPHTDVLTPNLPEAQALTGINIENRQDAERAAKILQDWGVKNVVIKGGHLADSQSEYCTDWLFMPYETIELNSKRFPTPHTHGTGCTFSACITAELAKGFSVPEAVQTAKNYIAAAISHPLGIGAGNGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M   F+QTL IAGSDSGGGAGIQADLKTFQMRGVFGT V+TAVTAQNTLGVSAVH +PT+ I AQI AI+EDF IRAYKIGMLGT EIIECVA++   C FG+RVLDPVMIAKGGAPLL++SAV A+ RLLLP TD+LTPNLPEA+ALTG++IENR+DAERAAKIL D+GVKNV+IKGGHL  S S  CTDWLF   ET+EL+S RFPT HTHGTGCTFSACITAELAKG  V +AVQTAK YI AAIS+PL IGAG+GPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|496465258|ref|WP_009174103.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Neisseria sp. oral taxon 014] &gt;gi|298283414|gb|EFI24901.1| phosphomethylpyrimidine kinase [Neisseria sp. oral taxon 014 str. F0314]</Hit_def>
+  <Hit_accession>WP_009174103</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>9.61931e-126</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQN-ETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>FVQTLTIAGSDSGGGAGIQADLKTFQMRGVFGTSAVTAVTAQNTLGVAAVHLVPTEVIRSQIEAVRDDFQISAFKLGMLGTAEIIECVAECLKECSFGPMVLDPVMIAKGGAPLLHDSAVAAMKRHLLPLADVLTPNLPETQVLTGVDVENAQDAERAARILQDAGVKTVVIKGGHSGGSRSAQCTDWVFLPDGEKLELSGRRYPTPHTHGTGCTFSACVTAELAKGFSVENAVKTAKAYIAAAIANPLNIGSGHGPVNHWAYRD</Hsp_hseq>
+      <Hsp_midline>FVQTL IAGSDSGGGAGIQADLKTFQMRGVFGT  +TAVTAQNTLGV+AVHLVPTE I +QI+A+R+DF I A+K+GMLGTAEIIECVA+ LK CSFG  VLDPVMIAKGGAPLL DSAVAA+ R LLP  D+LTPNLPE + LTGV +EN +DAERAA+IL D GVK V+IKGGH  GS S +CTDW+F  + E LEL   R+PT HTHGTGCTFSAC+TAELAKG  V  AV+TAKAYI AAI+NPL IG+GHGPVNHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|491974169|ref|WP_005700215.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Aggregatibacter aphrophilus] &gt;gi|251792307|ref|YP_003007032.1| phosphomethylpyrimidine kinase [Aggregatibacter aphrophilus NJ8700] &gt;gi|247533699|gb|ACS96945.1| phosphomethylpyrimidine kinase [Aggregatibacter aphrophilus NJ8700] &gt;gi|353346830|gb|EHB91114.1| hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [Aggregatibacter aphrophilus F0387]</Hit_def>
+  <Hit_accession>WP_005700215</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.829</Hsp_bit-score>
+      <Hsp_score>904</Hsp_score>
+      <Hsp_evalue>1.35969e-118</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>SFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>NIVQALTIAGSDSGGGAGIQADLKTFQMRGVFGTSVITAITAQNTLGVFDIHAIPLQTIQSQLKAIADDFTISAFKIGMLGTTEIIECVAEALTQYDFGPLVLDPVMIAKGGAPLLQQSAVDSLVKFLLPQAEVITPNLPEAMALTGIDIVDEQSAQRAAQMLQAQGVKTVVIKGGHSGNSQSAECRDWIFTPNEHFVLQSPRYPTPHTHGTGCTFSACLTAELAKGADIRSAVQTAKAYIGAAISHPLNIGHGHGPTNHWAYQE</Hsp_hseq>
+      <Hsp_midline>+ VQ L IAGSDSGGGAGIQADLKTFQMRGVFGT VITA+TAQNTLGV  +H +P +TI +Q++AI +DF I A+KIGMLGT EIIECVA+ L    FG  VLDPVMIAKGGAPLLQ SAV +L + LLP  +++TPNLPEA ALTG+ I + + A+RAA++L   GVK V+IKGGH   S S  C DW+FT NE   L SPR+PT HTHGTGCTFSAC+TAELAKG D+  AVQTAKAYI AAIS+PL IG GHGP NHWAY++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|386905493|gb|EIJ70256.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Pasteurella bettyae CCUG 2042]</Hit_def>
+  <Hit_accession>EIJ70256</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.903</Hsp_bit-score>
+      <Hsp_score>899</Hsp_score>
+      <Hsp_evalue>7.30008e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MKGSFVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>MMNPIIQTLTIAGSDSGGGAGIQADLKTFQMRNVFGTSVITSVTAQNTLGVYDIHLIPIDTIQSQLKAIAEDFDIRAVKIGMLGDVNRIECVAEGLRQYSFGKIVLDPVMIAKGGASLLPQSAVSALKNLMIPQADIITPNIPEAEALTGIKIHNETDIKKAAEIIQNLGVETVIIKGGHLDDAKSAVCKDWIFTSDEDFTLSSPRYQTVHTHGTGCTFSACITAEIAKGYTVPQAIHTAKLFITEAISHPLNIGHGHGPTNHWAYRD</Hsp_hseq>
+      <Hsp_midline>M    +QTL IAGSDSGGGAGIQADLKTFQMR VFGT VIT+VTAQNTLGV  +HL+P +TI +Q++AI EDFDIRA KIGMLG    IECVA+ L+  SFG+ VLDPVMIAKGGA LL  SAV+AL  L++P  DI+TPN+PEAEALTG+ I N  D ++AA+I+ + GV+ VIIKGGHL+ + S  C DW+FT +E   L SPR+ T HTHGTGCTFSACITAE+AKG  V +A+ TAK +IT AIS+PL IG GHGP NHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|750314301|ref|WP_040596272.1|</Hit_id>
+  <Hit_def>phosphomethylpyrimidine kinase [Pasteurella bettyae]</Hit_def>
+  <Hit_accession>WP_040596272</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.977</Hsp_bit-score>
+      <Hsp_score>894</Hsp_score>
+      <Hsp_evalue>3.86023e-117</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>FVQTLAIAGSDSGGGAGIQADLKTFQMRGVFGTCVITAVTAQNTLGVSAVHLVPTETITAQIQAIREDFDIRAYKIGMLGTAEIIECVADKLKHCSFGRRVLDPVMIAKGGAPLLQDSAVAALTRLLLPDTDILTPNLPEAEALTGVHIENRKDAERAAKILLDYGVKNVIIKGGHLNGSTSGRCTDWLFTQNETLELDSPRFPTAHTHGTGCTFSACITAELAKGLDVCKAVQTAKAYITAAISNPLEIGAGHGPVNHWAYRD</Hsp_qseq>
+      <Hsp_hseq>IIQTLTIAGSDSGGGAGIQADLKTFQMRNVFGTSVITSVTAQNTLGVYDIHLIPIDTIQSQLKAIAEDFDIRAVKIGMLGDVNRIECVAEGLRQYSFGKIVLDPVMIAKGGASLLPQSAVSALKNLMIPQADIITPNIPEAEALTGIKIHNETDIKKAAEIIQNLGVETVIIKGGHLDDAKSAVCKDWIFTSDEDFTLSSPRYQTVHTHGTGCTFSACITAEIAKGYTVPQAIHTAKLFITEAISHPLNIGHGHGPTNHWAYRD</Hsp_hseq>
+      <Hsp_midline> +QTL IAGSDSGGGAGIQADLKTFQMR VFGT VIT+VTAQNTLGV  +HL+P +TI +Q++AI EDFDIRA KIGMLG    IECVA+ L+  SFG+ VLDPVMIAKGGA LL  SAV+AL  L++P  DI+TPN+PEAEALTG+ I N  D ++AA+I+ + GV+ VIIKGGHL+ + S  C DW+FT +E   L SPR+ T HTHGTGCTFSACITAE+AKG  V +A+ TAK +IT AIS+PL IG GHGP NHWAYRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

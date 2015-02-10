@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>39981</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7U7</BlastOutput_query-def>
+  <BlastOutput_query-len>105</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>39981</Iteration_query-ID>
+  <Iteration_query-def>Q5F7U7</Iteration_query-def>
+  <Iteration_query-len>105</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|488143904|ref|WP_002215112.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Neisseria] &gt;gi|15677933|ref|NP_275104.1| hypothetical protein NMB2118 [Neisseria meningitidis MC58] &gt;gi|59801440|ref|YP_208152.1| hypothetical protein NGO1070 [Neisseria gonorrhoeae FA 1090] &gt;gi|121635760|ref|YP_976005.1| hypothetical protein NMC2085 [Neisseria meningitidis FAM18] &gt;gi|218767320|ref|YP_002341832.1| hypothetical protein NMA0314 [Neisseria meningitidis Z2491] &gt;gi|385325051|ref|YP_005879490.1| hypothetical protein NMV_2330 [Neisseria meningitidis 8013] &gt;gi|385337168|ref|YP_005891041.1| hypothetical protein NMAA_0048 [Neisseria meningitidis WUE 2594] &gt;gi|385858078|ref|YP_005904590.1| hypothetical protein NMBNZ0533_2051 [Neisseria meningitidis NZ-05/33] &gt;gi|538321732|ref|YP_008502792.1| hypothetical protein NGFG_00664 [Neisseria gonorrhoeae MS11] &gt;gi|7227376|gb|AAF42429.1| hypothetical protein NMB2118 [Neisseria meningitidis MC58] &gt;gi|59718335|gb|AAW89740.1| conserved hypothetical protein [Neisseria gonorrhoeae FA 1090] &gt;gi|120867466|emb|CAM11238.1| hypothetical protein NMC2085 [Neisseria meningitidis FAM18] &gt;gi|121051328|emb|CAM07616.1| hypothetical protein NMA0314 [Neisseria meningitidis Z2491] &gt;gi|226512462|gb|EEH61807.1| conserved hypothetical protein [Neisseria gonorrhoeae 1291] &gt;gi|261393438|emb|CAX51080.1| hypothetical protein NMV_2330 [Neisseria meningitidis 8013] &gt;gi|268548507|gb|EEZ43925.1| conserved hypothetical protein [Neisseria gonorrhoeae 35/02] &gt;gi|268582821|gb|EEZ47497.1| hypothetical protein NGFG_00664 [Neisseria gonorrhoeae MS11] &gt;gi|268585179|gb|EEZ49855.1| conserved hypothetical protein [Neisseria gonorrhoeae PID18] &gt;gi|268587504|gb|EEZ52180.1| conserved hypothetical protein [Neisseria gonorrhoeae PID1] &gt;gi|268622137|gb|EEZ54537.1| conserved hypothetical protein [Neisseria gonorrhoeae PID332] &gt;gi|268624305|gb|EEZ56705.1| conserved hypothetical protein [Neisseria gonorrhoeae SK-92-679] &gt;gi|268626587|gb|EEZ58987.1| conserved hypothetical protein [Neisseria gonorrhoeae SK-93-1035] &gt;gi|291012598|gb|EFE04587.1| conserved hypothetical protein [Neisseria gonorrhoeae DGI2] &gt;gi|291610716|gb|EFF39826.1| hypothetical protein NGNG_00511 [Neisseria gonorrhoeae F62] &gt;gi|304337313|gb|EFM03489.1| hypothetical protein HMPREF0602_2044 [Neisseria meningitidis ATCC 13091] &gt;gi|309379340|emb|CBX22113.1| unnamed protein product [Neisseria lactamica Y92-1009] &gt;gi|319409582|emb|CBY89877.1| hypothetical protein NMAA_0048 [Neisseria meningitidis WUE 2594] &gt;gi|325127230|gb|EGC50169.1| hypothetical protein NMXN1568_2191 [Neisseria meningitidis N1568] &gt;gi|325208967|gb|ADZ04419.1| hypothetical protein NMBNZ0533_2051 [Neisseria meningitidis NZ-05/33] &gt;gi|402315021|gb|EJU50588.1| hypothetical protein NMEN255_2057 [Neisseria meningitidis NM255] &gt;gi|402315190|gb|EJU50756.1| hypothetical protein NMEN93003_2091 [Neisseria meningitidis 93003] &gt;gi|402320807|gb|EJU56288.1| hypothetical protein NMEN183_2048 [Neisseria meningitidis NM183] &gt;gi|402320993|gb|EJU56473.1| hypothetical protein NMEN140_2022 [Neisseria meningitidis NM140] &gt;gi|402323236|gb|EJU58682.1| hypothetical protein NMEN2781_2024 [Neisseria meningitidis NM2781] &gt;gi|402326649|gb|EJU62048.1| hypothetical protein NMEN69166_2082 [Neisseria meningitidis 69166] &gt;gi|402327502|gb|EJU62890.1| hypothetical protein NMEN576_2041 [Neisseria meningitidis NM576] &gt;gi|402328776|gb|EJU64142.1| hypothetical protein NMEN98008_2080 [Neisseria meningitidis 98008] &gt;gi|402332970|gb|EJU68287.1| hypothetical protein NMEN80179_2136 [Neisseria meningitidis 80179] &gt;gi|402333828|gb|EJU69126.1| hypothetical protein NMEN92045_2115 [Neisseria meningitidis 92045] &gt;gi|402335536|gb|EJU70801.1| hypothetical protein NMEN2657_2044 [Neisseria meningitidis NM2657] &gt;gi|402340000|gb|EJU75205.1| hypothetical protein NMEN3081_2281 [Neisseria meningitidis NM3081] &gt;gi|402342886|gb|EJU78042.1| hypothetical protein NMEN3001_1511 [Neisseria meningitidis NM3001] &gt;gi|432200303|gb|ELK56400.1| hypothetical protein NMNM422_2162 [Neisseria meningitidis NM422] &gt;gi|432200785|gb|ELK56874.1| hypothetical protein NM98080_2076 [Neisseria meningitidis 98080] &gt;gi|432206386|gb|ELK62395.1| hypothetical protein NM68094_2057 [Neisseria meningitidis 68094] &gt;gi|432207103|gb|ELK63098.1| hypothetical protein NM97021_2048 [Neisseria meningitidis 97021] &gt;gi|432207402|gb|ELK63392.1| hypothetical protein NM88050_2074 [Neisseria meningitidis 88050] &gt;gi|432212956|gb|ELK68887.1| hypothetical protein NM70012_2094 [Neisseria meningitidis 70012] &gt;gi|432213541|gb|ELK69457.1| hypothetical protein NM2006087_2072 [Neisseria meningitidis 2006087] &gt;gi|432213736|gb|ELK69646.1| hypothetical protein NM63041_1768 [Neisseria meningitidis 63041] &gt;gi|432219125|gb|ELK74973.1| hypothetical protein NM2002038_1947 [Neisseria meningitidis 2002038] &gt;gi|432219773|gb|ELK75608.1| hypothetical protein NM97014_2095 [Neisseria meningitidis 97014] &gt;gi|432220225|gb|ELK76050.1| hypothetical protein NMM13255_2135 [Neisseria meningitidis M13255] &gt;gi|432225228|gb|ELK80981.1| hypothetical protein NMNM418_2198 [Neisseria meningitidis NM418] &gt;gi|432225606|gb|ELK81347.1| hypothetical protein NMNM586_2116 [Neisseria meningitidis NM586] &gt;gi|432226985|gb|ELK82700.1| hypothetical protein NMNM762_2040 [Neisseria meningitidis NM762] &gt;gi|432231607|gb|ELK87266.1| hypothetical protein NMM7089_2034 [Neisseria meningitidis M7089] &gt;gi|432232396|gb|ELK88041.1| hypothetical protein NMM7124_2041 [Neisseria meningitidis M7124] &gt;gi|432232783|gb|ELK88419.1| hypothetical protein NMNM174_2041 [Neisseria meningitidis NM174] &gt;gi|432238152|gb|ELK93728.1| hypothetical protein NMNM126_2078 [Neisseria meningitidis NM126] &gt;gi|432238565|gb|ELK94131.1| hypothetical protein NM9506_2068 [Neisseria meningitidis 9506] &gt;gi|432238694|gb|ELK94259.1| hypothetical protein NM9757_2080 [Neisseria meningitidis 9757] &gt;gi|432244369|gb|ELK99863.1| hypothetical protein NM12888_2162 [Neisseria meningitidis 12888] &gt;gi|432244685|gb|ELL00170.1| hypothetical protein NM4119_2062 [Neisseria meningitidis 4119] &gt;gi|432245397|gb|ELL00867.1| hypothetical protein NM63049_2062 [Neisseria meningitidis 63049] &gt;gi|432250806|gb|ELL06186.1| hypothetical protein NM2004090_2164 [Neisseria meningitidis 2004090] &gt;gi|432250905|gb|ELL06282.1| hypothetical protein NM96023_2152 [Neisseria meningitidis 96023] &gt;gi|432251412|gb|ELL06781.1| hypothetical protein NM65014_2077 [Neisseria meningitidis 65014] &gt;gi|432257335|gb|ELL12638.1| hypothetical protein NM61103_2022 [Neisseria meningitidis 61103] &gt;gi|432257451|gb|ELL12751.1| hypothetical protein NM97020_2059 [Neisseria meningitidis 97020] &gt;gi|432257884|gb|ELL13176.1| hypothetical protein NM69096_2117 [Neisseria meningitidis 69096] &gt;gi|432263573|gb|ELL18790.1| hypothetical protein NMNM3652_2073 [Neisseria meningitidis NM3652] &gt;gi|432263845|gb|ELL19056.1| hypothetical protein NMNM3642_2155 [Neisseria meningitidis NM3642] &gt;gi|432264742|gb|ELL19941.1| hypothetical protein NM2007056_2051 [Neisseria meningitidis 2007056] &gt;gi|432269048|gb|ELL24211.1| hypothetical protein NM2001212_2081 [Neisseria meningitidis 2001212] &gt;gi|432270474|gb|ELL25612.1| hypothetical protein NM77221_2121 [Neisseria meningitidis 77221] &gt;gi|432270929|gb|ELL26062.1| hypothetical protein NM70030_2114 [Neisseria meningitidis 70030] &gt;gi|432275058|gb|ELL30136.1| hypothetical protein NM63006_2075 [Neisseria meningitidis 63006] &gt;gi|485272172|gb|EOB38940.1| hypothetical protein NM69155_2121 [Neisseria meningitidis 69155] &gt;gi|485272221|gb|EOB38981.1| hypothetical protein NM70021_2149 [Neisseria meningitidis 70021] &gt;gi|485272325|gb|EOB39079.1| hypothetical protein NM70021_2136 [Neisseria meningitidis 70021] &gt;gi|485272392|gb|EOB39142.1| hypothetical protein NM69176_2096 [Neisseria meningitidis 69176] &gt;gi|485278820|gb|EOB45146.1| hypothetical protein NM96060_2181 [Neisseria meningitidis 96060] &gt;gi|485278836|gb|EOB45160.1| hypothetical protein NM96060_2176 [Neisseria meningitidis 96060] &gt;gi|485278846|gb|EOB45167.1| hypothetical protein NM96060_2174 [Neisseria meningitidis 96060] &gt;gi|485278850|gb|EOB45171.1| hypothetical protein NM96060_2169 [Neisseria meningitidis 96060] &gt;gi|485286168|gb|EOB52003.1| hypothetical protein NM69100_2160 [Neisseria meningitidis 69100] &gt;gi|485292115|gb|EOB57573.1| hypothetical protein NM97018_2116 [Neisseria meningitidis 97018] &gt;gi|485292224|gb|EOB57679.1| hypothetical protein NM97018_2115 [Neisseria meningitidis 97018] &gt;gi|485292503|gb|EOB57909.1| hypothetical protein NM63023_2200 [Neisseria meningitidis 63023] &gt;gi|485292864|gb|EOB58263.1| hypothetical protein NM61106_2189 [Neisseria meningitidis 61106] &gt;gi|485306366|gb|EOB70863.1| hypothetical protein NM96024_2078 [Neisseria meningitidis 96024] &gt;gi|485311165|gb|EOB75351.1| hypothetical protein NM98005_2083 [Neisseria meningitidis 98005] &gt;gi|485313377|gb|EOB77415.1| hypothetical protein NM2003022_2099 [Neisseria meningitidis 2003022] &gt;gi|485313587|gb|EOB77607.1| hypothetical protein NM2004085_2074 [Neisseria meningitidis 2004085] &gt;gi|485320319|gb|EOB83898.1| hypothetical protein NM2002007_2109 [Neisseria meningitidis 2002007] &gt;gi|485327062|gb|EOB90191.1| hypothetical protein NM133_2184 [Neisseria meningitidis NM133] &gt;gi|485330828|gb|EOB93700.1| hypothetical protein NM43_2026 [Neisseria meningitidis NM43] &gt;gi|485334077|gb|EOB96733.1| hypothetical protein NM82_2172 [Neisseria meningitidis NM82] &gt;gi|485334449|gb|EOB97080.1| hypothetical protein NM94_2109 [Neisseria meningitidis NM94] &gt;gi|485336601|gb|EOB99074.1| hypothetical protein NM95_2117 [Neisseria meningitidis NM95] &gt;gi|485340751|gb|EOC02973.1| hypothetical protein NM313_2100 [Neisseria meningitidis NM313] &gt;gi|485341339|gb|EOC03519.1| hypothetical protein NM1482_2048 [Neisseria meningitidis NM1482] &gt;gi|485343650|gb|EOC05663.1| hypothetical protein NM1495_2050 [Neisseria meningitidis NM1495] &gt;gi|485347047|gb|EOC08837.1| hypothetical protein NM73696_2151 [Neisseria meningitidis 73696] &gt;gi|485348095|gb|EOC09813.1| hypothetical protein NM73704_2027 [Neisseria meningitidis 73704] &gt;gi|485353663|gb|EOC15002.1| hypothetical protein NM2002020_2112 [Neisseria meningitidis 2002020] &gt;gi|485353711|gb|EOC15047.1| hypothetical protein NM2002020_2103 [Neisseria meningitidis 2002020] &gt;gi|485355370|gb|EOC16594.1| hypothetical protein NM477_2202 [Neisseria meningitidis NM477] &gt;gi|485357632|gb|EOC18637.1| hypothetical protein NMM13265_2119 [Neisseria meningitidis M13265] &gt;gi|485360043|gb|EOC20832.1| hypothetical protein NM3147_2165 [Neisseria meningitidis NM3147] &gt;gi|485363382|gb|EOC23852.1| hypothetical protein NM2001072_2056 [Neisseria meningitidis 2001072] &gt;gi|485364563|gb|EOC24933.1| hypothetical protein NM2001073_2066 [Neisseria meningitidis 2001073] &gt;gi|485366199|gb|EOC26431.1| hypothetical protein NM2000081_2111 [Neisseria meningitidis 2000081] &gt;gi|485369415|gb|EOC29441.1| hypothetical protein NM2001001_2065 [Neisseria meningitidis 2001001] &gt;gi|485371467|gb|EOC31353.1| hypothetical protein NM2004032_2043 [Neisseria meningitidis 2004032] &gt;gi|485372917|gb|EOC32691.1| hypothetical protein NM2001213_2051 [Neisseria meningitidis 2001213] &gt;gi|485376154|gb|EOC35720.1| hypothetical protein NM2004264_2156 [Neisseria meningitidis 2004264] &gt;gi|485378853|gb|EOC38247.1| hypothetical protein NM2005079_1992 [Neisseria meningitidis 2005079] &gt;gi|485379084|gb|EOC38469.1| hypothetical protein NM2000175_2125 [Neisseria meningitidis 2000175] &gt;gi|485382958|gb|EOC42101.1| hypothetical protein NM2001068_2104 [Neisseria meningitidis 2001068] &gt;gi|485385333|gb|EOC44306.1| hypothetical protein NM2005040_2057 [Neisseria meningitidis 2005040] &gt;gi|485385503|gb|EOC44458.1| hypothetical protein NM2002004_2154 [Neisseria meningitidis 2002004] &gt;gi|485389684|gb|EOC48389.1| hypothetical protein NM2005172_2140 [Neisseria meningitidis 2005172] &gt;gi|485392129|gb|EOC50648.1| hypothetical protein NM2003051_2101 [Neisseria meningitidis 2003051] &gt;gi|485398914|gb|EOC56979.1| hypothetical protein NM90_2156 [Neisseria meningitidis NM90] &gt;gi|485404071|gb|EOC61806.1| hypothetical protein NM3042_2069 [Neisseria meningitidis NM3042] &gt;gi|485404455|gb|EOC62160.1| hypothetical protein NM3222_2106 [Neisseria meningitidis NM3222] &gt;gi|485405848|gb|EOC63423.1| hypothetical protein NM3131_2054 [Neisseria meningitidis NM3131] &gt;gi|485410975|gb|EOC68196.1| hypothetical protein NM3144_2048 [Neisseria meningitidis NM3144] &gt;gi|485411021|gb|EOC68237.1| hypothetical protein NM3158_2053 [Neisseria meningitidis NM3158] &gt;gi|485412370|gb|EOC69470.1| hypothetical protein NM3164_2137 [Neisseria meningitidis NM3164] &gt;gi|485416849|gb|EOC73654.1| hypothetical protein NM27_2087 [Neisseria meningitidis NM27] &gt;gi|485417571|gb|EOC74330.1| hypothetical protein NM51_2001 [Neisseria meningitidis NM51] &gt;gi|485417625|gb|EOC74376.1| hypothetical protein NM51_1994 [Neisseria meningitidis NM51] &gt;gi|485419470|gb|EOC76066.1| hypothetical protein NM80_2008 [Neisseria meningitidis NM80] &gt;gi|485423540|gb|EOC79871.1| hypothetical protein NM165_1999 [Neisseria meningitidis NM165] &gt;gi|485423584|gb|EOC79909.1| hypothetical protein NM165_1991 [Neisseria meningitidis NM165] &gt;gi|485428772|gb|EOC84686.1| hypothetical protein NM23_2101 [Neisseria meningitidis NM23] &gt;gi|485429319|gb|EOC85169.1| hypothetical protein NM32_2183 [Neisseria meningitidis NM32] &gt;gi|485433947|gb|EOC89352.1| hypothetical protein NM35_2110 [Neisseria meningitidis NM35] &gt;gi|485434711|gb|EOC90035.1| hypothetical protein NM36_2010 [Neisseria meningitidis NM36] &gt;gi|514067870|gb|EPF52907.1| hypothetical protein NM2007461_2083 [Neisseria meningitidis 2007461] &gt;gi|514068385|gb|EPF53377.1| hypothetical protein NM98002_2134 [Neisseria meningitidis 98002] &gt;gi|530897521|gb|EQC96399.1| hypothetical protein NM2002030_2118 [Neisseria meningitidis 2002030] &gt;gi|530897564|gb|EQC96437.1| hypothetical protein NM3141_2152 [Neisseria meningitidis NM3141] &gt;gi|530897716|gb|EQC96579.1| hypothetical protein NM96037_2192 [Neisseria meningitidis 96037] &gt;gi|530903441|gb|EQD01960.1| hypothetical protein NM3141_2229 [Neisseria meningitidis NM3141] &gt;gi|530904548|gb|EQD02971.1| hypothetical protein NM045_2169 [Neisseria meningitidis NM045] &gt;gi|530909559|gb|EQD07677.1| hypothetical protein NM003_2080 [Neisseria meningitidis NM003] &gt;gi|530912683|gb|EQD10612.1| hypothetical protein NM0552_2236 [Neisseria meningitidis NM0552] &gt;gi|530912763|gb|EQD10686.1| hypothetical protein NM0552_2225 [Neisseria meningitidis NM0552] &gt;gi|530918731|gb|EQD16313.1| hypothetical protein NM3173_2107 [Neisseria meningitidis NM3173] &gt;gi|636861842|gb|KDM98980.1| hypothetical protein BK61_14175 [Neisseria gonorrhoeae] &gt;gi|636865236|gb|KDN02115.1| hypothetical protein BK60_13600 [Neisseria gonorrhoeae] &gt;gi|654606116|gb|KEC86705.1| hypothetical protein DT75_10615 [Neisseria gonorrhoeae] &gt;gi|693764656|gb|KGI95566.1| hypothetical protein IX30_10655 [Neisseria gonorrhoeae] &gt;gi|694193828|gb|KGI99032.1| hypothetical protein JH16_01660 [Neisseria meningitidis] &gt;gi|723270891|gb|KHC98082.1| hypothetical protein LA54_01180 [Neisseria meningitidis] &gt;gi|723274049|gb|KHD01232.1| hypothetical protein LA53_00695 [Neisseria meningitidis] &gt;gi|726975300|gb|KHF22726.1| hypothetical protein QP84_06785 [Neisseria meningitidis] &gt;gi|730570480|gb|AIZ18282.1| hypothetical protein LA50_06680 [Neisseria meningitidis] &gt;gi|730572028|gb|AIZ19430.1| hypothetical protein LA24_01290 [Neisseria meningitidis M7124] &gt;gi|730576148|gb|AIZ23097.1| hypothetical protein LA58_10570 [Neisseria meningitidis] &gt;gi|730578875|gb|AIZ25322.1| hypothetical protein LC14_11445 [Neisseria meningitidis] &gt;gi|730580167|gb|AIZ26148.1| hypothetical protein LD07_04380 [Neisseria meningitidis] &gt;gi|743394384|gb|KID53922.1| hypothetical protein N872_03445 [Neisseria meningitidis LNP27256] &gt;gi|747184460|gb|KIF88748.1| hypothetical protein NX89_10515 [Neisseria meningitidis] &gt;gi|747184763|gb|KIF88971.1| hypothetical protein NX90_10740 [Neisseria meningitidis] &gt;gi|747187147|gb|KIF90908.1| hypothetical protein NX87_10605 [Neisseria meningitidis] &gt;gi|747188251|gb|KIF91763.1| hypothetical protein NX88_10685 [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002215112</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>3.08656e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_qseq>
+      <Hsp_hseq>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_hseq>
+      <Hsp_midline>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|738526752|ref|WP_036475214.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria lactamica] &gt;gi|673469688|gb|KFJ36318.1| hypothetical protein DR91_1046 [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_036475214</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>1.12996e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_qseq>
+      <Hsp_hseq>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYKDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_hseq>
+      <Hsp_midline>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDY+DKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|518102120|ref|WP_019272328.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019272328</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>1.28793e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_qseq>
+      <Hsp_hseq>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGE</Hsp_hseq>
+      <Hsp_midline>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|269209143|gb|EEZ75598.1|</Hit_id>
+  <Hit_def>hypothetical protein NEILACOT_04297 [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>EEZ75598</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>3.03682e-64</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_qseq>
+      <Hsp_hseq>EKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYKDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_hseq>
+      <Hsp_midline>+KNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDY+DKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|738521326|ref|WP_036469803.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_036469803</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>3.89348e-64</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_qseq>
+      <Hsp_hseq>EKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYKDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_hseq>
+      <Hsp_midline>+KNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDY+DKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|564136820|gb|ETA82938.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF1177_01764 [Eikenella corrodens CC92I]</Hit_def>
+  <Hit_accession>ETA82938</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.64337e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>KNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETIN</Hsp_qseq>
+      <Hsp_hseq>HTLFRNSNLYKIEFSPSGRDVDLHFTDTITGKNIGRIHCSGILDLILETNQYFDYCDPEDGLFPYFVPELTLTQYAEHAEIMLNAGMFLKITAAQIT</Hsp_hseq>
+      <Hsp_midline>  +F N +LY+I FS +G  + L FTDTI G   G I CS IL+  L+TN + DY D ED LFP F+PE+ L +Y  ++EI+++ G+ +KI+A  I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|224942635|gb|EEG23844.1|</Hit_id>
+  <Hit_def>hypothetical protein EIKCOROL_01498 [Eikenella corrodens ATCC 23834]</Hit_def>
+  <Hit_accession>EEG23844</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>2.92522e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>KNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETIN</Hsp_qseq>
+      <Hsp_hseq>HTLFRNSNLYKIEFSPSGRDVDLHFTDTITGKNIGRIHCSGILGIILETNQYFDYCDPEDGLFPYFVPELTLTQYAEHAEIMLNAGMFLKITAAQIT</Hsp_hseq>
+      <Hsp_midline>  +F N +LY+I FS +G  + L FTDTI G   G I CS IL   L+TN + DY D ED LFP F+PE+ L +Y  ++EI+++ G+ +KI+A  I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|737603356|ref|WP_035574019.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_035574019</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>4.86105e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>KNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISA</Hsp_qseq>
+      <Hsp_hseq>HTLFRNSNLYKIEFSPSGRDVDLHFTDTITGKNIGRIHCSGILDLILETNQYFDYCDPEDGLFPYFVPELTLTQYAEHAEIMLNAGMFLKITA</Hsp_hseq>
+      <Hsp_midline>  +F N +LY+I FS +G  + L FTDTI G   G I CS IL+  L+TN + DY D ED LFP F+PE+ L +Y  ++EI+++ G+ +KI+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|737609942|ref|WP_035580594.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_035580594</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>9.13279e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>KNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISA</Hsp_qseq>
+      <Hsp_hseq>HTLFRNSNLYKIEFSPSGRDVDLHFTDTITGKNIGRIHCSGILGIILETNQYFDYCDPEDGLFPYFVPELTLTQYAEHAEIMLNAGMFLKITA</Hsp_hseq>
+      <Hsp_midline>  +F N +LY+I FS +G  + L FTDTI G   G I CS IL   L+TN + DY D ED LFP F+PE+ L +Y  ++EI+++ G+ +KI+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|652645628|ref|WP_027010301.1|</Hit_id>
+  <Hit_def>hypothetical protein [Conchiformibius kuhniae]</Hit_def>
+  <Hit_accession>WP_027010301</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.20063e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEP</Hsp_qseq>
+      <Hsp_hseq>IEKKIFHNTALRDIRFAREGRDLVLFFDNAADGHHYGEIHCIGLLEFAYQSLGFIHYADDGDSLFPLFVRDVLVQDTAHGYTLRIEAGLVLQVSCLNVRLEQ</Hsp_hseq>
+      <Hsp_midline>++K IFHN +L +I F+  G  L L F +  +G+++G I C  +L F   +  F+ Y D  DSLFPLF+ ++ +        + I+ G+++++S   +  E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|488148783|ref|WP_002219991.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|385342891|ref|YP_005896762.1| hypothetical protein NMBM01240149_2022 [Neisseria meningitidis M01-240149] &gt;gi|385852195|ref|YP_005898710.1| hypothetical protein NMBM04240196_2059 [Neisseria meningitidis M04-240196] &gt;gi|385854156|ref|YP_005900670.1| hypothetical protein NMBH4476_2062 [Neisseria meningitidis H44/76] &gt;gi|385856126|ref|YP_005902639.1| hypothetical protein NMBM01240355_2056 [Neisseria meningitidis M01-240355] &gt;gi|316984007|gb|EFV62986.1| hypothetical protein NMH_2126 [Neisseria meningitidis H44/76] &gt;gi|325129234|gb|EGC52073.1| hypothetical protein NMBOX9930304_1939 [Neisseria meningitidis OX99.30304] &gt;gi|325131346|gb|EGC54057.1| hypothetical protein NMBM6190_2028 [Neisseria meningitidis M6190] &gt;gi|325133292|gb|EGC55958.1| hypothetical protein NMBM13399_2115 [Neisseria meningitidis M13399] &gt;gi|325135347|gb|EGC57968.1| hypothetical protein NMBM0579_2014 [Neisseria meningitidis M0579] &gt;gi|325137375|gb|EGC59963.1| hypothetical protein NMBES14902_2005 [Neisseria meningitidis ES14902] &gt;gi|325139435|gb|EGC61975.1| hypothetical protein NMBCU385_1851 [Neisseria meningitidis CU385] &gt;gi|325143528|gb|EGC65849.1| hypothetical protein NMBM01240013_2069 [Neisseria meningitidis M01-240013] &gt;gi|325201160|gb|ADY96615.1| hypothetical protein NMBH4476_2062 [Neisseria meningitidis H44/76] &gt;gi|325203097|gb|ADY98551.1| hypothetical protein NMBM01240149_2022 [Neisseria meningitidis M01-240149] &gt;gi|325205067|gb|ADZ00521.1| hypothetical protein NMBM01240355_2056 [Neisseria meningitidis M01-240355] &gt;gi|325207018|gb|ADZ02471.1| hypothetical protein NMBM04240196_2059 [Neisseria meningitidis M04-240196] &gt;gi|372199705|gb|EHP13911.1| hypothetical protein NMY220_1944 [Neisseria meningitidis NM220] &gt;gi|372199921|gb|EHP14079.1| hypothetical protein NMY233_1927 [Neisseria meningitidis NM233]</Hit_def>
+  <Hit_accession>WP_002219991</Hit_accession>
+  <Hit_len>42</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>8.14965e-10</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_qseq>
+      <Hsp_hseq>MFPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_hseq>
+      <Hsp_midline>+FPLFIPEIELYKYQFYSEIIIDVGIIIKISAETINFEPLGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|746580236|ref|WP_039608403.1|</Hit_id>
+  <Hit_def>hypothetical protein [Pseudoalteromonas luteoviolacea] &gt;gi|743398769|gb|KID58108.1| hypothetical protein JF50_05105 [Pseudoalteromonas luteoviolacea]</Hit_def>
+  <Hit_accession>WP_039608403</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0331388</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>NIFHNVSLYEIIFSDNGNTLTLSFTDTIEGNYFGYIKCSNILNFKLDTNNFVDYED--KEDSLFPLFIPEIELYKYQFYSEI</Hsp_qseq>
+      <Hsp_hseq>NLLNDVNLDNIAFGKDGKSVRLSFIDMYEGDSLGELECSSVYSF--------DYQNCFKDDDSLAAYVGEVN-YKVIHASEV</Hsp_hseq>
+      <Hsp_midline>N+ ++V+L  I F  +G ++ LSF D  EG+  G ++CS++ +F        DY++  K+D     ++ E+  YK    SE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|748162870|ref|WP_039736530.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Enterovibrio calviensis]</Hit_def>
+  <Hit_accession>WP_039736530</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>7.97591</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MKKNIFHNVSLYEIIFSDNGNTLTLSFTDTIE-GNYFGYIKCSNILNFKLDTNNFVDYEDKEDSLFPLFIPEIEL</Hsp_qseq>
+      <Hsp_hseq>LNRHLYKNITGDKLVFEEVNHTLGLSFQYSWETGNTFGFVRRCEIVNLRGEQRN-VEVLDGLQNILPCDAPMAAL</Hsp_hseq>
+      <Hsp_midline>+ ++++ N++  +++F +  +TL LSF  + E GN FG+++   I+N + +  N V+  D   ++ P   P   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

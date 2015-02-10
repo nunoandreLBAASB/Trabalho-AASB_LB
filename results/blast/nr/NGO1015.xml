@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>50779</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7Y9</BlastOutput_query-def>
+  <BlastOutput_query-len>96</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>50779</Iteration_query-ID>
+  <Iteration_query-def>Q5F7Y9</Iteration_query-def>
+  <Iteration_query-len>96</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489784349|ref|WP_003688240.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|59801398|ref|YP_208110.1| phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|59718293|gb|AAW89698.1| conserved hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090] &gt;gi|226512577|gb|EEH61922.1| conserved hypothetical protein [Neisseria gonorrhoeae 1291] &gt;gi|268547985|gb|EEZ43403.1| conserved hypothetical protein [Neisseria gonorrhoeae 35/02] &gt;gi|268585233|gb|EEZ49909.1| conserved hypothetical protein [Neisseria gonorrhoeae PID18] &gt;gi|268587551|gb|EEZ52227.1| conserved hypothetical protein [Neisseria gonorrhoeae PID1] &gt;gi|268622184|gb|EEZ54584.1| conserved hypothetical protein [Neisseria gonorrhoeae PID332] &gt;gi|268624400|gb|EEZ56800.1| conserved hypothetical protein [Neisseria gonorrhoeae SK-92-679] &gt;gi|268626654|gb|EEZ59054.1| conserved hypothetical protein [Neisseria gonorrhoeae SK-93-1035] &gt;gi|291012540|gb|EFE04529.1| conserved hypothetical protein [Neisseria gonorrhoeae DGI2]</Hit_def>
+  <Hit_accession>WP_003688240</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>3.47457e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_qseq>
+      <Hsp_hseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_hseq>
+      <Hsp_midline>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489802484|ref|WP_003706365.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria gonorrhoeae] &gt;gi|194098340|ref|YP_002001398.1| putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|538321680|ref|YP_008502740.1| hypothetical protein NGFG_00717 [Neisseria gonorrhoeae MS11] &gt;gi|193933630|gb|ACF29454.1| putative phage associated protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|291610669|gb|EFF39779.1| phage associated protein [Neisseria gonorrhoeae F62] &gt;gi|535127654|gb|EEZ45885.2| hypothetical protein NGEG_01155 [Neisseria gonorrhoeae FA19] &gt;gi|537637474|gb|EEZ47550.2| hypothetical protein NGFG_00717 [Neisseria gonorrhoeae MS11] &gt;gi|636862085|gb|KDM99207.1| hypothetical protein AW44_03625 [Neisseria gonorrhoeae] &gt;gi|636863231|gb|KDN00253.1| hypothetical protein BK61_11180 [Neisseria gonorrhoeae] &gt;gi|654607289|gb|KEC87772.1| hypothetical protein DT75_04655 [Neisseria gonorrhoeae] &gt;gi|693764762|gb|KGI95660.1| hypothetical protein IX30_10035 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003706365</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>1.3771e-60</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_qseq>
+      <Hsp_hseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_hseq>
+      <Hsp_midline>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|503213697|ref|WP_013448358.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Neisseriaceae] &gt;gi|313667644|ref|YP_004047928.1| hypothetical protein NLA_2970 [Neisseria lactamica 020-06] &gt;gi|313005106|emb|CBN86538.1| conserved hypothetical protein (putative transcriptional regulator) [Neisseria lactamica 020-06] &gt;gi|742700588|gb|KIC12816.1| hypothetical protein MCC93_03560 [Morococcus cerebrosus]</Hit_def>
+  <Hit_accession>WP_013448358</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>6.06542e-54</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_qseq>
+      <Hsp_hseq>MAESKRVQRLLRVFIALDEHPIIGLSNKDLSVGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_hseq>
+      <Hsp_midline>MA SK+ QRLLRVF+A+D HP+IG+SNK+LS GLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|496980370|ref|WP_009426279.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria sp. oral taxon 020] &gt;gi|429167898|gb|EKY09774.1| hypothetical protein HMPREF9120_00310 [Neisseria sp. oral taxon 020 str. F0370]</Hit_def>
+  <Hit_accession>WP_009426279</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>1.41826e-51</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_qseq>
+      <Hsp_hseq>MAESKRVQRLLRVFIALDEHPIIGLSNKDLSVGLGMTPTQISRDLDDLIASGLVVKLDNGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_hseq>
+      <Hsp_midline>MA SK+ QRLLRVF+A+D HP+IG+SNK+LS GLG+TP+Q+SRD+DDL+ASGLV+KL+NGNYAYGIKTLQIAERFRKQQERLNARLQELENRIY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488148151|ref|WP_002219359.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|385857146|ref|YP_005903658.1| hypothetical protein NMBNZ0533_1055 [Neisseria meningitidis NZ-05/33] &gt;gi|325130153|gb|EGC52932.1| hypothetical protein NMBOX9930304_1076 [Neisseria meningitidis OX99.30304] &gt;gi|325208035|gb|ADZ03487.1| conserved hypothetical protein [Neisseria meningitidis NZ-05/33]</Hit_def>
+  <Hit_accession>WP_002219359</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>1.88496e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MRMAESKRVQRLLRVFIALDEHPIIGLSNKDLSVGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRRQHERLQSKIAEIGKRV</Hsp_hseq>
+      <Hsp_midline>MRMA SK+ QRLLRVF+A+D HP+IG+SNK+LS GLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFR+Q ERL +++ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|488142480|ref|WP_002213688.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|15676892|ref|NP_274038.1| hypothetical protein NMB1003 [Neisseria meningitidis MC58] &gt;gi|121634807|ref|YP_975052.1| hypothetical protein NMC0995 [Neisseria meningitidis FAM18] &gt;gi|385324255|ref|YP_005878694.1| putative DNA-binding phage protein [Neisseria meningitidis 8013] &gt;gi|385851344|ref|YP_005897859.1| hypothetical protein NMBM04240196_1157 [Neisseria meningitidis M04-240196] &gt;gi|7226242|gb|AAF41404.1| hypothetical protein NMB1003 [Neisseria meningitidis MC58] &gt;gi|120866513|emb|CAM10262.1| conserved hypothetical protein (putative transcriptional regulator) [Neisseria meningitidis FAM18] &gt;gi|261392642|emb|CAX50206.1| putative DNA-binding phage protein [Neisseria meningitidis 8013] &gt;gi|304338291|gb|EFM04416.1| hypothetical protein HMPREF0602_1101 [Neisseria meningitidis ATCC 13091] &gt;gi|325132109|gb|EGC54805.1| hypothetical protein NMBM6190_1145 [Neisseria meningitidis M6190] &gt;gi|325134229|gb|EGC56878.1| hypothetical protein NMBM13399_1172 [Neisseria meningitidis M13399] &gt;gi|325136416|gb|EGC59024.1| hypothetical protein NMBM0579_1159 [Neisseria meningitidis M0579] &gt;gi|325138042|gb|EGC60615.1| hypothetical protein NMBES14902_1230 [Neisseria meningitidis ES14902] &gt;gi|325140276|gb|EGC62801.1| hypothetical protein NMBCU385_1115 [Neisseria meningitidis CU385] &gt;gi|325142305|gb|EGC64719.1| hypothetical protein NMB9615945_1128 [Neisseria meningitidis 961-5945] &gt;gi|325144419|gb|EGC66721.1| hypothetical protein NMBM01240013_1203 [Neisseria meningitidis M01-240013] &gt;gi|325206167|gb|ADZ01620.1| conserved hypothetical protein [Neisseria meningitidis M04-240196] &gt;gi|372201514|gb|EHP15433.1| hypothetical protein NMY220_0978 [Neisseria meningitidis NM220]</Hit_def>
+  <Hit_accession>WP_002213688</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>2.21888e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MRMAESKRVQRLLRVFIALDEHPIIGLSNKDLSVGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRQQHERLQSKIAEIGKRV</Hsp_hseq>
+      <Hsp_midline>MRMA SK+ QRLLRVF+A+D HP+IG+SNK+LS GLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFR+Q ERL +++ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|372202349|gb|EHP16173.1|</Hit_id>
+  <Hit_def>hypothetical protein NMY233_0965 [Neisseria meningitidis NM233]</Hit_def>
+  <Hit_accession>EHP16173</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>7.83177e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>MRMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MRMAESKRVQRLLRVFITLDEHPIIGLSNKDLSVGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRQQHERLQSKIAEIGKRV</Hsp_hseq>
+      <Hsp_midline>MRMA SK+ QRLLRVF+ +D HP+IG+SNK+LS GLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFR+Q ERL +++ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|518102254|ref|WP_019272462.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019272462</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>7.2981e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENR</Hsp_qseq>
+      <Hsp_hseq>MAVSKKAQRLLRVFLAMDAHPIIGISNKELSDGLGLTATQVSRDLEDLTAAGLAVRLDNGNYAYSVRTLQISERFRQQQERLTAKLKEIHDR</Hsp_hseq>
+      <Hsp_midline>MA SKKAQRLLRVFLAMDAHP+IGISNKELSDGLGLT +QVSRD++DL A+GL ++L+NGNYAY ++TLQI+ERFR+QQERL A+L+E+ +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488162586|ref|WP_002233794.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|385342004|ref|YP_005895875.1| hypothetical protein NMBM01240149_1083 [Neisseria meningitidis M01-240149] &gt;gi|385855140|ref|YP_005901653.1| hypothetical protein NMBM01240355_1009 [Neisseria meningitidis M01-240355] &gt;gi|325202210|gb|ADY97664.1| conserved hypothetical protein [Neisseria meningitidis M01-240149] &gt;gi|325204081|gb|ADY99534.1| conserved hypothetical protein [Neisseria meningitidis M01-240355] &gt;gi|402319561|gb|EJU55068.1| putative DNA-binding phage protein [Neisseria meningitidis 93004] &gt;gi|530901153|gb|EQC99805.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 96037] &gt;gi|530906425|gb|EQD04724.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3139] &gt;gi|530909308|gb|EQD07448.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM151] &gt;gi|530912260|gb|EQD10222.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM003] &gt;gi|530915728|gb|EQD13485.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM0552] &gt;gi|530918085|gb|EQD15709.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM518] &gt;gi|530923521|gb|EQD20796.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3230] &gt;gi|663091540|gb|KER39798.1| hypothetical protein F528_1225 [Neisseria meningitidis 992008]</Hit_def>
+  <Hit_accession>WP_002233794</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>8.34549e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MAESKRVQRLLRVFIALDEHPIIGLSNKDLSVGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRRQHERLQSKIAEIGKRV</Hsp_hseq>
+      <Hsp_midline>MA SK+ QRLLRVF+A+D HP+IG+SNK+LS GLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFR+Q ERL +++ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|488161124|ref|WP_002232332.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria meningitidis] &gt;gi|161869918|ref|YP_001599087.1| hypothetical protein NMCC_0950 [Neisseria meningitidis 053442] &gt;gi|218768098|ref|YP_002342610.1| hypothetical protein NMA1223 [Neisseria meningitidis Z2491] &gt;gi|385328341|ref|YP_005882644.1| hypothetical protein NMBB_1162 [Neisseria meningitidis alpha710] &gt;gi|385337926|ref|YP_005891799.1| putative DNA-binding phage protein [Neisseria meningitidis WUE 2594] &gt;gi|385339997|ref|YP_005893869.1| hypothetical protein NMBG2136_0984 [Neisseria meningitidis G2136] &gt;gi|385853307|ref|YP_005899821.1| hypothetical protein NMBH4476_1166 [Neisseria meningitidis H44/76] &gt;gi|121052106|emb|CAM08419.1| hypothetical protein NMA1223 [Neisseria meningitidis Z2491] &gt;gi|161595471|gb|ABX73131.1| conserved hypothetical protein [Neisseria meningitidis 053442] &gt;gi|254672494|emb|CBA05986.1| conserved hypothetical protein [Neisseria meningitidis alpha275] &gt;gi|308389193|gb|ADO31513.1| phage-related conserved hypothetical protein [Neisseria meningitidis alpha710] &gt;gi|316985885|gb|EFV64826.1| conserved hypothetical protein [Neisseria meningitidis H44/76] &gt;gi|319410340|emb|CBY90688.1| putative DNA-binding phage protein [Neisseria meningitidis WUE 2594] &gt;gi|325198241|gb|ADY93697.1| conserved hypothetical protein [Neisseria meningitidis G2136] &gt;gi|325200311|gb|ADY95766.1| conserved hypothetical protein [Neisseria meningitidis H44/76] &gt;gi|389605892|emb|CCA44808.1| hypothetical protein NMALPHA522_1267 [Neisseria meningitidis alpha522] &gt;gi|393291774|emb|CCI72648.1| hypothetical protein BN21_0613 [Neisseria meningitidis alpha704] &gt;gi|402317595|gb|EJU53130.1| putative DNA-binding phage protein [Neisseria meningitidis NM255] &gt;gi|402317634|gb|EJU53168.1| putative DNA-binding phage protein [Neisseria meningitidis 93003] &gt;gi|402329654|gb|EJU65010.1| putative DNA-binding phage protein [Neisseria meningitidis 69166] &gt;gi|402331814|gb|EJU67145.1| putative DNA-binding phage protein [Neisseria meningitidis 98008] &gt;gi|402336890|gb|EJU72146.1| putative DNA-binding phage protein [Neisseria meningitidis 92045] &gt;gi|402340944|gb|EJU76131.1| putative DNA-binding phage protein [Neisseria meningitidis NM2795] &gt;gi|402344517|gb|EJU79653.1| putative DNA-binding phage protein [Neisseria meningitidis NM3081] &gt;gi|432202646|gb|ELK58704.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 87255] &gt;gi|432202926|gb|ELK58980.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM422] &gt;gi|432203933|gb|ELK59980.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 98080] &gt;gi|432208721|gb|ELK64696.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 68094] &gt;gi|432210146|gb|ELK66109.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 88050] &gt;gi|432215644|gb|ELK71530.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 70012] &gt;gi|432216861|gb|ELK72734.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 63041] &gt;gi|432223150|gb|ELK78931.1| iclR helix-turn-helix domain protein [Neisseria meningitidis M13255] &gt;gi|432227353|gb|ELK83062.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM418] &gt;gi|432228255|gb|ELK83955.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM586] &gt;gi|432229818|gb|ELK85497.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM762] &gt;gi|432234226|gb|ELK89847.1| iclR helix-turn-helix domain protein [Neisseria meningitidis M7089] &gt;gi|432234679|gb|ELK90299.1| iclR helix-turn-helix domain protein [Neisseria meningitidis M7124] &gt;gi|432236102|gb|ELK91711.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM174] &gt;gi|432240200|gb|ELK95740.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM126] &gt;gi|432241202|gb|ELK96732.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 9506] &gt;gi|432241410|gb|ELK96939.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 9757] &gt;gi|432246867|gb|ELL02313.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 12888] &gt;gi|432247924|gb|ELL03358.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 63049] &gt;gi|432248182|gb|ELL03615.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 4119] &gt;gi|432253200|gb|ELL08545.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2004090] &gt;gi|432253717|gb|ELL09057.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 96023] &gt;gi|432254544|gb|ELL09878.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 65014] &gt;gi|432260017|gb|ELL15284.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 61103] &gt;gi|432260060|gb|ELL15325.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 97020] &gt;gi|432261420|gb|ELL16671.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 69096] &gt;gi|432264913|gb|ELL20109.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3652] &gt;gi|432266817|gb|ELL21998.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3642] &gt;gi|432267648|gb|ELL22823.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2007056] &gt;gi|432272108|gb|ELL27225.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2001212] &gt;gi|432273593|gb|ELL28690.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 77221] &gt;gi|432273995|gb|ELL29091.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 70030] &gt;gi|432277356|gb|ELL32403.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 63006] &gt;gi|485275790|gb|EOB42299.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 70021] &gt;gi|485275844|gb|EOB42345.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 69155] &gt;gi|485281753|gb|EOB47854.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 96060] &gt;gi|485282777|gb|EOB48826.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 94018] &gt;gi|485282860|gb|EOB48903.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2000080] &gt;gi|485288719|gb|EOB54385.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 75689] &gt;gi|485289017|gb|EOB54658.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 75643] &gt;gi|485290090|gb|EOB55672.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 69100] &gt;gi|485295190|gb|EOB60422.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 97018] &gt;gi|485296187|gb|EOB61364.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 63023] &gt;gi|485296568|gb|EOB61725.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 61106] &gt;gi|485302149|gb|EOB66925.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 70082] &gt;gi|485302769|gb|EOB67501.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 65012] &gt;gi|485303545|gb|EOB68245.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 64182] &gt;gi|485308218|gb|EOB72574.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 97027] &gt;gi|485310066|gb|EOB74315.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 96024] &gt;gi|485310612|gb|EOB74833.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 97008] &gt;gi|485314803|gb|EOB78737.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 98005] &gt;gi|485316889|gb|EOB80699.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2004085] &gt;gi|485317156|gb|EOB80951.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2003022] &gt;gi|485321493|gb|EOB84990.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2000063] &gt;gi|485323246|gb|EOB86634.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM604] &gt;gi|485324356|gb|EOB87684.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2002007] &gt;gi|485327874|gb|EOB90950.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM606] &gt;gi|485330810|gb|EOB93683.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM607] &gt;gi|485330837|gb|EOB93708.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM133] &gt;gi|485333904|gb|EOB96571.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM43] &gt;gi|485337489|gb|EOB99915.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM94] &gt;gi|485337753|gb|EOC00161.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM82] &gt;gi|485340410|gb|EOC02663.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM95] &gt;gi|485343552|gb|EOC05575.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM313] &gt;gi|485344649|gb|EOC06602.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM1482] &gt;gi|485346987|gb|EOC08781.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM1495] &gt;gi|485350601|gb|EOC12143.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 73704] &gt;gi|485354034|gb|EOC15353.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 81858] &gt;gi|485356650|gb|EOC17764.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2002020] &gt;gi|485359024|gb|EOC19910.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM477] &gt;gi|485361372|gb|EOC22039.1| iclR helix-turn-helix domain protein [Neisseria meningitidis M13265] &gt;gi|485363331|gb|EOC23809.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3147] &gt;gi|485366333|gb|EOC26560.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2001072] &gt;gi|485367970|gb|EOC28096.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2001073] &gt;gi|485370094|gb|EOC30074.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2000081] &gt;gi|485373059|gb|EOC32823.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2001001] &gt;gi|485375268|gb|EOC34899.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2004032] &gt;gi|485376018|gb|EOC35592.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2001213] &gt;gi|485379226|gb|EOC38601.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2004264] &gt;gi|485382152|gb|EOC41348.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2000175] &gt;gi|485382371|gb|EOC41550.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2005079] &gt;gi|485386393|gb|EOC45299.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2001068] &gt;gi|485388281|gb|EOC47065.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2005040] &gt;gi|485389280|gb|EOC48015.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2002004] &gt;gi|485396483|gb|EOC54725.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2003051] &gt;gi|485400533|gb|EOC58477.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM271] &gt;gi|485400939|gb|EOC58865.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM115] &gt;gi|485402719|gb|EOC60539.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM90] &gt;gi|485407920|gb|EOC65350.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3222] &gt;gi|485409331|gb|EOC66676.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3131] &gt;gi|485413728|gb|EOC70729.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3144] &gt;gi|485414192|gb|EOC71166.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3158] &gt;gi|485416556|gb|EOC73383.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3164] &gt;gi|485420485|gb|EOC77021.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM27] &gt;gi|485431138|gb|EOC86806.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM23] &gt;gi|485431797|gb|EOC87414.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM32] &gt;gi|485435713|gb|EOC90935.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM35] &gt;gi|485437561|gb|EOC92624.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM36] &gt;gi|514071093|gb|EPF55902.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM134] &gt;gi|514072261|gb|EPF57010.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2007461] &gt;gi|530900591|gb|EQC99269.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3141] &gt;gi|530901930|gb|EQD00539.1| iclR helix-turn-helix domain protein [Neisseria meningitidis 2002030] &gt;gi|530907871|gb|EQD06091.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM045] &gt;gi|530916113|gb|EQD13845.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM1476] &gt;gi|530922210|gb|EQD19567.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM3173] &gt;gi|530924173|gb|EQD21414.1| iclR helix-turn-helix domain protein [Neisseria meningitidis NM2866] &gt;gi|610426778|gb|AHW75654.1| hypothetical protein NMA510612_1364 [Neisseria meningitidis] &gt;gi|694192237|gb|KGI97522.1| hypothetical protein JH16_10260 [Neisseria meningitidis] &gt;gi|723271915|gb|KHC99106.1| dNA-binding phage protein [Neisseria meningitidis] &gt;gi|723273435|gb|KHD00619.1| dNA-binding phage protein [Neisseria meningitidis] &gt;gi|726976383|gb|KHF23796.1| dNA-binding phage protein [Neisseria meningitidis] &gt;gi|730569446|gb|AIZ17248.1| dNA-binding phage protein [Neisseria meningitidis] &gt;gi|730573041|gb|AIZ20443.1| dNA-binding phage protein [Neisseria meningitidis M7124] &gt;gi|730575373|gb|AIZ22322.1| dNA-binding phage protein [Neisseria meningitidis] &gt;gi|730577827|gb|AIZ24274.1| dNA-binding phage protein [Neisseria meningitidis] &gt;gi|743393793|gb|KID53331.1| IclR family transcriptional regulator [Neisseria meningitidis LNP27256] &gt;gi|744797693|gb|AJC62481.1| IclR family transcriptional regulator [Neisseria meningitidis LNP21362] &gt;gi|747185901|gb|KIF89854.1| dNA-binding phage protein [Neisseria meningitidis] &gt;gi|747186302|gb|KIF90204.1| dNA-binding phage protein [Neisseria meningitidis] &gt;gi|747188675|gb|KIF92111.1| dNA-binding phage protein [Neisseria meningitidis] &gt;gi|747189676|gb|KIF92919.1| dNA-binding phage protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002232332</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>9.6121e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MAESKRVQRLLRVFIALDEHPIIGLSNKDLSVGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRQQHERLQSKIAEIGKRV</Hsp_hseq>
+      <Hsp_midline>MA SK+ QRLLRVF+A+D HP+IG+SNK+LS GLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFR+Q ERL +++ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|488189209|ref|WP_002260417.1|</Hit_id>
+  <Hit_def>putative dNA-binding phage protein [Neisseria meningitidis] &gt;gi|485407074|gb|EOC64555.1| putative dNA-binding phage protein [Neisseria meningitidis NM3042] &gt;gi|485420597|gb|EOC77125.1| putative dNA-binding phage protein [Neisseria meningitidis NM51] &gt;gi|485423600|gb|EOC79923.1| putative dNA-binding phage protein [Neisseria meningitidis NM80] &gt;gi|485426579|gb|EOC82666.1| putative dNA-binding phage protein [Neisseria meningitidis NM165] &gt;gi|485426961|gb|EOC83022.1| putative dNA-binding phage protein [Neisseria meningitidis NM3223]</Hit_def>
+  <Hit_accession>WP_002260417</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>3.99161e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MAESKRVQRLLRVFITLDEHPIIGLSNKDLSVGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRQQHERLQSKIAEIGKRV</Hsp_hseq>
+      <Hsp_midline>MA SK+ QRLLRVF+ +D HP+IG+SNK+LS GLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFR+Q ERL +++ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|730581162|gb|AIZ27143.1|</Hit_id>
+  <Hit_def>dNA-binding phage protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>AIZ27143</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>4.5973e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MAESKRVQRLLRVFIALDEHPIIGLSNKDLSVGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRQQHERLQSKIAKIGKRV</Hsp_hseq>
+      <Hsp_midline>MA SK+ QRLLRVF+A+D HP+IG+SNK+LS GLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFR+Q ERL +++ ++  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|736170903|ref|WP_034291811.1|</Hit_id>
+  <Hit_def>dNA-binding phage protein [Alysiella crassa]</Hit_def>
+  <Hit_accession>WP_034291811</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>3.18048e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MAASKKGSRVLKVFKALEAHPIIGLSNKEIADGLGLTPTQVSRDLDDLIAEGLVVKLENGNFAYSVKTLQIAERFRKQQERLQSKIQEIGRRI</Hsp_hseq>
+      <Hsp_midline>MA SKK  R+L+VF A++AHP+IG+SNKE++DGLGLTP+QVSRD+DDL+A GLV+KLENGN+AY +KTLQIAERFRKQQERL +++QE+  RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|488180871|ref|WP_002252079.1|</Hit_id>
+  <Hit_def>putative dNA-binding phage protein [Neisseria meningitidis] &gt;gi|485275688|gb|EOB42202.1| putative dNA-binding phage protein [Neisseria meningitidis 69176]</Hit_def>
+  <Hit_accession>WP_002252079</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>2.97608e-40</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>LRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MRVFIALDEHPIIGLSNKDLSVGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRQQHERLQSKIAEIGKRV</Hsp_hseq>
+      <Hsp_midline>+RVF+A+D HP+IG+SNK+LS GLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFR+Q ERL +++ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|494579923|ref|WP_007343301.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria bacilliformis] &gt;gi|327463348|gb|EGF09668.1| IclR helix-turn-helix domain superfamily protein [Neisseria bacilliformis ATCC BAA-1200]</Hit_def>
+  <Hit_accession>WP_007343301</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>1.03505e-39</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>SKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>SGKGQRVLRVFKALEAHPLIGLSNKEIAAGLDLTPTQVSRDLDDLIAEGLAVKLDNGNFAYSIKTLQIAERFRKQQERLQSKVQEIGNRV</Hsp_hseq>
+      <Hsp_midline>S K QR+LRVF A++AHP+IG+SNKE++ GL LTP+QVSRD+DDL+A GL +KL+NGN+AY IKTLQIAERFRKQQERL +++QE+ NR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|740481747|ref|WP_038312754.1|</Hit_id>
+  <Hit_def>dNA-binding phage protein [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038312754</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>2.33515e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MATSKKGSRVLKVFKALEAHPIIGVSNKEIADGLGISAVHVSRDLEDLIAEGLVIKLDNGNFAYSVKTLQIAERFRQQQARLTAKLEETAERV</Hsp_hseq>
+      <Hsp_midline>MATSKK  R+L+VF A++AHP+IG+SNKE++DGLG++   VSRD++DL+A GLVIKL+NGN+AY +KTLQIAERFR+QQ RL A+L+E   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|692413343|ref|WP_032133935.1|</Hit_id>
+  <Hit_def>dNA-binding phage protein [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_032133935</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>3.48836e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MATSKKGSRVLKVFKALEAHPIIGVSNKEIADGLGISAVHVSRDLEDLIAEGLVVKLDNGNFAYSVKTLQIAERFRQQQARLTAKLEETAERV</Hsp_hseq>
+      <Hsp_midline>MATSKK  R+L+VF A++AHP+IG+SNKE++DGLG++   VSRD++DL+A GLV+KL+NGN+AY +KTLQIAERFR+QQ RL A+L+E   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|518218794|ref|WP_019389002.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_019389002</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>8.86584e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MATSKKGSRILKVFKSLEAHPIIGVSNKEIADGLGISAVHVSRDLEDLIAEGLVVKLDNGNFAYSVKTLQIAERFRQQQARLTAKLEETAERV</Hsp_hseq>
+      <Hsp_midline>MATSKK  R+L+VF +++AHP+IG+SNKE++DGLG++   VSRD++DL+A GLV+KL+NGN+AY +KTLQIAERFR+QQ RL A+L+E   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|740502284|ref|WP_038333141.1|</Hit_id>
+  <Hit_def>dNA-binding phage protein [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038333141</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>1.07771e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MATSKKGSRVLKVFKSLEAHPIIGVSNKEIADGLGISAVHVSRDLEDLIAEGLVVKLDNGNFAYSVKTLQIAERFRQQQARLTAKLEETAERV</Hsp_hseq>
+      <Hsp_midline>MATSKK  R+L+VF +++AHP+IG+SNKE++DGLG++   VSRD++DL+A GLV+KL+NGN+AY +KTLQIAERFR+QQ RL A+L+E   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|750387677|ref|WP_040669587.1|</Hit_id>
+  <Hit_def>dNA-binding phage protein [Neisseria weaveri]</Hit_def>
+  <Hit_accession>WP_040669587</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>1.17614e-37</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENR</Hsp_qseq>
+      <Hsp_hseq>ASVKGQRLLSVFKSLEAHPIIGVSNKEISDGLDISPAHVSRDLEDLIAAGLVVKLDNGNFAYGIKTLQIAERFRRQQERLQSKIAEIGAR</Hsp_hseq>
+      <Hsp_midline> S K QRLL VF +++AHP+IG+SNKE+SDGL ++P+ VSRD++DL+A+GLV+KL+NGN+AYGIKTLQIAERFR+QQERL +++ E+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|489881594|ref|WP_003785049.1|</Hit_id>
+  <Hit_def>hypothetical protein [Kingella kingae] &gt;gi|332975457|gb|EGK12349.1| phage associated protein [Kingella kingae ATCC 23330]</Hit_def>
+  <Hit_accession>WP_003785049</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>7.47191e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MAISKKGSRVLKVFKALEAHPIIGLSNKEIADGLGISAVHVSRDLEDLIAEGLVTKLDNGNFAYSIKTLQIAERFRQQQAHLTAKLEETAERV</Hsp_hseq>
+      <Hsp_midline>MA SKK  R+L+VF A++AHP+IG+SNKE++DGLG++   VSRD++DL+A GLV KL+NGN+AY IKTLQIAERFR+QQ  L A+L+E   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|496976101|ref|WP_009425436.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria sp. oral taxon 020] &gt;gi|429168445|gb|EKY10277.1| hypothetical protein HMPREF9120_00115 [Neisseria sp. oral taxon 020 str. F0370]</Hit_def>
+  <Hit_accession>WP_009425436</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>6.12461e-34</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>SKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>SGKGQRLLSVFKALEAHPLIGISNKEIADGLDLNPSYVTRELEDLIEAGLVVKLDNGNFAYSVKTLQIAERFRRQTEYLKGKLEETDQRV</Hsp_hseq>
+      <Hsp_midline>S K QRLL VF A++AHP+IGISNKE++DGL L PS V+R+++DL+ +GLV+KL+NGN+AY +KTLQIAERFR+Q E L  +L+E + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|565117550|ref|WP_023888063.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens] &gt;gi|564136522|gb|ETA82645.1| hypothetical protein HMPREF1177_02148 [Eikenella corrodens CC92I]</Hit_def>
+  <Hit_accession>WP_023888063</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>4.27603e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>MATGK-GTRVLKVFKALKAHPIIGLSNKEIADSLGISPSYVSRDLNDLIEEGLVMKLDNGNFAYSMRTLQIAERFRQQHEQLQERLKEISYRL</Hsp_hseq>
+      <Hsp_midline>MAT K   R+L+VF A+ AHP+IG+SNKE++D LG++PS VSRD++DL+  GLV+KL+NGN+AY ++TLQIAERFR+Q E+L  RL+E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|496410597|ref|WP_009119461.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Neisseria shayeganii] &gt;gi|348013108|gb|EGY52033.1| IclR helix-turn-helix domain superfamily protein [Neisseria shayeganii 871]</Hit_def>
+  <Hit_accession>WP_009119461</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>2.62287e-21</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>ASSKGTRVLKVLKALKGQSFSGISNKELAENLGVSPAQISRDLDDLMSEGLVMKLDNGRFAHSIQMLQIAQAYSNQVARLQEQISETNQRI</Hsp_hseq>
+      <Hsp_midline> S K  R+L+V  A+      GISNKEL++ LG++P+Q+SRD+DDL++ GLV+KL+NG +A+ I+ LQIA+ +  Q  RL  ++ E   RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|499229368|ref|WP_010926908.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Bordetella bronchiseptica] &gt;gi|33602620|ref|NP_890180.1| hypothetical protein BB3645 [Bordetella bronchiseptica RB50] &gt;gi|33577062|emb|CAE35618.1| phage-related conserved hypothetical protein [Bordetella bronchiseptica RB50] &gt;gi|620705151|gb|KAK64459.1| IclR helix-turn-helix domain protein [Bordetella bronchiseptica 980-2] &gt;gi|627895952|gb|KCV51071.1| IclR helix-turn-helix domain protein [Bordetella bronchiseptica 3E44] &gt;gi|627907315|gb|KCV61574.1| IclR helix-turn-helix domain protein [Bordetella bronchiseptica 980] &gt;gi|633400091|gb|KDB86004.1| IclR helix-turn-helix domain protein [Bordetella bronchiseptica D756] &gt;gi|633402633|gb|KDB88481.1| IclR helix-turn-helix domain protein [Bordetella bronchiseptica D989] &gt;gi|633582842|gb|KDD54269.1| IclR helix-turn-helix domain protein [Bordetella bronchiseptica RB630] &gt;gi|633593621|gb|KDD64503.1| IclR helix-turn-helix domain protein [Bordetella bronchiseptica OSU553]</Hit_def>
+  <Hit_accession>WP_010926908</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.62103e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>RTAVCSSAQRVLRIWKALRGHTLTGLSNQEIAQRASESPANVTRGLATLMAEGLVIKYDNGRYAHGIATLQIAQAHANHCDQLTTRMAEVNQRI</Hsp_hseq>
+      <Hsp_midline>R A    AQR+LR++ A+  H + G+SN+E++     +P+ V+R +  L+A GLVIK +NG YA+GI TLQIA+      ++L  R+ E+  RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|727718782|ref|WP_033841481.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Bordetella bronchiseptica] &gt;gi|633491038|gb|KDC65723.1| IclR helix-turn-helix domain protein [Bordetella bronchiseptica MBORD591]</Hit_def>
+  <Hit_accession>WP_033841481</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.86172e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>RTAVCSSAQRVLRIWKALRGHTLTGLSNQEIAQRASESPANVTRALATLMAEGLVIKYDNGRYAHGIATLQIAQAHANHCDQLTTRMAEVNQRI</Hsp_hseq>
+      <Hsp_midline>R A    AQR+LR++ A+  H + G+SN+E++     +P+ V+R +  L+A GLVIK +NG YA+GI TLQIA+      ++L  R+ E+  RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|751564537|ref|WP_041033439.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Serratia marcescens] &gt;gi|573008946|dbj|BAO32298.1| DNA-binding protein, Helix-turn-helix motif [Serratia marcescens SM39]</Hit_def>
+  <Hit_accession>WP_041033439</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>3.72588e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TSSSATRALRVLIALKGYTMTGLSNGELAKALNVSPANISRDLATLVDVGLVIQLDNGRYAHSIQMLQIATAHADHMSRMQARMNETTQRI</Hsp_hseq>
+      <Hsp_midline>TS  A R LRV +A+  + + G+SN EL+  L ++P+ +SRD+  LV  GLVI+L+NG YA+ I+ LQIA        R+ AR+ E   RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|640697695|ref|WP_025121753.1|</Hit_id>
+  <Hit_def>MULTISPECIES: IclR family transcriptional regulator [Serratia]</Hit_def>
+  <Hit_accession>WP_025121753</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>4.14414e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TSSSASRTLKVLKALKGHTMTGLSNGELAKTLDVSPANISRDLATLVAEGLAIQLDNGRYAHSVQMLQIATAHAEHIARMQSRMEEITQRI</Hsp_hseq>
+      <Hsp_midline>TS  A R L+V  A+  H + G+SN EL+  L ++P+ +SRD+  LVA GL I+L+NG YA+ ++ LQIA    +   R+ +R++E+  RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|625323812|gb|KCB38526.1|</Hit_id>
+  <Hit_def>IclR helix-turn-helix domain protein [Bordetella hinzii 8-296-03]</Hit_def>
+  <Hit_accession>KCB38526</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>4.22544e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>RTAVCSSAQRVLRIWKALRGHTLTGLSNQEIAQRASESPANVTRALATLMAEGLVVKYETGRYAHGIATLQIAQAHANHCDQLTTRMAEVNQRI</Hsp_hseq>
+      <Hsp_midline>R A    AQR+LR++ A+  H + G+SN+E++     +P+ V+R +  L+A GLV+K E G YA+GI TLQIA+      ++L  R+ E+  RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|740478213|ref|WP_038309292.1|</Hit_id>
+  <Hit_def>dNA-binding phage protein, partial [Kingella kingae]</Hit_def>
+  <Hit_accession>WP_038309292</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>1.43468e-17</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>KELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>KEIAAGLGIFSRKGSRXXEDLIAEGLVVKLDNGNFAYSVKTLQIAERFRQQQGSLTAKLEETAERV</Hsp_hseq>
+      <Hsp_midline>KE++ GLG+   + SR  +DL+A GLV+KL+NGN+AY +KTLQIAERFR+QQ  L A+L+E   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|343970247|gb|EGV38426.1|</Hit_id>
+  <Hit_def>IclR helix-turn-helix domain superfamily protein [Neisseria weaveri LMG 5135]</Hit_def>
+  <Hit_accession>EGV38426</Hit_accession>
+  <Hit_len>56</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.43819e-17</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>VSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENR</Hsp_qseq>
+      <Hsp_hseq>MSRDLEDLIAAGLVVKLDNGNFAYGIKTLQIAERFRRQQERLQSKIAEIGAR</Hsp_hseq>
+      <Hsp_midline>+SRD++DL+A+GLV+KL+NGN+AYGIKTLQIAERFR+QQERL +++ E+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|655139825|ref|WP_028586687.1|</Hit_id>
+  <Hit_def>hypothetical protein [Desulfocurvus vexinensis]</Hit_def>
+  <Hit_accession>WP_028586687</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>6.04231e-17</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>AQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>ARRALRVFKALRGHALTGLSNKELADAVGDSPVNVCRALEALEAEGLALRLDDGRWAHSVWLLQTAEHFARETESALARIHELRQRV</Hsp_hseq>
+      <Hsp_midline>A+R LRVF A+  H + G+SNKEL+D +G +P  V R ++ L A GL ++L++G +A+ +  LQ AE F ++ E   AR+ EL  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|496907773|ref|WP_009405493.1|</Hit_id>
+  <Hit_def>hypothetical protein [Pseudomonas putida] &gt;gi|428760183|gb|EKX82457.1| hypothetical protein CSV86_24654 [Pseudomonas putida CSV86]</Hit_def>
+  <Hit_accession>WP_009405493</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.26326e-16</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TVSAAARVLRVLKALKGHTVTGLSNTELAQLTGDSPSNITRAMQTLIEEGLAVKLDNGRFAHSVGVLQIAQAHAEHMARLQSRMQEINQRI</Hsp_hseq>
+      <Hsp_midline>T   A R+LRV  A+  H V G+SN EL+   G +PS ++R +  L+  GL +KL+NG +A+ +  LQIA+   +   RL +R+QE+  RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|515181142|ref|WP_016802894.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Acinetobacter pittii]</Hit_def>
+  <Hit_accession>WP_016802894</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.11754e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TNKSAAKVLRVLFALRGHYVFGLSNKQLSESLKETPVFITRALQTLEADGWVEKRDNGNYAPSVKTVKFATACKEEYDRVQARINEYNQRL</Hsp_hseq>
+      <Hsp_midline>T+K A ++LRV  A+  H V G+SNK+LS+ L  TP  ++R +  L A G V K +NGNYA  +KT++ A   +++ +R+ AR+ E   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|487952152|ref|WP_002025618.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii] &gt;gi|593644308|gb|EXS24401.1| putative prophage DNA-binding protein [Acinetobacter baumannii 573719]</Hit_def>
+  <Hit_accession>WP_002025618</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.45583e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>ATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>STNKSAVKVLRVLFALRGHYVFGLSNKQLSESLKETPVFITRALQTLEADGWVEKRDNGNYAPSVKTVKFATACKEECDRVQARINEYNQRL</Hsp_hseq>
+      <Hsp_midline>+T+K A ++LRV  A+  H V G+SNK+LS+ L  TP  ++R +  L A G V K +NGNYA  +KT++ A   +++ +R+ AR+ E   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|740575310|ref|WP_038361108.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Pseudomonas chlororaphis] &gt;gi|722457145|gb|KHA73705.1| IclR family transcriptional regulator [Pseudomonas chlororaphis]</Hit_def>
+  <Hit_accession>WP_038361108</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.39538e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>RLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>RVLRVLLALKGHTVTGLSNAELAVLTQDSPSNITRAMQTLIEEGLALKLDNGRFAHSVKVLQMAQAHAEHMARLTGRMQEINQRI</Hsp_hseq>
+      <Hsp_midline>R+LRV LA+  H V G+SN EL+     +PS ++R +  L+  GL +KL+NG +A+ +K LQ+A+   +   RL  R+QE+  RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|648219614|ref|WP_026000763.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>WP_026000763</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>2.66224e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>RLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>RVLRVLLALKGHTVTGLSNAELAVLTQDSPSNITRAMQTLIEEGLALKLDNGRFAHSVKVLQMAQAHAEHMARLTGRMQEINQRI</Hsp_hseq>
+      <Hsp_midline>R+LRV LA+  H V G+SN EL+     +PS ++R +  L+  GL +KL+NG +A+ +K LQ+A+   +   RL  R+QE+  RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|491215780|ref|WP_005074106.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter pittii] &gt;gi|480071425|gb|ENW10158.1| hypothetical protein F928_03003 [Acinetobacter pittii CIP 70.29]</Hit_def>
+  <Hit_accession>WP_005074106</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>2.89413e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>ATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>ATNKSAEKVLRVLFALRGHYVFGLSNKQLSESLKETPVFITRALQTLEADGWAEKRDNGNYAPSVKAVKFATACKEEYDRVQARINEYNQRL</Hsp_hseq>
+      <Hsp_midline>AT+K A+++LRV  A+  H V G+SNK+LS+ L  TP  ++R +  L A G   K +NGNYA  +K ++ A   +++ +R+ AR+ E   R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|555245256|ref|WP_023229465.1|</Hit_id>
+  <Hit_def>Putative phage-related DNA-binding protein [Salmonella enterica] &gt;gi|554291074|gb|ESH27086.1| Putative phage-related DNA-binding protein [Salmonella enterica subsp. enterica serovar Gaminara str. ATCC BAA-711]</Hit_def>
+  <Hit_accession>WP_023229465</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>4.19328e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RMATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>KVNVSSSGSRILRVLKALRGHALNGVSNGELASALGESPANINRALNTLIEEGLALKLENGRFAPGVQLLQIAMAHNNEMSRAQGRIDELNQRV</Hsp_hseq>
+      <Hsp_midline>++  S    R+LRV  A+  H + G+SN EL+  LG +P+ ++R ++ L+  GL +KLENG +A G++ LQIA     +  R   R+ EL  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|556394355|ref|WP_023304073.1|</Hit_id>
+  <Hit_def>hypothetical protein [Enterobacter cloacae] &gt;gi|555069580|gb|ESM13457.1| hypothetical protein L416_03169 [Enterobacter cloacae UCICRE 5]</Hit_def>
+  <Hit_accession>WP_023304073</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>4.5626e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>VSSSGSRILRVLKALRGHALNGVSNGELASALGESPANINRALNTLIEEGLALKLENGRFAPGVQLLQIAMAHNNEMSRAQGRIDELNQRV</Hsp_hseq>
+      <Hsp_midline> S    R+LRV  A+  H + G+SN EL+  LG +P+ ++R ++ L+  GL +KLENG +A G++ LQIA     +  R   R+ EL  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|738650439|ref|WP_036559274.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Oligella urethralis] &gt;gi|690783573|gb|KGF30474.1| IclR family transcriptional regulator [Oligella urethralis DNF00040]</Hit_def>
+  <Hit_accession>WP_036559274</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>5.45182e-15</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>AQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>AQRVLRVWQALKGHTFTGLSNSEIAEMLGDSPANISRALNTLIAEDLATKLPSGRFAHSVKTLQIAAAHYDHTQRMKQRIDQMQGQI</Hsp_hseq>
+      <Hsp_midline>AQR+LRV+ A+  H   G+SN E+++ LG +P+ +SR ++ L+A  L  KL +G +A+ +KTLQIA       +R+  R+ +++ +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|636740927|ref|WP_024308355.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Pseudomonas sp. P818]</Hit_def>
+  <Hit_accession>WP_024308355</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>9.64631e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TSDSGARILRVLKALKGYSLTGISNGELAKGLGESPANINRAINTLIAEGLAVKLDNGRFAPSIALLQIAQAHANEMGAAQHRINEINQRV</Hsp_hseq>
+      <Hsp_midline>TS    R+LRV  A+  + + GISN EL+ GLG +P+ ++R I+ L+A GL +KL+NG +A  I  LQIA+    +      R+ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|640708767|ref|WP_025132167.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Pseudomonas sp. PH1b]</Hit_def>
+  <Hit_accession>WP_025132167</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.166e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TVSAAARVLRVLKALKGHTVTGLSNVELAQLTQDSPSNITRAMQTLIEEGLAVKLDNGRFAHSVGVLQIAQAHAEHMTRLTNRMQEINQRI</Hsp_hseq>
+      <Hsp_midline>T   A R+LRV  A+  H V G+SN EL+     +PS ++R +  L+  GL +KL+NG +A+ +  LQIA+   +   RL  R+QE+  RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|655274628|ref|WP_028684121.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Pseudomonas chlororaphis] &gt;gi|647805104|gb|AIC20188.1| IclR family transcriptional regulator [Pseudomonas chlororaphis]</Hit_def>
+  <Hit_accession>WP_028684121</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.26855e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TVSAAARVLRVLKALKGHTVTGLSNTELAHLTQDSPSNITRAMQTLIEEGLAVKLDNGRFAHSVGVLQIAQAHAEHMARVTNRMQEITQRI</Hsp_hseq>
+      <Hsp_midline>T   A R+LRV  A+  H V G+SN EL+     +PS ++R +  L+  GL +KL+NG +A+ +  LQIA+   +   R+  R+QE+  RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|491346004|ref|WP_005203941.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Acinetobacter] &gt;gi|480337977|gb|ENX58182.1| hypothetical protein F902_02582 [Acinetobacter sp. CIP 70.18]</Hit_def>
+  <Hit_accession>WP_005203941</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.89269e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>MATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENR</Hsp_qseq>
+      <Hsp_hseq>MSTVKSASKVLKVLKALRGHSLQGVSNQELARQLDESPAQIHRQLQTLVAEGLAKQEEDGSYTLGTAVVQIAKAHDTEMERAKARIAEIEQR</Hsp_hseq>
+      <Hsp_midline>M+T K A ++L+V  A+  H + G+SN+EL+  L  +P+Q+ R +  LVA GL  + E+G+Y  G   +QIA+    + ER  AR+ E+E R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|729791314|gb|KHG86876.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>KHG86876</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>1.91246e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TSSSGTRILRVLKALRGHTLNGVSNGELALALGESPANINRALNTLIEEGLALKLENGRFAPGIQLLQIAMAHSNEMARAQDRINEINQRV</Hsp_hseq>
+      <Hsp_midline>TS    R+LRV  A+  H + G+SN EL+  LG +P+ ++R ++ L+  GL +KLENG +A GI+ LQIA     +  R   R+ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|447199722|ref|WP_001276978.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_001276978</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.28822e-14</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>ATSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>ATNKSAEKVLRVLFALRGHYFFGLSNKQLSESLNETPVFITRALQTLEADGWAEKRENGNYAPSMKAVRFGMACKEESDRVQARIDEYKQRL</Hsp_hseq>
+      <Hsp_midline>AT+K A+++LRV  A+  H   G+SNK+LS+ L  TP  ++R +  L A G   K ENGNYA  +K ++     +++ +R+ AR+ E + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|495244623|ref|WP_007969386.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Pseudomonas sp. GM30] &gt;gi|576710869|gb|EUB82808.1| regulatory protein IclR [Pseudomonas sp. GM30]</Hit_def>
+  <Hit_accession>WP_007969386</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.43704e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TASSAGRVLRVLKALKGHTVTGLSNAELAQIAGDSPSNVTRAMQVLIEEGLAVKLDNGRFAHSIVMLQIAQAHVEHMAGVNRRMNEITQRV</Hsp_hseq>
+      <Hsp_midline>T+  A R+LRV  A+  H V G+SN EL+   G +PS V+R +  L+  GL +KL+NG +A+ I  LQIA+   +    +N R+ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|502669397|ref|WP_012905260.1|</Hit_id>
+  <Hit_def>IclR family transcriptional regulator [Citrobacter rodentium] &gt;gi|283784692|ref|YP_003364557.1| prophage DNA-binding protein [Citrobacter rodentium ICC168] &gt;gi|282948146|emb|CBG87713.1| putative prophage DNA-binding protein [Citrobacter rodentium ICC168]</Hit_def>
+  <Hit_accession>WP_012905260</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.46238e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TSSSGARILRVLKALRGHALNGVSNGELASALGESPANINRALNTLIEEGLAMKLDNGRFAPGVQLLQIAMAHSNEMARAQDRINEINQRV</Hsp_hseq>
+      <Hsp_midline>TS    R+LRV  A+  H + G+SN EL+  LG +P+ ++R ++ L+  GL +KL+NG +A G++ LQIA     +  R   R+ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|445964987|ref|WP_000042842.1|</Hit_id>
+  <Hit_def>MULTISPECIES: IclR family transcriptional regulator [Enterobacteriaceae] &gt;gi|85058803|ref|YP_454505.1| hypothetical protein SG0825 [Sodalis glossinidius str. &apos;morsitans&apos;] &gt;gi|84779323|dbj|BAE74100.1| conserved hypothetical protein [Sodalis glossinidius str. &apos;morsitans&apos;] &gt;gi|388402441|gb|EIL63013.1| hypothetical protein EC5411_16649 [Escherichia coli 541-1] &gt;gi|431206705|gb|ELF05084.1| hypothetical protein A1Y7_04858 [Escherichia coli KTE119] &gt;gi|485156576|emb|CCS60193.1| Uncharacterized protein SA34_4356 [Salmonella enterica subsp. enterica serovar Agona str. 34.H.09] &gt;gi|508410406|gb|EOV80904.1| hypothetical protein A1UI_01105 [Escherichia coli KTE73] &gt;gi|508450804|gb|EOW20627.1| hypothetical protein A1WS_03412 [Escherichia coli KTE107] &gt;gi|535314097|gb|EQU56919.1| hypothetical protein G859_01890 [Escherichia coli HVH 207 (4-3113221)] &gt;gi|535496940|gb|EQW36329.1| hypothetical protein G902_01186 [Escherichia coli UMEA 3052-1] &gt;gi|535726322|gb|EQY60908.1| hypothetical protein G952_01870 [Escherichia coli UMEA 3240-1] &gt;gi|606800842|gb|EYY40227.1| IclR family transcriptional regulator [Escherichia coli O153:H2 str. 2010C-5034] &gt;gi|635882941|gb|KDG63625.1| hypothetical protein AF43_02542 [Escherichia coli MGH 57] &gt;gi|699392347|gb|KGM71499.1| putative phage-related DNA-binding protein [Escherichia coli] &gt;gi|736287101|gb|KHQ43209.1| IclR family transcriptional regulator [Enterobacter cloacae]</Hit_def>
+  <Hit_accession>WP_000042842</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.51475e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TSKKAQRLLRVFLAMDAHPVIGISNKELSDGLGLTPSQVSRDIDDLVASGLVIKLENGNYAYGIKTLQIAERFRKQQERLNARLQELENRI</Hsp_qseq>
+      <Hsp_hseq>TSSSGTRILRVLKALRGHALNGVSNGELASALGESPANINRALNTLIEEGLALKLDNGRFAPGVQLLQIAMAHSTEMARAQDRINEINQRV</Hsp_hseq>
+      <Hsp_midline>TS    R+LRV  A+  H + G+SN EL+  LG +P+ ++R ++ L+  GL +KL+NG +A G++ LQIA     +  R   R+ E+  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59470711</Statistics_db-num>
+      <Statistics_db-len>21267091882</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>16015</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7I1</BlastOutput_query-def>
+  <BlastOutput_query-len>463</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>16015</Iteration_query-ID>
+  <Iteration_query-def>Q5F7I1</Iteration_query-def>
+  <Iteration_query-len>463</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|13638202|sp|P43329.3|HRPA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent RNA helicase HrpA [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P43329</Hit_accession>
+  <Hit_len>1300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>577.4</Hsp_bit-score>
+      <Hsp_score>1487</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>417</Hsp_align-len>
+      <Hsp_qseq>LKRLAALPKPEFDDTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDEILPLFARLSHAEQHKIFHPSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>LLREAARPEITYPDNLPVSQKKQDILEAIRDHQVVIVAGETGSGKTTQLPKICMELGRGIKGLIGHTQPRRLAARTVANRIAEELKTEPGGCIGYKVRFSDHVSDNTMVKLMTDGILLAEIQQDRLLMQYDTIIIDEAHERSLNIDFLLGYLKELLPRRPDLKIIITSATIDPERFSRHFNNAPIIEVSGRTYPVEVRYRPIV-EEADDTERDQLQAIFDAVDELSQESHGDILIFMSGEREIRDTADALNKLNL-RHTEILPLYARLSNSEQNRVFQSHSGR-RIVLATNVAETSLTVPGIKYVIDPGTARISRYSYRTKVQRLPIEPISQASANQRKGRCGRVSEGICIRLYSEDDFLSRPEFTDPEILRTNLASVILQMTALGLGDIAAFPFVEAPDKRNIQDGVRLLEELGAI</Hsp_hseq>
+      <Hsp_midline>L R AA P+  + D LPV +K ++I + + ++QV I+ GETGSGKTTQLPKIC+ELGRG  GLIGHTQPRRLAAR+VA RIAEELK+E G  +GYKVRF+DH S +  VKLMTDGILLAE Q DR L  YDTIIIDEAHERSLNIDFLLGYLK+LLPRRPDLK+IITSATID ERFSRHFN AP++EVSGRTYPVE+ YRP+  ++ DD E +   AI DA DEL++   GDIL+F+ GEREIR+ A+AL K  L R+ EILPL+ARLS++EQ+++F     + RIVLATNVAETSLTVPGIKYVID G AR+ RYS R KV++L +E ISQA+A QR GRCGRVS G+CIRL+SE+DF SRPEFTDPEI+R+NLA+VIL+M +L LGD+AAFPF+E PD R I DG ++L ELGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|3183525|sp|P45018.2|HRPA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent RNA helicase HrpA homolog [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45018</Hit_accession>
+  <Hit_len>1304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>560.451</Hsp_bit-score>
+      <Hsp_score>1443</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>KRLAALPKP-EFDDTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLP-RRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDEILPLFARLSHAEQHKIFHPSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVEVV</Hsp_qseq>
+      <Hsp_hseq>QRKSAVQNPIVFPESLPVSQRKVEIQKLISEHQVIVVAGETGSGKTTQLPKMCLELGFGNLGMIGHTQPRRIAARSVAARIAEELETELGGLVGYKVRFNDQISDNTQIKLMTDGILLAEIQNDRFLNQYSCLIIDEAHERSLNNDFILGYLKQLLPRRRRDLKLIITSATIDVERFSKHFNNAPIIEVSGRTYPVEVRYRPVVEEDDQDQ----LQGILNAVDELQAEGRGDILIFMNGEREIRDTAEALQKQNL-KHTEILPLFARLSAQEQNKIFHPSGLN-RIVLATNVAETSLTVPSIKYVIDPGTARISRYSYRTKVQRLPIEPISQASANQRKGRCGRVSEGICIRLYSEEDFNSRPEFTDPEILRTNLASVILQMTALGLDDIEAFPFVDAPDERHIQDGVKLLEELGAFETV</Hsp_hseq>
+      <Hsp_midline>+R +A+  P  F ++LPV ++  EI+K ++E+QV ++ GETGSGKTTQLPK+CLELG G  G+IGHTQPRR+AARSVA RIAEEL++E+G  VGYKVRF D  S +  +KLMTDGILLAE Q DR+L  Y  +IIDEAHERSLN DF+LGYLKQLLP RR DLK+IITSATID ERFS+HFN AP++EVSGRTYPVE+ YRP+  +D+ D        I++A DEL   G GDIL+F+ GEREIR+ AEAL+K  L ++ EILPLFARLS  EQ+KIFHPSG   RIVLATNVAETSLTVP IKYVID G AR+ RYS R KV++L +E ISQA+A QR GRCGRVS G+CIRL+SEEDFNSRPEFTDPEI+R+NLA+VIL+M +L L D+ AFPF++ PD R+I DG ++L ELGA E V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|3913432|sp|O42945.1|DHX15_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Probable pre-mRNA-splicing factor ATP-dependent RNA helicase prp43 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O42945</Hit_accession>
+  <Hit_len>735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>5.98969e-102</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>442</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICL--ELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRND----------EILPLFARLSHAEQHKIFHP------SGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMP</Hsp_qseq>
+      <Hsp_hseq>LPVYQQREEFLKIYHENQIIVFVGETGSGKTTQIPQFVLYDELPHLTNTQIACTQPRRVAAMSVAKRVADEMDVDLGEEVGYNIRFEDCSGPNTLLKYMTDGMLLREAMTDHMLSRYSCIILDEAHERTLATDILMGLMKRLATRRPDLKIIVMSATLDAKKFQKYFFDAPLLAVPGRTYPVEIYY--TQEPERDYLEAALRTVLQIHVEE----GPGDILVFLTGEEEIEDAC---RKITLEADDLVREGAAGPLKVYPLYGSLPPNQQQRIFEPTPEDTKSGYGRKVVISTNIAETSLTIDGIVYVVDPGFSKQKIYNPRIRVESLLVSPISKASAQQRAGRAGRTRPGKCFRLYTEEAFRKELIEQTYPEILRSNLSSTVLELKKLGIDDLVHFDYMDPP</Hsp_hseq>
+      <Hsp_midline>LPV+++ EE  K   ENQ+ +  GETGSGKTTQ+P+  L  EL       I  TQPRR+AA SVA+R+A+E+  ++G  VGY +RF D +  +  +K MTDG+LL E  TD  L+ Y  II+DEAHER+L  D L+G +K+L  RRPDLK+I+ SAT+DA++F ++F  AP+L V GRTYPVEI Y      + D  E  L   +    +E    G GDILVFL GE EI +A    RK TL  +D          ++ PL+  L   +Q +IF P      SG   ++V++TN+AETSLT+ GI YV+D G ++ K Y+ R +VE L V  IS+A+A+QR+GR GR   G C RL++EE F     E T PEI+RSNL++ +L +  L + D+  F +++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1723910|sp|P53131.1|PRP43_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP43; AltName: Full=Helicase JA1 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P53131</Hit_accession>
+  <Hit_len>767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>1.0469e-101</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>442</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICL--ELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAE--ALRKSTLRRND-----EILPLFARLSHAEQHKIFHPSGAKC------RIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMP</Hsp_qseq>
+      <Hsp_hseq>LPVHAQRDEFLKLYQNNQIMVFVGETGSGKTTQIPQFVLFDEMPHLENTQVACTQPRRVAAMSVAQRVAEEMDVKLGEEVGYSIRFENKTSNKTILKYMTDGMLLREAMEDHDLSRYSCIILDEAHERTLATDILMGLLKQVVKRRPDLKIIIMSATLDAEKFQRYFNDAPLLAVPGRTYPVELYYTPEFQRDYLDSAIR-TVLQIHATEE-----AGDILLFLTGEDEIEDAVRKISLEGDQLVREEGCGPLSVYPLYGSLPPHQQQRIFEPAPESHNGRPGRKVVISTNIAETSLTIDGIVYVVDPGFSKQKVYNPRIRVESLLVSPISKASAQQRAGRAGRTRPGKCFRLYTEEAFQKELIEQSYPEILRSNLSSTVLELKKLGIDDLVHFDFMDPP</Hsp_hseq>
+      <Hsp_midline>LPVH + +E  K    NQ+ +  GETGSGKTTQ+P+  L  E+       +  TQPRR+AA SVA+R+AEE+  ++G  VGY +RF + TS    +K MTDG+LL E   D  L+ Y  II+DEAHER+L  D L+G LKQ++ RRPDLK+II SAT+DAE+F R+FN AP+L V GRTYPVE+ Y P   +D  D+ +  T   + A +E      GDIL+FL GE EI +A    +L    L R +      + PL+  L   +Q +IF P+          ++V++TN+AETSLT+ GI YV+D G ++ K Y+ R +VE L V  IS+A+A+QR+GR GR   G C RL++EE F     E + PEI+RSNL++ +L +  L + D+  F F++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|74996848|sp|Q54NJ4.1|DHX15_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase dhx15; AltName: Full=DEAH box protein 15 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54NJ4</Hit_accession>
+  <Hit_len>727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>1.89127e-101</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>477</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAG-LIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRN---DEILPLFARLSHAEQHKIFHPSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNS-RPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPVWKQKEDFIKVIKENQVVILVGETGSGKTTQIPQFVVDAGLIRPGKMVGVTQPRRVAAISVAKRVSEEMDFELGEEVGYSIRFEELSSARTFMKYLTDGMLLRESMSDPTLNKYDVIILDEAHERTLSTDILFGLIKDILKRRKDLKLIVMSATLEAGKFQKYFENAPLIKVPGRLHPVEIFYTEEAAKD------YLESAVRTVIDIHTNEGTGDILVFLTGEEEIEDTCAKIQRETRERGLPPMKTLPLYSSLPIYQQSKIFDTCKER-KCIVSTNIAETSLTIDGIVFVVDPGFSKQKTYNPRSRVESLLVAPISKASANQRAGRAGRTRPGKCFRLYTEKAFKELMIQQTHPEILRSNLASVVLQLLKLGVVDLVHFDFMDPPVPDTLIRALEVLHYLGALD</Hsp_hseq>
+      <Hsp_midline>LPV ++ E+  K + ENQV I+ GETGSGKTTQ+P+  ++ G    G ++G TQPRR+AA SVA+R++EE+  E+G  VGY +RF + +S    +K +TDG+LL E+ +D  L  YD II+DEAHER+L+ D L G +K +L RR DLK+I+ SAT++A +F ++F  AP+++V GR +PVEI Y     KD       L  A+    D     G GDILVFL GE EI +    +++ T  R     + LPL++ L   +Q KIF     + + +++TN+AETSLT+ GI +V+D G ++ K Y+ R++VE L V  IS+A+A QR+GR GR   G C RL++E+ F     + T PEI+RSNLA+V+L++  L + D+  F F++ P    +    +VL  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|3913425|sp|O22899.1|DHX15_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable pre-mRNA-splicing factor ATP-dependent RNA helicase [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O22899</Hit_accession>
+  <Hit_len>729</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.709</Hsp_bit-score>
+      <Hsp_score>831</Hsp_score>
+      <Hsp_evalue>3.92945e-101</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>481</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLEL------GRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFHPS--------GAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNS--RPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPVWLQKDDFLNTLNSNQTLILVGETGSGKTTQIPQFVLDAVVADNSDKGRKWLVGCTQPRRVAAMSVSRRVADEMDVSIGEEVGYSIRFEDCTSSRTMLKYLTDGMLLREAMADPLLERYKVIILDEAHERTLATDVLFGLLKEVLRNRPDLKLVVMSATLEAEKFQEYFSGAPLMKVPGRLHPVEIFY---TQEPERDY---LEAAIRTVVQIHMCEPPGDILVFLTGEEEIEDACRKINKEVSNLGDQVGPVKVVPLYSTLPPAMQQKIFDPAPVPLTEGGPAGRKIVVSTNIAETSLTIDGIVYVIDPGFAKQKVYNPRIRVESLLVSPISKASAHQRSGRAGRTRPGKCFRLYTEKSFNNDLQPQ-TYPEILRSNLANTVLTLKKLGIDDLVHFDFMDPPAPETLMRALEVLNYLGALD</Hsp_hseq>
+      <Hsp_midline>LPV  + ++   T+  NQ  I+ GETGSGKTTQ+P+  L+        +G   L+G TQPRR+AA SV+ R+A+E+   IG  VGY +RF D TS    +K +TDG+LL E   D  L  Y  II+DEAHER+L  D L G LK++L  RPDLK+++ SAT++AE+F  +F+GAP+++V GR +PVEI Y   T + E D    L  AI            GDILVFL GE EI +A   + K      D+     ++PL++ L  A Q KIF P+         A  +IV++TN+AETSLT+ GI YVID G A+ K Y+ R +VE L V  IS+A+A QRSGR GR   G C RL++E+ FN+  +P+ T PEI+RSNLA  +L +  L + D+  F F++ P    +    +VL  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1172616|sp|Q03319.2|PRH1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase prh1 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q03319</Hit_accession>
+  <Hit_len>719</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.316</Hsp_bit-score>
+      <Hsp_score>817</Hsp_score>
+      <Hsp_evalue>3.85755e-99</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADEL-ARYGEGDILVFLPGEREIREAAEALRKSTLRR------NDEILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>NLPIWEAHDTLCQQIQDNRVIVVVGETGSGKSTQIPQFLNECPYAQEGCVAITQPRRVAAVNLAKRVAAEQGCRLGEQVGYSIRFDDTTSKKTRIKYLTDGMLLRELINDPILSQYHTLILDEAHERTLMTDMLLGFVKKIIKKRPALRVIIMSATLNAERFSEFFDGAEICYISGRQYPVQIHY---TYTPEPD----YLDACLRTIFQLHTKLPPGDILVFLTGQDEI-EALEALIKSYSKQLPSNLPQIQACPLFASLPQEQQLQVFLPALANHRKVVLSTNIAETSVTISGIRYVIDTGLAKIKQFNSKLGLESLTVQPISQSAAMQRSGRAGREAAGQCYRIYTEADFDKLPKETIPEIKRIDLSQAVLTLKARGQNDVINFHYMDPPSKEGLLRALEHLYSIGALD</Hsp_hseq>
+      <Hsp_midline> LP+ E  + + + + +N+V ++ GETGSGK+TQ+P+   E      G +  TQPRR+AA ++A+R+A E    +G  VGY +RF D TS+   +K +TDG+LL E   D  L+ Y T+I+DEAHER+L  D LLG++K+++ +RP L+VII SAT++AERFS  F+GA +  +SGR YPV+I Y   T   E D      DA +    +L  +   GDILVFL G+ EI EA EAL KS  ++        +  PLFA L   +Q ++F P+ A  R +VL+TN+AETS+T+ GI+YVIDTGLA++K+++++  +E L V+ ISQ+AA QRSGR GR +AG C R+++E DF+  P+ T PEI R +L+  +L + +    DV  F +++ P    +    + L  +GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|74996562|sp|Q54F05.1|DHX8_DICDI</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent RNA helicase dhx8; AltName: Full=DEAH box protein 8 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54F05</Hit_accession>
+  <Hit_len>1160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.398</Hsp_bit-score>
+      <Hsp_score>825</Hsp_score>
+      <Hsp_evalue>3.31898e-97</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>506</Hsp_hit-from>
+      <Hsp_hit-to>911</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>DTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDA-IVDAADELARYGEGDILVFLPGEREIREAAEAL--RKSTLRRNDE---ILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDF-NSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>ESLPIFPLREAFLQAVSEHQLLVVIGETGSGKTTQMAQYLAEAGYGTRGKIGCTQPRRVAAMSVSKRVAEEFGCQLGQEVGYAIRFEDCTSPETIIKFMTDGILLRECLLDPNLSAYSVIILDEAHERTISTDVLFGLLKQALQRRPELKVLITSATLEAEKFSKYFMNAQLFIIPGRTFPVDIRY-------TKDPEADYLDASLITVMQIHLSEPPGDILLFLTGQEEIDAACQILYERMKSLGSNVPDLIILPVYSALPSEMQTKIFEPAPPGSRKVVIATNIAETSLTIDGIYYVIDPGFSKQKCFNPKNGMDSLVVAPISQAAARQRSGRAGRTGPGKCYRLYTESAFKNEMLASSIPEIQRTNLGNTVLTMKAMGINDLLNFDFMDPPPVQTLVSAMEQLYSLGALD</Hsp_hseq>
+      <Hsp_midline>++LP+    E   + V+E+Q+ ++ GETGSGKTTQ+ +   E G G  G IG TQPRR+AA SV++R+AEE   ++G  VGY +RF D TS +  +K MTDGILL E   D  L+AY  II+DEAHER+++ D L G LKQ L RRP+LKV+ITSAT++AE+FS++F  A +  + GRT+PV+I Y         D E +  DA ++           GDIL+FL G+ EI  A + L  R  +L  N     ILP+++ L    Q KIF P+    R +V+ATN+AETSLT+ GI YVID G ++ K ++ +  ++ L V  ISQAAARQRSGR GR   G C RL++E  F N     + PEI R+NL   +L M ++ + D+  F F++ P  + +    + L  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|130830|sp|P24384.1|PRP22_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP22 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P24384</Hit_accession>
+  <Hit_len>1145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.316</Hsp_bit-score>
+      <Hsp_score>817</Hsp_score>
+      <Hsp_evalue>3.41226e-96</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>465</Hsp_align-len>
+      <Hsp_qseq>QSAFKNPNKYGGLSKIE-------------EKYRKSHEIFLKRLAALPKPEFDDTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDF-NSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>QQSFDDPTKNKKDSRNEIQMLKNQLIVTEWEKNRMNESISYGKRTSLPISAQRQTLPVYAMRSELIQAVRDNQFLVIVGETGSGKTTQITQYLDEEGFSNYGMIGCTQPRRVAAVSVAKRVAEEVGCKVGHDVGYTIRFEDVTGPDTRIKYMTDGMLQREALLDPEMSKYSVIMLDEAHERTVATDVLFALLKKAAIKRPELKVIVTSATLNSAKFSEYFLNCPIINIPGKTFPVEVLYSQTPQMDYIEAAL---DCVIDIH---INEGPGDILVFLTGQEEIDSCCEILYDRVKTLGDSIGELLILPVYSALPSEIQSKIFEPTPKGSRKVVFATNIAETSITIDGIYYVVDPGFAKINIYNARAGIEQLIVSPISQAQANQRKGRAGRTGPGKCYRLYTESAFYNEMLENTVPEIQRQNLSHTILMLKAMGINDLLKFDFMDPPPKNLMLNALTELYHLQSLD</Hsp_hseq>
+      <Hsp_midline>Q +F +P K    S+ E             EK R +  I   +  +LP      TLPV+    E+ + V +NQ  +I GETGSGKTTQ+ +   E G    G+IG TQPRR+AA SVA+R+AEE+  ++G  VGY +RF D T  D  +K MTDG+L  E   D  ++ Y  I++DEAHER++  D L   LK+   +RP+LKVI+TSAT+++ +FS +F   P++ + G+T+PVE+LY      D  +A +   D ++D        G GDILVFL G+ EI    E L        D      ILP+++ L    Q KIF P+    R +V ATN+AETS+T+ GI YV+D G A++  Y+ARA +EQL V  ISQA A QR GR GR   G C RL++E  F N   E T PEI R NL+  IL + ++ + D+  F F++ P    + +    L  L +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|27735187|sp|Q38953.2|DHX8_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable pre-mRNA-splicing factor ATP-dependent RNA helicase [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q38953</Hit_accession>
+  <Hit_len>1168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.316</Hsp_bit-score>
+      <Hsp_score>817</Hsp_score>
+      <Hsp_evalue>4.64595e-96</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>513</Hsp_hit-from>
+      <Hsp_hit-to>918</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>DTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEAL--RKSTLRRNDE---ILPLFARLSHAEQHKIFH-PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDF-NSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>ESLPIYKLKKELIQAVHDNQVLVVIGETGSGKTTQVTQYLAEAGYTTKGKIGCTQPRRVAAMSVAKRVAEEFGCRLGEEVGYAIRFEDCTGPDTVIKYMTDGMLLREILIDENLSQYSVIMLDEAHERTIHTDVLFGLLKKLMKRRLDLRLIVTSATLDAEKFSGYFFNCNIFTIPGRTFPVEILY---TKQPETDY---LDAALITVLQIHLTEPEGDILVFLTGQEEIDSACQSLYERMKGLGKNVPELIILPVYSALPSEMQSRIFDPPPPGKRKVVVATNIAEASLTIDGIYYVVDPGFAKQNVYNPKQGLESLVITPISQASAKQRAGRAGRTGPGKCYRLYTESAYRNEMPPTSIPEIQRINLGMTTLTMKAMGINDLLSFDFMDPPQPQALISAMEQLYSLGALD</Hsp_hseq>
+      <Hsp_midline>++LP+++  +E+ + V +NQV ++ GETGSGKTTQ+ +   E G    G IG TQPRR+AA SVA+R+AEE    +G  VGY +RF D T  D  +K MTDG+LL E   D  L+ Y  I++DEAHER+++ D L G LK+L+ RR DL++I+TSAT+DAE+FS +F    +  + GRT+PVEILY   T + E D    L  A++          EGDILVFL G+ EI  A ++L  R   L +N     ILP+++ L    Q +IF  P   K ++V+ATN+AE SLT+ GI YV+D G A+   Y+ +  +E L +  ISQA+A+QR+GR GR   G C RL++E  + N  P  + PEI R NL    L M ++ + D+ +F F++ P  + +    + L  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|74996806|sp|Q54MH3.1|DHX16_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16; AltName: Full=DEAH-box protein 16 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54MH3</Hit_accession>
+  <Hit_len>1106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.775</Hsp_bit-score>
+      <Hsp_score>813</Hsp_score>
+      <Hsp_evalue>9.44167e-96</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>456</Hsp_hit-from>
+      <Hsp_hit-to>869</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>420</Hsp_align-len>
+      <Hsp_qseq>AALPKPEFDDTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDEILPL-----FARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDF-NSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>AKMTIQEVRKSLPVYPYREQLIDAVREYQVLIIVGETGSGKTTQIPQYLHEAGFSKTGKIGCTQPRRVAAMSVAARVAEEVGCKLGNEVGYSIRFEDCTSQKTVLQYMTDGMLVREFLTAPDLASYSVLIIDEAHERTLHTDILFGLLKDITRFRPDLKLLISSATMDAERFSDYFDGAPTFNIPGRKYEVTTHYTQAPEADYLDAAV-VTVLQIHITEPL-----GDILVFLTGQEEVDQAAEMLQTRTRGLGTKIKELIITRIYSTLPTDLQAKIFEPTPPNARKVVLATNIAETSLTIDGIIYVIDPGFCKQKMFNPRTGMESLVITPVSRASANQRKGRAGRVAPGKCFRLFTAWAFDNELEENTIPEIQRTNLGNVVLLLKSMGINDLMNFDFMDPPPAQTLIAALEQLYALGAL</Hsp_hseq>
+      <Hsp_midline>A +   E   +LPV+   E++   V E QV II GETGSGKTTQ+P+   E G    G IG TQPRR+AA SVA R+AEE+  ++G+ VGY +RF D TS+   ++ MTDG+L+ E  T   LA+Y  +IIDEAHER+L+ D L G LK +   RPDLK++I+SAT+DAERFS +F+GAP   + GR Y V   Y      D  DA V +T   +   + L     GDILVFL G+ E+ +AAE L+  T     +I  L     ++ L    Q KIF P+    R +VLATN+AETSLT+ GI YVID G  + K ++ R  +E L +  +S+A+A QR GR GRV+ G C RLF+   F N   E T PEI R+NL  V+L + S+ + D+  F F++ P ++ +    + L  LGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|148887367|sp|Q5RAZ4.2|DHX15_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15; AltName: Full=DEAH box protein 15 [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RAZ4</Hit_accession>
+  <Hit_len>795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>5.62509e-95</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGL---IGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFHP------SGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>LPVWEYKDRFTDILVRHQSFVLVGETGSGKTTQIPQWCVEYMRSLPGPKRGVACTQPRRVAAMSVAQRVADEMDVMLGQEVGYSIRFEDCSSAKTILKYMTDGMLLREAMNDPLLERYGVIILDEAHERTLATDILMGVLKEVVRQRSDLKVIVMSATLDAGKFQIYFDNCPLLTIPGRTHPVEIFYTPEPERDYLEAAIRTVIQIHMCEEE-----EGDLLLFLTGQEEIDEACKRIKREVDDLGPEVGDIKIIPLYSTLPPQQQQRIFEPPPPKKQNGAIGRKVVVSTNIAETSLTIDGVVFVIDPGFAKQKVYNPRIRVESLLVTAISKASAQQRAGRAGRTRPGKCFRLYTEKAYKTEMQDNTYPEILRSNLGSVVLQLKKLGIDDLVHFDFMDPPAPETLMRALELLNYLAAL</Hsp_hseq>
+      <Hsp_midline>LPV E  +     +  +Q  ++ GETGSGKTTQ+P+ C+E  R   G    +  TQPRR+AA SVA+R+A+E+   +G  VGY +RF D +S    +K MTDG+LL E   D  L  Y  II+DEAHER+L  D L+G LK+++ +R DLKVI+ SAT+DA +F  +F+  P+L + GRT+PVEI Y P   +D  +A +     I    +E     EGD+L+FL G+ EI EA + +++       E     I+PL++ L   +Q +IF P      +GA  R +V++TN+AETSLT+ G+ +VID G A+ K Y+ R +VE L V  IS+A+A+QR+GR GR   G C RL++E+ + +   + T PEI+RSNL +V+L++  L + D+  F F++ P    +    ++L  L A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|31563436|sp|O35286.2|DHX15_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15; AltName: Full=DEAH box protein 15 [Mus musculus]</Hit_def>
+  <Hit_accession>O35286</Hit_accession>
+  <Hit_len>795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>5.92684e-95</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGL---IGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFHP------SGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>LPVWEYKDRFTDILVRHQSFVLVGETGSGKTTQIPQWCVEYMRSLPGPKRGVACTQPRRVAAMSVAQRVADEMDVMLGQEVGYSIRFEDCSSAKTILKYMTDGMLLREAMNDPLLERYGVIILDEAHERTLATDILMGVLKEVVRQRSDLKVIVMSATLDAGKFQIYFDNCPLLTIPGRTHPVEIFYTPEPERDYLEAAIRTVIQIHMCEEE-----EGDLLLFLTGQEEIDEACKRIKREVDDLGPEVGDIKIIPLYSTLPPQQQQRIFEPPPPKKQNGAIGRKVVVSTNIAETSLTIDGVVFVIDPGFAKQKVYNPRIRVESLLVTAISKASAQQRAGRAGRTRPGKCFRLYTEKAYKTEMQDNTYPEILRSNLGSVVLQLKKLGIDDLVHFDFMDPPAPETLMRALELLNYLAAL</Hsp_hseq>
+      <Hsp_midline>LPV E  +     +  +Q  ++ GETGSGKTTQ+P+ C+E  R   G    +  TQPRR+AA SVA+R+A+E+   +G  VGY +RF D +S    +K MTDG+LL E   D  L  Y  II+DEAHER+L  D L+G LK+++ +R DLKVI+ SAT+DA +F  +F+  P+L + GRT+PVEI Y P   +D  +A +     I    +E     EGD+L+FL G+ EI EA + +++       E     I+PL++ L   +Q +IF P      +GA  R +V++TN+AETSLT+ G+ +VID G A+ K Y+ R +VE L V  IS+A+A+QR+GR GR   G C RL++E+ + +   + T PEI+RSNL +V+L++  L + D+  F F++ P    +    ++L  L A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|13124667|sp|O43143.2|DHX15_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15; AltName: Full=ATP-dependent RNA helicase #46; AltName: Full=DEAH box protein 15 [Homo sapiens]</Hit_def>
+  <Hit_accession>O43143</Hit_accession>
+  <Hit_len>795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>6.24477e-95</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGL---IGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFHP------SGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>LPVWEYKDRFTDILVRHQSFVLVGETGSGKTTQIPQWCVEYMRSLPGPKRGVACTQPRRVAAMSVAQRVADEMDVMLGQEVGYSIRFEDCSSAKTILKYMTDGMLLREAMNDPLLERYGVIILDEAHERTLATDILMGVLKEVVRQRSDLKVIVMSATLDAGKFQIYFDNCPLLTIPGRTHPVEIFYTPEPERDYLEAAIRTVIQIHMCEEE-----EGDLLLFLTGQEEIDEACKRIKREVDDLGPEVGDIKIIPLYSTLPPQQQQRIFEPPPPKKQNGAIGRKVVVSTNIAETSLTIDGVVFVIDPGFAKQKVYNPRIRVESLLVTAISKASAQQRAGRAGRTRPGKCFRLYTEKAYKTEMQDNTYPEILRSNLGSVVLQLKKLGIDDLVHFDFMDPPAPETLMRALELLNYLAAL</Hsp_hseq>
+      <Hsp_midline>LPV E  +     +  +Q  ++ GETGSGKTTQ+P+ C+E  R   G    +  TQPRR+AA SVA+R+A+E+   +G  VGY +RF D +S    +K MTDG+LL E   D  L  Y  II+DEAHER+L  D L+G LK+++ +R DLKVI+ SAT+DA +F  +F+  P+L + GRT+PVEI Y P   +D  +A +     I    +E     EGD+L+FL G+ EI EA + +++       E     I+PL++ L   +Q +IF P      +GA  R +V++TN+AETSLT+ G+ +VID G A+ K Y+ R +VE L V  IS+A+A+QR+GR GR   G C RL++E+ + +   + T PEI+RSNL +V+L++  L + D+  F F++ P    +    ++L  L A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|732174|sp|P34498.2|MOG1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable pre-mRNA-splicing factor ATP-dependent RNA helicase mog-1; AltName: Full=Masculinization of germline protein 1; AltName: Full=Sex determination protein mog-1 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>P34498</Hit_accession>
+  <Hit_len>1131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.694</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>1.56467e-94</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>844</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNG-APVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYG-EGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPVFACRQKMMNVIRENNVVIIVGETGSGKTTQLAQYLLEDGFGDSGLIGCTQPRRVAAMSVARRVADEMGVDLGQDVGYAIRFEDCTSEKTIIKYMTDGILLRECLGDGSLDQYSAIIMDEAHERSLNTDVLFGLLREVIAKRADLKLIVTSATMDADKFADFFGGNCPTFTIPGRTFPVELFHARTPVED-------YVDAAVKQAVTIHLGGMDGDILIFMPGQEDIECTCEMI-KEKLGELDEAPPLAVLPIYSQLPSDLQAKIFQRAPGGMR-KAIVATNIAETSLTVDGILFVIDPGFCKMKVYNPRIGMDALSIFPVSQASANQRTGRAGRTGPGQCYRLYTERQFKDELLKSTVPEIQRTNLANVVLLLKSLGVDDLLKFHFMDAPPQDNMLNSMYQLWTLGALD</Hsp_hseq>
+      <Hsp_midline>LPV    +++   + EN V II GETGSGKTTQL +  LE G G +GLIG TQPRR+AA SVA R+A+E+  ++G  VGY +RF D TS    +K MTDGILL E   D  L  Y  II+DEAHERSLN D L G L++++ +R DLK+I+TSAT+DA++F+  F G  P   + GRT+PVE+ +     +D         DA V  A  +   G +GDIL+F+PG+ +I    E + K  L   DE     +LP++++L    Q KIF   P G + + ++ATN+AETSLTV GI +VID G  ++K Y+ R  ++ L +  +SQA+A QR+GR GR   G C RL++E  F     + T PEI R+NLA V+L + SL + D+  F F++ P    + +    L  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|3023637|sp|Q14562.1|DHX8_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent RNA helicase DHX8; AltName: Full=DEAH box protein 8; AltName: Full=RNA helicase HRH1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q14562</Hit_accession>
+  <Hit_len>1220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>2.14074e-94</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>563</Hsp_hit-from>
+      <Hsp_hit-to>968</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>DTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDA------EVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEAL--RKSTLRRNDE---ILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTD-PEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>ESLPIYKLKEQLVQAVHDNQILIVIGETGSGKTTQITQYLAEAGYTSRGKIGCTQPRRVAAMSVAKRVSEEFGCCLGQEVGYTIRFEDCTSPETVIKYMTDGMLLRECLIDPDLTQYAIIMLDEAHERTIHTDVLFGLLKKTVQKRQDMKLIVTSATLDAVKFSQYFYEAPIFTIPGRTYPVEILYTKEPETDYLDASLITVMQIHLTEP------------PGDILVFLTGQEEIDTACEILYERMKSLGPDVPELIILPVYSALPSEMQTRIFDPAPPGSRKVVIATNIAETSLTIDGIYYVVDPGFVKQKVYNSKTGIDQLVVTPISQAQAKQRAGRAGRTGPGKCYRLYTERAYRDEMLTTNVPEIQRTNLASTVLSLKAMGINDLLSFDFMDAPPMETLITAMEQLYTLGALD</Hsp_hseq>
+      <Hsp_midline>++LP+++  E++ + V +NQ+ I+ GETGSGKTTQ+ +   E G  + G IG TQPRR+AA SVA+R++EE    +G  VGY +RF D TS +  +K MTDG+LL E   D  L  Y  I++DEAHER+++ D L G LK+ + +R D+K+I+TSAT+DA +FS++F  AP+  + GRTYPVEILY      D  DA      ++ LT+              GDILVFL G+ EI  A E L  R  +L  +     ILP+++ L    Q +IF P+    R +V+ATN+AETSLT+ GI YV+D G  + K Y+++  ++QL V  ISQA A+QR+GR GR   G C RL++E  +      T+ PEI R+NLA+ +L + ++ + D+ +F F++ P    +    + L  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|187471036|sp|A2A4P0.1|DHX8_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent RNA helicase DHX8; AltName: Full=DEAH box protein 8 [Mus musculus]</Hit_def>
+  <Hit_accession>A2A4P0</Hit_accession>
+  <Hit_len>1244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>2.44641e-94</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>587</Hsp_hit-from>
+      <Hsp_hit-to>992</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>DTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDA------EVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEAL--RKSTLRRNDE---ILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTD-PEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>ESLPIYKLKEQLVQAVHDNQILIVIGETGSGKTTQITQYLAEAGYTSRGKIGCTQPRRVAAMSVAKRVSEEFGCCLGQEVGYTIRFEDCTSPETVIKYMTDGMLLRECLIDPDLTQYAIIMLDEAHERTIHTDVLFGLLKKTVQKRQDMKLIVTSATLDAVKFSQYFYEAPIFTIPGRTYPVEILYTKEPETDYLDASLITVMQIHLTEP------------PGDILVFLTGQEEIDTACEILYERMKSLGPDVPELIILPVYSALPSEMQTRIFDPAPPGSRKVVIATNIAETSLTIDGIYYVVDPGFVKQKVYNSKTGIDQLVVTPISQAQAKQRAGRAGRTGPGKCYRLYTERAYRDEMLTTNVPEIQRTNLASTVLSLKAMGINDLLSFDFMDAPPMETLITAMEQLYTLGALD</Hsp_hseq>
+      <Hsp_midline>++LP+++  E++ + V +NQ+ I+ GETGSGKTTQ+ +   E G  + G IG TQPRR+AA SVA+R++EE    +G  VGY +RF D TS +  +K MTDG+LL E   D  L  Y  I++DEAHER+++ D L G LK+ + +R D+K+I+TSAT+DA +FS++F  AP+  + GRTYPVEILY      D  DA      ++ LT+              GDILVFL G+ EI  A E L  R  +L  +     ILP+++ L    Q +IF P+    R +V+ATN+AETSLT+ GI YV+D G  + K Y+++  ++QL V  ISQA A+QR+GR GR   G C RL++E  +      T+ PEI R+NLA+ +L + ++ + D+ +F F++ P    +    + L  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|3915519|sp|O45244.2|DHX16_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable pre-mRNA-splicing factor ATP-dependent RNA helicase mog-4; AltName: Full=Masculinization of germline protein 4; AltName: Full=Sex determination protein mog-4 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>O45244</Hit_accession>
+  <Hit_len>1008</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.916</Hsp_bit-score>
+      <Hsp_score>790</Hsp_score>
+      <Hsp_evalue>4.96187e-93</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>768</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGL-IGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDEI-----LPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTD-PEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>SLPVYAFRDAFIEAVKEHQVLIIEGETGSGKTTQLPQYLYEAGFCEGGKRIGCTQPRRVAAMSVAARVADEVGCKLGTQVGYSIRFEDCTSEKTVLKYMTDGMLLREFLNEPDLASYSVMMIDEAHERTLHTDILFGLVKDIARFRKDLKLLISSATLDAEKFSSFFDDAPIFRIPGRRFPVDIYYTQAPEADYVDAAIVTIMQI-----HLTQPLPGDILVFLTGQEEIETVQEALMERSKALGSKIKELIPLPVYANLPSDLQAKIFEPTPKDARKVVLATNIAETSVTIDGINYVIDPGFSKQNSFDARSGVEHLHVVTISKAAANQRAGRAGRTGPGKCFRLYTAWAYKHELEEQPIPEIQRTNLGNVVLMLKSLGIHDLVHFDFLDPPPQETLVIALEQLYALGAL</Hsp_hseq>
+      <Hsp_midline>+LPV+   +   + V E+QV II GETGSGKTTQLP+   E G    G  IG TQPRR+AA SVA R+A+E+  ++G+ VGY +RF D TS    +K MTDG+LL E   +  LA+Y  ++IDEAHER+L+ D L G +K +   R DLK++I+SAT+DAE+FS  F+ AP+  + GR +PV+I Y      D  DA +     I      L +   GDILVFL G+ EI    EAL + +     +I     LP++A L    Q KIF P+    R +VLATN+AETS+T+ GI YVID G ++   + AR+ VE LHV  IS+AAA QR+GR GR   G C RL++   +    E    PEI R+NL  V+L + SL + D+  F FL+ P    +    + L  LGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|48474990|sp|Q9P774.2|PRP16_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Pre-mRNA-splicing factor ATP-dependent RNA helicase prp16 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9P774</Hit_accession>
+  <Hit_len>1173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>5.44622e-93</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>492</Hsp_hit-from>
+      <Hsp_hit-to>894</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRND----EILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDF-NSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPAFAVREQLLSVIRDNQVLIVVGETGSGKTTQLAQFLYEDGYHRNGMIGCTQPRRVAAMSVAKRVSEEMGVRLGSTVGYSIRFEDVTGPDTVIKYMTDGVLLRESLMQNNLEKYSVIIMDEAHERSLNTDILMGLLKKVLSRRRDIKLLVTSATMNSQKFSDFFGGAPQFTIPGRTYPVDIMFAKAPCSDYVEAAVRQVLQI-----HLSQPA-GDILVFMTGQEDIEATCEIIADRLNQLHDAPRLSILPIYSQMPADLQAKIFDSAEPGVRKVVVATNIAETSLTVHGISYVVDTGYCKLKMYNSKLGIDTLQVTPISQANANQRAGRAGRTGPGIAYRLYTEMAYIREMFETTLPEIQRTNLSNTVLILKSLGVEEISDFDFMDRPPNDTLMASLYELWTLGALD</Hsp_hseq>
+      <Hsp_midline>LP     E++   + +NQV I+ GETGSGKTTQL +   E G    G+IG TQPRR+AA SVA+R++EE+   +GS VGY +RF D T  D  +K MTDG+LL E+     L  Y  II+DEAHERSLN D L+G LK++L RR D+K+++TSAT+++++FS  F GAP   + GRTYPV+I++      D  +A V     I      L++   GDILVF+ G+ +I    E +     + +D     ILP+++++    Q KIF  +    R +V+ATN+AETSLTV GI YV+DTG  ++K Y+++  ++ L V  ISQA A QR+GR GR   G+  RL++E  +     E T PEI R+NL+  +L + SL + +++ F F++ P +  +      L  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|130804|sp|P20095.1|PRP2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Pre-mRNA-splicing factor ATP-dependent RNA helicase-like protein PRP2; AltName: Full=Pre-mRNA-processing protein 2 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P20095</Hit_accession>
+  <Hit_len>876</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>3.07725e-92</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>629</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAG--LIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACV-KLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADEL--ARYGEGDILVFLPGEREIREAA----EALRKSTLRRNDEIL-PLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFT-DPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>LPVHQYKDELLQEIKKNQVLIIMGETGSGKTTQLPQYLVEDGFTDQGKLQIAITQPRRVAATSVAARVADEMNVVLGKEVGYQIRFEDKTTPNKTVLKYMTDGMLLREFLTDSKLSKYSCIMIDEAHERTLATDILIGLLKDILPQRPTLKLLISSATMNAKKFSEFFDNCPIFNVPGRRYPVDIHYTL-------QPEANYIHAAITTIFQIHTTQSLPGDILVFLTGQEEIERTKTKLEEIMSKLGSRTKQMIITPIYANLPQEQQLKIFQPTPENCRKVVLATNIAETSLTIDGIRYVIDPGFVKENSYVPSTGMTQLLTVPCSRASVDQRAGRAGRVGPGKCFRIFTKWSYLHELELMPKPEITRTNLSNTVLLLLSLGVTDLIKFPLMDKPSIPTLRKSLENLYILGAL</Hsp_hseq>
+      <Hsp_midline>LPVH+  +E+ + + +NQV II GETGSGKTTQLP+  +E G    G   I  TQPRR+AA SVA R+A+E+   +G  VGY++RF D T+ +  V K MTDG+LL E  TD  L+ Y  I+IDEAHER+L  D L+G LK +LP+RP LK++I+SAT++A++FS  F+  P+  V GR YPV+I Y           E     A +    ++   +   GDILVFL G+ EI        E + K   R    I+ P++A L   +Q KIF P+   CR +VLATN+AETSLT+ GI+YVID G  +   Y     + QL     S+A+  QR+GR GRV  G C R+F++  +    E    PEI R+NL+  +L + SL + D+  FP ++ P    +    + L  LGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|296434478|sp|Q9H6R0.2|DHX33_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative ATP-dependent RNA helicase DHX33; AltName: Full=DEAH box protein 33 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9H6R0</Hit_accession>
+  <Hit_len>707</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>4.6414e-92</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>LKRLAALPKPEFDD----TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPD-----LKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LAQPSASPYPEAVELQRRSLPIFQARGQLLAQLRNLDNAVLIGETGSGKTTQIPQYLYEGGISRQGIIAVTQPRRVAAISLATRVSDEKRTELGKLVGYTVRFDDVTSEDTRIKFLTDGMLLREAISDSLLRKYSCVILDEAHERTIHTDVLFGVVKAAQKRRKELGKLPLKVIVMSATMDVDLFSQYFNGAPVLYLEGRQHPIQVFY---TKQPQNDYLHAALVSVFQIHQEAP--SSQDILVFLTGQEEIEAMSKTCRDIAKHLPDGCPAMLVLPLYASLPYAQQLRVFQGAPKGYR-KVIISTNIAETSITITGIKYVVDTGMVKAKKYNPDSGLEVLAVQRVSKTQAWQRTGRAGREDSGICYRLYTEDEFEKFDKMTVPEIQRCNLASVMLQLLAMKVPNVLTFDFMSKPSPDHIQAAIAQLDLLGALE</Hsp_hseq>
+      <Hsp_midline>L + +A P PE  +    +LP+ +   ++   +      ++ GETGSGKTTQ+P+   E G    G+I  TQPRR+AA S+A R+++E ++E+G  VGY VRF D TS D  +K +TDG+LL E  +D  L  Y  +I+DEAHER+++ D L G +K    RR +     LKVI+ SAT+D + FS++FNGAPVL + GR +P+++ Y   T + ++D       ++     E       DILVFL G+ EI   ++  R       D      +LPL+A L +A+Q ++F   P G + +++++TN+AETS+T+ GIKYV+DTG+ + K+Y+  + +E L V+++S+  A QR+GR GR  +G+C RL++E++F    + T PEI R NLA+V+L++ ++ + +V  F F+  P   +I      L  LGA+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2500543|sp|Q09530.1|MOG5_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable pre-mRNA-splicing factor ATP-dependent RNA helicase mog-5; AltName: Full=Masculinization of germline protein 5; AltName: Full=Sex determination protein mog-5 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q09530</Hit_accession>
+  <Hit_len>1200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>1.74967e-91</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>442</Hsp_query-to>
+      <Hsp_hit-from>538</Hsp_hit-from>
+      <Hsp_hit-to>924</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>DTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFHPSGA-KCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTD-PEIVRSNLAAVILRMASLNLGDVAAFPFLEMP</Hsp_qseq>
+      <Hsp_hseq>ESLPIFALKKNLMEAMIDNQILVVVGETGSGKTTQMTQYAIEAGLGRRGKIGCTQPRRVAAMSVAKRVAEEYGCKLGTDVGYTIRFEDCTSQDTIIKYMTDGMLLRECLIDPDLSGYSLIMLDEAHERTIHTDVLFGLLKAAARKRPELKLIITSATLDSVKFSEYFLEAPIFTIPGRTFPVEILY---TREPESDY---LEAAHITVMQIHLTEPPGDVLVFLTGQEEIDTSCEVLYERMKSMGPDVPELIILPVYGALPSEMQTRIFDPAPAGKRKVVIATNIAETSLTIDGIFYVVDPGFVKQKIYNPKSGMDSLVVTPISQAAAKQRSGRAGRTGPGKCYRLYTERAFRDEMLPTPVPEIQRTNLASTLLQLKAMGINNLIDFDFMDAP</Hsp_hseq>
+      <Hsp_midline>++LP+    + + + + +NQ+ ++ GETGSGKTTQ+ +  +E G G  G IG TQPRR+AA SVA+R+AEE   ++G+ VGY +RF D TS+D  +K MTDG+LL E   D  L+ Y  I++DEAHER+++ D L G LK    +RP+LK+IITSAT+D+ +FS +F  AP+  + GRT+PVEILY   T + E D    L  A +           GD+LVFL G+ EI  + E L +       +     ILP++  L    Q +IF P+ A K ++V+ATN+AETSLT+ GI YV+D G  + K Y+ ++ ++ L V  ISQAAA+QRSGR GR   G C RL++E  F      T  PEI R+NLA+ +L++ ++ + ++  F F++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|85700389|sp|Q92620.2|PRP16_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16; AltName: Full=ATP-dependent RNA helicase DHX38; AltName: Full=DEAH box protein 38 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q92620</Hit_accession>
+  <Hit_len>1227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>2.31556e-91</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>519</Hsp_hit-from>
+      <Hsp_hit-to>934</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>FLKRLAALPKPEFDDTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRND----EILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDF-NSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLE-MPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>FAKKKSILEQRQY---LPIFAVQQELLTIIRDNSIVIVVGETGSGKTTQLTQYLHEDGYTDYGMIGCTQPRRVAAMSVAKRVSEEMGGNLGEEVGYAIRFEDCTSENTLIKYMTDGILLRESLREADLDHYSAIIMDEAHERSLNTDVLFGLLREVVARRSDLKLIVTSATMDAEKFAAFFGNVPIFHIPGRTFPVDILFSKTPQEDYVEAAVKQSLQVHLSG------APGDILIFMPGQEDIEVTSDQIVEHLEELENAPALAVLPIYSQLPSDLQAKIFQKAPDGVR-KCIVATNIAETSLTVDGIMFVIDSGYCKLKVFNPRIGMDALQIYPISQANANQRSGRAGRTGPGQCFRLYTQSAYKNELLTTTVPEIQRTNLANVVLLLKSLGVQDLLQFHFMDPPPEDNMLNSMYQLWI-LGALD</Hsp_hseq>
+      <Hsp_midline>F K+ + L + ++   LP+    +E+   + +N + I+ GETGSGKTTQL +   E G    G+IG TQPRR+AA SVA+R++EE+   +G  VGY +RF D TS +  +K MTDGILL E+  +  L  Y  II+DEAHERSLN D L G L++++ RR DLK+I+TSAT+DAE+F+  F   P+  + GRT+PV+IL+     +D  +A V+ +  +  +         GDIL+F+PG+ +I   ++ + +      +     +LP++++L    Q KIF   P G + + ++ATN+AETSLTV GI +VID+G  ++K ++ R  ++ L +  ISQA A QRSGR GR   G C RL+++  + N     T PEI R+NLA V+L + SL + D+  F F++  P+   +N  +Q+ + LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|122145767|sp|Q17R09.1|PRP16_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16; AltName: Full=ATP-dependent RNA helicase DHX38; AltName: Full=DEAH box protein 38 [Bos taurus]</Hit_def>
+  <Hit_accession>Q17R09</Hit_accession>
+  <Hit_len>1227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.834</Hsp_bit-score>
+      <Hsp_score>782</Hsp_score>
+      <Hsp_evalue>5.01526e-91</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>519</Hsp_hit-from>
+      <Hsp_hit-to>934</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>FLKRLAALPKPEFDDTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRND----EILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDF-NSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLE-MPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>FAKKKSILEQRQY---LPIFAVQQELLTIIRDNSIVIVVGETGSGKTTQLTQYLHEDGYTDYGMIGCTQPRRVAAMSVAKRVSEEMGGNLGEEVGYAIRFEDCTSESTLIKYMTDGILLRESLREADLDHYSAIIMDEAHERSLNTDVLFGLLREVVARRSDLKLIVTSATMDAEKFASFFGNVPIFHIPGRTFPVDILFSKTPQEDYVEAAVKQSLQVHLSG------APGDILIFMPGQEDIEVTSDQIVEHLEELENAPALAVLPIYSQLPSDLQAKIFQKAPDGVR-KCIVATNIAETSLTVDGIMFVIDSGYCKLKVFNPRIGMDALQIYPISQANANQRSGRAGRTGPGQCFRLYTQSAYKNELLTTTVPEIQRTNLANVVLLLKSLGVQDLLQFHFMDPPPEDNMLNSMYQLWI-LGALD</Hsp_hseq>
+      <Hsp_midline>F K+ + L + ++   LP+    +E+   + +N + I+ GETGSGKTTQL +   E G    G+IG TQPRR+AA SVA+R++EE+   +G  VGY +RF D TS    +K MTDGILL E+  +  L  Y  II+DEAHERSLN D L G L++++ RR DLK+I+TSAT+DAE+F+  F   P+  + GRT+PV+IL+     +D  +A V+ +  +  +         GDIL+F+PG+ +I   ++ + +      +     +LP++++L    Q KIF   P G + + ++ATN+AETSLTV GI +VID+G  ++K ++ R  ++ L +  ISQA A QRSGR GR   G C RL+++  + N     T PEI R+NLA V+L + SL + D+  F F++  P+   +N  +Q+ + LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|3913431|sp|O42643.1|PRP22_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Pre-mRNA-splicing factor ATP-dependent RNA helicase prp22 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O42643</Hit_accession>
+  <Hit_len>1168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>6.05399e-91</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>510</Hsp_hit-from>
+      <Hsp_hit-to>914</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGA-AGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDF-NSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPVFKLRKQFLEAVSKNQILVLLGETGSGKTTQITQYLAEEGYTSDSKMIGCTQPRRVAAMSVAKRVAEEVGCRVGEEVGYTIRFEDKTSRMTQIKYMTDGMLQRECLVDPLLSKYSVIILDEAHERTVATDVLFGLLKGTVLKRPDLKLIVTSATLDAERFSSYFYKCPIFTIPGRSYPVEIMYTKQPEADYLDA------ALMTVMQIHLSEGPGDILVFLTGQEEIDTSCEILYERSKMLGDSIPELVILPVYSALPSEIQSRIFEPAPPGGRKVVIATNIAETSLTIDGIYYVVDPGFVKQSCFDPKLGMDSLIVTPISQAQARQRSGRAGRTGPGKCYRLYTESAYRNEMLPSPIPEIQRQNLSHTILMLKAMGINDLLNFDFMDPPPAQTMIAALQNLYALSALD</Hsp_hseq>
+      <Hsp_midline>LPV +  ++  + V++NQ+ ++ GETGSGKTTQ+ +   E G  + + +IG TQPRR+AA SVA+R+AEE+   +G  VGY +RF D TSR   +K MTDG+L  E   D  L+ Y  II+DEAHER++  D L G LK  + +RPDLK+I+TSAT+DAERFS +F   P+  + GR+YPVEI+Y      D  DA      A++         G GDILVFL G+ EI  + E L + +    D      ILP+++ L    Q +IF P+    R +V+ATN+AETSLT+ GI YV+D G  +   +  +  ++ L V  ISQA ARQRSGR GR   G C RL++E  + N       PEI R NL+  IL + ++ + D+  F F++ P ++ +    Q L  L A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|81912817|sp|Q80VY9.1|DHX33_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Putative ATP-dependent RNA helicase DHX33; AltName: Full=DEAH box protein 33 [Mus musculus]</Hit_def>
+  <Hit_accession>Q80VY9</Hit_accession>
+  <Hit_len>698</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>1.21104e-90</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>IICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPD-----LKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>VLIGETGSGKTTQIPQYLYEGGISRQGIIAVTQPRRVAAISLATRVSDEKRTELGKLVGYTVRFEDVTSEDTRIKFLTDGMLLREAISDSLLRKYSCVILDEAHERTIHTDVLFGVVKTAQKRRKELGKLPLKVIVMSATMDVDLFSQYFNRAPVLYLEGRQHPIQIFYTKQPQQDYLHAALVSVFQIHQEAP-----ASQDILVFLTGQEEIEAMSKTCRDIARHLPDGCPSMLVLPLYASLPYSQQLRVFQGAPKGYR-KVIISTNIAETSITITGIKYVVDTGMVKAKKYNPDSGLEVLAVQRVSKTQAWQRTGRAGREDSGICYRLYTEDEFEKFEKMTVPEIQRCNLASVILQLLAMKVPNVLTFDFMSKPSPDHIEAAIAQLDLLGALE</Hsp_hseq>
+      <Hsp_midline>++ GETGSGKTTQ+P+   E G    G+I  TQPRR+AA S+A R+++E ++E+G  VGY VRF D TS D  +K +TDG+LL E  +D  L  Y  +I+DEAHER+++ D L G +K    RR +     LKVI+ SAT+D + FS++FN APVL + GR +P++I Y     +D   A +     I   A         DILVFL G+ EI   ++  R       D      +LPL+A L +++Q ++F   P G + +++++TN+AETS+T+ GIKYV+DTG+ + K+Y+  + +E L V+++S+  A QR+GR GR  +G+C RL++E++F    + T PEI R NLA+VIL++ ++ + +V  F F+  P   +I      L  LGA+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|19862987|sp|Q10752.2|CDC28_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Pre-mRNA-splicing factor ATP-dependent RNA helicase-like protein cdc28; AltName: Full=Pre-mRNA-processing protein 8 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q10752</Hit_accession>
+  <Hit_len>1055</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>1.8525e-90</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>417</Hsp_hit-from>
+      <Hsp_hit-to>821</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGL-IGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADEL-ARYGEGDILVFLPGEREIREAAEALRKSTL---RRNDEIL--PLFARLSHAEQHKIFHPS--GAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEF-TDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>SLPVYQYKDDLLKAINEYQVLLIVAETGSGKTTQLPQFLHEAGYTKGNKKICCTQPRRVAAMSVAARVAKEMDVRLGQEVGYSIRFENATSEKTVIKYLTDGMLLREFLTEPDLASYSVIIIDEAHERTLHTDILFGLVKDIARFRPDLKVLISSATIDAEKFSAYFDEAPVFYVPGRRYPVDIYYTP-------QPEANYIQAAITTILQIHTTQPAGDILVFLTGQDEIELMSENMQELCRILGKRIPEIILCPIYANLPSELQAKIFDPTPPGAR-KVVLATNIAETSITIDGVNFVIDSGFVKQNMYNPRTGMESLVSVPCSRASADQRAGRAGRVGPGKCFRLYTRRTYNNELDMVTSPEIQRTNLTNIVLLLKSLGINNLLDFDFMDAPPPETLMRSLELLYALGAL</Hsp_hseq>
+      <Hsp_midline>+LPV++  +++ K + E QV +I  ETGSGKTTQLP+   E G       I  TQPRR+AA SVA R+A+E+   +G  VGY +RF + TS    +K +TDG+LL E  T+  LA+Y  IIIDEAHER+L+ D L G +K +   RPDLKV+I+SATIDAE+FS +F+ APV  V GR YPV+I Y P         E     A +    ++      GDILVFL G+ EI   +E +++      +R  EI+  P++A L    Q KIF P+  GA+ ++VLATN+AETS+T+ G+ +VID+G  +   Y+ R  +E L     S+A+A QR+GR GRV  G C RL++   +N+  +  T PEI R+NL  ++L + SL + ++  F F++ P    +    ++L  LGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|61212955|sp|Q5RBD4.1|DHX35_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase DHX35; AltName: Full=DEAH box protein 35 [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RBD4</Hit_accession>
+  <Hit_len>720</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>4.88389e-90</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>467</Hsp_align-len>
+      <Hsp_qseq>FKNPNKYG-GLSKIEEKYRKSHE----IFLKRLAALPKPEFDDTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAG-LIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDAC-VKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFN----------GAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIR-------EAAEALRKSTLRRNDEILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>FWRPGTEGPGVSISEERQSLAENSGTTVVYNPYAALSIEQQRQKLPVFKLRNHILYLIENYQTVVIVGETGCGKSTQIPQYLAEAGWTAEGRVVGVTQPRRVAAVTVAGRVAEERGAVLGHEVGYCIRFDDCTDQLATRIKFLTDGMLVREMMVDPLLTKYSVIMLDEAHERTLYTDIAIGLLKKIQKKRGDLRLIVASATLDADKFRDFFNQNETSDPARDTCVILTVGGRTFPVDIFYLQSPVPDYIKSTVETVVKIHQTE------GDGDILAFLTGQEEVETVVSMLIEQARALARTGMKRHLRVLPMYAGLPSFEQMKVFERVSRSVRKVIVATNVAETSITISGIVYVIDCGFVKLRAYNPRTAIECLVVVPVSQASANQRAGRGGRSRSGKCYRLYTEEAFDKLPQSTVPEMQRSNLAPVILQLKALGIDNVLRFHFMSPPPAQSMVQALELLYALGGLD</Hsp_hseq>
+      <Hsp_midline>F  P   G G+S  EE+   +      +     AAL   +    LPV +    I   +   Q  +I GETG GK+TQ+P+   E G  A G ++G TQPRR+AA +VA R+AEE  + +G  VGY +RF D T + A  +K +TDG+L+ E   D  L  Y  I++DEAHER+L  D  +G LK++  +R DL++I+ SAT+DA++F   FN             +L V GRT+PV+I Y      D   + VE    I          G+GDIL FL G+ E+        E A AL ++ ++R+  +LP++A L   EQ K+F       R +++ATNVAETS+T+ GI YVID G  +++ Y+ R  +E L V  +SQA+A QR+GR GR  +G C RL++EE F+  P+ T PE+ RSNLA VIL++ +L + +V  F F+  P ++ +    ++L  LG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|20137971|sp|Q9H5Z1.2|DHX35_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase DHX35; AltName: Full=DEAH box protein 35 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9H5Z1</Hit_accession>
+  <Hit_len>703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>6.22826e-90</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>AALPKPEFDDTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAG-LIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDAC-VKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFN----------GAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIR-------EAAEALRKSTLRRNDEILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>AALSIEQQRQKLPVFKLRNHILYLIENYQTVVIVGETGCGKSTQIPQYLAEAGWTAEGRVVGVTQPRRVAAVTVAGRVAEERGAVLGHEVGYCIRFDDCTDQLATRIKFLTDGMLVREMMVDPLLTKYSVIMLDEAHERTLYTDIAIGLLKKIQKKRGDLRLIVASATLDADKFRDFFNQNETSDPARDTCVILTVEGRTFPVDIFYLQSPVPDYIKSTVETVVKIHQTE------GDGDVLAFLTGQEEVETVVSMLIEQARALARTGMKRHLRVLPMYAGLPSFEQMKVFERVSRSVRKVIVATNVAETSITISGIVYVIDCGFVKLRAYNPRTAIECLVVVPVSQASANQRAGRGGRSRSGKCYRLYTEEAFDKLPQSTVPEMQRSNLAPVILQLKALGIDNVLRFHFMSPPPAQSMVQALELLYALGGLD</Hsp_hseq>
+      <Hsp_midline>AAL   +    LPV +    I   +   Q  +I GETG GK+TQ+P+   E G  A G ++G TQPRR+AA +VA R+AEE  + +G  VGY +RF D T + A  +K +TDG+L+ E   D  L  Y  I++DEAHER+L  D  +G LK++  +R DL++I+ SAT+DA++F   FN             +L V GRT+PV+I Y      D   + VE    I          G+GD+L FL G+ E+        E A AL ++ ++R+  +LP++A L   EQ K+F       R +++ATNVAETS+T+ GI YVID G  +++ Y+ R  +E L V  +SQA+A QR+GR GR  +G C RL++EE F+  P+ T PE+ RSNLA VIL++ +L + +V  F F+  P ++ +    ++L  LG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|3913435|sp|Q20875.1|DHX15_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase F56D2.6 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q20875</Hit_accession>
+  <Hit_len>739</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>8.49188e-90</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>423</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGA--------AGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDE-----ILPLFARLSHAEQHKIFH------PSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>LPVWEYKEKFMELLRNNQCITLVGETGSGKTTQIPQWAVEFMKQQQQGQPPGQARLVACTQPRRVAAMSVATRVAEEMDVVLGQEVGYSIRFEDCISERTVLKYCTDGMLLREAMNSPLLDKYKVLILDEAHERTLATDILMGLIKEIVRNRADIKVVIMSATLDAGKFQRYFEDCPLLSVPGRTFPVEIFFTPNAEKDYLEAAIRTVIQI-----HMVEEVEGDILLFLTGQEEIEEACKRIDREIQALGADAGALSCIPLYSTLPPAAQQRIFEPAPPNRPNGAISRKCVISTNIAETSLTIDGVVFVIDPGFSKQKVYNPRIRVESLLVCPISKASAMQRAGRAGRTKPGKCFRLYTETAYGSEMQDQTYPEILRSNLGSVVLQLKKLGTEDLVHFDFMDPPAPETLMRALELLNYLQAI</Hsp_hseq>
+      <Hsp_midline>LPV E  E+  + +  NQ   + GETGSGKTTQ+P+  +E  +          A L+  TQPRR+AA SVA R+AEE+   +G  VGY +RF D  S    +K  TDG+LL E      L  Y  +I+DEAHER+L  D L+G +K+++  R D+KV+I SAT+DA +F R+F   P+L V GRT+PVEI + P   KD  +A +     I      +    EGDIL+FL G+ EI EA + + +       +      +PL++ L  A Q +IF       P+GA  R  V++TN+AETSLT+ G+ +VID G ++ K Y+ R +VE L V  IS+A+A QR+GR GR   G C RL++E  + S   + T PEI+RSNL +V+L++  L   D+  F F++ P    +    ++L  L A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|75072475|sp|Q767K6.1|DHX16_PIG</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16; AltName: Full=DEAH-box protein 16 [Sus scrofa]</Hit_def>
+  <Hit_accession>Q767K6</Hit_accession>
+  <Hit_len>1045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>9.83535e-90</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>402</Hsp_hit-from>
+      <Hsp_hit-to>806</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGL-IGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDEI-----LPLFARLSHAEQHKIFHPS--GAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>SLPVFPFREELLAAVANHQILIIEGETGSGKTTQIPQYLFEEGYTQKGMKIACTQPRRVAAMSVAARVAREMGVKLGNEVGYSIRFEDCTSERTVLRYMTDGMLLREFLSEPDLASYSVVMVDEAHERTLHTDILFGLIKDVARFRPELKVLVASATLDTARFSTFFDDAPVFRIPGRRFPVDIFY---TKAPEADY---LEACVVSVLQIHVTQPPGDILVFLTGQEEIEAACEMLQDRCRRLGSKIRELLVLPIYANLPSDMQARIFQPTPPGAR-KVVVATNIAETSLTIEGIIYVLDPGFCKQKSYNPRTGMESLTVTPCSKASANQRAGRAGRVAAGKCFRLYTAWAYQHELEETTVPEIQRTSLGNVVLLLKSLGIHDLMHFDFLDPPPYETLLLALEQLYALGAL</Hsp_hseq>
+      <Hsp_midline>+LPV    EE+   VA +Q+ II GETGSGKTTQ+P+   E G    G+ I  TQPRR+AA SVA R+A E+  ++G+ VGY +RF D TS    ++ MTDG+LL E  ++  LA+Y  +++DEAHER+L+ D L G +K +   RP+LKV++ SAT+D  RFS  F+ APV  + GR +PV+I Y   T   E D    L   +V           GDILVFL G+ EI  A E L+    R   +I     LP++A L    Q +IF P+  GA+ ++V+ATN+AETSLT+ GI YV+D G  + K Y+ R  +E L V   S+A+A QR+GR GRV+AG C RL++   +     E T PEI R++L  V+L + SL + D+  F FL+ P    +    + L  LGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|38502930|sp|Q7YR39.1|DHX16_PANTR</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16; AltName: Full=ATP-dependent RNA helicase #3; AltName: Full=DEAH-box protein 16 [Pan troglodytes]</Hit_def>
+  <Hit_accession>Q7YR39</Hit_accession>
+  <Hit_len>1044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>1.01332e-89</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>401</Hsp_hit-from>
+      <Hsp_hit-to>805</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGL-IGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDEI-----LPLFARLSHAEQHKIFHPS--GAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>SLPVFPFREELLAAIANHQVLIIEGETGSGKTTQIPQYLFEEGYTNKGMKIACTQPRRVAAMSVAARVAREMGVKLGNEVGYSIRFEDCTSERTVLRYMTDGMLLREFLSEPDLASYSVVMVDEAHERTLHTDILFGLIKDVARFRPELKVLVASATMDTARFSTFFDDAPVFRIPGRRFPVDIFY---TKAPEADY---LEACVVSVLQIHVTQPPGDILVFLTGQEEIEAACEMLQDRCRRLGSKIRELLVLPIYANLPSDMQARIFQPTPPGAR-KVVVATNIAETSLTIEGIIYVLDPGFCKQKSYNPRTGMESLTVTPCSKASANQRAGRAGRVAAGKCFRLYTAWAYQHELEETTVPEIQRTSLGNVVLLLKSLGIHDLMHFDFLDPPPYETLLLALEQLYALGAL</Hsp_hseq>
+      <Hsp_midline>+LPV    EE+   +A +QV II GETGSGKTTQ+P+   E G    G+ I  TQPRR+AA SVA R+A E+  ++G+ VGY +RF D TS    ++ MTDG+LL E  ++  LA+Y  +++DEAHER+L+ D L G +K +   RP+LKV++ SAT+D  RFS  F+ APV  + GR +PV+I Y   T   E D    L   +V           GDILVFL G+ EI  A E L+    R   +I     LP++A L    Q +IF P+  GA+ ++V+ATN+AETSLT+ GI YV+D G  + K Y+ R  +E L V   S+A+A QR+GR GRV+AG C RL++   +     E T PEI R++L  V+L + SL + D+  F FL+ P    +    + L  LGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|26006959|sp|O60231.2|DHX16_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16; AltName: Full=ATP-dependent RNA helicase #3; AltName: Full=DEAH-box protein 16 [Homo sapiens]</Hit_def>
+  <Hit_accession>O60231</Hit_accession>
+  <Hit_len>1041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.056</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>1.17716e-89</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>802</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGL-IGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDEI-----LPLFARLSHAEQHKIFHPS--GAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>SLPVFPFREELLAAIANHQVLIIEGETGSGKTTQIPQYLFEEGYTNKGMKIACTQPRRVAAMSVAARVAREMGVKLGNEVGYSIRFEDCTSERTVLRYMTDGMLLREFLSEPDLASYSVVMVDEAHERTLHTDILFGLIKDVARFRPELKVLVASATMDTARFSTFFDDAPVFRIPGRRFPVDIFY---TKAPEADY---LEACVVSVLQIHVTQPPGDILVFLTGQEEIEAACEMLQDRCRRLGSKIRELLVLPIYANLPSDMQARIFQPTPPGAR-KVVVATNIAETSLTIEGIIYVLDPGFCKQKSYNPRTGMESLTVTPCSKASANQRAGRAGRVAAGKCFRLYTAWAYQHELEETTVPEIQRTSLGNVVLLLKSLGIHDLMHFDFLDPPPYETLLLALEQLYALGAL</Hsp_hseq>
+      <Hsp_midline>+LPV    EE+   +A +QV II GETGSGKTTQ+P+   E G    G+ I  TQPRR+AA SVA R+A E+  ++G+ VGY +RF D TS    ++ MTDG+LL E  ++  LA+Y  +++DEAHER+L+ D L G +K +   RP+LKV++ SAT+D  RFS  F+ APV  + GR +PV+I Y   T   E D    L   +V           GDILVFL G+ EI  A E L+    R   +I     LP++A L    Q +IF P+  GA+ ++V+ATN+AETSLT+ GI YV+D G  + K Y+ R  +E L V   S+A+A QR+GR GRV+AG C RL++   +     E T PEI R++L  V+L + SL + D+  F FL+ P    +    + L  LGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|549698|sp|P36009.1|DHR2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase DHR2; AltName: Full=DEAH box RNA helicase DHR2; AltName: Full=Helicase JA2 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P36009</Hit_accession>
+  <Hit_len>735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>5.59089e-89</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>417</Hsp_align-len>
+      <Hsp_qseq>DTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLE--LGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPR-RPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGE-GDILVFLPGEREIREAAEALRKSTLRRNDEI-------LPLFARLSHAEQHKIFHP-SGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>ETLPVYQHKREIMSYIESNPVTVLIGETGSGKSTQIPQFVLEKLYDTKKHGSIAVTQPRRVAAINLATRVAQEHGCKLGEQVGYSVRFDNTTTTRTRLKYLTDGMLLRELMMNSDLREYSVIVIDEAHERTVLTDLILGFLKSLIQGPRPDLRIIVMSATLQAEKFSEFFNNAPILFVEGRKFDVKQYY--LKAPTDD-----IVDAVIRCCIQINQGEELGDILCFLPGQEEIDKAVTIMEKIAKYVSDEAPVPLIVPYPLYAALPAVQQSLVFAPIKGFKRKVVFSTNIAETSVTISGVKFVVDSGLRKVKVWRHQLGLATLLTVPISQASAMQRSGRAGRESEGKSFRLYCESDYVKLPKQSEPEIARSDVTSPVLMLKRYGVDDLLNWTWFENPGKEAIVMGLQELYELGALD</Hsp_hseq>
+      <Hsp_midline>+TLPV++   EI   +  N VT++ GETGSGK+TQ+P+  LE        G I  TQPRR+AA ++A R+A+E   ++G  VGY VRF + T+    +K +TDG+LL E   +  L  Y  I+IDEAHER++  D +LG+LK L+   RPDL++I+ SAT+ AE+FS  FN AP+L V GR + V+  Y  L    +D     + DA++    ++ +  E GDIL FLPG+ EI +A   + K     +DE         PL+A L   +Q  +F P  G K ++V +TN+AETS+T+ G+K+V+D+GL +VK +  +  +  L    ISQA+A QRSGR GR S G   RL+ E D+   P+ ++PEI RS++ + +L +    + D+  + + E P    I  G Q L ELGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|116247771|sp|Q8IX18.2|DHX40_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase DHX40; AltName: Full=DEAH box protein 40; AltName: Full=Protein PAD [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8IX18</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>1.4743e-86</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLP-----RRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAA-----DELARYGEGDILVFLPGEREIREAAEAL------------RKSTLRRNDEILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFN-SRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>TFPIQKQRKKIIQAVRDNSFLIVTGNTGSGKTTQLPKYLYEAGFSQHGMIGVTQPRKVAAISVAQRVAEEMKCTLGSKVGYQVRFDDCSSKETAIKYMTDGCLLKHILGDPNLTKFSVIILDEAHERTLTTDILFGLLKKLFQEKSPNRKEHLKVVVMSATMELAKLSAFFGNCPIFDIPGRLYPVREKFCNLIGP-RDRENTAYIQAIVKVTMDIHLNEMA----GDILVFLTGQFEIEKSCELLFQMAESVDYDYDVQDTTLDGLLILPCYGSMTTDQQRRIFLPPPPGIRKCVISTNISATSLTIDGIRYVVDGGFVKQLNHNPRLGLDILEVVPISKSEALQRSGRAGRTSSGKCFRIYSKDFWNQCMPDHVIPEIKRTSLTSVVLTLKCLAIHDVIRFPYLDPPNERLILEALKQLYQCDAID</Hsp_hseq>
+      <Hsp_midline>T P+ ++ ++I + V +N   I+ G TGSGKTTQLPK   E G    G+IG TQPR++AA SVA+R+AEE+K  +GS VGY+VRF D +S++  +K MTDG LL     D  L  +  II+DEAHER+L  D L G LK+L       R+  LKV++ SAT++  + S  F   P+ ++ GR YPV   +  L G   D        AIV        +E+A    GDILVFL G+ EI ++ E L             + T      ILP +  ++  +Q +IF P     R  V++TN++ TSLT+ GI+YV+D G  +   ++ R  ++ L V  IS++ A QRSGR GR S+G C R++S++ +N   P+   PEI R++L +V+L +  L + DV  FP+L+ P+ R I +  + L +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|47116751|sp|Q9DBV3.2|DHX34_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase DHX34; AltName: Full=DEAH box protein 34 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9DBV3</Hit_accession>
+  <Hit_len>1145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.967</Hsp_bit-score>
+      <Hsp_score>746</Hsp_score>
+      <Hsp_evalue>2.2241e-86</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGL--IGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDA-----IVDAADELARYGE-GDILVFLPGEREIREAAEALRK-STLRRNDEILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPIAQYGNRILQTLKEHQVVVVAGDTGCGKSTQVPQYLL-----AAGFSHVACTQPRRIACISLAKRVGFESLSQYGSQVGYQIRFESTRSAATKIVFLTVGLLLRQIQREPSLPQYQVLIVDEVHERHLHNDFLLGVLQRLLPQRPDLKVILMSATINISLFSSYFSHAPVVQVPGRLFPITVVYQPQEA-DQTASKSEKLDPRPFLRVLEAIDNKYPPEERGDLLVFLSGMAEITTVLDAAQAYASLTQRWVVLPLHSALSVSDQDKVFDVAPAGVR-KCILSTNIAETSVTIDGIRFVVDSGKVKEMSYDPQAKLQRLQEFWISQASAEQRKGRAGRTGPGVCYRLYAESDYDAFAPYPVPEIRRVALDALVLQMKSMSVGDPRTFPFIEPPPPASVETAILYLQEQGALD</Hsp_hseq>
+      <Hsp_midline>LP+ +    I +T+ E+QV ++ G+TG GK+TQ+P+  L     AAG   +  TQPRR+A  S+A+R+  E  S+ GS VGY++RF    S    +  +T G+LL + Q +  L  Y  +I+DE HER L+ DFLLG L++LLP+RPDLKVI+ SATI+   FS +F+ APV++V GR +P+ ++Y+P    D+  ++ E  D      +++A D      E GD+LVFL G  EI    +A +  ++L +   +LPL + LS ++Q K+F   P+G + + +L+TN+AETS+T+ GI++V+D+G  +   Y  +AK+++L    ISQA+A QR GR GR   GVC RL++E D+++   +  PEI R  L A++L+M S+++GD   FPF+E P    +      L E GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|75070620|sp|Q5R864.1|DHX40_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase DHX40; AltName: Full=DEAH box protein 40 [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R864</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>4.66352e-86</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLP-----RRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAA-----DELARYGEGDILVFLPGEREIREAAEAL------------RKSTLRRNDEILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFN-SRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>TFPIQKQRKKIIQAVRDNSFLIVTGNTGSGKTTQLPKYLYEAGFSQHGMIGVTQPRKVAAISVAQRVAEEMKCTLGSKVGYQVRFDDCSSKETAIKYMTDGCLLKHILGDPNLTKFSVIILDEAHERTLTTDILFGLLKKLFQEKSPNRKEHLKVVVMSATMELAKLSAFFGNCPIFDIPGRLYPVREKFCNLIGP-RDRENTAYIQAIVKVTMDIHLNEMA----GDILVFLTGQFEIEKSCELLFQMAESVDYDYDVQDTTLDGLLILPCYGSMTTDQQRRIFLPPPPGIRKCVISTNISATSLTIDGIRYVVDGGFVKQLNHNPRLGLDILEVVPISKSEALQRSGRAGRTASGKCFRIYSKDFWNQCMPDHVIPEIKRTSLTSVVLTLKCLAIHDVIRFPYLDPPNERLILEALKQLYQCDAID</Hsp_hseq>
+      <Hsp_midline>T P+ ++ ++I + V +N   I+ G TGSGKTTQLPK   E G    G+IG TQPR++AA SVA+R+AEE+K  +GS VGY+VRF D +S++  +K MTDG LL     D  L  +  II+DEAHER+L  D L G LK+L       R+  LKV++ SAT++  + S  F   P+ ++ GR YPV   +  L G   D        AIV        +E+A    GDILVFL G+ EI ++ E L             + T      ILP +  ++  +Q +IF P     R  V++TN++ TSLT+ GI+YV+D G  +   ++ R  ++ L V  IS++ A QRSGR GR ++G C R++S++ +N   P+   PEI R++L +V+L +  L + DV  FP+L+ P+ R I +  + L +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|81911419|sp|Q6PE54.1|DHX40_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase DHX40; AltName: Full=DEAH box protein 40 [Mus musculus]</Hit_def>
+  <Hit_accession>Q6PE54</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>1.17356e-85</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLP-----RRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAA-----DELARYGEGDILVFLPGEREIREAAEAL------------RKSTLRRNDEILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFN-SRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>TFPIQKQRKKLIQAVRDNSFLIVTGNTGSGKTTQLPKYLYEAGFSQHGMIGVTQPRKVAAISVAQRVAEEMKCTLGSKVGYQVRFDDCSSKETAIKYMTDGCLLKHILGDPNLSKFSVIILDEAHERTLTTDILFGLLKKLFQDKSPNRKEHLKVVVMSATMELAKLSAFFGNCPIFDIPGRLYPVREKFCNLIGP-RDRENTAYIQAIVKVTMDIHLNEMA----GDILVFLTGQFEIEKSCELLFQMAESVDYDYDVQDTTLDGLLILPCYGSMTTDQQRRIFLPPPPGIRKCVISTNISATSLTIDGIRYVVDGGFVKQLNHNPRLGLDILEVVPISKSEALQRSGRAGRTASGKCFRIYSKEFWSQCMPDHVIPEIKRTSLTSVVLTLKCLAIHDVIRFPYLDPPNERLILEALKQLYQCDAID</Hsp_hseq>
+      <Hsp_midline>T P+ ++ +++ + V +N   I+ G TGSGKTTQLPK   E G    G+IG TQPR++AA SVA+R+AEE+K  +GS VGY+VRF D +S++  +K MTDG LL     D  L+ +  II+DEAHER+L  D L G LK+L       R+  LKV++ SAT++  + S  F   P+ ++ GR YPV   +  L G   D        AIV        +E+A    GDILVFL G+ EI ++ E L             + T      ILP +  ++  +Q +IF P     R  V++TN++ TSLT+ GI+YV+D G  +   ++ R  ++ L V  IS++ A QRSGR GR ++G C R++S+E ++   P+   PEI R++L +V+L +  L + DV  FP+L+ P+ R I +  + L +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|81910357|sp|Q5XI69.1|DHX40_RAT</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase DHX40; AltName: Full=DEAH box protein 40 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q5XI69</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>1.236e-85</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLP-----RRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAA-----DELARYGEGDILVFLPGEREIREAAEAL------------RKSTLRRNDEILPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFN-SRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>TFPIQKQRKKLIQAVRDNSFLIVTGNTGSGKTTQLPKYLYEAGFSQHGMIGVTQPRKVAAISVAQRVAEEMKCTLGSKVGYQVRFDDCSSKETAIKYMTDGCLLKHILGDPNLNKFSVIILDEAHERTLTTDILFGLLKKLFQDKSPNRKEHLKVVVMSATMELAKLSAFFGNCPIFDIPGRLYPVREKFCNLIGP-RDRENTAYIQAIVKVTMDIHLNEMA----GDILVFLTGQFEIEKSCELLFQMAESVDYDYDVQDTTLDGLLILPCYGSMTTDQQRRIFLPPPPGIRKCVISTNISATSLTIDGIRYVVDGGFVKQLNHNPRLGLDILEVVPISKSEALQRSGRAGRTASGKCFRIYSKDFWNQCMPDHVIPEIKRTSLTSVVLTLKCLAIHDVIRFPYLDPPNERLILEALKQLYQCDAID</Hsp_hseq>
+      <Hsp_midline>T P+ ++ +++ + V +N   I+ G TGSGKTTQLPK   E G    G+IG TQPR++AA SVA+R+AEE+K  +GS VGY+VRF D +S++  +K MTDG LL     D  L  +  II+DEAHER+L  D L G LK+L       R+  LKV++ SAT++  + S  F   P+ ++ GR YPV   +  L G   D        AIV        +E+A    GDILVFL G+ EI ++ E L             + T      ILP +  ++  +Q +IF P     R  V++TN++ TSLT+ GI+YV+D G  +   ++ R  ++ L V  IS++ A QRSGR GR ++G C R++S++ +N   P+   PEI R++L +V+L +  L + DV  FP+L+ P+ R I +  + L +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|311033371|sp|Q14147.2|DHX34_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase DHX34; AltName: Full=DEAH box protein 34 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q14147</Hit_accession>
+  <Hit_len>1143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>7.18726e-85</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>568</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>415</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGL--IGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYR-----PLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIR---EAAEALRKSTLRRNDEILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPIAQYGNRILQTLKEHQVVVVAGDTGCGKSTQVPQYLL-----AAGFSHVACTQPRRIACISLAKRVGFESLSQYGSQVGYQIRFESTRSAATKIVFLTVGLLLRQIQREPSLPQYEVLIVDEVHERHLHNDFLLGVLQRLLPTRPDLKVILMSATINISLFSSYFSNAPVVQVPGRLFPITVVYQPQEAEPTTSKSEKLDPRPFLRVLESIDHKYPPEERGDLLVFLSGMAEISAVLEAAQTYASHTQRWV--VLPLHSALSVADQDKVFDVAPPGVR-KCILSTNIAETSVTIDGIRFVVDSGKVKEMSYDPQAKLQRLQEFWISQASAEQRKGRAGRTGPGVCFRLYAESDYDAFAPYPVPEIRRVALDSLVLQMKSMSVGDPRTFPFIEPPPPASLETAILYLRDQGALD</Hsp_hseq>
+      <Hsp_midline>LP+ +    I +T+ E+QV ++ G+TG GK+TQ+P+  L     AAG   +  TQPRR+A  S+A+R+  E  S+ GS VGY++RF    S    +  +T G+LL + Q +  L  Y+ +I+DE HER L+ DFLLG L++LLP RPDLKVI+ SATI+   FS +F+ APV++V GR +P+ ++Y+     P T K E          +     +      GD+LVFL G  EI    EAA+     T R    +LPL + LS A+Q K+F   P G + + +L+TN+AETS+T+ GI++V+D+G  +   Y  +AK+++L    ISQA+A QR GR GR   GVC RL++E D+++   +  PEI R  L +++L+M S+++GD   FPF+E P    +      L + GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|20137928|sp|Q9BKQ8.1|DHX35_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable ATP-dependent RNA helicase DHX35 homolog [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q9BKQ8</Hit_accession>
+  <Hit_len>732</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>9.67684e-84</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAG-LIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHF----------NGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARY-GEGDILVFLPGEREIREAAEALRK--STLRRNDE--ILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPIFKNRGHILYMCERYRTIIIVGETGCGKSTQVPQFLLEAGWAADGRQIVITQPRRVAVVTLATRVAEEKDCILGHDVGYTVRFDDVSDKDTKVKFMTDGLLLREILADPLLSKYSIIMIDEAHERSCNTDILLGLLRKIIQIRNDLRIIVSSATLDAELFKDFFEMNETGNSDKDTAGIISVEGRTHPVAVHHTKTSVPD-------YCQSAVDTVINIHKHENPGDILVFLTGQDEVEDVCEKLRELAGNLKNCDRLWVVPCYGALPAREQMKAFDSTPHGTR-KVVVATNIAEASITIPGICYVIDTGYVKLRAQHAANGVETLMRVTVSKASAEQRAGRAGRIRPGKCYRLYPESEFERFAEGTVPEIQRCQMASTILQLKALGVQNVHRFHYLSPPPSWAMINGLELLYALGAID</Hsp_hseq>
+      <Hsp_midline>LP+ +    I       +  II GETG GK+TQ+P+  LE G  A G  I  TQPRR+A  ++A R+AEE    +G  VGY VRF D + +D  VK MTDG+LL E   D  L+ Y  I+IDEAHERS N D LLG L++++  R DL++I++SAT+DAE F   F          + A ++ V GRT+PV + +   +  D          + VD    + ++   GDILVFL G+ E+ +  E LR+    L+  D   ++P +  L   EQ K F   P G + ++V+ATN+AE S+T+PGI YVIDTG  +++   A   VE L    +S+A+A QR+GR GR+  G C RL+ E +F    E T PEI R  +A+ IL++ +L + +V  F +L  P S  + +G ++L  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|548590|sp|P15938.2|PRP16_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P15938</Hit_accession>
+  <Hit_len>1071</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>4.0267e-83</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>462</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>769</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>AALPKPEFDD------TLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELG----RGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKL--MTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRR-------------ND-EILPLFARLSHAEQHKIFHP-SGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEF-TDPEIVRSNLAAVILRMASLNLGD-VAAFPFLEMPDSRYINDGFQVLLELGAVEV</Hsp_qseq>
+      <Hsp_hseq>TALFTPSKDDIKHTKEQLPVFRCRSQLLSLIRENQVVVIIGETGSGKTTQLAQYLYEEGYANDRGKSIVV--TQPRRVAAISVAKRVAMEMQVPLGKEVGYSIRFEDVTDSE-CTKLKFVTDGILLRETLLDDTLDKYSCVIIDEAHERSLNTDILLGFFKILLARRRDLKLIITSATMNAKKFSAFFGNAPQFTIPGRTFPVQTIYTSNPVQDYVEAAVSQAVKIHLAND----CSSGDILIFMTGQEDIETTFDTLQEKFLQVYSKKFGTANFEEINDIEILPIYSALPADLQFKIFQDLHGTKRKIIIATNIAETSLTIKGIRYVIDCGYSKLKVYNPKIGLDSLVITPISKANADQRSGRAGRTAPGTAYRLYTEDTFKEDMYLQTIPEIQRTNLSNTLLLLKSLDVTDELSKFPFIDKPPLQTFLSSLYELWFIGAIDT</Hsp_hseq>
+      <Hsp_midline> AL  P  DD       LPV     ++   + ENQV +I GETGSGKTTQL +   E G    RG + ++  TQPRR+AA SVA+R+A E++  +G  VGY +RF D T  + C KL  +TDGILL ET  D  L  Y  +IIDEAHERSLN D LLG+ K LL RR DLK+IITSAT++A++FS  F  AP   + GRT+PV+ +Y     +D  +A V     I  A D       GDIL+F+ G+ +I    + L++  L+              ND EILP+++ L    Q KIF    G K +I++ATN+AETSLT+ GI+YVID G +++K Y+ +  ++ L +  IS+A A QRSGR GR + G   RL++E+ F       T PEI R+NL+  +L + SL++ D ++ FPF++ P  +        L  +GA++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|61217421|sp|Q9HE06.1|YK99_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase C20H4.09; AltName: Full=DEAH-box helicase C20H4.09 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9HE06</Hit_accession>
+  <Hit_len>647</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.618</Hsp_bit-score>
+      <Hsp_score>675</Hsp_score>
+      <Hsp_evalue>3.58074e-79</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAA-GLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPV--LEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDEI-----LPLFARLSHAEQHKIFHPSGAKCR-IVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPITKYRNQLLYAVEQNQITIVLGHTGCGKTTQIPQFLYEAGWASQNGIIGCTQPRRLVAKSVSERVSLELNSPPGSLCGYSIQFDHNVSEKTKIKYMTDGILLNEIFFDPLLERYSIVILDEVHERTLSTDLLLGVLKRILEKRNDFRLVLSSASVDANKLSQFFGQDKVCTMSIEGKLFPVETLFLQKPTENYVDSAIETVININ------STYPPGDILVFLSGRKEIEYCIKKIEDSLIHASEDCQTLVPLPLHAGLTVDEQMRVFNIYDGDFRKVIFSTNIAETSITIDGIVYVVDSGFNKQRIYNPYTRTSKLINVPISKSSAIQRSGRAGRTMRGKVFRLYTEKAYSLMKEEFEADILNCDMSPLVLFLKGLGLKNILQFPFFVRPPTVHLMAALEDLYLLGVLD</Hsp_hseq>
+      <Hsp_midline>LP+ +   ++   V +NQ+TI+ G TG GKTTQ+P+   E G  +  G+IG TQPRRL A+SV+ER++ EL S  GS  GY ++F  + S    +K MTDGILL E   D  L  Y  +I+DE HER+L+ D LLG LK++L +R D +++++SA++DA + S+ F    V  + + G+ +PVE L+     ++  D+ +E    I       + Y  GDILVFL G +EI    + +  S +  +++      LPL A L+  EQ ++F+      R ++ +TN+AETS+T+ GI YV+D+G  + + Y+   +  +L    IS+++A QRSGR GR   G   RL++E+ ++   E  + +I+  +++ ++L +  L L ++  FPF   P + ++    + L  LG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|48474648|sp|Q9HDY4.1|YK16_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Putative ATP-dependent RNA helicase PB1A10.06c [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9HDY4</Hit_accession>
+  <Hit_len>1183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>1.27071e-77</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>863</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>93</Hsp_gaps>
+      <Hsp_align-len>507</Hsp_align-len>
+      <Hsp_qseq>IEEKYRKSHEIFLKRLAALPKPEFDDT---LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAA-----GLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPD----------LKVIITSATIDAERFSRH---FN-GAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELA----RYGEGDILVFLPGEREIREAAEALRKSTLRR--------------------------------------------NDE-----ILPLFARLSHAEQHKIFHPSGAKCRI-VLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>IEIKGRKTTYTIINR-----PPEIQESRLALPIVAEEQRIMEQIFANDVVIICGATGSGKTTQLPQFLFEAGFSSPESENPGMIAITQPRRVAAVSIAKRVSEEL-TGFSSKVSYQIRFDSTINPDTAIKFMTDGILLRELSSDFLLTAYSAVIVDEAHERSVNTDILLGLLSRIVRLRREMSKSDQKVKPLKLIIMSATLRVTDFSENKLLFSVPPPIIKIDARQYPVSIHFNRTTK----------PDYLQDAFDKVCLIHKRLPAGSILVFLTGQQEVEQLCQMLRKRFVRSFRPLKSRARIVVSRKTMSVENEDLQSETEDIDQVPTSSSSSVTYDDESEPMYVLPLYSLLTTEDQMKVFDSSPEGHRMCIVATNVAETSITIPNIRYVVDCGKAKERVYNEKTSVQKFEVRWISKANADQRAGRAGRTGPGHCYRLYSSAVFDSSFPLHSLPEILRTPVESIVLQMKNMNIDNIANFPFPTSPGRSRLEKSLKLLSNLGAID</Hsp_hseq>
+      <Hsp_midline>IE K RK+    + R      PE  ++   LP+  + + I + +  N V IICG TGSGKTTQLP+   E G  +      G+I  TQPRR+AA S+A+R++EEL +   S V Y++RF    + D  +K MTDGILL E  +D  L AY  +I+DEAHERS+N D LLG L +++  R +          LK+II SAT+    FS +   F+   P++++  R YPV I +   T            D + DA D++     R   G ILVFL G++E+ +  + LRK  +R                                             +DE     +LPL++ L+  +Q K+F  S    R+ ++ATNVAETS+T+P I+YV+D G A+ + Y+ +  V++  V  IS+A A QR+GR GR   G C RL+S   F+S  P  + PEI+R+ + +++L+M ++N+ ++A FPF   P    +    ++L  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|290463373|sp|P0CE10.1|Y4102_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Putative uncharacterized protein At4g01020, chloroplastic; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P0CE10</Hit_accession>
+  <Hit_len>1787</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>2.42645e-73</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>285</Hsp_hit-from>
+      <Hsp_hit-to>704</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>YRKSHEIFLKRLAALPKPEFDDTLPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLELGRGAAGLIGHTQPRRLAARSVAERIAEELKSEIG-SAVGYKVRFTDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDA---IVDAADELARY-GEGDILVFLPGEREIREAAEALRKSTLRRNDEILPLFARLSHAEQHKIFHPSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAV</Hsp_qseq>
+      <Hsp_hseq>WRRIHYLILRECRRL-----EDGLPIYAYRRQILKKIHCEQIMVLIGETGSGKSTQLVQFLADSGVAASESIVCTQPRKIAAMTLTDRVREESSGCYEENTVSCTPTFSSTEEISSKVVYMTDNCLLQHYMKDRSLSGISCVIIDEAHERSLNTDLLLALLRKLLSRRIDLRLVIMSATADANQLSQYLFDCGILHVNGRNFPVEIVYSP-SGTEENSVVGRIASYAGDVVKMAVEIHKTEKEGTILAFLTSQAEVEWACERF----VAPSAIALPLHGKLSFEEQFMVFQNYPGRRKVIFATNIAETSLTIPGVKYVIDSGMVKESKYEPRTGMSILKVCQVSQSSARQRAGRAGRTEPGRCYRLYSKTDFDSMNLNQEPEIRRVHLGVALLRMLALGIDNIAAFEFVDAPVPEAIAMAIQNLVQLGAV</Hsp_hseq>
+      <Hsp_midline>+R+ H + L+    L     +D LP++    +I K +   Q+ ++ GETGSGK+TQL +   + G  A+  I  TQPR++AA ++ +R+ EE       + V     F+      + V  MTD  LL     DR L+    +IIDEAHERSLN D LL  L++LL RR DL+++I SAT DA + S++     +L V+GR +PVEI+Y P +G +E+     +      +V  A E+ +   EG IL FL  + E+  A E      +  +   LPL  +LS  EQ  +F     + +++ ATN+AETSLT+PG+KYVID+G+ +  +Y  R  +  L V ++SQ++ARQR+GR GR   G C RL+S+ DF+S     +PEI R +L   +LRM +L + ++AAF F++ P    I    Q L++LGAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|82233708|sp|Q5ZI74.1|DHX30_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Putative ATP-dependent RNA helicase DHX30; AltName: Full=DEAH box protein 30 [Gallus gallus]</Hit_def>
+  <Hit_accession>Q5ZI74</Hit_accession>
+  <Hit_len>1231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>9.19525e-69</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>478</Hsp_hit-from>
+      <Hsp_hit-to>905</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLEL----GRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRF-TDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPV------EIL-------YRPLTGKDEDDAEVELTDAIVDAADELARYGE-GDILVFLPGEREIREAAEALRKSTLRRNDE--ILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPF----LEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPVDPHKDTILSAIEQNPVVVIAGDTGCGKTTRIPQLLLEHYILEGRGARCNVVITQPRRISAISVAQRVAQELGPNMRKNVGYQVRLESKPPARGGALLFCTVGILLRKLQGNPSLEGVSHVVVDEVHERDVNTDFLLILLKGIQKLNPDLRLVLMSATGDNQRFSHYFGGCPVVKVPGFMYPVKEYYLEEILAKLGRHRHRHYEIKQSDDECVLDLDLITDLVLQIDAHGEPGGILCFLPGWQEIKGVQQRLLEMLGSQNSRYLVLPVHSNIPMMDQQNIFQRPPPGVR-KIVLATNIAETSITINDIVHVVDSGTHKEERYDLKTKVSCLETVWVSKSNVVQRRGRAGRCQSGFAYHLFPRSRLDKMPTYQVPEILRTPLENLVVQ-AKIHMPEKTAVEFLSKALDSPDIKAVDEAVILLQEIGVLD</Hsp_hseq>
+      <Hsp_midline>LPV    + I   + +N V +I G+TG GKTT++P++ LE     GRGA   +  TQPRR++A SVA+R+A+EL   +   VGY+VR  +   +R   +   T GILL + Q +  L     +++DE HER +N DFLL  LK +    PDL++++ SAT D +RFS +F G PV++V G  YPV      EIL       +R    K  DD  V   D I D   ++  +GE G IL FLPG +EI+   + L +    +N    +LP+ + +   +Q  IF   P G + +IVLATN+AETS+T+  I +V+D+G  + +RY  + KV  L    +S++   QR GR GR  +G    LF     +  P +  PEI+R+ L  ++++ A +++ +  A  F    L+ PD + +++   +L E+G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|3913424|sp|O17438.1|DHX15_STRPU</Hit_id>
+  <Hit_def>RecName: Full=Putative pre-mRNA-splicing factor ATP-dependent RNA helicase PRP1, partial [Strongylocentrotus purpuratus]</Hit_def>
+  <Hit_accession>O17438</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>9.46785e-69</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>VKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILYRPLTGKDEDDAEVELTDAIVDAADELARYGEGDILVFLPGEREIREAAEALRKSTLRRNDEI-----LPLFARLSHAEQHKIFH---PSGAKC----RIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSR-PEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFLEMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>IKYMTDGMLLREGMTDPLLERYGVILLDEAHERTVATDILMGLLKEVEKQRSDLKLVVMSATLDAGKFQHYFDNAPLMTVPGRTHPVEIFYTPEPERDYLEAAIR-TVVQIHMCEEV----EGDVLLFLTGQEEIEEACKRIKREVDNLGPEVGDLKTIPLYSTLPPAMQQRIFEHAPPNKANGAIGRKVVVSTNIAETSLTIDGVVFVIDPGFAKQKVYNPRIRVESLLVSPISKASAQQRVGRAGRTRPGKCFRLYTEKAYDSEMQDNTYPEILRSNLGTVVLQLKKLGIDDLVHFDFMDPPAPETLMRALELLNYLGALD</Hsp_hseq>
+      <Hsp_midline>+K MTDG+LL E  TD  L  Y  I++DEAHER++  D L+G LK++  +R DLK+++ SAT+DA +F  +F+ AP++ V GRT+PVEI Y P   +D  +A +  T   +   +E+    EGD+L+FL G+ EI EA + +++       E+     +PL++ L  A Q +IF    P+ A      ++V++TN+AETSLT+ G+ +VID G A+ K Y+ R +VE L V  IS+A+A+QR GR GR   G C RL++E+ ++S   + T PEI+RSNL  V+L++  L + D+  F F++ P    +    ++L  LGA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|74758997|sp|Q7L2E3.1|DHX30_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative ATP-dependent RNA helicase DHX30; AltName: Full=DEAH box protein 30 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q7L2E3</Hit_accession>
+  <Hit_len>1194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>6.51378e-66</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>862</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLEL----GRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRF-TDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPV---------------EILYRPLTGKDEDDAEVELTDAIVDAADELARYGE-GDILVFLPGEREIREAAEALRKSTLRRNDE--ILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFL----EMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPVDPHRDTILNAIEQHPVVVISGDTGCGKTTRIPQLLLERYVTEGRGARCNVIITQPRRISAVSVAQRVSHELGPSLRRNVGFQVRLESKPPSRGGALLFCTVGILLRKLQSNPSLEGVSHVIVDEVHERDVNTDFLLILLKGLQRLNPALRLVLMSATGDNERFSRYFGGCPVIKVPGFMYPVKEHYLEDILAKLGKHQYLHRHRHHESEDECALDL-DLVTDLVLHIDARGEPGGILCFLPGWQEIKGVQQRLQEALGMHESKYLILPVHSNIPMMDQKAIFQQPPVGVR-KIVLATNIAETSITINDIVHVVDSGLHKEERYDLKTKVSCLETVWVSRANVIQRRGRAGRCQSGFAYHLFPRSRLEKMVPFQVPEILRTPLENLVLQ-AKIHMPEKTAVEFLSKAVDSPNIKAVDEAVILLQEIGVLD</Hsp_hseq>
+      <Hsp_midline>LPV    + I   + ++ V +I G+TG GKTT++P++ LE     GRGA   +  TQPRR++A SVA+R++ EL   +   VG++VR  +   SR   +   T GILL + Q++  L     +I+DE HER +N DFLL  LK L    P L++++ SAT D ERFSR+F G PV++V G  YPV               + L+R    + ED+  ++L D + D    +   GE G IL FLPG +EI+   + L+++      +  ILP+ + +   +Q  IF   P G + +IVLATN+AETS+T+  I +V+D+GL + +RY  + KV  L    +S+A   QR GR GR  +G    LF          F  PEI+R+ L  ++L+ A +++ +  A  FL    + P+ + +++   +L E+G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|75070502|sp|Q5R607.1|DHX30_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Putative ATP-dependent RNA helicase DHX30; AltName: Full=DEAH box protein 30 [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R607</Hit_accession>
+  <Hit_len>1194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>3.8743e-65</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>862</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLEL----GRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRF-TDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPV---------------EILYRPLTGKDEDDAEVELTDAIVDAADELARYGE-GDILVFLPGEREIREAAEALRKSTLRRNDE--ILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFL----EMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPVDPHRDTILNAIEQHPVVVISGDTGCGKTTRIPQLLLERYVTEGRGARCNVIITQPRRISAVSVAQRVSHELGPSLRRNVGFQVRLESKPPARGGALLFCTVGILLRKLQSNPSLEGVSHVIVDEVHERDVNTDFLLILLKGLQRLNPALRLVLMSATGDNERFSRYFGGCPVIKVPGFMYPVKEHYLEDILAKLGKHQYLHRHRHHESEDECALDL-DLVTDLVLHIDARGEPGGILCFLPGWQEIKGVQQRLQEALGMHESKYLILPVHSNIPMMDQKAIFQQPPVGVR-KIVLATNIAETSTTINDIVHVVDSGLHKEERYDLKTKVSCLETVWVSRANVIQRRGRAGRCQSGFAYHLFPRSRLEKMVPFQVPEILRTPLENLVLQ-AKIHMPEKTAVEFLSKAVDSPNIKAVDEAVILLQEIGVLD</Hsp_hseq>
+      <Hsp_midline>LPV    + I   + ++ V +I G+TG GKTT++P++ LE     GRGA   +  TQPRR++A SVA+R++ EL   +   VG++VR  +   +R   +   T GILL + Q++  L     +I+DE HER +N DFLL  LK L    P L++++ SAT D ERFSR+F G PV++V G  YPV               + L+R    + ED+  ++L D + D    +   GE G IL FLPG +EI+   + L+++      +  ILP+ + +   +Q  IF   P G + +IVLATN+AETS T+  I +V+D+GL + +RY  + KV  L    +S+A   QR GR GR  +G    LF          F  PEI+R+ L  ++L+ A +++ +  A  FL    + P+ + +++   +L E+G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|81909465|sp|Q5BJS0.1|DHX30_RAT</Hit_id>
+  <Hit_def>RecName: Full=Putative ATP-dependent RNA helicase DHX30; AltName: Full=DEAH box protein 30 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q5BJS0</Hit_accession>
+  <Hit_len>1194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>7.91256e-65</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>862</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>LPVHEKLEEIKKTVAENQVTIICGETGSGKTTQLPKICLEL----GRGAAGLIGHTQPRRLAARSVAERIAEELKSEIGSAVGYKVRF-TDHTSRDACVKLMTDGILLAETQTDRYLAAYDTIIIDEAHERSLNIDFLLGYLKQLLPRRPDLKVIITSATIDAERFSRHFNGAPVLEVSGRTYPVEILY---------------RPLTGKDEDDAEVELTDAIVDAADELARYGE-GDILVFLPGEREIREAAEALRKSTLRRNDE--ILPLFARLSHAEQHKIFH--PSGAKCRIVLATNVAETSLTVPGIKYVIDTGLARVKRYSARAKVEQLHVEKISQAAARQRSGRCGRVSAGVCIRLFSEEDFNSRPEFTDPEIVRSNLAAVILRMASLNLGDVAAFPFL----EMPDSRYINDGFQVLLELGAVE</Hsp_qseq>
+      <Hsp_hseq>LPVDPHRDTILSAIEQHPVVVISGDTGCGKTTRIPQLLLERYVTEGRGARCNVIITQPRRISAVSVAQRVSHELGPSLRRNVGFQVRLESKPPARGGALLFCTVGILLRKLQSNPSLEGVSHVIVDEVHERDVNTDFLLILLKGLQRLNPALRLVLMSATGDNERFSRYFGGCPVIKVPGFMYPVKEHYLEDILAKLGKHQYPHRHRHHESEDECALDL-DLVTDLVLHIDARGEPGGILCFLPGWQEIKGVQQRLQEALGMHESKYLILPVHSNIPMMDQKAIFQQPPLGVR-KIVLATNIAETSITVNDIVHVVDSGLHKEERYDLKTKVSCLETVWVSRANVIQRRGRAGRCQSGFAYHLFPRSRLEKMVPFQVPEILRTPLENLVLQ-AKIHMPEKTAVEFLSKAVDSPNIKAVDEAVILLQEIGVLD</Hsp_hseq>
+      <Hsp_midline>LPV    + I   + ++ V +I G+TG GKTT++P++ LE     GRGA   +  TQPRR++A SVA+R++ EL   +   VG++VR  +   +R   +   T GILL + Q++  L     +I+DE HER +N DFLL  LK L    P L++++ SAT D ERFSR+F G PV++V G  YPV+  Y               R    + ED+  ++L D + D    +   GE G IL FLPG +EI+   + L+++      +  ILP+ + +   +Q  IF   P G + +IVLATN+AETS+TV  I +V+D+GL + +RY  + KV  L    +S+A   QR GR GR  +G    LF          F  PEI+R+ L  ++L+ A +++ +  A  FL    + P+ + +++   +L E+G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

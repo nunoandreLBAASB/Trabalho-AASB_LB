@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>43777</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7J8</BlastOutput_query-def>
+  <BlastOutput_query-len>149</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>43777</Iteration_query-ID>
+  <Iteration_query-def>Q5F7J8</Iteration_query-def>
+  <Iteration_query-len>149</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|729529|sp|Q00045.1|FMD1_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein MS11-D1; AltName: Full=L-pilin; Flags: Precursor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q00045</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>2.2271e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAH--FMEKFYLQNGRFKQTSTKWPSLPIKEAEGFCIRLNGIARGALDSKFMLKAV--AIDKDKNPFIIKMNENLVTFICKKSASSCSDGLDYF----KGNDKD</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVS--EAILLAEGQKSAVTEYYLNHGIWPENNPAGVASPASDIKGKYVQSVTVANGVVTAQMKSDGVNKEIKNKKLSLWARREAGSVKWFCGQPVTRDNAGTDAVTADTTGKDKE</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ V+ I+ +LA +  P+Y++Y  +A+++   A LL       + ++YL +G + + +    + P  + +G  ++   +A G + ++     V   I   K     +     V + C +  +  + G D       G DK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1169708|sp|P02974.2|FMM1_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=MS11 antigen; AltName: Full=Pilin; Flags: Precursor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P02974</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>2.25779e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAH--FMEKFYLQNGRFKQTST</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVS--EAILLAEGQKSAVTEYYLNHGKWPENNT</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ V+ I+ +LA +  P+Y++Y  +A+++   A LL       + ++YL +G++ + +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|729530|sp|Q00046.1|FMD3_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein MS11-D3A; AltName: Full=L-pilin; Flags: Precursor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q00046</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>4.05568e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAH--FMEKFYLQNGRFKQTST</Hsp_qseq>
+      <Hsp_hseq>TLQKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVS--EAILLAEGQKSAVTEYYLNHGKWPENNT</Hsp_hseq>
+      <Hsp_midline>T  +GFTL+EL+ V+ I+ +LA +  P+Y++Y  +A+++   A LL       + ++YL +G++ + +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|9973174|sp|P57039.1|FMM1_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; Flags: Precursor [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>P57039</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.1506e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>RGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAH--FMEKFYLQNGRFKQTSTKWPS</Hsp_qseq>
+      <Hsp_hseq>KGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVS--EAILLAEGQKSAVTEYYLNHG-------EWPS</Hsp_hseq>
+      <Hsp_midline>+GFTL+EL+ V+ I+ +LA +  P+Y++Y  +A+++   A LL       + ++YL +G       +WPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|9977925|sp|P05431.2|FMM1_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; Flags: Precursor [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>P05431</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>1.35861e-05</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>TDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAH--FMEKFYLQNGRFKQTST</Hsp_qseq>
+      <Hsp_hseq>TLQKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVS--EAILLAEGQKSAVTEYYLNHGEWPGNNT</Hsp_hseq>
+      <Hsp_midline>T  +GFTL+EL+ V+ I+ +LA +  P+Y++Y  +A+++   A LL       + ++YL +G +   +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|120430|sp|P11764.1|FMM2_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein P9-2; AltName: Full=Pilin; Flags: Precursor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P11764</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>2.81586e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>RGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAH--FMEKFYLQNGRFKQTST</Hsp_qseq>
+      <Hsp_hseq>KGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVS--EAILLAEGQKSAVTEYYLNHGIWPKDNT</Hsp_hseq>
+      <Hsp_midline>+GFTL+EL+ V+ I+ +LA +  P+Y++Y  +A+++   A LL       + ++YL +G + + +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|730363|sp|P36647.2|PPDD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Prepilin peptidase-dependent protein D; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P36647</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>4.45748e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAHFMEKFYLQNG</Hsp_qseq>
+      <Hsp_hseq>MDKQRGFTLIELMVVIGIIAILSAIGIPAYQNYLRKAALTDMLQTFVPYRTAVELCALEHG</Hsp_hseq>
+      <Hsp_midline>M   RGFTL+EL+ V+ I+++L+ I  P+Y+NY+ KA +  +    +     +E   L++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|131595|sp|P15746.1|GSPG_KLEPN</Hit_id>
+  <Hit_def>RecName: Full=Type II secretion system protein G; Short=T2SS protein G; AltName: Full=General secretion pathway protein G; AltName: Full=Pullulanase secretion protein PulG; Flags: Precursor [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P15746</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>7.35466e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAHFMEKFYLQNGRFKQT</Hsp_qseq>
+      <Hsp_hseq>MQRQRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADRQKVVSDLVALEGALDMYKLDNSRYPTT</Hsp_hseq>
+      <Hsp_midline>M   RGFTL+E++ V++IL VLA +V P+     EKA    V + L+     ++ + L N R+  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|544334|sp|P36643.1|FMWC_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; Flags: Precursor [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P36643</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00066336</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLE</Hsp_qseq>
+      <Hsp_hseq>MKGQRGITLIELMIVVAIIGILATIAIPMYTNHQSRTK---AAAGLLE</Hsp_hseq>
+      <Hsp_midline>M   RG TL+EL+ VV I+ +LA I  P Y N+  + K     A LLE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|399804|sp|P31585.1|GSPG_DICCH</Hit_id>
+  <Hit_def>RecName: Full=Type II secretion system protein G; Short=T2SS protein G; AltName: Full=General secretion pathway protein G; AltName: Full=Pectic enzymes secretion protein OutG; Flags: Precursor [Dickeya chrysanthemi]</Hit_def>
+  <Hit_accession>P31585</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000891707</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAHFMEKFYLQNGRFKQTS------TKWPSLPIK----EAEGFCIRLNGIARGA</Hsp_qseq>
+      <Hsp_hseq>QRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADKQKAVSDIVALESQLDMYKLDNSRYPTTEQGLGALVKKPTTPPEPRNYPQDGYIRRLPQDPWGA</Hsp_hseq>
+      <Hsp_midline> RGFTL+E++ V++IL VLA +V P+     EKA      + ++     ++ + L N R+  T        K P+ P +      +G+  RL     GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|139791|sp|Q00514.1|GSPG_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Type II secretion system protein G; Short=T2SS protein G; AltName: Full=General secretion pathway protein G; AltName: Full=PilD-dependent protein PddA; Flags: Precursor [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q00514</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000961416</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>GFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAHFMEKFYLQNGRFKQTSTKWPSLPIKEAEGFCIRLNGIARGALDSKFMLKAVAIDKDKNPF</Hsp_qseq>
+      <Hsp_hseq>GFTLIEIMVVVVILGILAALVVPQVMSRPDQAKVTVAKGDIKAIAAALDMYKLDNFAYPSTQQGLEAL-VKKPTGNPQPKNWNKDG------YLKKLPVDPWGNPY</Hsp_hseq>
+      <Hsp_midline>GFTL+E++ VV+IL +LA +V P   +  ++AK+   +  +   A  ++ + L N  +  T     +L +K+  G     N    G       LK + +D   NP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|399803|sp|P31586.1|GSPG_PECCC</Hit_id>
+  <Hit_def>RecName: Full=Type II secretion system protein G; Short=T2SS protein G; AltName: Full=General secretion pathway protein G; AltName: Full=Pectic enzymes secretion protein OutG; Flags: Precursor [Pectobacterium carotovorum subsp. carotovorum]</Hit_def>
+  <Hit_accession>P31586</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00129605</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>RGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAHFMEKFYLQNGRFKQT</Hsp_qseq>
+      <Hsp_hseq>RGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADRQKAVSDIVSLESALDMYKLDNNRYPST</Hsp_hseq>
+      <Hsp_midline>RGFTL+E++ V++IL VLA +V P+     EKA      + ++     ++ + L N R+  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|120388|sp|P04953.1|FMAH_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=265 antigen; AltName: Full=Pilin; AltName: Full=Serogroup H1; AltName: Full=Two subunits pilin; Contains: RecName: Full=Pilin subunit 1; Contains: RecName: Full=Pilin subunit 2; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P04953</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00256529</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAHFMEKFYLQNGRFKQTSTKWPSLPIKEAEGFCIRLNGIA----RGALDSKFMLKAVAIDKDKNPF</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRVMSETGQMRTAIETCLLDGKEGKDCFIGWTTSNLLAAAGGSTTNNATAADPGQGGLNITYALESTAENKIEATF</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA I  P Y+NY+ +++++ V +   +    +E   L     K     W +  +  A G     N  A    +G L+  + L++ A +K +  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|120385|sp|P17826.1|FMAF_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup F1; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P17826</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00343508</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAHFMEKFYLQNGRFKQTS</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQA-AEGLTLADGLKIRIADHLENGSCMETA</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA    P+Y +Y+ +++  A    L +        +L+NG   +T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|120387|sp|P11933.1|FMAG_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=238 antigen; AltName: Full=Pilin; AltName: Full=Serogroup G1; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P11933</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00348613</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>41</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKIN</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARTQVS</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA    P+Y +Y+ + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|120376|sp|P17823.1|FMA1_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup C1; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P17823</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0038157</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>41</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKIN</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARTQVS</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA    P+Y +Y+ + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|120377|sp|P17824.1|FMA2_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup C2; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P17824</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00397516</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>41</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>RGFTLVELISVVLILSVLALIVYPSYRNYVEKAKIN</Hsp_qseq>
+      <Hsp_hseq>KGFTLIELMIVVAIIGILAAFAIPAYNDYIARTQVS</Hsp_hseq>
+      <Hsp_midline>+GFTL+EL+ VV I+ +LA    P+Y +Y+ + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|120375|sp|P27688.1|FMA0_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup B1/AC20; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P27688</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00458698</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAK</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQ</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA    P+Y +Y+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|120379|sp|P27690.1|FMA6_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup B1/AC6; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P27690</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00472976</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAK</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQ</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA    P+Y +Y+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|120382|sp|P17822.1|FMAB_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup B1/VCS1006; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P17822</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00482737</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAK</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQ</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA    P+Y +Y+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|120380|sp|P27691.1|FMA7_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup B1/AC127; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P27691</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00502863</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAK</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQ</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA    P+Y +Y+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|120378|sp|P27689.1|FMA3_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup B1/AC293; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P27689</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00503172</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAK</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQ</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA    P+Y +Y+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|120384|sp|P17825.1|FMAE_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup E2; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P17825</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00513539</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAK</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQ</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA    P+Y +Y+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|120391|sp|P27906.1|FMAX_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup E1; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P27906</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00580332</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAK</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQ</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA    P+Y +Y+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|120389|sp|P17827.1|FMAI_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Serogroup I; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P17827</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00592271</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>RGFTLVELISVVLILSVLALIVYPSYRNYVEKAK</Hsp_qseq>
+      <Hsp_hseq>KGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQ</Hsp_hseq>
+      <Hsp_midline>+GFTL+EL+ VV I+ +LA    P+Y +Y+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|120381|sp|P02975.1|FMAA_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=198 antigen; AltName: Full=Pilin; AltName: Full=Serogroup A1; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P02975</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.00688937</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>RGFTLVELISVVLILSVLALIVYPSYRNYVEKAK</Hsp_qseq>
+      <Hsp_hseq>KGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQ</Hsp_hseq>
+      <Hsp_midline>+GFTL+EL+ VV I+ +LA    P+Y +Y+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|399802|sp|P31733.1|GSPG_AERHY</Hit_id>
+  <Hit_def>RecName: Full=Type II secretion system protein G; Short=T2SS protein G; AltName: Full=General secretion pathway protein G; Flags: Precursor [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>P31733</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00975377</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAHFMEKFYLQNGRFKQTS</Hsp_qseq>
+      <Hsp_hseq>GFTLLEVMVVIVILGILASLVVPNLMGNKEKADQQKAVSDIVALENALDMYKLDNNRYPTTE</Hsp_hseq>
+      <Hsp_midline>GFTL+E++ V++IL +LA +V P+     EKA      + ++   + ++ + L N R+  T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|120452|sp|P17416.1|FMZD_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Probable minor fimbrial protein; Short=Pilin; AltName: Full=Serogroup D; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P17416</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0141705</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAV</Hsp_qseq>
+      <Hsp_hseq>MKKMHGFTLIELMIVVAIIGVLASIALMQYQNFVVRSQVTRV</Hsp_hseq>
+      <Hsp_midline>M    GFTL+EL+ VV I+ VLA I    Y+N+V ++++  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|120453|sp|P17417.1|FMZH_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Probable minor fimbrial protein; Short=Pilin; AltName: Full=Serogroup H1; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P17417</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0570612</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAV</Hsp_qseq>
+      <Hsp_hseq>MKKMHGFTLIELMIVVAIIGVLASTALMQYQNFVVRSQVTRV</Hsp_hseq>
+      <Hsp_midline>M    GFTL+EL+ VV I+ VLA      Y+N+V ++++  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|31340021|sp|Q8VQ71.1|COMGC_BACLD</Hit_id>
+  <Hit_def>RecName: Full=ComG operon protein 3 homolog; AltName: Full=Late competence protein ComGC; Flags: Precursor [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>Q8VQ71</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.14212</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>46</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>DNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAK-------INAVRAAL</Hsp_qseq>
+      <Hsp_hseq>NEKGFTLIEMLVVMLVISILLLITIPNVTKHNQSIQKKGCEGLINMVQAQI</Hsp_hseq>
+      <Hsp_midline>+ +GFTL+E++ V+L++S+L LI  P+   + +  +       IN V+A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|120390|sp|P19528.1|FMAJ_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=351 antigen; AltName: Full=Pilin; AltName: Full=Serogroup H; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P19528</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.148137</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAV</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRV</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA I  P Y+NY+ +++++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|120383|sp|P13253.2|FMAD_DICNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=340 antigen; AltName: Full=Pilin; AltName: Full=Serogroup D; Flags: Precursor [Dichelobacter nodosus]</Hit_def>
+  <Hit_accession>P13253</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.162002</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAV</Hsp_qseq>
+      <Hsp_hseq>QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRV</Hsp_hseq>
+      <Hsp_midline> +GFTL+EL+ VV I+ +LA I  P Y+NY+ +++++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1170058|sp|P45773.1|GSPG_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Type II secretion system protein G; Short=T2SS protein G; AltName: Full=Cholera toxin secretion protein EpsG; AltName: Full=General secretion pathway protein G; Flags: Precursor [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>P45773</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.303211</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAALLENAHFMEKFYLQNGRFKQTS</Hsp_qseq>
+      <Hsp_hseq>MRKQTGFTLLEVMVVVVILGILASFVVPNLLGNKEKADQQKAVTDIVALENALDMYKLDNSVYPTTD</Hsp_hseq>
+      <Hsp_midline>M    GFTL+E++ VV+IL +LA  V P+     EKA        ++   + ++ + L N  +  T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|120438|sp|P02973.2|FMPA_PSEAI</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Strain PAK; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>P02973</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.36308</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEK-------AKINAVRAALLENAHFMEKFYLQNGRFKQTSTK</Hsp_qseq>
+      <Hsp_hseq>MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALASVNPLKTTVEE--ALSRGWSVKSGTGTEDATK</Hsp_hseq>
+      <Hsp_midline>M   +GFTL+EL+ VV I+ +LA I  P Y+NYV +       A +N ++  + E       + +++G   + +TK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|14194520|sp|Q9K923.1|COMGC_BACHD</Hit_id>
+  <Hit_def>RecName: Full=ComG operon protein 3 homolog; Flags: Precursor [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K923</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.511896</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>33</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>GFTLVELISVVLILSVLALIVYPS</Hsp_qseq>
+      <Hsp_hseq>GFTLVEMMIVLMIISILLLVALPS</Hsp_hseq>
+      <Hsp_midline>GFTLVE++ V++I+S+L L+  PS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|120405|sp|P17837.1|FMCD_PSEAI</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Strain CD; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>P17837</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.530908</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEK-------AKINAVRAALLEN</Hsp_qseq>
+      <Hsp_hseq>MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEES</Hsp_hseq>
+      <Hsp_midline>M   +GFTL+EL+ VV I+ +LA I  P Y+NYV +       A IN ++  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|120440|sp|P04739.1|FMPO_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Strain PAO; Flags: Precursor [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P04739</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.57523</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEK-------AKINAVRAALLEN</Hsp_qseq>
+      <Hsp_hseq>MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEES</Hsp_hseq>
+      <Hsp_midline>M   +GFTL+EL+ VV I+ +LA I  P Y+NYV +       A IN ++  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1172576|sp|P44623.1|PPDD_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Prepilin peptidase-dependent protein D homolog; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44623</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.580844</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>46</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>RGFTLVELISVVLILSVLALIVYPSYRNYVEKAKIN</Hsp_qseq>
+      <Hsp_hseq>KGFTLIELMIVIAIIAILATIAIPSYQNYTKKAAVS</Hsp_hseq>
+      <Hsp_midline>+GFTL+EL+ V+ I+++LA I  PSY+NY +KA ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|120436|sp|P08015.1|FMP3_PSEAI</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Strain PA103; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>P08015</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.620063</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEK-------AKINAVRAALLEN</Hsp_qseq>
+      <Hsp_hseq>MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEES</Hsp_hseq>
+      <Hsp_midline>M   +GFTL+EL+ VV I+ +LA I  P Y+NYV +       A IN ++  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|189030031|sp|B0JNJ4.1|TRPF_MICAN</Hit_id>
+  <Hit_def>RecName: Full=N-(5&apos;-phosphoribosyl)anthranilate isomerase; Short=PRAI [Microcystis aeruginosa NIES-843]</Hit_def>
+  <Hit_accession>B0JNJ4</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.706515</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SVLALIVYPSYRNYVEKAKINAVRAALLENAHFMEKFYLQNGR-FKQTSTKWP----SLPIKEAEGFCIRLNGIARGALDSKFMLKAVAIDKDKN</Hsp_qseq>
+      <Hsp_hseq>TALGFILVPSSPRYVKIEQINAITAAIPDKIDFIGVFADEQPEIIQQIIVKTPLTSVQLHGKESPEYCQRL----RQLLPDREIIKALRI-KDRE</Hsp_hseq>
+      <Hsp_midline>+ L  I+ PS   YV+  +INA+ AA+ +   F+  F  +     +Q   K P     L  KE+  +C RL    R  L  + ++KA+ I KD+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|20141719|sp|P33555.2|PPDA_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Prepilin peptidase-dependent protein A; Flags: Precursor [Clostridium perfringens str. 13]</Hit_def>
+  <Hit_accession>P33555</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.744526</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>GFTLVELISVVLILSVLALIVYP--SYRNYVEKAKINAVRAALLENAHFM</Hsp_qseq>
+      <Hsp_hseq>GFTLIELTVVLAIMAIILMVIAPNFSYVKDSAKAKVDKQNCAAIERSVEM</Hsp_hseq>
+      <Hsp_midline>GFTL+EL  V+ I++++ +++ P  SY     KAK++    A +E +  M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|120418|sp|P20657.1|FMI_MORBO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein 1; AltName: Full=Alpha-pilin; AltName: Full=Fimbrial protein I; AltName: Full=I pilin; Flags: Precursor [Moraxella bovis]</Hit_def>
+  <Hit_accession>P20657</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.07587</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>46</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>46</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKINAVRAAL</Hsp_qseq>
+      <Hsp_hseq>MNAQKGFTLIELMIVIAIIGILAAIALPAYQDYISKSQTTRVSGEL</Hsp_hseq>
+      <Hsp_midline>M   +GFTL+EL+ V+ I+ +LA I  P+Y++Y+ K++   V   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|146345397|sp|Q99715.2|COCA1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Collagen alpha-1(XII) chain; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q99715</Hit_accession>
+  <Hit_len>3063</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.40801</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>2432</Hsp_hit-from>
+      <Hsp_hit-to>2508</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LQNGRFKQTSTKWPSLPIKEAEGFCIRLNGIARGALDSKFMLKAVAIDKDKNPFII-------KMNENLVTFICKKSASSC</Hsp_qseq>
+      <Hsp_hseq>VTDGR-SQDEVKKAALVIQQS-GFSVFVVGVAD--VDYNELANIASKPSERHVFIVDDFESFEKIEDNLITFVCETATSSC</Hsp_hseq>
+      <Hsp_midline>+ +GR  Q   K  +L I+++ GF + + G+A   +D   +    +   +++ FI+       K+ +NL+TF+C+ + SSC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|2506307|sp|P13944.3|COCA1_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Collagen alpha-1(XII) chain; AltName: Full=Fibrochimerin; Flags: Precursor [Gallus gallus]</Hit_def>
+  <Hit_accession>P13944</Hit_accession>
+  <Hit_len>3124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.83069</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>2453</Hsp_hit-from>
+      <Hsp_hit-to>2519</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>EAEGFCIRLNGIARGALDSKFMLKAVAIDKDKNPFII-------KMNENLVTFICKKSASSCSDGLDYFKG</Hsp_qseq>
+      <Hsp_hseq>QHSGFSVFVVGVAD--VDYNELAKIASKPSERHVFIVDDFDAFEKIQDNLVTFVCETATSTCP--LIYLEG</Hsp_hseq>
+      <Hsp_midline>+  GF + + G+A   +D   + K  +   +++ FI+       K+ +NLVTF+C+ + S+C   L Y +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|120365|sp|P18774.1|FM12_PSEAI</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Strain 1244; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>P18774</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.35403</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKI-----------NAVRAALLENAHFMEKFYLQNGRF</Hsp_qseq>
+      <Hsp_hseq>MKAQKGFTLIELMIVVAIIGILAAIAIPQYQDYTARTQVTRAVSEVSALKTAAESAILEGKEIVSSATPKDTQY</Hsp_hseq>
+      <Hsp_midline>M   +GFTL+EL+ VV I+ +LA I  P Y++Y  + ++            A  +A+LE    +     ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|120435|sp|P17836.1|FMK1_PSEAI</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; AltName: Full=Strain K122-4; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>P17836</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.46796</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKI-----------NAVRAALLENAHFMEKFYLQNGRF</Hsp_qseq>
+      <Hsp_hseq>MKAQKGFTLIELMIVVAIIGILAAIAIPQYQDYTARTQVTRAVSEVSALKTAAESAILEGKEIVSSATPKDTQY</Hsp_hseq>
+      <Hsp_midline>M   +GFTL+EL+ VV I+ +LA I  P Y++Y  + ++            A  +A+LE    +     ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|120441|sp|P07640.1|FMQ_MORBO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein Q; AltName: Full=Beta pilin; AltName: Full=Q pilin; Flags: Precursor [Moraxella bovis]</Hit_def>
+  <Hit_accession>P07640</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.93473</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKI-----------NAVRAALLEN</Hsp_qseq>
+      <Hsp_hseq>MNAQKGFTLIELMIVIAIIGILAAIALPAYQDYISKSQTTRVVGELAAGKTAVDAALFEG</Hsp_hseq>
+      <Hsp_midline>M   +GFTL+EL+ V+ I+ +LA I  P+Y++Y+ K++             AV AAL E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|322510091|sp|Q9ZR08.3|Y4230_ARATH</Hit_id>
+  <Hit_def>RecName: Full=G-type lectin S-receptor-like serine/threonine-protein kinase At4g03230; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9ZR08</Hit_accession>
+  <Hit_len>852</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.12724</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>445</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>TLVELISVVLILSVLALIVYPSYRNYV--EKAKINAVRAALLENAHFME-----KFYLQNGRFKQTSTKWPSLPIKEAE</Hsp_qseq>
+      <Hsp_hseq>TPVVLIIVVTFTSAAILVVLSSTASYVFLQRRKVNKELGSIPRGVHLCDSERHIKELIESGRFKQDDSQGIDVPSFELE</Hsp_hseq>
+      <Hsp_midline>T V LI VV   S   L+V  S  +YV  ++ K+N    ++    H  +     K  +++GRFKQ  ++   +P  E E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|417002|sp|P09829.2|FMM_MORNO</Hit_id>
+  <Hit_def>RecName: Full=Fimbrial protein; AltName: Full=Pilin; Flags: Precursor [Moraxella nonliquefaciens]</Hit_def>
+  <Hit_accession>P09829</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.49793</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>40</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>MTDNRGFTLVELISVVLILSVLALIVYPSYRNYVEKAKIN</Hsp_qseq>
+      <Hsp_hseq>MNAQKGFTLIELMIVIAIIGILAAIALPAYQDYIARAQVS</Hsp_hseq>
+      <Hsp_midline>M   +GFTL+EL+ V+ I+ +LA I  P+Y++Y+ +A+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|146325834|sp|Q60847.3|COCA1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Collagen alpha-1(XII) chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q60847</Hit_accession>
+  <Hit_len>3120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.30981</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>2434</Hsp_hit-from>
+      <Hsp_hit-to>2510</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LQNGRFKQTSTKWPSLPIKEAEGFCIRLNGIARGALDSKFMLKAVAIDKDKNPFII-------KMNENLVTFICKKSASSC</Hsp_qseq>
+      <Hsp_hseq>VTDGR-SQDEVKKAAFVIQQS-GFSVFVVGVAD--VDYNELANIASKPSERHVFIVDDFESFEKIEDNLITFVCETATSSC</Hsp_hseq>
+      <Hsp_midline>+ +GR  Q   K  +  I+++ GF + + G+A   +D   +    +   +++ FI+       K+ +NL+TF+C+ + SSC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

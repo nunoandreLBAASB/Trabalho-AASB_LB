@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>29413</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5F7S2</BlastOutput_query-def>
+  <BlastOutput_query-len>424</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>29413</Iteration_query-ID>
+  <Iteration_query-def>Q5F7S2</Iteration_query-def>
+  <Iteration_query-len>424</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1175785|sp|P44184.1|Y1410_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1410 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44184</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>4.31608e-41</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>REIQKSMRDSVHRLLKDKVAQLGLGHFYEITDFEIRGANGTLFVFSGLQSHTVDSIKSFEGIDIVWVEEGHGVSKKSWDVLTPTIRKEGSEIWITLNPDMETDETYRRFIAMPSEDTWLCEINWRDNPWFPEALNRERLKAQRSMNKEDYGNIWEGRPRMVSEGAVYR</Hsp_qseq>
+      <Hsp_hseq>REIQKSISDSVIQMLADQIEMLSLQAFFDVQKTQIIGQNGSRFTFAGLKTN-ITSIKSMTGIDVVWVEEGENVSKESWDILIPTIREDGSQIIVSFNPKNILDDTYQRFVIHPPERCKSVLVNWQDNPYFPKEL-MEDMEQMRERDYELYRHVYEGEPVADSDLAIIK</Hsp_hseq>
+      <Hsp_midline>REIQKS+ DSV ++L D++  L L  F+++   +I G NG+ F F+GL+++ + SIKS  GID+VWVEEG  VSK+SWD+L PTIR++GS+I ++ NP    D+TY+RF+  P E      +NW+DNP+FP+ L  E ++  R  + E Y +++EG P   S+ A+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1176739|sp|P45916.1|YQAT_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YqaT; AltName: Full=ORF50 [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P45916</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.89882e-07</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>RYKVMYGGRGGGKSHGAASALLALGAQRPLRILCAREIQKSMRDSVHRLLKDKVAQLGLGHFYEI--TDFEIRGANGTLFVFSGLQSHTVDSIKSFEGIDIVWVEEGHGVSKKSWDVLTPTIRKEGSEIWITL--NPDMETDETYRRFIA-------------------MPSEDTWLCEINWRDNPWFPEA</Hsp_qseq>
+      <Hsp_hseq>KFQFLVGGYGSSKSYHVALKIVLKLLREKRTALVIREVYDTHRDSTFSLFDELVSDLKLDHIVRCVSSPMQIRFSNGSRIIFKGMDKPA--KLKSINNISLIWIEECSEVKYEGFKELLGRLRHPTLPLHMILSTNPVGEDNWTFKHFFKDDREKRFVLDDKELYEKRIIVSNDTYYHHSTADDNLFLPES</Hsp_hseq>
+      <Hsp_midline>+++ + GG G  KS+  A  ++    +     L  RE+  + RDS   L  + V+ L L H      +  +IR +NG+  +F G+       +KS   I ++W+EE   V  + +  L   +R     + + L  NP  E + T++ F                     + S DT+       DN + PE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1722887|sp|P39786.2|XTMB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=PBSX phage terminase large subunit [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39786</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.06291e-06</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>YKVMYGGRGGGKSHGAASALLALGAQRPLRILCAREIQKSMRDSVHRLLKDKVAQLGLGHFYE--ITDFEIRGANGTLFVFSGLQSHTVDSIKSFEGIDIVWVEEGHGVSKKSWDVLTPTIRKEGSEIWI--TLNPDMETDETYR---------RFIAMPSE----------DTWLCEINWRDNPWFPEALNRE</Hsp_qseq>
+      <Hsp_hseq>YQFLVGGYGSSKSYHTALKIVLKLLKEKRTALVIREVFDTHRDSTFALFQEVIEELGLTKAVASLSSPLQLRFHNGSRIMFKGMDNPA--KLKSVHNISLIWIEECSEVKYEGFKELIGRLRHPELKLHMICTTNPVGTSNWTYRHFFRDERKKRFVLDDSELYEKRTIVKGDTYYHHSTANDNLFLPESYVKQ</Hsp_hseq>
+      <Hsp_midline>Y+ + GG G  KS+  A  ++    +     L  RE+  + RDS   L ++ + +LGL        +  ++R  NG+  +F G+ +     +KS   I ++W+EE   V  + +  L   +R    ++ +  T NP   ++ TYR         RF+   SE          DT+       DN + PE+  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1729903|sp|P54308.1|TERL_BPSPP</Hit_id>
+  <Hit_def>RecName: Full=Large terminase protein; AltName: Full=DNA-packaging protein G2P; AltName: Full=Terminase large subunit [Bacillus phage SPP1]</Hit_def>
+  <Hit_accession>P54308</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00696952</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VMYGGRGGGKSHGAASALLALGAQRPLRILCAREIQKSMRDSVHRLLKDKVAQLGLGHFYEITDFEIRGA---NGTLFVFSGLQSHTVDSIKSFEGIDI----VWVEE</Hsp_qseq>
+      <Hsp_hseq>VLKGGRGSAKSTHIAMWIILLMMMMPITFLVIRRVYNTVEQSVFEQLKEAIDMLEVGHLWKVSKSPLRLTYIPRGNSIIFRG--GDDVQKIKSIKASKFPVAGMWIEE</Hsp_hseq>
+      <Hsp_midline>V+ GGRG  KS   A  ++ L    P+  L  R +  ++  SV   LK+ +  L +GH ++++   +R      G   +F G     V  IKS +        +W+EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|288559136|sp|A4FUC0.1|RM37_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=39S ribosomal protein L37, mitochondrial; Short=L37mt; Short=MRP-L37; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>A4FUC0</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.11468</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GANGTLFVFSGLQSHTVDSIKSFEGI-DIVWVEEGHGVSKKSWDVLTPTIRKEGSEIWITLNPDMETDETYRRFIAM</Hsp_qseq>
+      <Hsp_hseq>GTDGRVFQFLVLQLNTTD-LASEEGIKNLVWVDSDQLLYQHFWCL--PVIKKK--VVVEPVGPTGFQPETFRKFLAL</Hsp_hseq>
+      <Hsp_midline>G +G +F F  LQ +T D + S EGI ++VWV+    + +  W +  P I+K+   +   + P     ET+R+F+A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|342165054|sp|C5FDH0.1|PFF1_ARTOC</Hit_id>
+  <Hit_def>RecName: Full=Vacuolar membrane protease; AltName: Full=FXNA-related family protease 1 [Arthroderma otae CBS 113480]</Hit_def>
+  <Hit_accession>C5FDH0</Hit_accession>
+  <Hit_len>976</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.46518</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>803</Hsp_hit-from>
+      <Hsp_hit-to>877</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VDSIKSFEGIDIVWVEEGHG-VSKKSWDVLTPTIRKEGSEIWITLNPDMETDETYRRFIAMPSEDTWLCEINWRDNP</Hsp_qseq>
+      <Hsp_hseq>VRTIPSTTGKEVSCISRGYGGRAKCSWDGLKPRVVDAPYKEWITYNISQAKDDKHTRF-EISGKNTRACKILF-DSP</Hsp_hseq>
+      <Hsp_midline>V +I S  G ++  +  G+G  +K SWD L P +     + WIT N     D+ + RF  +  ++T  C+I + D+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81879838|sp|Q921S7.1|RM37_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=39S ribosomal protein L37, mitochondrial; Short=L37mt; Short=MRP-L37; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q921S7</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>3.90683</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>GANGTLFVFSGLQSHTVDSIKSFEGI-DIVWVEEGHGVSKKSWDVLTPTIRKEGSEIWITLNPDMETD---ETYRRFIAM</Hsp_qseq>
+      <Hsp_hseq>GTDGRVFQFLVLQLNTTD-LASSEGVKNLVWTDSDQLLYRHFW--CRPVIKKK-----VVVEPVGPVDFQPETFRKFLAL</Hsp_hseq>
+      <Hsp_midline>G +G +F F  LQ +T D + S EG+ ++VW +    + +  W    P I+K+     + + P    D   ET+R+F+A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75334110|sp|Q9FN94.1|RLK7_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Receptor-like protein kinase At5g59670; AltName: Full=Leucine-rich repeat receptor-like protein kinase At5g59670; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FN94</Hit_accession>
+  <Hit_len>868</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>4.20822</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GHFYEITDFEIRGANGTLFVFSGLQSHTVDSIKSFEGIDIVWVEEGHGVSKKSWDVLTPTIRKEGSEIWITLN----------PDMETDETYRRFIAMPSEDTWLCEINWRDNPWFPEAL</Hsp_qseq>
+      <Hsp_hseq>AHYAEIQDLQANDTREFNILLNG-QNLSVTGPEVPDKLSIKTFQSSSPISCNGWACNFQLIRTKRSTLPPLLNALEVYTVIQFPRSETDESDVVAMKNISASYGLSRINWQGDPCFPQQL</Hsp_hseq>
+      <Hsp_midline> H+ EI D +         + +G Q+ +V   +  + + I   +    +S   W      IR + S +   LN          P  ETDE+    +   S    L  INW+ +P FP+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|18202598|sp|Q63563.1|ABCC9_RAT</Hit_id>
+  <Hit_def>RecName: Full=ATP-binding cassette sub-family C member 9; AltName: Full=Sulfonylurea receptor 2 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q63563</Hit_accession>
+  <Hit_len>1545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>6.13768</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>779</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>EITDFEIRGANGTLFVFSGLQSHTVDSIKSFEG-IDIVWVEEGHGVSKKSWDVLTPTIRKEGSEIWITLN---PDMETDETYRRF-IAMPSEDTWLCEINWRDNPWFPEALNRERLKA</Hsp_qseq>
+      <Hsp_hseq>ETEDVAIKVTNGYFSWGSGLATLSNIDIRIPTGQLTMIVGQVGCGKSSLLLAILGEMQTLEGKVYWNNVNESEPSFEATRSRSRYSVAYAAQKPWLLNATVEENITFGSSFNRQRYKA</Hsp_hseq>
+      <Hsp_midline>E  D  I+  NG     SGL + +   I+   G + ++  + G G S     +L      EG   W  +N   P  E   +  R+ +A  ++  WL      +N  F  + NR+R KA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|83288233|sp|Q9SYJ2.1|GPAT3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable glycerol-3-phosphate acyltransferase 3; Short=AtGPAT3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SYJ2</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>7.29539</Hsp_evalue>
+      <Hsp_query-from>325</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LGRKSVFVQNATGIE-EGIRAARMLFPKVYFDKDKTARLLECLKRYGRQI</Hsp_qseq>
+      <Hsp_hseq>MGVKVMVMVSFFGIKKEGFRAGRAVLPK-YFLEDVGLEMFEVLKRGGKKI</Hsp_hseq>
+      <Hsp_midline>+G K + + +  GI+ EG RA R + PK YF +D    + E LKR G++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|18202338|sp|P70170.2|ABCC9_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=ATP-binding cassette sub-family C member 9; AltName: Full=Sulfonylurea receptor 2 [Mus musculus]</Hit_def>
+  <Hit_accession>P70170</Hit_accession>
+  <Hit_len>1546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>8.07504</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>663</Hsp_hit-from>
+      <Hsp_hit-to>780</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>EITDFEIRGANGTLFVFSGLQSHTVDSIKSFEG-IDIVWVEEGHGVSKKSWDVLTPTIRKEGSEIWITLN---PDMETDETYRRF-IAMPSEDTWLCEINWRDNPWFPEALNRERLKA</Hsp_qseq>
+      <Hsp_hseq>ETEDIAIKVTNGYFSWGSGLATLSNIDIRIPTGQLTMIVGQVGCGKSSLLLAILGEMQTLEGKVYWNNVNESEPSFEATRSRSRYSVAYAAQKPWLLNATVEENITFGSPFNRQRYKA</Hsp_hseq>
+      <Hsp_midline>E  D  I+  NG     SGL + +   I+   G + ++  + G G S     +L      EG   W  +N   P  E   +  R+ +A  ++  WL      +N  F    NR+R KA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|88984085|sp|Q9H6K1.2|CF106_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein C6orf106 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9H6K1</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>9.06833</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>HRLLKDKVAQLGLGHFYEITDFEIRGANGTLFVFSGLQSHTVDSIKSFEGIDIVWVEEGHGVSKKSWDVLTPTIRKEGSEIW</Hsp_qseq>
+      <Hsp_hseq>QRLLGFQLNPAGCAFFLDMTNWNLQAAIGAYYDF---ESPNI-SVPSMSFVEDVTIGEGESIPPDTQFVKTWRIQNSGAEAW</Hsp_hseq>
+      <Hsp_midline> RLL  ++   G   F ++T++ ++ A G  + F   +S  + S+ S   ++ V + EG  +   +  V T  I+  G+E W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
