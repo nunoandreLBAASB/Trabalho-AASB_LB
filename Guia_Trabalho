@@ -1,0 +1,17 @@
+Grupo 5 - André Santiago, Nuno Osório
+
+- Conteudo das Pastas
+  
+  data - contém todos os ficheiro que foram importados do NCBI, UniProt, a tabela de comparação (fornecida no enunciado)
+        assim como alguns ficheiros sobre virulencia.
+  
+  results - contém todos os resultados obtidos com os scripts que foram elaborados. Contém também uma tabela que junta
+          toda a informação que foi recolhida para cada gene (NGO0971 até NGO1212).
+          
+  scripts - contém todos os scrips Python elaborados para automatizar o mais possível as tarefas propostas.
+            Contém os ficheiros "get_ncbi_records.py" e "get_uniprot_records.py" para obter as proteinas
+            correspondestes aos genes em estudo, o "validate_ncbi_records.py" para verificar a informação contra a tabela
+            dada, o "get_reference_ids.py" para obter literatura associada a cada proteina, os "get_cellular_location.py",
+            "get_annotation_score.py" para permitir uma correcta anotação das caracteristicas da proteina e sua revisão na
+            UniProit, o "get_blast_results.py" para obter os resultados dos blasts efectuados, o "get_table.py" para
+            construir a tabela, o "get_report.py" para fazer o relatório mais detalhado de cada gene.
